@@ -1,0 +1,32 @@
+Price cruncher for EVEonline market data for Aideron Robotics
+
+Goals:
+1) Read in RAW MATERIAL price data from an external database (eve-central, evemarketeer, etc) [COMPLETE]
+2) Read in price data from EVE API journals.  
+  a) For "real" RAW MATERIALS costs
+  b) For "real" FINAL PRODUCTS costs
+3) Crunch RAW MATERIAL costs into price-to-build data [IN PROGRESS]
+  a) Read in RAW MATERIAL cost sheet [COMPLETE]
+  b) Crunch SUB COMPONENT prices into local hash [COMPLETE]
+  c) Process material requirements and output price data
+4) Download price data for FINAL PRODUCTS from an external database (eve-central, evemarketeer, etc)
+5) Create a wrapper that can be run periodically to generate reports for graphing
+
+DATA:
+1) price.xml: Output from priceparse.pl and JournalCrunch.pl.  Contains several pricepoints to calculate with
+2) component.xml: Contains sub-component build requirements.  Used by costcrunch.pl to price FINAL PRODUCTS
+3) manufacture.xml: Contains FINAL PRODUCT build requirements.  Used by costcrunch.pl to build initial price list
+4) report.xml (not started): Output from costcrunch.pl.  Contains actual build costs as per line args
+5) t1.xml: Contains build materials for T1.  
+
+PROGRAMS:
+1) priceparse.pl: Queries external database for price information and builds a raw-materials cost sheet
+  -INPUT: selected database (eve-central, evemarketeer)
+  -OUTPUT: price.xml
+2) costcrunch.pl: uses local DB's for material requirements and outputs the pure cost for building materials
+  -INPUT: price.xml, t1.xml, component.xml, manufacture.xml
+  -OUTPUT: report.xml
+3) JournalCrunch.pl: processes EVE-O API data to generate "real" prices for goods.  Adds <real></real> tags to items
+  -INPUT: report.xml, price.xml
+  -OUTPUT: report.xml, price.xml
+  [NOT STARTED YET]
