@@ -11,6 +11,7 @@ Goals:
   c) Process material requirements and output price data
 4) Download price data for FINAL PRODUCTS from an external database (eve-central, evemarketeer, etc)
 5) Create a wrapper that can be run periodically to generate reports for graphing
+6) Crunch other data into central XML's for easy utilization elsewhere (googledoc, website, etc)
 
 DATA:
 1) price.xml: Output from priceparse.pl and JournalCrunch.pl.  Contains several pricepoints to calculate with
