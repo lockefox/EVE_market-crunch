@@ -1,0 +1,62 @@
+<root>
+				<i37 name="Isogen"></i37>
+				<i40 name="Megacyte"></i40>
+				<i36 name="Mexallon"></i36>
+				<i38 name="Nocxium"></i38>
+				<i35 name="Pyerite"></i35>
+				<i34 name="Tritanium"></i34>
+				<i39 name="Zydrine"></i39>
+	<modules>
+		<wepup>
+			<i12274 name="Ballistic Control Unit I" id="BCU">
+				<i37 name="Isogen">4</i37>
+				<i40 name="Megacyte">2</i40>
+				<i36 name="Mexallon">572</i36>
+				<i38 name="Nocxium">0</i38>
+				<i35 name="Pyerite">0</i35>
+				<i34 name="Tritanium">1216</i34>
+				<i39 name="Zydrine">6</i39>
+			</i12274>
+			<i9944 name="Magnetic Field Stabilizer I" id="MAGS">
+				<i37 name="Isogen">0</i37>
+				<i40 name="Megacyte">0</i40>
+				<i36 name="Mexallon">0</i36>
+				<i38 name="Nocxium">0</i38>
+				<i35 name="Pyerite">1313</i35>
+				<i34 name="Tritanium">7248</i34>
+				<i39 name="Zydrine">0</i39>
+			</i9944>
+			<i2363 name="Heat Sink I" id="HEAT">
+				<i37 name="Isogen">2</i37>
+				<i40 name="Megacyte">1</i40>
+				<i36 name="Mexallon">286</i36>
+				<i38 name="Nocxium">0</i38>
+				<i35 name="Pyerite">0</i35>
+				<i34 name="Tritanium">608</i34>
+				<i39 name="Zydrine">3</i39>
+			</i2363>
+			<i520 name="Gyrostabilizer I" id="GYRO">
+				<i37 name="Isogen">3</i37>
+				<i40 name="Megacyte">0</i40>
+				<i36 name="Mexallon">466</i36>
+				<i38 name="Nocxium">0</i38>
+				<i35 name="Pyerite">442</i35>
+				<i34 name="Tritanium">696</i34>
+				<i39 name="Zydrine">2</i39>
+			</i520>
+			<i1998 name="Tracking Enhancer I" id="TRAK">
+				<i37 name="Isogen">1</i37>
+				<i40 name="Megacyte">0</i40>
+				<i36 name="Mexallon">332</i36>
+				<i38 name="Nocxium">4</i38>
+				<i35 name="Pyerite">79</i35>
+				<i34 name="Tritanium">484</i34>
+				<i39 name="Zydrine">0</i39>
+			</i1998>
+		</wepup>
+		<eng>
+		</eng>
+	</modules>
+	<ships>
+	</ships>
+</root>

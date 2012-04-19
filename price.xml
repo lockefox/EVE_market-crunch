@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<root>
+	<source site="http://www.evemarketeer.com/api/info/"></source>
+	<fresh time="15/4 19:26"></fresh>
+	<mineral>
+		<i35 name="Pyerite">
+			<buy_max>6.96</buy_max>
+			<buy_avg>6.1558896866479</buy_avg>
+			<buy_med>6.8575979066557</buy_med>
+			<sell_min>6.6</sell_min>
+			<sell_avg>7.4325468978235</sell_avg>
+			<sell_med>7.1605432503692</sell_med>
+		</i35>
+		<i39 name="Zydrine">
+			<buy_max>1900</buy_max>
+			<buy_avg>1205.3187645506</buy_avg>
+			<buy_med>1785.5661944511</buy_med>
+			<sell_min>1564.3</sell_min>
+			<sell_avg>2377.0574345389</sell_avg>
+			<sell_med>1905.4854730956</sell_med>
+		</i39>
+		<i36 name="Mexallon">
+			<buy_max>54.49</buy_max>
+			<buy_avg>51.666211541888</buy_avg>
+			<buy_med>54.485064621249</buy_med>
+			<sell_min>50</sell_min>
+			<sell_avg>57.777029219906</sell_avg>
+			<sell_med>55.629925100642</sell_med>
+		</i36>
+		<i40 name="Megacyte">
+			<buy_max>3311</buy_max>
+			<buy_avg>2968.7356259776</buy_avg>
+			<buy_med>3309.5027421397</buy_med>
+			<sell_min>3376</sell_min>
+			<sell_avg>4237.3572426508</sell_avg>
+			<sell_med>3377.8997565741</sell_med>
+		</i40>
+		<i38 name="Nocxium">
+			<buy_max>895.37</buy_max>
+			<buy_avg>726.39571530482</buy_avg>
+			<buy_med>894.13149530212</buy_med>
+			<sell_min>890.5</sell_min>
+			<sell_avg>1111.3372950727</sell_avg>
+			<sell_med>913.46609942151</sell_med>
+		</i38>
+		<i11399 name="Morphite">
+			<buy_max>11112.06</buy_max>
+			<buy_avg>2664.4811224322</buy_avg>
+			<buy_med>11048.134277997</buy_med>
+			<sell_min>12486.32</sell_min>
+			<sell_avg>15255.406617136</sell_avg>
+			<sell_med>12486.51870758</sell_med>
+		</i11399>
+		<i34 name="Tritanium">
+			<buy_max>6.22</buy_max>
+			<buy_avg>5.2037795496137</buy_avg>
+			<buy_med>6.1591230334639</buy_med>
+			<sell_min>5.85</sell_min>
+			<sell_avg>6.8526358672386</sell_avg>
+			<sell_med>6.2183452817076</sell_med>
+		</i34>
+		<i37 name="Isogen">
+			<buy_max>93.06</buy_max>
+			<buy_avg>78.5354161048</buy_avg>
+			<buy_med>92.849432723161</buy_med>
+			<sell_min>93.99</sell_min>
+			<sell_avg>108.6227000757</sell_avg>
+			<sell_med>94.584890518078</sell_med>
+		</i37>
+	</mineral>
+	<component>
+		<i16670 name="Crystalline Carbonite">
+			<buy_max>112.48</buy_max>
+			<buy_avg>83.544080501962</buy_avg>
+			<buy_med>110.21210426499</buy_med>
+			<sell_min>118.09</sell_min>
+			<sell_avg>133.01118284647</sell_avg>
+			<sell_med>119.00180613793</sell_med>
+		</i16670>
+		<i16680 name="Phenolic Composits">
+			<buy_max>700.17</buy_max>
+			<buy_avg>591.8659336966</buy_avg>
+			<buy_med>700.15072438777</buy_med>
+			<sell_min>722.95</sell_min>
+			<sell_avg>793.42165317099</sell_avg>
+			<sell_med>722.95</sell_med>
+		</i16680>
+		<i16679 name="Fullerides">
+			<buy_max>2910.07</buy_max>
+			<buy_avg>2688.7161595455</buy_avg>
+			<buy_med>2898.7686788252</buy_med>
+			<sell_min>2997.68</sell_min>
+			<sell_avg>3277.5182180289</sell_avg>
+			<sell_med>2997.7260192036</sell_med>
+		</i16679>
+		<i16681 name="Nanotransisotrs">
+			<buy_max>8101.4</buy_max>
+			<buy_avg>6849.635340128</buy_avg>
+			<buy_med>8101.1565206913</buy_med>
+			<sell_min>8318.4</sell_min>
+			<sell_avg>8418.0329183842</sell_avg>
+			<sell_med>8318.5235885638</sell_med>
+		</i16681>
+		<i16671 name="Titanium Carbonite">
+			<buy_max>111.02</buy_max>
+			<buy_avg>106.35014181166</buy_avg>
+			<buy_med>111.00459391628</buy_med>
+			<sell_min>111.91</sell_min>
+			<sell_avg>118.3206499714</sell_avg>
+			<sell_med>111.91914286992</sell_med>
+		</i16671>
+		<i16683 name="Ferrogel">
+			<buy_max>8300.48</buy_max>
+			<buy_avg>7833.4377394376</buy_avg>
+			<buy_med>8300.4605731521</buy_med>
+			<sell_min>8897.77</sell_min>
+			<sell_avg>9533.5581750869</sell_avg>
+			<sell_med>8897.7978196653</sell_med>
+		</i16683>
+		<i16682 name="Hypersynaptic Fibers">
+			<buy_max>3800.06</buy_max>
+			<buy_avg>3402.6499033948</buy_avg>
+			<buy_med>3800.002607857</buy_med>
+			<sell_min>4023.7</sell_min>
+			<sell_avg>4093.9917885538</sell_avg>
+			<sell_med>4023.7235827053</sell_med>
+		</i16682>
+		<i16672 name="Tungsten Carbonite">
+			<buy_max>106.25</buy_max>
+			<buy_avg>100.51593818278</buy_avg>
+			<buy_med>106.25</buy_med>
+			<sell_min>112.21</sell_min>
+			<sell_avg>117.44157687645</sell_avg>
+			<sell_med>112.2224958868</sell_med>
+		</i16672>
+		<i16678 name="Sylramic Fibers">
+			<buy_max>202.3899</buy_max>
+			<buy_avg>193.10604979322</buy_avg>
+			<buy_med>202.34185896579</buy_med>
+			<sell_min>214.91</sell_min>
+			<sell_avg>222.2576070918</sell_avg>
+			<sell_med>214.97114797101</sell_med>
+		</i16678>
+		<i17317 name="Fermionic Condensates">
+			<buy_max>19801.05</buy_max>
+			<buy_avg>17056.00288545</buy_avg>
+			<buy_med>19800.302209889</buy_med>
+			<sell_min>20794</sell_min>
+			<sell_avg>23543.061691632</sell_avg>
+			<sell_med>20796.556062274</sell_med>
+		</i17317>
+		<i16673 name="Fernite Carbide">
+			<buy_max>135</buy_max>
+			<buy_avg>96.178197651483</buy_avg>
+			<buy_med>123.75492392041</buy_med>
+			<sell_min>133.79</sell_min>
+			<sell_avg>148.29742276528</sell_avg>
+			<sell_med>133.79596029569</sell_med>
+		</i16673>
+	</component>
+	<datacore>
+		<i20172 name="Datacore - Minmatar Starship Engineering">
+			<buy_max>214007.01</buy_max>
+			<buy_avg>201434.77342342</buy_avg>
+			<buy_med>214007.01</buy_med>
+			<sell_min>217900</sell_min>
+			<sell_avg>229428.09743267</sell_avg>
+			<sell_med>217900</sell_med>
+		</i20172>
+		<i20411 name="Datacore - High Energy Physics">
+			<buy_max>266265.68</buy_max>
+			<buy_avg>229292.799645</buy_avg>
+			<buy_med>266265.67816993</buy_med>
+			<sell_min>299999.99</sell_min>
+			<sell_avg>309471.38619623</sell_avg>
+			<sell_med>299999.99</sell_med>
+		</i20411>
+		<i20413 name="Datacore - Laser Physics">
+			<buy_max>198006.01</buy_max>
+			<buy_avg>190531.00647736</buy_avg>
+			<buy_med>198006.01</buy_med>
+			<sell_min>223000</sell_min>
+			<sell_avg>253938.39850123</sell_avg>
+			<sell_med>223878.17359366</sell_med>
+		</i20413>
+		<i20416 name="Datacore - Nanite Engineering">
+			<buy_max>275225.43</buy_max>
+			<buy_avg>237622.12639901</buy_avg>
+			<buy_med>275135.29241276</buy_med>
+			<sell_min>299949.79</sell_min>
+			<sell_avg>405217.26798652</sell_avg>
+			<sell_med>299949.79182183</sell_med>
+		</i20416>
+		<i20417 name="Datacore - Electromagnetic Physics">
+			<buy_max>181000</buy_max>
+			<buy_avg>150730.54557956</buy_avg>
+			<buy_med>181000</buy_med>
+			<sell_min>180000</sell_min>
+			<sell_avg>243422.64571926</sell_avg>
+			<sell_med>189996.59217944</sell_med>
+		</i20417>
+		<i20424 name="Datacore - Mechanical Engineering">
+			<buy_max>229000</buy_max>
+			<buy_avg>204207.14233462</buy_avg>
+			<buy_med>228044.13284938</buy_med>
+			<sell_min>235749.98</sell_min>
+			<sell_avg>254911.58798931</sell_avg>
+			<sell_med>239930.58994835</sell_med>
+		</i20424>
+		<i20410 name="Datacore - Gallentean Starship Engineering">
+			<buy_max>192000</buy_max>
+			<buy_avg>130655.07502872</buy_avg>
+			<buy_med>172714.50116484</buy_med>
+			<sell_min>275000</sell_min>
+			<sell_avg>332691.84058169</sell_avg>
+			<sell_med>328057.91970647</sell_med>
+		</i20410>
+		<i20419 name="Datacore - Graviton Physics">
+			<buy_max>130000.21</buy_max>
+			<buy_avg>124159.64761884</buy_avg>
+			<buy_med>130000.21</buy_med>
+			<sell_min>139133.04</sell_min>
+			<sell_avg>152101.43795041</sell_avg>
+			<sell_med>148699.36102388</sell_med>
+		</i20419>
+		<i20421 name="Datacore - Amarrian Starship Engineering">
+			<buy_max>112000.03</buy_max>
+			<buy_avg>66870.645205887</buy_avg>
+			<buy_med>110471.17689366</buy_med>
+			<sell_min>128999.9</sell_min>
+			<sell_avg>136162.26242979</sell_avg>
+			<sell_med>128999.95128187</sell_med>
+		</i20421>
+		<i20171 name="Datacore - Hydromagnetic Physics">
+			<buy_max>316847.7199</buy_max>
+			<buy_avg>266772.3613979</buy_avg>
+			<buy_med>316846.7846819</buy_med>
+			<sell_min>325989.9699</sell_min>
+			<sell_avg>355924.70844688</sell_avg>
+			<sell_med>328261.89194743</sell_med>
+		</i20171>
+		<i20420 name="Datacore - Rocket Science">
+			<buy_max>163498.6099</buy_max>
+			<buy_avg>137097.91707957</buy_avg>
+			<buy_med>158397.36032683</buy_med>
+			<sell_min>173999.89</sell_min>
+			<sell_avg>197148.76056312</sell_avg>
+			<sell_med>173999.89</sell_med>
+		</i20420>
+		<i20423 name="Datacore - Nuclear Physics">
+			<buy_max>179010.6</buy_max>
+			<buy_avg>166157.90988637</buy_avg>
+			<buy_med>179010.41858246</buy_med>
+			<sell_min>198999.97</sell_min>
+			<sell_avg>227111.85922935</sell_avg>
+			<sell_med>207742.44155952</sell_med>
+		</i20423>
+		<i20412 name="Datacore - Plasma Physics">
+			<buy_max>296502.12</buy_max>
+			<buy_avg>261950.80195007</buy_avg>
+			<buy_med>296502.09297609</buy_med>
+			<sell_min>304970</sell_min>
+			<sell_avg>345514.19054663</sell_avg>
+			<sell_med>306682.3655966</sell_med>
+		</i20412>
+		<i20415 name="Datacore - Molecular Engineering">
+			<buy_max>206174.44</buy_max>
+			<buy_avg>175783.83557765</buy_avg>
+			<buy_med>202585.5978124</buy_med>
+			<sell_min>209990</sell_min>
+			<sell_avg>243320.63701515</sell_avg>
+			<sell_med>214765.62727887</sell_med>
+		</i20415>
+		<i25887 name="Datacore - Caldari Starship Engineering">
+			<buy_max>91001.03</buy_max>
+			<buy_avg>72455.260801028</buy_avg>
+			<buy_med>91000.731388729</buy_med>
+			<sell_min>101000.03</sell_min>
+			<sell_avg>178983.35822257</sell_avg>
+			<sell_med>109618.85362777</sell_med>
+		</i25887>
+		<i20418 name="Datacore - Electronic Engineering">
+			<buy_max>170407.1</buy_max>
+			<buy_avg>160413.63671378</buy_avg>
+			<buy_med>170407.1</buy_med>
+			<sell_min>160000</sell_min>
+			<sell_avg>195858.15010582</sell_avg>
+			<sell_med>179971.45826271</sell_med>
+		</i20418>
+		<i20414 name="Datacore - Quantum Physics">
+			<buy_max>170822.07</buy_max>
+			<buy_avg>159606.15280109</buy_avg>
+			<buy_med>170822.06545655</buy_med>
+			<sell_min>184989</sell_min>
+			<sell_avg>224538.97277117</sell_avg>
+			<sell_med>187469.75961328</sell_med>
+		</i20414>
+	</datacore>
+</root>

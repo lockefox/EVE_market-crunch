@@ -1,0 +1,868 @@
+<root>
+	<component>
+		<armor>
+			<i11545 name="Crystalline Carbonite Armor Plate">
+				<i16670 name="Crystalline Carbonite">40</i16670>
+				<i16678 name="Sylramic Fibers">10</i16678>
+				<me>8</me>
+				<bld_time></bld_time>
+			</i11545>
+			<i11542 name="Fernite Carbide Composite Armor Plate">
+				<i16673 name="Fernite Carbide">40</i16673>
+				<i16678 name="Sylramic Fibers">10</i16678>
+				<me>8</me>
+				<bld_time></bld_time>
+			</i11542>
+			<i29107 name="Titanium Diborite Armor Plate">
+				<i16671 name="Titanium Carbonite">40</i16671>
+				<i16678 name="Sylramic Fibers">10</i16678>
+				<me>8</me>
+				<bld_time></bld_time>
+			</i29107>
+			<i11543 name="Tungsten Carbide Armor Plate">
+				<i16672 name="Tungsten Carbonite">40</i16672>
+				<i16678 name="Sylramic Fibers">10</i16678>
+				<me>8</me>
+				<bld_time></bld_time>
+			</i11543>
+		</armor>
+<!--CAPACITOR COMPONENTS-->
+		<capacitor>
+			<i11553 name="Oscillator Capacitor Unit">
+				<i16670 name="Crystalline Carbonite">24</i16670>
+				<i16681 name="Nanotransistors">1</i16681>
+				<i16679 name="Fulleridesl">15</i16679>
+				<me>4</me>
+				<bld_time></bld_time>
+			</i11553>
+			<i11551 name="Electrolytic Capacitor Unit">
+				<i16673 name="Fernite Carbide">24</i16673>
+				<i16681 name="Nanotransistors">1</i16681>
+				<i16679 name="Fulleridesl">15</i16679>
+				<me>4</me>
+				<bld_time></bld_time>
+			</i11551>
+			<i11552 name="Scalar Capacitor Unit">
+				<i16671 name="Titanium Carbonite">24</i16671>
+				<i16681 name="Nanotransistors">1</i16681>
+				<i16679 name="Fulleridesl">15</i16679>
+				<me>4</me>
+				<bld_time></bld_time>
+			</i11552>
+			<i11554 name="Tesseract Capacitor Unit">
+				<i16672 name="Tungsten Carbonite">24</i16672>
+				<i16681 name="Nanotransistors">1</i16681>
+				<i16679 name="Fulleridesl">15</i16679>
+				<me>4</me>
+				<bld_time></bld_time>
+			</i11554>
+		</capacitor>
+<!--MICROPROCESSOR COMPONENTS-->
+		<microprocessor>
+			<i11541 name="Photon Microprocessor">
+				<i16670 name="Crystalline Carbonite">12</i16670>
+				<i16681 name="Nanotransistors">5</i16681>
+				<i16680 name="Phenolic Composits">1</i16680>
+				<me>2</me>
+				<bld_time></bld_time>
+			</i11541>
+			<i11538 name="Nanomechanical Microprocessor">
+				<i16673 name="Fernite Carbide">12</i16673>
+				<i16681 name="Nanotransistors">5</i16681>
+				<i16680 name="Phenolic Composits">1</i16680>
+				<me>2</me>
+				<bld_time></bld_time>
+			</i11538>
+			<i11540 name="Quantum Microprocessor">
+				<i16671 name="Titanium Carbonite">12</i16671>
+				<i16681 name="Nanotransistors">5</i16681>
+				<i16680 name="Phenolic Composits">1</i16680>
+				<me>2</me>
+				<bld_time></bld_time>
+			</i11540>
+			<i11539 name="Nanoelectrical Microprocessor">
+				<i16672 name="Tungsten Carbonite">12</i16672>
+				<i16681 name="Nanotransistors">5</i16681>
+				<i16680 name="Phenolic Composits">1</i16680>
+				<me>2</me>
+				<bld_time></bld_time>
+			</i11539>
+		</microprocessor>
+<!--PULSE COMPONENTS-->
+		<pulse>
+			<i11695 name="Plasma Pulse Generator">
+				<i16670 name="Crystalline Carbonite">20</i16670>
+				<i16681 name="Nanotransistors">2</i16681>
+				<i16680 name="Phenolic Composits">6</i16680>
+				<me>4</me>
+				<bld_time></bld_time>
+			</i11695>
+			<i11692 name="Nuclear Pulse Generator">
+				<i16673 name="Fernite Carbide">20</i16673>
+				<i16681 name="Nanotransistors">2</i16681>
+				<i16680 name="Phenolic Composits">6</i16680>
+				<me>4</me>
+				<bld_time></bld_time>
+			</i11692>
+			<i11693 name="Graviton Pulse Generator">
+				<i16671 name="Titanium Carbonite">20</i16671>
+				<i16681 name="Nanotransistors">2</i16681>
+				<i16680 name="Phenolic Composits">6</i16680>
+				<me>4</me>
+				<bld_time></bld_time>
+			</i11693>
+			<i11694 name="Emp Pulse Generator">
+				<i16672 name="Tungsten Carbonite">20</i16672>
+				<i16681 name="Nanotransistors">2</i16681>
+				<i16680 name="Phenolic Composits">6</i16680>
+				<me>4</me>
+				<bld_time></bld_time>
+			</i11694>
+		</pulse>
+<!--REACTOR COMPONENTS-->
+		<reactor>
+			<i11547 name="Fusion Reactor Unit">
+				<i16670 name="Crystalline Carbonite">8</i16670>
+				<i17317 name="Fermionic Condensates">1</i17317>
+				<i16683 name="Ferrogel">1</i16683>
+				<me>1</me>
+				<bld_time></bld_time>
+			</i11547>
+			<i11548 name="Nuclear Reactor Unit">
+				<i16673 name="Fernite Carbide">8</i16673>
+				<i17317 name="Fermionic Condensates">1</i17317>
+				<i16683 name="Ferrogel">1</i16683>
+				<me>1</me>
+				<bld_time></bld_time>
+			</i11548>
+			<i11550 name="Graviton Reactor Unit">
+				<i16671 name="Titanium Carbonite">8</i16671>
+				<i17317 name="Fermionic Condensates">1</i17317>
+				<i16683 name="Ferrogel">1</i16683>
+				<me>1</me>
+				<bld_time></bld_time>
+			</i11550>
+			<i11549 name="Antimatter Reactor Unit">
+				<i16672 name="Tungsten Carbonite">8</i16672>
+				<i17317 name="Fermionic Condensates">1</i17317>
+				<i16683 name="Ferrogel">1</i16683>
+				<me>1</me>
+				<bld_time></bld_time>
+			</i11549>
+		</reactor>
+<!--SENSOR COMPONENTS-->
+		<sensor>
+			<i11535 name="Magnetometric Sensor Cluster">
+				<i16670 name="Crystalline Carbonite">20</i16670>
+				<i16681 name="Nanotransistors">1</i16681>
+				<i16682 name="Hypersynaptic Fibers">2</i16682>
+				<me>4</me>
+				<bld_time></bld_time>
+			</i11535>
+			<i11536 name="Ladar Sensor Cluster">
+				<i16673 name="Fernite Carbide">20</i16673>
+				<i16681 name="Nanotransistors">1</i16681>
+				<i16682 name="Hypersynaptic Fibers">2</i16682>
+				<me>4</me>
+				<bld_time></bld_time>
+			</i11536>
+			<i11534 name="Gravimetric Sensor Cluster">
+				<i16671 name="Titanium Carbonite">20</i16671>
+				<i16681 name="Nanotransistors">1</i16681>
+				<i16682 name="Hypersynaptic Fibers">2</i16682>
+				<me>4</me>
+				<bld_time></bld_time>
+			</i11534>
+			<i11537 name="Radar Sensor Cluster">
+				<i16672 name="Tungsten Carbonite">20</i16672>
+				<i16681 name="Nanotransistors">1</i16681>
+				<i16682 name="Hypersynaptic Fibers">2</i16682>
+				<me>4</me>
+				<bld_time></bld_time>
+			</i11537>
+		</sensor>
+<!--SHIELD COMPONENTS-->
+		<shield>
+			<i11556 name="Pulse Shield Emitter">
+				<i16670 name="Crystalline Carbonite">20</i16670>
+				<i16683 name="Ferrogel">1</i16683>
+				<i16678 name="Sylramic Fibers">8</i16678>
+				<me>4</me>
+				<bld_time></bld_time>
+			</i11556>
+			<i11555 name="Deflection Shield Emitter">
+				<i16673 name="Fernite Carbide">20</i16673>
+				<i16683 name="Ferrogel">1</i16683>
+				<i16678 name="Sylramic Fibers">8</i16678>
+				<me>4</me>
+				<bld_time></bld_time>	
+			</i11555>
+			<i11558 name="Sustained Shield Emitter">
+				<i16671 name="Titanium Carbonite">20</i16671>
+				<i16683 name="Ferrogel">1</i16683>
+				<i16678 name="Sylramic Fibers">8</i16678>
+				<me>4</me>
+				<bld_time></bld_time>
+			</i11558>
+			<i11557 name="Linear Shield Emitter">
+				<i16672 name="Tungsten Carbonite">20</i16672>
+				<i16683 name="Ferrogel">1</i16683>
+				<i16678 name="Sylramic Fibers">8</i16678>
+				<me>4</me>
+				<bld_time></bld_time>
+			</i11557>
+		</shield>
+<!--THRUSTER COMPONENTS-->
+		<thruster>
+			<i11531 name="Ion Thruster">
+				<i16670 name="Crystalline Carbonite">12</i16670>
+				<i16680 name="Phenolic Composits">3</i16680>
+				<i16683 name="Ferrogel">1</i16683>
+				<me>2</me>
+				<bld_time></bld_time>
+			</i11531>
+			<i11530 name="Plasma Thruster">
+				<i16673 name="Fernite Carbide">12</i16673>
+				<i16680 name="Phenolic Composits">3</i16680>
+				<i16683 name="Ferrogel">1</i16683>
+				<me>2</me>
+				<bld_time></bld_time>
+			</i11530>
+			<i11533 name="Magpulse Thruster">
+				<i16671 name="Titanium Carbonite">12</i16671>
+				<i16680 name="Phenolic Composits">3</i16680>
+				<i16683 name="Ferrogel">1</i16683>
+				<me>2</me>
+				<bld_time></bld_time>
+			</i11533>
+			<i11532 name="Fusion Thruster">
+				<i16672 name="Tungsten Carbonite">12</i16672>
+				<i16680 name="Phenolic Composits">3</i16680>
+				<i16683 name="Ferrogel">1</i16683>
+				<me>2</me>
+				<bld_time></bld_time>
+			</i11532>
+		</thruster>
+<!--WEAPON COMPONENTS-->
+		<weapon>
+			<i11688 name="Particle Accelerator Unit">
+				<i16670 name="Crystalline Carbonite">28</i16670>
+				<i16679 name="Fulleridesl">10</i16679>
+				<i16682 name="Hypersynaptic Fibers">1</i16682>
+				<me>5</me>
+				<bld_time></bld_time>
+			</i11688>
+			<i11691 name="Thermonuclear Trigger Unit">
+				<i16673 name="Fernite Carbide">28</i16673>
+				<i16679 name="Fulleridesl">10</i16679>
+				<i16682 name="Hypersynaptic Fibers">1</i16682>
+				<me>5</me>
+				<bld_time></bld_time>
+			</i11691>
+			<i11690 name="Superconductor Rails">
+				<i16671 name="Titanium Carbonite">28</i16671>
+				<i16679 name="Fulleridesl">10</i16679>
+				<i16682 name="Hypersynaptic Fibers">1</i16682>
+				<me>5</me>
+				<bld_time></bld_time>
+			</i11690>
+			<i11689 name="Laser Focusing Crystals">
+				<i16672 name="Tungsten Carbonite">28</i16672>
+				<i16679 name="Fulleridesl">10</i16679>
+				<i16682 name="Hypersynaptic Fibers">1</i16682>
+				<me>5</me>
+				<bld_time></bld_time>
+			</i11689>
+		</weapon>
+	</component>
+	<capcomponent>
+		<armor>
+			<i29041 name="Capital Crystalline Carbonide Armor Plate">
+				<i16670 name="Crystalline Carbonite">2010</i16670>
+				<i16678 name="Sylramic Fibers">1500</i16678>
+				<me>20</me>
+				<bld_time></bld_time>	
+			</i29041>
+			<i29049 name="Capital Fernite Carbide Composite Armor Plate">
+				<i16673 name="Fernite Carbide">2010</i16673>
+				<i16678 name="Sylramic Fibers">1500</i16678>
+				<me>20</me>
+				<bld_time></bld_time>
+			</i29049>
+			<i29107 name="Capital Titanium Diborite Armor Plate">
+				<i16671 name="Titanium Carbonite">2010</i16671>
+				<i16678 name="Sylramic Fibers">1500</i16678>
+				<me>20</me>
+				<bld_time></bld_time>
+			</i29107>
+			<i29110 name="Capital Tungsten Carbide Armor Plate Blueprint">
+				<i16672 name="Tungsten Carbonite">2010</i16672>
+				<i16678 name="Sylramic Fibers">1500</i16678>
+				<me>20</me>
+				<bld_time></bld_time>
+			</i29110>
+		</armor>
+		<capacitor>
+			<i29081 name="Capital Oscillator Capacitor Unit">
+				<i16670 name="Crystalline Carbonite">2010</i16670>
+				<i16681 name="Nanotransistors">10</i16681>
+				<i16679 name="Fulleridesl">1005</i16679>
+				<me>20</me>
+				<bld_time></bld_time>
+			</i29081>
+			<i29045 name="Capital Electrolytic Capacitor Unit">
+				<i16673 name="Fernite Carbide">2010</i16673>
+				<i16681 name="Nanotransistors">10</i16681>
+				<i16679 name="Fulleridesl">1005</i16679>
+				<me>20</me>
+				<bld_time></bld_time>
+			</i29045>
+			<i29097 name="Capital Scalar Capacitor Unit">
+				<i16671 name="Titanium Carbonite">2010</i16671>
+				<i16681 name="Nanotransistors">10</i16681>
+				<i16679 name="Fulleridesl">1005</i16679>
+				<me>20</me>
+				<bld_time></bld_time>
+			</i29097>
+			<i29103 name="Capital Tesseract Capacitor Unit">
+				<i16672 name="Tungsten Carbonite">2010</i16672>
+				<i16681 name="Nanotransistors">10</i16681>
+				<i16679 name="Fulleridesl">1005</i16679>
+				<me>20</me>
+				<bld_time></bld_time>
+			</i29103>
+		</capacitor>
+<!--CAPITAL MICROPROCESSOR COMPONENTS-->
+		<microprocessor>
+			<i29085 name="Capital Photon Microprocessor">
+				<i16670 name="Crystalline Carbonite">1206</i16670>
+				<i16681 name="Nanotransistors">50</i16681>
+				<i16680 name="Phenolic Composits">10</i16680>
+				<me>20</me>
+				<bld_time></bld_time>
+			</i29085>
+			<i29075 name="Capital Nanomechanical Microprocessor">
+				<i16673 name="Fernite Carbide">1206</i16673>
+				<i16681 name="Nanotransistors">50</i16681>
+				<i16680 name="Phenolic Composits">10</i16680>
+				<me>20</me>
+				<bld_time></bld_time>
+			</i29075>
+			<i29093 name="Capital Quantum Microprocessor">
+				<i16671 name="Titanium Carbonite">1206</i16671>
+				<i16681 name="Nanotransistors">50</i16681>
+				<i16680 name="Phenolic Composits">10</i16680>
+				<me>20</me>
+				<bld_time></bld_time>
+			</i29093>
+			<i29073 name="Capital Nanoelectrical Microprocessor">
+				<i16672 name="Tungsten Carbonite">1206</i16672>
+				<i16681 name="Nanotransistors">50</i16681>
+				<i16680 name="Phenolic Composits">10</i16680>
+				<me>20</me>
+				<bld_time></bld_time>
+			</i29073>
+		</microprocessor>
+<!--CAPITAL PULSE COMPONENTS-->
+		<pulse>
+			<i29087 name="Capital Plasma Pulse Generator">
+				<i16670 name="Crystalline Carbonite">2010</i16670>
+				<i16681 name="Nanotransistors">20</i16681>
+				<i16680 name="Phenolic Composits">60</i16680>
+				<me>20</me>
+				<bld_time></bld_time>
+			</i29087>
+			<i29077 name="Capital Nuclear Pulse Generator">
+				<i16673 name="Fernite Carbide">2010</i16673>
+				<i16681 name="Nanotransistors">20</i16681>
+				<i16680 name="Phenolic Composits">60</i16680>
+				<me>20</me>
+				<bld_time></bld_time>
+			</i29077>
+			<i29057 name="Capital Graviton Pulse Generator">
+				<i16671 name="Titanium Carbonite">2010</i16671>
+				<i16681 name="Nanotransistors">20</i16681>
+				<i16680 name="Phenolic Composits">60</i16680>
+				<me>20</me>
+				<bld_time></bld_time>
+			</i29057>
+			<i29047 name="Capital Emp Pulse Generator">
+				<i16672 name="Tungsten Carbonite">2010</i16672>
+				<i16681 name="Nanotransistors">20</i16681>
+				<i16680 name="Phenolic Composits">60</i16680>
+				<me>20</me>
+				<bld_time></bld_time>
+			</i29047>
+		</pulse>
+		<reactor>
+			<i29051 name="Capital Fusion Reactor Unit">
+				<i16670 name="Crystalline Carbonite">804</i16670>
+				<i17317 name="Fermionic Condensates">10</i17317>
+				<i16683 name="Ferrogel">10</i16683>
+				<me>20</me>
+				<bld_time></bld_time>
+			</i29051>
+			<i29079 name="Capital Nuclear Reactor Unit">
+				<i16673 name="Fernite Carbide">804</i16673>
+				<i17317 name="Fermionic Condensates">10</i17317>
+				<i16683 name="Ferrogel">10</i16683>
+				<me>20</me>
+				<bld_time></bld_time>
+			</i29079>
+			<i29059 name="Capital Graviton Reactor Unit">
+				<i16671 name="Titanium Carbonite">804</i16671>
+				<i17317 name="Fermionic Condensates">10</i17317>
+				<i16683 name="Ferrogel">10</i16683>
+				<me>20</me>
+				<bld_time></bld_time>
+			</i29059>
+			<i29079 name="Capital Antimatter Reactor Unit">
+				<i16672 name="Tungsten Carbonite">804</i16672>
+				<i17317 name="Fermionic Condensates">10</i17317>
+				<i16683 name="Ferrogel">10</i16683>
+				<me>20</me>
+				<bld_time></bld_time>
+			</i29079>
+		</reactor>
+		<sensor>
+			<i29069 name="Capital Magnetometric Sensor Cluster">
+				<i16670 name="Crystalline Carbonite">2010</i16670>
+				<i16681 name="Nanotransistors">10</i16681>
+				<i16682 name="Hypersynaptic Fibers">20</i16682>
+				<me>20</me>
+				<bld_time></bld_time>
+			</i29069>
+			<i29065 name="Capital Ladar Sensor Cluster">
+				<i16673 name="Fernite Carbide">2010</i16673>
+				<i16681 name="Nanotransistors">10</i16681>
+				<i16682 name="Hypersynaptic Fibers">20</i16682>
+				<me>20</me>
+				<bld_time></bld_time>
+			</i29065>
+			<i29055 name="Capital Gravimetric Sensor Cluster">
+				<i16671 name="Titanium Carbonite">2010</i16671>
+				<i16681 name="Nanotransistors">10</i16681>
+				<i16682 name="Hypersynaptic Fibers">20</i16682>
+				<me>20</me>
+				<bld_time></bld_time>
+			</i29055>
+			<i29095 name="Capital Radar Sensor Cluster">
+				<i16672 name="Tungsten Carbonite">2010</i16672>
+				<i16681 name="Nanotransistors">10</i16681>
+				<i16682 name="Hypersynaptic Fibers">20</i16682>
+				<me>20</me>
+				<bld_time></bld_time>
+			</i29095>
+		</sensor>
+		<shield>
+			<i29091 name="Capital Pulse Shield Emitter">
+				<i16670 name="Crystalline Carbonite">2010</i16670>
+				<i16683 name="Ferrogel">10</i16683>
+				<i16678 name="Sylramic Fibers">804</i16678>
+				<me>20</me>
+				<bld_time></bld_time>
+			</i29091>
+			<i29043 name="Capital Deflection Shield Emitter">
+				<i16673 name="Fernite Carbide">2010</i16673>
+				<i16683 name="Ferrogel">10</i16683>
+				<i16678 name="Sylramic Fibers">804</i16678>
+				<me>20</me>
+				<bld_time></bld_time>	
+			</i29043>
+			<i29101 name="Capital Sustained Shield Emitter">
+				<i16671 name="Titanium Carbonite">2010</i16671>
+				<i16683 name="Ferrogel">10</i16683>
+				<i16678 name="Sylramic Fibers">804</i16678>
+				<me>4</me>
+				<bld_time></bld_time>
+			</i29101>
+			<i29067 name="Capital Linear Shield Emitter">
+				<i16672 name="Tungsten Carbonite">2010</i16672>
+				<i16683 name="Ferrogel">10</i16683>
+				<i16678 name="Sylramic Fibers">804</i16678>
+				<me>4</me>
+				<bld_time></bld_time>
+			</i29067>
+		</shield>
+		<thruster>
+			<i29061 name="Capital Ion Thruster">
+				<i16670 name="Crystalline Carbonite">1206</i16670>
+				<i16680 name="Phenolic Composits">30</i16680>
+				<i16683 name="Ferrogel">10</i16683>
+				<me>20</me>
+				<bld_time></bld_time>
+			</i29061>
+			<i29053 name="Capital Plasma Thruster">
+				<i16673 name="Fernite Carbide">1206</i16673>
+				<i16680 name="Phenolic Composits">30</i16680>
+				<i16683 name="Ferrogel">10</i16683>
+				<me>20</me>
+				<bld_time></bld_time>
+			</i29053>
+			<i29071 name="Capital Magpulse Thruster">
+				<i16671 name="Titanium Carbonite">1206</i16671>
+				<i16680 name="Phenolic Composits">30</i16680>
+				<i16683 name="Ferrogel">10</i16683>
+				<me>20</me>
+				<bld_time></bld_time>
+			</i29071>
+			<i29053 name="Capital Fusion Thruster">
+				<i16672 name="Tungsten Carbonite">1206</i16672>
+				<i16680 name="Phenolic Composits">30</i16680>
+				<i16683 name="Ferrogel">10</i16683>
+				<me>20</me>
+				<bld_time></bld_time>
+			</i29053>
+		</thruster>
+		<weapon>
+			<i29083 name="Capital Particle Accelerator Unit">
+				<i16670 name="Crystalline Carbonite">2010</i16670>
+				<i16679 name="Fulleridesl">703</i16679>
+				<i16682 name="Hypersynaptic Fibers">10</i16682>
+				<me>20</me>
+				<bld_time></bld_time>
+			</i29083>
+			<i29105 name="Capital Thermonuclear Trigger Unit">
+				<i16673 name="Fernite Carbide">28</i16673>
+				<i16679 name="Fulleridesl">703</i16679>
+				<i16682 name="Hypersynaptic Fibers">10</i16682>
+				<me>20</me>
+				<bld_time></bld_time>
+			</i29105>
+			<i29099 name="Capital Superconductor Rails">
+				<i16671 name="Titanium Carbonite">28</i16671>
+				<i16679 name="Fulleridesl">703</i16679>
+				<i16682 name="Hypersynaptic Fibers">10</i16682>
+				<me>20</me>
+				<bld_time></bld_time>
+			</i29099>
+			<i29063 name="Caputal Laser Focusing Crystals">
+				<i16672 name="Tungsten Carbonite">28</i16672>
+				<i16679 name="Fulleridesl">703</i16679>
+				<i16682 name="Hypersynaptic Fibers">10</i16682>
+				<me>20</me>
+				<bld_time></bld_time>
+			</i29063>
+		</weapon>
+	</capcomponent>
+	<capital>
+		<i21017 name="Capital Armor Plates">
+			<i37 name="Isogen">6407</i37>
+			<i40 name="Megacyte">137</i40>
+			<i36 name="Mexallon">39047</i36>
+			<i38 name="Nocxium">1930</i38>
+			<i35 name="Pyerite">100147</i35>
+			<i34 name="Tritanium">426427</i34>
+			<i39 name="Zydrine">307</i39>
+			<me>70</me>
+			<bld_time></bld_time>
+			<own>1</own>
+		</i21017>
+		<i21019 name="Capital Capacitor Battery">
+			<i37 name="Isogen">5804</i37>
+			<i40 name="Megacyte">126</i40>
+			<i36 name="Mexallon">35642</i36>
+			<i38 name="Nocxium">1659</i38>
+			<i35 name="Pyerite">97195</i35>
+			<i34 name="Tritanium">294690</i34>
+			<i39 name="Zydrine">297</i39>
+			<me>70</me>
+			<bld_time></bld_time>
+			<own>1</own>
+		</i21019>
+		<i21027 name="Capital Cargo Bay">
+			<i37 name="Isogen">3158</i37>
+			<i40 name="Megacyte">29</i40>
+			<i36 name="Mexallon">22185</i36>
+			<i38 name="Nocxium">899</i38>
+			<i35 name="Pyerite">65030</i35>
+			<i34 name="Tritanium">788521</i34>
+			<i39 name="Zydrine">129</i39>
+			<me>70</me>
+			<bld_time></bld_time>
+			<own>2</own>
+		</i21027>
+		<i24547 name="Capital Clone Vat Bay">
+			<i37 name="Isogen">8010</i37>
+			<i40 name="Megacyte">200</i40>
+			<i36 name="Mexallon">43685</i36>
+			<i38 name="Nocxium">2354</i38>
+			<i35 name="Pyerite">125809</i35>
+			<i34 name="Tritanium">577166</i34>
+			<i39 name="Zydrine">488</i39>
+			<me>70</me>
+			<bld_time></bld_time>
+			<own>0</own>
+		</i24547>
+		<i21035 name="Capital Computer System">
+			<i37 name="Isogen">5931</i37>
+			<i40 name="Megacyte">133</i40>
+			<i36 name="Mexallon">39755</i36>
+			<i38 name="Nocxium">1674</i38>
+			<i35 name="Pyerite">100140</i35>
+			<i34 name="Tritanium">385479</i34>
+			<i39 name="Zydrine">292</i39>
+			<me>70</me>
+			<bld_time></bld_time>
+			<own>0</own>
+		</i21035>
+		<i21037 name="Capital Construction Parts">
+			<i37 name="Isogen">4600</i37>
+			<i40 name="Megacyte">95</i40>
+			<i36 name="Mexallon">34004</i36>
+			<i38 name="Nocxium">1379</i38>
+			<i35 name="Pyerite">84518</i35>
+			<i34 name="Tritanium">349879</i34>
+			<i39 name="Zydrine">242</i39>
+			<me>70</me>
+			<bld_time></bld_time>
+			<own>1</own>
+		</i21037>
+		<i24560 name="Capital Corporate Hangar Bay">
+			<i37 name="Isogen">9228</i37>
+			<i40 name="Megacyte">216</i40>
+			<i36 name="Mexallon">50784</i36>
+			<i38 name="Nocxium">2651</i38>
+			<i35 name="Pyerite">144208</i35>
+			<i34 name="Tritanium">577608</i34>
+			<i39 name="Zydrine">464</i39>
+			<me>70</me>
+			<bld_time></bld_time>
+			<own>0</own>
+		</i24560>
+		<i24556 name="Capital Doomsday Weapon Mount">
+			<i37 name="Isogen">10033</i37>
+			<i40 name="Megacyte">257</i40>
+			<i36 name="Mexallon">55861</i36>
+			<i38 name="Nocxium">2989</i38>
+			<i35 name="Pyerite">187261</i35>
+			<i34 name="Tritanium">758756</i34>
+			<i39 name="Zydrine">500</i39>
+			<me>70</me>
+			<bld_time></bld_time>
+			<own>0</own>
+		</i24556>
+		<i21029 name="Capital Drone Bay">
+			<i37 name="Isogen">4054</i37>
+			<i40 name="Megacyte">77</i40>
+			<i36 name="Mexallon">30036</i36>
+			<i38 name="Nocxium">1133</i38>
+			<i35 name="Pyerite">75015</i35>
+			<i34 name="Tritanium">312833</i34>
+			<i39 name="Zydrine">219</i39>
+			<me>80</me>
+			<bld_time></bld_time>
+			<own>1</own>
+		</i21029>
+		<i24545 name="Capital Jump Bridge Array">
+			<i37 name="Isogen">15924</i37>
+			<i40 name="Megacyte">511</i40>
+			<i36 name="Mexallon">67937</i36>
+			<i38 name="Nocxium">3763</i38>
+			<i35 name="Pyerite">251251</i35>
+			<i34 name="Tritanium">1010915</i34>
+			<i39 name="Zydrine">671</i39>
+			<me>70</me>
+			<bld_time></bld_time>
+			<own>0</own>
+		</i24545>
+		<i21025 name="Capital Jump Drive">
+			<i37 name="Isogen">7765</i37>
+			<i40 name="Megacyte">200</i40>
+			<i36 name="Mexallon">44977</i36>
+			<i38 name="Nocxium">2026</i38>
+			<i35 name="Pyerite">128598</i35>
+			<i34 name="Tritanium">675757</i34>
+			<i39 name="Zydrine">410</i39>
+			<me>80</me>
+			<bld_time></bld_time>
+			<own>1</own>
+		</i21025>
+		<i21041 name="Capital Launcher Hardpoint">
+			<i37 name="Isogen">6933</i37>
+			<i40 name="Megacyte">155</i40>
+			<i36 name="Mexallon">40299</i36>
+			<i38 name="Nocxium">2126</i38>
+			<i35 name="Pyerite">99473</i35>
+			<i34 name="Tritanium">425086</i34>
+			<i39 name="Zydrine">388</i39>
+			<me>70</me>
+			<bld_time></bld_time>
+			<own>0</own>
+		</i21041>
+		<i21021 name="Capital Power Generator">
+			<i37 name="Isogen">6751</i37>
+			<i40 name="Megacyte">150</i40>
+			<i36 name="Mexallon">41117</i36>
+			<i38 name="Nocxium">1975</i38>
+			<i35 name="Pyerite">99512</i35>
+			<i34 name="Tritanium">459781</i34>
+			<i39 name="Zydrine">328</i39>
+			<me>70</me>
+			<bld_time></bld_time>
+			<own>0</own>
+		</i21021>
+		<i21009 name="Capital Propulsion Engine">
+			<i37 name="Isogen">6253</i37>
+			<i40 name="Megacyte">136</i40>
+			<i36 name="Mexallon">37848</i36>
+			<i38 name="Nocxium">1902</i38>
+			<i35 name="Pyerite">99514</i35>
+			<i34 name="Tritanium">411924</i34>
+			<i39 name="Zydrine">272</i39>
+			<me>70</me>
+			<bld_time></bld_time>
+			<own>0</own>
+		</i21009>
+		<i21013 name="Capital Sensor Cluster">
+			<i37 name="Isogen">6001</i37>
+			<i40 name="Megacyte">134</i40>
+			<i36 name="Mexallon">36841</i36>
+			<i38 name="Nocxium">1626</i38>
+			<i35 name="Pyerite">91051</i35>
+			<i34 name="Tritanium">399794</i34>
+			<i39 name="Zydrine">300</i39>
+			<me>70</me>
+			<bld_time></bld_time>
+			<own>0</own>
+		</i21013>
+		<i21023 name="Capital Shield Emitter">
+			<i37 name="Isogen">6551</i37>
+			<i40 name="Megacyte">149</i40>
+			<i36 name="Mexallon">38930</i36>
+			<i38 name="Nocxium">1833</i38>
+			<i35 name="Pyerite">94594</i35>
+			<i34 name="Tritanium">449624</i34>
+			<i39 name="Zydrine">313</i39>
+			<me>70</me>
+			<bld_time></bld_time>
+			<own>0</own>
+		</i21023>
+		<i24558 name="Capital Ship Maintenance Bay">
+			<i37 name="Isogen">8119</i37>
+			<i40 name="Megacyte">187</i40>
+			<i36 name="Mexallon">48040</i36>
+			<i38 name="Nocxium">2218</i38>
+			<i35 name="Pyerite">171159</i35>
+			<i34 name="Tritanium">51724</i34>
+			<i39 name="Zydrine">412</i39>
+			<me>80</me>
+			<bld_time></bld_time>
+			<own>1</own>
+		</i24558>
+		<i21039 name="Capital Siege Array">
+			<i37 name="Isogen">7134</i37>
+			<i40 name="Megacyte">193</i40>
+			<i36 name="Mexallon">42584</i36>
+			<i38 name="Nocxium">2197</i38>
+			<i35 name="Pyerite">112908</i35>
+			<i34 name="Tritanium">500796</i34>
+			<i39 name="Zydrine">410</i39>
+			<me>70</me>
+			<bld_time></bld_time>
+			<own>0</own>
+		</i21039>
+		<i21011 name="Capital Turret Hardpoint">
+			<i37 name="Isogen">6994</i37>
+			<i40 name="Megacyte">174</i40>
+			<i36 name="Mexallon">40566</i36>
+			<i38 name="Nocxium">2125</i38>
+			<i35 name="Pyerite">102587</i35>
+			<i34 name="Tritanium">492914</i34>
+			<i39 name="Zydrine">395</i39>
+			<me>70</me>
+			<bld_time></bld_time>
+			<own>0</own>
+		</i21011>	
+	</capital>
+	<RAM>
+		<i11476 name="R.A.M.- Ammunition Tech">
+			<i37 name="Isogen">74</i37>
+			<i40 name="Megacyte">0</i40>
+			<i36 name="Mexallon">200</i36>
+			<i38 name="Nocxium">0</i38>
+			<i35 name="Pyerite">400</i35>
+			<i34 name="Tritanium">500</i34>
+			<i39 name="Zydrine">0</i39>
+			<me>100</me>
+			<bld_time></bld_time>
+		</i11476>
+		<i11475 name="R.A.M.- Armor/Hull Tech">
+			<i37 name="Isogen">74</i37>
+			<i40 name="Megacyte">0</i40>
+			<i36 name="Mexallon">200</i36>
+			<i38 name="Nocxium">0</i38>
+			<i35 name="Pyerite">400</i35>
+			<i34 name="Tritanium">500</i34>
+			<i39 name="Zydrine">0</i39>
+			<me>100</me>
+			<bld_time></bld_time>
+		</i11475>
+		<i11483 name="R.A.M.- Electronics">
+			<i37 name="Isogen">74</i37>
+			<i40 name="Megacyte">0</i40>
+			<i36 name="Mexallon">200</i36>
+			<i38 name="Nocxium">0</i38>
+			<i35 name="Pyerite">400</i35>
+			<i34 name="Tritanium">500</i34>
+			<i39 name="Zydrine">0</i39>
+			<me>100</me>
+			<bld_time></bld_time>
+		</i11483>
+		<i11482 name="R.A.M.- Energy Tech">
+			<i37 name="Isogen">74</i37>
+			<i40 name="Megacyte">0</i40>
+			<i36 name="Mexallon">200</i36>
+			<i38 name="Nocxium">0</i38>
+			<i35 name="Pyerite">400</i35>
+			<i34 name="Tritanium">500</i34>
+			<i39 name="Zydrine">0</i39>
+			<me>100</me>
+			<bld_time></bld_time>
+		</i11482>
+		<i11481 name="R.A.M.- Robotics">
+			<i37 name="Isogen">74</i37>
+			<i40 name="Megacyte">0</i40>
+			<i36 name="Mexallon">200</i36>
+			<i38 name="Nocxium">0</i38>
+			<i35 name="Pyerite">400</i35>
+			<i34 name="Tritanium">500</i34>
+			<i39 name="Zydrine">0</i39>
+			<me>100</me>
+			<bld_time></bld_time>
+		</i11481>
+		<i11484 name="R.A.M.- Shield Tech">
+			<i37 name="Isogen">74</i37>
+			<i40 name="Megacyte">0</i40>
+			<i36 name="Mexallon">200</i36>
+			<i38 name="Nocxium">0</i38>
+			<i35 name="Pyerite">400</i35>
+			<i34 name="Tritanium">500</i34>
+			<i39 name="Zydrine">0</i39>
+			<me>100</me>
+			<bld_time></bld_time>
+		</i11484>
+		<i11478 name="R.A.M.- Starship Tech">
+			<i37 name="Isogen">74</i37>
+			<i40 name="Megacyte">0</i40>
+			<i36 name="Mexallon">200</i36>
+			<i38 name="Nocxium">0</i38>
+			<i35 name="Pyerite">400</i35>
+			<i34 name="Tritanium">500</i34>
+			<i39 name="Zydrine">0</i39>
+			<me>100</me>
+			<bld_time></bld_time>
+		</i11478>
+		<i11486 name="R.A.M.- Weapon Tech">
+			<i37 name="Isogen">74</i37>
+			<i40 name="Megacyte">0</i40>
+			<i36 name="Mexallon">200</i36>
+			<i38 name="Nocxium">0</i38>
+			<i35 name="Pyerite">400</i35>
+			<i34 name="Tritanium">500</i34>
+			<i39 name="Zydrine">0</i39>
+			<me>100</me>
+			<bld_time></bld_time>
+		</i11486>
+	</RAM>
+</root>
