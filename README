@@ -25,7 +25,8 @@ PROGRAMS:
   -OUTPUT: price.xml
 2) costcrunch.pl: uses local DB's for material requirements and outputs the pure cost for building materials
   -INPUT: price.xml, t1.xml, component.xml, manufacture.xml
-  -OUTPUT: report.xml
+  -OUTPUT: report_<period length><period number>.xml
+    EX: report_W14.xml <--week 14's report
 3) JournalCrunch.pl: processes EVE-O API data to generate "real" prices for goods.  Adds <real></real> tags to items
   -INPUT: report.xml, price.xml
   -OUTPUT: report.xml, price.xml
