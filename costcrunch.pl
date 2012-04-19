@@ -57,9 +57,12 @@ my $componentsheet = $componentXML->XMLin($path."/component.xml");
 #my $prodXML = new XML::Simple;
 #my $prodsheet = $prodXML->XMLin($path."/manufacture.xml");
 
-
+my $tstart=time;
 &RawCrunch;
 &CompCrunch;
+my $setupT=time;
+print "\nSub-component setup time: ".($tstart-$setupT)."\n";
+
 
 sub RawCrunch{ #Loads %rawprice
 	#{Hash initializers
@@ -140,7 +143,7 @@ sub RawCrunch{ #Loads %rawprice
 	#foreach my $raw4Key (keys %PI){
 	#	$rawprice{$raw4Key}= $pricesheet->{PI}->{$raw4Key}->{$pricekey};
 	#}
-	
+	print "Raw Materials Loaded\n";
 };
 
 sub CompCrunch{ #Loads %comp, %capital, and sets $RAM
@@ -150,7 +153,7 @@ sub CompCrunch{ #Loads %comp, %capital, and sets $RAM
 		foreach my $compKey (keys %{$componentsheet->{component}->{$typeKey}}){
 			(undef, $itemid)=split('i', $compKey);
 			$comp{$itemid}=0;
-			print $componentsheet->{component}->{$typeKey}->{$compKey}->{name}." ";
+			#print $componentsheet->{component}->{$typeKey}->{$compKey}->{name}." ";
 			foreach my $gooKey (keys %{$componentsheet->{component}->{$typeKey}->{$compKey}}){
 				if ($gooKey =~ m/\s*i[0-9]/){#if i### use for component calc
 					(undef, $compid)=split('i', $gooKey);
@@ -161,20 +164,27 @@ sub CompCrunch{ #Loads %comp, %capital, and sets $RAM
 					#print $gooKey."x".$componentsheet->{component}->{$typeKey}->{$compKey}->{$gooKey}->{content}." ";
 				}
 			}
-			print "cost:".$comp{$itemid};
-			print "\n"
+			#print "cost:".$comp{$itemid};
 			#print "key:".$itemid." price:".$comp{$itemid}."\n";
 			
 		}
 	}
 	
-	foreach my $typeKey2 (keys %{$componentsheet->{capcomponent}}){
-		foreach my $elementKey (keys %{$componentsheet->{capcomponent}->{$typeKey2}}){
-			(undef, $itemid) = split ('i', $elementKey);
-			$capital{$itemid}=0;
-			foreach my $minKey (keys %{$componentsheet->{capcomponent}->{$typeKey2}->{$elementKey}}){
-				
+	print "Component prices calculated\n";
+	
+	foreach my $typeKey2 (keys %{$componentsheet->{capital}}){
+		(undef, $itemid) = split ('i', $typeKey2);
+		$capital{$itemid}=0;
+		#print $componentsheet->{capital}->{$typeKey2}->{name}.": ";
+		foreach my $Cpart (keys %{$componentsheet->{capital}->{$typeKey2}}){
+			if ($Cpart =~ m/\s*i[0-9]/){
+				(undef, $compid)=split('i', $Cpart);
+				$capital{$itemid}+= $componentsheet->{capital}->{$typeKey2}->{$Cpart}->{content} * $rawprice{$compid};
+				#print $compid."x".($componentsheet->{capital}->{$typeKey2}->{$Cpart}->{content})." ";
 			}
 		}
+		#print $capital{$itemid}."\n";
 	}
+	
+	print "Capital component prices calculated\n";
 };
