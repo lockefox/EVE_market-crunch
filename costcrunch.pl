@@ -187,4 +187,15 @@ sub CompCrunch{ #Loads %comp, %capital, and sets $RAM
 	}
 	
 	print "Capital component prices calculated\n";
+	
+	foreach my $Rpart (keys %{$componentsheet->{RAM}->{RAM}}){
+		$RAM=0;
+		my $Rmin;
+		if ($Rpart =~ m/\s*i[0-9]/){
+			(undef, $Rmin) = split ('i', $Rpart);
+			$RAM += $componentsheet->{RAM}->{RAM}->$Rpart->{content} * $rawprice{$Rmin};
+		}
+	}
+	
+	print "RAM prices  calculated\n";
 };

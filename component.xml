@@ -776,6 +776,17 @@
 		</i21011>	
 	</capital>
 	<RAM>
+		<RAM name="Generic RAM">
+			<i37 name="Isogen">74</i37>
+			<i40 name="Megacyte">0</i40>
+			<i36 name="Mexallon">200</i36>
+			<i38 name="Nocxium">0</i38>
+			<i35 name="Pyerite">400</i35>
+			<i34 name="Tritanium">500</i34>
+			<i39 name="Zydrine">0</i39>
+			<me>100</me>
+			<bld_time></bld_time>
+		</RAM>
 		<i11476 name="R.A.M.- Ammunition Tech">
 			<i37 name="Isogen">74</i37>
 			<i40 name="Megacyte">0</i40>
