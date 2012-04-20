@@ -12,6 +12,7 @@ Goals:
 4) Download price data for FINAL PRODUCTS from an external database (eve-central, evemarketeer, etc)
 5) Create a wrapper that can be run periodically to generate reports for graphing
 6) Crunch other data into central XML's for easy utilization elsewhere (googledoc, website, etc)
+7) Build shopping-list/kit-list using build requirements and AIDER assignments
 
 DATA:
 1) price.xml: Output from priceparse.pl and JournalCrunch.pl.  Contains several pricepoints to calculate with
@@ -19,6 +20,8 @@ DATA:
 3) manufacture.xml: Contains FINAL PRODUCT build requirements.  Used by costcrunch.pl to build initial price list
 4) report.xml (not started): Output from costcrunch.pl.  Contains actual build costs as per line args
 5) t1.xml: Contains build materials for T1.  
+6) producers.xml: Contains builder char# and assigned goods.  Used to calculate individual kits
+7) kits.xml: using producers.xml and manufacture.xml contains kit requirements.  Also has full shopping list
 
 PROGRAMS:
 1) priceparse.pl: Queries external database for price information and builds a raw-materials cost sheet
@@ -32,3 +35,6 @@ PROGRAMS:
   -INPUT: report.xml, price.xml
   -OUTPUT: report.xml, price.xml
   [NOT STARTED YET]
+4) KitCrunch.pl: builds kit-list for each inventor.
+  -INPUT: producers.xml, manufacture.xml
+  -OUTPUT: kits.xml
