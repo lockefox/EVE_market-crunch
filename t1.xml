@@ -6,7 +6,7 @@
 				<i35 name="Pyerite"></i35>
 				<i34 name="Tritanium"></i34>
 				<i39 name="Zydrine"></i39>
-	<modules>
+	<module>
 		<wepup>
 			<i12274 name="Ballistic Control Unit I" id="BCU">
 				<i37 name="Isogen">4</i37>
@@ -93,8 +93,71 @@
 			</i2231>
 		</eng>
 		<launcher>
+			<i501 name="Heavy Missile Launcher I" id="HML">
+				<i37 name="Isogen">0</i37>
+				<i40 name="Megacyte">0</i40>
+				<i36 name="Mexallon">96</i36>
+				<i38 name="Nocxium">0</i38>
+				<i35 name="Pyerite">2634</i35>
+				<i34 name="Tritanium">2933</i34>
+				<i39 name="Zydrine">0</i39>
+			</i501>
+			<i20138 name="Heavy Assault Missile Launcher I" id="HAM">
+				<i37 name="Isogen">0</i37>
+				<i40 name="Megacyte">0</i40>
+				<i36 name="Mexallon">0</i36>
+				<i38 name="Nocxium">6</i38>
+				<i35 name="Pyerite">2634</i35>
+				<i34 name="Tritanium">2933</i34>
+				<i39 name="Zydrine">2</i39>
+			</i20138>
+			<i503 name="Siege Missile Launcher I" id="TORP">
+				<i37 name="Isogen">0</i37>
+				<i40 name="Megacyte">10</i40>
+				<i36 name="Mexallon">0</i36>
+				<i38 name="Nocxium">8</i38>
+				<i35 name="Pyerite">1208</i35>
+				<i34 name="Tritanium">110</i34>
+				<i39 name="Zydrine">2</i39>
+			</i503>
+			<i499 name="Standard Missile Launcher I" id="SML">
+				<i37 name="Isogen">0</i37>
+				<i40 name="Megacyte">0</i40>
+				<i36 name="Mexallon">0</i36>
+				<i38 name="Nocxium">0</i38>
+				<i35 name="Pyerite">644</i35>
+				<i34 name="Tritanium">424</i34>
+				<i39 name="Zydrine">0</i39>
+			</i499>
+			<i1875 name="Assault Missile Launcher I" id="AML">
+				<i37 name="Isogen">2</i37>
+				<i40 name="Megacyte">0</i40>
+				<i36 name="Mexallon">83</i36>
+				<i38 name="Nocxium">3</i38>
+				<i35 name="Pyerite">443</i35>
+				<i34 name="Tritanium">504</i34>
+				<i39 name="Zydrine">0</i39>
+			</i1875>
+			<i13320 name="Cruise Missile Launcher" id="CML">
+				<i37 name="Isogen">0</i37>
+				<i40 name="Megacyte">8</i40>
+				<i36 name="Mexallon">0</i36>
+				<i38 name="Nocxium">6</i38>
+				<i35 name="Pyerite">906</i35>
+				<i34 name="Tritanium">83</i34>
+				<i39 name="Zydrine">2</i39>
+			</i13320>
+			<i10629 name="Rocket Launcher I" id="RL">
+				<i37 name="Isogen">0</i37>
+				<i40 name="Megacyte">0</i40>
+				<i36 name="Mexallon">0</i36>
+				<i38 name="Nocxium">0</i38>
+				<i35 name="Pyerite">250</i35>
+				<i34 name="Tritanium">500</i34>
+				<i39 name="Zydrine">0</i39>
+			</i10629>
 		</launcher>
-	</modules>
-	<ships>
-	</ships>
+	</module>
+	<ship>
+	</ship>
 </root>
