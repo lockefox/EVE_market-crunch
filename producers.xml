@@ -1,0 +1,17 @@
+<root>
+	<!--wepup-->
+		<i90471974 name="Anton Renard">
+			<i2291 name="Ballistic Control System II">100</i2291>
+			<i10190 name="Magnetic Field Stabilizer II">200</i10190>
+			<i519 name="Gyrostabilizer II">100</i519>
+			<i1999 name="Tracking Enhancer II">200</i1999>
+		</i90471974>
+		<i1850196909 name="Rodin Raskolnikov">
+			<i2291 name="Ballistic Control System II">100</i2291>
+			<i10190 name="Magnetic Field Stabilizer II">200</i10190>
+			<i519 name="Gyrostabilizer II">100</i519>
+			<i1999 name="Tracking Enhancer II">200</i1999>
+		</i1850196909>
+	<!--Engineering-->
+	<!--Shield-->
+</root>

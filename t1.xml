@@ -55,6 +55,41 @@
 			</i1998>
 		</wepup>
 		<eng>
+			<i1195 name="Cap Recharger I" id="CAP">
+				<i37 name="Isogen">0</i37>
+				<i40 name="Megacyte">1</i40>
+				<i36 name="Mexallon">371</i36>
+				<i38 name="Nocxium">0</i38>
+				<i35 name="Pyerite">289</i35>
+				<i34 name="Tritanium">687</i34>
+				<i39 name="Zydrine">0</i39>
+			</i1195>
+			<i1539 name="Power Diagnostic System I" id="PDU">
+				<i37 name="Isogen">4</i37>
+				<i40 name="Megacyte">0</i40>
+				<i36 name="Mexallon">2</i36>
+				<i38 name="Nocxium">1</i38>
+				<i35 name="Pyerite">592</i35>
+				<i34 name="Tritanium">0</i34>
+				<i39 name="Zydrine">2</i39>
+			</i1539>
+			<i1254 name="Shield Flux Coil I" id="SFC">
+				<i37 name="Isogen">8</i37>
+				<i40 name="Megacyte">0</i40>
+				<i36 name="Mexallon">16</i36>
+				<i38 name="Nocxium">0</i38>
+				<i35 name="Pyerite">276</i35>
+				<i34 name="Tritanium">208</i34>
+				<i39 name="Zydrine">0</i39>
+			</i1254>
+			<i2231 name="Shield Power Relay I" id="SPR">
+				<i37 name="Isogen">0</i37>
+				<i40 name="Megacyte">0</i40>
+				<i36 name="Mexallon">0</i36>
+				<i38 name="Nocxium">3</i38>
+				<i35 name="Pyerite">775</i35>
+				<i34 name="Tritanium">1004</i34>
+				<i39 name="Zydrine">0</i39>
 		</eng>
 	</modules>
 	<ships>
