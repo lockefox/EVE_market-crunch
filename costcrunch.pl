@@ -28,7 +28,7 @@ my %names;
 ##Saves ID name
 ## name{ID}="string"
 
-my $RAM; #All RAM Cost the same (if exists %ramID; $quant * $RAM)
+my $RAM; #All RAM Cost the same (if exists $ramID{ID}; $quant * $RAM)
 my %ramID=(
 	11476, "Ammo Tech",
 	11475, "Armor/Hull",
@@ -80,29 +80,26 @@ sub RawCrunch{ #Loads %rawprice
 		}
 		my $product;
 		foreach my $iproduct (keys %{$pricesheet->{$matType}}){
-			(undef, $product) = split ('i', $iproduct);
 			
-			$rawprice{$product} = $pricesheet->{$matType}->{$iproduct}->{$pricekey};
-			$names{$product} = $pricesheet->{$matType}->{$iproduct}->{name};
+			$rawprice{$iproduct} = $pricesheet->{$matType}->{$iproduct}->{$pricekey};
+			$names{$iproduct} = $pricesheet->{$matType}->{$iproduct}->{name};
 		}
 	}
 	print "Raw Materials Loaded\n";
 };
 
 sub CompCrunch{ #Loads %comp, %capital, and sets $RAM
-	my $itemid;
-	my $compid;
+
 	foreach my $typeKey (keys %{$componentsheet->{component}}){
-		foreach my $compKey (keys %{$componentsheet->{component}->{$typeKey}}){
-			(undef, $itemid)=split('i', $compKey);
-			$comp{$itemid}=0;
-			$names{$itemid}=$componentsheet->{component}->{$typeKey}->{$compKey}->{name};
+		foreach my $typeKey2 (keys %{$componentsheet->{component}->{$typeKey}}){
 			
-			foreach my $gooKey (keys %{$componentsheet->{component}->{$typeKey}->{$compKey}}){
+			$comp{$typeKey2}=0;
+			$names{$typeKey2}=$componentsheet->{component}->{$typeKey}->{$typeKey2}->{name};
+			
+			foreach my $gooKey (keys %{$componentsheet->{component}->{$typeKey}->{$typeKey2}}){
 				if ($gooKey =~ m/\s*i[0-9]/){#if i### use for component calc
-					(undef, $compid)=split('i', $gooKey);
-										
-					$comp{$itemid}= $comp{$itemid}+($componentsheet->{component}->{$typeKey}->{$compKey}->{$gooKey}->{content})*($rawprice{$compid});
+															
+					$comp{$typeKey2}= $comp{$typeKey2}+($componentsheet->{component}->{$typeKey}->{$typeKey2}->{$gooKey}->{content})*($rawprice{$gooKey});
 				}
 			}
 		}
@@ -111,15 +108,14 @@ sub CompCrunch{ #Loads %comp, %capital, and sets $RAM
 	print "Component prices calculated\n";
 	
 	foreach my $typeKey2 (keys %{$componentsheet->{capital}}){
-		(undef, $itemid) = split ('i', $typeKey2);
-		$capital{$itemid}=0;
-		$names{$itemid}=$componentsheet->{capital}->{$typeKey2}->{name};
+		
+		$capital{$typeKey2}=0;
+		$names{$typeKey2}=$componentsheet->{capital}->{$typeKey2}->{name};
 
 		foreach my $Cpart (keys %{$componentsheet->{capital}->{$typeKey2}}){
 			if ($Cpart =~ m/\s*i[0-9]/){
-				(undef, $compid)=split('i', $Cpart);
-				$capital{$itemid}+= $componentsheet->{capital}->{$typeKey2}->{$Cpart}->{content} * $rawprice{$compid};
 				
+				$capital{$typeKey2}+= $componentsheet->{capital}->{$typeKey2}->{$Cpart}->{content} * $rawprice{$Cpart};
 			}
 		}
 	}
@@ -128,10 +124,10 @@ sub CompCrunch{ #Loads %comp, %capital, and sets $RAM
 	
 	foreach my $Rpart (keys %{$componentsheet->{RAM}->{RAM}}){
 		$RAM=0;
-		my $Rmin;
+
 		if ($Rpart =~ m/\s*i[0-9]/){
-			(undef, $Rmin) = split ('i', $Rpart);
-			$RAM += $componentsheet->{RAM}->{RAM}->{$Rpart}->{content} * $rawprice{$Rmin};
+
+			$RAM += $componentsheet->{RAM}->{RAM}->{$Rpart}->{content} * $rawprice{$Rpart};
 		}
 	}
 	
