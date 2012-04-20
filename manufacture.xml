@@ -1,0 +1,904 @@
+<root>
+	<T2>
+		<wepup>
+			<i2291 name="Ballistic Control System II">
+				<!-- ItemID name="in game name">qty needed</itemID-->
+				<i20418 name="Datacore - Electronic Engineering">4</i20418>
+				<i20424 name="Datacore - Mechanical Engineering">4</i20424>
+				<BCU name="Ballistic Control System I" id="12274">10</BCU>
+				<i11483 name="RAM - Electronics">1.5</i11483>
+				<i11540 name="Quantum Microprocessor">60</i11540>
+				<i3689 name="Mechanical Parts">10</i3689>
+				<i9842 name="Miniature Electronics">30</i9842>
+				<i11399 name="Morphite">30</i11399>
+				<qty>10</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<mfg_grp>WeapUp</mfg_grp>
+				<flag>module</flag>
+			</i2291>
+			<i10190 name="Magnetic Field Stabilizer II">
+				<i20418 name="Datacore - Electronic Engineering">4</i20418>
+				<i20424 name="Datacore - Mechanical Engineering">4</i20424>
+				<MAGS name="Magnetic Field Stabilizer I" id="9944">10</MAGS>
+				<i11399 name="Morphite">30</i11399>
+				<i11483 name="RAM - Electronics">1.5</i11483>
+				<i11540 name="Quantum Microprocessor">50</i11540>
+				<i3689 name="Mechanical Parts">50</i3689>
+				<i9842 name="Miniature Electronics">20</i9842>
+				<i38 name="Nocxium">30</i38>
+				<i35 name="Pyerite">5280</i35>
+				<i34 name="Tritanium">34130</i34>
+				<qty>10</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<mfg_grp>WeapUp</mfg_grp>
+				<flag>module</flag>
+			</i10190>
+			<i2364 name="Heat Sink II">
+				<i20418 name="Datacore - Electronic Engineering">4</i20418>
+				<i20424 name="Datacore - Mechanical Engineering">4</i20424>
+				<HEAT name="Heat Sink I" id="2363">10</HEAT>
+				<i11399 name="Morphite">80</i11399>
+				<i11483 name="RAM - Electronics">1.5</i11483>
+				<i11539 name="Nanolectrical Microprocessor">50</i11539>
+				<i3689 name="Mechanical Parts">50</i3689>
+				<i9842 name="Miniature Electronics">20</i9842>
+				<i34 name="Tritanium">2130</i34>
+				<i36 name="Mexallon">1500</i36>
+				<i37 name="Isogen">20</i37>
+				<i39 name="Zydrine">20</i39>
+				<i40 name="Megacyte">20</i40>
+				<qty>10</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<mfg_grp>WeapUp</mfg_grp>
+				<flag>module</flag>
+			</i2364>
+			<i519 name="Gyrostabilizer II">
+				<i20418 name="Datacore - Electronic Engineering">4</i20418>
+				<i20424 name="Datacore - Mechanical Engineering">4</i20424>
+				<GYRO name="Gyrostabilizer I" id="520">10</GYRO>
+				<i11399 name="Morphite">80</i11399>
+				<i11483 name="RAM - Electronics">1.5</i11483>
+				<i11538 name="Nanomechanical Microprocessor">50</i11538>
+				<i3689 name="Mechanical Parts">50</i3689>
+				<i9842 name="Miniature Electronics">20</i9842>
+				<i34 name="Tritanium">2910</i34>
+				<i35 name="Pyerite">2160</i35>
+				<i36 name="Mexallon">660</i36>
+				<i37 name="Isogen">30</i37>
+				<i39 name="Zydrine">20</i39>
+				<qty>10</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<mfg_grp>WeapUp</mfg_grp>
+				<flag>module</flag>
+			</i519>
+			<i1999 name="Tracking Enhancer II">
+				<i20418 name="Datacore - Electronic Engineering">4</i20418>
+				<i20424 name="Datacore - Mechanical Engineering">4</i20424>
+				<TRAK name="Tracking Enhancer I" id="1998">10</TRAK>
+				<i11399 name="Morphite">30</i11399>
+				<i11483 name="RAM - Electronics">1.5</i11483>
+				<i11538 name="Nanomechanical Microprocessor">50</i11538>
+				<i3689 name="Mechanical Parts">50</i3689>
+				<i9842 name="Miniature Electronics">20</i9842>
+				<i34 name="Tritanium">180</i34>
+				<i35 name="Pyerite">170</i35>
+				<i36 name="Mexallon">360</i36>
+				<i37 name="Isogen">20</i37>
+				<i38 name="Nocxium">30</i38>
+				<qty>10</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<mfg_grp>WeapUp</mfg_grp>
+				<flag>module</flag>
+			</i1999>
+		</wepup>
+		<eng>
+			<i2032 name="Cap Recharger II">
+				<i20411 name="Datacore - High Energy Physics">4</i20411>
+				<i20414 name="Datacore - Quantum Physics">4</i20411>
+				<CAP name="Cap Recharger I" id="1195">10</CAP>
+				<i11482 name="R.A.M. - Electronics">0.5</i11482>
+				<i11399 name="Morphite">30</i11399>
+				<i9838 name="Superconductors">30</i9838>
+				<i11539 name="Nanoelectrical Microprocessor">10</i11539>
+				<i11554 name="Tesseract Capacitor">10</i11554>
+				<i37 name="Isogen">0</i37>
+				<i40 name="Megacyte">20</i40>
+				<i36 name="Mexallon">620</i36>
+				<i38 name="Nocxium">0</i38>
+				<i35 name="Pyerite">1130</i35>
+				<i34 name="Tritanium">570</i34>
+				<i39 name="Zydrine">0</i39>
+				<qty>10</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<mfg_grp>Eng</mfg_grp>
+				<flag>module</flag>
+			</i2032>
+			<i1541 name="Power Diagnostic System II">
+				<i20411 name="Datacore - High Energy Physics">4</i20411>
+				<i20414 name="Datacore - Quantum Physics">4</i20411>
+				<PDU name="Power Diagnostic System I" id="1539">10</PDU>
+				<i11482 name="R.A.M. - Electronics">0.5</i11482>
+				<i11399 name="Morphite">20</i11399>
+				<i9838 name="Superconductors">10</i9838>
+				<i11539 name="Nanoelectrical Microprocessor">50</i11539>
+				<i11554 name="Tesseract Capacitor">10</i11554>
+				<i37 name="Isogen">30</i37>
+				<i40 name="Megacyte">0</i40>
+				<i36 name="Mexallon">20</i36>
+				<i38 name="Nocxium">20</i38>
+				<i35 name="Pyerite">1410</i35>
+				<i34 name="Tritanium">0</i34>
+				<i39 name="Zydrine">20</i39>
+				<qty>10</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<mfg_grp>Eng</mfg_grp>
+				<flag>module</flag>
+			</i1541>
+			<i1256 name="Shield Flux Coil II">
+				<i20411 name="Datacore - High Energy Physics">4</i20411>
+				<i20414 name="Datacore - Quantum Physics">4</i20411>
+				<SFC name="Shield Flux Coil I" id="1254">10</SFC>
+				<i11482 name="R.A.M. - Electronics">1</i11482>
+				<i11399 name="Morphite">20</i11399>
+				<i9838 name="Superconductors">30</i9838>
+				<i11539 name="Nanoelectrical Microprocessor">10</i11539>
+				<i11554 name="Tesseract Capacitor">30</i11554>
+				<i37 name="Isogen">30</i37>
+				<i40 name="Megacyte">0</i40>
+				<i36 name="Mexallon">60</i36>
+				<i38 name="Nocxium">0</i38>
+				<i35 name="Pyerite">120</i35>
+				<i34 name="Tritanium">780</i34>
+				<i39 name="Zydrine">0</i39>
+				<qty>10</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<mfg_grp>Eng</mfg_grp>
+				<flag>module</flag>
+			</i1256>
+			<i1422 name="Shield Power Relay II">
+				<i20411 name="Datacore - High Energy Physics">4</i20411>
+				<i20414 name="Datacore - Quantum Physics">4</i20411>
+				<SPR name="Shield Power Relay I" id="2331">10</SPR>
+				<i11482 name="R.A.M. - Electronics">1</i11482>
+				<i11399 name="Morphite">20</i11399>
+				<i9838 name="Superconductors">30</i9838>
+				<i11539 name="Nanoelectrical Microprocessor">10</i11539>
+				<i11554 name="Tesseract Capacitor">10</i11554>
+				<i37 name="Isogen">30</i37>
+				<i40 name="Megacyte">0</i40>
+				<i36 name="Mexallon">0</i36>
+				<i38 name="Nocxium">0</i38>
+				<i35 name="Pyerite">1730</i35>
+				<i34 name="Tritanium">3020</i34>
+				<i39 name="Zydrine">0</i39>
+				<qty>10</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<mfg_grp>eng</mfg_grp>
+				<flag>module</flag>
+			</i1422>
+		</eng>
+		<launchers>
+			<i2410 name="Heavy Missile Launcher II">
+				<i20424 name="Datacore - Mechanical Engineering">4</i20424>
+				<i20420 name="Datacore - Rocket Science">4</i20420>
+				<HML name="Heavy Missile Launcher I" id="501">10</HML>
+				<i11399 name="Morphite">60</i11399>
+				<i11486 name="R.A.M. - Weapon Tech">2.5</i11486>
+				<11540 name="Quantum Microprocessor">20</i11540>
+				<i9848 name="Robotics">40</i9848>
+				<i37 name="Isogen">0</i37>
+				<i40 name="Megacyte">0</i40>
+				<i36 name="Mexallon">290</i36>
+				<i38 name="Nocxium">0</i38>
+				<i35 name="Pyerite">9540</i35>
+				<i34 name="Tritanium">5940</i34>
+				<i39 name="Zydrine">0</i39>
+				<qty>10</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<mfg_grp>eng</mfg_grp>
+				<flag>module</flag>
+			</i2410>
+			<i25715 name="Heavy Assault Missile Launcher II">
+				<i20424 name="Datacore - Mechanical Engineering">4</i20424>
+				<i20420 name="Datacore - Rocket Science">4</i20420>
+				<HAM name="Heavy Assault Missile Launcher I" id="20138">10</HML>
+				<i11399 name="Morphite">60</i11399>
+				<i11486 name="R.A.M. - Weapon Tech">2.5</i11486>
+				<11540 name="Quantum Microprocessor">20</i11540>
+				<i9848 name="Robotics">40</i9848>
+				<i37 name="Isogen">0</i37>
+				<i40 name="Megacyte">0</i40>
+				<i36 name="Mexallon">0</i36>
+				<i38 name="Nocxium">30</i38>
+				<i35 name="Pyerite">9540</i35>
+				<i34 name="Tritanium">5940</i34>
+				<i39 name="Zydrine">20</i39>
+				<qty>10</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<mfg_grp>launcher</mfg_grp>
+				<flag>module</flag>
+			</i25715>
+			<i2420 name="Siege Missile Launcher II">
+				<i20424 name="Datacore - Mechanical Engineering">6</i20424>
+				<i20420 name="Datacore - Rocket Science">6</i20420>
+				<TORP name="Siege Missile Launcher I" id="503">10</TORP>
+				<i11399 name="Morphite">240</i11399>
+				<i11486 name="R.A.M. - Weapon Tech">5.5</i11486>
+				<11540 name="Quantum Microprocessor">160</i11540>
+				<i9848 name="Robotics">160</i9848>
+				<i37 name="Isogen">0</i37>
+				<i40 name="Megacyte">50</i40>
+				<i36 name="Mexallon">0</i36>
+				<i38 name="Nocxium">50</i38>
+				<i35 name="Pyerite">690</i35>
+				<i34 name="Tritanium">750</i34>
+				<i39 name="Zydrine">20</i39>
+				<qty>10</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<mfg_grp>launcher</mfg_grp>
+				<flag>module</flag>
+			</i2420>
+			<i2404 name="Standard Missile Launcher II">
+				<i20424 name="Datacore - Mechanical Engineering">2</i20424>
+				<i20420 name="Datacore - Rocket Science">2</i20420>
+				<LML name="Standard Missile Launcher I" id="499">10</LML>
+				<i11399 name="Morphite">30</i11399>
+				<i11486 name="R.A.M. - Weapon Tech">1.5</i11486>
+				<11540 name="Quantum Microprocessor">40</i11540>
+				<i9848 name="Robotics">20</i9848>
+				<i37 name="Isogen">0</i37>
+				<i40 name="Megacyte">0</i40>
+				<i36 name="Mexallon">0</i36>
+				<i38 name="Nocxium">0</i38>
+				<i35 name="Pyerite">2090</i35>
+				<i34 name="Tritanium">1190</i34>
+				<i39 name="Zydrine">0</i39>
+				<qty>10</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<mfg_grp>launcher</mfg_grp>
+				<flag>module</flag>
+			</i2404>
+			<i1877 name="Assault Missile Launcher II">
+				<i20424 name="Datacore - Mechanical Engineering">4</i20424>
+				<i20420 name="Datacore - Rocket Science">4</i20420>
+				<AML name="Standard Missile Launcher I" id="1875">10</AML>
+				<i11399 name="Morphite">30</i11399>
+				<i11486 name="R.A.M. - Weapon Tech">1</i11486>
+				<11540 name="Quantum Microprocessor">30</i11540>
+				<i9848 name="Robotics">20</i9848>
+				<i37 name="Isogen">20</i37>
+				<i40 name="Megacyte">0</i40>
+				<i36 name="Mexallon">450</i36>
+				<i38 name="Nocxium">20</i38>
+				<i35 name="Pyerite">1080</i35>
+				<i34 name="Tritanium">1470</i34>
+				<i39 name="Zydrine">0</i39>
+				<qty>10</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<mfg_grp>launcher</mfg_grp>
+				<flag>module</flag>
+			</i1877>
+			<i19739 name="Cruise Missile Launcher II">
+				<i20424 name="Datacore - Mechanical Engineering">6</i20424>
+				<i20420 name="Datacore - Rocket Science">6</i20420>
+				<CML name="Cruise Missile Launcher I" id="13320">10</CML>
+				<i11399 name="Morphite">120</i11399>
+				<i11486 name="R.A.M. - Weapon Tech">3.5</i11486>
+				<11540 name="Quantum Microprocessor">80</i11540>
+				<i9848 name="Robotics">80</i9848>
+				<i37 name="Isogen">0</i37>
+				<i40 name="Megacyte">0</i40>
+				<i36 name="Mexallon">0</i36>
+				<i38 name="Nocxium">0</i38>
+				<i35 name="Pyerite">0</i35>
+				<i34 name="Tritanium">0</i34>
+				<i39 name="Zydrine">0</i39>
+				<qty>10</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<mfg_grp>launcher</mfg_grp>
+				<flag>module</flag>
+			</i19739>
+			<i10631 name="Rocket Launcher II">
+				<i20424 name="Datacore - Mechanical Engineering">2</i20424>
+				<i20420 name="Datacore - Rocket Science">2</i20420>
+				<RL name="Rocket Launcher I" id="10629">10</RL>
+				<i11399 name="Morphite">NULL</i11399>
+				<i11486 name="R.A.M. - Weapon Tech">NULL</i11486>
+				<11540 name="Quantum Microprocessor">NULL</i11540>
+				<i9848 name="Robotics">NULL</i9848>
+				<i37 name="Isogen">0</i37>
+				<i40 name="Megacyte">0</i40>
+				<i36 name="Mexallon">0</i36>
+				<i38 name="Nocxium">0</i38>
+				<i35 name="Pyerite">0</i35>
+				<i34 name="Tritanium">0</i34>
+				<i39 name="Zydrine">0</i39>
+				<qty>10</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<mfg_grp>launcher</mfg_grp>
+				<flag>NULL</flag>
+			</i10631>
+		</launchers>
+		<shield>
+			<i3841 name="Large Shield Extender II">
+			</i3841>
+			<i2281 name="Invulnerability Field II">
+			</i2281>
+			<i2301 name="Photon Scattering Field II">
+			</i2301>
+			<i2303 name="Heat Dissipation Field II">
+			</i2303>
+			<i2299 name="Ballistic Deflection Field II">
+			</i2299>
+			<i2297 name="Explosion Dampening Field II">
+			</i2297>
+			<i2553 name="Magnetic Scattering Amplifier II">
+			</i2553>
+			<i2531 name="Explosion Dampening Amplifier II">
+			</i2531>
+			<i2539 name="Heat Dissipation Amplifier II">
+			</i2539>
+			<i2547 name="Kinetic Deflection Amplifier II">
+			</i2547>
+			<i3608 name="Large Shield Transporter II">
+			</i3608>
+		</shield>
+		<armor>
+			<i11269 name="Energized Adaptive Nano Membrane II">
+			</i11269>
+			<i11646 name="Armor Explosive Hardener II">
+			</i11646>
+			<i11642 name="Armor EM Hardener II">
+			</i11642>
+			<i11648 name="Armor Thermic Hardener II">
+			</i11648>
+			<i11644 name="Armor Kinetic Hardener II">
+			</i11644>
+			<i2048 name="Damage Control II">
+			</i2048>
+			<i26914 name="Large Remote Armor Repair System II">
+			</i26914>
+		</armor>
+		<prop>
+			<i438 name="1MN Afterburner II">
+			</i438>
+			<i440 name="1MN MicroWarpdrive II">
+			</i440>
+			<i12058 name="10MN Afterburner II">
+			</i12058>
+			<i12076 name="10MN MicroWarpdrive II">
+			</i12076>
+			<i12068 name="100MN Afterburner II">
+			</i12068>
+			<i12084 name="100MN MicroWarpdrive II">
+			</i12084>
+		</prop>
+		<interdict>
+			<i527 name="Stasis Webifier II">
+			</i527>
+			<i448 name="Warp Scrambler II">
+			</i448>
+			<i3244 name="Warp Disruptor II">
+			</i3244>
+			<i19806 name="Target Painter II">
+			</i19806>
+			<i26892 name="Mobile Small Warp Disruptor II">
+			</i26892>
+			<i26890 name="Mobile Medium Warp Disruptor II">
+			</i26890>
+			<i26888 name="Mobile Large Warp Disruptor II">
+			</i26888>
+		</interdict>
+		<ships>
+			<i11400 name="Jaguar">
+			</i11400>
+			<i11371 name="Wolf">
+			</i11371>
+			<i12034 name="Hound">
+			</i12034>
+			<i12015 name="Munin">
+			</i12015>
+			<i11999 name="Vagabond">
+			</i11999>
+			<i11961 name="Huginn">
+			</i11961>
+			<i11963 name="Rapier">
+			</i11963>
+			<i12013 name="Broadsword">
+			</i12013>
+			<i22456 name="Sabre">
+			</i22456>
+			<i11978 name="Scimitar">
+			</i11978>
+			<i22444 name="Sleipnir">
+			</i22444>
+			<!--
+			< name="Harpy">
+			< name="Hawk">
+			< name="Manticore">
+			< name="Eagle">
+			< name="Cerberus">
+			< name="Rook">
+			< name="Falcon">
+			< name="Onyx">
+			< name="Flycatcher">
+			< name="Basilisk">
+			< name="Nighthawk">
+			< name="Purifier">
+			< name="Retribution">
+			< name="Vengeance">
+			< name="Sacrilege">
+			< name="Zealot">
+			< name="Curse">
+			< name="Pilgrim">
+			< name="Devoter">
+			< name="Heretic">
+			< name="Guardian">
+			< name="Absolution">
+			-->
+			<i12044 name="Enyo">
+			</i12044>
+			<i12042 name="Ishkur">
+			</i12042>
+			<i11989 name="Oneiros">
+			</i11989>
+			<i12005 name="Ishtar">
+			</i12005>
+			<i12021 name="Phobos">
+			</i12021>
+			<i11377 name="Nemesis">
+			</i11377>
+			<i22460 name="Eris">
+			</i22460>
+		</ships>
+		<exhum>
+			<i22544 name="Hulk">
+			</i22544>
+			<i22548 name="Mackinaw">
+			</i22548>
+		</exhum>
+		<mining>
+			<i22229 name="Ice Harvester II">
+			</i22229>
+			<i17912 name="Modulated Strip Miner II">
+			</i17912>
+			<i28578 name="Ice Harvester Upgrade II">
+			</i28578>
+			<i28576 name="Mining Laser Upgrade II">
+			</i28576>
+			<i4250 name="Small Tractor Beam II">
+			</i4250>
+		</mining>
+		<ammo>
+		</ammo>
+	</T2>
+	<capitals><!--Needs Values-->
+		<carrier>
+			<i23757 name="Archon">
+				<i21017 name="Capital Armor Plates">10</i21017>
+				<i21019 name="Capital Capacitor Battery">9</i21019>
+				<i21035 name="Capital Computer System">3</i21035>
+				<i21037 name="Capital Construction Parts">7</i21037>
+				<i24560 name="Capital Corporate Hangar Bay">10</i24560>
+				<i21029 name="Capital Drone Bay">45</i21029>
+				<i21025 name="Capital Jump Drive">10</i21025>
+				<i21021 name="Capital Power Generator">10</i21021>
+				<i21009 name="Capital Propulsion Engine">10</i21009>
+				<i21013 name="Capital Sensor Cluster">6</i21013>
+				<i21023 name="Capital Shield Emitter">3</i21023>
+				<i24558 name="Capital Ship Maintenance Bay">4</i24558>
+				<qty>1</qty>
+				<me>4</me>
+				<bld_time>15360</bld_time>
+				<mfg_grp>Carrier</mfg_grp>
+				<flag>capital</flag>
+			</i23757>
+			<i23915 name="Chimera">
+				<i21017 name="Capital Armor Plates">4</i21017>
+				<i21019 name="Capital Capacitor Battery">5</i21019>
+				<i21035 name="Capital Computer System">10</i21035>
+				<i21037 name="Capital Construction Parts">5</i21037>
+				<i24560 name="Capital Corporate Hangar Bay">10</i24560>
+				<i21029 name="Capital Drone Bay">38</i21029>
+				<i21025 name="Capital Jump Drive">10</i21025>
+				<i21021 name="Capital Power Generator">4</i21021>
+				<i21009 name="Capital Propulsion Engine">4</i21009>
+				<i21013 name="Capital Sensor Cluster">10</i21013>
+				<i21023 name="Capital Shield Emitter">10</i21023>
+				<i24558 name="Capital Ship Maintenance Bay">10</i24558>
+				<qty>1</qty>
+				<me>2</me>
+				<bld_time>15360</bld_time>
+				<mfg_grp>Carrier</mfg_grp>
+				<flag>capital</flag>
+			</i23915>
+			<i23911 name="Thanatos">
+				<i21017 name="Capital Armor Plates">8</i21017>
+				<i21019 name="Capital Capacitor Battery">7</i21019>
+				<i21035 name="Capital Computer System">7</i21035>
+				<i21037 name="Capital Construction Parts">9</i21037>
+				<i24560 name="Capital Corporate Hangar Bay">10</i24560>
+				<i21029 name="Capital Drone Bay">57</i21029>
+				<i21025 name="Capital Jump Drive">10</i21025>
+				<i21021 name="Capital Power Generator">6</i21021>
+				<i21009 name="Capital Propulsion Engine">7</i21009>
+				<i21013 name="Capital Sensor Cluster">7</i21013>
+				<i21023 name="Capital Shield Emitter">6</i21023>
+				<i24558 name="Capital Ship Maintenance Bay">10</i24558>
+				<qty>1</qty>
+				<me>2</me>
+				<bld_time>15360</bld_time>
+				<mfg_grp>Carrier</mfg_grp>
+				<flag>capital</flag>
+			</i23911>
+			<i24483 name="Nidhoggur">
+				<i21017 name="Capital Armor Plates">6</i21017>
+				<i21019 name="Capital Capacitor Battery">3</i21019>
+				<i21035 name="Capital Computer System">6</i21035>
+				<i21037 name="Capital Construction Parts">3</i21037>
+				<i24560 name="Capital Corporate Hangar Bay">10</i24560>
+				<i21029 name="Capital Drone Bay">50</i21029>
+				<i21025 name="Capital Jump Drive">10</i21025>
+				<i21021 name="Capital Power Generator">8</i21021>
+				<i21009 name="Capital Propulsion Engine">10</i21009>
+				<i21013 name="Capital Sensor Cluster">5</i21013>
+				<i21023 name="Capital Shield Emitter">8</i21023>
+				<i24558 name="Capital Ship Maintenance Bay">10</i24558>
+				<qty>1</qty>
+				<me>2</me>
+				<bld_time>15360</bld_time>
+				<mfg_grp>Carrier</mfg_grp>
+				<flag>capital</flag>
+			</i24483>
+		</carrier>
+		<dread>
+			<i19720 name="Revelation">
+				<i21017 name="Capital Armor Plates">25</i21017>
+				<i21019 name="Capital Capacitor Battery">30</i21019>
+				<i21035 name="Capital Computer System">15</i21035>
+				<i21037 name="Capital Construction Parts">25</i21037>
+				<i21025 name="Capital Jump Drive">10</i21025>
+				<i21041 name="Capital Launcher Hardpoint">0</i21041>
+				<i21021 name="Capital Power Generator">25</i21021>
+				<i21009 name="Capital Propulsion Engine">20</i21009>
+				<i21013 name="Capital Sensor Cluster">15</i21013>
+				<i21023 name="Capital Shield Emitter">10</i21023>
+				<i21039 name="Capital Siege Array">30</i21039>
+				<i21011 name="Capital Turret Hardpoint">30</i21011>
+				<qty>1</qty>
+				<me></me>
+				<bld_time></bld_time>
+				<mfg_grp>Dread</mfg_grp>
+				<flag>capital</flag>
+			</i19720>
+			<i19726 name="Phoenix">
+				<i21017 name="Capital Armor Plates"></i21017>
+				<i21019 name="Capital Capacitor Battery"></i21019>
+				<i21035 name="Capital Computer System"></i21035>
+				<i21037 name="Capital Construction Parts"></i21037>
+				<i21025 name="Capital Jump Drive"></i21025>
+				<i21041 name="Capital Launcher Hardpoint"></i21041>
+				<i21021 name="Capital Power Generator"></i21021>
+				<i21009 name="Capital Propulsion Engine"></i21009>
+				<i21013 name="Capital Sensor Cluster"></i21013>
+				<i21023 name="Capital Shield Emitter"></i21023>
+				<i21039 name="Capital Siege Array"></i21039>
+				<i21011 name="Capital Turret Hardpoint"></i21011>
+				<qty>1</qty>
+				<me></me>
+				<bld_time></bld_time>
+				<mfg_grp>Dread</mfg_grp>
+				<flag>capital</flag>
+			</i19726>
+			<i19724 name="Moros">
+				<i21017 name="Capital Armor Plates"></i21017>
+				<i21019 name="Capital Capacitor Battery"></i21019>
+				<i21035 name="Capital Computer System"></i21035>
+				<i21037 name="Capital Construction Parts"></i21037>
+				<i21025 name="Capital Jump Drive"></i21025>
+				<i21041 name="Capital Launcher Hardpoint"></i21041>
+				<i21021 name="Capital Power Generator"></i21021>
+				<i21009 name="Capital Propulsion Engine"></i21009>
+				<i21013 name="Capital Sensor Cluster"></i21013>
+				<i21023 name="Capital Shield Emitter"></i21023>
+				<i21039 name="Capital Siege Array"></i21039>
+				<i21011 name="Capital Turret Hardpoint"></i21011>
+				<qty>1</qty>
+				<me></me>
+				<bld_time></bld_time>
+				<mfg_grp>Dread</mfg_grp>
+				<flag>capital</flag>
+			</i19724>
+			<i19722 name="Naglfar">
+				<i21017 name="Capital Armor Plates"></i21017>
+				<i21019 name="Capital Capacitor Battery"></i21019>
+				<i21035 name="Capital Computer System"></i21035>
+				<i21037 name="Capital Construction Parts"></i21037>
+				<i21025 name="Capital Jump Drive"></i21025>
+				<i21041 name="Capital Launcher Hardpoint"></i21041>
+				<i21021 name="Capital Power Generator"></i21021>
+				<i21009 name="Capital Propulsion Engine"></i21009>
+				<i21013 name="Capital Sensor Cluster"></i21013>
+				<i21023 name="Capital Shield Emitter"></i21023>
+				<i21039 name="Capital Siege Array"></i21039>
+				<i21011 name="Capital Turret Hardpoint"></i21011>
+				<qty>1</qty>
+				<me></me>
+				<bld_time></bld_time>
+				<mfg_grp>Dread</mfg_grp>
+				<flag>capital</flag>
+			</i19722>
+		</dread>
+		<ore>
+			<i28606 name="Orca">
+				<i21019 name="Capital Capacitor Battery">8</i21019>
+				<i21027 name="Capital Cargo Bay">34</i21027>
+				<i21035 name="Capital Computer System">6</i21035>
+				<i21037 name="Capital Construction Parts">14</i21037>
+				<i24560 name="Capital Corporate Hangar Bay">4</i24560>
+				<i21013 name="Capital Sensor Cluster">4</i21013>
+				<i24558 name="Capital Ship Maintenance Bay">6</i24558>
+				<qty>1</qty>
+				<me>6</me>
+				<bld_time></bld_time>
+				<mfg_grp>Ore</mfg_grp>
+				<flag>capital</flag>
+			</i28606>
+			<i28352 name="Rorqual">
+				<i21017 name="Capital Armor Plates"></i21017>
+				<i21019 name="Capital Capacitor Battery"></i21019>
+				<i21027 name="Capital Cargo Bay"></i21027>
+				<i24547 name="Capital Clone Vat Bay"></i24547>
+				<i21035 name="Capital Computer System"></i21035>
+				<i21037 name="Capital Construction Parts"></i21037>
+				<i24560 name="Capital Corporate Hangar Bay"></i24560>
+				<i21029 name="Capital Drone Bay"></i21029>
+				<i21025 name="Capital Jump Drive"></i21025>
+				<i21021 name="Capital Power Generator"></i21021>
+				<i21009 name="Capital Propulsion Engine"></i21009>
+				<i21013 name="Capital Sensor Cluster"></i21013>
+				<i21023 name="Capital Shield Emitter"></i21023>
+				<i24558 name="Capital Ship Maintenance Bay"></i24558>
+				<qty>1</qty>
+				<me></me>
+				<bld_time></bld_time>
+				<mfg_grp>Ore</mfg_grp>
+				<flag>capital</flag>
+			</i28352>
+		</ore>
+		<freighter>
+			<i20183 name="Providence">
+				<i21017 name="Capital Armor Plates"></i21017>
+				<i21027 name="Capital Cargo Bay"></i21027>
+				<i21037 name="Capital Construction Parts"></i21037>
+				<i21009 name="Capital Propulsion Engine"></i21009>
+				<qty>1</qty>
+				<me></me>
+				<bld_time></bld_time>
+				<mfg_grp>Ore</mfg_grp>
+				<flag>capital</flag>
+			</i20183>
+			<i20185 name="Charon">
+				<i21017 name="Capital Armor Plates"></i21017>
+				<i21027 name="Capital Cargo Bay"></i21027>
+				<i21037 name="Capital Construction Parts"></i21037>
+				<i21009 name="Capital Propulsion Engine"></i21009>
+				<qty>1</qty>
+				<me></me>
+				<bld_time></bld_time>
+				<mfg_grp>Ore</mfg_grp>
+				<flag>capital</flag>
+			</i20185>
+			<i20187 name="Obelisk">
+				<i21017 name="Capital Armor Plates"></i21017>
+				<i21027 name="Capital Cargo Bay"></i21027>
+				<i21037 name="Capital Construction Parts"></i21037>
+				<i21009 name="Capital Propulsion Engine"></i21009>
+				<qty>1</qty>
+				<me></me>
+				<bld_time></bld_time>
+				<mfg_grp>Ore</mfg_grp>
+				<flag>capital</flag>
+			</i20187>
+			<i20189 name="Fenrir">
+				<i21017 name="Capital Armor Plates"></i21017>
+				<i21027 name="Capital Cargo Bay"></i21027>
+				<i21037 name="Capital Construction Parts"></i21037>
+				<i21009 name="Capital Propulsion Engine"></i21009>
+				<qty>1</qty>
+				<me></me>
+				<bld_time></bld_time>
+				<mfg_grp>Ore</mfg_grp>
+				<flag>capital</flag>
+			</i20189>
+		</freighter>
+		<titan>
+			<i11567 name="Avatar">
+				<i21017 name="Capital Armor Plates"></i21017>
+				<i21019 name="Capital Capacitor Battery"></i21019>
+				<i24547 name="Capital Clone Vat Bay"></i24547>
+				<i21035 name="Capital Computer System"></i21035>
+				<i21037 name="Capital Construction Parts"></i21037>
+				<i24560 name="Capital Corporate Hangar Bay"></i24560>
+				<i24556 name="Capital Doomsday Weapon Mount"></i24556>
+				<i24545 name="Capital Jump Bridge Array"></i24545>
+				<i21025 name="Capital Jump Drive"></i21025>
+				<i21041 name="Capital Launcher Hardpoint"></i21041>
+				<i21021 name="Capital Power Generator"></i21021>
+				<i21009 name="Capital Propulsion Engine"></i21009>
+				<i21013 name="Capital Sensor Cluster"></i21013>
+				<i21023 name="Capital Shield Emitter"></i21023>
+				<i21039 name="Capital Siege Array"></i21039>
+				<i21011 name="Capital Turret Hardpoint"></i21011>
+				<qty>1</qty>
+				<me></me>
+				<bld_time></bld_time>
+				<mfg_grp>Titan</mfg_grp>
+				<flag>capital</flag>
+			</i11567>
+			<i3764 name="Leviathan">
+				<i21017 name="Capital Armor Plates"></i21017>
+				<i21019 name="Capital Capacitor Battery"></i21019>
+				<i24547 name="Capital Clone Vat Bay"></i24547>
+				<i21035 name="Capital Computer System"></i21035>
+				<i21037 name="Capital Construction Parts"></i21037>
+				<i24560 name="Capital Corporate Hangar Bay"></i24560>
+				<i24556 name="Capital Doomsday Weapon Mount"></i24556>
+				<i24545 name="Capital Jump Bridge Array"></i24545>
+				<i21025 name="Capital Jump Drive"></i21025>
+				<i21041 name="Capital Launcher Hardpoint"></i21041>
+				<i21021 name="Capital Power Generator"></i21021>
+				<i21009 name="Capital Propulsion Engine"></i21009>
+				<i21013 name="Capital Sensor Cluster"></i21013>
+				<i21023 name="Capital Shield Emitter"></i21023>
+				<i21039 name="Capital Siege Array"></i21039>
+				<i21011 name="Capital Turret Hardpoint"></i21011>
+				<qty>1</qty>
+				<me></me>
+				<bld_time></bld_time>
+				<mfg_grp>Titan</mfg_grp>
+				<flag>capital</flag>
+			</i3764>
+			<i671 name="Erebus">
+				<i21017 name="Capital Armor Plates"></i21017>
+				<i21019 name="Capital Capacitor Battery"></i21019>
+				<i24547 name="Capital Clone Vat Bay"></i24547>
+				<i21035 name="Capital Computer System"></i21035>
+				<i21037 name="Capital Construction Parts"></i21037>
+				<i24560 name="Capital Corporate Hangar Bay"></i24560>
+				<i24556 name="Capital Doomsday Weapon Mount"></i24556>
+				<i24545 name="Capital Jump Bridge Array"></i24545>
+				<i21025 name="Capital Jump Drive"></i21025>
+				<i21041 name="Capital Launcher Hardpoint"></i21041>
+				<i21021 name="Capital Power Generator"></i21021>
+				<i21009 name="Capital Propulsion Engine"></i21009>
+				<i21013 name="Capital Sensor Cluster"></i21013>
+				<i21023 name="Capital Shield Emitter"></i21023>
+				<i21039 name="Capital Siege Array"></i21039>
+				<i21011 name="Capital Turret Hardpoint"></i21011>
+				<qty>1</qty>
+				<me></me>
+				<bld_time></bld_time>
+				<mfg_grp>Titan</mfg_grp>
+				<flag>capital</flag>
+			</i671>
+			<i23773 name="Ragnarok">
+				<i21017 name="Capital Armor Plates"></i21017>
+				<i21019 name="Capital Capacitor Battery"></i21019>
+				<i24547 name="Capital Clone Vat Bay"></i24547>
+				<i21035 name="Capital Computer System"></i21035>
+				<i21037 name="Capital Construction Parts"></i21037>
+				<i24560 name="Capital Corporate Hangar Bay"></i24560>
+				<i24556 name="Capital Doomsday Weapon Mount"></i24556>
+				<i24545 name="Capital Jump Bridge Array"></i24545>
+				<i21025 name="Capital Jump Drive"></i21025>
+				<i21041 name="Capital Launcher Hardpoint"></i21041>
+				<i21021 name="Capital Power Generator"></i21021>
+				<i21009 name="Capital Propulsion Engine"></i21009>
+				<i21013 name="Capital Sensor Cluster"></i21013>
+				<i21023 name="Capital Shield Emitter"></i21023>
+				<i21039 name="Capital Siege Array"></i21039>
+				<i21011 name="Capital Turret Hardpoint"></i21011>
+				<qty>1</qty>
+				<me></me>
+				<bld_time></bld_time>
+				<mfg_grp>Titan</mfg_grp>
+				<flag>capital</flag>
+			</i23773>
+		</titan>
+		<sc>
+			<i23919 name="Aeon">
+				<i21017 name="Capital Armor Plates"></i21017>
+				<i21019 name="Capital Capacitor Battery"></i21019>
+				<i21035 name="Capital Computer System"></i21035>
+				<i21037 name="Capital Construction Parts"></i21037>
+				<i24560 name="Capital Corporate Hangar Bay"></i24560>
+				<i21029 name="Capital Drone Bay"></i21029>
+				<i21025 name="Capital Jump Drive"></i21025>
+				<i21021 name="Capital Power Generator"></i21021>
+				<i21009 name="Capital Propulsion Engine"></i21009>
+				<i21013 name="Capital Sensor Cluster"></i21013>
+				<i21023 name="Capital Shield Emitter"></i21023>
+				<i24558 name="Capital Ship Maintenance Bay"></i24558>
+				<qty>1</qty>
+				<me></me>
+				<bld_time></bld_time>
+				<mfg_grp>SC</mfg_grp>
+				<flag>capital</flag>
+			</i23919>
+			<i23917 name="Wyvern">
+				<i21017 name="Capital Armor Plates"></i21017>
+				<i21019 name="Capital Capacitor Battery"></i21019>
+				<i21035 name="Capital Computer System"></i21035>
+				<i21037 name="Capital Construction Parts"></i21037>
+				<i24560 name="Capital Corporate Hangar Bay"></i24560>
+				<i21029 name="Capital Drone Bay"></i21029>
+				<i21025 name="Capital Jump Drive"></i21025>
+				<i21021 name="Capital Power Generator"></i21021>
+				<i21009 name="Capital Propulsion Engine"></i21009>
+				<i21013 name="Capital Sensor Cluster"></i21013>
+				<i21023 name="Capital Shield Emitter"></i21023>
+				<i24558 name="Capital Ship Maintenance Bay"></i24558>
+				<qty>1</qty>
+				<me></me>
+				<bld_time></bld_time>
+				<mfg_grp>SC</mfg_grp>
+				<flag>capital</flag>
+			</i23917>
+			<i23913 name="Nyx">
+				<i21017 name="Capital Armor Plates"></i21017>
+				<i21019 name="Capital Capacitor Battery"></i21019>
+				<i21035 name="Capital Computer System"></i21035>
+				<i21037 name="Capital Construction Parts"></i21037>
+				<i24560 name="Capital Corporate Hangar Bay"></i24560>
+				<i21029 name="Capital Drone Bay"></i21029>
+				<i21025 name="Capital Jump Drive"></i21025>
+				<i21021 name="Capital Power Generator"></i21021>
+				<i21009 name="Capital Propulsion Engine"></i21009>
+				<i21013 name="Capital Sensor Cluster"></i21013>
+				<i21023 name="Capital Shield Emitter"></i21023>
+				<i24558 name="Capital Ship Maintenance Bay"></i24558>
+				<qty>1</qty>
+				<me></me>
+				<bld_time></bld_time>
+				<mfg_grp>SC</mfg_grp>
+				<flag>capital</flag>
+			</i23913>
+			<i22852 name="Hel">
+				<i21017 name="Capital Armor Plates"></i21017>
+				<i21019 name="Capital Capacitor Battery"></i21019>
+				<i21035 name="Capital Computer System"></i21035>
+				<i21037 name="Capital Construction Parts"></i21037>
+				<i24560 name="Capital Corporate Hangar Bay"></i24560>
+				<i21029 name="Capital Drone Bay"></i21029>
+				<i21025 name="Capital Jump Drive"></i21025>
+				<i21021 name="Capital Power Generator"></i21021>
+				<i21009 name="Capital Propulsion Engine"></i21009>
+				<i21013 name="Capital Sensor Cluster"></i21013>
+				<i21023 name="Capital Shield Emitter"></i21023>
+				<i24558 name="Capital Ship Maintenance Bay"></i24558>
+				<qty>1</qty>
+				<me></me>
+				<bld_time></bld_time>
+				<mfg_grp>SC</mfg_grp>
+				<flag>capital</flag>
+			</i22852>
+		</sc>
+	</capitals>
+</root>
