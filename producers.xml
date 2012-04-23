@@ -14,4 +14,14 @@
 		</i1850196909>
 	<!--Engineering-->
 	<!--Shield-->
+		<i90962267 name="Spartisan Eraticus">
+			<i2281 name="Invulnerability Field II">200</i2281>
+			<i2301 name="Photon Scattering Field II">200</i2301>
+			<i3608 name="Large Shield Transporter II">100</i3608>
+		</i90962267>
+		<i91380984 name="Roland Raskolnikov">
+			<i2281 name="Invulnerability Field II">200</i2281>
+			<i2301 name="Photon Scattering Field II">200</i2301>
+			<i3608 name="Large Shield Transporter II">100</i3608>
+		</i91380984>
 </root>
