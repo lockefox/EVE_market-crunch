@@ -259,5 +259,25 @@
 		</shield>
 	</module>
 	<ship>
+		<exhum>
+			<i17476 name="Covetor" id="COV">
+				<i37 name="Isogen">17864</i37>
+				<i40 name="Megacyte">270</i40>
+				<i36 name="Mexallon">61356</i36>
+				<i38 name="Nocxium">3977</i38>
+				<i35 name="Pyerite">645826</i35>
+				<i34 name="Tritanium">2122657</i34>
+				<i39 name="Zydrine">1031</i39>
+			</i17476>
+			<i17478 name="Retriever" id="RET">
+				<i37 name="Isogen">7139</i37>
+				<i40 name="Megacyte">78</i40>
+				<i36 name="Mexallon">11105</i36>
+				<i38 name="Nocxium">1576</i38>
+				<i35 name="Pyerite">54339</i35>
+				<i34 name="Tritanium">513448</i34>
+				<i39 name="Zydrine">404</i39>
+			</i17478>
+		</exhum>
 	</ship>
 </root>
