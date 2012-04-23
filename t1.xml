@@ -157,6 +157,106 @@
 				<i39 name="Zydrine">0</i39>
 			</i10629>
 		</launcher>
+		<shield>
+			<i3839 name="Large Shield Extender I" id="LSE">
+				<i37 name="Isogen">0</i37>
+				<i40 name="Megacyte">0</i40>
+				<i36 name="Mexallon">163</i36>
+				<i38 name="Nocxium">0</i38>
+				<i35 name="Pyerite">2494</i35>
+				<i34 name="Tritanium">3047</i34>
+				<i39 name="Zydrine">0</i39>
+			</i3839>
+			<i578 name="Invulnerability Field I" id="INVL">
+				<i37 name="Isogen">2</i37>
+				<i40 name="Megacyte">0</i40>
+				<i36 name="Mexallon">197</i36>
+				<i38 name="Nocxium">0</i38>
+				<i35 name="Pyerite">6743</i35>
+				<i34 name="Tritanium">7269</i34>
+				<i39 name="Zydrine">0</i39>
+			</i578>
+			<i2293 name="Photon Scattering Field I" id="EMAS">
+				<i37 name="Isogen">2</i37>
+				<i40 name="Megacyte">0</i40>
+				<i36 name="Mexallon">197</i36>
+				<i38 name="Nocxium">0</i38>
+				<i35 name="Pyerite">6743</i35>
+				<i34 name="Tritanium">7269</i34>
+				<i39 name="Zydrine">0</i39>
+			</i2293>
+			<i2295 name="Heat Dissipation Field I" id="THAS">
+				<i37 name="Isogen">2</i37>
+				<i40 name="Megacyte">0</i40>
+				<i36 name="Mexallon">197</i36>
+				<i38 name="Nocxium">0</i38>
+				<i35 name="Pyerite">6743</i35>
+				<i34 name="Tritanium">7269</i34>
+				<i39 name="Zydrine">0</i39>
+			</i2295>
+			<i2291 name="Ballistic Deflection Field I" id="KNAS">
+				<i37 name="Isogen">2</i37>
+				<i40 name="Megacyte">0</i40>
+				<i36 name="Mexallon">197</i36>
+				<i38 name="Nocxium">0</i38>
+				<i35 name="Pyerite">6743</i35>
+				<i34 name="Tritanium">7269</i34>
+				<i39 name="Zydrine">0</i39>
+			</i2291>
+			<i2289 name="Explosion Dampening Field I" id="EXAS">
+				<i37 name="Isogen">2</i37>
+				<i40 name="Megacyte">0</i40>
+				<i36 name="Mexallon">197</i36>
+				<i38 name="Nocxium">0</i38>
+				<i35 name="Pyerite">6743</i35>
+				<i34 name="Tritanium">7269</i34>
+				<i39 name="Zydrine">0</i39>
+			</i2289>
+			<i1808 name="Magnetic Scattering Field I" id="EMPS">
+				<i37 name="Isogen">0</i37>
+				<i40 name="Megacyte">0</i40>
+				<i36 name="Mexallon">0</i36>
+				<i38 name="Nocxium">0</i38>
+				<i35 name="Pyerite">1870</i35>
+				<i34 name="Tritanium">1896</i34>
+				<i39 name="Zydrine">0</i39>
+			</i1808>
+			<i2529 name="Explosion Dampening Amplifier I" id="EXPS">
+				<i37 name="Isogen">0</i37>
+				<i40 name="Megacyte">0</i40>
+				<i36 name="Mexallon">0</i36>
+				<i38 name="Nocxium">0</i38>
+				<i35 name="Pyerite">1870</i35>
+				<i34 name="Tritanium">1896</i34>
+				<i39 name="Zydrine">0</i39>
+			</i2529>
+			<i2537 name="Heat Dissipation Amplifier I" id="THPS">				<i37 name="Isogen">0</i37>
+				<i40 name="Megacyte">0</i40>
+				<i36 name="Mexallon">0</i36>
+				<i38 name="Nocxium">0</i38>
+				<i35 name="Pyerite">1870</i35>
+				<i34 name="Tritanium">1896</i34>
+				<i39 name="Zydrine">0</i39>
+			</i2537>
+			<i2545 name="Kinetic Deflection Amplifier I" id="KNPS">
+				<i37 name="Isogen">0</i37>
+				<i40 name="Megacyte">0</i40>
+				<i36 name="Mexallon">0</i36>
+				<i38 name="Nocxium">0</i38>
+				<i35 name="Pyerite">1870</i35>
+				<i34 name="Tritanium">1896</i34>
+				<i39 name="Zydrine">0</i39>
+			</i2545>
+			<i3606 name="Large Shield Transporter I" id="LST">
+				<i37 name="Isogen">0</i37>
+				<i40 name="Megacyte">0</i40>
+				<i36 name="Mexallon">1</i36>
+				<i38 name="Nocxium">0</i38>
+				<i35 name="Pyerite">2931</i35>
+				<i34 name="Tritanium">3888</i34>
+				<i39 name="Zydrine">0</i39>
+			</i3606>
+		</shield>
 	</module>
 	<ship>
 	</ship>
