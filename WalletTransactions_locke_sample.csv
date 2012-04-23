@@ -1,0 +1,1001 @@
+date,transID,quantity,type,price,clientName,stationName,transactionType,transactionFor,journalTransactionID
+2012-04-21 00:14:43,2480116750,3,30 Day Pilot's License Extension (PLEX),494649989.98,Baroness Arica,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Personal,5772295323
+2012-04-21 00:13:26,2480115970,1,30 Day Pilot's License Extension (PLEX),494649989.98,Stinky Old Ron,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Personal,5772292027
+2012-04-21 00:05:05,2480110430,1,Nanotransistors Reaction,4400000.00,Quarum Nibblet,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5772267252
+2012-04-21 00:04:36,2480110050,1,Neo Mercurite Reaction,900000.00,Rijana Velux,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5772265741
+2012-04-21 00:04:22,2480109868,1,Platinum Technite Reaction,900000.00,Rijana Velux,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5772264978
+2012-04-21 00:04:00,2480109601,8400,Neodymium,19299.99,Trollestia,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5772263857
+2012-04-21 00:03:45,2480109399,8400,Mercury,3999.93,Jass Sunrunner,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5772263019
+2012-04-20 23:57:55,2480105392,8400,Platinum,3899.99,Trollestia,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5772245583
+2012-04-20 22:18:37,2480034219,2,30 Day Pilot's License Extension (PLEX),499737887.66,Wvarianslove,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Personal,5771924074
+2012-04-19 04:02:59,2478425489,1,Expanded Cargohold II,869999.99,Jacek Flame,Ardene VIII - Moon 11 - Center for Advanced Studies School,Buy,Corporation,5764601727
+2012-04-19 04:01:52,2478424802,50,Gaze Survey Probe I,194011.20,CBD Corporation,Ardene VI - Moon 12 - CBD Corporation Storage,Buy,Corporation,5764598973
+2012-04-16 04:30:47,2475662439,28,Warp Disruptor I,83999.97,Oriana Bananana,Dodixie IX - Moon 20 - Federation Navy Assembly Plant,Buy,Corporation,5752009455
+2012-04-16 04:30:40,2475662367,158,Warp Disruptor I,83999.97,Oriana Bananana,Dodixie IX - Moon 20 - Federation Navy Assembly Plant,Buy,Corporation,5752008955
+2012-04-16 04:30:40,2475662365,5,Warp Disruptor I,83999.97,Mapuhi,Dodixie IX - Moon 20 - Federation Navy Assembly Plant,Buy,Corporation,5752008942
+2012-04-16 04:30:40,2475662364,7,Warp Disruptor I,83999.97,Djey Li,Dodixie IX - Moon 20 - Federation Navy Assembly Plant,Buy,Corporation,5752008931
+2012-04-16 04:30:39,2475662363,7,Warp Disruptor I,83999.97,Rufus Winchester,Dodixie IX - Moon 20 - Federation Navy Assembly Plant,Buy,Corporation,5752008920
+2012-04-16 04:30:39,2475662362,2,Warp Disruptor I,83999.97,Krista Tokila,Dodixie IX - Moon 20 - Federation Navy Assembly Plant,Buy,Corporation,5752008914
+2012-04-16 04:30:39,2475662360,2,Warp Disruptor I,83999.97,Rico Cruise,Dodixie IX - Moon 20 - Federation Navy Assembly Plant,Buy,Corporation,5752008907
+2012-04-16 04:30:39,2475662359,5,Warp Disruptor I,83999.97,Weselowsky,Dodixie IX - Moon 20 - Federation Navy Assembly Plant,Buy,Corporation,5752008904
+2012-04-16 04:30:11,2475662146,33,Warp Scrambler I,79997.92,Kavaien,Dodixie IX - Moon 20 - Federation Navy Assembly Plant,Buy,Corporation,5752007461
+2012-04-16 04:30:11,2475662145,9,Warp Scrambler I,79997.92,Weselowsky,Dodixie IX - Moon 20 - Federation Navy Assembly Plant,Buy,Corporation,5752007457
+2012-04-16 04:30:11,2475662144,8,Warp Scrambler I,79997.92,NeXuS of Omni,Dodixie IX - Moon 20 - Federation Navy Assembly Plant,Buy,Corporation,5752007454
+2012-04-16 04:30:11,2475662143,2,Warp Scrambler I,79997.92,Jon Biggs,Dodixie IX - Moon 20 - Federation Navy Assembly Plant,Buy,Corporation,5752007448
+2012-04-16 04:30:11,2475662142,1,Warp Scrambler I,79997.92,Namidea Tivianne,Dodixie IX - Moon 20 - Federation Navy Assembly Plant,Buy,Corporation,5752007445
+2012-04-16 04:30:11,2475662140,5,Warp Scrambler I,79997.92,Jago Price,Dodixie IX - Moon 20 - Federation Navy Assembly Plant,Buy,Corporation,5752007438
+2012-04-16 04:30:11,2475662139,18,Warp Scrambler I,79997.92,Brad0295,Dodixie IX - Moon 20 - Federation Navy Assembly Plant,Buy,Corporation,5752007435
+2012-04-16 04:30:11,2475662137,4,Warp Scrambler I,79997.92,Brad0295,Dodixie IX - Moon 20 - Federation Navy Assembly Plant,Buy,Corporation,5752007429
+2012-04-16 04:29:47,2475661956,24,R.A.M.- Electronics,73998.99,Spacey Stacie,Dodixie IX - Moon 20 - Federation Navy Assembly Plant,Buy,Corporation,5752006634
+2012-04-16 04:29:47,2475661955,1,R.A.M.- Electronics,73998.99,Cirdan Carnil,Dodixie IX - Moon 20 - Federation Navy Assembly Plant,Buy,Corporation,5752006631
+2012-04-16 04:29:47,2475661954,81,R.A.M.- Electronics,73998.99,Bifordus Maximus,Dodixie IX - Moon 20 - Federation Navy Assembly Plant,Buy,Corporation,5752006628
+2012-04-16 04:29:47,2475661953,94,R.A.M.- Electronics,73998.99,Meat Explosion,Dodixie IX - Moon 20 - Federation Navy Assembly Plant,Buy,Corporation,5752006625
+2012-04-16 04:29:02,2475661573,4,Energized Adaptive Nano Membrane I,194999.99,Kasigi Yono,Dodixie IX - Moon 20 - Federation Navy Assembly Plant,Buy,Corporation,5752005092
+2012-04-16 04:29:02,2475661572,1,Energized Adaptive Nano Membrane I,194999.99,Morgan Ducard,Dodixie IX - Moon 20 - Federation Navy Assembly Plant,Buy,Corporation,5752005089
+2012-04-16 04:29:02,2475661571,2,Energized Adaptive Nano Membrane I,194999.99,Scarlett LaBlanc,Dodixie IX - Moon 20 - Federation Navy Assembly Plant,Buy,Corporation,5752005086
+2012-04-16 04:28:55,2475661518,71,Energized Adaptive Nano Membrane I,180500.98,Scarlett LaBlanc,Dodixie IX - Moon 20 - Federation Navy Assembly Plant,Buy,Corporation,5752004827
+2012-04-16 04:28:55,2475661517,2,Energized Adaptive Nano Membrane I,180500.98,Mostal,Dodixie IX - Moon 20 - Federation Navy Assembly Plant,Buy,Corporation,5752004824
+2012-04-16 04:28:38,2475661402,59,Energized Adaptive Nano Membrane I,180500.96,Kasigi Yono,Dodixie IX - Moon 20 - Federation Navy Assembly Plant,Buy,Corporation,5752004322
+2012-04-16 04:28:32,2475661357,2,Energized Adaptive Nano Membrane I,180500.96,Kasigi Yono,Dodixie IX - Moon 20 - Federation Navy Assembly Plant,Buy,Corporation,5752004132
+2012-04-16 04:28:32,2475661356,59,Energized Adaptive Nano Membrane I,180500.96,Joe Lowkey,Dodixie IX - Moon 20 - Federation Navy Assembly Plant,Buy,Corporation,5752004129
+2012-04-16 04:28:01,2475661075,28,Stasis Webifier I,35823.98,Leo Morgana,Dodixie IX - Moon 20 - Federation Navy Assembly Plant,Buy,Corporation,5752003023
+2012-04-16 04:27:50,2475660964,68,Stasis Webifier I,35820.00,Fred Knucklebones,Dodixie IX - Moon 20 - Federation Navy Assembly Plant,Buy,Corporation,5752002597
+2012-04-16 04:27:33,2475660825,8,Stasis Webifier I,35820.00,Fred Knucklebones,Dodixie IX - Moon 20 - Federation Navy Assembly Plant,Buy,Corporation,5752002005
+2012-04-16 04:27:33,2475660822,6,Stasis Webifier I,35820.00,aurl,Dodixie IX - Moon 20 - Federation Navy Assembly Plant,Buy,Corporation,5752001999
+2012-04-16 04:27:33,2475660820,50,Stasis Webifier I,35820.00,Zaphyla Cypher,Dodixie IX - Moon 20 - Federation Navy Assembly Plant,Buy,Corporation,5752001989
+2012-04-16 04:27:33,2475660819,11,Stasis Webifier I,35820.00,mwolf00,Dodixie IX - Moon 20 - Federation Navy Assembly Plant,Buy,Corporation,5752001986
+2012-04-16 04:27:17,2475660684,22,Stasis Webifier I,35820.00,mwolf00,Dodixie IX - Moon 20 - Federation Navy Assembly Plant,Buy,Corporation,5752001446
+2012-04-16 04:27:17,2475660683,44,Stasis Webifier I,35820.00,Trish Black,Dodixie IX - Moon 20 - Federation Navy Assembly Plant,Buy,Corporation,5752001443
+2012-04-16 04:27:17,2475660682,9,Stasis Webifier I,35820.00,Monique D'Mornay,Dodixie IX - Moon 20 - Federation Navy Assembly Plant,Buy,Corporation,5752001440
+2012-04-16 04:27:06,2475660582,5,Stasis Webifier I,34998.22,Monique D'Mornay,Dodixie IX - Moon 20 - Federation Navy Assembly Plant,Buy,Corporation,5752001043
+2012-04-16 04:27:06,2475660580,8,Stasis Webifier I,34998.22,Kavaien,Dodixie IX - Moon 20 - Federation Navy Assembly Plant,Buy,Corporation,5752001037
+2012-04-16 04:27:06,2475660579,4,Stasis Webifier I,34998.22,Duncan Idaho75,Dodixie IX - Moon 20 - Federation Navy Assembly Plant,Buy,Corporation,5752001034
+2012-04-16 04:27:06,2475660578,18,Stasis Webifier I,34998.22,Bizen Osafune,Dodixie IX - Moon 20 - Federation Navy Assembly Plant,Buy,Corporation,5752001031
+2012-04-16 04:27:06,2475660576,2,Stasis Webifier I,34998.22,Shrimpy Shrooms,Dodixie IX - Moon 20 - Federation Navy Assembly Plant,Buy,Corporation,5752001025
+2012-04-16 04:27:06,2475660575,13,Stasis Webifier I,34998.22,Leahim Gaterau,Dodixie IX - Moon 20 - Federation Navy Assembly Plant,Buy,Corporation,5752001022
+2012-04-16 04:26:58,2475660509,17,Stasis Webifier I,34998.22,Leahim Gaterau,Dodixie IX - Moon 20 - Federation Navy Assembly Plant,Buy,Corporation,5752000740
+2012-04-16 04:26:58,2475660508,1,Stasis Webifier I,34998.22,Bariga24,Dodixie IX - Moon 20 - Federation Navy Assembly Plant,Buy,Corporation,5752000737
+2012-04-16 04:26:58,2475660507,32,Stasis Webifier I,34998.22,Iris Jacobsen,Dodixie IX - Moon 20 - Federation Navy Assembly Plant,Buy,Corporation,5752000734
+2012-04-16 04:26:44,2475660382,70,Stasis Webifier I,32167.68,Iris Jacobsen,Dodixie IX - Moon 20 - Federation Navy Assembly Plant,Buy,Corporation,5752000196
+2012-04-16 04:26:44,2475660381,13,Stasis Webifier I,32167.68,Weselowsky,Dodixie IX - Moon 20 - Federation Navy Assembly Plant,Buy,Corporation,5752000193
+2012-04-16 04:26:44,2475660380,17,Stasis Webifier I,32167.68,Zaphyla Cypher,Dodixie IX - Moon 20 - Federation Navy Assembly Plant,Buy,Corporation,5752000189
+2012-04-16 04:26:31,2475660237,53,Stasis Webifier I,32167.68,Zaphyla Cypher,Dodixie IX - Moon 20 - Federation Navy Assembly Plant,Buy,Corporation,5751999641
+2012-04-16 04:26:31,2475660236,2,Stasis Webifier I,32167.68,Cerian Alderoth,Dodixie IX - Moon 20 - Federation Navy Assembly Plant,Buy,Corporation,5751999637
+2012-04-16 04:26:31,2475660235,1,Stasis Webifier I,32167.68,Alex Veg,Dodixie IX - Moon 20 - Federation Navy Assembly Plant,Buy,Corporation,5751999634
+2012-04-16 04:26:31,2475660234,44,Stasis Webifier I,32167.68,Jago Price,Dodixie IX - Moon 20 - Federation Navy Assembly Plant,Buy,Corporation,5751999631
+2012-04-16 03:02:57,2475615657,5043,Enriched Uranium,8699.14,Rudolf VonCracker,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5751795678
+2012-04-16 03:02:57,2475615656,200,Enriched Uranium,8699.14,Simon Belemonte,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5751795675
+2012-04-16 02:56:06,2475611586,13356,Coolant,8859.93,Udama Penken,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5751778113
+2012-04-16 02:55:16,2475611091,327775,Liquid Ozone,429.96,Doctor Rain,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5751775276
+2012-04-16 02:54:47,2475610807,277601,Heavy Water,70.99,Mayonay,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5751774056
+2012-04-16 02:50:18,2475608364,888800,Nitrogen Isotopes,879.92,benkobenko,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5751762975
+2012-04-16 02:26:42,2475594450,400,Datacore - Rocket Science,165099.99,Mr Blueberry,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5751701482
+2012-04-16 02:26:29,2475594311,407,Datacore - Quantum Physics,173876.03,Tharman 02,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5751700934
+2012-04-16 02:26:09,2475594104,262,Datacore - Molecular Engineering,213987.99,Jass Sunrunner,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5751700060
+2012-04-16 02:25:52,2475593931,769,Datacore - Mechanical Engineering,225066.21,Icor Colour,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5751699266
+2012-04-16 02:25:18,2475593624,240,Datacore - Graviton Physics,139999.94,Shoubai Caldari,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5751697184
+2012-04-16 02:25:18,2475593623,360,Datacore - Graviton Physics,139999.94,Eli Brask,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5751697181
+2012-04-16 02:24:56,2475593423,850,Datacore - Electronic Engineering,174000.00,Doctor Rain,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5751696212
+2012-04-16 02:24:56,2475593422,6,Datacore - Electronic Engineering,174000.00,Lucy Mot'su,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5751696209
+2012-04-16 02:24:56,2475593421,206,Datacore - Electronic Engineering,174000.00,Mr Pop,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5751696206
+2012-04-16 02:04:00,2475581832,1000,Construction Blocks,5979.43,Svendai,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5751642886
+2012-04-16 02:03:44,2475581716,1872,Transmitter,6999.99,GameAddiction,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5751642351
+2012-04-16 02:03:44,2475581715,1780,Transmitter,6999.99,Goofman,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5751642346
+2012-04-16 02:03:44,2475581714,4348,Transmitter,6999.99,Jass Sunrunner,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5751642343
+2012-04-16 02:02:53,2475581198,10000,Miniature Electronics,6778.70,Red Skelton,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5751640190
+2012-04-16 02:02:35,2475581008,40,Mechanical Parts,6645.97,Eli Brask,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5751639405
+2012-04-16 02:02:35,2475581007,2960,Mechanical Parts,6645.97,John Bering,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5751639402
+2012-04-16 02:01:19,2475580266,100000,Tungsten Carbide,105.95,Nightfall75g,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5751636074
+2012-04-16 02:01:04,2475580125,102680,Titanium Carbide,108.04,Albert Sinmato,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5751635448
+2012-04-16 02:00:42,2475579915,500720,Sylramic Fibers,203.98,naisoutt,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5751634247
+2012-04-16 02:00:16,2475579669,92000,Phenolic Composites,726.98,PrincesB,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5751632411
+2012-04-16 01:59:51,2475579479,236150,Nanotransistors,8628.26,roborock,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5751631460
+2012-04-16 01:59:51,2475579478,39500,Nanotransistors,8628.26,Whisper Willow,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5751631457
+2012-04-16 01:59:11,2475579097,173310,Fullerides,3299.51,Aoxo Moxoa,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5751629828
+2012-04-16 01:58:44,2475578858,16228,Ferrogel,8824.87,jerrythmic,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5751628871
+2012-04-16 01:57:36,2475578233,620098,Fernite Carbide,117.06,Dagobert I Duck,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5751626259
+2012-04-16 01:56:38,2475577690,5000,Fermionic Condensates,19992.00,Ghetto Bootay,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5751623893
+2012-04-16 01:56:14,2475577449,1956370,Crystalline Carbonide,136.98,Chris Smith,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5751622833
+2012-04-16 01:46:15,2475571311,22,Nuclear Reactor Unit,30000.00,Don Bloody,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5751595365
+2012-04-16 01:40:11,2475567597,11798715,Pyerite,7.13,Cedora Swordwarden,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5751578086
+2012-04-16 01:40:11,2475567596,148999,Pyerite,7.13,RavenRonien,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5751578083
+2012-04-16 01:40:11,2475567595,5355039,Pyerite,7.13,Tetraalo,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5751578080
+2012-04-16 01:40:11,2475567594,13392,Pyerite,7.13,Revan Vitra,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5751578077
+2012-04-16 01:38:59,2475566819,17088450,Tritanium,6.08,Tetraalo,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5751574891
+2012-04-16 01:38:59,2475566818,227695,Tritanium,6.08,Revan Vitra,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5751574888
+2012-04-16 01:38:44,2475566664,2755,Nocxium,988.99,Kalixian,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5751574232
+2012-04-16 01:38:44,2475566663,27993,Nocxium,988.99,RavenRonien,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5751574229
+2012-04-16 01:37:53,2475566191,1311,Isogen,100.89,WraithofTitan,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5751572104
+2012-04-16 01:37:53,2475566190,161088,Isogen,100.89,Miami Jones,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5751572101
+2012-04-16 01:37:53,2475566188,64871,Isogen,100.89,John Bering,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5751572096
+2012-04-16 01:37:53,2475566187,1871,Isogen,100.89,Striker Redux,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5751572093
+2012-04-16 01:37:26,2475565936,15879,Morphite,17783.93,Driftfire,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5751570978
+2012-04-11 04:15:22,2470493573,5,Covetor,34500000.00,Karasu87,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5728539810
+2012-04-11 04:15:22,2470493572,2,Covetor,34500000.00,Lucy Mot'su,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5728539806
+2012-04-11 04:15:22,2470493571,1,Covetor,34500000.00,TheMoneyMakingAlt,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5728539803
+2012-04-11 04:14:26,2470492996,105375,Nanotransistors,8331.95,BUDZIS,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5728537481
+2012-04-11 04:13:51,2470492663,252900,Crystalline Carbonide,109.24,Azeporael,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5728536177
+2012-04-11 04:12:48,2470492017,136,Fusion Reactor Unit,31898.75,Minmat Sebtin,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5728533644
+2012-04-11 04:10:54,2470490845,3510,Oscillator Capacitor Unit,68000.00,Simiona,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5728527978
+2012-04-11 04:09:53,2470490230,1425,Pulse Shield Emitter,16389.40,Fiye Tao,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5728525598
+2012-04-11 04:05:41,2470487777,438,Datacore - Mechanical Engineering,230000.00,Heinaron,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5728514737
+2012-04-11 04:05:41,2470487776,2,Datacore - Mechanical Engineering,230000.00,Awak3n,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5728514733
+2012-04-11 04:05:29,2470487661,302,Datacore - Gallentean Starship Engineering,219895.71,Atom Annie,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5728514248
+2012-04-11 04:05:29,2470487660,8,Datacore - Gallentean Starship Engineering,219895.71,Olga Ukraine,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5728514245
+2012-04-11 04:05:29,2470487659,130,Datacore - Gallentean Starship Engineering,219895.71,Mr Blueberry,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5728514242
+2012-04-11 03:51:54,2470480801,16968,Zydrine,1803.97,Daniel Audanie,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5728482203
+2012-04-11 03:51:12,2470480401,3895381,Tritanium,6.17,Isenburger,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5728480124
+2012-04-11 03:51:12,2470480400,45903124,Tritanium,6.17,kanral,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5728480121
+2012-04-11 03:51:12,2470480399,201495,Tritanium,6.17,Jogan Gage,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5728480118
+2012-04-11 03:50:28,2470479951,30861712,Pyerite,7.07,Xurr,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5728478327
+2012-04-11 03:50:28,2470479950,25521549,Pyerite,7.07,Isenburger,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5728478324
+2012-04-11 03:50:28,2470479949,1159103,Pyerite,7.07,Sirius Xadi,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5728478321
+2012-04-11 03:50:28,2470479948,404480,Pyerite,7.07,Jogan Gage,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5728478318
+2012-04-11 03:49:37,2470479468,207188,Nocxium,910.00,ganner desh,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5728476269
+2012-04-11 03:49:10,2470479226,5204077,Mexallon,55.59,Isenburger,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5728475286
+2012-04-11 03:49:10,2470479225,2151951,Mexallon,55.59,Rosen Sensenmann,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5728475283
+2012-04-11 03:48:14,2470478699,599981,Isogen,90.43,Isenburger,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5728473067
+2012-04-11 03:48:14,2470478698,19,Isogen,90.43,Cappin A55,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5728473064
+2012-04-11 03:47:51,2470478523,26112,Megacyte,3420.00,Daniel Audanie,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5728472298
+2012-04-11 03:46:43,2470477890,874156,Isogen,90.43,Isenburger,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5728468811
+2012-04-10 17:07:45,2469973452,19,Armor Explosive Hardener II,1490108.00,Duggang,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5726155466
+2012-04-10 15:45:19,2469899008,1,X-Large Ship Assembly Array,150000000.00,Daedelus52,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5725815318
+2012-04-10 05:14:14,2469549432,2,Ishkur,23699997.00,BeaCro,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5724225175
+2012-04-10 05:12:41,2469548645,5,Sabre,54999691.00,BeaCro,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5724221827
+2012-04-10 05:08:53,2469546459,1,Armor Explosive Hardener II,1489109.00,Meridim,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5724212246
+2012-04-10 04:55:40,2469539780,1,Sabre,54999691.00,Starship Clipper,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5724181370
+2012-04-10 04:49:41,2469536841,1,Ishkur,23699997.00,Starship Clipper,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5724167210
+2012-04-10 04:47:51,2469536009,1,1MN Afterburner II,1097989.00,Unndeerdog,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5724163507
+2012-04-10 04:39:54,2469531654,1,Ishkur,23699997.00,Shyn Eegami,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5724142967
+2012-04-10 04:39:47,2469531588,1,Armor Explosive Hardener II,1489109.00,Traelox,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5724142708
+2012-04-10 04:39:31,2469531441,1,Armor Explosive Hardener II,1489109.00,Raptibus,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5724142120
+2012-04-10 04:36:24,2469529588,1,1MN Afterburner II,1087998.00,Chingo Blingg,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5724134475
+2012-04-10 04:32:32,2469527583,1,Armor Explosive Hardener II,1489109.00,Malyer Aurilen,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5724125112
+2012-04-10 04:26:18,2469524251,1,Armor Explosive Hardener II,1489109.00,Craig Horton,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5724109777
+2012-04-10 04:26:04,2469524096,1,Armor Explosive Hardener II,1489109.00,Akari93,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5724109052
+2012-04-10 04:25:36,2469523840,2,Sabre,54999691.00,Hesveht Esperil,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5724107309
+2012-04-10 04:13:55,2469517424,1,1MN Afterburner II,1087998.00,Noa Fuyu,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5724077944
+2012-04-10 04:12:54,2469516867,1,Armor Explosive Hardener II,1489109.00,SETC Store,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5724075545
+2012-04-10 04:10:20,2469515436,5,1MN Afterburner II,1087998.00,Sol Malorion,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5724068362
+2012-04-10 04:05:54,2469513204,2,Armor Explosive Hardener II,1489109.00,Drunk Sex,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5724058005
+2012-04-10 04:04:06,2469512197,3,Tracking Enhancer II,841768.00,AHHELPME,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5724053154
+2012-04-10 04:01:32,2469510761,20,Datacore - Electronic Engineering,180372.16,Dictator IV,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5724047005
+2012-04-10 04:00:18,2469510152,161,Datacore - Rocket Science,169999.90,Mr Blueberry,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5724043440
+2012-04-10 04:00:18,2469510151,239,Datacore - Rocket Science,169999.90,Trisha Storm,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5724043437
+2012-04-10 04:00:00,2469509997,660,Datacore - Quantum Physics,184989.98,Warba,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5724042761
+2012-04-10 03:59:43,2469509868,18,Datacore - Plasma Physics,309849.95,Liova Tomai,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5724042151
+2012-04-10 03:59:43,2469509867,1,Datacore - Plasma Physics,309849.95,Dagorn Lassin,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5724042148
+2012-04-10 03:59:43,2469509866,160,Datacore - Plasma Physics,309849.95,Krivac3,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5724042145
+2012-04-10 03:59:43,2469509865,61,Datacore - Plasma Physics,309849.95,Jass Sunrunner,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5724042142
+2012-04-10 03:59:24,2469509698,80,Datacore - Nuclear Physics,210000.00,xCIDx,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5724041419
+2012-04-10 03:58:50,2469509412,398,Datacore - Nanite Engineering,297989.98,Tracy Toony,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5724040199
+2012-04-10 03:58:50,2469509411,2,Datacore - Nanite Engineering,297989.98,Muradat,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5724040196
+2012-04-10 03:58:34,2469509255,280,Datacore - Molecular Engineering,204938.95,Jass Sunrunner,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5724039600
+2012-04-10 03:58:10,2469509019,200,Datacore - Minmatar Starship Engineering,217770.00,Gennaro Tassis,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5724038609
+2012-04-10 03:57:50,2469508846,682,Datacore - Mechanical Engineering,235758.60,Jass Sunrunner,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5724037813
+2012-04-10 03:57:50,2469508845,598,Datacore - Mechanical Engineering,235758.60,Trisha Storm,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5724037810
+2012-04-10 03:57:30,2469508669,314,Datacore - Hydromagnetic Physics,338999.69,RIKITA LAY,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5724037105
+2012-04-10 03:57:30,2469508668,267,Datacore - Hydromagnetic Physics,338999.69,Geiz is Geil,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5724037102
+2012-04-10 03:57:30,2469508667,203,Datacore - Hydromagnetic Physics,338999.69,Quazal Atreides,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5724037099
+2012-04-10 03:57:30,2469508666,108,Datacore - Hydromagnetic Physics,338999.69,Gladouras,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5724037096
+2012-04-10 03:57:30,2469508665,152,Datacore - Hydromagnetic Physics,338999.69,Zoltar,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5724037093
+2012-04-10 03:57:30,2469508664,8,Datacore - Hydromagnetic Physics,338999.69,Gwidiom,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5724037090
+2012-04-10 03:57:30,2469508663,8,Datacore - Hydromagnetic Physics,338999.69,Ren Iywen,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5724037087
+2012-04-10 03:56:59,2469508388,600,Datacore - Graviton Physics,150398.91,benkobenko,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5724035891
+2012-04-10 03:56:41,2469508231,160,Datacore - Gallentean Starship Engineering,181999.97,Relgrath,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5724035218
+2012-04-10 03:56:17,2469508021,1080,Datacore - Electronic Engineering,180372.16,Dictator IV,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5724034227
+2012-04-10 03:52:22,2469505946,1,10MN MicroWarpdrive II,2149992.00,Arril,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5724024350
+2012-04-10 03:44:13,2469500907,1,1MN Afterburner II,1333333.00,Brothuhbob,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5724001439
+2012-04-10 03:44:08,2469500852,1,10MN MicroWarpdrive II,2149992.00,Heinrich Tallermon,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5724001203
+2012-04-10 03:43:39,2469500515,1,10MN MicroWarpdrive II,2149992.00,Heinrich Tallermon,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5723999804
+2012-04-10 03:40:44,2469498768,1,10MN MicroWarpdrive II,2149992.00,Cedlis,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5723991824
+2012-04-10 03:39:56,2469498264,1,1MN Afterburner II,1087998.00,Oligor,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5723989420
+2012-04-10 03:37:24,2469496892,1,10MN MicroWarpdrive II,2149992.00,Trew Jones,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5723983471
+2012-04-10 03:35:49,2469495975,1,10MN MicroWarpdrive II,2149992.00,Darksun Starfire,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5723978943
+2012-04-10 03:30:55,2469493227,2,10MN MicroWarpdrive II,3000000.00,Smiley Facemeister,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5723966256
+2012-04-10 03:23:20,2469488867,1,10MN MicroWarpdrive II,2149997.97,Rhamos,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5723945988
+2012-04-10 03:13:22,2469482856,1,Large Shield Transporter II,1199944.00,Wake Obannon,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5723918858
+2012-04-10 03:05:02,2469478022,1,10MN MicroWarpdrive II,2149992.00,Pack Haginen,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5723895831
+2012-04-10 03:01:23,2469475870,1,10MN MicroWarpdrive II,2149992.00,Oshtree,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5723886685
+2012-04-10 03:01:05,2469475702,1,10MN MicroWarpdrive II,2149992.00,Talon Kadin,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5723885852
+2012-04-10 02:56:04,2469472620,1,Ishkur,25000000.00,Huizi,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5723871892
+2012-04-10 02:54:50,2469471849,1,10MN MicroWarpdrive II,2149992.00,stolas,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5723867811
+2012-04-10 02:51:16,2469469712,10,10MN MicroWarpdrive II,2149992.00,IceFyre S18,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5723858648
+2012-04-10 02:43:56,2469465061,1,10MN MicroWarpdrive II,2149992.00,so lo,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5723837647
+2012-04-10 02:40:43,2469463054,1,10MN MicroWarpdrive II,2149992.00,Zarksis,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5723828618
+2012-04-10 02:33:02,2469458086,1,10MN MicroWarpdrive II,2149992.00,Cairum,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5723807238
+2012-04-10 02:30:50,2469456790,1,Nemesis,25448099.00,Donny K,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5723801263
+2012-04-10 02:30:23,2469456519,3,Hound,27898987.00,ENFEMUS DEALER,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5723799718
+2012-04-10 02:30:03,2469456298,1,10MN MicroWarpdrive II,2149992.00,Sunarah,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5723798869
+2012-04-10 02:27:08,2469454442,1,Ishkur,23699998.00,lOOOlOl,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5723791379
+2012-04-10 02:26:56,2469454320,1,10MN MicroWarpdrive II,2149992.00,Yorlon Franx,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5723790813
+2012-04-10 02:18:24,2469449216,5,10MN MicroWarpdrive II,2149992.00,Mirrodin,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5723767656
+2012-04-10 02:15:35,2469447401,1,10MN MicroWarpdrive II,2149992.00,Reys Bayron,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5723759358
+2012-04-10 02:14:58,2469446962,1,Hound,27898987.00,PsychoMikoD,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5723757510
+2012-04-10 02:14:57,2469446953,1,Hound,28500000.00,August Lines,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5723757469
+2012-04-10 02:13:26,2469446051,1,10MN MicroWarpdrive II,2149992.00,Ezechiel Bathory,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5723753606
+2012-04-10 02:13:16,2469445954,1,10MN MicroWarpdrive II,2149992.00,so lo,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5723753165
+2012-04-10 02:11:50,2469445171,1,10MN MicroWarpdrive II,2149992.00,Tsawind Gallente,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5723749539
+2012-04-10 02:11:28,2469444982,1,1MN Afterburner II,1087998.00,Joatmo,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5723748669
+2012-04-10 02:02:47,2469439682,1,Hound,27898987.00,Taek'li,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5723724320
+2012-04-10 01:58:33,2469437172,1,1MN Afterburner II,1087998.00,I Sneek,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5723712503
+2012-04-10 01:58:31,2469437146,2,10MN MicroWarpdrive II,2149992.00,STEVRAND,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5723712404
+2012-04-10 01:54:30,2469434765,56,Energized Adaptive Nano Membrane II,1199760.97,Koemgen,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5723701284
+2012-04-10 01:53:50,2469434362,1,10MN MicroWarpdrive II,2149992.00,xCIDx,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5723699580
+2012-04-10 01:53:50,2469434356,50,10MN MicroWarpdrive II,2149992.00,Koemgen,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5723699551
+2012-04-10 01:52:27,2469433515,1,10MN MicroWarpdrive II,2149992.00,Sabin Minks,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5723696056
+2012-04-10 01:51:45,2469433099,1,10MN MicroWarpdrive II,2149992.00,Tomax Xxammot,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5723694213
+2012-04-10 01:50:27,2469432312,89,Adaptive Invulnerability Field II,1299843.00,Takakura Hirohito,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5723689988
+2012-04-10 01:50:15,2469432193,1,Energized Adaptive Nano Membrane II,1199904.00,Istuc,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5723689447
+2012-04-10 01:50:00,2469432044,3,Adaptive Invulnerability Field II,1299843.00,Teralius,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5723688846
+2012-04-10 01:49:04,2469431458,2,Adaptive Invulnerability Field II,1299843.00,Tomax Xxammot,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5723686447
+2012-04-10 01:48:08,2469430879,2,Energized Adaptive Nano Membrane II,1199760.00,Dalv Fliteo,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5723684035
+2012-04-10 01:48:04,2469430840,1,Adaptive Invulnerability Field II,1299843.99,NightRaven09,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5723683881
+2012-04-10 01:47:47,2469430706,1,Adaptive Invulnerability Field II,1299843.00,Japanx,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5723683234
+2012-04-10 01:46:02,2469429771,1,Adaptive Invulnerability Field II,1299843.00,Mac McCrankey,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5723678717
+2012-04-10 01:45:28,2469429501,1,Adaptive Invulnerability Field II,1299843.00,so lo,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5723676827
+2012-04-10 01:44:36,2469429026,1,Energized Adaptive Nano Membrane II,1199760.00,Amashna Dracoona,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5723674717
+2012-04-10 01:44:13,2469428809,4,Energized Adaptive Nano Membrane II,1199760.00,Tsawind Gallente,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5723673793
+2012-04-10 01:44:09,2469428775,2,Adaptive Invulnerability Field II,1299843.00,Lukas Langeheuvel,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5723673642
+2012-04-10 01:43:05,2469428164,1,Armor Explosive Hardener II,1489110.00,TonyLeDam,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5723671055
+2012-04-10 01:41:17,2469427162,1,10MN MicroWarpdrive II,2149992.00,Justin Jackson,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5723666653
+2012-04-10 01:40:49,2469426872,1,Armor Explosive Hardener II,1489110.00,P5yc0killer,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5723664833
+2012-04-10 01:40:08,2469426475,1,Tracking Enhancer II,841779.00,Dr Syko,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5723662719
+2012-04-10 01:40:04,2469426429,2,Energized Adaptive Nano Membrane II,1199760.00,P5yc0killer,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5723662510
+2012-04-10 01:40:00,2469426387,1,10MN MicroWarpdrive II,2149992.00,I Sneek,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5723662342
+2012-04-10 01:39:36,2469426160,1,10MN MicroWarpdrive II,2149992.00,ICE GRENDAL,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5723661370
+2012-04-10 01:39:34,2469426132,1,Armor Explosive Hardener II,1489110.00,so lo,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5723661245
+2012-04-10 01:39:24,2469426034,1,Tracking Enhancer II,841779.00,Deliti,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5723660864
+2012-04-10 01:39:03,2469425864,1,Armor Explosive Hardener II,1489110.00,I Sneek,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5723660159
+2012-04-10 01:38:44,2469425705,2,Energized Adaptive Nano Membrane II,1199760.00,I Sneek,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5723659457
+2012-04-10 01:38:38,2469425634,4,10MN MicroWarpdrive II,2149992.97,Gum Gum,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5723659190
+2012-04-10 01:37:57,2469425204,6,Energized Adaptive Nano Membrane II,1199760.00,who metoo,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5723657446
+2012-04-10 01:35:13,2469423489,1,Armor Explosive Hardener II,1489110.98,NightRaven09,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5723649195
+2012-04-10 01:34:08,2469422783,1,Energized Adaptive Nano Membrane II,1199904.00,NightRaven09,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5723646342
+2012-04-10 01:33:53,2469422620,1,Armor Explosive Hardener II,1489110.00,Magnetica Rose,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5723645659
+2012-04-10 01:33:44,2469422520,1,Energized Adaptive Nano Membrane II,1199760.00,Magnetica Rose,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5723645243
+2012-04-10 01:33:35,2469422421,1,Tracking Enhancer II,841779.99,NightRaven09,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5723644860
+2012-04-10 01:28:55,2469419684,2,Armor Explosive Hardener II,1489110.00,Kubikiri Asa,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5723632174
+2012-04-10 01:28:04,2469419127,1,Energized Adaptive Nano Membrane II,1199760.00,Dissonant Harmony,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5723629805
+2012-04-10 01:27:06,2469418548,8,Energized Adaptive Nano Membrane II,1199760.00,Treberius Azure,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5723627305
+2012-04-10 01:26:44,2469418295,50,Armor Explosive Hardener II,1489110.00,Keshid,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5723626281
+2012-04-10 01:26:33,2469418187,1,Armor Explosive Hardener II,1489110.00,godhell,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5723625814
+2012-04-10 01:23:43,2469416394,3,Tracking Enhancer II,841779.00,Kame Kray,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5723617392
+2012-04-10 01:22:12,2469415548,1,Tracking Enhancer II,841779.00,Belresk,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5723613728
+2012-04-10 01:21:58,2469415390,2,Tracking Enhancer II,841779.00,Yuri Krivoy,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5723613027
+2012-04-10 01:21:23,2469415043,1,Ishkur,23699999.00,Livinglegend,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5723611523
+2012-04-10 01:19:18,2469413804,1,Tracking Enhancer II,841779.00,Neurotox,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5723605177
+2012-04-10 01:19:14,2469413771,1,Energized Adaptive Nano Membrane II,1199760.00,Loomey,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5723605038
+2012-04-10 01:14:44,2469410990,2,Tracking Enhancer II,842950.00,DARKIFRIT,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5723592079
+2012-04-10 01:14:01,2469410534,2,Caldari Control Tower,278748026.00,Porter Hart,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5723590184
+2012-04-10 01:13:51,2469410427,2,Energized Adaptive Nano Membrane II,1199760.00,Re'Vhann,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5723589746
+2012-04-10 01:12:55,2469409885,1,Energized Adaptive Nano Membrane II,1199760.00,MickeyMiner,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5723587340
+2012-04-10 01:12:40,2469409719,1,10MN MicroWarpdrive II,2149992.00,Mattrixx,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5723586675
+2012-04-10 01:12:01,2469409253,4,Armor Explosive Hardener II,1489110.00,Equincu,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5723584714
+2012-04-10 01:11:46,2469409053,1,Tracking Enhancer II,841779.99,4DEE,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5723583888
+2012-04-10 01:11:46,2469409052,4,Energized Adaptive Nano Membrane II,1199760.00,Equincu,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5723583885
+2012-04-10 01:11:08,2469408645,3,Energized Adaptive Nano Membrane II,1199760.00,Jonathan Jax,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5723582130
+2012-04-10 01:09:40,2469407727,10,Warp Scrambler II,1551996.00,biospectrum,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5723577401
+2012-04-10 01:09:08,2469407387,5000,Hypersynaptic Fibers,4043.22,Staubfinger,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5723576078
+2012-04-10 01:07:43,2469406391,1,Energized Adaptive Nano Membrane II,1199760.00,Lynxeh,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5723572134
+2012-04-10 01:07:07,2469405939,40,Warp Disruptor II,1137062.05,Kor Sellalot,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5723570395
+2012-04-10 01:06:30,2469405521,298,Stasis Webifier II,932801.13,Zorge LT,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5723568641
+2012-04-10 01:06:25,2469405462,44,Stasis Webifier II,932801.15,Odd Beamwalker,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5723568397
+2012-04-10 01:06:22,2469405414,1,Energized Adaptive Nano Membrane II,1199904.00,NightRaven09,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5723568201
+2012-04-10 01:06:20,2469405400,58,Stasis Webifier II,932801.16,Kor Sellalot,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5723568129
+2012-04-10 01:06:01,2469405182,1,1MN Afterburner II,1087999.00,Caulk H0lster,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5723567141
+2012-04-10 01:05:53,2469405073,2,Energized Adaptive Nano Membrane II,1199760.00,Valdimir Goulda,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5723566482
+2012-04-10 01:05:28,2469404766,1,Armor Explosive Hardener II,1489110.00,Valdimir Goulda,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5723564750
+2012-04-10 01:00:11,2469401356,1,Eos,172993334.01,Lecherito,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Personal,5723549614
+2012-04-08 17:33:06,2467884006,5,Light Shield Maintenance Bot I,21345.66,Venthruss,Ansalle V - Moon 2 - Nugoeihuvi Corporation Development Studio,Buy,Personal,5716644097
+2012-04-08 04:35:00,2467255474,1,Amarr Shuttle,25000.00,Handak Pershoon,Allamotte VI - Moon 2 - Quafe Company Warehouse,Buy,Personal,5713847122
+2012-04-07 15:28:42,2466568262,5,Caldari Shuttle,25000.00,Handak Pershoon,Villore VIII - Moon 7 - Federal Intelligence Office Logistic Support,Buy,Personal,5710741831
+2012-04-06 23:32:24,2465899519,1,Magnetic Field Stabilizer II,1499995.00,TheBeep,Scheenins II - Moon 2 - Roden Shipyards Factory,Sell,Corporation,5707751864
+2012-04-06 21:41:55,2465803442,2,Armor Explosive Hardener II,1845000.00,Ander Anderson,Scheenins II - Moon 2 - Roden Shipyards Factory,Sell,Corporation,5707319699
+2012-04-06 16:25:30,2465488124,1,Magnetic Field Stabilizer II,1499995.00,TheBeep,Scheenins II - Moon 2 - Roden Shipyards Factory,Sell,Corporation,5705891738
+2012-04-06 16:25:17,2465487889,2,Energized Adaptive Nano Membrane II,1200000.00,TheBeep,Scheenins II - Moon 2 - Roden Shipyards Factory,Sell,Corporation,5705889705
+2012-04-06 16:16:16,2465478892,1,Gyrostabilizer II,1249987.00,Zolu Argento,Scheenins II - Moon 2 - Roden Shipyards Factory,Sell,Corporation,5705850471
+2012-04-06 15:51:46,2465453894,2,Energized Adaptive Nano Membrane II,1200000.00,Salene Ronuken,Scheenins II - Moon 2 - Roden Shipyards Factory,Sell,Corporation,5705738956
+2012-04-06 14:58:10,2465401412,2,Energized Adaptive Nano Membrane II,1200000.00,Dajambat Haulgood,Scheenins II - Moon 2 - Roden Shipyards Factory,Sell,Corporation,5705500269
+2012-04-06 09:35:13,2465177705,2,Ballistic Control System II,1120000.00,COTANISS,Scheenins II - Moon 2 - Roden Shipyards Factory,Sell,Corporation,5704475372
+2012-04-06 06:44:33,2465076179,1,Large Shield Transporter II,2200000.00,Daedra Blue,Scheenins II - Moon 2 - Roden Shipyards Factory,Sell,Corporation,5704005688
+2012-04-06 05:25:13,2465031200,1,Ballistic Control System II,1120000.00,Leila Numanor,Scheenins II - Moon 2 - Roden Shipyards Factory,Sell,Corporation,5703805789
+2012-04-06 05:21:31,2465029315,1,Ballistic Control System II,1120000.00,Leila Numanor,Scheenins II - Moon 2 - Roden Shipyards Factory,Sell,Corporation,5703798001
+2012-04-06 05:15:36,2465025852,2,Energized Adaptive Nano Membrane II,1200000.00,Dudete,Scheenins II - Moon 2 - Roden Shipyards Factory,Sell,Corporation,5703782192
+2012-04-06 04:53:11,2465012766,1,Magnetic Field Stabilizer II,1499999.00,Dudete,Scheenins II - Moon 2 - Roden Shipyards Factory,Sell,Corporation,5703724696
+2012-04-06 04:26:29,2464996946,2,Gyrostabilizer II,1249987.00,V31OcIty,Scheenins II - Moon 2 - Roden Shipyards Factory,Sell,Corporation,5703655561
+2012-04-06 02:44:53,2464935488,1,Large Shield Transporter II,2200000.00,twistedvoid,Scheenins II - Moon 2 - Roden Shipyards Factory,Sell,Corporation,5703381659
+2012-04-06 02:24:20,2464923383,1,Large Energy Transfer Array II,2999990.07,Blain Carver,Scheenins II - Moon 2 - Roden Shipyards Factory,Buy,Corporation,5703327507
+2012-04-06 02:24:07,2464923250,1,Large Core Defense Field Extender I,15999987.44,Ginkon,Scheenins II - Moon 2 - Roden Shipyards Factory,Buy,Corporation,5703326976
+2012-04-06 02:24:07,2464923248,1,Large Core Defense Field Extender I,15999987.44,Thodnee,Scheenins II - Moon 2 - Roden Shipyards Factory,Buy,Corporation,5703326970
+2012-04-06 02:23:33,2464922913,3,Tracking Speed Script,40000.00,Kilahm,Scheenins II - Moon 2 - Roden Shipyards Factory,Buy,Personal,5703325611
+2012-04-06 02:23:19,2464922780,3,Tracking Computer II,1744999.52,Kilahm,Scheenins II - Moon 2 - Roden Shipyards Factory,Buy,Corporation,5703325048
+2012-04-06 02:18:26,2464919895,15,Ballistic Control System II,999999.99,Eva Duarte,Scheenins II - Moon 2 - Roden Shipyards Factory,Buy,Corporation,5703311738
+2012-04-04 00:33:05,2462948097,1,Cybernetic Subprocessor - Improved,104689000.00,Shaster Iron,Dodixie IX - Moon 20 - Federation Navy Assembly Plant,Buy,Personal,5694355519
+2012-04-04 00:31:52,2462947336,1,Memory Augmentation - Improved,114444443.99,Scot Amchermosa,Dodixie IX - Moon 20 - Federation Navy Assembly Plant,Buy,Personal,5694351411
+2012-04-04 00:23:53,2462942471,4,Hammerhead II,574999.99,PsychoBitch,Dodixie IX - Moon 20 - Federation Navy Assembly Plant,Buy,Corporation,5694330067
+2012-04-04 00:23:13,2462942088,5,Warrior II,435998.84,Sintry,Dodixie IX - Moon 20 - Federation Navy Assembly Plant,Buy,Corporation,5694328415
+2012-04-04 00:23:04,2462941980,5,Valkyrie II,452999.99,Milo Taverner,Dodixie IX - Moon 20 - Federation Navy Assembly Plant,Buy,Corporation,5694327966
+2012-04-04 00:22:52,2462941844,1,Hammerhead II,574999.99,PsychoBitch,Dodixie IX - Moon 20 - Federation Navy Assembly Plant,Buy,Corporation,5694327361
+2012-04-04 00:22:44,2462941753,5,Hobgoblin II,394943.99,Spectre Kuo,Dodixie IX - Moon 20 - Federation Navy Assembly Plant,Buy,Corporation,5694326926
+2012-04-04 00:22:27,2462941551,1,Medium Anti-EM Screen Reinforcer I,200000.00,Feir Ronuken,Dodixie IX - Moon 20 - Federation Navy Assembly Plant,Buy,Corporation,5694325908
+2012-04-04 00:22:19,2462941467,1,Damage Control II,825999.92,Klabslus,Dodixie IX - Moon 20 - Federation Navy Assembly Plant,Buy,Corporation,5694325128
+2012-04-04 00:22:11,2462941386,3,Capacitor Power Relay II,840000.00,Zevas,Dodixie IX - Moon 20 - Federation Navy Assembly Plant,Buy,Corporation,5694324509
+2012-04-04 00:21:58,2462941241,1,Medium Energy Neutralizer II,3799999.97,BuildGeek,Dodixie IX - Moon 20 - Federation Navy Assembly Plant,Buy,Corporation,5694323845
+2012-04-04 00:21:50,2462941163,1,Large Core Defense Field Extender I,13446398.00,Rhal79,Dodixie IX - Moon 20 - Federation Navy Assembly Plant,Buy,Corporation,5694323495
+2012-04-04 00:21:14,2462940765,1,Limited Adaptive Invulnerability Field I,999993.37,Miss Dimple,Dodixie IX - Moon 20 - Federation Navy Assembly Plant,Buy,Corporation,5694321859
+2012-04-04 00:21:01,2462940613,1,Large F-S9 Regolith Shield Induction,419999.99,Aeryn Aroo,Dodixie IX - Moon 20 - Federation Navy Assembly Plant,Buy,Corporation,5694321276
+2012-04-04 00:20:45,2462940425,1,Limited Adaptive Invulnerability Field I,999993.37,Miss Dimple,Dodixie IX - Moon 20 - Federation Navy Assembly Plant,Buy,Personal,5694320526
+2012-04-04 00:19:55,2462939883,1,10MN MicroWarpdrive II,2159821.24,Selene MacGriff,Dodixie IX - Moon 20 - Federation Navy Assembly Plant,Buy,Corporation,5694318277
+2012-04-04 00:19:40,2462939726,1,Large Shield Extender II,899998.99,Mangeled Metal,Dodixie IX - Moon 20 - Federation Navy Assembly Plant,Buy,Corporation,5694317670
+2012-04-04 00:16:15,2462937716,4,Synth Mindflood Booster,2100000.00,Hibern Nix,Dodixie IX - Moon 20 - Federation Navy Assembly Plant,Buy,Personal,5694308129
+2012-04-04 00:15:28,2462937178,2,ECCM - Gravimetric II,1397999.99,Jitarianer,Dodixie IX - Moon 20 - Federation Navy Assembly Plant,Buy,Personal,5694306015
+2012-04-04 00:15:08,2462936956,2,10MN Afterburner II,1167977.99,Selene MacGriff,Dodixie IX - Moon 20 - Federation Navy Assembly Plant,Buy,Personal,5694305116
+2012-04-04 00:14:31,2462936517,4,Large S95a Partial Shield Transporter,788999.97,Tyche Beta,Dodixie IX - Moon 20 - Federation Navy Assembly Plant,Buy,Personal,5694303338
+2012-04-04 00:14:31,2462936516,3,Large S95a Partial Shield Transporter,788999.97,Commander Kempf,Dodixie IX - Moon 20 - Federation Navy Assembly Plant,Buy,Personal,5694303335
+2012-04-04 00:14:31,2462936515,3,Large S95a Partial Shield Transporter,788999.97,Majama Koos,Dodixie IX - Moon 20 - Federation Navy Assembly Plant,Buy,Personal,5694303332
+2012-04-02 03:52:51,2461133085,3000,Nanomechanical Microprocessor,42736.00,Ayn Heathen,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5686131151
+2012-04-02 03:47:58,2461130252,275552,Sylramic Fibers,201.40,Kor Sellalot,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5686118495
+2012-04-02 03:47:58,2461130251,80796,Sylramic Fibers,201.40,Johnny Pagoda,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5686118492
+2012-04-02 03:47:09,2461129790,57957,Ferrogel,8622.60,Devona Dunn,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5686116404
+2012-04-02 03:46:27,2461129398,7445,Hypersynaptic Fibers,3629.91,Joshua Miragor,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5686114824
+2012-04-02 03:46:27,2461129396,5655,Hypersynaptic Fibers,3629.91,zelalot,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5686114818
+2012-04-02 03:45:52,2461129095,60000,Fullerides,2780.00,Janumo,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5686113591
+2012-04-02 03:45:04,2461128645,70331,Nanotransistors,6673.79,Dr Biggles,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5686111764
+2012-04-02 03:45:04,2461128643,9461,Nanotransistors,6673.79,Reign19k,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5686111758
+2012-04-02 03:44:27,2461128333,250000,Tungsten Carbide,113.98,Adonis Prime,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5686110446
+2012-04-02 03:43:41,2461127920,940033,Fernite Carbide,140.39,Anea Taggart,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5686108604
+2012-04-02 03:43:41,2461127919,162467,Fernite Carbide,140.39,Albert Sinmato,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5686108601
+2012-04-02 03:42:47,2461127444,218000,Titanium Carbide,116.25,Geldwor,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5686105807
+2012-04-02 03:41:59,2461127020,5500,Fermionic Condensates,21379.78,Quotia,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5686103948
+2012-04-02 03:29:03,2461119919,200,Tracking Enhancer I,26988.00,Lorin Edehiel,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5686072116
+2012-04-02 03:14:54,2461111944,88,Warp Scrambler I,70000.00,Deutscher Forscher,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5686035756
+2012-04-02 03:14:54,2461111943,1,Warp Scrambler I,70000.00,Grzebalec,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5686035753
+2012-04-02 03:08:41,2461108465,480,Datacore - Electronic Engineering,182454.05,Dictator IV,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5686019613
+2012-04-02 03:07:11,2461107662,400,Datacore - Nanite Engineering,306999.99,Jitabugger,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5686015354
+2012-04-02 03:05:09,2461106597,88,Warp Disruptor I,65000.00,Severain,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5686010732
+2012-04-02 03:04:59,2461106487,31,Warp Disruptor I,65000.00,Severain,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5686010338
+2012-04-02 03:04:59,2461106485,5,Warp Disruptor I,65000.00,Moctezuma Xocoyotzin,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5686010332
+2012-04-02 03:04:59,2461106484,80,Warp Disruptor I,65000.00,Drake Sevin,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5686010329
+2012-04-02 03:04:59,2461106483,3,Warp Disruptor I,65000.00,Vahyel,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5686010326
+2012-04-02 03:04:33,2461106215,65,Stasis Webifier I,35843.00,Animah Obdormiscere,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5686009227
+2012-04-02 03:04:33,2461106214,8,Stasis Webifier I,35843.00,Vioselle Naari,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5686009224
+2012-04-02 03:04:33,2461106213,269,Stasis Webifier I,35843.00,Deutscher Forscher,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5686009221
+2012-04-02 03:04:33,2461106211,5,Stasis Webifier I,35843.00,Dyson Peeps,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5686009212
+2012-04-02 02:42:21,2461092441,1400,Fernite Carbide Composite Armor Plate,9349.75,Sir HyperChrist,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5685947808
+2012-04-02 02:40:29,2461091290,3000,Sustained Shield Emitter,16497.00,HAULTRON,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5685943069
+2012-04-02 02:16:47,2461075676,10000,Morphite,8439.77,Federick goodfather,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5685875900
+2012-04-02 01:57:18,2461064601,600,Ion Thruster,13700.89,Black Token,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5685824807
+2012-04-02 01:57:18,2461064600,600,Ion Thruster,13700.89,Trade Cadet,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5685824804
+2012-04-02 01:28:07,2461045682,5081718,Pyerite,6.55,Clasina,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5685741810
+2012-04-02 01:28:07,2461045681,35745,Pyerite,6.55,Lord Inter,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5685741807
+2012-04-02 01:28:07,2461045680,2907519,Pyerite,6.55,Corvin Kurvora,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5685741804
+2012-04-02 01:28:07,2461045679,1000000,Pyerite,6.55,Yanillips,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5685741801
+2012-04-02 01:28:07,2461045678,975018,Pyerite,6.55,Federick goodfather,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5685741798
+2012-04-02 01:27:43,2461045430,42826441,Pyerite,6.45,Tiki Torch,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5685740718
+2012-04-02 01:26:21,2461044561,210000,Nocxium,768.94,corthosin,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5685737013
+2012-04-02 01:09:49,2461033817,2,Medium Cargohold Optimization I,5349999.99,KC Tcholok,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5685689689
+2012-04-02 01:06:16,2461031664,1,Covert Ops Cloaking Device II,7183388.86,Svendai,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5685679504
+2012-04-02 01:05:51,2461031378,4,Expanded Cargohold II,629987.97,Lucy Mot'su,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5685678352
+2012-04-02 01:04:54,2461030754,4,Nanofiber Internal Structure II,522877.98,Mr Fisherman,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5685675810
+2012-04-02 01:04:22,2461030411,1,10MN Afterburner II,1352999.99,Pride Bambini,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5685674380
+2012-04-02 01:02:47,2461029426,1,Prorator,98999986.97,Drak Dresari,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5685669373
+2012-04-01 22:36:40,2460921785,14,Armor Explosive Hardener II,1385098.24,Olaf Fidnur,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5685181452
+2012-04-01 22:24:41,2460910529,110,Armor Explosive Hardener II,1385098.24,Olaf Fidnur,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5685133152
+2012-04-01 22:24:36,2460910450,30,Armor Explosive Hardener II,1385098.28,Tyrasia,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5685132840
+2012-04-01 22:24:31,2460910370,7,Armor Explosive Hardener II,1385098.30,Kragoth Solette,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5685132487
+2012-04-01 22:24:18,2460910163,44,Armor Explosive Hardener II,1385098.32,Chris Kord,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5685131627
+2012-04-01 22:24:14,2460910107,3,Armor Explosive Hardener II,1385098.33,SPEACMANRIES,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5685131397
+2012-04-01 22:07:49,2460894599,1,Armor Explosive Hardener II,1475105.00,Valleriaa,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5685063193
+2012-04-01 22:07:10,2460893896,144,Large Shield Transporter II,1101185.01,Lightdarkness,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5685059764
+2012-04-01 22:07:04,2460893818,49,Large Shield Transporter II,1101185.02,Lunar Wolf Saisima,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5685059413
+2012-04-01 22:06:53,2460893634,45,Large Shield Transporter II,1101185.09,Tyrasia,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5685058703
+2012-04-01 22:06:39,2460893389,20,Synth Drop Booster,1699000.00,Sisina,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5685057725
+2012-04-01 22:03:49,2460890508,8,Large Shield Transporter II,1101185.11,Chris Kord,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5685046110
+2012-04-01 22:02:49,2460889572,62,Large Shield Transporter II,1101185.12,Bommel Nett,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5685041382
+2012-04-01 21:58:59,2460885932,1,Armor Explosive Hardener II,1475105.00,Lena Shift,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5685025390
+2012-04-01 21:58:16,2460885175,1,Armor Explosive Hardener II,1475105.00,Ziona Oli,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5685022189
+2012-04-01 21:55:27,2460882314,1,Armor Explosive Hardener II,1475105.00,Liberty2k,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5685008991
+2012-04-01 21:49:27,2460876285,3,Armor Explosive Hardener II,1475105.00,Lena Shift,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5684982337
+2012-04-01 21:47:09,2460873906,1,Armor Explosive Hardener II,1475105.00,Lanka Heluene,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5684970899
+2012-04-01 10:34:21,2460201025,1,Armor Explosive Hardener II,1475105.00,Trinity Marv,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5681946192
+2012-04-01 10:28:35,2460196053,1,Armor Explosive Hardener II,1475105.00,Indus Treel,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5681924769
+2012-04-01 10:10:44,2460180713,1,Armor Explosive Hardener II,1475105.00,ToRinno,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5681859308
+2012-04-01 10:10:32,2460180570,1,Armor Explosive Hardener II,1475105.00,Livilia,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5681858632
+2012-04-01 10:09:49,2460180003,4,Armor Explosive Hardener II,1475105.00,Serafina Sofia,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5681855704
+2012-04-01 10:05:05,2460176057,1,Armor Explosive Hardener II,1475105.00,Smokabul,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5681838650
+2012-04-01 09:33:43,2460150733,1,Armor Explosive Hardener II,1475105.00,Alezra,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5681725570
+2012-04-01 09:33:31,2460150560,1,Armor Explosive Hardener II,1475105.00,Armorall 171,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5681724852
+2012-04-01 09:27:08,2460145283,2,Armor Explosive Hardener II,1475105.00,Syltmonstret,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5681701551
+2012-04-01 09:12:15,2460132675,1,Armor Explosive Hardener II,1475105.00,twojakes1,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5681645998
+2012-04-01 09:10:35,2460131186,9,Armor Explosive Hardener II,1475105.00,Dankira,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5681640098
+2012-04-01 05:02:24,2459959838,1,Armor Explosive Hardener II,1475105.00,rakudo,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5680867450
+2012-04-01 04:58:54,2459957759,1,Armor Explosive Hardener II,1475105.00,Sartorius Excelsior,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5680857651
+2012-04-01 04:38:31,2459945753,3,Armor Explosive Hardener II,1475105.00,Yawina,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5680802758
+2012-03-31 05:26:38,2458822410,1,Minmatar Shuttle,17000.00,Abenstein 2nd,Avele V - Moon 11 - CreoDron Warehouse,Buy,Personal,5675757932
+2012-03-31 03:57:03,2458771103,10000,Scourge Heavy Missile,75.00,WildNova,Bereye III - Moon 1 - Roden Shipyards Factory,Buy,Personal,5675527267
+2012-03-28 20:30:30,2456617547,2,Nemesis,20749996.00,Gislind Vanderberg,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5665700017
+2012-03-28 20:05:50,2456594448,1,Nemesis,20749996.00,Daario Naharis,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5665597931
+2012-03-28 20:03:03,2456591931,1,Nemesis,20749996.00,Jovi Pathfinder,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5665585545
+2012-03-28 19:53:32,2456582710,1,Nemesis,20749996.00,Auhsoj Halldoro,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5665544593
+2012-03-28 19:23:59,2456554672,1,Nemesis,20749996.00,ARTIST JACK,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5665419290
+2012-03-28 19:20:36,2456551422,4,Nemesis,20749996.00,Tante Emma1,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5665405016
+2012-03-28 05:19:57,2456132569,392,EM Ward Field II,1048999.00,MasterZap,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5663500225
+2012-03-28 05:18:39,2456131959,1,EM Ward Field II,1048999.00,Hamster Pie,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5663497605
+2012-03-28 05:14:29,2456129676,4,EM Ward Field II,1058998.00,Gemma JitaIx,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5663487318
+2012-03-28 04:43:29,2456114350,1,EM Ward Field II,1048999.00,Ginaz Warrior,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5663417406
+2012-03-28 04:43:13,2456114187,1,EM Ward Field II,1048999.00,Ckalorik,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5663416733
+2012-03-28 04:42:41,2456113909,2,EM Ward Field II,1048999.00,Xanu Nanadus,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5663415636
+2012-03-28 04:37:04,2456111135,2,EM Ward Field II,1048999.00,Icis,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5663402484
+2012-03-28 04:34:32,2456109874,1,EM Ward Field II,1048999.00,Alice Capone,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5663396223
+2012-03-28 04:29:20,2456107305,1,EM Ward Field II,1048999.00,Andorre,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5663384332
+2012-03-28 04:20:14,2456102329,2,EM Ward Field II,1048999.00,DJvenim,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5663361914
+2012-03-28 04:16:13,2456100388,18,EM Ward Field II,1048999.00,Intaka Ozuwara,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5663352468
+2012-03-28 03:32:50,2456077989,1,EM Ward Field II,1048999.00,FoolMeOnce,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5663252539
+2012-03-28 03:30:48,2456076838,1,EM Ward Field II,1048999.00,Carkereb Dimaloun,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5663246794
+2012-03-28 03:30:19,2456076609,1,EM Ward Field II,1048999.00,Sunny Blondt,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5663245800
+2012-03-28 03:25:42,2456074158,1,EM Ward Field II,1048999.00,Kelderos,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5663234344
+2012-03-28 03:24:33,2456073524,1,EM Ward Field II,1100000.03,nkyrtre,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5663231750
+2012-03-28 03:20:33,2456071296,1,EM Ward Field II,1048999.00,Kyorin,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5663221284
+2012-03-28 03:16:17,2456069316,1,EM Ward Field II,1048999.00,Janny Lee,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5663211631
+2012-03-28 03:12:40,2456067747,1,EM Ward Field II,1048999.00,Ur Shanabi,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5663204577
+2012-03-28 03:10:46,2456066818,1,EM Ward Field II,1048999.00,Moonguide,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5663199555
+2012-03-28 03:10:40,2456066770,2,EM Ward Field II,1048999.00,uno muerto,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5663199349
+2012-03-28 03:09:34,2456066199,2,EM Ward Field II,1048999.00,Kate Fallwater,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5663196874
+2012-03-28 03:07:53,2456065361,1,EM Ward Field II,1048999.00,Fata Mea,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5663192948
+2012-03-28 03:07:49,2456065326,7,EM Ward Field II,1048999.00,moss monster,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5663192786
+2012-03-28 02:58:59,2456060985,3,EM Ward Field II,1048999.00,Wedge Antillles Yatolila,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5663171911
+2012-03-28 01:27:11,2456009221,60,EM Ward Field II,1048999.00,Koemgen,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5662933336
+2012-03-28 00:33:08,2455977462,4,EM Ward Field II,1048999.00,Silky Bunny,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5662787359
+2012-03-28 00:32:47,2455977256,1,EM Ward Field II,1048999.00,Marshall Timothy,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5662786478
+2012-03-28 00:24:41,2455972393,2,EM Ward Field II,1048999.00,Teros Solette,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5662763780
+2012-03-28 00:24:10,2455972097,1,EM Ward Field II,1048999.00,Fahck,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5662762522
+2012-03-28 00:21:12,2455970440,2,EM Ward Field II,1048999.00,Reaperace,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5662754236
+2012-03-28 00:09:49,2455963524,30,EM Ward Field II,1048999.00,Superkasper,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5662723120
+2012-03-28 00:08:52,2455962814,1,EM Ward Field II,1048999.00,Physicon Ionavor,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5662720328
+2012-03-28 00:08:49,2455962770,1,EM Ward Field II,1048999.00,ExDex,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5662720147
+2012-03-28 00:05:12,2455960519,1,EM Ward Field II,1048999.00,HAX Mistress,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5662709826
+2012-03-28 00:01:50,2455958354,1,EM Ward Field II,1048999.00,Lazaro9959,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5662700493
+2012-03-28 00:00:06,2455957352,1,EM Ward Field II,1048999.00,Lawlessness,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5662695101
+2012-03-27 23:56:16,2455955008,1,EM Ward Field II,1048999.00,Thompsonicus,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5662683967
+2012-03-27 23:55:20,2455954436,1,EM Ward Field II,1048999.00,Varukka Sault,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5662681444
+2012-03-27 23:46:22,2455949007,1,EM Ward Field II,1058998.00,Shang Fei,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5662656211
+2012-03-27 23:42:16,2455946533,1,EM Ward Field II,1048999.00,Jukejoint Jezabel,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5662645238
+2012-03-27 23:38:57,2455944548,1,EM Ward Field II,1048999.00,Novanny,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5662635540
+2012-03-27 23:37:19,2455943588,1,EM Ward Field II,1048999.00,Bluebeard,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5662631351
+2012-03-27 23:31:45,2455940201,1,EM Ward Field II,1048999.00,Leonardo Vascez,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5662615686
+2012-03-27 23:30:38,2455939497,2,EM Ward Field II,1048999.00,bazoo187,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5662611648
+2012-03-27 16:44:29,2455592726,7,10MN MicroWarpdrive II,2146998.00,xAnge1x,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5660995935
+2012-03-27 16:27:44,2455579770,2,10MN MicroWarpdrive II,2146998.00,Tondor,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5660935110
+2012-03-27 16:09:25,2455564780,1,10MN MicroWarpdrive II,2146998.00,futurekilled,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5660866787
+2012-03-27 16:08:16,2455563923,1,10MN MicroWarpdrive II,2146998.00,NOOB MONGER,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5660863045
+2012-03-27 16:06:36,2455562749,1,10MN MicroWarpdrive II,2146998.00,Jack Mehhoff,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5660857844
+2012-03-27 16:03:08,2455560293,1,10MN MicroWarpdrive II,2146998.00,AymenB1,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5660845452
+2012-03-27 15:56:20,2455554729,4,10MN MicroWarpdrive II,2146998.00,ElChikkiChikki,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5660820092
+2012-03-27 14:57:40,2455514091,2,10MN MicroWarpdrive II,2146998.00,CJsonic,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5660627332
+2012-03-27 14:55:45,2455512768,1,10MN MicroWarpdrive II,2146998.00,Johnny Pagoda,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5660620329
+2012-03-27 14:54:11,2455511701,1,10MN MicroWarpdrive II,2146998.00,Kosmic Roger,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5660615775
+2012-03-27 14:48:31,2455508121,1,10MN MicroWarpdrive II,2152999.99,Charles Maonaigh,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5660598238
+2012-03-27 14:45:28,2455506104,1,10MN MicroWarpdrive II,2146998.00,Moonstaff,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5660588263
+2012-03-27 14:38:26,2455501393,1,10MN MicroWarpdrive II,2146998.00,BillyBob Tucker,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5660566721
+2012-03-27 14:22:20,2455490887,1,10MN MicroWarpdrive II,2146998.00,RoastBeefSmasher,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5660517378
+2012-03-27 14:21:50,2455490561,40,10MN MicroWarpdrive II,2146998.00,Kreana Nolen,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5660515947
+2012-03-27 14:20:07,2455489453,1,10MN MicroWarpdrive II,2146998.00,Naughty Maid,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5660509821
+2012-03-27 14:13:38,2455485673,1,10MN MicroWarpdrive II,2146998.00,nashau3,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5660491546
+2012-03-27 14:11:43,2455484593,1,10MN MicroWarpdrive II,2146998.00,BillyBob Tucker,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5660486768
+2012-03-27 14:03:50,2455479668,1,10MN MicroWarpdrive II,2146998.00,BillyBob Tucker,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5660462991
+2012-03-27 13:06:57,2455447163,70,Energized Adaptive Nano Membrane II,955997.00,cranetrade slutto,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5660304349
+2012-03-27 10:38:45,2455385046,1,10MN MicroWarpdrive II,2146998.00,TheQ,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5660020411
+2012-03-27 10:31:25,2455381346,1,10MN MicroWarpdrive II,2146998.00,Grenzor,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5660004426
+2012-03-27 10:24:11,2455377259,1,10MN MicroWarpdrive II,2146998.00,Jita Jove,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5659986785
+2012-03-27 10:21:24,2455375729,7,Neutron Blaster Cannon II,4148897.16,cenyjita,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5659980538
+2012-03-27 10:18:25,2455374170,30,10MN MicroWarpdrive II,2146998.00,cenyjita,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5659973174
+2012-03-27 10:17:25,2455373630,1,10MN MicroWarpdrive II,2146998.00,Die Kutte,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5659970920
+2012-03-27 10:04:00,2455366819,1,10MN MicroWarpdrive II,2146998.00,Calista Calamity,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5659938814
+2012-03-27 10:03:51,2455366744,1,10MN MicroWarpdrive II,2146998.00,Verbz Banker,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5659938510
+2012-03-27 10:02:56,2455366211,1,10MN MicroWarpdrive II,2146998.00,Giuseppe Bakhtyar,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5659936317
+2012-03-27 09:55:32,2455362363,1,10MN MicroWarpdrive II,2146998.00,Johnny Enema,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5659918214
+2012-03-27 09:20:16,2455345100,1,10MN MicroWarpdrive II,2146998.00,Alkaziu Medium,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5659838365
+2012-03-27 09:12:06,2455341099,1,10MN MicroWarpdrive II,2146998.00,Gwad,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5659820381
+2012-03-27 09:01:03,2455335678,1,10MN MicroWarpdrive II,2146998.00,Snake PL,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5659794846
+2012-03-27 08:52:47,2455332121,1,10MN MicroWarpdrive II,2146998.00,Nightflyer22,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5659777796
+2012-03-27 08:36:07,2455325071,2,10MN MicroWarpdrive II,2146998.00,Klim66,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5659743793
+2012-03-27 08:29:39,2455322407,1,10MN MicroWarpdrive II,2146998.00,z1cc32,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5659730118
+2012-03-27 08:23:03,2455319793,1,10MN MicroWarpdrive II,2146998.00,acerpower,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5659717438
+2012-03-27 08:08:06,2455312656,1,10MN MicroWarpdrive II,2152999.99,O'den Patrouette,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5659684394
+2012-03-27 06:49:24,2455276462,1,Armor Explosive Hardener II,1475105.00,Calsik Obertin,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5659510416
+2012-03-27 06:12:13,2455259383,1,Armor Explosive Hardener II,1475105.00,Sly Jr,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5659427503
+2012-03-27 06:11:39,2455259144,1,Armor Explosive Hardener II,1475105.00,Kulper,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5659426331
+2012-03-27 06:06:42,2455256828,10,Armor Explosive Hardener II,1475105.00,palma kangaroo,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5659415156
+2012-03-27 04:32:08,2455209925,20,Armor Explosive Hardener II,1475105.00,Zisi,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5659197046
+2012-03-27 04:16:35,2455201982,4,Energized Adaptive Nano Membrane II,955997.00,Aeonicus XI Maximus,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5659159911
+2012-03-27 04:14:01,2455200832,5,Energized Adaptive Nano Membrane II,955997.00,Titus VonDeadAir,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5659153801
+2012-03-27 04:13:50,2455200759,1,Armor Explosive Hardener II,1475105.00,K'hallaek Nightwalker,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5659153426
+2012-03-27 04:12:46,2455200286,1,Armor Explosive Hardener II,1475105.00,Zednic,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5659151253
+2012-03-27 04:02:44,2455195364,1,Energized Adaptive Nano Membrane II,955997.00,Gavin Winter,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5659128191
+2012-03-27 04:02:07,2455195071,1,Energized Adaptive Nano Membrane II,955997.00,Stone Braker,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5659126937
+2012-03-27 03:58:20,2455193183,1,Energized Adaptive Nano Membrane II,955997.00,Aurelie Thalys,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5659117999
+2012-03-27 03:55:49,2455191963,1,Energized Adaptive Nano Membrane II,955997.00,Sinbelle Ransarne,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5659111861
+2012-03-27 03:43:39,2455185884,6,Energized Adaptive Nano Membrane II,955997.00,Sinbelle Ransarne,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5659083909
+2012-03-27 03:28:02,2455177537,2,Energized Adaptive Nano Membrane II,955997.00,uss wolf Pahineh,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5659045841
+2012-03-27 03:27:19,2455177097,2,Energized Adaptive Nano Membrane II,955997.00,Sorcerious,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5659044105
+2012-03-27 03:26:30,2455176675,1,EM Ward Field II,1048999.00,Aristarchus X,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5659042276
+2012-03-27 03:23:52,2455175341,1,EM Ward Field II,1048999.00,Susanna Fuego,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5659035497
+2012-03-27 03:22:42,2455174629,1,EM Ward Field II,1048999.00,Lavistar Alisplin,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5659032576
+2012-03-27 03:17:16,2455171899,2,Energized Adaptive Nano Membrane II,955997.00,Alouette Bistrot,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5659019858
+2012-03-27 03:16:12,2455171361,1,Energized Adaptive Nano Membrane II,955997.00,Walmart Pharmacy,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5659017235
+2012-03-27 03:13:38,2455170126,2,EM Ward Field II,1048999.00,thamata,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5659010939
+2012-03-27 03:09:52,2455168119,1,Energized Adaptive Nano Membrane II,955997.00,Tane Nucleus,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5659001563
+2012-03-27 03:09:28,2455167894,1,Energized Adaptive Nano Membrane II,955997.00,Kway'Gon,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5659000652
+2012-03-27 03:08:27,2455167371,1,Energized Adaptive Nano Membrane II,955997.00,Tane Nucleus,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5658998456
+2012-03-27 03:05:55,2455166029,1,EM Ward Field II,1100000.03,Gravedigger08,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5658991795
+2012-03-27 03:05:52,2455166010,1,Energized Adaptive Nano Membrane II,955997.00,Vladmir Sukmeov,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5658991591
+2012-03-27 03:05:51,2455166000,1,EM Ward Field II,1048999.00,Vogg,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5658991524
+2012-03-27 03:04:52,2455165459,1,Armor Explosive Hardener II,1475109.95,Commander Fun,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5658989045
+2012-03-27 03:00:50,2455163345,2,Energized Adaptive Nano Membrane II,955997.00,Tobenrok,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5658979418
+2012-03-27 02:59:42,2455162769,2,Energized Adaptive Nano Membrane II,955997.00,Nimbolic,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5658976917
+2012-03-27 02:59:17,2455162571,2,Energized Adaptive Nano Membrane II,957978.00,Seventh Sins,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5658976135
+2012-03-27 02:59:04,2455162434,1,10MN MicroWarpdrive II,2146998.00,Jen'ka,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5658975573
+2012-03-27 02:58:33,2455162149,1,10MN MicroWarpdrive II,2146998.00,Tobenrok,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5658974385
+2012-03-27 02:57:27,2455161450,1,Energized Adaptive Nano Membrane II,955997.00,Vaetys,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5658971583
+2012-03-27 02:57:24,2455161425,1,10MN MicroWarpdrive II,2152999.99,Exid Rihal,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5658971494
+2012-03-27 02:54:12,2455159621,3,Armor Explosive Hardener II,1475105.00,ChcknSndwh,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5658963160
+2012-03-27 02:54:03,2455159509,5,Energized Adaptive Nano Membrane II,955997.00,ChcknSndwh,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5658962729
+2012-03-27 02:53:49,2455159368,1,10MN MicroWarpdrive II,2146998.00,SXyGeeK Bravo,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5658962210
+2012-03-27 02:53:09,2455159004,2,10MN MicroWarpdrive II,2146998.92,Richard Rahl Madullier,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5658960659
+2012-03-27 02:50:53,2455157701,6,Energized Adaptive Nano Membrane II,1050997.99,Mara Journeyman,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5658954392
+2012-03-27 02:50:47,2455157636,1,10MN MicroWarpdrive II,2146998.00,Twyce Nyetlee,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5658954020
+2012-03-27 02:50:42,2455157595,1,Energized Adaptive Nano Membrane II,988900.00,Mara Journeyman,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5658953817
+2012-03-27 02:50:40,2455157567,1,Energized Adaptive Nano Membrane II,988900.00,Mara Journeyman,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5658953705
+2012-03-27 02:50:37,2455157544,1,Energized Adaptive Nano Membrane II,957997.98,Mara Journeyman,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5658953579
+2012-03-27 02:50:34,2455157520,1,Energized Adaptive Nano Membrane II,957976.99,Mara Journeyman,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5658953478
+2012-03-27 02:50:32,2455157490,1,Energized Adaptive Nano Membrane II,957976.00,Mara Journeyman,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5658953342
+2012-03-27 02:50:29,2455157466,1,Energized Adaptive Nano Membrane II,957976.00,Mara Journeyman,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5658953234
+2012-03-27 02:48:47,2455156492,1,10MN MicroWarpdrive II,2146998.00,TATTOO'S,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5658949131
+2012-03-27 02:48:19,2455156224,1,Armor Explosive Hardener II,1475105.00,TATTOO'S,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5658947982
+2012-03-27 02:48:02,2455156058,2,Energized Adaptive Nano Membrane II,955997.00,Gruji O'Doom,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5658947294
+2012-03-27 02:47:22,2455155667,1,Energized Adaptive Nano Membrane II,955997.00,VenomSlice,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5658945658
+2012-03-27 02:45:58,2455154931,2,Energized Adaptive Nano Membrane II,955997.00,TATTOO'S,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5658941803
+2012-03-27 02:44:49,2455154335,1,10MN MicroWarpdrive II,2146998.00,VenomSlice,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5658938729
+2012-03-27 02:44:18,2455154055,1,Armor Explosive Hardener II,1545000.00,Arbiter Reformed,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5658937508
+2012-03-27 02:43:47,2455153774,2,Energized Adaptive Nano Membrane II,957978.00,Arbiter Reformed,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5658936257
+2012-03-27 02:36:56,2455149635,5,Armor Explosive Hardener II,1475105.00,Adrianna Nicole,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5658917912
+2012-03-27 02:35:51,2455149096,1,Energized Adaptive Nano Membrane II,955997.00,Cadica Do'Urden,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5658914587
+2012-03-27 02:27:16,2455143976,1,Energized Adaptive Nano Membrane II,955997.00,Tentrian Lorkin,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5658891534
+2012-03-27 02:26:21,2455143392,1,10MN MicroWarpdrive II,2146998.00,backflipper,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5658889048
+2012-03-27 02:26:01,2455143214,1,10MN MicroWarpdrive II,2146998.00,UFS Fenix,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5658887870
+2012-03-27 02:22:00,2455140564,1,Energized Adaptive Nano Membrane II,955997.00,Tentrian Lorkin,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5658876685
+2012-03-27 02:10:25,2455133162,1,10MN MicroWarpdrive II,2146998.87,Hardcoregirly,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5658842844
+2012-03-27 02:10:16,2455133072,7,Neutron Blaster Cannon II,4148897.00,Archie175,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5658842490
+2012-03-27 02:05:32,2455130516,1,10MN MicroWarpdrive II,2146998.00,Zakn Tawate,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5658830407
+2012-03-27 02:05:17,2455130404,1,10MN MicroWarpdrive II,2146998.00,Phoebus ApolloX,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5658829863
+2012-03-27 02:05:10,2455130349,1,10MN MicroWarpdrive II,2146998.00,UFS Fenix,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5658829627
+2012-03-27 02:03:32,2455129390,3,Energized Adaptive Nano Membrane II,955997.00,Klann Schreck,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5658825725
+2012-03-27 02:00:44,2455127701,1,10MN MicroWarpdrive II,2146998.00,Prescience,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5658817763
+2012-03-27 02:00:34,2455127606,1,10MN MicroWarpdrive II,2146998.00,Thadrian Bhelas,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5658817339
+2012-03-27 01:53:09,2455123175,1,Armor Explosive Hardener II,1475105.00,Eli Odessa,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5658797999
+2012-03-27 01:50:50,2455121907,1,10MN MicroWarpdrive II,2146998.00,Megan Auduin,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5658792014
+2012-03-27 01:49:19,2455121066,1,Armor Explosive Hardener II,1475105.00,Antiochus Soter,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5658788312
+2012-03-27 01:47:15,2455119943,1,Armor Explosive Hardener II,1475105.00,Danielle Rose,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5658783588
+2012-03-27 01:44:45,2455118685,1,Armor Explosive Hardener II,1475105.00,Megan Auduin,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5658776954
+2012-03-27 01:44:07,2455118342,1,Armor Explosive Hardener II,1475105.00,Amarrils,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5658775538
+2012-03-27 01:41:22,2455116794,2,Armor Explosive Hardener II,1475105.00,Demos Altayr,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5658768988
+2012-03-27 01:38:27,2455115167,1,Armor Explosive Hardener II,1475105.00,Lord McGrage,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5658761204
+2012-03-27 01:36:42,2455114063,1,EM Ward Field II,1048999.00,Trainotron,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5658756748
+2012-03-27 01:36:14,2455113805,1,EM Ward Field II,1048999.00,Cazameraz,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5658755588
+2012-03-27 01:33:30,2455112285,1,EM Ward Field II,1305000.00,Cancer Malice,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5658748065
+2012-03-27 01:32:23,2455111574,7,Neutron Blaster Cannon II,4149000.00,Demos Altayr,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5658745097
+2012-03-27 01:32:09,2455111449,1,Neutron Blaster Cannon II,4353228.00,Demos Altayr,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5658744593
+2012-03-27 01:30:53,2455110660,1,EM Ward Field II,1048999.00,Wukulo,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5658740644
+2012-03-27 01:29:36,2455109881,3,10MN MicroWarpdrive II,2146998.00,Velafia,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5658737190
+2012-03-27 01:29:25,2455109766,1,Neutron Blaster Cannon II,4148897.00,Prescience,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5658736703
+2012-03-27 01:28:34,2455109276,1,10MN MicroWarpdrive II,2146998.00,Prescience,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5658734607
+2012-03-27 01:27:25,2455108615,1,10MN MicroWarpdrive II,2146998.00,Funkin Free,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5658731854
+2012-03-27 01:26:55,2455108322,1,EM Ward Field II,1048999.00,Aesir Terona,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5658730671
+2012-03-27 01:26:22,2455108013,1,EM Ward Field II,1048999.00,Seabasskul,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5658729274
+2012-03-27 01:25:06,2455107292,1,10MN MicroWarpdrive II,2146998.00,Ryzn,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5658725271
+2012-03-27 01:24:14,2455106817,1,Armor Explosive Hardener II,1475105.00,Celestra Doxaila,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5658723327
+2012-03-27 01:23:43,2455106549,1,10MN MicroWarpdrive II,2146998.00,Matzu,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5658722215
+2012-03-27 01:15:14,2455102007,2,EM Ward Field II,1048999.00,PrehendoOfAnimus,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5658700494
+2012-03-27 01:11:16,2455099725,2,Energized Adaptive Nano Membrane II,955997.00,Col LeClaire,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5658690972
+2012-03-27 01:08:08,2455097872,2410,Morphite,7649.20,defunctional,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5658682545
+2012-03-27 01:08:08,2455097871,37590,Morphite,7649.20,Zyzzy Balubah,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5658682542
+2012-03-27 01:07:29,2455097580,1,10MN MicroWarpdrive II,2146998.00,LuceOscura,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5658681245
+2012-03-27 01:07:24,2455097541,2,EM Ward Field II,1048999.00,Viki Katana,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5658681101
+2012-03-27 01:06:48,2455097232,1000,Construction Blocks,6849.99,Svendai,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5658679738
+2012-03-27 01:05:37,2455096605,12699,Transmitter,8149.90,Nightwing,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5658675981
+2012-03-27 01:05:37,2455096604,1201,Transmitter,8149.90,Leon Castle,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5658675978
+2012-03-27 01:05:08,2455096379,9600,Superconductors,9090.85,Fiye Tao,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5658675003
+2012-03-27 01:05:06,2455096367,1,Energized Adaptive Nano Membrane II,955997.00,Sarell Ensa,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5658674929
+2012-03-27 01:04:44,2455096149,1881,Robotics,48827.76,I Enjoy Intercourse,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5658674029
+2012-03-27 01:04:44,2455096148,1947,Robotics,48827.76,Ka tsching,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5658674026
+2012-03-27 01:04:43,2455096147,1572,Robotics,48827.76,Svendai,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5658674023
+2012-03-27 01:03:43,2455095581,1,10MN MicroWarpdrive II,2146998.00,SerialTurd,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5658671624
+2012-03-27 01:03:31,2455095458,11500,Miniature Electronics,7649.99,Diamond Joe,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5658671138
+2012-03-27 01:03:31,2455095457,100,Miniature Electronics,7649.99,quatona1,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5658671135
+2012-03-27 01:03:20,2455095348,2,Energized Adaptive Nano Membrane II,955997.00,Templar Aiur,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5658670716
+2012-03-27 01:03:03,2455095159,5200,Mechanical Parts,6663.90,Industrious Money,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5658669971
+2012-03-27 01:00:02,2455093301,221,Datacore - Rocket Science,214869.98,Nixie Nova,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5658661450
+2012-03-27 01:00:02,2455093300,179,Datacore - Rocket Science,214869.98,Zivka Anzhela,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5658661447
+2012-03-27 00:59:57,2455093249,1,Energized Adaptive Nano Membrane II,957976.00,ikaurs,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5658661223
+2012-03-27 00:59:30,2455092993,1,Armor Explosive Hardener II,1476993.00,krazyskillz,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5658660084
+2012-03-27 00:59:28,2455092971,236,Datacore - Quantum Physics,208497.55,volhar,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5658659999
+2012-03-27 00:59:28,2455092970,4,Datacore - Quantum Physics,208497.55,zealot0,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5658659996
+2012-03-27 00:58:55,2455092658,159,Datacore - Plasma Physics,311293.83,Mr Fisherman,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5658658672
+2012-03-27 00:58:55,2455092657,81,Datacore - Plasma Physics,311293.83,Eli Brask,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5658658669
+2012-03-27 00:58:27,2455092395,62,Datacore - Nuclear Physics,189362.40,Mr Blueberry,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5658657526
+2012-03-27 00:58:27,2455092394,18,Datacore - Nuclear Physics,189362.40,Tullwynis Nabali,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5658657523
+2012-03-27 00:58:17,2455092299,2,Energized Adaptive Nano Membrane II,955997.00,Ikicku Alnight,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5658657114
+2012-03-27 00:58:07,2455092209,398,Datacore - Nanite Engineering,378997.89,Diamond Joe,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5658656722
+2012-03-27 00:58:07,2455092208,2,Datacore - Nanite Engineering,378997.89,Fraeckel,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5658656719
+2012-03-27 00:57:45,2455092019,260,Datacore - Molecular Engineering,238995.99,Gatan Hahran,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5658655911
+2012-03-27 00:57:45,2455092018,20,Datacore - Molecular Engineering,238995.99,Zarathushtri,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5658655908
+2012-03-27 00:57:41,2455091981,1,Large Shield Transporter II,1229994.00,Michael Jacobson,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5658655757
+2012-03-27 00:57:07,2455091653,190,Datacore - Mechanical Engineering,369988.98,Tisune Tyan,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5658654412
+2012-03-27 00:57:07,2455091652,294,Datacore - Mechanical Engineering,369988.98,Vanirs,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5658654409
+2012-03-27 00:57:07,2455091651,88,Datacore - Mechanical Engineering,369988.98,Lordtater,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5658654406
+2012-03-27 00:57:07,2455091650,81,Datacore - Mechanical Engineering,369988.98,Kampfpanzer,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5658654403
+2012-03-27 00:56:54,2455091532,250,Datacore - Mechanical Engineering,364999.98,Kampfpanzer,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5658653897
+2012-03-27 00:56:54,2455091531,81,Datacore - Mechanical Engineering,364999.98,Bretyllium,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5658653894
+2012-03-27 00:56:29,2455091288,296,Datacore - Mechanical Engineering,360000.00,muhkuh2006,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5658652806
+2012-03-27 00:54:55,2455090335,200,Datacore - Minmatar Starship Engineering,206885.00,Arakk DeBois,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5658647847
+2012-03-27 00:54:28,2455090093,736,Datacore - Hydromagnetic Physics,374979.86,Diamond Joe,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5658646791
+2012-03-27 00:54:28,2455090092,109,Datacore - Hydromagnetic Physics,374979.86,Freak Power,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5658646788
+2012-03-27 00:54:28,2455090091,27,Datacore - Hydromagnetic Physics,374979.86,Vengar,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5658646785
+2012-03-27 00:54:28,2455090090,188,Datacore - Hydromagnetic Physics,374979.86,Tisune Tyan,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5658646782
+2012-03-27 00:54:06,2455089864,6,Neutron Blaster Cannon II,4148897.00,Japanx,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5658645795
+2012-03-27 00:52:15,2455088836,1,Energized Adaptive Nano Membrane II,955997.00,L0rd Shad0w,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5658641306
+2012-03-27 00:52:09,2455088776,6,Energized Adaptive Nano Membrane II,955997.00,Luna Haywire,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5658641012
+2012-03-27 00:51:57,2455088667,2,EM Ward Field II,1048999.00,Elloise Kashada,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5658640536
+2012-03-27 00:51:48,2455088589,1,Armor Explosive Hardener II,1475105.00,Luna Haywire,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5658640185
+2012-03-27 00:51:29,2455088411,1,Energized Adaptive Nano Membrane II,955997.00,Meiva Avelhara,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5658639324
+2012-03-27 00:50:52,2455088058,600,Datacore - Graviton Physics,207999.00,volhar,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5658637058
+2012-03-27 00:50:44,2455087972,160,Datacore - Gallentean Starship Engineering,109999.99,Mr Blueberry,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5658636530
+2012-03-27 00:50:41,2455087936,1,Armor Explosive Hardener II,1476993.00,Daniel Farr,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5658636314
+2012-03-27 00:50:36,2455087901,80,Datacore - Electronic Engineering,194956.40,Mr Blueberry,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5658636119
+2012-03-27 00:50:29,2455087840,497,Datacore - Electronic Engineering,194956.44,Mr Blueberry,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5658635856
+2012-03-27 00:50:29,2455087839,3,Datacore - Electronic Engineering,194956.44,Lucy Mot'su,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5658635851
+2012-03-27 00:50:29,2455087838,500,Datacore - Electronic Engineering,194956.44,BolsterBomb,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5658635848
+2012-03-27 00:50:01,2455087552,2,EM Ward Field II,1048999.00,Selmak Antilles,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5658634630
+2012-03-27 00:49:23,2455087166,1,EM Ward Field II,1048999.00,PedanticPete,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5658632934
+2012-03-27 00:46:15,2455085191,1,10MN MicroWarpdrive II,2146998.00,BKM Industries,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5658624772
+2012-03-27 00:45:13,2455084581,1,Armor Explosive Hardener II,1475105.00,Catalytic morphisis,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5658621178
+2012-03-27 00:44:52,2455084362,3,Armor Explosive Hardener II,1475105.00,Paceni,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5658620252
+2012-03-27 00:44:28,2455084131,1,EM Ward Field II,1048999.00,Koamatoase,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5658619279
+2012-03-27 00:39:30,2455081211,5,EM Ward Field II,1048999.00,Meatay Pickle,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5658606025
+2012-03-26 19:49:25,2454852449,100,Magnetic Field Stabilizer II,889497.00,Siren Pavonis,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5657558909
+2012-03-26 19:49:13,2454852234,50,Magnetic Field Stabilizer II,889497.00,Siren Pavonis,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5657557976
+2012-03-26 19:49:04,2454852070,35,Magnetic Field Stabilizer II,889498.96,Siren Pavonis,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5657557256
+2012-03-26 16:03:19,2454646740,10,Energized Adaptive Nano Membrane II,957976.00,WARDAX,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5656602012
+2012-03-26 16:03:17,2454646718,1,Energized Adaptive Nano Membrane II,957976.00,notsecondary,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5656601904
+2012-03-26 16:01:15,2454645080,1,Energized Adaptive Nano Membrane II,957976.00,Golda Meir,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5656595178
+2012-03-26 15:59:46,2454643883,1,Energized Adaptive Nano Membrane II,957976.00,Golda Meir,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5656588828
+2012-03-26 15:57:42,2454642230,1,Energized Adaptive Nano Membrane II,957976.00,Danu Metis,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5656582017
+2012-03-26 15:57:03,2454641692,4,Energized Adaptive Nano Membrane II,957976.00,Xarmontacargas,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5656579789
+2012-03-26 15:54:06,2454639487,2,Energized Adaptive Nano Membrane II,957976.00,GRIFFINS TEAR,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5656568842
+2012-03-26 15:41:18,2454629861,1,Energized Adaptive Nano Membrane II,957976.00,Growney Tsutola,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5656524662
+2012-03-26 15:40:07,2454628948,1,Energized Adaptive Nano Membrane II,957976.00,Munk Mathergos,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5656519389
+2012-03-26 15:39:37,2454628516,1,Energized Adaptive Nano Membrane II,957976.00,Zombie Mistress,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5656517530
+2012-03-26 15:35:40,2454625564,1,Energized Adaptive Nano Membrane II,957976.00,Evebo Zhongdejen,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5656503510
+2012-03-26 15:31:35,2454622668,1,Energized Adaptive Nano Membrane II,957976.00,Shaitan Batir,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5656490398
+2012-03-26 15:21:55,2454615564,1,Energized Adaptive Nano Membrane II,957976.00,Astroia Star,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5656456527
+2012-03-26 15:21:54,2454615561,2,Energized Adaptive Nano Membrane II,957976.00,Wysi,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5656456517
+2012-03-26 15:18:30,2454613181,1,Energized Adaptive Nano Membrane II,957976.00,SteveMerchant,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5656444625
+2012-03-26 15:10:56,2454608310,1,Energized Adaptive Nano Membrane II,957976.00,Zoe Mangue,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5656421256
+2012-03-26 15:09:30,2454607291,4,Energized Adaptive Nano Membrane II,957976.00,Inara Tamm,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5656415632
+2012-03-26 15:09:17,2454607174,2,Energized Adaptive Nano Membrane II,957976.00,Andokia,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5656415103
+2012-03-26 15:08:47,2454606816,2,Energized Adaptive Nano Membrane II,957976.00,Eleniti Hakomairos,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5656413531
+2012-03-26 15:07:31,2454605931,1,Energized Adaptive Nano Membrane II,957976.00,Reiv Cantor,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5656409712
+2012-03-26 15:04:22,2454603972,2,Energized Adaptive Nano Membrane II,957976.00,Sasha Fishbone,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5656399288
+2012-03-26 15:03:27,2454603365,56,Energized Adaptive Nano Membrane II,957976.00,Salvator Mundi,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5656396651
+2012-03-26 14:11:55,2454568098,10,Magnetic Field Stabilizer II,889497.00,WildNova,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5656234040
+2012-03-26 08:35:35,2454410019,1,Armor Explosive Hardener II,1489997.00,WACOpkt,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5655497152
+2012-03-26 08:35:13,2454409852,1,Armor Explosive Hardener II,1489997.00,Mr Goode,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5655496088
+2012-03-26 08:21:12,2454403588,1,Armor Explosive Hardener II,1489997.00,Ryan Starks,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5655465617
+2012-03-26 08:15:39,2454401066,1,10MN MicroWarpdrive II,2146999.00,Glory Ho,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5655453063
+2012-03-26 08:00:24,2454393486,1,Armor Explosive Hardener II,1489997.00,Grabol Amphal,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5655418039
+2012-03-26 07:39:29,2454384162,1,Armor Explosive Hardener II,1489997.00,MambaLamba Silf,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5655374225
+2012-03-26 07:39:20,2454384104,1,Armor Explosive Hardener II,1489997.00,MambaLamba Silf,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5655373957
+2012-03-26 07:38:46,2454383843,2,Energized Adaptive Nano Membrane II,957976.00,MambaLamba Silf,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5655372846
+2012-03-26 07:36:09,2454382746,1,Armor Explosive Hardener II,1489997.00,GOGAMUN,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5655367795
+2012-03-26 07:35:52,2454382629,3,Energized Adaptive Nano Membrane II,957976.00,GOGAMUN,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5655367139
+2012-03-26 07:35:25,2454382434,69,Neutron Blaster Cannon II,4148998.00,cenyjita,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5655365785
+2012-03-26 07:33:11,2454381499,2,Ishkur,22199988.99,cenyjita,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5655361429
+2012-03-26 07:32:07,2454381080,6,Energized Adaptive Nano Membrane II,957976.00,Sauron Bauglir,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5655359525
+2012-03-26 07:31:11,2454380651,1,Energized Adaptive Nano Membrane II,957976.00,StickySticks,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5655357617
+2012-03-26 07:23:17,2454377262,1,Armor Explosive Hardener II,1489997.00,Snow Hash,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5655340934
+2012-03-26 07:20:55,2454376243,2,Energized Adaptive Nano Membrane II,957976.00,Makeea,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5655336171
+2012-03-26 07:20:27,2454376041,2,Armor Explosive Hardener II,1489997.00,Abeitheus Cijon,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5655334774
+2012-03-26 07:18:09,2454374909,1,Armor Explosive Hardener II,1489997.00,Tenitus,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5655329676
+2012-03-26 07:17:53,2454374777,2,Energized Adaptive Nano Membrane II,957976.00,Hodious,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5655329125
+2012-03-26 07:16:51,2454374256,1,Energized Adaptive Nano Membrane II,957976.00,Tenitus,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5655326934
+2012-03-26 07:14:24,2454373153,1,Energized Adaptive Nano Membrane II,957976.00,Tenitus,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5655321277
+2012-03-26 07:08:42,2454370501,55,Armor Explosive Hardener II,1489997.00,cenyjita,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5655309023
+2012-03-26 06:52:04,2454363809,1,Energized Adaptive Nano Membrane II,957976.00,lucha contra,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5655276207
+2012-03-26 06:41:23,2454359403,1,Armor Explosive Hardener II,1489997.00,DesignedForWar,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5655254695
+2012-03-26 06:38:35,2454358166,2,Armor Explosive Hardener II,1489997.00,Onachi,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5655248406
+2012-03-26 06:32:02,2454355490,1,Armor Explosive Hardener II,1489997.00,Ms Iustitia,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5655235753
+2012-03-26 06:25:26,2454352428,1,Ishkur,22199988.00,King Doom,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5655220960
+2012-03-26 06:24:35,2454352016,2,Wolf,29249996.00,Trader Coco,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5655218914
+2012-03-26 06:18:24,2454349180,2,Enyo,24799110.00,Eyesskay,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5655205726
+2012-03-26 06:14:29,2454347388,1,Armor Explosive Hardener II,1489997.00,Arsicas Dinon,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5655196959
+2012-03-26 06:12:30,2454346532,2,Armor Explosive Hardener II,1489997.00,Demalisher2,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5655193114
+2012-03-26 06:11:28,2454346124,1,Ishkur,22199988.00,Sleepy Italian,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5655191189
+2012-03-26 06:09:51,2454345420,32,Neutron Blaster Cannon II,4148998.00,Roid Cruncher666,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5655186965
+2012-03-26 06:07:19,2454344221,2,10MN MicroWarpdrive II,2149997.98,cartmaan,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5655181852
+2012-03-26 06:00:33,2454340844,1,10MN MicroWarpdrive II,2146999.00,Taskjob,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5655166431
+2012-03-26 05:57:41,2454339519,3,Neutron Blaster Cannon II,4148998.00,Mikaello,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5655160339
+2012-03-26 05:51:18,2454336268,1,Wolf,29249996.00,Sinostora,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5655145963
+2012-03-26 05:50:29,2454335819,1,Armor Explosive Hardener II,1489997.00,Asuka Hita,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5655143473
+2012-03-26 05:42:59,2454331621,1,Armor Explosive Hardener II,1489997.00,Yuri Kuznetsov,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5655125109
+2012-03-26 05:38:51,2454329475,2,Energized Adaptive Nano Membrane II,957976.00,Yuri Kuznetsov,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5655115096
+2012-03-26 05:38:49,2454329456,2,Energized Adaptive Nano Membrane II,957976.00,L0rd Shad0w,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5655115015
+2012-03-26 05:38:17,2454329176,1,10MN MicroWarpdrive II,2146999.00,Yuri Kuznetsov,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5655113813
+2012-03-26 05:35:56,2454327917,1,10MN MicroWarpdrive II,2146999.00,Bloup,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5655108437
+2012-03-26 05:32:01,2454325756,1,Armor Explosive Hardener II,1489997.00,TheWonderBoner,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5655098681
+2012-03-26 05:31:21,2454325429,2,Armor Explosive Hardener II,1489997.00,CaptainThorVonAwesome,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5655097250
+2012-03-26 05:29:08,2454324242,1,Armor Explosive Hardener II,1489997.00,Shi Seiran,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5655091420
+2012-03-26 05:24:43,2454321906,5,Neutron Blaster Cannon II,4148998.00,valspa,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5655080641
+2012-03-26 05:23:34,2454321266,1,10MN MicroWarpdrive II,2146999.00,Taedeush,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5655078124
+2012-03-26 05:22:39,2454320801,10,10MN MicroWarpdrive II,2146999.00,valspa,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5655076126
+2012-03-26 05:22:35,2454320763,2,Energized Adaptive Nano Membrane II,957976.00,Anatel Vellore,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5655075968
+2012-03-26 05:19:56,2454319485,2,Energized Adaptive Nano Membrane II,957976.00,L0rd Shad0w,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5655069526
+2012-03-26 05:17:32,2454318333,5,Neutron Blaster Cannon II,4148998.00,Taedeush,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5655064665
+2012-03-26 05:17:07,2454318172,1,Neutron Blaster Cannon II,4353228.00,Taedeush,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5655063873
+2012-03-26 05:17:00,2454318106,1,Neutron Blaster Cannon II,4353228.00,Taedeush,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5655063594
+2012-03-26 05:16:45,2454317997,1,Neutron Blaster Cannon II,4353228.00,Taedeush,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5655063077
+2012-03-26 05:15:37,2454317509,1,Energized Adaptive Nano Membrane II,957976.00,Gillian Starsaber,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5655060391
+2012-03-26 05:12:46,2454316210,2,Energized Adaptive Nano Membrane II,957976.00,PURITY DEVICE,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5655054184
+2012-03-26 05:06:05,2454312997,1,Wolf,29249996.00,DanBoucher,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5655039258
+2012-03-26 05:04:07,2454312025,1,Energized Adaptive Nano Membrane II,957976.99,Vidork Drako,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5655034303
+2012-03-26 05:03:57,2454311940,1,Energized Adaptive Nano Membrane II,957976.99,Vidork Drako,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5655033913
+2012-03-26 05:03:25,2454311701,1,10MN MicroWarpdrive II,2146999.00,Markus Vorenus,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5655032900
+2012-03-26 05:01:12,2454310744,1,Energized Adaptive Nano Membrane II,957976.99,Vidork Drako,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5655028725
+2012-03-26 04:59:38,2454309972,1,Energized Adaptive Nano Membrane II,957976.99,Ethereon,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5655024541
+2012-03-26 04:59:34,2454309943,1,Energized Adaptive Nano Membrane II,957976.99,Ethereon,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5655024434
+2012-03-26 04:59:00,2454309706,1,Wolf,29249996.00,d3gradation,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5655023398
+2012-03-26 04:53:30,2454306899,1,Ishkur,22199988.00,kliox,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5655010783
+2012-03-26 04:50:37,2454305395,1,Energized Adaptive Nano Membrane II,957976.00,Nix Hexx,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5655004210
+2012-03-26 04:49:48,2454304976,4,Neutron Blaster Cannon II,4148998.00,Marconius,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5655001898
+2012-03-26 04:49:47,2454304964,2,Energized Adaptive Nano Membrane II,971986.97,cartmaan,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5655001855
+2012-03-26 04:48:14,2454304155,1,10MN MicroWarpdrive II,2146999.00,Sebasthian,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5654998586
+2012-03-26 04:46:16,2454303110,4,Energized Adaptive Nano Membrane II,957976.00,Marconius,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5654994257
+2012-03-26 04:45:20,2454302640,2,Armor Explosive Hardener II,1489997.00,Marconius,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5654991439
+2012-03-26 04:42:38,2454301256,3,Armor Explosive Hardener II,1489997.00,Generic Pubbiename,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5654985640
+2012-03-26 04:40:29,2454300115,2,Energized Adaptive Nano Membrane II,957976.00,Mustarde,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5654979807
+2012-03-26 04:40:08,2454299928,1,10MN MicroWarpdrive II,2146999.00,bm3,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5654978701
+2012-03-26 04:36:11,2454297979,1,Energized Adaptive Nano Membrane II,957976.00,Dr darkside,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5654970260
+2012-03-26 04:36:05,2454297929,2,Energized Adaptive Nano Membrane II,957976.00,Dr darkside,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5654970045
+2012-03-26 04:35:25,2454297572,1,Energized Adaptive Nano Membrane II,957976.00,Miko Aiko,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5654967843
+2012-03-26 04:34:23,2454297015,4,Energized Adaptive Nano Membrane II,957976.00,Sauron Bauglir,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5654965299
+2012-03-26 04:32:02,2454295835,1,EM Ward Field II,1089869.00,Zezinha,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5654960310
+2012-03-26 04:31:47,2454295721,1,10MN MicroWarpdrive II,2146999.00,Kaker,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5654959859
+2012-03-26 04:31:33,2454295598,1,10MN MicroWarpdrive II,2147000.00,Kaker,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5654959352
+2012-03-26 04:29:52,2454294758,1,10MN MicroWarpdrive II,2146999.00,Corwin Dinalt,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5654954918
+2012-03-26 04:29:01,2454294355,90,Energized Adaptive Nano Membrane II,957976.00,Generic Pubbiename,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5654953093
+2012-03-26 04:25:26,2454292629,1,10MN MicroWarpdrive II,2146999.00,bm3,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5654945040
+2012-03-26 04:24:30,2454292163,1,10MN MicroWarpdrive II,2146999.00,The Trout,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5654942845
+2012-03-26 04:23:57,2454291849,4,Large Shield Transporter II,1237992.00,Haravar,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5654941586
+2012-03-26 04:22:59,2454291332,1,10MN MicroWarpdrive II,2146999.00,Zat'Nickatel,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5654939480
+2012-03-26 04:22:24,2454291033,3,10MN MicroWarpdrive II,2146999.00,Lady DarkNight,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5654938261
+2012-03-26 04:19:49,2454289799,112000,Liquid Ozone,375.10,Alex Skate,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5654932013
+2012-03-26 04:19:49,2454289798,221300,Liquid Ozone,375.10,Bingo84,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5654932010
+2012-03-26 04:18:54,2454289339,333300,Heavy Water,64.65,Bingo84,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5654930041
+2012-03-26 04:18:29,2454289132,888800,Nitrogen Isotopes,801.91,Hiemarch,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5654929156
+2012-03-26 04:16:52,2454288312,2222,Robotics,47799.98,George Babbitt,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5654925708
+2012-03-26 04:16:38,2454288174,1,Wolf,29249996.00,Andrev Nox,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5654925157
+2012-03-26 04:16:32,2454288120,3,Large Shield Transporter II,1237992.00,Nut SackSkullcap,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5654924907
+2012-03-26 04:14:53,2454287304,2,Magnetic Field Stabilizer II,889498.00,HotBrain,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5654920356
+2012-03-26 04:14:24,2454287094,2,Magnetic Field Stabilizer II,889498.00,sabastyian,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5654919409
+2012-03-26 04:13:28,2454286661,89,Gyrostabilizer II,839979.00,Zaha Leonardi,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5654917553
+2012-03-26 04:13:02,2454286464,1,Magnetic Field Stabilizer II,889498.00,Meaty Lips,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5654916712
+2012-03-26 04:12:51,2454286378,1,Magnetic Field Stabilizer II,889498.00,Meaty Lips,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5654916323
+2012-03-26 04:10:48,2454285305,1,Nemesis,20887110.00,Battalier,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5654911517
+2012-03-26 04:10:37,2454285238,1,Enyo,24799110.00,EureekasCastle Aucie,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5654911004
+2012-03-26 04:10:31,2454285174,42,Ballistic Control System II,784948.00,Zaha Leonardi,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5654910510
+2012-03-26 04:09:37,2454284740,1,10MN MicroWarpdrive II,2146999.00,Shivasie,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5654908237
+2012-03-26 04:09:23,2454284615,8888,Mechanical Parts,6299.74,Industrious Money,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5654907768
+2012-03-26 04:09:06,2454284457,4,Ballistic Control System II,784948.00,Kyrq Hksupermeow,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5654907101
+2012-03-26 04:08:40,2454284234,1,Ballistic Control System II,784948.63,Jury Foxx,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5654906143
+2012-03-26 04:08:36,2454284197,2,Ballistic Control System II,784948.00,GG wp,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5654905998
+2012-03-26 04:07:34,2454283635,2,Magnetic Field Stabilizer II,889498.00,Annihilatus,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5654903761
+2012-03-26 04:06:46,2454283213,1,Armor Explosive Hardener II,1489998.00,Odoya,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5654901994
+2012-03-26 04:06:42,2454283168,1,Energized Adaptive Nano Membrane II,957977.00,Marcus Shepard Crichton,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5654901804
+2012-03-26 04:06:38,2454283129,1,10MN MicroWarpdrive II,2146999.00,GharretMcneil,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5654901635
+2012-03-26 04:05:28,2454282524,3,Energized Adaptive Nano Membrane II,957977.00,Lamia Spike,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5654898388
+2012-03-26 04:05:03,2454282292,5642,Coolant,7990.00,Aker Krane,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Buy,Corporation,5654897176
+2012-03-26 04:04:34,2454281999,1,Ishkur,22199988.00,Dante Orlenard,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5654895994
+2012-03-26 04:02:55,2454281136,2,Armor Explosive Hardener II,1489998.00,Marcus Shepard Crichton,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5654892369
+2012-03-26 04:01:38,2454280478,1,Energized Adaptive Nano Membrane II,957997.98,Odoya,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5654889662
+2012-03-26 04:01:25,2454280345,1,Energized Adaptive Nano Membrane II,957997.98,Odoya,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5654889117
+2012-03-26 03:59:44,2454279408,1,10MN MicroWarpdrive II,2146999.00,Nina Lowel,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5654884243
+2012-03-26 03:58:57,2454278950,2,Ballistic Control System II,784948.00,Nina Lowel,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5654882475
+2012-03-26 03:58:44,2454278813,3,Magnetic Field Stabilizer II,889498.00,Seryaah Pendaris,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5654881978
+2012-03-26 03:58:17,2454278523,1,Energized Adaptive Nano Membrane II,957977.00,Malice Uberdman,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5654880882
+2012-03-26 03:58:14,2454278494,10,Magnetic Field Stabilizer II,889498.00,VValrus,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5654880780
+2012-03-26 03:56:05,2454277320,1,10MN MicroWarpdrive II,2146999.00,Talis Mahn,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5654875878
+2012-03-26 03:55:59,2454277262,4,Magnetic Field Stabilizer II,889498.00,Luichi Okura,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5654875632
+2012-03-26 03:54:45,2454276700,2,Magnetic Field Stabilizer II,889498.00,Talis Mahn,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5654872311
+2012-03-26 03:53:29,2454276019,4,Ballistic Control System II,784948.00,Deja Fatale,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5654869440
+2012-03-26 03:50:47,2454274667,8,Magnetic Field Stabilizer II,889498.00,VValrus,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5654863495
+2012-03-26 03:50:46,2454274658,1,Armor Explosive Hardener II,1489998.00,rigsaw,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5654863453
+2012-03-26 03:49:24,2454273974,2,10MN MicroWarpdrive II,2146999.00,Sergey Po,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5654859642
+2012-03-26 03:48:52,2454273734,2,Magnetic Field Stabilizer II,889498.00,bryce Aivo,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5654858545
+2012-03-26 03:48:31,2454273565,1,Nemesis,20887110.00,Urchent,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5654857812
+2012-03-26 03:47:59,2454273354,1,Magnetic Field Stabilizer II,889498.00,ScottChen,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5654856797
+2012-03-26 03:47:15,2454272993,2,Magnetic Field Stabilizer II,889498.00,Suittam,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5654855239
+2012-03-26 03:45:42,2454272242,1,Wolf,29249996.00,Paidia,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5654851708
+2012-03-26 03:45:32,2454272143,1,10MN MicroWarpdrive II,2146999.00,Suittam,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5654851012
+2012-03-26 03:45:15,2454271989,3,Ballistic Control System II,784948.00,Sugar Pant's,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5654850019
+2012-03-26 03:44:05,2454271305,6,Neutron Blaster Cannon II,4149825.00,Suittam,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5654847127
+2012-03-26 03:43:58,2454271236,1,Neutron Blaster Cannon II,4353228.00,Suittam,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5654846826
+2012-03-26 03:43:54,2454271191,1,Neutron Blaster Cannon II,4353228.00,Suittam,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5654846627
+2012-03-26 03:43:33,2454270999,2,Magnetic Field Stabilizer II,889498.00,Sreth,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5654845821
+2012-03-26 03:43:03,2454270768,5,EM Ward Field II,1089871.00,Sergey Po,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5654844822
+2012-03-26 03:41:50,2454270100,82,Heavy Missile Launcher II,924981.83,WanderingNomad,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5654842046
+2012-03-26 03:38:36,2454268644,10,Magnetic Field Stabilizer II,889498.00,Jin Jemai,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5654834746
+2012-03-26 03:38:12,2454268469,6,Heavy Missile Launcher II,922999.00,Gotlag,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5654833957
+2012-03-26 03:36:41,2454267795,2,Ballistic Control System II,784948.00,Anna Comnenus,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5654831118
+2012-03-26 03:36:18,2454267588,1,Nemesis,20897465.65,Valerius Regulus,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5654830268
+2012-03-26 03:35:10,2454266984,186,Adaptive Invulnerability Field II,1100002.04,Vil Mulah,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5654826766
+2012-03-26 03:35:03,2454266942,3,EM Ward Field II,1089871.00,Jin Jemai,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5654826558
+2012-03-26 03:34:56,2454266879,1,Ballistic Control System II,784948.00,San Qing,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5654826295
+2012-03-26 03:34:14,2454266538,3,Ballistic Control System II,784948.00,Kaark Hardblow,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5654824877
+2012-03-26 03:33:52,2454266357,113,Adaptive Invulnerability Field II,1100002.06,Avohab,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5654824145
+2012-03-26 03:33:42,2454266261,158,Adaptive Invulnerability Field II,1100003.00,Dane Shopkeep,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5654823737
+2012-03-26 03:33:18,2454266047,1,10MN MicroWarpdrive II,2146999.00,Niakri S,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5654822792
+2012-03-26 03:33:03,2454265906,10,Ballistic Control System II,784948.00,Jin Jemai,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5654822210
+2012-03-26 03:32:51,2454265798,2,Magnetic Field Stabilizer II,889498.00,sabastyian,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5654821752
+2012-03-26 03:32:39,2454265690,2,Magnetic Field Stabilizer II,889498.00,Niakri S,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5654821303
+2012-03-26 03:32:15,2454265507,8,Neutron Blaster Cannon II,4149825.00,Niakri S,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5654820468
+2012-03-26 03:31:50,2454265320,4,Ballistic Control System II,784948.00,Naum Komsa,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5654819626
+2012-03-26 03:31:44,2454265255,1,Magnetic Field Stabilizer II,889498.00,PerfectTarget,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5654819358
+2012-03-26 03:31:39,2454265233,8,Neutron Blaster Cannon II,4149825.93,Valea Silpha,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5654819259
+2012-03-26 03:30:57,2454264877,23,Adaptive Invulnerability Field II,1110000.00,Buzh,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5654817638
+2012-03-26 03:30:46,2454264778,10,Ballistic Control System II,784948.00,Jin Jemai,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5654817046
+2012-03-26 03:29:23,2454264077,2,Gyrostabilizer II,839979.00,BamBam Chaos,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5654813324
+2012-03-26 03:29:18,2454264038,2,Magnetic Field Stabilizer II,889498.00,Watches Youpee,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5654813156
+2012-03-26 03:29:17,2454264028,1,10MN MicroWarpdrive II,2148999.98,Elysium Scharfschutze,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5654813113
+2012-03-26 03:28:32,2454263638,1,10MN MicroWarpdrive II,2146999.00,Leoxis,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5654811508
+2012-03-26 03:27:30,2454263131,155,Stasis Webifier II,917025.13,Lady Godwynn,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5654809332
+2012-03-26 03:27:27,2454263088,2,Ballistic Control System II,784948.00,Araya Nila,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5654809145
+2012-03-26 03:27:18,2454263022,6,Stasis Webifier II,917025.15,Axl Rapture,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5654808861
+2012-03-26 03:27:00,2454262894,2,Gyrostabilizer II,839979.00,Captain Immy,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5654808306
+2012-03-26 03:26:58,2454262880,5,Magnetic Field Stabilizer II,889498.00,Jin Jemai,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5654808247
+2012-03-26 03:26:55,2454262859,10,Armor Explosive Hardener II,1489998.00,Urchent,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5654808149
+2012-03-26 03:26:52,2454262835,1,Gyrostabilizer II,839979.00,Markus Vorenus,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5654808034
+2012-03-26 03:26:50,2454262823,109,Stasis Webifier II,917025.17,Gregory Brunswick,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5654807986
+2012-03-26 03:26:29,2454262663,3,Ballistic Control System II,784948.00,Gumbumper,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5654807293
+2012-03-26 03:26:27,2454262642,60,Stasis Webifier II,917025.18,Vangaril,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5654807209
+2012-03-26 03:26:00,2454262437,1,10MN MicroWarpdrive II,2146999.00,Billium,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5654806296
+2012-03-26 03:25:46,2454262326,13,Tracking Enhancer II,769153.02,Brian Petersberg,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5654805651
+2012-03-26 03:25:24,2454262134,147,Tracking Enhancer II,769281.02,Asura07,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5654804294
+2012-03-26 03:24:35,2454261712,74,Warp Disruptor II,1122633.30,Corina Reinhardt,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5654802394
+2012-03-26 03:24:13,2454261502,133,Warp Disruptor II,1122633.37,Brian Petersberg,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5654801600
+2012-03-26 03:23:47,2454261261,59,Warp Disruptor II,1122634.24,TraderDog,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5654800676
+2012-03-26 03:23:39,2454261177,93,Warp Disruptor II,1122634.35,Salgiel Sarimachiel,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5654800372
+2012-03-26 03:23:30,2454261088,21,Warp Scrambler II,987006.20,Odd Beamwalker,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5654800002
+2012-03-26 03:23:19,2454261001,2,Gyrostabilizer II,839979.00,Elvis Preslie,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5654799703
+2012-03-26 03:23:17,2454260972,10,Warp Scrambler II,987006.22,Gustave Surprenant,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5654799593
+2012-03-26 03:23:08,2454260895,88,Warp Scrambler II,987006.26,Liselle Panala,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5654799280
+2012-03-26 03:23:01,2454260831,101,Warp Scrambler II,987006.27,Mr Fisherman,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5654799038
+2012-03-26 03:22:55,2454260777,3,Ballistic Control System II,784948.00,Grevinar Chamdar,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5654798827
+2012-03-26 03:22:25,2454260549,7,Heavy Missile Launcher II,922999.00,Grevinar Chamdar,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5654797863
+2012-03-26 03:22:16,2454260458,2,Ballistic Control System II,784948.00,Hananamitl,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5654797484
+2012-03-26 03:21:38,2454260127,1,Armor Explosive Hardener II,1489998.00,MrTidd,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5654796101
+2012-03-26 03:21:35,2454260106,391,Warp Disruptor II,1133026.00,Noghri Ki,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5654795995
+2012-03-26 03:20:49,2454259712,67,1MN Afterburner II,886040.52,Onan Wankus,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5654794043
+2012-03-26 03:20:43,2454259662,1,1MN Afterburner II,896041.06,Allianis Enaka,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5654793781
+2012-03-26 03:20:40,2454259637,5,Heavy Missile Launcher II,922999.00,Gumbumper,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5654793646
+2012-03-26 03:20:36,2454259594,36,1MN Afterburner II,896041.12,Phunkaos,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5654793287
+2012-03-26 03:20:22,2454259482,30,1MN Afterburner II,900000.00,Will Wrecker,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5654792448
+2012-03-26 03:20:15,2454259437,55,1MN Afterburner II,900000.01,Bommel Nett,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5654792104
+2012-03-26 03:20:09,2454259391,11,1MN Afterburner II,900001.00,Riordan Parnell,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5654791887
+2012-03-26 03:20:03,2454259357,34,1MN Afterburner II,900001.03,Sad Marvin,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5654791680
+2012-03-26 03:19:14,2454258950,2,Ballistic Control System II,784948.00,eeeBs,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5654789903
+2012-03-26 03:19:13,2454258942,4,1MN Afterburner II,900001.11,Gregory Brunswick,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5654789867
+2012-03-26 03:19:09,2454258919,1,Magnetic Field Stabilizer II,889498.00,God Hiimself,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5654789774
+2012-03-26 03:19:01,2454258844,50,1MN Afterburner II,900001.13,Lunar Wolf Saisima,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5654789461
+2012-03-26 03:18:55,2454258788,47,1MN Afterburner II,900001.14,Jason Marusic,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5654789242
+2012-03-26 03:18:49,2454258727,45,1MN Afterburner II,900001.20,Odd Beamwalker,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5654789020
+2012-03-26 03:18:18,2454258417,2,10MN Afterburner II,1060001.17,T1nyTradingMan,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5654787743
+2012-03-26 03:18:16,2454258398,2,Gyrostabilizer II,839979.00,Shawn Lightbeard,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5654787673
+2012-03-26 03:18:12,2454258356,8,Neutron Blaster Cannon II,4149825.00,Merphi,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5654787487
+2012-03-26 03:17:46,2454258149,8,Neutron Blaster Cannon II,4149825.00,SaLeMoN,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5654786591
+2012-03-26 03:17:31,2454258000,1,Energized Adaptive Nano Membrane II,957977.95,Tonanin,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5654785973
+2012-03-26 03:17:24,2454257932,1,Wolf,29249996.00,Shawn Lightbeard,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5654785663
+2012-03-26 03:17:05,2454257755,2,Gyrostabilizer II,839979.00,Kaark Hardblow,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5654784889
+2012-03-26 02:52:20,2454243705,1,Armor Explosive Hardener II,1489999.00,Pithlits,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5654722623
+2012-03-26 02:41:04,2454237234,1,Armor Explosive Hardener II,1489999.00,Eisen Wille,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5654694569
+2012-03-26 02:18:46,2454224772,1,Armor Explosive Hardener II,1489999.00,Velvetine Darkness,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5654637875
+2012-03-26 02:16:05,2454223251,1,Armor Explosive Hardener II,1489999.00,Kai Lae,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5654631682
+2012-03-26 02:06:58,2454217997,6,Heavy Missile Launcher II,924980.00,Tyche Gamma,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5654608056
+2012-03-26 02:03:18,2454215834,1,Armor Explosive Hardener II,1489999.00,Red Wyrm,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5654598113
+2012-03-26 01:49:20,2454207286,1,Armor Explosive Hardener II,1489999.00,love rat,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5654560388
+2012-03-26 01:49:12,2454207207,1,Armor Explosive Hardener II,1489999.00,xxArchangelxx,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5654560057
+2012-03-26 01:48:33,2454206844,4,Armor Explosive Hardener II,1489999.00,hansie slim,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5654558529
+2012-03-26 01:41:16,2454202375,1,Armor Explosive Hardener II,1489999.00,Demonic72,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5654539319
+2012-03-26 01:40:45,2454202075,1,Armor Explosive Hardener II,1489999.00,Huzfelt,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5654537895
+2012-03-26 01:26:18,2454193617,10,Armor Explosive Hardener II,1489999.00,Poetic Stanziel,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5654499794
+2012-03-26 01:20:12,2454190366,1,Armor Explosive Hardener II,1489999.00,F4bske,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5654483171
+2012-03-26 01:10:20,2454184244,18,Heavy Missile Launcher II,924981.00,downtherabbithole,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5654455885
+2012-03-26 01:04:49,2454180961,3,Heavy Missile Launcher II,924981.00,Neonode II,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5654440822
+2012-03-26 00:48:46,2454171560,1,Armor Explosive Hardener II,1489999.00,dorenalia,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5654396883
+2012-03-26 00:46:40,2454170248,1,Armor Explosive Hardener II,1489999.00,Dasani Waters,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5654391420
+2012-03-26 00:43:29,2454168285,34,1MN MicroWarpdrive II,1799998.00,Lysenda,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5654382142
+2012-03-26 00:38:15,2454165295,1,Armor Explosive Hardener II,1489999.00,gzr hawnsail,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5654368182
+2012-03-26 00:32:41,2454162010,1,1MN MicroWarpdrive II,1799998.00,Ju Man'ji,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5654352972
+2012-03-26 00:31:25,2454161137,7,Heavy Missile Launcher II,924981.00,sethikar,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5654349352
+2012-03-26 00:29:32,2454159825,67,Neutron Blaster Cannon II,4149804.00,Dinara Falorn,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5654342828
+2012-03-26 00:28:16,2454159009,3,Heavy Missile Launcher II,924981.00,Hans Arienth,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5654339453
+2012-03-26 00:26:49,2454158160,3,Heavy Missile Launcher II,924981.00,Ballrok,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5654335783
+2012-03-24 02:16:37,2452053338,1,Armor Explosive Hardener II,1491110.00,Pheonix Fawker,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5644795264
+2012-03-24 02:10:12,2452049288,1,Armor Explosive Hardener II,1491110.00,Dark Alternate,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5644777122
+2012-03-24 02:00:03,2452043199,1,Armor Explosive Hardener II,1491110.00,LaserzPewPew,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5644749123
+2012-03-24 01:50:48,2452037874,1,Armor Explosive Hardener II,1491110.00,reborn n52,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5644724811
+2012-03-24 01:42:49,2452033117,2,Armor Explosive Hardener II,1491110.00,Astrid Bjornsdottir,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5644703586
+2012-03-24 01:42:02,2452032672,1,Armor Explosive Hardener II,1491110.00,reborn n52,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5644701600
+2012-03-24 01:38:28,2452030454,1,Armor Explosive Hardener II,1491110.00,Alaskan Hunter,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5644690854
+2012-03-24 01:34:09,2452027824,1,Armor Explosive Hardener II,1492999.97,Moratok,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5644678754
+2012-03-24 01:14:09,2452015623,5,Armor Explosive Hardener II,1491110.00,Ihate allthings,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5644622763
+2012-03-24 01:01:34,2452006971,10,Armor Explosive Hardener II,1491110.00,Ski Kyle,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5644584614
+2012-03-24 01:01:27,2452006901,1,Armor Explosive Hardener II,1491110.00,VioletRay,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5644584305
+2012-03-24 00:56:28,2452003683,1,Armor Explosive Hardener II,1491110.00,GanRin,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5644569241
+2012-03-24 00:52:27,2452000958,1,Armor Explosive Hardener II,1491110.00,Kari Byron,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5644556639
+2012-03-24 00:35:50,2451990367,1,Armor Explosive Hardener II,1491110.00,Immortal Leviathan,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5644506908
+2012-03-24 00:34:26,2451989518,1,Armor Explosive Hardener II,1491110.00,Annfrank mute,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5644502778
+2012-03-22 17:20:04,2450757566,6,Heavy Missile Launcher II,938999.00,lucasmxavier,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5638839632
+2012-03-22 17:19:35,2450757178,6,Heavy Missile Launcher II,938999.00,Xano Zong,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5638838097
+2012-03-22 17:15:12,2450753500,43,Heavy Missile Launcher II,938999.00,Ambi Abit,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5638821763
+2012-03-22 17:03:55,2450744369,5,Heavy Missile Launcher II,938999.00,Innoix,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5638780787
+2012-03-22 17:02:54,2450743554,7,Heavy Missile Launcher II,938999.00,Max Pleiades,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5638777444
+2012-03-22 17:01:27,2450742317,6,Heavy Missile Launcher II,938999.00,fireranger danger,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5638771069
+2012-03-22 16:41:28,2450726560,6,Heavy Missile Launcher II,938999.00,Yan Shao,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5638699132
+2012-03-22 16:39:58,2450725494,4,Heavy Missile Launcher II,939978.98,Bizri,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5638694304
+2012-03-22 13:57:23,2450621710,3,Heavy Missile Launcher II,938999.00,fvbhtg qwertzuiop,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5638217936
+2012-03-22 13:55:48,2450620829,2,Heavy Missile Launcher II,938999.00,Raishkar,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5638213071
+2012-03-22 07:47:48,2450462200,1,Armor Explosive Hardener II,1491110.00,Hollande Novack,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5637472228
+2012-03-22 07:11:40,2450446506,1,Armor Explosive Hardener II,1491110.00,Bratello Ten'ok,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5637397926
+2012-03-22 07:11:35,2450446457,1,Armor Explosive Hardener II,1491110.00,Pha3drus,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5637397725
+2012-03-22 06:56:50,2450440200,5,Armor Explosive Hardener II,1491110.00,Karl Cox,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5637368214
+2012-03-22 06:41:13,2450433503,1,Armor Explosive Hardener II,1491110.00,Measka,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5637335842
+2012-03-22 06:40:11,2450433064,2,Armor Explosive Hardener II,1491110.00,kameny1973,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5637333902
+2012-03-22 06:31:46,2450429474,2,Armor Explosive Hardener II,1499591.97,General Kitsukii,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5637316414
+2012-03-22 06:22:32,2450425789,1,1MN MicroWarpdrive II,1849999.00,WrongDragon,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5637298148
+2012-03-22 06:21:16,2450425267,10,Armor Explosive Hardener II,1491110.00,blam11,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5637295794
+2012-03-22 06:20:48,2450425080,1,1MN MicroWarpdrive II,1990000.00,Melkhaz,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5637294944
+2012-03-22 06:17:00,2450423544,1,1MN MicroWarpdrive II,1849999.00,stixuru,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5637287090
+2012-03-22 06:15:18,2450422740,1,1MN MicroWarpdrive II,1849999.00,Valis Ozymandias,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5637283794
+2012-03-22 06:15:06,2450422625,4,1MN MicroWarpdrive II,1849999.00,Tobias Kado,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5637283294
+2012-03-22 06:06:47,2450418873,1,1MN MicroWarpdrive II,1849999.00,Kazrael Starseeker,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5637264902
+2012-03-22 06:06:32,2450418738,2,Armor Explosive Hardener II,1491110.00,GX307,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5637264288
+2012-03-22 06:04:21,2450417735,1,1MN MicroWarpdrive II,1849999.00,Lady Aja,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5637259836
+2012-03-22 06:03:26,2450417307,10,1MN MicroWarpdrive II,1849999.00,Krosh Sil,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5637257185
+2012-03-22 05:57:54,2450415102,2,Armor Explosive Hardener II,1491110.00,BUHO,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5637246289
+2012-03-22 05:56:04,2450414372,7,Armor Explosive Hardener II,1491110.00,Tudoska,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5637243004
+2012-03-22 05:54:08,2450413537,1,1MN MicroWarpdrive II,1849999.00,MUCC BEPOHUKA,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5637239004
+2012-03-22 05:52:31,2450412805,1,1MN MicroWarpdrive II,1849999.00,Evil Pacmann,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5637235349
+2012-03-22 05:49:37,2450411531,1,1MN MicroWarpdrive II,1849999.00,Bart Albatross,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5637229684
+2012-03-22 05:47:29,2450410670,1,1MN MicroWarpdrive II,1849999.00,Rhua Mal,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5637225079
+2012-03-22 05:36:07,2450405715,2,1MN MicroWarpdrive II,1849999.00,Dakkon Galdrath,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5637201582
+2012-03-22 05:28:46,2450402555,3,Armor Explosive Hardener II,1491110.00,Kyler Steele,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5637186018
+2012-03-22 05:27:19,2450401929,1,1MN MicroWarpdrive II,1899998.92,wurblewind,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5637183159
+2012-03-22 05:26:01,2450401298,1,1MN MicroWarpdrive II,1849999.00,hcydo,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5637180351
+2012-03-22 05:17:40,2450397507,1,1MN MicroWarpdrive II,1849999.00,Dark JTG,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5637162270
+2012-03-22 05:09:47,2450393894,1,1MN MicroWarpdrive II,1849999.00,Labtebricolephile,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5637145861
+2012-03-22 05:06:44,2450392688,1,1MN MicroWarpdrive II,1849999.00,Bill Cesaille,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5637139502
+2012-03-22 05:05:26,2450392184,1,1MN MicroWarpdrive II,1849999.00,MrTiddles,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5637137188
+2012-03-22 04:59:12,2450389745,1,1MN MicroWarpdrive II,1849999.00,Bill Cesaille,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5637124941
+2012-03-22 04:36:51,2450380330,1,Armor Explosive Hardener II,1491110.00,Fresh Pete,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5637077390
+2012-03-22 04:23:01,2450373855,1,Armor Explosive Hardener II,1491110.00,Funkin Free,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5637045465
+2012-03-22 04:19:18,2450371993,1,Armor Explosive Hardener II,1491110.00,Serperior,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5637037411
+2012-03-22 03:44:58,2450355779,1,Armor Explosive Hardener II,1491110.97,John Hand,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5636958286
+2012-03-22 03:21:46,2450343852,8,1MN MicroWarpdrive II,1849999.00,Hydrosys Corp,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5636900071
+2012-03-22 03:21:28,2450343687,2,Armor Explosive Hardener II,1491110.00,Dark Apocolypse,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5636899384
+2012-03-22 03:20:13,2450343025,1,1MN MicroWarpdrive II,1849999.00,integrii,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5636896555
+2012-03-22 03:18:25,2450342164,1,Armor Explosive Hardener II,1491110.00,Barley Wine Shazih,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5636891675
+2012-03-22 03:18:09,2450342049,1,1MN MicroWarpdrive II,1849999.00,Alden Radd,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5636891152
+2012-03-22 03:17:55,2450341908,10,Armor Explosive Hardener II,1491110.00,Inevitable Alabel,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5636890562
+2012-03-22 03:17:34,2450341717,1,Armor Explosive Hardener II,1491110.00,Barley Wine Shazih,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5636889799
+2012-03-22 03:17:21,2450341588,1,1MN MicroWarpdrive II,1849999.00,Moarkus Drayson,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5636889291
+2012-03-22 03:10:59,2450338248,1,Armor Explosive Hardener II,1491110.00,Wolf Kruol,Jita IV - Moon 4 - Caldari Navy Assembly Plant,Sell,Corporation,5636874009
