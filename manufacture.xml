@@ -603,18 +603,161 @@
 		</shield>
 		<armor>
 			<i11269 name="Energized Adaptive Nano Membrane II">
+				<i20171 name="Datacore - Hydromagnetic Physics">4</i20171>
+				<i20416 name="Datacore - Nanite Engineering">4</i20416>
+				<ENAM name="Energized Adaptive Nano Membrane I" id="11267">10</ENAM>
+				<i11399 name="Morphite">50</i11399>
+				<i11475 name="R.A.M. Armor/Hull Tech">2</i11475>
+				<i11554 name="Tesseract Capacitor Unit">20</i11554>
+				<i29107 name="Titanium Diborite Armor Plate">10</i29107>
+				<i11542 name="Fernite Carbide Composite Armor Plate">10</i11542>
+				<i11543 name="Tungsten Carbide Armor Plate">10</i11543>
+				<i11545 name="Crystalline Carbonite Armor Plate">10</i11545>
+				<i37 name="Isogen">0</i37>
+				<i40 name="Megacyte">20</i40>
+				<i36 name="Mexallon">3810</i36>
+				<i38 name="Nocxium">0</i38>
+				<i35 name="Pyerite">6650</i35>
+				<i34 name="Tritanium">11900</i34>
+				<i39 name="Zydrine">20</i39>
+				<qty>10</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<mfg_grp>armor</mfg_grp>
+				<flag>module</flag>
 			</i11269>
 			<i11646 name="Armor Explosive Hardener II">
+				<i20171 name="Datacore - Hydromagnetic Physics">4</i20171>
+				<i20416 name="Datacore - Nanite Engineering">4</i20416>
+				<EXAA name="Armor Explosive Hardener I" id="11303">10</EXAA>
+				<i11399 name="Morphite">80</i11399>
+				<i11475 name="R.A.M. Armor/Hull Tech">1</i11475>
+				<i11558 name="Sustained Shield Emitter">100</i11558>
+				<i29107 name="Titanium Diborite Armor Plate">0</i29107>
+				<i11542 name="Fernite Carbide Composite Armor Plate">50</i11542>
+				<i11543 name="Tungsten Carbide Armor Plate">0</i11543>
+				<i11545 name="Crystalline Carbonite Armor Plate">0</i11545>
+				<i37 name="Isogen">260</i37>
+				<i40 name="Megacyte">20</i40>
+				<i36 name="Mexallon">0</i36>
+				<i38 name="Nocxium">60</i38>
+				<i35 name="Pyerite">461660</i35>
+				<i34 name="Tritanium">455760</i34>
+				<i39 name="Zydrine">0</i39>
+				<qty>10</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<mfg_grp>armor</mfg_grp>
+				<flag>module</flag>
 			</i11646>
 			<i11642 name="Armor EM Hardener II">
+				<i20171 name="Datacore - Hydromagnetic Physics">4</i20171>
+				<i20416 name="Datacore - Nanite Engineering">4</i20416>
+				<EMAA name="Armor EM Hardener I" id="11301">10</EMAA>
+				<i11399 name="Morphite">80</i11399>
+				<i11475 name="R.A.M. Armor/Hull Tech">1</i11475>
+				<i11558 name="Sustained Shield Emitter">100</i11558>
+				<i29107 name="Titanium Diborite Armor Plate">0</i29107>
+				<i11542 name="Fernite Carbide Composite Armor Plate">0</i11542>
+				<i11543 name="Tungsten Carbide Armor Plate">50</i11543>
+				<i11545 name="Crystalline Carbonite Armor Plate">0</i11545>
+				<i37 name="Isogen">0</i37>
+				<i40 name="Megacyte">0</i40>
+				<i36 name="Mexallon">0</i36>
+				<i38 name="Nocxium">20</i38>
+				<i35 name="Pyerite">279750</i35>
+				<i34 name="Tritanium">328040</i34>
+				<i39 name="Zydrine">0</i39>
+				<qty>10</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<mfg_grp>armor</mfg_grp>
+				<flag>module</flag>
 			</i11642>
 			<i11648 name="Armor Thermic Hardener II">
+				<i20171 name="Datacore - Hydromagnetic Physics">4</i20171>
+				<i20416 name="Datacore - Nanite Engineering">4</i20416>
+				<THAA name="Armor Thermic Hardener I" id="11277">10</THAA>
+				<i11399 name="Morphite">80</i11399>
+				<i11475 name="R.A.M. Armor/Hull Tech">1</i11475>
+				<i11558 name="Sustained Shield Emitter">100</i11558>
+				<i29107 name="Titanium Diborite Armor Plate">0</i29107>
+				<i11542 name="Fernite Carbide Composite Armor Plate">0</i11542>
+				<i11543 name="Tungsten Carbide Armor Plate">0</i11543>
+				<i11545 name="Crystalline Carbonite Armor Plate">50</i11545>
+				<i37 name="Isogen">30</i37>
+				<i40 name="Megacyte">0</i40>
+				<i36 name="Mexallon">1680</i36>
+				<i38 name="Nocxium">20</i38>
+				<i35 name="Pyerite">303810</i35>
+				<i34 name="Tritanium">325260</i34>
+				<i39 name="Zydrine">0</i39>
+				<qty>10</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<mfg_grp>armor</mfg_grp>
+				<flag>module</flag>
 			</i11648>
 			<i11644 name="Armor Kinetic Hardener II">
+				<i20171 name="Datacore - Hydromagnetic Physics">4</i20171>
+				<i20416 name="Datacore - Nanite Engineering">4</i20416>
+				<KNAA name="Armor Kinetic Hardener I" id="11305">10</KNAA>
+				<i11399 name="Morphite">80</i11399>
+				<i11475 name="R.A.M. Armor/Hull Tech">1</i11475>
+				<i11558 name="Sustained Shield Emitter">100</i11558>
+				<i29107 name="Titanium Diborite Armor Plate">50</i29107>
+				<i11542 name="Fernite Carbide Composite Armor Plate">0</i11542>
+				<i11543 name="Tungsten Carbide Armor Plate">0</i11543>
+				<i11545 name="Crystalline Carbonite Armor Plate">0</i11545>
+				<i37 name="Isogen">0</i37>
+				<i40 name="Megacyte">20</i40>
+				<i36 name="Mexallon">0</i36>
+				<i38 name="Nocxium">30</i38>
+				<i35 name="Pyerite">402980</i35>
+				<i34 name="Tritanium">483950</i34>
+				<i39 name="Zydrine">0</i39>
+				<qty>10</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<mfg_grp>armor</mfg_grp>
+				<flag>module</flag>
 			</i11644>
 			<i2048 name="Damage Control II">
+				<i20415 name="Datacore - Molecular Engineering">4</i20415>
+				<i20416 name="Datacore - Nanite Engineering">4</i20416>
+				<DCU name="Damage Control I" id="2046">10</DCU>
+				<i11399 name="Morphite">20</i11399>
+				<i11475 name="R.A.M. Armor/Hull Tech">2</i11475>
+				<i11553 name="Oscillator Capacitor Unit">10</i11553>
+				<i11542 name="Fernite Carbide Composite Armor Plate">10</i11542>
+				<i11540 name="Quantum Microprocessor">10</i11540>
+				<i11695 name="Plasma Pulse Generator">10</i11695>
+				<i3828 name="Construction Blocks">20</i3828>
+				<i3689 name="Mechanical Parts">30</i3689>
+				<i37 name="Isogen">0</i37>
+				<i40 name="Megacyte">0</i40>
+				<i36 name="Mexallon">120</i36>
+				<i38 name="Nocxium">60</i38>
+				<i35 name="Pyerite">20</i35>
+				<i34 name="Tritanium">3740</i34>
+				<i39 name="Zydrine">0</i39>
+				<qty>10</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<mfg_grp>armor</mfg_grp>
+				<flag>module</flag>
 			</i2048>
 			<i26914 name="Large Remote Armor Repair System II">
+				<i20171 name="Datacore - Hydromagnetic Physics">6</i20171>
+				<i20416 name="Datacore - Nanite Engineering">6</i20416>
+				<LRRA name="Large Remote Armor Repair System I" id="11359">10</LRRA>
+				<i11399 name="Morphite">NULL</i11399>
+				<i11475 name="R.A.M. Armor/Hull Tech">1</i11475>
+				<qty>10</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<mfg_grp>armor</mfg_grp>
+				<flag>NULL</flag>
 			</i26914>
 		</armor>
 		<prop>

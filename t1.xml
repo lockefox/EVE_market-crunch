@@ -257,6 +257,71 @@
 				<i39 name="Zydrine">0</i39>
 			</i3606>
 		</shield>
+		<armor>
+			<i11267 name="Energized Adaptive Nano Membrane I" id="ENAM">
+				<i37 name="Isogen">0</i37>
+				<i40 name="Megacyte">1</i40>
+				<i36 name="Mexallon">1452</i36>
+				<i38 name="Nocxium">0</i38>
+				<i35 name="Pyerite">4065</i35>
+				<i34 name="Tritanium">5415</i34>
+				<i39 name="Zydrine">1</i39>
+			</i11267>
+			<i11303 name="Armor Explosive Hardener I" id="EXAA">
+				<i37 name="Isogen">85</i37>
+				<i40 name="Megacyte">1</i40>
+				<i36 name="Mexallon">0</i36>
+				<i38 name="Nocxium">12</i38>
+				<i35 name="Pyerite">4659</i35>
+				<i34 name="Tritanium">13255</i34>
+				<i39 name="Zydrine">6</i39>
+			</i11303>
+			<i11301 name="Armor EM Hardener I" id="EMAA">
+				<i37 name="Isogen">0</i37>
+				<i40 name="Megacyte">0</i40>
+				<i36 name="Mexallon">0</i36>
+				<i38 name="Nocxium">3</i38>
+				<i35 name="Pyerite">4877</i35>
+				<i34 name="Tritanium">11221</i34>
+				<i39 name="Zydrine">7</i39>
+			</i11301>
+			<i11277 name="Armor Thermic Hardener I" id="THAA">
+				<i37 name="Isogen">2</i37>
+				<i40 name="Megacyte">1</i40>
+				<i36 name="Mexallon">0</i36>
+				<i38 name="Nocxium">6</i38>
+				<i35 name="Pyerite">5571</i35>
+				<i34 name="Tritanium">11251</i34>
+				<i39 name="Zydrine">7</i39>
+			</i11277>
+			<i11305 name="Armor Kinetic Hardener I" id="KNAA">
+				<i37 name="Isogen">2</i37>
+				<i40 name="Megacyte">1</i40>
+				<i36 name="Mexallon">0</i36>
+				<i38 name="Nocxium">6</i38>
+				<i35 name="Pyerite">5571</i35>
+				<i34 name="Tritanium">11251</i34>
+				<i39 name="Zydrine">6</i39>
+			</i11305>
+			<i2046 name="Damage Control I" id="DCU">
+				<i37 name="Isogen">0</i37>
+				<i40 name="Megacyte">0</i40>
+				<i36 name="Mexallon">48</i36>
+				<i38 name="Nocxium">0</i38>
+				<i35 name="Pyerite">2</i35>
+				<i34 name="Tritanium">956</i34>
+				<i39 name="Zydrine">0</i39>
+			</i2046>
+			<i11359 name="Large Remote Armor Rpair System I" id="LRRA">
+				<i37 name="Isogen">0</i37>
+				<i40 name="Megacyte">0</i40>
+				<i36 name="Mexallon">1</i36>
+				<i38 name="Nocxium">0</i38>
+				<i35 name="Pyerite">2931</i35>
+				<i34 name="Tritanium">3888</i34>
+				<i39 name="Zydrine">0</i39>
+			</i11359>
+		</armor>
 		<prop>
 			<i439 name="1MN Afterburner I" id="AB1">
 				<i37 name="Isogen">0</i37>

@@ -37,6 +37,16 @@
 			<i12058 name="10MN Afterburner II">100</i12058>
 			<i12076 name="10MN MicroWarpdrive II">100</i12076>
 		</i300782851>
+	<!--Armor-->
+		<i170029085 name="Raksha Delam">
+			<i11269 name="Energized Adaptive Nano Membrane II">300</i11269>
+			<i11646 name="Armor Explosive Hardener II">200</i11646>
+		</i170029085>
+		<i1115128917 name="Mina Sola">
+			<i11269 name="Energized Adaptive Nano Membrane II">300</i11269>
+			<i11646 name="Armor Explosive Hardener II">200</i11646>
+		</i1115128917>
+	<!--Ships-->
 		<i1037534334 name="Perrin Girard">
 			<i22544 name="Hulk">10</i22544>
 			<i11377 name="Nemesis">8</i11377>
