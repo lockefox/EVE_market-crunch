@@ -1109,6 +1109,43 @@
 				<flag>module</flag>
 			</i4250>
 		</mining>
+		<weapon>
+		<!--Beam Lasers-->
+			<i3065 name="Tachyon Beam Laser II">
+			</i3065>
+		<!--Pulse Lasers-->
+			<i3057 name="Mega Pulse Laser II">
+			</i3057>
+		<!--Rail Guns-->
+			<i3090 name="425mm Railgun II">
+			</i3090>
+		<!--Blaster Cannons-->
+			<i3186 name="Neutron Blaster Cannon">
+			</i3186>
+		<!--Artillery Cannon-->
+			<i2961 name="1400mm Howitzer Artillery Cannon II">
+			</i2961>
+		<!--Autocannons-->
+			<i2929 name="800mm Autocannon II">
+			</i2929>
+			<i2913 name="425mm Autocannon II">
+			</i2913>
+		<!--Launchers-->
+			<i2420 name="Siege Launcher II">
+			</i2420>
+			<i19739 name="Cruise Missile Launcher II">
+			</i19739>
+			<i2410 name="Heavy Missile Launcher II">
+			</i2410>
+			<i25715 name="Heavy Assault Missile Launcher II">
+			</i25715>
+			<i1977 name="Assault Missile Launcher II">
+			</i1977>
+			<i2404 name="Standard Missile Launcher II">
+			</i2404>
+			<i10631 name="Rocket Launcher II">
+			</i10631>
+		</weapon>
 		<ammo>
 		</ammo>
 	</T2>
