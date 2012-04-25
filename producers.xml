@@ -24,8 +24,22 @@
 			<i2301 name="Photon Scattering Field II">200</i2301>
 			<i3608 name="Large Shield Transporter II">100</i3608>
 		</i91380984>
+	<!--Propulsion-->
+		<i348613732 name="Agasa Kaolla">
+			<i438 name="1MN Afterburner II">200</i438>
+			<i440 name="1MN MicroWarpdrive II">100</i440>
+			<i12058 name="10MN Afterburner II">100</i12058>
+			<i12076 name="10MN MicroWarpdrive II">100</i12076>
+		</i348613732>
+		<i300782851 name="TheAhmosis">
+			<i438 name="1MN Afterburner II">200</i438>
+			<i440 name="1MN MicroWarpdrive II">100</i440>
+			<i12058 name="10MN Afterburner II">100</i12058>
+			<i12076 name="10MN MicroWarpdrive II">100</i12076>
+		</i300782851>
 		<i1037534334 name="Perrin Girard">
 			<i22544 name="Hulk">10</i22544>
 			<i11377 name="Nemesis">8</i11377>
 		</i1037534334>
+	
 </root>
