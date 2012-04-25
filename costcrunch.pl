@@ -41,6 +41,7 @@ my %ramID=(
 );
 
 my %capital; #Capital raw materials
+my %Products; #List of product ID's and prices to build
 
 my $path = `pwd`;
 chomp $path;
@@ -163,6 +164,7 @@ sub prodCalc{
 				foreach my $parts (keys %{$prodsheet->{$class}->{$subset}->{$product}})
 					my $eachQ = $prodsheet->{$class}->{$subset}->{$product}->{$parts}->{content};
 					my $prodtype = $prodsheet->{$class}->{$subset}->{$product}->{flag};
+					
 					if (exists $rawprice{$parts}){#If raw material, use rawprice group
 						$prodcost += $rawprice{$parts}*$eachQ;
 					}
@@ -183,6 +185,7 @@ sub prodCalc{
 					else{
 						next;
 					}
+				$Products{$product} = $prodcost / $qty;
 				}
 			}
 		}
