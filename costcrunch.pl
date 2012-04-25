@@ -55,11 +55,11 @@ my $pricesheet = $priceXML->XMLin($costsheet);
 my $componentXML = new XML::Simple;
 my $componentsheet = $componentXML->XMLin($path."/component.xml");
 
-#my $t1XML = new XML::Simple;
-#my $t1sheet = $t1XML->XMLin($path."/t1.xml");
-#
-#my $prodXML = new XML::Simple;
-#my $prodsheet = $prodXML->XMLin($path."/manufacture.xml");
+my $t1XML = new XML::Simple;
+my $t1sheet = $t1XML->XMLin($path."/t1.xml");
+
+my $prodXML = new XML::Simple;
+my $prodsheet = $prodXML->XMLin($path."/manufacture.xml");
 
 my $tstart=time;
 &RawCrunch;
@@ -67,6 +67,8 @@ my $tstart=time;
 my $setupT=time;
 print "\nSub-component setup time: ".($tstart-$setupT)."\n";
 
+&prodCalc;
+my $costT=time;
 
 sub RawCrunch{ #Loads %rawprice	
 	my %skipString=(
@@ -132,4 +134,57 @@ sub CompCrunch{ #Loads %comp, %capital, and sets $RAM
 	}
 	
 	print "RAM prices  calculated\n";
+};
+
+sub T1{
+	my @data = @_;
+	my $nick=$data[0];
+	my $id="i".$data[1];
+	my $type = $data[2];
+	my $group= $data[3];
+	
+	my $price = 0;
+	
+	foreach my $parts (keys %{$t1sheet->{$type}->{$group}->{$id}){
+		$price += $rawprice{$parts}* $t1sheet->{$type}->{$group}->{$id}->{$parts}->{content};
+	}
+	
+	return $price;
+}
+
+sub prodCalc{
+	foreach my $class (keys %{$prodsheet}){
+		foreach my $subset (keys %{$prodsheet->{$class}}){
+			foreach my $product (keys %{$prodsheet->{$class}->{$subset}}){
+				my $prodcost=0;
+				my $qty = $prodsheet->{$class}->{$subset}->{$product}->{qty};
+				$names{$product} = $prodsheet->{$class}->{$subset}->{$product}->{name}
+				
+				foreach my $parts (keys %{$prodsheet->{$class}->{$subset}->{$product}})
+					my $eachQ = $prodsheet->{$class}->{$subset}->{$product}->{$parts}->{content};
+					my $prodtype = $prodsheet->{$class}->{$subset}->{$product}->{flag};
+					if (exists $rawprice{$parts}){#If raw material, use rawprice group
+						$prodcost += $rawprice{$parts}*$eachQ;
+					}
+					elsif(exists $ramID{$parts}){#If RAM, use RAM calculation
+						$prodcost += $RAM * $eachQ;
+					}
+					elsif(exists $comp{$parts}){#if component, use component group
+						$prodcost += $comp{$parts} * $eachQ;
+					}
+					elsif($parts =~ /[A-Z]/){ #If T1, use T1 subroutine
+						my $prodid = $prodsheet->{$class}->{$subset}->{$product}->{$parts}->{id};
+
+						if ($prodtype eq "NULL"){
+							next;
+						}
+						$prodcost += &T1($parts, $prodid, $prodtype, $subset) * $eachQ;
+					}
+					else{
+						next;
+					}
+				}
+			}
+		}
+	}
 };
