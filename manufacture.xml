@@ -619,16 +619,136 @@
 		</armor>
 		<prop>
 			<i438 name="1MN Afterburner II">
+				<i20415 name="Datacore - Molecular Engineering">2</i20415>
+				<i20420 name="Datacore - Rocket Science">2</i20420>
+				<i11399 name="Morphite">20</i11399>
+				<i11475 name="R.A.M. Armor/Hull Tech">0.1</i11475>
+				<AB1 name="1MN Afterburner I" id="439">10</AB1>
+				<i11549 name="Antimatter Reactor Unit">50</i11549>
+				<i11531 name="Ion Thruster">100</i11531>
+				<i11530 name="Plasma Thruster">20</i11530>
+				<i37 name="Isogen">0</i37>
+				<i40 name="Megacyte">0</i40>
+				<i36 name="Mexallon">20</i36>
+				<i38 name="Nocxium">20</i38>
+				<i35 name="Pyerite">810</i35>
+				<i34 name="Tritanium">2790</i34>
+				<i39 name="Zydrine">0</i39>
+				<qty>10</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<mfg_grp>prop</mfg_grp>
+				<flag>module</flag>
 			</i438>
 			<i440 name="1MN MicroWarpdrive II">
+				<i20415 name="Datacore - Molecular Engineering">2</i20415>
+				<i20420 name="Datacore - Rocket Science">2</i20420>
+				<i11399 name="Morphite">170</i11399>
+				<i11475 name="R.A.M. Armor/Hull Tech">0.8</i11475>
+				<MW1 name="1MN MicroWarpdrive I" id="434">10</MW1>
+				<i11549 name="Antimatter Reactor Unit">50</i11549>
+				<i11531 name="Ion Thruster">100</i11531>
+				<i11530 name="Plasma Thruster">160</i11530>
+				<i37 name="Isogen">230</i37>
+				<i40 name="Megacyte">0</i40>
+				<i36 name="Mexallon">3530</i36>
+				<i38 name="Nocxium">50</i38>
+				<i35 name="Pyerite">31020</i35>
+				<i34 name="Tritanium">61950</i34>
+				<i39 name="Zydrine">0</i39>
+				<qty>10</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<mfg_grp>prop</mfg_grp>
+				<flag>module</flag>
 			</i440>
 			<i12058 name="10MN Afterburner II">
+				<i20415 name="Datacore - Molecular Engineering">4</i20415>
+				<i20420 name="Datacore - Rocket Science">4</i20420>
+				<i11399 name="Morphite">60</i11399>
+				<i11475 name="R.A.M. Armor/Hull Tech">0.1</i11475>
+				<AB10 name="10MN Afterburner I" id="12056">10</AB10>
+				<i11549 name="Antimatter Reactor Unit">50</i11549>
+				<i11531 name="Ion Thruster">100</i11531>
+				<i11530 name="Plasma Thruster">40</i11530>
+				<i37 name="Isogen">20</i37>
+				<i40 name="Megacyte">0</i40>
+				<i36 name="Mexallon">20</i36>
+				<i38 name="Nocxium">0</i38>
+				<i35 name="Pyerite">4140</i35>
+				<i34 name="Tritanium">23160</i34>
+				<i39 name="Zydrine">0</i39>
+				<qty>10</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<mfg_grp>prop</mfg_grp>
+				<flag>module</flag>
 			</i12058>
 			<i12076 name="10MN MicroWarpdrive II">
+				<i20415 name="Datacore - Molecular Engineering">4</i20415>
+				<i20420 name="Datacore - Rocket Science">4</i20420>
+				<i11399 name="Morphite">330</i11399>
+				<i11475 name="R.A.M. Armor/Hull Tech">0.8</i11475>
+				<MW10 name="10MN MicroWarpdrive I" id="12052">10</MW10>
+				<i11549 name="Antimatter Reactor Unit">50</i11549>
+				<i11531 name="Ion Thruster">100</i11531>
+				<i11530 name="Plasma Thruster">320</i11530>
+				<i37 name="Isogen">30</i37>
+				<i40 name="Megacyte">50</i40>
+				<i36 name="Mexallon">1200</i36>
+				<i38 name="Nocxium">30</i38>
+				<i35 name="Pyerite">217620</i35>
+				<i34 name="Tritanium">270900</i34>
+				<i39 name="Zydrine">30</i39>
+				<qty>10</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<mfg_grp>prop</mfg_grp>
+				<flag>module</flag>
 			</i12076>
 			<i12068 name="100MN Afterburner II">
+				<i20415 name="Datacore - Molecular Engineering">6</i20415>
+				<i20420 name="Datacore - Rocket Science">6</i20420>
+				<i11399 name="Morphite">120</i11399>
+				<i11475 name="R.A.M. Armor/Hull Tech">0.1</i11475>
+				<AB100 name="100MN Afterburner I" id="12066">10</AB100>
+				<i11549 name="Antimatter Reactor Unit">50</i11549>
+				<i11531 name="Ion Thruster">100</i11531>
+				<i11530 name="Plasma Thruster">80</i11530>
+				<i37 name="Isogen">830</i37>
+				<i40 name="Megacyte">0</i40>
+				<i36 name="Mexallon">16580</i36>
+				<i38 name="Nocxium">420</i38>
+				<i35 name="Pyerite">15750</i35>
+				<i34 name="Tritanium">285000</i34>
+				<i39 name="Zydrine">50</i39>
+				<qty>10</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<mfg_grp>prop</mfg_grp>
+				<flag>module</flag>
 			</i12068>
 			<i12084 name="100MN MicroWarpdrive II">
+				<i20415 name="Datacore - Molecular Engineering">6</i20415>
+				<i20420 name="Datacore - Rocket Science">6</i20420>
+				<i11399 name="Morphite">750</i11399>
+				<i11475 name="R.A.M. Armor/Hull Tech">0.8</i11475>
+				<MW100 name="100MN MicroWarpdrive I" id="12054">10</MW100>
+				<i11549 name="Antimatter Reactor Unit">50</i11549>
+				<i11531 name="Ion Thruster">100</i11531>
+				<i11530 name="Plasma Thruster">640</i11530>
+				<i37 name="Isogen">16200</i37>
+				<i40 name="Megacyte">180</i40>
+				<i36 name="Mexallon">69900</i36>
+				<i38 name="Nocxium">4880</i38>
+				<i35 name="Pyerite">240750</i35>
+				<i34 name="Tritanium">1020750</i34>
+				<i39 name="Zydrine">960</i39>
+				<qty>10</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<mfg_grp>prop</mfg_grp>
+				<flag>module</flag>
 			</i12084>
 		</prop>
 		<interdict>

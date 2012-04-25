@@ -257,6 +257,62 @@
 				<i39 name="Zydrine">0</i39>
 			</i3606>
 		</shield>
+		<prop>
+			<i439 name="1MN Afterburner I" id="AB1">
+				<i37 name="Isogen">0</i37>
+				<i40 name="Megacyte">0</i40>
+				<i36 name="Mexallon">1</i36>
+				<i38 name="Nocxium">1</i38>
+				<i35 name="Pyerite">579</i35>
+				<i34 name="Tritanium">637</i34>
+				<i39 name="Zydrine">0</i39>
+			</i439>
+			<i434 name="1MN MicroWarpdrive I" id="MW1">
+				<i37 name="Isogen">12</i37>
+				<i40 name="Megacyte">0</i40>
+				<i36 name="Mexallon">205</i36>
+				<i38 name="Nocxium">2</i38>
+				<i35 name="Pyerite">1918</i35>
+				<i34 name="Tritanium">3570</i34>
+				<i39 name="Zydrine">0</i39>
+			</i434>
+			<i12056 name="10MN Afterburner I" id="AB10">
+				<i37 name="Isogen">2</i37>
+				<i40 name="Megacyte">3</i40>
+				<i36 name="Mexallon">0</i36>
+				<i38 name="Nocxium">0</i38>
+				<i35 name="Pyerite">3129</i35>
+				<i34 name="Tritanium">3436</i34>
+				<i39 name="Zydrine">0</i39>
+			</i12056>
+			<i12052 name="10MN MicroWarpdrive I" id="MW10">
+				<i37 name="Isogen">1</i37>
+				<i40 name="Megacyte">2</i40>
+				<i36 name="Mexallon">61</i36>
+				<i38 name="Nocxium">1</i38>
+				<i35 name="Pyerite">13264</i35>
+				<i34 name="Tritanium">15661</i34>
+				<i39 name="Zydrine">1</i39>
+			</i12052>
+			<i12066 name="100MN Afterburner I" id="AB100">
+				<i37 name="Isogen">44</i37>
+				<i40 name="Megacyte">1</i40>
+				<i36 name="Mexallon">1004</i36>
+				<i38 name="Nocxium">22</i38>
+				<i35 name="Pyerite">8046</i35>
+				<i34 name="Tritanium">17931</i34>
+				<i39 name="Zydrine">2</i39>
+			</i12066>
+			<i12054 name="100MN MicroWarpdrive I" id="MW100">
+				<i37 name="Isogen">907</i37>
+				<i40 name="Megacyte">9</i40>
+				<i36 name="Mexallon">3897</i36>
+				<i38 name="Nocxium">278</i38>
+				<i35 name="Pyerite">14772</i35>
+				<i34 name="Tritanium">57491</i34>
+				<i39 name="Zydrine">50</i39>
+			</i12054>
+		</prop>
 		<mining>
 			<i16278 name="Ice Harvester I" id="ICE">
 				<i37 name="Isogen">1374</i37>
