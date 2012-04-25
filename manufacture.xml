@@ -99,7 +99,7 @@
 		<eng>
 			<i2032 name="Cap Recharger II">
 				<i20411 name="Datacore - High Energy Physics">4</i20411>
-				<i20414 name="Datacore - Quantum Physics">4</i20411>
+				<i20414 name="Datacore - Quantum Physics">4</i20414>
 				<CAP name="Cap Recharger I" id="1195">10</CAP>
 				<i11482 name="R.A.M. - Electronics">0.5</i11482>
 				<i11399 name="Morphite">30</i11399>
@@ -121,7 +121,7 @@
 			</i2032>
 			<i1541 name="Power Diagnostic System II">
 				<i20411 name="Datacore - High Energy Physics">4</i20411>
-				<i20414 name="Datacore - Quantum Physics">4</i20411>
+				<i20414 name="Datacore - Quantum Physics">4</i20414>
 				<PDU name="Power Diagnostic System I" id="1539">10</PDU>
 				<i11482 name="R.A.M. - Electronics">0.5</i11482>
 				<i11399 name="Morphite">20</i11399>
@@ -143,7 +143,7 @@
 			</i1541>
 			<i1256 name="Shield Flux Coil II">
 				<i20411 name="Datacore - High Energy Physics">4</i20411>
-				<i20414 name="Datacore - Quantum Physics">4</i20411>
+				<i20414 name="Datacore - Quantum Physics">4</i20414>
 				<SFC name="Shield Flux Coil I" id="1254">10</SFC>
 				<i11482 name="R.A.M. - Electronics">1</i11482>
 				<i11399 name="Morphite">20</i11399>
@@ -165,7 +165,7 @@
 			</i1256>
 			<i1422 name="Shield Power Relay II">
 				<i20411 name="Datacore - High Energy Physics">4</i20411>
-				<i20414 name="Datacore - Quantum Physics">4</i20411>
+				<i20414 name="Datacore - Quantum Physics">4</i20414>
 				<SPR name="Shield Power Relay I" id="2331">10</SPR>
 				<i11482 name="R.A.M. - Electronics">1</i11482>
 				<i11399 name="Morphite">20</i11399>
@@ -193,7 +193,7 @@
 				<HML name="Heavy Missile Launcher I" id="501">10</HML>
 				<i11399 name="Morphite">60</i11399>
 				<i11486 name="R.A.M. - Weapon Tech">2.5</i11486>
-				<11540 name="Quantum Microprocessor">20</i11540>
+				<i11540 name="Quantum Microprocessor">20</i11540>
 				<i9848 name="Robotics">40</i9848>
 				<i37 name="Isogen">0</i37>
 				<i40 name="Megacyte">0</i40>
@@ -211,10 +211,10 @@
 			<i25715 name="Heavy Assault Missile Launcher II">
 				<i20424 name="Datacore - Mechanical Engineering">4</i20424>
 				<i20420 name="Datacore - Rocket Science">4</i20420>
-				<HAM name="Heavy Assault Missile Launcher I" id="20138">10</HML>
+				<HAM name="Heavy Assault Missile Launcher I" id="20138">10</HAM>
 				<i11399 name="Morphite">60</i11399>
 				<i11486 name="R.A.M. - Weapon Tech">2.5</i11486>
-				<11540 name="Quantum Microprocessor">20</i11540>
+				<i11540 name="Quantum Microprocessor">20</i11540>
 				<i9848 name="Robotics">40</i9848>
 				<i37 name="Isogen">0</i37>
 				<i40 name="Megacyte">0</i40>
@@ -235,7 +235,7 @@
 				<TORP name="Siege Missile Launcher I" id="503">10</TORP>
 				<i11399 name="Morphite">240</i11399>
 				<i11486 name="R.A.M. - Weapon Tech">5.5</i11486>
-				<11540 name="Quantum Microprocessor">160</i11540>
+				<i11540 name="Quantum Microprocessor">160</i11540>
 				<i9848 name="Robotics">160</i9848>
 				<i37 name="Isogen">0</i37>
 				<i40 name="Megacyte">50</i40>
@@ -256,7 +256,7 @@
 				<LML name="Standard Missile Launcher I" id="499">10</LML>
 				<i11399 name="Morphite">30</i11399>
 				<i11486 name="R.A.M. - Weapon Tech">1.5</i11486>
-				<11540 name="Quantum Microprocessor">40</i11540>
+				<i11540 name="Quantum Microprocessor">40</i11540>
 				<i9848 name="Robotics">20</i9848>
 				<i37 name="Isogen">0</i37>
 				<i40 name="Megacyte">0</i40>
@@ -277,7 +277,7 @@
 				<AML name="Standard Missile Launcher I" id="1875">10</AML>
 				<i11399 name="Morphite">30</i11399>
 				<i11486 name="R.A.M. - Weapon Tech">1</i11486>
-				<11540 name="Quantum Microprocessor">30</i11540>
+				<i11540 name="Quantum Microprocessor">30</i11540>
 				<i9848 name="Robotics">20</i9848>
 				<i37 name="Isogen">20</i37>
 				<i40 name="Megacyte">0</i40>
@@ -298,7 +298,7 @@
 				<CML name="Cruise Missile Launcher I" id="13320">10</CML>
 				<i11399 name="Morphite">120</i11399>
 				<i11486 name="R.A.M. - Weapon Tech">3.5</i11486>
-				<11540 name="Quantum Microprocessor">80</i11540>
+				<i11540 name="Quantum Microprocessor">80</i11540>
 				<i9848 name="Robotics">80</i9848>
 				<i37 name="Isogen">0</i37>
 				<i40 name="Megacyte">0</i40>
@@ -319,7 +319,7 @@
 				<RL name="Rocket Launcher I" id="10629">10</RL>
 				<i11399 name="Morphite">NULL</i11399>
 				<i11486 name="R.A.M. - Weapon Tech">NULL</i11486>
-				<11540 name="Quantum Microprocessor">NULL</i11540>
+				<i11540 name="Quantum Microprocessor">NULL</i11540>
 				<i9848 name="Robotics">NULL</i9848>
 				<i37 name="Isogen">0</i37>
 				<i40 name="Megacyte">0</i40>
@@ -996,7 +996,7 @@
 			<i22548 name="Mackinaw">
 				<i20410 name="Datacore - Gallentean Starship Engineering">32</i20410>
 				<i20424 name="Datacore - Mechanical Engineering">32</i20424>
-				<RET name="Covetor" id="17478">1</COV>
+				<RET name="Retriever" id="17478">1</RET>
 				<i11399 name="Morphite">81</i11399>
 				<i11478 name="R.A.M. - Starship Tech">7.6</i11478>
 				<i3828 name="Construction Blocks">75</i3828>
@@ -1073,7 +1073,7 @@
 			<i28576 name="Mining Laser Upgrade II">
 				<i20413 name="Datacore - Laser Physics">4</i20413>
 				<i20424 name="Datacore - Mechanical Engineering">4</i20424>
-				<MLU name="Mining Laser Upgrade I" id="22542">10</IHU>
+				<MLU name="Mining Laser Upgrade I" id="22542">10</MLU>
 				<i11399 name="Morphite">50</i11399>
 				<i11483 name="R.A.M. Electronics">1.5</i11483>
 				<i11541 name="Quantum Microprocessor">0</i11541>

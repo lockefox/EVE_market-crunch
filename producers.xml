@@ -46,10 +46,26 @@
 			<i11269 name="Energized Adaptive Nano Membrane II">300</i11269>
 			<i11646 name="Armor Explosive Hardener II">200</i11646>
 		</i1115128917>
+	<!--Weapons-->
+		<i628592330 name="Lockefox">
+			<i2410 name="Heavy Missile Launcher II">200</i2410>
+			<i25715 name="Heavy Assault Missile Launcher II">100</i25715>
+			<i3186 name="Neutron Blaster Cannon II">200</i3186>
+		</i628592330>
+		<i696814627 name="Nighteyes5">
+			<i3186 name="Neutron Blaster Cannon II">200</i3186>
+			<i2913 name="425mm Autocannon II">200</i2913>
+		</i696814627>
+	<!--Interdiction-->
+		
 	<!--Ships-->
 		<i1037534334 name="Perrin Girard">
 			<i22544 name="Hulk">10</i22544>
 			<i11377 name="Nemesis">8</i11377>
 		</i1037534334>
-	
+		<i425131377 name="Anya Kitsune">
+			<i11371 name="Wolf">8</i11371>
+			<i12034 name="Hound">16</i12034>
+			<i22456 name="Sabre">8</i22456>
+		</i425131377>
 </root>
