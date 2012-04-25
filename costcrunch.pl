@@ -146,7 +146,7 @@ sub T1{
 	
 	my $price = 0;
 	
-	foreach my $parts (keys %{$t1sheet->{$type}->{$group}->{$id}){
+	foreach my $parts (keys %{$t1sheet->{$type}->{$group}->{$id}}){
 		$price += $rawprice{$parts}* $t1sheet->{$type}->{$group}->{$id}->{$parts}->{content};
 	}
 	
@@ -159,33 +159,38 @@ sub prodCalc{
 			foreach my $product (keys %{$prodsheet->{$class}->{$subset}}){
 				my $prodcost=0;
 				my $qty = $prodsheet->{$class}->{$subset}->{$product}->{qty};
-				$names{$product} = $prodsheet->{$class}->{$subset}->{$product}->{name}
-				
-				foreach my $parts (keys %{$prodsheet->{$class}->{$subset}->{$product}})
-					my $eachQ = $prodsheet->{$class}->{$subset}->{$product}->{$parts}->{content};
-					my $prodtype = $prodsheet->{$class}->{$subset}->{$product}->{flag};
-					
-					if (exists $rawprice{$parts}){#If raw material, use rawprice group
-						$prodcost += $rawprice{$parts}*$eachQ;
-					}
-					elsif(exists $ramID{$parts}){#If RAM, use RAM calculation
-						$prodcost += $RAM * $eachQ;
-					}
-					elsif(exists $comp{$parts}){#if component, use component group
-						$prodcost += $comp{$parts} * $eachQ;
-					}
-					elsif($parts =~ /[A-Z]/){ #If T1, use T1 subroutine
-						my $prodid = $prodsheet->{$class}->{$subset}->{$product}->{$parts}->{id};
-
-						if ($prodtype eq "NULL"){
+				$names{$product} = $prodsheet->{$class}->{$subset}->{$product}->{name};
+				if($class eq "T2"){
+					foreach my $parts (keys %{$prodsheet->{$class}->{$subset}->{$product}}){
+						my $eachQ = $prodsheet->{$class}->{$subset}->{$product}->{$parts}->{content};
+						my $prodtype = $prodsheet->{$class}->{$subset}->{$product}->{mfg_grp};
+						
+						if (exists $rawprice{$parts}){#If raw material, use rawprice group
+							$prodcost += $rawprice{$parts}*$eachQ;
+						}
+						elsif(exists $ramID{$parts}){#If RAM, use RAM calculation
+							$prodcost += $RAM * $eachQ;
+						}
+						elsif(exists $comp{$parts}){#if component, use component group
+							$prodcost += $comp{$parts} * $eachQ;
+						}
+						elsif($parts =~ /[A-Z]/){ #If T1, use T1 subroutine
+							my $prodid = $prodsheet->{$class}->{$subset}->{$product}->{$parts}->{id};
+	
+							if ($prodtype eq "NULL"){
+								next;
+							}
+							$prodcost += &T1($parts, $prodid, $prodtype, $subset) * $eachQ;
+						}
+						else{
 							next;
 						}
-						$prodcost += &T1($parts, $prodid, $prodtype, $subset) * $eachQ;
+					
 					}
-					else{
-						next;
-					}
-				$Products{$product} = $prodcost / $qty;
+					$Products{$product} = $prodcost / $qty;
+				}
+				else{#capitals
+					next;
 				}
 			}
 		}

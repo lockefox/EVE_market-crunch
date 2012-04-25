@@ -14,7 +14,7 @@
 				<qty>10</qty>
 				<me>-4</me>
 				<bld_time></bld_time>
-				<mfg_grp>WeapUp</mfg_grp>
+				<mfg_grp>weapup</mfg_grp>
 				<flag>module</flag>
 			</i2291>
 			<i10190 name="Magnetic Field Stabilizer II">
@@ -32,7 +32,7 @@
 				<qty>10</qty>
 				<me>-4</me>
 				<bld_time></bld_time>
-				<mfg_grp>WeapUp</mfg_grp>
+				<mfg_grp>weapup</mfg_grp>
 				<flag>module</flag>
 			</i10190>
 			<i2364 name="Heat Sink II">
@@ -52,7 +52,7 @@
 				<qty>10</qty>
 				<me>-4</me>
 				<bld_time></bld_time>
-				<mfg_grp>WeapUp</mfg_grp>
+				<mfg_grp>weapup</mfg_grp>
 				<flag>module</flag>
 			</i2364>
 			<i519 name="Gyrostabilizer II">
@@ -72,7 +72,7 @@
 				<qty>10</qty>
 				<me>-4</me>
 				<bld_time></bld_time>
-				<mfg_grp>WeapUp</mfg_grp>
+				<mfg_grp>weapup</mfg_grp>
 				<flag>module</flag>
 			</i519>
 			<i1999 name="Tracking Enhancer II">
@@ -92,7 +92,7 @@
 				<qty>10</qty>
 				<me>-4</me>
 				<bld_time></bld_time>
-				<mfg_grp>WeapUp</mfg_grp>
+				<mfg_grp>weapup</mfg_grp>
 				<flag>module</flag>
 			</i1999>
 		</wepup>
@@ -894,7 +894,7 @@
 				<flag>module</flag>
 			</i12084>
 		</prop>
-		<interdict>
+		<!--interdict>
 			<i527 name="Stasis Webifier II">
 			</i527>
 			<i448 name="Warp Scrambler II">
@@ -909,7 +909,7 @@
 			</i26890>
 			<i26888 name="Mobile Large Warp Disruptor II">
 			</i26888>
-		</interdict>
+		</interdict-->
 		<ships>
 			<i11400 name="Jaguar">
 			</i11400>
