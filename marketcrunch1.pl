@@ -100,6 +100,51 @@ my %component=(
 	16671, "Titanium Carbonite",
 	16672, "Tungsten Carbonite",
 );
+
+my %secondary=(
+	16663, "Ceasarium Cadmide",
+	16659, "Carbon Polymers",
+	16660, "Ceramic Powder",
+	16655, "Crystallite Alloy",
+	16668, "Dysporite",
+	16656, "Fernite Alloy",
+	16669, "Ferrofluid",
+	17769, "Fluxed Condensates",
+	16665, "Hexite",
+	16666, "Hyperflurite",
+	16667, "Neo Mercurite",
+	16662, "Platinum Technite",
+	17960, "Prometium",
+	16657, "Rolled Tungsten",
+	16658, "Silicon Diborite",
+	16664, "Solerium",
+	16661, "Sulfuric Acid",
+	16654, "Titanium Chrimide",
+	17958, "Vanadium Hafnite",
+);
+
+my %moongoo=(
+	16634, "Atmospheric Gas",
+	16643, "Cadmium",
+	16647, "Ceasium",
+	16641, "Chromium",
+	16640, "Cobalt",
+	16650, "Dysprosium",
+	16635, "Evaporite Deposits",
+	16648, "Hafnium",
+	16633, "Hydrocarbons",
+	16646, "Mercury",
+	16651, "Neodymium",
+	16644, "Platinum",
+	16652, "Promethium",
+	16639, "Scandium",
+	16636, "Silicates",
+	16649, "Technetium",
+	16653, "Thulium",
+	16638, "Titanium",
+	16672, "Tungsten",
+	16642, "Vanadium",
+);
 	
 ##################################################
 #
@@ -107,7 +152,7 @@ my %component=(
 #
 ##################################################
 
-my $switch = 1;
+my $switch = 0;
 my $sitepre;
 my $sitepost;
 my $outfile="price.xml";
@@ -123,6 +168,12 @@ open (FILE, ">",$outfile);
 &components();
 
 &datacores();
+
+&PIs();
+
+&secondaries();
+
+&moongoos();
 
 print FILE "</root>\n";
 close FILE;
@@ -160,11 +211,13 @@ sub header{
 	my $min=$curTime[1];
 	print FILE "\t<fresh time=\"".$day."/".$month." ".$hr.":".$min."\"></fresh>\n";
 	
+	print "Updating from: ".$sitepre."\n";
+	
 };
 
 ##################################################
 #
-#	header
+#	minerals
 #
 ##################################################
 sub minerals{
@@ -224,6 +277,7 @@ sub minerals{
 	}
 	#else die "Really?  You had to cheat to get here.  Invalid SWITCH again\n";
 	print FILE "\t</mineral>\n";
+	print "Minerals updated\n";
 };
 
 ##################################################
@@ -290,6 +344,7 @@ sub components{
 	}
 	#else die "Really?  You had to cheat to get here.  Invalid SWITCH again\n";
 	print FILE "\t</component>\n";
+	print "Components Updated\n";
 };
 
 ##################################################
@@ -356,4 +411,207 @@ sub datacores{
 	}
 	#else die "Really?  You had to cheat to get here.  Invalid SWITCH again\n";
 	print FILE "\t</datacore>\n";
+	print "Datacores Updated\n";
+};
+
+##################################################
+#
+#	PI
+#
+##################################################
+sub PIs{
+	print FILE "\t<PI>\n";
+	my $stuffstring;
+	
+	if ($switch eq 0){
+		##Default case (EVE-CENTRAL)
+		$stuffstring="";
+		foreach my $p1Key (keys %PI){
+			$stuffstring= $stuffstring."typeid=".$p1Key."&";
+		}
+		
+	}
+		
+	elsif ($switch eq 1){##Case for marketeer
+		$stuffstring="";
+		foreach my $p2Key (keys %PI){
+			$stuffstring= $stuffstring.$p2Key."_";
+		}
+		chop $stuffstring;
+	}
+	#else die "How did you end up here.  Invalid SWITCH\n";
+		
+	#print $stuffstring."\n";
+	
+	my $tmpxml = new XML::Simple;
+	my $url = $sitepre.$stuffstring.$sitepost;
+
+	my $data = $tmpxml->XMLin(get($url));
+	
+
+	
+	if ($switch eq 0){
+		foreach my $p3Key (keys %PI){
+			print FILE "\t\t<".$p3Key." name=\"".$PI{$p3Key}."\">\n";
+			print FILE "\t\t\t<sell_min>".$data->{marketstat}->{type}->{$p3Key}->{sell}->{min}."</sell_min>\n";
+			print FILE "\t\t\t<sell_avg>".$data->{marketstat}->{type}->{$p3Key}->{sell}->{avg}."</sell_avg>\n";
+			print FILE "\t\t\t<sell_med>".$data->{marketstat}->{type}->{$p3Key}->{sell}->{median}."</sell_med>\n";
+			print FILE "\t\t\t<buy_max>".$data->{marketstat}->{type}->{$p3Key}->{buy}->{max}."</buy_max>\n";
+			print FILE "\t\t\t<buy_avg>".$data->{marketstat}->{type}->{$p3Key}->{buy}->{avg}."</buy_avg>\n";
+			print FILE "\t\t\t<buy_med>".$data->{marketstat}->{type}->{$p3Key}->{buy}->{median}."</buy_med>\n";
+			print FILE "\t\t</".$p3Key.">\n";
+			#print $mineral{$m3Key}." min ".$data->{marketstat}->{type}->{$m3Key}->{sell}->{min}."\n";
+		}
+	}
+	elsif($switch eq 1){
+		foreach my $p4Key (keys %PI){
+			print FILE "\t\t<".$p4Key." name=\"".$PI{$p4Key}."\">\n";
+			my $data2 = $tmpxml->XMLin(get($sitepre.$p4Key.$sitepost));
+			print FILE "\t\t\t<buy_max>".$data2->{row}->{buy_highest}."</buy_max>\n";
+			print FILE "\t\t\t<buy_avg>".$data2->{row}->{buy_avg}."</buy_avg>\n";
+			print FILE "\t\t\t<buy_med>".$data2->{row}->{buy_highest5}."</buy_med>\n";
+			print FILE "\t\t\t<sell_min>".$data2->{row}->{sell_lowest}."</sell_min>\n";
+			print FILE "\t\t\t<sell_avg>".$data2->{row}->{sell_avg}."</sell_avg>\n";
+			print FILE "\t\t\t<sell_med>".$data2->{row}->{sell_lowest5}."</sell_med>\n";
+			print FILE"\t\t</".$p4Key.">\n";
+		}
+	}
+	#else die "Really?  You had to cheat to get here.  Invalid SWITCH again\n";
+	print FILE "\t</PI>\n";
+	print "PI's Updated\n";
+
+};
+
+##################################################
+#
+#	secondaries
+#
+##################################################
+sub secondaries{
+	print FILE "\t<intermediate>\n";
+	my $stuffstring;
+	
+	if ($switch eq 0){
+		##Default case (EVE-CENTRAL)
+		$stuffstring="";
+		foreach my $s1Key (keys %secondary){
+			$stuffstring= $stuffstring."typeid=".$s1Key."&";
+		}
+		
+	}
+		
+	elsif ($switch eq 1){##Case for marketeer
+		$stuffstring="";
+		foreach my $s2Key (keys %secondary){
+			$stuffstring= $stuffstring.$s2Key."_";
+		}
+		chop $stuffstring;
+	}
+	#else die "How did you end up here.  Invalid SWITCH\n";
+		
+	#print $stuffstring."\n";
+	
+	my $tmpxml = new XML::Simple;
+	my $url = $sitepre.$stuffstring.$sitepost;
+
+	my $data = $tmpxml->XMLin(get($url));
+	
+
+	
+	if ($switch eq 0){
+		foreach my $s3Key (keys %secondary){
+			print FILE "\t\t<".$s3Key." name=\"".$secondary{$s3Key}."\">\n";
+			print FILE "\t\t\t<sell_min>".$data->{marketstat}->{type}->{$s3Key}->{sell}->{min}."</sell_min>\n";
+			print FILE "\t\t\t<sell_avg>".$data->{marketstat}->{type}->{$s3Key}->{sell}->{avg}."</sell_avg>\n";
+			print FILE "\t\t\t<sell_med>".$data->{marketstat}->{type}->{$s3Key}->{sell}->{median}."</sell_med>\n";
+			print FILE "\t\t\t<buy_max>".$data->{marketstat}->{type}->{$s3Key}->{buy}->{max}."</buy_max>\n";
+			print FILE "\t\t\t<buy_avg>".$data->{marketstat}->{type}->{$s3Key}->{buy}->{avg}."</buy_avg>\n";
+			print FILE "\t\t\t<buy_med>".$data->{marketstat}->{type}->{$s3Key}->{buy}->{median}."</buy_med>\n";
+			print FILE "\t\t</".$s3Key.">\n";
+			#print $mineral{$m3Key}." min ".$data->{marketstat}->{type}->{$m3Key}->{sell}->{min}."\n";
+		}
+	}
+	elsif($switch eq 1){
+		foreach my $s4Key (keys %secondary){
+			print FILE "\t\t<".$s4Key." name=\"".$secondary{$s4Key}."\">\n";
+			my $data2 = $tmpxml->XMLin(get($sitepre.$s4Key.$sitepost));
+			print FILE "\t\t\t<buy_max>".$data2->{row}->{buy_highest}."</buy_max>\n";
+			print FILE "\t\t\t<buy_avg>".$data2->{row}->{buy_avg}."</buy_avg>\n";
+			print FILE "\t\t\t<buy_med>".$data2->{row}->{buy_highest5}."</buy_med>\n";
+			print FILE "\t\t\t<sell_min>".$data2->{row}->{sell_lowest}."</sell_min>\n";
+			print FILE "\t\t\t<sell_avg>".$data2->{row}->{sell_avg}."</sell_avg>\n";
+			print FILE "\t\t\t<sell_med>".$data2->{row}->{sell_lowest5}."</sell_med>\n";
+			print FILE"\t\t</".$s4Key.">\n";
+		}
+	}
+	#else die "Really?  You had to cheat to get here.  Invalid SWITCH again\n";
+	print FILE "\t</intermediate>\n";
+	print "Intermediate prices updated\n";
+};
+
+##################################################
+#
+#	moongoos
+#
+##################################################
+sub moongoos{
+	print FILE "\t<moongoo>\n";
+	my $stuffstring;
+	
+	if ($switch eq 0){
+		##Default case (EVE-CENTRAL)
+		$stuffstring="";
+		foreach my $g1Key (keys %moongoo){
+			$stuffstring= $stuffstring."typeid=".$g1Key."&";
+		}
+		
+	}
+		
+	elsif ($switch eq 1){##Case for marketeer
+		$stuffstring="";
+		foreach my $g2Key (keys %moongoo){
+			$stuffstring= $stuffstring.$g2Key."_";
+		}
+		chop $stuffstring;
+	}
+	#else die "How did you end up here.  Invalid SWITCH\n";
+		
+	#print $stuffstring."\n";
+	
+	my $tmpxml = new XML::Simple;
+	my $url = $sitepre.$stuffstring.$sitepost;
+
+	my $data = $tmpxml->XMLin(get($url));
+	
+
+	
+	if ($switch eq 0){
+		foreach my $g3Key (keys %moongoo){
+			print FILE "\t\t<".$g3Key." name=\"".$moongoo{$g3Key}."\">\n";
+			print FILE "\t\t\t<sell_min>".$data->{marketstat}->{type}->{$g3Key}->{sell}->{min}."</sell_min>\n";
+			print FILE "\t\t\t<sell_avg>".$data->{marketstat}->{type}->{$g3Key}->{sell}->{avg}."</sell_avg>\n";
+			print FILE "\t\t\t<sell_med>".$data->{marketstat}->{type}->{$g3Key}->{sell}->{median}."</sell_med>\n";
+			print FILE "\t\t\t<buy_max>".$data->{marketstat}->{type}->{$g3Key}->{buy}->{max}."</buy_max>\n";
+			print FILE "\t\t\t<buy_avg>".$data->{marketstat}->{type}->{$g3Key}->{buy}->{avg}."</buy_avg>\n";
+			print FILE "\t\t\t<buy_med>".$data->{marketstat}->{type}->{$g3Key}->{buy}->{median}."</buy_med>\n";
+			print FILE "\t\t</".$g3Key.">\n";
+			#print $mineral{$m3Key}." min ".$data->{marketstat}->{type}->{$m3Key}->{sell}->{min}."\n";
+		}
+	}
+	elsif($switch eq 1){
+		foreach my $g4Key (keys %moongoo){
+			print FILE "\t\t<".$g4Key." name=\"".$moongoo{$g4Key}."\">\n";
+			my $data2 = $tmpxml->XMLin(get($sitepre.$g4Key.$sitepost));
+			print FILE "\t\t\t<buy_max>".$data2->{row}->{buy_highest}."</buy_max>\n";
+			print FILE "\t\t\t<buy_avg>".$data2->{row}->{buy_avg}."</buy_avg>\n";
+			print FILE "\t\t\t<buy_med>".$data2->{row}->{buy_highest5}."</buy_med>\n";
+			print FILE "\t\t\t<sell_min>".$data2->{row}->{sell_lowest}."</sell_min>\n";
+			print FILE "\t\t\t<sell_avg>".$data2->{row}->{sell_avg}."</sell_avg>\n";
+			print FILE "\t\t\t<sell_med>".$data2->{row}->{sell_lowest5}."</sell_med>\n";
+			print FILE"\t\t</".$g4Key.">\n";
+		}
+	}
+	#else die "Really?  You had to cheat to get here.  Invalid SWITCH again\n";
+	print FILE "\t</moongoo>\n";
+	print "Raw goo prices updated\n";
 };
