@@ -1150,7 +1150,7 @@
 		</ammo>
 	</T2>
 	<capitals><!--Needs Values-->
-				<carrier>
+		<carrier>
 			<i23757 name="Archon">
 				<i21017 name="Capital Armor Plates">10</i21017>
 				<i21019 name="Capital Capacitor Battery">9</i21019>

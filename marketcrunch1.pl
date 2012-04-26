@@ -251,20 +251,20 @@ sub minerals{
 	
 	if ($switch eq 0){
 		foreach my $m3Key (keys %mineral){
-			print FILE "\t\t<".$m3Key." name=\"".$mineral{$m3Key}."\">\n";
+			print FILE "\t\t<i".$m3Key." name=\"".$mineral{$m3Key}."\">\n";
 			print FILE "\t\t\t<sell_min>".$data->{marketstat}->{type}->{$m3Key}->{sell}->{min}."</sell_min>\n";
 			print FILE "\t\t\t<sell_avg>".$data->{marketstat}->{type}->{$m3Key}->{sell}->{avg}."</sell_avg>\n";
 			print FILE "\t\t\t<sell_med>".$data->{marketstat}->{type}->{$m3Key}->{sell}->{median}."</sell_med>\n";
 			print FILE "\t\t\t<buy_max>".$data->{marketstat}->{type}->{$m3Key}->{buy}->{max}."</buy_max>\n";
 			print FILE "\t\t\t<buy_avg>".$data->{marketstat}->{type}->{$m3Key}->{buy}->{avg}."</buy_avg>\n";
 			print FILE "\t\t\t<buy_med>".$data->{marketstat}->{type}->{$m3Key}->{buy}->{median}."</buy_med>\n";
-			print FILE "\t\t</".$m3Key.">\n";
+			print FILE "\t\t</i".$m3Key.">\n";
 			#print $mineral{$m3Key}." min ".$data->{marketstat}->{type}->{$m3Key}->{sell}->{min}."\n";
 		}
 	}
 	elsif($switch eq 1){
 		foreach my $m4Key (keys %mineral){
-			print FILE "\t\t<".$m4Key." name=\"".$mineral{$m4Key}."\">\n";
+			print FILE "\t\t<i".$m4Key." name=\"".$mineral{$m4Key}."\">\n";
 			my $data2 = $tmpxml->XMLin(get($sitepre.$m4Key.$sitepost));
 			print FILE "\t\t\t<buy_max>".$data2->{row}->{buy_highest}."</buy_min>\n";
 			print FILE "\t\t\t<buy_avg>".$data2->{row}->{buy_avg}."</buy_avg>\n";
@@ -272,7 +272,7 @@ sub minerals{
 			print FILE "\t\t\t<sell_min>".$data2->{row}->{sell_lowest}."</sell_min>\n";
 			print FILE "\t\t\t<sell_avg>".$data2->{row}->{sell_avg}."</sell_avg>\n";
 			print FILE "\t\t\t<sell_med>".$data2->{row}->{sell_lowest5}."</sell_med>\n";
-			print FILE"\t\t</".$m4Key.">\n";
+			print FILE"\t\t</i".$m4Key.">\n";
 		}
 	}
 	#else die "Really?  You had to cheat to get here.  Invalid SWITCH again\n";
@@ -318,20 +318,20 @@ sub components{
 	
 	if ($switch eq 0){
 		foreach my $c3Key (keys %component){
-			print FILE "\t\t<".$c3Key." name=\"".$component{$c3Key}."\">\n";
+			print FILE "\t\t<i".$c3Key." name=\"".$component{$c3Key}."\">\n";
 			print FILE "\t\t\t<sell_min>".$data->{marketstat}->{type}->{$c3Key}->{sell}->{min}."</sell_min>\n";
 			print FILE "\t\t\t<sell_avg>".$data->{marketstat}->{type}->{$c3Key}->{sell}->{avg}."</sell_avg>\n";
 			print FILE "\t\t\t<sell_med>".$data->{marketstat}->{type}->{$c3Key}->{sell}->{median}."</sell_med>\n";
 			print FILE "\t\t\t<buy_max>".$data->{marketstat}->{type}->{$c3Key}->{buy}->{max}."</buy_max>\n";
 			print FILE "\t\t\t<buy_avg>".$data->{marketstat}->{type}->{$c3Key}->{buy}->{avg}."</buy_avg>\n";
 			print FILE "\t\t\t<buy_med>".$data->{marketstat}->{type}->{$c3Key}->{buy}->{median}."</buy_med>\n";
-			print FILE "\t\t</".$c3Key.">\n";
+			print FILE "\t\t</i".$c3Key.">\n";
 			#print $mineral{$m3Key}." min ".$data->{marketstat}->{type}->{$m3Key}->{sell}->{min}."\n";
 		}
 	}
 	elsif($switch eq 1){
 		foreach my $c4Key (keys %component){
-			print FILE "\t\t<".$c4Key." name=\"".$component{$c4Key}."\">\n";
+			print FILE "\t\t<i".$c4Key." name=\"".$component{$c4Key}."\">\n";
 			my $data2 = $tmpxml->XMLin(get($sitepre.$c4Key.$sitepost));
 			print FILE "\t\t\t<buy_max>".$data2->{row}->{buy_highest}."</buy_max>\n";
 			print FILE "\t\t\t<buy_avg>".$data2->{row}->{buy_avg}."</buy_avg>\n";
@@ -339,7 +339,7 @@ sub components{
 			print FILE "\t\t\t<sell_min>".$data2->{row}->{sell_lowest}."</sell_min>\n";
 			print FILE "\t\t\t<sell_avg>".$data2->{row}->{sell_avg}."</sell_avg>\n";
 			print FILE "\t\t\t<sell_med>".$data2->{row}->{sell_lowest5}."</sell_med>\n";
-			print FILE"\t\t</".$c4Key.">\n";
+			print FILE"\t\t</i".$c4Key.">\n";
 		}
 	}
 	#else die "Really?  You had to cheat to get here.  Invalid SWITCH again\n";
@@ -385,20 +385,20 @@ sub datacores{
 	
 	if ($switch eq 0){
 		foreach my $d3Key (keys %datacore){
-			print FILE "\t\t<".$d3Key." name=\"".$datacore{$d3Key}."\">\n";
+			print FILE "\t\t<i".$d3Key." name=\"".$datacore{$d3Key}."\">\n";
 			print FILE "\t\t\t<sell_min>".$data->{marketstat}->{type}->{$d3Key}->{sell}->{min}."</sell_min>\n";
 			print FILE "\t\t\t<sell_avg>".$data->{marketstat}->{type}->{$d3Key}->{sell}->{avg}."</sell_avg>\n";
 			print FILE "\t\t\t<sell_med>".$data->{marketstat}->{type}->{$d3Key}->{sell}->{median}."</sell_med>\n";
 			print FILE "\t\t\t<buy_max>".$data->{marketstat}->{type}->{$d3Key}->{buy}->{max}."</buy_max>\n";
 			print FILE "\t\t\t<buy_avg>".$data->{marketstat}->{type}->{$d3Key}->{buy}->{avg}."</buy_avg>\n";
 			print FILE "\t\t\t<buy_med>".$data->{marketstat}->{type}->{$d3Key}->{buy}->{median}."</buy_med>\n";
-			print FILE "\t\t</".$d3Key.">\n";
+			print FILE "\t\t</i".$d3Key.">\n";
 			#print $mineral{$m3Key}." min ".$data->{marketstat}->{type}->{$m3Key}->{sell}->{min}."\n";
 		}
 	}
 	elsif($switch eq 1){
 		foreach my $d4Key (keys %datacore){
-			print FILE "\t\t<".$d4Key." name=\"".$datacore{$d4Key}."\">\n";
+			print FILE "\t\t<i".$d4Key." name=\"".$datacore{$d4Key}."\">\n";
 			my $data2 = $tmpxml->XMLin(get($sitepre.$d4Key.$sitepost));
 			print FILE "\t\t\t<buy_max>".$data2->{row}->{buy_highest}."</buy_max>\n";
 			print FILE "\t\t\t<buy_avg>".$data2->{row}->{buy_avg}."</buy_avg>\n";
@@ -406,7 +406,7 @@ sub datacores{
 			print FILE "\t\t\t<sell_min>".$data2->{row}->{sell_lowest}."</sell_min>\n";
 			print FILE "\t\t\t<sell_avg>".$data2->{row}->{sell_avg}."</sell_avg>\n";
 			print FILE "\t\t\t<sell_med>".$data2->{row}->{sell_lowest5}."</sell_med>\n";
-			print FILE"\t\t</".$d4Key.">\n";
+			print FILE"\t\t</i".$d4Key.">\n";
 		}
 	}
 	#else die "Really?  You had to cheat to get here.  Invalid SWITCH again\n";
@@ -452,20 +452,20 @@ sub PIs{
 	
 	if ($switch eq 0){
 		foreach my $p3Key (keys %PI){
-			print FILE "\t\t<".$p3Key." name=\"".$PI{$p3Key}."\">\n";
+			print FILE "\t\t<i".$p3Key." name=\"".$PI{$p3Key}."\">\n";
 			print FILE "\t\t\t<sell_min>".$data->{marketstat}->{type}->{$p3Key}->{sell}->{min}."</sell_min>\n";
 			print FILE "\t\t\t<sell_avg>".$data->{marketstat}->{type}->{$p3Key}->{sell}->{avg}."</sell_avg>\n";
 			print FILE "\t\t\t<sell_med>".$data->{marketstat}->{type}->{$p3Key}->{sell}->{median}."</sell_med>\n";
 			print FILE "\t\t\t<buy_max>".$data->{marketstat}->{type}->{$p3Key}->{buy}->{max}."</buy_max>\n";
 			print FILE "\t\t\t<buy_avg>".$data->{marketstat}->{type}->{$p3Key}->{buy}->{avg}."</buy_avg>\n";
 			print FILE "\t\t\t<buy_med>".$data->{marketstat}->{type}->{$p3Key}->{buy}->{median}."</buy_med>\n";
-			print FILE "\t\t</".$p3Key.">\n";
+			print FILE "\t\t</i".$p3Key.">\n";
 			#print $mineral{$m3Key}." min ".$data->{marketstat}->{type}->{$m3Key}->{sell}->{min}."\n";
 		}
 	}
 	elsif($switch eq 1){
 		foreach my $p4Key (keys %PI){
-			print FILE "\t\t<".$p4Key." name=\"".$PI{$p4Key}."\">\n";
+			print FILE "\t\t<i".$p4Key." name=\"".$PI{$p4Key}."\">\n";
 			my $data2 = $tmpxml->XMLin(get($sitepre.$p4Key.$sitepost));
 			print FILE "\t\t\t<buy_max>".$data2->{row}->{buy_highest}."</buy_max>\n";
 			print FILE "\t\t\t<buy_avg>".$data2->{row}->{buy_avg}."</buy_avg>\n";
@@ -473,7 +473,7 @@ sub PIs{
 			print FILE "\t\t\t<sell_min>".$data2->{row}->{sell_lowest}."</sell_min>\n";
 			print FILE "\t\t\t<sell_avg>".$data2->{row}->{sell_avg}."</sell_avg>\n";
 			print FILE "\t\t\t<sell_med>".$data2->{row}->{sell_lowest5}."</sell_med>\n";
-			print FILE"\t\t</".$p4Key.">\n";
+			print FILE"\t\t</i".$p4Key.">\n";
 		}
 	}
 	#else die "Really?  You had to cheat to get here.  Invalid SWITCH again\n";
@@ -520,20 +520,20 @@ sub secondaries{
 	
 	if ($switch eq 0){
 		foreach my $s3Key (keys %secondary){
-			print FILE "\t\t<".$s3Key." name=\"".$secondary{$s3Key}."\">\n";
+			print FILE "\t\t<i".$s3Key." name=\"".$secondary{$s3Key}."\">\n";
 			print FILE "\t\t\t<sell_min>".$data->{marketstat}->{type}->{$s3Key}->{sell}->{min}."</sell_min>\n";
 			print FILE "\t\t\t<sell_avg>".$data->{marketstat}->{type}->{$s3Key}->{sell}->{avg}."</sell_avg>\n";
 			print FILE "\t\t\t<sell_med>".$data->{marketstat}->{type}->{$s3Key}->{sell}->{median}."</sell_med>\n";
 			print FILE "\t\t\t<buy_max>".$data->{marketstat}->{type}->{$s3Key}->{buy}->{max}."</buy_max>\n";
 			print FILE "\t\t\t<buy_avg>".$data->{marketstat}->{type}->{$s3Key}->{buy}->{avg}."</buy_avg>\n";
 			print FILE "\t\t\t<buy_med>".$data->{marketstat}->{type}->{$s3Key}->{buy}->{median}."</buy_med>\n";
-			print FILE "\t\t</".$s3Key.">\n";
+			print FILE "\t\t</i".$s3Key.">\n";
 			#print $mineral{$m3Key}." min ".$data->{marketstat}->{type}->{$m3Key}->{sell}->{min}."\n";
 		}
 	}
 	elsif($switch eq 1){
 		foreach my $s4Key (keys %secondary){
-			print FILE "\t\t<".$s4Key." name=\"".$secondary{$s4Key}."\">\n";
+			print FILE "\t\t<i".$s4Key." name=\"".$secondary{$s4Key}."\">\n";
 			my $data2 = $tmpxml->XMLin(get($sitepre.$s4Key.$sitepost));
 			print FILE "\t\t\t<buy_max>".$data2->{row}->{buy_highest}."</buy_max>\n";
 			print FILE "\t\t\t<buy_avg>".$data2->{row}->{buy_avg}."</buy_avg>\n";
@@ -541,7 +541,7 @@ sub secondaries{
 			print FILE "\t\t\t<sell_min>".$data2->{row}->{sell_lowest}."</sell_min>\n";
 			print FILE "\t\t\t<sell_avg>".$data2->{row}->{sell_avg}."</sell_avg>\n";
 			print FILE "\t\t\t<sell_med>".$data2->{row}->{sell_lowest5}."</sell_med>\n";
-			print FILE"\t\t</".$s4Key.">\n";
+			print FILE"\t\t</i".$s4Key.">\n";
 		}
 	}
 	#else die "Really?  You had to cheat to get here.  Invalid SWITCH again\n";
@@ -587,20 +587,20 @@ sub moongoos{
 	
 	if ($switch eq 0){
 		foreach my $g3Key (keys %moongoo){
-			print FILE "\t\t<".$g3Key." name=\"".$moongoo{$g3Key}."\">\n";
+			print FILE "\t\t<i".$g3Key." name=\"".$moongoo{$g3Key}."\">\n";
 			print FILE "\t\t\t<sell_min>".$data->{marketstat}->{type}->{$g3Key}->{sell}->{min}."</sell_min>\n";
 			print FILE "\t\t\t<sell_avg>".$data->{marketstat}->{type}->{$g3Key}->{sell}->{avg}."</sell_avg>\n";
 			print FILE "\t\t\t<sell_med>".$data->{marketstat}->{type}->{$g3Key}->{sell}->{median}."</sell_med>\n";
 			print FILE "\t\t\t<buy_max>".$data->{marketstat}->{type}->{$g3Key}->{buy}->{max}."</buy_max>\n";
 			print FILE "\t\t\t<buy_avg>".$data->{marketstat}->{type}->{$g3Key}->{buy}->{avg}."</buy_avg>\n";
 			print FILE "\t\t\t<buy_med>".$data->{marketstat}->{type}->{$g3Key}->{buy}->{median}."</buy_med>\n";
-			print FILE "\t\t</".$g3Key.">\n";
+			print FILE "\t\t</i".$g3Key.">\n";
 			#print $mineral{$m3Key}." min ".$data->{marketstat}->{type}->{$m3Key}->{sell}->{min}."\n";
 		}
 	}
 	elsif($switch eq 1){
 		foreach my $g4Key (keys %moongoo){
-			print FILE "\t\t<".$g4Key." name=\"".$moongoo{$g4Key}."\">\n";
+			print FILE "\t\t<i".$g4Key." name=\"".$moongoo{$g4Key}."\">\n";
 			my $data2 = $tmpxml->XMLin(get($sitepre.$g4Key.$sitepost));
 			print FILE "\t\t\t<buy_max>".$data2->{row}->{buy_highest}."</buy_max>\n";
 			print FILE "\t\t\t<buy_avg>".$data2->{row}->{buy_avg}."</buy_avg>\n";
@@ -608,7 +608,7 @@ sub moongoos{
 			print FILE "\t\t\t<sell_min>".$data2->{row}->{sell_lowest}."</sell_min>\n";
 			print FILE "\t\t\t<sell_avg>".$data2->{row}->{sell_avg}."</sell_avg>\n";
 			print FILE "\t\t\t<sell_med>".$data2->{row}->{sell_lowest5}."</sell_med>\n";
-			print FILE"\t\t</".$g4Key.">\n";
+			print FILE"\t\t</i".$g4Key.">\n";
 		}
 	}
 	#else die "Really?  You had to cheat to get here.  Invalid SWITCH again\n";
