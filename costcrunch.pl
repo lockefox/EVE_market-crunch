@@ -160,7 +160,7 @@ sub prodCalc{
 				my $prodcost=0;
 				my $qty = $prodsheet->{$class}->{$subset}->{$product}->{qty};
 				$names{$product} = $prodsheet->{$class}->{$subset}->{$product}->{name};
-				if($class eq "T2"){
+				if($class eq "T2"){#T2 products
 					foreach my $parts (keys %{$prodsheet->{$class}->{$subset}->{$product}}){
 						my $eachQ = $prodsheet->{$class}->{$subset}->{$product}->{$parts}->{content};
 						my $prodtype = $prodsheet->{$class}->{$subset}->{$product}->{mfg_grp};

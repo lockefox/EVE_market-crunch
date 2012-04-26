@@ -379,6 +379,71 @@
 				<i39 name="Zydrine">50</i39>
 			</i12054>
 		</prop>
+		<interdict>
+			<i526 name="Stasis Webifier I" id="WEB">
+				<i37 name="Isogen">0</i37>
+				<i40 name="Megacyte">0</i40>
+				<i36 name="Mexallon">476</i36>
+				<i38 name="Nocxium">0</i38>
+				<i35 name="Pyerite">713</i35>
+				<i34 name="Tritanium">776</i34>
+				<i39 name="Zydrine">0</i39>
+			</i526>
+			<i447 name="Warp Scrambler I" id="SCRM">
+				<i37 name="Isogen">177</i37>
+				<i40 name="Megacyte">0</i40>
+				<i36 name="Mexallon">301</i36>
+				<i38 name="Nocxium">0</i38>
+				<i35 name="Pyerite">267</i35>
+				<i34 name="Tritanium">452</i34>
+				<i39 name="Zydrine">2</i39>
+			</i447>
+			<i3242 name="Warp Disruptor I" id="DIS">
+				<i37 name="Isogen">177</i37>
+				<i40 name="Megacyte">0</i40>
+				<i36 name="Mexallon">301</i36>
+				<i38 name="Nocxium">0</i38>
+				<i35 name="Pyerite">267</i35>
+				<i34 name="Tritanium">452</i34>
+				<i39 name="Zydrine">2</i39>
+			</i3242>
+			<i12709 name="Target Painter I">
+				<i37 name="Isogen">4</i37>
+				<i40 name="Megacyte">2</i40>
+				<i36 name="Mexallon">423</i36>
+				<i38 name="Nocxium">0</i38>
+				<i35 name="Pyerite">165</i35>
+				<i34 name="Tritanium">756</i34>
+				<i39 name="Zydrine">0</i39>
+			</i12709>
+			<i12198 name="Mobile Small Warp Disruptor I" id="SWD">
+				<i37 name="Isogen">235</i37>
+				<i40 name="Megacyte">20</i40>
+				<i36 name="Mexallon">2016</i36>
+				<i38 name="Nocxium">177</i38>
+				<i35 name="Pyerite">4441</i35>
+				<i34 name="Tritanium">1420</i34>
+				<i39 name="Zydrine">74</i39>
+			</i12198>
+			<i12199 name="Mobile Medium Warp Disruptor I" id="MWD">
+				<i37 name="Isogen">2005</i37>
+				<i40 name="Megacyte">80</i40>
+				<i36 name="Mexallon">9870</i36>
+				<i38 name="Nocxium">709</i38>
+				<i35 name="Pyerite">19361</i35>
+				<i34 name="Tritanium">60377</i34>
+				<i39 name="Zydrine">308</i39>
+			</i2199>
+			<i12200 name="Mobile Large Warp Disruptor I" id="LWD">
+				<i37 name="Isogen">10693</i37>
+				<i40 name="Megacyte">321</i40>
+				<i36 name="Mexallon">44057</i36>
+				<i38 name="Nocxium">2840</i38>
+				<i35 name="Pyerite">81557</i35>
+				<i34 name="Tritanium">428608</i34>
+				<i39 name="Zydrine">1266</i39>
+			</i12200>
+		</interdict>
 		<mining>
 			<i16278 name="Ice Harvester I" id="ICE">
 				<i37 name="Isogen">1374</i37>

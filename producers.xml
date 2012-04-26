@@ -57,7 +57,21 @@
 			<i2913 name="425mm Autocannon II">200</i2913>
 		</i696814627>
 	<!--Interdiction-->
-		
+		<i913820860 name="Wimgle">
+			<i527 name="Stasis Webifier II">200</i527>
+			<i3244 name="Warp Disruptor II">200</i3244>
+			<i448 name="Warp Scrambler II">100</i448>
+		</i913820860>
+		<i1845303338 name="Iviar Hoth">
+			<i527 name="Stasis Webifier II">200</i527>
+			<i3244 name="Warp Disruptor II">200</i3244>
+			<i448 name="Warp Scrambler II">100</i448>
+		</i1845303338>
+		<i1439910980 name="Meganium Shakra">
+			<i527 name="Stasis Webifier II">200</i527>
+			<i3244 name="Warp Disruptor II">200</i3244>
+			<i448 name="Warp Scrambler II">100</i448>
+		</i1439910980>
 	<!--Ships-->
 		<i1037534334 name="Perrin Girard">
 			<i22544 name="Hulk">10</i22544>
