@@ -145,6 +145,26 @@ my %moongoo=(
 	16672, "Tungsten",
 	16642, "Vanadium",
 );
+
+my %POS=(
+	9832, "Coolant",
+	44, "Enriched Uranium",
+	3689, "Mechanical Parts",
+	3683, "Oxygen",
+	9848, "Robotics",
+	16272, "Heavy Water",
+	16273, "Liquid Ozone",
+	17888, "Nitrogen Isotopes",	#Caldari
+	17887, "Oxygen Isotopes",	#Gallente
+	16274, "Helium Isotopes",	#Amarr
+	17889, "Hydrogen Isotopes",	#Minmatar
+	24592, "Amarr Empire Starbase Charter",
+	24593, "Caldari State Starbase Charter",
+	24594, "Gallente Federation Starbase Charter",
+	24595, "Minmatar Republic Starbase Charter",
+	24596, "Khanid Kingdom Starbase Charter",
+	24597, "Ammatar Mandate Starbase Charter",
+);
 	
 ##################################################
 #

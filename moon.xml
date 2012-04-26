@@ -2,7 +2,7 @@
 	<advanced>
 		<i16670 name="Crystalline Carbonite">
 			<i16655 name="Crystallite Alloy">100</i16655>
-			<i16659 name="Carbon Polymers">100</i16655>
+			<i16659 name="Carbon Polymers">100</i16659>
 			<qty>10000</qty>
 			<alchemy>false</alchemy>
 		</i16670>
@@ -29,7 +29,7 @@
 			<alchemy>true</alchemy>
 		</i16683>
 		<i16679 name="Fullerides">
-			<i16659 name="Carbon Polymers">100</i16655>
+			<i16659 name="Carbon Polymers">100</i16659>
 			<i16662 name="Platinum Technite">100</i16662>
 			<qty>3000</qty>
 			<alchemy>false</alchemy>
@@ -37,7 +37,7 @@
 		<i16682 name="Hypersynaptic Fibers">
 			<i16664 name="Solerium">100</i16664>
 			<i16668 name="Dysporite">100</i16668>
-			<i17958 name="Vanadium Hafnite">100</i16668>
+			<i17958 name="Vanadium Hafnite">100</i17958>
 			<qty>750</qty>
 			<alchemy>true</alchemy>
 		</i16682>
@@ -75,10 +75,191 @@
 		</i16672>
 	</advanced>
 	<secondary>
+			<i16663 name="Caesarium Cadmide">
+				<i16643 name="Cadmium">100</i16643>
+				<i16647 name="Caesium">100</i16647>
+				<qty>200</qty>
+			</i16663>
+			<i16659 name="Carbon Polymers">
+				<i16633 name="Hydrocarbons">100</i16633>
+				<i16636 name="Silicates">100</i16636>
+				<qty>200</qty>
+			</i16659>
+			<i16660 name="Ceramic Powder">
+				<i16635 name="Evaporite Deposits">100</i16635>
+				<i16636 name="Silicates">100</i16636>
+				<qty>200</qty>
+			</i16660>
+			<i16655 name="Crystallite Alloy">
+				<i16640 name="Cobalt">100</i16640>
+				<i16643 name="Cadmium">100</i16643>
+				<qty>200</qty>
+			</i16655>
+			<i16668 name="Dysporite">
+				<i16646 name="Mercury">100</i16646>
+				<i16650 name="Dysprosium">100</i16650>
+				<qty>200</qty>
+				<alchemy>true</alchemy>
+			</i16668>
+			<i16656 name="Fernite Alloy">
+				<i16639 name="Scandium">100</i16639>
+				<i16642 name="Vanadium">100</i16642>
+				<qty>200</qty>
+			</i16656>
+			<i16669 name="Ferrofluid">
+				<i16648 name="Hafnium">100</i16648>
+				<i16650 name="Dysprosium">100</i16650>
+				<qty>200</qty>
+				<alchemy>true</alchemy>
+			</i16669>
+			<i17769 name="Fluxed Condensates">
+				<i16651 name="Neodymium">100</i16651>
+				<i16653 name="Thulium">100</i16653>
+				<qty>200</qty>
+				<alchemy>true</alchemy>
+			</i17769>
+			<i16665 name="Hexite">
+				<i16641 name="Chromium">100</i16641>
+				<i16644 name="Platinum">100</i16644>
+				<qty>200</qty>
+			</i16665>
+			<i16666 name="Hyperflurite">
+				<i16642 name="Vanadium">100</i16642>
+				<i16652 name="Promethium">100</i16652>
+				<qty>200</qty>
+				<alchemy>true</alchemy>
+			</i16666>
+			<i16667 name="Neo Mercurite">
+				<i16646 name="Mercury">100</i16646>
+				<i16651 name="Neodymium">100</i16651>
+				<qty>200</qty>
+				<alchemy>true</alchemy>
+			</i16667>
+			<i16662 name="Platinum Technite">
+				<i16644 name="Platinum">100</i16644>
+				<i16649 name="Technetium">100</i16649>
+				<qty>200</qty>
+			</i16662>
+			<i17960 name="Prometium">
+				<i16643 name="Cadmium">100</i16643>
+				<i16652 name="Promethium">100</i16652>
+				<qty>200</qty>
+				<alchemy>true</alchemy>
+			</i17960>
+			<i16657 name="Rolled Tungsten">
+				<i16672 name="Tungsten">100</i16672>
+				<i16644 name="Platinum">100</i16644>
+				<qty>200</qty>
+			</i16657>
+			<i16658 name="Silicon Diborite">
+				<i16635 name="Evaporite Deposits">100</i16635>
+				<i16636 name="Silicates">100</i16636>
+				<qty>200</qty>
+			</i16658>
+			<i16664 name="Solerium">
+				<i16641 name="Chromium">100</i16641>
+				<i16647 name="Caesium">100</i16647>
+				<qty>200</qty>
+			</i16664>
+			<i16661 name="Sulfuric Acid">
+				<i16634 name="Atmospheric Gasses">100</i16634>
+				<i16635 name="Evaporite Deposits">100</i16635>
+				<qty>200</qty>
+			</i16661>
+			<i16654 name="Titanium Chrimide">
+				<i16638 name="Titanium">100</i16638>
+				<i16641 name="Chromium">100</i16641>
+				<qty>200</qty>
+			</i16654>
+			<i17958 name="Vanadium Hafnite">
+				<i16642 name="Vanadium">100</i16642>
+				<i16648 name="Hafnium">100</i16648>
+				<qty>200</qty>
+			</i17958>
 	</secondary>
-	<raw>
+	<raw>	<!--Used for pricing, also tracks rarity-->
+		<i16634 name="Atmospheric Gas">
+			<rarity></rarity>
+			<mining></mining>
+		</i16634>
+		<i16643 name="Cadmium">
+			<rarity></rarity>
+			<mining></mining>
+		</i16643>
+		<i16647 name="Ceasium">
+			<rarity></rarity>
+			<mining></mining>
+		</i16647>
+		<i16641 name="Chromium">
+			<rarity></rarity>
+			<mining></mining>
+		</i16641>
+		<i16640 name="Cobalt">
+			<rarity></rarity>
+			<mining></mining>
+		</i16640>
+		<i16650 name="Dysprosium">
+			<rarity></rarity>
+			<mining></mining>
+		</i16650>
+		<i16635 name="Evaporite Deposits">
+			<rarity></rarity>
+			<mining></mining>
+		</i16635>
+		<i16648 name="Hafnium">
+			<rarity></rarity>
+			<mining></mining>
+		</i16648>
+		<i16633 name="Hydrocarbons">
+			<rarity></rarity>
+			<mining></mining>
+		</i16633>
+		<i16646 name="Mercury">
+			<rarity></rarity>
+			<mining></mining>
+		</i16646>
+		<i16651 name="Neodymium">
+			<rarity></rarity>
+			<mining></mining>
+		</i16651>
+		<i16644 name="Platinum">
+			<rarity></rarity>
+			<mining></mining>
+		</i16644>
+		<i16652 name="Promethium">
+			<rarity></rarity>
+			<mining></mining>
+		</i16652>
+		<i16639 name="Scandium">
+			<rarity></rarity>
+			<mining></mining>
+		</i16639>
+		<i16636 name="Silicates">
+			<rarity></rarity>
+			<mining></mining>
+		</i16636>
+		<i16649 name="Technetium">
+			<rarity></rarity>
+			<mining></mining>
+		</i16649>
+		<i16653 name="Thulium">
+			<rarity></rarity>
+			<mining></mining>
+		</i16653>
+		<i16638 name="Titanium">
+			<rarity></rarity>
+			<mining></mining>
+		</i16638>
+		<i16672 name="Tungsten">
+			<rarity></rarity>
+			<mining></mining>
+		</i16672>
+		<i16642 name="Vanadium">
+			<rarity></rarity>
+			<mining></mining>
+		</i16642>
 	</raw>
-	<alchemy>
+	<alchemy><!--used for "unrefined" alchemy reactions-->
 		<i16668 name="Unrefined Dysporite">
 			<i16646 name="Mercury">5</i16646>
 			<i16643 name="Cadmium">100</i16643>
@@ -113,9 +294,21 @@
 			<i16643 name="Cadmium">5</i16643>
 			<i16641 name="Chromium">100</i16641>
 			<qty>40</qty>
-			<leftover id="16643">95</i16643>
+			<leftover id="16643">95</leftover>
 			<id>29662</id>
 		</i17960>
-	<pos>
+	</alchemy>
+	<pos>	<!--needed for real-cost evaluation-->
+		<i9832 name="Coolant">8</i9832>
+		<i44 name="Enriched Uranium">4</i44>
+		<i3689 name="Mechanical Parts">4</i3689>
+		<i3683 name="Oxygen">20</i3683>
+		<i9848 name="Robotics">1</i9848>
+		<i16272 name="Heavy Water">150</i16272>
+		<i16273 name="Liquid Ozone">150</i16273>
+		<i17888 name="Nitrogen Isotopes" type="Caldari">400</i17888>
+		<i17887 name="Oxygen Isotopes" type="Gallente">400</i17887>
+		<i16274 name="Helium Isotopes" type="Amarr">400</i16274>
+		<i17889 name="Hydrogen Isotopes" type="Minmatar">400</i17889>
 	</pos>
 </root>
