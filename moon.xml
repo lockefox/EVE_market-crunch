@@ -1,0 +1,96 @@
+<root>
+	<advanced>
+		<i16670 name="Crystalline Carbonite">
+			<i16655 name="Crystallite Alloy">100</i16655>
+			<i16659 name="Carbon Polymers">100</i16655>
+			<qty>10000</qty>
+			<alchemy>false</alchemy>
+		</i16670>
+		<i17317 name="Fermionic Condensates">
+			<i16663 name="Caesarium Cadmide">100</i16663>
+			<i16668 name="Dysporite">100</i16668>
+			<i17769 name="Fluxed Condensate">100</i17769>
+			<i17960 name="Prometium">100</i17960>
+			<qty>200</qty>
+			<alchemy>true</alchemy>
+		</i17317>
+		<i16673 name="Fernite Carbide">
+			<i16660 name="Ceramic Powder">100</i16660>
+			<i16656 name="Fernite Alloy">100</i16656>
+			<qty>10000</qty>
+			<alchemy>false</alchemy>
+		</i16673>
+		<i16683 name="Ferrogel">
+			<i16665 name="Hexite">100</i16665>
+			<i16666 name="Hyperflurite">100</i16666>
+			<i16669 name="Ferrofluid">100</i16669>
+			<i17960 name="Prometium">100</i17960>
+			<qty>400</qty>
+			<alchemy>true</alchemy>
+		</i16683>
+		<i16679 name="Fullerides">
+			<i16659 name="Carbon Polymers">100</i16655>
+			<i16662 name="Platinum Technite">100</i16662>
+			<qty>3000</qty>
+			<alchemy>false</alchemy>
+		</i16679>
+		<i16682 name="Hypersynaptic Fibers">
+			<i16664 name="Solerium">100</i16664>
+			<i16668 name="Dysporite">100</i16668>
+			<i17958 name="Vanadium Hafnite">100</i16668>
+			<qty>750</qty>
+			<alchemy>true</alchemy>
+		</i16682>
+		<i16681 name="Nanotransisotrs">
+			<i16661 name="Sulfuric Acid">100</i16661>
+			<i16667 name="Neo Mercurite">100</i16667>
+			<i16662 name="Platinum Technite">100</i16662>
+			<qty>1500</qty>
+			<alchemy>true</alchemy>
+		</i16681>
+		<i16680 name="Phenolic Composits">
+			<i16658 name="Silicon Diborite">100</i16658>
+			<i16663 name="Ceasarium Cadmide">100</i16663>
+			<i17958 name="Vanadium Hafnite">100</i17958>
+			<qty>2200</qty>
+			<alchemy>false</alchemy>
+		</i16680>
+		<i16678 name="Sylramic Fibers">
+			<i16660 name="Ceramic Powder">100</i16660>
+			<i16665 name="Hexite">100</i16665>
+			<qty>6000</qty>
+			<alchemy>false</alchemy>
+		</i16678>
+		<i16671 name="Titanium Carbonite">
+			<i16654 name="Titanium Chrimide">100</i16654>
+			<i16658 name="Silicon Diborite">100</i16658>
+			<qty>10000</qty>
+			<alchemy>false</alchemy>
+		</i16671>
+		<i16672 name="Tungsten Carbonite">
+			<i16657 name="Rolled Tungsten">100</i16657>
+			<i16661 name="Sulfuric Acid">100</i16661>
+			<qty>10000</qty>
+			<alchemy>false</alchemy>
+		</i16672>
+	</advanced>
+	<secondary>
+	</secondary>
+	<raw>
+	</raw>
+	<alchemy>
+		<i16668 name="Unrefined Dysporite">
+		</i16668>
+		<i16669 name="Unrefined Ferrofluid">
+		</i16669>
+		<i17769 name="Unrefined Fluxed Condensates">
+		</i17769>
+		<i16666 name="Unrefined Hyperflurite">
+		</i16666>
+		<i16667 name="Unrefined Neo Mercurite">
+		</i16667>
+		<i17960 name="Unrefined Prometium">
+		</i17960>
+	<pos>
+	</pos>
+</root>

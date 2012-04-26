@@ -186,155 +186,6 @@
 				<flag>module</flag>
 			</i1422>
 		</eng>
-		<launchers>
-			<i2410 name="Heavy Missile Launcher II">
-				<i20424 name="Datacore - Mechanical Engineering">4</i20424>
-				<i20420 name="Datacore - Rocket Science">4</i20420>
-				<HML name="Heavy Missile Launcher I" id="501">10</HML>
-				<i11399 name="Morphite">60</i11399>
-				<i11486 name="R.A.M. - Weapon Tech">2.5</i11486>
-				<i11540 name="Quantum Microprocessor">20</i11540>
-				<i9848 name="Robotics">40</i9848>
-				<i37 name="Isogen">0</i37>
-				<i40 name="Megacyte">0</i40>
-				<i36 name="Mexallon">290</i36>
-				<i38 name="Nocxium">0</i38>
-				<i35 name="Pyerite">9540</i35>
-				<i34 name="Tritanium">5940</i34>
-				<i39 name="Zydrine">0</i39>
-				<qty>10</qty>
-				<me>-4</me>
-				<bld_time></bld_time>
-				<mfg_grp>launcher</mfg_grp>
-				<flag>module</flag>
-			</i2410>
-			<i25715 name="Heavy Assault Missile Launcher II">
-				<i20424 name="Datacore - Mechanical Engineering">4</i20424>
-				<i20420 name="Datacore - Rocket Science">4</i20420>
-				<HAM name="Heavy Assault Missile Launcher I" id="20138">10</HAM>
-				<i11399 name="Morphite">60</i11399>
-				<i11486 name="R.A.M. - Weapon Tech">2.5</i11486>
-				<i11540 name="Quantum Microprocessor">20</i11540>
-				<i9848 name="Robotics">40</i9848>
-				<i37 name="Isogen">0</i37>
-				<i40 name="Megacyte">0</i40>
-				<i36 name="Mexallon">0</i36>
-				<i38 name="Nocxium">30</i38>
-				<i35 name="Pyerite">9540</i35>
-				<i34 name="Tritanium">5940</i34>
-				<i39 name="Zydrine">20</i39>
-				<qty>10</qty>
-				<me>-4</me>
-				<bld_time></bld_time>
-				<mfg_grp>launcher</mfg_grp>
-				<flag>module</flag>
-			</i25715>
-			<i2420 name="Siege Missile Launcher II">
-				<i20424 name="Datacore - Mechanical Engineering">6</i20424>
-				<i20420 name="Datacore - Rocket Science">6</i20420>
-				<TORP name="Siege Missile Launcher I" id="503">10</TORP>
-				<i11399 name="Morphite">240</i11399>
-				<i11486 name="R.A.M. - Weapon Tech">5.5</i11486>
-				<i11540 name="Quantum Microprocessor">160</i11540>
-				<i9848 name="Robotics">160</i9848>
-				<i37 name="Isogen">0</i37>
-				<i40 name="Megacyte">50</i40>
-				<i36 name="Mexallon">0</i36>
-				<i38 name="Nocxium">50</i38>
-				<i35 name="Pyerite">690</i35>
-				<i34 name="Tritanium">750</i34>
-				<i39 name="Zydrine">20</i39>
-				<qty>10</qty>
-				<me>-4</me>
-				<bld_time></bld_time>
-				<mfg_grp>launcher</mfg_grp>
-				<flag>module</flag>
-			</i2420>
-			<i2404 name="Standard Missile Launcher II">
-				<i20424 name="Datacore - Mechanical Engineering">2</i20424>
-				<i20420 name="Datacore - Rocket Science">2</i20420>
-				<LML name="Standard Missile Launcher I" id="499">10</LML>
-				<i11399 name="Morphite">30</i11399>
-				<i11486 name="R.A.M. - Weapon Tech">1.5</i11486>
-				<i11540 name="Quantum Microprocessor">40</i11540>
-				<i9848 name="Robotics">20</i9848>
-				<i37 name="Isogen">0</i37>
-				<i40 name="Megacyte">0</i40>
-				<i36 name="Mexallon">0</i36>
-				<i38 name="Nocxium">0</i38>
-				<i35 name="Pyerite">2090</i35>
-				<i34 name="Tritanium">1190</i34>
-				<i39 name="Zydrine">0</i39>
-				<qty>10</qty>
-				<me>-4</me>
-				<bld_time></bld_time>
-				<mfg_grp>launcher</mfg_grp>
-				<flag>module</flag>
-			</i2404>
-			<i1877 name="Assault Missile Launcher II">
-				<i20424 name="Datacore - Mechanical Engineering">4</i20424>
-				<i20420 name="Datacore - Rocket Science">4</i20420>
-				<AML name="Standard Missile Launcher I" id="1875">10</AML>
-				<i11399 name="Morphite">30</i11399>
-				<i11486 name="R.A.M. - Weapon Tech">1</i11486>
-				<i11540 name="Quantum Microprocessor">30</i11540>
-				<i9848 name="Robotics">20</i9848>
-				<i37 name="Isogen">20</i37>
-				<i40 name="Megacyte">0</i40>
-				<i36 name="Mexallon">450</i36>
-				<i38 name="Nocxium">20</i38>
-				<i35 name="Pyerite">1080</i35>
-				<i34 name="Tritanium">1470</i34>
-				<i39 name="Zydrine">0</i39>
-				<qty>10</qty>
-				<me>-4</me>
-				<bld_time></bld_time>
-				<mfg_grp>launcher</mfg_grp>
-				<flag>module</flag>
-			</i1877>
-			<i19739 name="Cruise Missile Launcher II">
-				<i20424 name="Datacore - Mechanical Engineering">6</i20424>
-				<i20420 name="Datacore - Rocket Science">6</i20420>
-				<CML name="Cruise Missile Launcher I" id="13320">10</CML>
-				<i11399 name="Morphite">120</i11399>
-				<i11486 name="R.A.M. - Weapon Tech">3.5</i11486>
-				<i11540 name="Quantum Microprocessor">80</i11540>
-				<i9848 name="Robotics">80</i9848>
-				<i37 name="Isogen">0</i37>
-				<i40 name="Megacyte">0</i40>
-				<i36 name="Mexallon">0</i36>
-				<i38 name="Nocxium">0</i38>
-				<i35 name="Pyerite">0</i35>
-				<i34 name="Tritanium">0</i34>
-				<i39 name="Zydrine">0</i39>
-				<qty>10</qty>
-				<me>-4</me>
-				<bld_time></bld_time>
-				<mfg_grp>launcher</mfg_grp>
-				<flag>module</flag>
-			</i19739>
-			<i10631 name="Rocket Launcher II">
-				<i20424 name="Datacore - Mechanical Engineering">2</i20424>
-				<i20420 name="Datacore - Rocket Science">2</i20420>
-				<RL name="Rocket Launcher I" id="10629">10</RL>
-				<i11399 name="Morphite">NULL</i11399>
-				<i11486 name="R.A.M. - Weapon Tech">NULL</i11486>
-				<i11540 name="Quantum Microprocessor">NULL</i11540>
-				<i9848 name="Robotics">NULL</i9848>
-				<i37 name="Isogen">0</i37>
-				<i40 name="Megacyte">0</i40>
-				<i36 name="Mexallon">0</i36>
-				<i38 name="Nocxium">0</i38>
-				<i35 name="Pyerite">0</i35>
-				<i34 name="Tritanium">0</i34>
-				<i39 name="Zydrine">0</i39>
-				<qty>10</qty>
-				<me>-4</me>
-				<bld_time></bld_time>
-				<mfg_grp>launcher</mfg_grp>
-				<flag>NULL</flag>
-			</i10631>
-		</launchers>
 		<shield>
 			<i3841 name="Large Shield Extender II">
 				<i20171 name="Datacore - Hydromagnetic Physics">6</i20171>
@@ -1272,19 +1123,152 @@
 			<i2913 name="425mm Autocannon II">
 			</i2913>
 		<!--Launchers-->
-			<i2420 name="Siege Launcher II">
-			</i2420>
-			<i19739 name="Cruise Missile Launcher II">
-			</i19739>
 			<i2410 name="Heavy Missile Launcher II">
+				<i20424 name="Datacore - Mechanical Engineering">4</i20424>
+				<i20420 name="Datacore - Rocket Science">4</i20420>
+				<HML name="Heavy Missile Launcher I" id="501">10</HML>
+				<i11399 name="Morphite">60</i11399>
+				<i11486 name="R.A.M. - Weapon Tech">2.5</i11486>
+				<i11540 name="Quantum Microprocessor">20</i11540>
+				<i9848 name="Robotics">40</i9848>
+				<i37 name="Isogen">0</i37>
+				<i40 name="Megacyte">0</i40>
+				<i36 name="Mexallon">290</i36>
+				<i38 name="Nocxium">0</i38>
+				<i35 name="Pyerite">9540</i35>
+				<i34 name="Tritanium">5940</i34>
+				<i39 name="Zydrine">0</i39>
+				<qty>10</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<mfg_grp>launcher</mfg_grp>
+				<flag>module</flag>
 			</i2410>
 			<i25715 name="Heavy Assault Missile Launcher II">
+				<i20424 name="Datacore - Mechanical Engineering">4</i20424>
+				<i20420 name="Datacore - Rocket Science">4</i20420>
+				<HAM name="Heavy Assault Missile Launcher I" id="20138">10</HAM>
+				<i11399 name="Morphite">60</i11399>
+				<i11486 name="R.A.M. - Weapon Tech">2.5</i11486>
+				<i11540 name="Quantum Microprocessor">20</i11540>
+				<i9848 name="Robotics">40</i9848>
+				<i37 name="Isogen">0</i37>
+				<i40 name="Megacyte">0</i40>
+				<i36 name="Mexallon">0</i36>
+				<i38 name="Nocxium">30</i38>
+				<i35 name="Pyerite">9540</i35>
+				<i34 name="Tritanium">5940</i34>
+				<i39 name="Zydrine">20</i39>
+				<qty>10</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<mfg_grp>launcher</mfg_grp>
+				<flag>module</flag>
 			</i25715>
-			<i1977 name="Assault Missile Launcher II">
-			</i1977>
+			<i2420 name="Siege Missile Launcher II">
+				<i20424 name="Datacore - Mechanical Engineering">6</i20424>
+				<i20420 name="Datacore - Rocket Science">6</i20420>
+				<TORP name="Siege Missile Launcher I" id="503">10</TORP>
+				<i11399 name="Morphite">240</i11399>
+				<i11486 name="R.A.M. - Weapon Tech">5.5</i11486>
+				<i11540 name="Quantum Microprocessor">160</i11540>
+				<i9848 name="Robotics">160</i9848>
+				<i37 name="Isogen">0</i37>
+				<i40 name="Megacyte">50</i40>
+				<i36 name="Mexallon">0</i36>
+				<i38 name="Nocxium">50</i38>
+				<i35 name="Pyerite">690</i35>
+				<i34 name="Tritanium">750</i34>
+				<i39 name="Zydrine">20</i39>
+				<qty>10</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<mfg_grp>launcher</mfg_grp>
+				<flag>module</flag>
+			</i2420>
 			<i2404 name="Standard Missile Launcher II">
+				<i20424 name="Datacore - Mechanical Engineering">2</i20424>
+				<i20420 name="Datacore - Rocket Science">2</i20420>
+				<LML name="Standard Missile Launcher I" id="499">10</LML>
+				<i11399 name="Morphite">30</i11399>
+				<i11486 name="R.A.M. - Weapon Tech">1.5</i11486>
+				<i11540 name="Quantum Microprocessor">40</i11540>
+				<i9848 name="Robotics">20</i9848>
+				<i37 name="Isogen">0</i37>
+				<i40 name="Megacyte">0</i40>
+				<i36 name="Mexallon">0</i36>
+				<i38 name="Nocxium">0</i38>
+				<i35 name="Pyerite">2090</i35>
+				<i34 name="Tritanium">1190</i34>
+				<i39 name="Zydrine">0</i39>
+				<qty>10</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<mfg_grp>launcher</mfg_grp>
+				<flag>module</flag>
 			</i2404>
+			<i1877 name="Assault Missile Launcher II">
+				<i20424 name="Datacore - Mechanical Engineering">4</i20424>
+				<i20420 name="Datacore - Rocket Science">4</i20420>
+				<AML name="Standard Missile Launcher I" id="1875">10</AML>
+				<i11399 name="Morphite">30</i11399>
+				<i11486 name="R.A.M. - Weapon Tech">1</i11486>
+				<i11540 name="Quantum Microprocessor">30</i11540>
+				<i9848 name="Robotics">20</i9848>
+				<i37 name="Isogen">20</i37>
+				<i40 name="Megacyte">0</i40>
+				<i36 name="Mexallon">450</i36>
+				<i38 name="Nocxium">20</i38>
+				<i35 name="Pyerite">1080</i35>
+				<i34 name="Tritanium">1470</i34>
+				<i39 name="Zydrine">0</i39>
+				<qty>10</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<mfg_grp>launcher</mfg_grp>
+				<flag>module</flag>
+			</i1877>
+			<i19739 name="Cruise Missile Launcher II">
+				<i20424 name="Datacore - Mechanical Engineering">6</i20424>
+				<i20420 name="Datacore - Rocket Science">6</i20420>
+				<CML name="Cruise Missile Launcher I" id="13320">10</CML>
+				<i11399 name="Morphite">120</i11399>
+				<i11486 name="R.A.M. - Weapon Tech">3.5</i11486>
+				<i11540 name="Quantum Microprocessor">80</i11540>
+				<i9848 name="Robotics">80</i9848>
+				<i37 name="Isogen">0</i37>
+				<i40 name="Megacyte">0</i40>
+				<i36 name="Mexallon">0</i36>
+				<i38 name="Nocxium">0</i38>
+				<i35 name="Pyerite">0</i35>
+				<i34 name="Tritanium">0</i34>
+				<i39 name="Zydrine">0</i39>
+				<qty>10</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<mfg_grp>launcher</mfg_grp>
+				<flag>module</flag>
+			</i19739>
 			<i10631 name="Rocket Launcher II">
+				<i20424 name="Datacore - Mechanical Engineering">2</i20424>
+				<i20420 name="Datacore - Rocket Science">2</i20420>
+				<RL name="Rocket Launcher I" id="10629">10</RL>
+				<i11399 name="Morphite">NULL</i11399>
+				<i11486 name="R.A.M. - Weapon Tech">NULL</i11486>
+				<i11540 name="Quantum Microprocessor">NULL</i11540>
+				<i9848 name="Robotics">NULL</i9848>
+				<i37 name="Isogen">0</i37>
+				<i40 name="Megacyte">0</i40>
+				<i36 name="Mexallon">0</i36>
+				<i38 name="Nocxium">0</i38>
+				<i35 name="Pyerite">0</i35>
+				<i34 name="Tritanium">0</i34>
+				<i39 name="Zydrine">0</i39>
+				<qty>10</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<mfg_grp>launcher</mfg_grp>
+				<flag>NULL</flag>
 			</i10631>
 		</weapon>
 		<ammo>

@@ -106,15 +106,15 @@ my %secondary=(
 	16659, "Carbon Polymers",
 	16660, "Ceramic Powder",
 	16655, "Crystallite Alloy",
-	16668, "Dysporite",
+	16668, "Dysporite",			#
 	16656, "Fernite Alloy",
-	16669, "Ferrofluid",
-	17769, "Fluxed Condensates",
+	16669, "Ferrofluid",		#
+	17769, "Fluxed Condensates",#
 	16665, "Hexite",
-	16666, "Hyperflurite",
-	16667, "Neo Mercurite",
+	16666, "Hyperflurite",		#
+	16667, "Neo Mercurite",		#
 	16662, "Platinum Technite",
-	17960, "Prometium",
+	17960, "Prometium",			#
 	16657, "Rolled Tungsten",
 	16658, "Silicon Diborite",
 	16664, "Solerium",
