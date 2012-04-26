@@ -80,16 +80,41 @@
 	</raw>
 	<alchemy>
 		<i16668 name="Unrefined Dysporite">
+			<i16646 name="Mercury">5</i16646>
+			<i16643 name="Cadmium">100</i16643>
+			<qty>40</qty>
+			<leftover id="16646">95</leftover>
 		</i16668>
 		<i16669 name="Unrefined Ferrofluid">
+			<i16648 name="Hafnium">5</i16648>
+			<i16643 name="Cadmium">100</i16643>
+			<qty>40</qty>
+			<leftover id="16648">95</leftover>
 		</i16669>
 		<i17769 name="Unrefined Fluxed Condensates">
+			<i16642 name="Vanadium">100</i16642>
+			<i16644 name="Platinum">100</i16644>
+			<qty>40</qty>
+			<leftover id="NULL">0</leftover>
 		</i17769>
 		<i16666 name="Unrefined Hyperflurite">
+			<i16642 name="Vanadium">5</i16642>
+			<i16641 name="Chromium">100</i16641>
+			<qty>40</qty>
+			<leftover id="16642">95</leftover>
 		</i16666>
 		<i16667 name="Unrefined Neo Mercurite">
+			<i16646 name="Mercury">5</i16646>
+			<i16644 name="Platinum">100</i16644>
+			<qty>40</qty>
+			<leftover id="16646">95</leftover>
 		</i16667>
 		<i17960 name="Unrefined Prometium">
+			<i16643 name="Cadmium">5</i16643>
+			<i16641 name="Chromium">100</i16641>
+			<qty>40</qty>
+			<leftover id="16643">95</i16643>
+			<id>29662</id>
 		</i17960>
 	<pos>
 	</pos>
