@@ -19,6 +19,9 @@ my $char_ID = 285; #Locke's account key
 my $char_VCODE = "fm9UZdCrnM5x7C2x1v7zocPHSahscVMOVasV9AcJoUx1UojLxEWAD5EZi1Rl0mDK";
 my $charid = 628592330;	#Lockefox
 
+my $AHM_ID=863121;
+my $AHM_VCODE= "SYWn7mz9KINz4dYBlHsdZ4mSeeDctH8XZilUcwzhelKegdVJujLfOBajYEIhyBS0";
+
 my $corp_ID = 579145;
 my $corp_VCODE = "VRLLgjaTD4TASFdmrTsx9szx3ymiAHo0hJprwym7oKjQOWBjVDa86qPrBBw7nVpw";
 my $corpid = 1894214152;

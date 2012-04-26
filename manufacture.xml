@@ -1150,7 +1150,7 @@
 		</ammo>
 	</T2>
 	<capitals><!--Needs Values-->
-		<carrier>
+				<carrier>
 			<i23757 name="Archon">
 				<i21017 name="Capital Armor Plates">10</i21017>
 				<i21019 name="Capital Capacitor Battery">9</i21019>
@@ -1243,64 +1243,64 @@
 				<i21039 name="Capital Siege Array">30</i21039>
 				<i21011 name="Capital Turret Hardpoint">30</i21011>
 				<qty>1</qty>
-				<me>4</me>
+				<me>6</me>
 				<bld_time></bld_time>
 				<mfg_grp>Dread</mfg_grp>
 				<flag>capital</flag>
 			</i19720>
 			<i19726 name="Phoenix">
-				<i21017 name="Capital Armor Plates"></i21017>
-				<i21019 name="Capital Capacitor Battery"></i21019>
-				<i21035 name="Capital Computer System"></i21035>
-				<i21037 name="Capital Construction Parts"></i21037>
-				<i21025 name="Capital Jump Drive"></i21025>
-				<i21041 name="Capital Launcher Hardpoint"></i21041>
-				<i21021 name="Capital Power Generator"></i21021>
-				<i21009 name="Capital Propulsion Engine"></i21009>
-				<i21013 name="Capital Sensor Cluster"></i21013>
-				<i21023 name="Capital Shield Emitter"></i21023>
-				<i21039 name="Capital Siege Array"></i21039>
-				<i21011 name="Capital Turret Hardpoint"></i21011>
+				<i21017 name="Capital Armor Plates">10</i21017>
+				<i21019 name="Capital Capacitor Battery">20</i21019>
+				<i21035 name="Capital Computer System">25</i21035>
+				<i21037 name="Capital Construction Parts">20</i21037>
+				<i21025 name="Capital Jump Drive">10</i21025>
+				<i21041 name="Capital Launcher Hardpoint">30</i21041>
+				<i21021 name="Capital Power Generator">10</i21021>
+				<i21009 name="Capital Propulsion Engine">10</i21009>
+				<i21013 name="Capital Sensor Cluster">25</i21013>
+				<i21023 name="Capital Shield Emitter">25</i21023>
+				<i21039 name="Capital Siege Array">40</i21039>
+				<i21011 name="Capital Turret Hardpoint">10</i21011>
 				<qty>1</qty>
-				<me></me>
+				<me>6</me>
 				<bld_time></bld_time>
 				<mfg_grp>Dread</mfg_grp>
 				<flag>capital</flag>
 			</i19726>
 			<i19724 name="Moros">
-				<i21017 name="Capital Armor Plates"></i21017>
-				<i21019 name="Capital Capacitor Battery"></i21019>
-				<i21035 name="Capital Computer System"></i21035>
-				<i21037 name="Capital Construction Parts"></i21037>
-				<i21025 name="Capital Jump Drive"></i21025>
-				<i21041 name="Capital Launcher Hardpoint"></i21041>
-				<i21021 name="Capital Power Generator"></i21021>
-				<i21009 name="Capital Propulsion Engine"></i21009>
-				<i21013 name="Capital Sensor Cluster"></i21013>
-				<i21023 name="Capital Shield Emitter"></i21023>
-				<i21039 name="Capital Siege Array"></i21039>
-				<i21011 name="Capital Turret Hardpoint"></i21011>
+				<i21017 name="Capital Armor Plates">20</i21017>
+				<i21019 name="Capital Capacitor Battery">25</i21019>
+				<i21035 name="Capital Computer System">25</i21035>
+				<i21037 name="Capital Construction Parts">30</i21037>
+				<i21025 name="Capital Jump Drive">10</i21025>
+				<i21041 name="Capital Launcher Hardpoint">0</i21041>
+				<i21021 name="Capital Power Generator">15</i21021>
+				<i21009 name="Capital Propulsion Engine">20</i21009>
+				<i21013 name="Capital Sensor Cluster">25</i21013>
+				<i21023 name="Capital Shield Emitter">15</i21023>
+				<i21039 name="Capital Siege Array">30</i21039>
+				<i21011 name="Capital Turret Hardpoint">30</i21011>
 				<qty>1</qty>
-				<me></me>
+				<me>6</me>
 				<bld_time></bld_time>
 				<mfg_grp>Dread</mfg_grp>
 				<flag>capital</flag>
 			</i19724>
 			<i19722 name="Naglfar">
-				<i21017 name="Capital Armor Plates"></i21017>
-				<i21019 name="Capital Capacitor Battery"></i21019>
-				<i21035 name="Capital Computer System"></i21035>
-				<i21037 name="Capital Construction Parts"></i21037>
-				<i21025 name="Capital Jump Drive"></i21025>
-				<i21041 name="Capital Launcher Hardpoint"></i21041>
-				<i21021 name="Capital Power Generator"></i21021>
-				<i21009 name="Capital Propulsion Engine"></i21009>
-				<i21013 name="Capital Sensor Cluster"></i21013>
-				<i21023 name="Capital Shield Emitter"></i21023>
-				<i21039 name="Capital Siege Array"></i21039>
-				<i21011 name="Capital Turret Hardpoint"></i21011>
+				<i21017 name="Capital Armor Plates">15</i21017>
+				<i21019 name="Capital Capacitor Battery">15</i21019>
+				<i21035 name="Capital Computer System">15</i21035>
+				<i21037 name="Capital Construction Parts">15</i21037>
+				<i21025 name="Capital Jump Drive">10</i21025>
+				<i21041 name="Capital Launcher Hardpoint">20</i21041>
+				<i21021 name="Capital Power Generator">20</i21021>
+				<i21009 name="Capital Propulsion Engine">25</i21009>
+				<i21013 name="Capital Sensor Cluster">15</i21013>
+				<i21023 name="Capital Shield Emitter">20</i21023>
+				<i21039 name="Capital Siege Array">41</i21039>
+				<i21011 name="Capital Turret Hardpoint">20</i21011>
 				<qty>1</qty>
-				<me></me>
+				<me>6</me>
 				<bld_time></bld_time>
 				<mfg_grp>Dread</mfg_grp>
 				<flag>capital</flag>
@@ -1322,22 +1322,22 @@
 				<flag>capital</flag>
 			</i28606>
 			<i28352 name="Rorqual">
-				<i21017 name="Capital Armor Plates"></i21017>
-				<i21019 name="Capital Capacitor Battery"></i21019>
-				<i21027 name="Capital Cargo Bay"></i21027>
-				<i24547 name="Capital Clone Vat Bay"></i24547>
-				<i21035 name="Capital Computer System"></i21035>
-				<i21037 name="Capital Construction Parts"></i21037>
-				<i24560 name="Capital Corporate Hangar Bay"></i24560>
-				<i21029 name="Capital Drone Bay"></i21029>
-				<i21025 name="Capital Jump Drive"></i21025>
-				<i21021 name="Capital Power Generator"></i21021>
-				<i21009 name="Capital Propulsion Engine"></i21009>
-				<i21013 name="Capital Sensor Cluster"></i21013>
-				<i21023 name="Capital Shield Emitter"></i21023>
-				<i24558 name="Capital Ship Maintenance Bay"></i24558>
+				<i21017 name="Capital Armor Plates">6</i21017>
+				<i21019 name="Capital Capacitor Battery">10</i21019>
+				<i21027 name="Capital Cargo Bay">20</i21027>
+				<i24547 name="Capital Clone Vat Bay">31</i24547>
+				<i21035 name="Capital Computer System">31</i21035>
+				<i21037 name="Capital Construction Parts">41</i21037>
+				<i24560 name="Capital Corporate Hangar Bay">15</i24560>
+				<i21029 name="Capital Drone Bay">5</i21029>
+				<i21025 name="Capital Jump Drive">10</i21025>
+				<i21021 name="Capital Power Generator">10</i21021>
+				<i21009 name="Capital Propulsion Engine">8</i21009>
+				<i21013 name="Capital Sensor Cluster">8</i21013>
+				<i21023 name="Capital Shield Emitter">8</i21023>
+				<i24558 name="Capital Ship Maintenance Bay">31</i24558>
 				<qty>1</qty>
-				<me></me>
+				<me>4</me>
 				<bld_time></bld_time>
 				<mfg_grp>Ore</mfg_grp>
 				<flag>capital</flag>
@@ -1345,139 +1345,139 @@
 		</ore>
 		<freighter>
 			<i20183 name="Providence">
-				<i21017 name="Capital Armor Plates"></i21017>
-				<i21027 name="Capital Cargo Bay"></i21027>
-				<i21037 name="Capital Construction Parts"></i21037>
-				<i21009 name="Capital Propulsion Engine"></i21009>
+				<i21017 name="Capital Armor Plates">15</i21017>
+				<i21027 name="Capital Cargo Bay">77</i21027>
+				<i21037 name="Capital Construction Parts">49</i21037>
+				<i21009 name="Capital Propulsion Engine">20</i21009>
 				<qty>1</qty>
-				<me></me>
+				<me>4</me>
 				<bld_time></bld_time>
-				<mfg_grp>freighter</mfg_grp>
+				<mfg_grp>Ore</mfg_grp>
 				<flag>capital</flag>
 			</i20183>
 			<i20185 name="Charon">
-				<i21017 name="Capital Armor Plates"></i21017>
-				<i21027 name="Capital Cargo Bay"></i21027>
-				<i21037 name="Capital Construction Parts"></i21037>
-				<i21009 name="Capital Propulsion Engine"></i21009>
+				<i21017 name="Capital Armor Plates">13</i21017>
+				<i21027 name="Capital Cargo Bay">97</i21027>
+				<i21037 name="Capital Construction Parts">47</i21037>
+				<i21009 name="Capital Propulsion Engine">10</i21009>
 				<qty>1</qty>
-				<me></me>
+				<me>4</me>
 				<bld_time></bld_time>
-				<mfg_grp>freighter</mfg_grp>
+				<mfg_grp>Ore</mfg_grp>
 				<flag>capital</flag>
 			</i20185>
 			<i20187 name="Obelisk">
-				<i21017 name="Capital Armor Plates"></i21017>
-				<i21027 name="Capital Cargo Bay"></i21027>
-				<i21037 name="Capital Construction Parts"></i21037>
-				<i21009 name="Capital Propulsion Engine"></i21009>
+				<i21017 name="Capital Armor Plates">14</i21017>
+				<i21027 name="Capital Cargo Bay">82</i21027>
+				<i21037 name="Capital Construction Parts">51</i21037>
+				<i21009 name="Capital Propulsion Engine">15</i21009>
 				<qty>1</qty>
-				<me></me>
+				<me>4</me>
 				<bld_time></bld_time>
-				<mfg_grp>freighter</mfg_grp>
+				<mfg_grp>Ore</mfg_grp>
 				<flag>capital</flag>
 			</i20187>
 			<i20189 name="Fenrir">
-				<i21017 name="Capital Armor Plates"></i21017>
-				<i21027 name="Capital Cargo Bay"></i21027>
-				<i21037 name="Capital Construction Parts"></i21037>
-				<i21009 name="Capital Propulsion Engine"></i21009>
+				<i21017 name="Capital Armor Plates">12</i21017>
+				<i21027 name="Capital Cargo Bay">77</i21027>
+				<i21037 name="Capital Construction Parts">45</i21037>
+				<i21009 name="Capital Propulsion Engine">26</i21009>
 				<qty>1</qty>
-				<me></me>
+				<me>4</me>
 				<bld_time></bld_time>
-				<mfg_grp>freighter</mfg_grp>
+				<mfg_grp>Ore</mfg_grp>
 				<flag>capital</flag>
 			</i20189>
 		</freighter>
 		<titan>
 			<i11567 name="Avatar">
-				<i21017 name="Capital Armor Plates"></i21017>
-				<i21019 name="Capital Capacitor Battery"></i21019>
-				<i24547 name="Capital Clone Vat Bay"></i24547>
-				<i21035 name="Capital Computer System"></i21035>
-				<i21037 name="Capital Construction Parts"></i21037>
-				<i24560 name="Capital Corporate Hangar Bay"></i24560>
-				<i24556 name="Capital Doomsday Weapon Mount"></i24556>
-				<i24545 name="Capital Jump Bridge Array"></i24545>
-				<i21025 name="Capital Jump Drive"></i21025>
-				<i21041 name="Capital Launcher Hardpoint"></i21041>
-				<i21021 name="Capital Power Generator"></i21021>
-				<i21009 name="Capital Propulsion Engine"></i21009>
-				<i21013 name="Capital Sensor Cluster"></i21013>
-				<i21023 name="Capital Shield Emitter"></i21023>
-				<i21039 name="Capital Siege Array"></i21039>
-				<i21011 name="Capital Turret Hardpoint"></i21011>
+				<i21017 name="Capital Armor Plates">517</i21017>
+				<i21019 name="Capital Capacitor Battery">517</i21019>
+				<i24547 name="Capital Clone Vat Bay">517</i24547>
+				<i21035 name="Capital Computer System">310</i21035>
+				<i21037 name="Capital Construction Parts">413</i21037>
+				<i24560 name="Capital Corporate Hangar Bay">517</i24560>
+				<i24556 name="Capital Doomsday Weapon Mount">517</i24556>
+				<i24545 name="Capital Jump Bridge Array">517</i24545>
+				<i21025 name="Capital Jump Drive">517</i21025>
+				<i21041 name="Capital Launcher Hardpoint">0</i21041>
+				<i21021 name="Capital Power Generator">517</i21021>
+				<i21009 name="Capital Propulsion Engine">207</i21009>
+				<i21013 name="Capital Sensor Cluster">310</i21013>
+				<i21023 name="Capital Shield Emitter">103</i21023>
+				<i21039 name="Capital Siege Array">517</i21039>
+				<i21011 name="Capital Turret Hardpoint">517</i21011>
 				<qty>1</qty>
-				<me></me>
+				<me>2</me>
 				<bld_time></bld_time>
 				<mfg_grp>Titan</mfg_grp>
 				<flag>capital</flag>
 			</i11567>
 			<i3764 name="Leviathan">
-				<i21017 name="Capital Armor Plates"></i21017>
-				<i21019 name="Capital Capacitor Battery"></i21019>
-				<i24547 name="Capital Clone Vat Bay"></i24547>
-				<i21035 name="Capital Computer System"></i21035>
-				<i21037 name="Capital Construction Parts"></i21037>
-				<i24560 name="Capital Corporate Hangar Bay"></i24560>
-				<i24556 name="Capital Doomsday Weapon Mount"></i24556>
-				<i24545 name="Capital Jump Bridge Array"></i24545>
-				<i21025 name="Capital Jump Drive"></i21025>
-				<i21041 name="Capital Launcher Hardpoint"></i21041>
-				<i21021 name="Capital Power Generator"></i21021>
-				<i21009 name="Capital Propulsion Engine"></i21009>
-				<i21013 name="Capital Sensor Cluster"></i21013>
-				<i21023 name="Capital Shield Emitter"></i21023>
-				<i21039 name="Capital Siege Array"></i21039>
-				<i21011 name="Capital Turret Hardpoint"></i21011>
+				<i21017 name="Capital Armor Plates">207</i21017>
+				<i21019 name="Capital Capacitor Battery">413</i21019>
+				<i24547 name="Capital Clone Vat Bay">517</i24547>
+				<i21035 name="Capital Computer System">517</i21035>
+				<i21037 name="Capital Construction Parts">310</i21037>
+				<i24560 name="Capital Corporate Hangar Bay">517</i24560>
+				<i24556 name="Capital Doomsday Weapon Mount">517</i24556>
+				<i24545 name="Capital Jump Bridge Array">517</i24545>
+				<i21025 name="Capital Jump Drive">517</i21025>
+				<i21041 name="Capital Launcher Hardpoint">517</i21041>
+				<i21021 name="Capital Power Generator">103</i21021>
+				<i21009 name="Capital Propulsion Engine">103</i21009>
+				<i21013 name="Capital Sensor Cluster">517</i21013>
+				<i21023 name="Capital Shield Emitter">517</i21023>
+				<i21039 name="Capital Siege Array">517</i21039>
+				<i21011 name="Capital Turret Hardpoint">0</i21011>
 				<qty>1</qty>
-				<me></me>
+				<me>2</me>
 				<bld_time></bld_time>
 				<mfg_grp>Titan</mfg_grp>
 				<flag>capital</flag>
 			</i3764>
 			<i671 name="Erebus">
-				<i21017 name="Capital Armor Plates"></i21017>
-				<i21019 name="Capital Capacitor Battery"></i21019>
-				<i24547 name="Capital Clone Vat Bay"></i24547>
-				<i21035 name="Capital Computer System"></i21035>
-				<i21037 name="Capital Construction Parts"></i21037>
-				<i24560 name="Capital Corporate Hangar Bay"></i24560>
-				<i24556 name="Capital Doomsday Weapon Mount"></i24556>
-				<i24545 name="Capital Jump Bridge Array"></i24545>
-				<i21025 name="Capital Jump Drive"></i21025>
-				<i21041 name="Capital Launcher Hardpoint"></i21041>
-				<i21021 name="Capital Power Generator"></i21021>
-				<i21009 name="Capital Propulsion Engine"></i21009>
-				<i21013 name="Capital Sensor Cluster"></i21013>
-				<i21023 name="Capital Shield Emitter"></i21023>
-				<i21039 name="Capital Siege Array"></i21039>
-				<i21011 name="Capital Turret Hardpoint"></i21011>
+				<i21017 name="Capital Armor Plates">413</i21017>
+				<i21019 name="Capital Capacitor Battery">517</i21019>
+				<i24547 name="Capital Clone Vat Bay">517</i24547>
+				<i21035 name="Capital Computer System">413</i21035>
+				<i21037 name="Capital Construction Parts">517</i21037>
+				<i24560 name="Capital Corporate Hangar Bay">517</i24560>
+				<i24556 name="Capital Doomsday Weapon Mount">517</i24556>
+				<i24545 name="Capital Jump Bridge Array">517</i24545>
+				<i21025 name="Capital Jump Drive">517</i21025>
+				<i21041 name="Capital Launcher Hardpoint">0</i21041>
+				<i21021 name="Capital Power Generator">207</i21021>
+				<i21009 name="Capital Propulsion Engine">413</i21009>
+				<i21013 name="Capital Sensor Cluster">413</i21013>
+				<i21023 name="Capital Shield Emitter">310</i21023>
+				<i21039 name="Capital Siege Array">517</i21039>
+				<i21011 name="Capital Turret Hardpoint">413</i21011>
 				<qty>1</qty>
-				<me></me>
+				<me>2</me>
 				<bld_time></bld_time>
 				<mfg_grp>Titan</mfg_grp>
 				<flag>capital</flag>
 			</i671>
 			<i23773 name="Ragnarok">
-				<i21017 name="Capital Armor Plates"></i21017>
-				<i21019 name="Capital Capacitor Battery"></i21019>
-				<i24547 name="Capital Clone Vat Bay"></i24547>
-				<i21035 name="Capital Computer System"></i21035>
-				<i21037 name="Capital Construction Parts"></i21037>
-				<i24560 name="Capital Corporate Hangar Bay"></i24560>
-				<i24556 name="Capital Doomsday Weapon Mount"></i24556>
-				<i24545 name="Capital Jump Bridge Array"></i24545>
-				<i21025 name="Capital Jump Drive"></i21025>
-				<i21041 name="Capital Launcher Hardpoint"></i21041>
-				<i21021 name="Capital Power Generator"></i21021>
-				<i21009 name="Capital Propulsion Engine"></i21009>
-				<i21013 name="Capital Sensor Cluster"></i21013>
-				<i21023 name="Capital Shield Emitter"></i21023>
-				<i21039 name="Capital Siege Array"></i21039>
-				<i21011 name="Capital Turret Hardpoint"></i21011>
+				<i21017 name="Capital Armor Plates">310</i21017>
+				<i21019 name="Capital Capacitor Battery">310</i21019>
+				<i24547 name="Capital Clone Vat Bay">517</i24547>
+				<i21035 name="Capital Computer System">207</i21035>
+				<i21037 name="Capital Construction Parts">207</i21037>
+				<i24560 name="Capital Corporate Hangar Bay">517</i24560>
+				<i24556 name="Capital Doomsday Weapon Mount">517</i24556>
+				<i24545 name="Capital Jump Bridge Array">517</i24545>
+				<i21025 name="Capital Jump Drive">517</i21025>
+				<i21041 name="Capital Launcher Hardpoint">207</i21041>
+				<i21021 name="Capital Power Generator">413</i21021>
+				<i21009 name="Capital Propulsion Engine">517</i21009>
+				<i21013 name="Capital Sensor Cluster">207</i21013>
+				<i21023 name="Capital Shield Emitter">413</i21023>
+				<i21039 name="Capital Siege Array">517</i21039>
+				<i21011 name="Capital Turret Hardpoint">310</i21011>
 				<qty>1</qty>
-				<me></me>
+				<me>2</me>
 				<bld_time></bld_time>
 				<mfg_grp>Titan</mfg_grp>
 				<flag>capital</flag>
@@ -1485,75 +1485,75 @@
 		</titan>
 		<sc>
 			<i23919 name="Aeon">
-				<i21017 name="Capital Armor Plates"></i21017>
-				<i21019 name="Capital Capacitor Battery"></i21019>
-				<i21035 name="Capital Computer System"></i21035>
-				<i21037 name="Capital Construction Parts"></i21037>
-				<i24560 name="Capital Corporate Hangar Bay"></i24560>
-				<i21029 name="Capital Drone Bay"></i21029>
-				<i21025 name="Capital Jump Drive"></i21025>
-				<i21021 name="Capital Power Generator"></i21021>
-				<i21009 name="Capital Propulsion Engine"></i21009>
-				<i21013 name="Capital Sensor Cluster"></i21013>
-				<i21023 name="Capital Shield Emitter"></i21023>
-				<i24558 name="Capital Ship Maintenance Bay"></i24558>
+				<i21017 name="Capital Armor Plates">205</i21017>
+				<i21019 name="Capital Capacitor Battery">205</i21019>
+				<i21035 name="Capital Computer System">26</i21035>
+				<i21037 name="Capital Construction Parts">154</i21037>
+				<i24560 name="Capital Corporate Hangar Bay">205</i24560>
+				<i21029 name="Capital Drone Bay">461</i21029>
+				<i21025 name="Capital Jump Drive">205</i21025>
+				<i21021 name="Capital Power Generator">205</i21021>
+				<i21009 name="Capital Propulsion Engine">103</i21009>
+				<i21013 name="Capital Sensor Cluster">26</i21013>
+				<i21023 name="Capital Shield Emitter">51</i21023>
+				<i24558 name="Capital Ship Maintenance Bay">205</i24558>
 				<qty>1</qty>
-				<me></me>
+				<me>3</me>
 				<bld_time></bld_time>
 				<mfg_grp>SC</mfg_grp>
 				<flag>capital</flag>
 			</i23919>
 			<i23917 name="Wyvern">
-				<i21017 name="Capital Armor Plates"></i21017>
-				<i21019 name="Capital Capacitor Battery"></i21019>
-				<i21035 name="Capital Computer System"></i21035>
-				<i21037 name="Capital Construction Parts"></i21037>
-				<i24560 name="Capital Corporate Hangar Bay"></i24560>
-				<i21029 name="Capital Drone Bay"></i21029>
-				<i21025 name="Capital Jump Drive"></i21025>
-				<i21021 name="Capital Power Generator"></i21021>
-				<i21009 name="Capital Propulsion Engine"></i21009>
-				<i21013 name="Capital Sensor Cluster"></i21013>
-				<i21023 name="Capital Shield Emitter"></i21023>
-				<i24558 name="Capital Ship Maintenance Bay"></i24558>
+				<i21017 name="Capital Armor Plates">51</i21017>
+				<i21019 name="Capital Capacitor Battery">77</i21019>
+				<i21035 name="Capital Computer System">205</i21035>
+				<i21037 name="Capital Construction Parts">103</i21037>
+				<i24560 name="Capital Corporate Hangar Bay">205</i24560>
+				<i21029 name="Capital Drone Bay">384</i21029>
+				<i21025 name="Capital Jump Drive">205</i21025>
+				<i21021 name="Capital Power Generator">51</i21021>
+				<i21009 name="Capital Propulsion Engine">51</i21009>
+				<i21013 name="Capital Sensor Cluster">205</i21013>
+				<i21023 name="Capital Shield Emitter">205</i21023>
+				<i24558 name="Capital Ship Maintenance Bay">205</i24558>
 				<qty>1</qty>
-				<me></me>
+				<me>3</me>
 				<bld_time></bld_time>
 				<mfg_grp>SC</mfg_grp>
 				<flag>capital</flag>
 			</i23917>
 			<i23913 name="Nyx">
-				<i21017 name="Capital Armor Plates"></i21017>
-				<i21019 name="Capital Capacitor Battery"></i21019>
-				<i21035 name="Capital Computer System"></i21035>
-				<i21037 name="Capital Construction Parts"></i21037>
-				<i24560 name="Capital Corporate Hangar Bay"></i24560>
-				<i21029 name="Capital Drone Bay"></i21029>
-				<i21025 name="Capital Jump Drive"></i21025>
-				<i21021 name="Capital Power Generator"></i21021>
-				<i21009 name="Capital Propulsion Engine"></i21009>
-				<i21013 name="Capital Sensor Cluster"></i21013>
-				<i21023 name="Capital Shield Emitter"></i21023>
-				<i24558 name="Capital Ship Maintenance Bay"></i24558>
+				<i21017 name="Capital Armor Plates">154</i21017>
+				<i21019 name="Capital Capacitor Battery">128</i21019>
+				<i21035 name="Capital Computer System">128</i21035>
+				<i21037 name="Capital Construction Parts">205</i21037>
+				<i24560 name="Capital Corporate Hangar Bay">205</i24560>
+				<i21029 name="Capital Drone Bay">641</i21029>
+				<i21025 name="Capital Jump Drive">205</i21025>
+				<i21021 name="Capital Power Generator">103</i21021>
+				<i21009 name="Capital Propulsion Engine">128</i21009>
+				<i21013 name="Capital Sensor Cluster">128</i21013>
+				<i21023 name="Capital Shield Emitter">77</i21023>
+				<i24558 name="Capital Ship Maintenance Bay">205</i24558>
 				<qty>1</qty>
-				<me></me>
+				<me>3</me>
 				<bld_time></bld_time>
 				<mfg_grp>SC</mfg_grp>
 				<flag>capital</flag>
 			</i23913>
 			<i22852 name="Hel">
-				<i21017 name="Capital Armor Plates"></i21017>
-				<i21019 name="Capital Capacitor Battery"></i21019>
-				<i21035 name="Capital Computer System"></i21035>
-				<i21037 name="Capital Construction Parts"></i21037>
-				<i24560 name="Capital Corporate Hangar Bay"></i24560>
-				<i21029 name="Capital Drone Bay"></i21029>
-				<i21025 name="Capital Jump Drive"></i21025>
-				<i21021 name="Capital Power Generator"></i21021>
-				<i21009 name="Capital Propulsion Engine"></i21009>
-				<i21013 name="Capital Sensor Cluster"></i21013>
-				<i21023 name="Capital Shield Emitter"></i21023>
-				<i24558 name="Capital Ship Maintenance Bay"></i24558>
+				<i21017 name="Capital Armor Plates">103</i21017>
+				<i21019 name="Capital Capacitor Battery">26</i21019>
+				<i21035 name="Capital Computer System">77</i21035>
+				<i21037 name="Capital Construction Parts">51</i21037>
+				<i24560 name="Capital Corporate Hangar Bay">205</i24560>
+				<i21029 name="Capital Drone Bay">538</i21029>
+				<i21025 name="Capital Jump Drive">205</i21025>
+				<i21021 name="Capital Power Generator">154</i21021>
+				<i21009 name="Capital Propulsion Engine">205</i21009>
+				<i21013 name="Capital Sensor Cluster">77</i21013>
+				<i21023 name="Capital Shield Emitter">154</i21023>
+				<i24558 name="Capital Ship Maintenance Bay">205</i24558>
 				<qty>1</qty>
 				<me></me>
 				<bld_time></bld_time>
