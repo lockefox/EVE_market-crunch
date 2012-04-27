@@ -30,14 +30,14 @@ my %names;
 
 my $RAM; #All RAM Cost the same (if exists $ramID{ID}; $quant * $RAM)
 my %ramID=(
-	11476, "Ammo Tech",
-	11475, "Armor/Hull",
-	11483, "Electronics",
-	11482, "Energy",
-	11481, "Robotics",
-	11484, "Shield",
-	11478, "Starship",
-	11486, "Weapon",
+	"i11476", "Ammo Tech",
+	"i11475", "Armor/Hull",
+	"i11483", "Electronics",
+	"i11482", "Energy",
+	"i11481", "Robotics",
+	"i11484", "Shield",
+	"i11478", "Starship",
+	"i11486", "Weapon",
 );
 
 my %capital; #Capital raw materials
@@ -173,7 +173,7 @@ sub prodCalc{
 			foreach my $type (keys %{$prodsheet->{$class}}){
 				foreach my $item (keys %{$prodsheet->{$class}->{$type}}){
 					$names{$item}=$prodsheet->{$class}->{$type}->{$item}->{name};
-					print $names{$item}.":";
+					print $names{$item}.":\n";
 					
 					my $price=0;
 					my $qty;
@@ -190,19 +190,23 @@ sub prodCalc{
 						if (exists $rawprice{$parts}){
 							
 							$price += $rawprice{$parts} * $prodsheet->{$class}->{$type}->{$item}->{$parts}->{content};
+							print "\t".$names{$parts}."x".$prodsheet->{$class}->{$type}->{$item}->{$parts}->{content}.":".$rawprice{$parts}."\n";
 						}
 						if (exists $comp{$parts}){
 							
 							$price += $comp{$parts} * $prodsheet->{$class}->{$type}->{$item}->{$parts}->{content};
+							print "\t".$names{$parts}."x".$prodsheet->{$class}->{$type}->{$item}->{$parts}->{content}.":".$comp{$parts}."\n";
 						}
 						if (exists $ramID{$parts}){
 							
 							$price += $RAM * $prodsheet->{$class}->{$type}->{$item}->{$parts}->{content};
+							print "\tRAMx".$prodsheet->{$class}->{$type}->{$item}->{$parts}->{content}."x".$RAM."\n";
 						}
 						if ($parts =~ /[A-Z]/){
 							my $flag = $prodsheet->{$class}->{$type}->{$item}->{flag};
 							my $group= $prodsheet->{$class}->{$type}->{$item}->{mfg_grp};
 							my $id = "i".$prodsheet->{$class}->{$type}->{$item}->{$parts}->{id};
+							$names{$id}=$prodsheet->{$class}->{$type}->{$item}->{$parts}->{name};
 							my $modprice=0;
 							#print $flag."->".$group."->".$id."?";
 							foreach my $T1 (keys %{$t1sheet->{$flag}->{$group}->{$id}}){
@@ -213,6 +217,7 @@ sub prodCalc{
 									next;
 								}
 							}
+							print "\tT1,".$modprice."\n";
 							$price += $modprice * $prodsheet->{$class}->{$type}->{$item}->{$parts}->{content};
 						}
 						if ($parts eq "qty"){
