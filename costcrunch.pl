@@ -43,7 +43,7 @@ my %ramID=(
 my %capital; #Capital raw materials
 my %Products; #List of product ID's and prices to build
 
-my $path = `pwd`;
+my $path = `cd`;
 chomp $path;
 my $costsheet = $path."/price.xml";#local or internet address
 my $pricekey= "sell_min";#switchable
@@ -155,42 +155,74 @@ sub T1{
 
 sub prodCalc{
 	foreach my $class (keys %{$prodsheet}){
-		foreach my $subset (keys %{$prodsheet->{$class}}){
-			foreach my $product (keys %{$prodsheet->{$class}->{$subset}}){
-				my $prodcost=0;
-				my $qty = $prodsheet->{$class}->{$subset}->{$product}->{qty};
-				$names{$product} = $prodsheet->{$class}->{$subset}->{$product}->{name};
-				if($class eq "T2"){#T2 products
-					foreach my $parts (keys %{$prodsheet->{$class}->{$subset}->{$product}}){
-						my $eachQ = $prodsheet->{$class}->{$subset}->{$product}->{$parts}->{content};
-						my $prodtype = $prodsheet->{$class}->{$subset}->{$product}->{mfg_grp};
-						
-						if (exists $rawprice{$parts}){#If raw material, use rawprice group
-							$prodcost += $rawprice{$parts}*$eachQ;
+		if ($class eq "capitals"){
+			foreach my $type (keys %{$prodsheet->{$class}}){
+				foreach my $ship (keys %{$prodsheet->{$class}->{$type}}){
+					$names{$ship}=$prodsheet->{$class}->{$type}->{$ship}->{name};					
+					my $price=0;
+					foreach my $parts (keys %{$prodsheet->{$class}->{$type}->{$ship}}){
+						if (exists $capital{$parts}){
+							$price += $capital{$parts} * $prodsheet->{$class}->{$type}->{$ship}->{$parts}->{content};
 						}
-						elsif(exists $ramID{$parts}){#If RAM, use RAM calculation
-							$prodcost += $RAM * $eachQ;
-						}
-						elsif(exists $comp{$parts}){#if component, use component group
-							$prodcost += $comp{$parts} * $eachQ;
-						}
-						elsif($parts =~ /[A-Z]/){ #If T1, use T1 subroutine
-							my $prodid = $prodsheet->{$class}->{$subset}->{$product}->{$parts}->{id};
-	
-							if ($prodtype eq "NULL"){
-								next;
-							}
-							$prodcost += &T1($parts, $prodid, $prodtype, $subset) * $eachQ;
-						}
-						else{
-							next;
-						}
-					
 					}
-					$Products{$product} = $prodcost / $qty;
+					$Products{$ship}=$price;
 				}
-				else{#capitals
-					next;
+			}
+		}
+		elsif ($class eq "T2"){
+			foreach my $type (keys %{$prodsheet->{$class}}){
+				foreach my $item (keys %{$prodsheet->{$class}->{$type}}){
+					$names{$item}=$prodsheet->{$class}->{$type}->{$item}->{name};
+					print $names{$item}.":";
+					
+					my $price=0;
+					my $qty;
+					my $validflag =0;
+					foreach my $parts (keys %{$prodsheet->{$class}->{$type}->{$item}}){
+						#if ($validflag eq 1){
+						#	next;
+						#}
+						#if ($prodsheet->{$class}->{$type}->{$item}->{$parts}->{content} eq "NULL"){
+						#	$validflag =1;
+						#	print "Empty\n";
+						#	next;
+						#}
+						if (exists $rawprice{$parts}){
+							
+							$price += $rawprice{$parts} * $prodsheet->{$class}->{$type}->{$item}->{$parts}->{content};
+						}
+						if (exists $comp{$parts}){
+							
+							$price += $comp{$parts} * $prodsheet->{$class}->{$type}->{$item}->{$parts}->{content};
+						}
+						if (exists $ramID{$parts}){
+							
+							$price += $RAM * $prodsheet->{$class}->{$type}->{$item}->{$parts}->{content};
+						}
+						if ($parts =~ /[A-Z]/){
+							my $flag = $prodsheet->{$class}->{$type}->{$item}->{flag};
+							my $group= $prodsheet->{$class}->{$type}->{$item}->{mfg_grp};
+							my $id = "i".$prodsheet->{$class}->{$type}->{$item}->{$parts}->{id};
+							my $modprice=0;
+							#print $flag."->".$group."->".$id."?";
+							foreach my $T1 (keys %{$t1sheet->{$flag}->{$group}->{$id}}){
+								if (exists $rawprice{$T1}){
+									$modprice += $rawprice{$T1} * $t1sheet->{$flag}->{$group}->{$id}->{$T1}->{content};
+								}
+								elsif($T1 eq "NULL"){
+									next;
+								}
+							}
+							$price += $modprice * $prodsheet->{$class}->{$type}->{$item}->{$parts}->{content};
+						}
+						if ($parts eq "qty"){
+							$qty=$prodsheet->{$class}->{$type}->{$item}->{qty};
+						}
+					}
+					if ($validflag eq 0){
+						$Products{$item}=$price/$qty;
+						print $Products{$item}."\n";
+					}
 				}
 			}
 		}

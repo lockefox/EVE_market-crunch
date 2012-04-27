@@ -116,7 +116,7 @@
 				<qty>10</qty>
 				<me>-4</me>
 				<bld_time></bld_time>
-				<mfg_grp>Eng</mfg_grp>
+				<mfg_grp>eng</mfg_grp>
 				<flag>module</flag>
 			</i2032>
 			<i1541 name="Power Diagnostic System II">
@@ -138,7 +138,7 @@
 				<qty>10</qty>
 				<me>-4</me>
 				<bld_time></bld_time>
-				<mfg_grp>Eng</mfg_grp>
+				<mfg_grp>eng</mfg_grp>
 				<flag>module</flag>
 			</i1541>
 			<i1256 name="Shield Flux Coil II">
@@ -160,7 +160,7 @@
 				<qty>10</qty>
 				<me>-4</me>
 				<bld_time></bld_time>
-				<mfg_grp>Eng</mfg_grp>
+				<mfg_grp>eng</mfg_grp>
 				<flag>module</flag>
 			</i1256>
 			<i1422 name="Shield Power Relay II">
@@ -901,8 +901,8 @@
 				<mfg_grp>interdict</mfg_grp>
 				<flag>NULL</flag>
 			</i26888>
-		</interdict-->
-		<ships>
+		</interdict>
+		<!--ships>
 			<i11400 name="Jaguar">
 			</i11400>
 			<i11371 name="Wolf">
@@ -925,7 +925,7 @@
 			</i11978>
 			<i22444 name="Sleipnir">
 			</i22444>
-			<!--
+
 			< name="Harpy">
 			< name="Hawk">
 			< name="Manticore">
@@ -948,7 +948,7 @@
 			< name="Heretic">
 			< name="Guardian">
 			< name="Absolution">
-			-->
+			
 			<i12044 name="Enyo">
 			</i12044>
 			<i12042 name="Ishkur">
@@ -963,7 +963,7 @@
 			</i11377>
 			<i22460 name="Eris">
 			</i22460>
-		</ships>
+		</ships-->
 		<exhum>
 			<i22544 name="Hulk">
 				<i20410 name="Datacore - Gallentean Starship Engineering">32</i20410>
@@ -1101,28 +1101,28 @@
 				<flag>module</flag>
 			</i4250>
 		</mining>
-		<weapon>
-		<!--Beam Lasers-->
+		<!--weapon>
+		
 			<i3065 name="Tachyon Beam Laser II">
 			</i3065>
-		<!--Pulse Lasers-->
+		
 			<i3057 name="Mega Pulse Laser II">
 			</i3057>
-		<!--Rail Guns-->
+		
 			<i3090 name="425mm Railgun II">
 			</i3090>
-		<!--Blaster Cannons-->
+		
 			<i3186 name="Neutron Blaster Cannon">
 			</i3186>
-		<!--Artillery Cannon-->
+		
 			<i2961 name="1400mm Howitzer Artillery Cannon II">
 			</i2961>
-		<!--Autocannons-->
+		
 			<i2929 name="800mm Autocannon II">
 			</i2929>
 			<i2913 name="425mm Autocannon II">
 			</i2913>
-		<!--Launchers-->
+		
 			<i2410 name="Heavy Missile Launcher II">
 				<i20424 name="Datacore - Mechanical Engineering">4</i20424>
 				<i20420 name="Datacore - Rocket Science">4</i20420>
@@ -1270,9 +1270,9 @@
 				<mfg_grp>launcher</mfg_grp>
 				<flag>NULL</flag>
 			</i10631>
-		</weapon>
-		<ammo>
-		</ammo>
+		</weapon-->
+		<!--ammo>
+		</ammo-->
 	</T2>
 	<capitals><!--Needs Values-->
 		<carrier>

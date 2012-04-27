@@ -407,7 +407,7 @@
 				<i34 name="Tritanium">452</i34>
 				<i39 name="Zydrine">2</i39>
 			</i3242>
-			<i12709 name="Target Painter I">
+			<i12709 name="Target Painter I" id="TP">
 				<i37 name="Isogen">4</i37>
 				<i40 name="Megacyte">2</i40>
 				<i36 name="Mexallon">423</i36>
@@ -433,7 +433,7 @@
 				<i35 name="Pyerite">19361</i35>
 				<i34 name="Tritanium">60377</i34>
 				<i39 name="Zydrine">308</i39>
-			</i2199>
+			</i12199>
 			<i12200 name="Mobile Large Warp Disruptor I" id="LWD">
 				<i37 name="Isogen">10693</i37>
 				<i40 name="Megacyte">321</i40>
