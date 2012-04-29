@@ -186,7 +186,7 @@ sub prodCalc{
 							$price += $capital{$parts} * $prodsheet->{$class}->{$type}->{$ship}->{$parts}->{content};
 						}
 					}
-					$Products{$ship}=$price;
+					$Products{$type}{$ship}=$price;
 				}
 			}
 		}
@@ -246,7 +246,7 @@ sub prodCalc{
 						}
 					}
 					if ($validflag eq 0){
-						$Products{$item}=$price/$qty;
+						$Products{$type}{$item}=$price/$qty;
 						#print $Products{$item}."\n";
 					}
 				}
@@ -264,11 +264,15 @@ sub printer {
 	$writer->xmlDecl( 'UTF-8' );
 	
 	$writer->startTag('root');
-	foreach my $prodkey (keys %Products){
-		$writer->startTag( $prodkey, 'name'=>$names{$prodkey} );
-		$writer->startTag('build_cost');
-		$writer->characters ( $Products{$prodkey});
-		$writer->endTag();
+	foreach my $typekey (keys %Products){
+		$writer->startTag($typekey);
+		foreach my $prodkey (keys %{$Products{$typekey}}){
+			$writer->startTag( $prodkey, 'name'=>$names{$prodkey} );
+			$writer->startTag('build_cost');
+			$writer->characters ( $Products{$typekey}{$prodkey});
+			$writer->endTag();
+			$writer->endTag();
+		}
 		$writer->endTag();
 	}
 	$writer->endTag();
