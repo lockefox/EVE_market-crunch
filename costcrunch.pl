@@ -1,8 +1,10 @@
-#!/mu/bin/perl -w
+#C:/strawberry/
+
+#/mu/bin/perl -w
 
 #D:\Perl\bin\perl
 
-use lib '/strawberry/site/lib';
+#use lib '/strawberry/site/lib';
 use strict;
 use warnings;
 use HTTP::Request::Common qw(POST);
@@ -14,6 +16,7 @@ use CGI;
 use XML::Writer;
 use POSIX qw(floor);
 use IO;
+use lib "/lib";
 
 
 ##########
@@ -50,13 +53,14 @@ my %Products; #List of product ID's and prices to build
 my $outfile = "results";
 my @timedata = localtime(time);
 my $week = floor($timedata[7]/7+1);
-$outfile = $outfile."_W"$week.".xml";
+$outfile = $outfile."_W".$week.".xml";
+#open (OUTFILE, '>', $outfile);
 
-my $path = `cd`;
+my $path = `pwd`;
 chomp $path;
 my $costsheet = $path."/price.xml";#local or internet address
 my $pricekey= "sell_min";#switchable
-my $outfile = "report.xml";
+#my $outfile = "report.xml";
 
 my $priceXML = new XML::Simple;
 my $pricesheet = $priceXML->XMLin($costsheet);
@@ -146,7 +150,7 @@ sub CompCrunch{ #Loads %comp, %capital, and sets $RAM
 		}
 	}
 	print "RAM prices  calculated\n";
-	foreach my $Rkeys (keys %{$componentsheet->{RAM}){
+	foreach my $Rkeys (keys %{$componentsheet->{RAM}}){
 		if ($Rkeys eq "RAM"){
 			next;
 		}
@@ -252,14 +256,21 @@ sub prodCalc{
 };
 
 sub printer {
-	my $results = new IO::File(">".$outfile);
+	#open my $tmpfile, '>:encoding(iso-8859-1)', $outfile or die "open{$path): $!";
+	my $writeout = new IO::File (">$outfile");
 	
-	my $writer = new XML::Writer ( OUTPUT => $results);
+	my $writer = new XML::Writer ( DATA_MODE => 'true', DATA_INDENT => 2, OUTPUT => $writeout);
 	
-	$writer->startTag ('TAG');
+	$writer->xmlDecl( 'UTF-8' );
+	
+	$writer->startTag('root');
+	foreach my $prodkey (keys %Products){
+		$writer->startTag( $prodkey, 'name'=>$names{$prodkey} );
+		$writer->startTag('build_cost');
+		$writer->characters ( $Products{$prodkey});
+		$writer->endTag();
+		$writer->endTag();
+	}
 	$writer->endTag();
-	$writer->startTag ('TAG2' , 'name'=>'boobies');
-	$writer->characters("Some text");
-	$writer->endTag();
-	$writer->end();
+	$writer -> end();
 };

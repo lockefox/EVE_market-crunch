@@ -38,3 +38,9 @@ PROGRAMS:
 4) KitCrunch.pl: builds kit-list for each inventor.
   -INPUT: producers.xml, manufacture.xml
   -OUTPUT: kits.xml
+  
+NOTES:
+Perl uses XML::Simple and XML::Writer.
+	-Added /lib with packages
+	-Recommended usage
+		-Strawberry Perl (WIN): cpan <package>
