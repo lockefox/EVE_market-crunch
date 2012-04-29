@@ -2,6 +2,7 @@
 
 #D:\Perl\bin\perl
 
+use lib '/strawberry/site/lib';
 use strict;
 use warnings;
 use HTTP::Request::Common qw(POST);
@@ -10,6 +11,9 @@ use Time::Local;
 use Data::Dumper;
 use LWP::Simple;
 use CGI;
+use XML::Writer;
+use POSIX qw(floor);
+use IO;
 
 
 ##########
@@ -43,6 +47,11 @@ my %ramID=(
 my %capital; #Capital raw materials
 my %Products; #List of product ID's and prices to build
 
+my $outfile = "results";
+my @timedata = localtime(time);
+my $week = floor($timedata[7]/7+1);
+$outfile = $outfile."_W"$week.".xml";
+
 my $path = `cd`;
 chomp $path;
 my $costsheet = $path."/price.xml";#local or internet address
@@ -70,6 +79,10 @@ print "\nSub-component setup time: ".($tstart-$setupT)."\n";
 
 &prodCalc;
 my $costT=time;
+
+print "\nProducts calculated: ".($tstart-$costT)."\n";
+
+&printer;
 
 sub RawCrunch{ #Loads %rawprice	
 	my %skipString=(
@@ -129,13 +142,16 @@ sub CompCrunch{ #Loads %comp, %capital, and sets $RAM
 	
 		
 		if ($Rpart =~ m/\s*i[0-9]/){
-			#print $names{$Rpart}.":".$componentsheet->{RAM}->{RAM}->{$Rpart}->{content}."x".$rawprice{$Rpart}."+";
 			$RAM += ($componentsheet->{RAM}->{RAM}->{$Rpart}->{content} * $rawprice{$Rpart});
-			#print $RAM."\n";
 		}
 	}
-	#print "RAM=".$RAM."\n";
 	print "RAM prices  calculated\n";
+	foreach my $Rkeys (keys %{$componentsheet->{RAM}){
+		if ($Rkeys eq "RAM"){
+			next;
+		}
+		$names{$Rkeys}= $componentsheet->{RAM}->{$Rkeys}->{name};
+	}
 };
 
 sub T1{
@@ -174,7 +190,7 @@ sub prodCalc{
 			foreach my $type (keys %{$prodsheet->{$class}}){
 				foreach my $item (keys %{$prodsheet->{$class}->{$type}}){
 					$names{$item}=$prodsheet->{$class}->{$type}->{$item}->{name};
-					print $names{$item}.":\n";
+					#print $names{$item}.":\n";
 					
 					my $price=0;
 					my $qty;
@@ -191,17 +207,17 @@ sub prodCalc{
 						if (exists $rawprice{$parts}){
 							
 							$price += $rawprice{$parts} * $prodsheet->{$class}->{$type}->{$item}->{$parts}->{content};
-							print "\t".$names{$parts}."x".$prodsheet->{$class}->{$type}->{$item}->{$parts}->{content}.":".$rawprice{$parts}."\n";
+							#print "\t".$names{$parts}."x".$prodsheet->{$class}->{$type}->{$item}->{$parts}->{content}.":".$rawprice{$parts}."\n";
 						}
 						if (exists $comp{$parts}){
 							
 							$price += $comp{$parts} * $prodsheet->{$class}->{$type}->{$item}->{$parts}->{content};
-							print "\t".$names{$parts}."x".$prodsheet->{$class}->{$type}->{$item}->{$parts}->{content}.":".$comp{$parts}."\n";
+							#print "\t".$names{$parts}."x".$prodsheet->{$class}->{$type}->{$item}->{$parts}->{content}.":".$comp{$parts}."\n";
 						}
 						if (exists $ramID{$parts}){
 							
 							$price += $RAM * $prodsheet->{$class}->{$type}->{$item}->{$parts}->{content};
-							print "\tRAMx".$prodsheet->{$class}->{$type}->{$item}->{$parts}->{content}."x".$RAM."\n";
+							#print "\tRAMx".$prodsheet->{$class}->{$type}->{$item}->{$parts}->{content}."x".$RAM."\n";
 						}
 						if ($parts =~ /[A-Z]/){
 							my $flag = $prodsheet->{$class}->{$type}->{$item}->{flag};
@@ -218,7 +234,7 @@ sub prodCalc{
 									next;
 								}
 							}
-							print "\tT1,".$modprice."\n";
+							#print "\tT1,".$modprice."\n";
 							$price += $modprice * $prodsheet->{$class}->{$type}->{$item}->{$parts}->{content};
 						}
 						if ($parts eq "qty"){
@@ -227,10 +243,23 @@ sub prodCalc{
 					}
 					if ($validflag eq 0){
 						$Products{$item}=$price/$qty;
-						print $Products{$item}."\n";
+						#print $Products{$item}."\n";
 					}
 				}
 			}
 		}
 	}
+};
+
+sub printer {
+	my $results = new IO::File(">".$outfile);
+	
+	my $writer = new XML::Writer ( OUTPUT => $results);
+	
+	$writer->startTag ('TAG');
+	$writer->endTag();
+	$writer->startTag ('TAG2' , 'name'=>'boobies');
+	$writer->characters("Some text");
+	$writer->endTag();
+	$writer->end();
 };
