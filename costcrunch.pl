@@ -1,6 +1,6 @@
 #C:/strawberry/
 
-#/mu/bin/perl -w
+#!/mu/bin/perl -w
 
 #D:\Perl\bin\perl
 
@@ -54,7 +54,8 @@ my $outfile = "results";
 my @timedata = localtime(time);
 my $week = floor($timedata[7]/7+1);
 $outfile = $outfile."_W".$week.".xml";
-#open (OUTFILE, '>', $outfile);
+
+
 
 my $path = `pwd`;
 chomp $path;
@@ -268,7 +269,7 @@ sub printer {
 		$writer->startTag($typekey);
 		foreach my $prodkey (keys %{$Products{$typekey}}){
 			$writer->startTag( $prodkey, 'name'=>$names{$prodkey} );
-			$writer->startTag('build_cost');
+			$writer->startTag($pricekey."_build");	
 			$writer->characters ( $Products{$typekey}{$prodkey});
 			$writer->endTag();
 			$writer->endTag();
