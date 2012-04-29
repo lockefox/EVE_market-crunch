@@ -28,3 +28,35 @@ my $station=60003760;	#Jita IV - Moon 4 CNAP
 my $region=10000002;	#The Forge
 my $system=30000142;	#Jita
 
+my $switch = 0;
+my $sitepre;
+my $sitepost;
+my @timedata = localtime(time);
+my $outfile= "results_W".($timedata[7]/7+1).".xml"; #REPLACE WITH DYNAMIC SWITCH
+
+my %marketeerKeys=(
+	
+);
+
+my %centralKeys=(
+
+);
+
+my $inXML = new XML::Simple;
+my $infile = $inXML->XMLin($outfile);
+
+sub loadXML{
+	foreach my $type (keys %{$infile}){
+		foreach my $itemID (keys %{$infile->{$type}}){
+			$names{$itemID}=$infile->{$type}->{$itemID}->{name};
+			foreach my $prices (keys %{$infile->{$type}->{$itemID}}){
+				$existing{$type}{$itemID}{$prices};
+			}
+		}
+	}
+};
+
+sub fetchprices{
+
+	
+};
