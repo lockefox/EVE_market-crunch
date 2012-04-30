@@ -965,7 +965,7 @@
 				<mfg_grp>ships</mfg_grp>
 				<flag>NULL</flag>
 				<class>Interceptor</class>
-			</i11196>
+			</i11198>
 			<i11400 name="Jaguar">
 				<i20172 name="Datacore - Minmatar Starship Engineering">5.3</i20172>
 				<i20424 name="Datacore - Mechanical Engineering">5.3</i20424>
@@ -1158,10 +1158,10 @@
 				<class>Heavy Interdictor</class>
 			</i12013>
 			<i22456 name="Sabre">
-				<i20172 name="Datacore - Minmatar Starship Engineering"></i20172>
-				<i20424 name="Datacore - Mechanical Engineering"></i20424>
-				<i11399 name="Morphite"></i11399>
-				<i11478 name="R.A.M. Starship Tech"></i11478>
+				<i20172 name="Datacore - Minmatar Starship Engineering">10.6</i20172>
+				<i20424 name="Datacore - Mechanical Engineering">10.6</i20424>
+				<i11399 name="Morphite">15</i11399>
+				<i11478 name="R.A.M. Starship Tech">5.7</i11478>
 				<THRSH name="Thrasher" id="16242">1</THRSH>
 				<i3828 name="Construction Blocks"></i3828>
 				<i11542 name="Fernite Carbide Composite Armor Plate"></i11542>
@@ -1179,19 +1179,19 @@
 				<class>Interdictor</class>
 			</i22456>
 			<i11978 name="Scimitar">
-				<i20172 name="Datacore - Minmatar Starship Engineering"></i20172>
-				<i20424 name="Datacore - Mechanical Engineering"></i20424>
-				<i11399 name="Morphite"></i11399>
-				<i11478 name="R.A.M. Starship Tech"></i11478>
+				<i20172 name="Datacore - Minmatar Starship Engineering">25.4</i20172>
+				<i20424 name="Datacore - Mechanical Engineering">25.4</i20424>
+				<i11399 name="Morphite">90</i11399>
+				<i11478 name="R.A.M. Starship Tech">7.6</i11478>
 				<SCYTH name="Scythe" id="631">1</SCYTH>
-				<i3828 name="Construction Blocks"></i3828>
-				<i11542 name="Fernite Carbide Composite Armor Plate"></i11542>
-				<i11551 name="Electrolytic Capacitor Unit"></i11551>
-				<i11538 name="Nanomechanical Microprocessor"></i11538>
-				<i11548 name="Nuclear Reactor Unit"></i11548>
-				<i11536 name="Ladar Sensor Cluster"></i11536>
-				<i11555 name="Deflection Shield Emitter"></i11555>
-				<i11530 name="Plasma Thruster"></i11530>
+				<i3828 name="Construction Blocks">75</i3828>
+				<i11542 name="Fernite Carbide Composite Armor Plate">2250</i11542>
+				<i11551 name="Electrolytic Capacitor Unit">750</i11551>
+				<i11538 name="Nanomechanical Microprocessor">1800</i11538>
+				<i11548 name="Nuclear Reactor Unit">23</i11548>
+				<i11536 name="Ladar Sensor Cluster">263</i11536>
+				<i11555 name="Deflection Shield Emitter">150</i11555>
+				<i11530 name="Plasma Thruster">75</i11530>
 				<qty>1</qty>
 				<me>-4</me>
 				<bld_time></bld_time>
@@ -1200,19 +1200,19 @@
 				<class>Logistics</class>
 			</i11978>
 			<i22444 name="Sleipnir">
-				<i20172 name="Datacore - Minmatar Starship Engineering"></i20172>
-				<i20424 name="Datacore - Mechanical Engineering"></i20424>
-				<i11399 name="Morphite"></i11399>
-				<i11478 name="R.A.M. Starship Tech"></i11478>
+				<i20172 name="Datacore - Minmatar Starship Engineering">63.5</i20172>
+				<i20424 name="Datacore - Mechanical Engineering">63.5</i20424>
+				<i11399 name="Morphite">300</i11399>
+				<i11478 name="R.A.M. Starship Tech">14.25</i11478>
 				<CYCL name="Cyclone" id="16231">1</CYCL>
-				<i3828 name="Construction Blocks"></i3828>
-				<i11542 name="Fernite Carbide Composite Armor Plate"></i11542>
-				<i11551 name="Electrolytic Capacitor Unit"></i11551>
-				<i11538 name="Nanomechanical Microprocessor"></i11538>
-				<i11548 name="Nuclear Reactor Unit"></i11548>
-				<i11536 name="Ladar Sensor Cluster"></i11536>
-				<i11555 name="Deflection Shield Emitter"></i11555>
-				<i11530 name="Plasma Thruster"></i11530>
+				<i3828 name="Construction Blocks">300</i3828>
+				<i11542 name="Fernite Carbide Composite Armor Plate">11250</i11542>
+				<i11551 name="Electrolytic Capacitor Unit">957</i11551>
+				<i11538 name="Nanomechanical Microprocessor">1800</i11538>
+				<i11548 name="Nuclear Reactor Unit">60</i11548>
+				<i11536 name="Ladar Sensor Cluster">450</i11536>
+				<i11555 name="Deflection Shield Emitter">570</i11555>
+				<i11530 name="Plasma Thruster">120</i11530>
 				<qty>1</qty>
 				<me>-4</me>
 				<bld_time></bld_time>
@@ -1221,8 +1221,8 @@
 				<class>Command</class>
 			</i22444>
 			<i22468 name="Claymore">
-				<i20172 name="Datacore - Minmatar Starship Engineering"></i20172>
-				<i20424 name="Datacore - Mechanical Engineering"></i20424>
+				<i20172 name="Datacore - Minmatar Starship Engineering">63.5</i20172>
+				<i20424 name="Datacore - Mechanical Engineering">63.5</i20424>
 				<i11399 name="Morphite"></i11399>
 				<i11478 name="R.A.M. Starship Tech"></i11478>
 				<CYCL name="Cyclone" id="16231">1</CYCL>
@@ -1242,8 +1242,8 @@
 				<class>Command</class>
 			</i22468>
 			<i28665 name="Vargur">
-				<i20172 name="Datacore - Minmatar Starship Engineering"></i20172>
-				<i20424 name="Datacore - Mechanical Engineering"></i20424>
+				<i20172 name="Datacore - Minmatar Starship Engineering">127</i20172>
+				<i20424 name="Datacore - Mechanical Engineering">127</i20424>
 				<i11399 name="Morphite"></i11399>
 				<i11478 name="R.A.M. Starship Tech"></i11478>
 				<MAEL name="Maelstrom" id="24694">1</MAEL>
@@ -1263,19 +1263,19 @@
 				<class>Marauder</class>
 			</i28665>
 			<i22440 name="Panther">
-				<i20172 name="Datacore - Minmatar Starship Engineering"></i20172>
-				<i20424 name="Datacore - Mechanical Engineering"></i20424>
-				<i11399 name="Morphite"></i11399>
-				<i11478 name="R.A.M. Starship Tech"></i11478>
+				<i20172 name="Datacore - Minmatar Starship Engineering">127</i20172>
+				<i20424 name="Datacore - Mechanical Engineering">127</i20424>
+				<i11399 name="Morphite">900</i11399>
+				<i11478 name="R.A.M. Starship Tech">20</i11478>
 				<TYPH name="Maelstrom" id="644">1</TYPH>
-				<i3828 name="Construction Blocks"></i3828>
-				<i11542 name="Fernite Carbide Composite Armor Plate"></i11542>
-				<i11551 name="Electrolytic Capacitor Unit"></i11551>
-				<i11538 name="Nanomechanical Microprocessor"></i11538>
-				<i11548 name="Nuclear Reactor Unit"></i11548>
-				<i11536 name="Ladar Sensor Cluster"></i11536>
-				<i11555 name="Deflection Shield Emitter"></i11555>
-				<i11530 name="Plasma Thruster"></i11530>
+				<i3828 name="Construction Blocks">450</i3828>
+				<i11542 name="Fernite Carbide Composite Armor Plate">18750</i11542>
+				<i11551 name="Electrolytic Capacitor Unit">2250</i11551>
+				<i11538 name="Nanomechanical Microprocessor">6300</i11538>
+				<i11548 name="Nuclear Reactor Unit">150</i11548>
+				<i11536 name="Ladar Sensor Cluster">900</i11536>
+				<i11555 name="Deflection Shield Emitter">1634</i11555>
+				<i11530 name="Plasma Thruster">225</i11530>
 				<qty>1</qty>
 				<me>-4</me>
 				<bld_time></bld_time>
@@ -1394,7 +1394,7 @@
 			</i28661>
 			<i22430 name="Sin">
 			</i22430>
-		</ships-->
+		</ships>
 		<exhum>
 			<i22544 name="Hulk">
 				<i20410 name="Datacore - Gallentean Starship Engineering">32</i20410>
@@ -1563,6 +1563,7 @@
 			<i3017 name="Gatling Pulse Laser II">
 			</i3017>
 			<i3001 name="Dual Light Pulse Laser II">
+			</i3001>
 	<!--Hybrid-->
 			<i3090 name="425mm Railgun II">
 			</i3090>
@@ -1580,7 +1581,7 @@
 			</i3082>
 			<i12346 name="200mm Railgun II">
 			</i12346>
-			</i3106 name="Dual 150mm Railgun II">
+			<i3106 name="Dual 150mm Railgun II">
 			</i3106>
 			<i3146 name="Heavy Neutron Blaster II">
 			</i3146>
@@ -1603,7 +1604,8 @@
 	<!--Projectile-->
 			<i2961 name="1400mm Howitzer Artillery Cannon II">
 			</i2961>
-			<i1200mm name="1200mm Artillery Cannon II">
+			<i2865 name="1200mm Artillery Cannon II">
+			</i2865>
 			<i2929 name="800mm Repeating Artillery II">
 			</i2929>
 			<i2953 name="Dual 650mm Repeating Artillery">
