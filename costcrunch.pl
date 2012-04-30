@@ -57,7 +57,7 @@ $outfile = $outfile."_W".$week.".xml";
 
 
 
-my $path = `pwd`;
+my $path = `cd`;
 chomp $path;
 my $costsheet = $path."/price.xml";#local or internet address
 my $pricekey= "sell_min";#switchable
@@ -269,7 +269,7 @@ sub printer {
 		$writer->startTag($typekey);
 		foreach my $prodkey (keys %{$Products{$typekey}}){
 			$writer->startTag( $prodkey, 'name'=>$names{$prodkey} );
-			$writer->startTag($pricekey."_build");	
+			$writer->startTag($pricekey."-build");	
 			$writer->characters ( $Products{$typekey}{$prodkey});
 			$writer->endTag();
 			$writer->endTag();

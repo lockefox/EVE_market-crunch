@@ -3,237 +3,555 @@
 <root>
   <freighter>
     <i20187 name="Obelisk">
-      <sell_min_build>1266037144.48</sell_min_build>
+      <buy_avg-central>543377267.49</buy_avg-central>
+      <buy_median-central>7999997.97</buy_median-central>
+      <sell_avg-central>1303740666.39</sell_avg-central>
+      <sell_min-central>1284839899.00</sell_min-central>
+      <buy_max-central>1201500500.03</buy_max-central>
+      <sell_min-build>1266037144.48</sell_min-build>
+      <sell_median-central>1288999999.97</sell_median-central>
     </i20187>
     <i20185 name="Charon">
-      <sell_min_build>1305824041.09</sell_min_build>
+      <buy_avg-central>927150539.03</buy_avg-central>
+      <buy_median-central>1302702008.07</buy_median-central>
+      <sell_avg-central>1417541027.35</sell_avg-central>
+      <sell_min-central>1368999999.99</sell_min-central>
+      <buy_max-central>1336068000.93</buy_max-central>
+      <sell_min-build>1305824041.09</sell_min-build>
+      <sell_median-central>1418000000.00</sell_median-central>
     </i20185>
     <i20183 name="Providence">
-      <sell_min_build>1263828916.95</sell_min_build>
+      <buy_avg-central>1140725281.03</buy_avg-central>
+      <buy_median-central>1233322307.70</buy_median-central>
+      <sell_avg-central>1397152896.52</sell_avg-central>
+      <sell_min-central>1339993979.00</sell_min-central>
+      <buy_max-central>1299001008.05</buy_max-central>
+      <sell_min-build>1263828916.95</sell_min-build>
+      <sell_median-central>1358226993.97</sell_median-central>
     </i20183>
     <i20189 name="Fenrir">
-      <sell_min_build>1260650773.78</sell_min_build>
+      <buy_avg-central>951305585.53</buy_avg-central>
+      <buy_median-central>1018624001.52</buy_median-central>
+      <sell_avg-central>1370714628.38</sell_avg-central>
+      <sell_min-central>1328999999.99</sell_min-central>
+      <buy_max-central>1260023007.42</buy_max-central>
+      <sell_min-build>1260650773.78</sell_min-build>
+      <sell_median-central>1344887006.00</sell_median-central>
     </i20189>
   </freighter>
   <dread>
     <i19726 name="Phoenix">
-      <sell_min_build>2096300891.95</sell_min_build>
+      <sell_min-build>2096300891.95</sell_min-build>
     </i19726>
     <i19722 name="Naglfar">
-      <sell_min_build>2096601792.11</sell_min_build>
+      <sell_min-build>2096601792.11</sell_min-build>
     </i19722>
     <i19720 name="Revelation">
-      <sell_min_build>2080783540.4</sell_min_build>
+      <sell_min-build>2080783540.4</sell_min-build>
     </i19720>
     <i19724 name="Moros">
-      <sell_min_build>2150351164.35</sell_min_build>
+      <sell_min-build>2150351164.35</sell_min-build>
     </i19724>
   </dread>
   <sc>
     <i23919 name="Aeon">
-      <sell_min_build>17495844569.91</sell_min_build>
+      <sell_min-build>17495844569.91</sell_min-build>
     </i23919>
     <i23917 name="Wyvern">
-      <sell_min_build>16782794799.88</sell_min_build>
+      <sell_min-build>16782794799.88</sell_min-build>
     </i23917>
     <i23913 name="Nyx">
-      <sell_min_build>19109293261.46</sell_min_build>
+      <sell_min-build>19109293261.46</sell_min-build>
     </i23913>
     <i22852 name="Hel">
-      <sell_min_build>17164553111.48</sell_min_build>
+      <sell_min-build>17164553111.48</sell_min-build>
     </i22852>
   </sc>
   <interdict>
     <i19806 name="Target Painter II">
-      <sell_min_build>490467.58</sell_min_build>
+      <buy_avg-central>638354.01</buy_avg-central>
+      <buy_median-central>706601.31</buy_median-central>
+      <sell_avg-central>953322.42</sell_avg-central>
+      <sell_min-central>899987.94</sell_min-central>
+      <buy_max-central>779133.36</buy_max-central>
+      <sell_min-build>490467.58</sell_min-build>
+      <sell_median-central>910185.00</sell_median-central>
     </i19806>
     <i448 name="Warp Scrambler II">
-      <sell_min_build>788226.178</sell_min_build>
+      <buy_avg-central>1073941.19</buy_avg-central>
+      <buy_median-central>1110556.54</buy_median-central>
+      <sell_avg-central>2335465.53</sell_avg-central>
+      <sell_min-central>1349999.96</sell_min-central>
+      <buy_max-central>1300001.01</buy_max-central>
+      <sell_min-build>788226.178</sell_min-build>
+      <sell_median-central>1389890.00</sell_median-central>
     </i448>
     <i26890 name="Mobile Medium Warp Disruptor II">
-      <sell_min_build>3821877.84</sell_min_build>
+      <buy_avg-central>6167597.33</buy_avg-central>
+      <buy_median-central>7500000.33</buy_median-central>
+      <sell_avg-central>10040178.96</sell_avg-central>
+      <sell_min-central>9789779.00</sell_min-central>
+      <buy_max-central>7500000.42</buy_max-central>
+      <sell_min-build>3821877.84</sell_min-build>
+      <sell_median-central>9789789.00</sell_median-central>
     </i26890>
     <i3244 name="Warp Disruptor II">
-      <sell_min_build>672626.178</sell_min_build>
+      <buy_avg-central>1123766.98</buy_avg-central>
+      <buy_median-central>1057606.02</buy_median-central>
+      <sell_avg-central>2978972.72</sell_avg-central>
+      <sell_min-central>1619997.83</sell_min-central>
+      <buy_max-central>1384004.09</buy_max-central>
+      <sell_min-build>672626.178</sell_min-build>
+      <sell_median-central>2280999.96</sell_median-central>
     </i3244>
     <i26892 name="Mobile Small Warp Disruptor II">
-      <sell_min_build>3637782.71</sell_min_build>
+      <buy_avg-central>1894781.99</buy_avg-central>
+      <buy_median-central>751000.00</buy_median-central>
+      <sell_avg-central>3693499.68</sell_avg-central>
+      <sell_min-central>3670000.00</sell_min-central>
+      <buy_max-central>2445000.00</buy_max-central>
+      <sell_min-build>3637782.71</sell_min-build>
+      <sell_median-central>3677477.91</sell_median-central>
     </i26892>
     <i26888 name="Mobile Large Warp Disruptor II">
-      <sell_min_build>3821877.84</sell_min_build>
+      <buy_avg-central>18625777.40</buy_avg-central>
+      <buy_median-central>17222401.14</buy_median-central>
+      <sell_avg-central>27694444.44</sell_avg-central>
+      <sell_min-central>27000000.00</sell_min-central>
+      <buy_max-central>24000001.38</buy_max-central>
+      <sell_min-build>3821877.84</sell_min-build>
+      <sell_median-central>0.00</sell_median-central>
     </i26888>
     <i527 name="Stasis Webifier II">
-      <sell_min_build>505302.308</sell_min_build>
+      <buy_avg-central>888875.69</buy_avg-central>
+      <buy_median-central>945006.87</buy_median-central>
+      <sell_avg-central>1265312.51</sell_avg-central>
+      <sell_min-central>999999.02</sell_min-central>
+      <buy_max-central>948011.00</buy_max-central>
+      <sell_min-build>505302.308</sell_min-build>
+      <sell_median-central>1499999.95</sell_median-central>
     </i527>
   </interdict>
   <wepup>
     <i2291 name="Ballistic Deflection Field I">
-      <sell_min_build>559142.82</sell_min_build>
+      <buy_avg-central>78901.37</buy_avg-central>
+      <buy_median-central>80006.34</buy_median-central>
+      <sell_avg-central>181338.96</sell_avg-central>
+      <sell_min-central>98500.00</sell_min-central>
+      <buy_max-central>80006.38</buy_max-central>
+      <sell_min-build>559142.82</sell_min-build>
+      <sell_median-central>0.00</sell_median-central>
     </i2291>
     <i519 name="Gyrostabilizer II">
-      <sell_min_build>615389.81</sell_min_build>
+      <buy_avg-central>914686.52</buy_avg-central>
+      <buy_median-central>902055.46</buy_median-central>
+      <sell_avg-central>1819338.59</sell_avg-central>
+      <sell_min-central>1399999.99</sell_min-central>
+      <buy_max-central>1102700.01</buy_max-central>
+      <sell_min-build>615389.81</sell_min-build>
+      <sell_median-central>1987998.09</sell_median-central>
     </i519>
     <i1999 name="Tracking Enhancer II">
-      <sell_min_build>530714.07</sell_min_build>
+      <buy_avg-central>777493.44</buy_avg-central>
+      <buy_median-central>791074.04</buy_median-central>
+      <sell_avg-central>915573.88</sell_avg-central>
+      <sell_min-central>871893.97</sell_min-central>
+      <buy_max-central>830001.18</buy_max-central>
+      <sell_min-build>530714.07</sell_min-build>
+      <sell_median-central>899999.66</sell_median-central>
     </i1999>
     <i10190 name="Magnetic Field Stabilizer II">
-      <sell_min_build>552594.85</sell_min_build>
+      <buy_avg-central>796831.60</buy_avg-central>
+      <buy_median-central>803639.53</buy_median-central>
+      <sell_avg-central>1060392.79</sell_avg-central>
+      <sell_min-central>1026888.99</sell_min-central>
+      <buy_max-central>900001.01</buy_max-central>
+      <sell_min-build>552594.85</sell_min-build>
+      <sell_median-central>1028968.93</sell_median-central>
     </i10190>
     <i2364 name="Heat Sink II">
-      <sell_min_build>623884.67</sell_min_build>
+      <buy_avg-central>707564.05</buy_avg-central>
+      <buy_median-central>762785.21</buy_median-central>
+      <sell_avg-central>873566.68</sell_avg-central>
+      <sell_min-central>802994.98</sell_min-central>
+      <buy_max-central>767108.07</buy_max-central>
+      <sell_min-build>623884.67</sell_min-build>
+      <sell_median-central>830000.00</sell_median-central>
     </i2364>
   </wepup>
   <titan>
     <i671 name="Erebus">
-      <sell_min_build>71311606409.63</sell_min_build>
+      <sell_min-build>71311606409.63</sell_min-build>
     </i671>
     <i23773 name="Ragnarok">
-      <sell_min_build>67932415039.59</sell_min_build>
+      <sell_min-build>67932415039.59</sell_min-build>
     </i23773>
     <i11567 name="Avatar">
-      <sell_min_build>70105380435.26</sell_min_build>
+      <sell_min-build>70105380435.26</sell_min-build>
     </i11567>
     <i3764 name="Leviathan">
-      <sell_min_build>67930967982.6</sell_min_build>
+      <sell_min-build>67930967982.6</sell_min-build>
     </i3764>
   </titan>
   <shield>
     <i2539 name="Heat Dissipation Amplifier II">
-      <sell_min_build>97245.368</sell_min_build>
+      <buy_avg-central>765032.90</buy_avg-central>
+      <buy_median-central>790017.05</buy_median-central>
+      <sell_avg-central>1008502.11</sell_avg-central>
+      <sell_min-central>900000.00</sell_min-central>
+      <buy_max-central>867000.00</buy_max-central>
+      <sell_min-build>97245.368</sell_min-build>
+      <sell_median-central>955000.00</sell_median-central>
     </i2539>
     <i2297 name="Explosion Dampening Field II">
-      <sell_min_build>708128.164</sell_min_build>
+      <buy_avg-central>891759.70</buy_avg-central>
+      <buy_median-central>905004.02</buy_median-central>
+      <sell_avg-central>989673.13</sell_avg-central>
+      <sell_min-central>969998.85</sell_min-central>
+      <buy_max-central>915000.08</buy_max-central>
+      <sell_min-build>708128.164</sell_min-build>
+      <sell_median-central>979992.82</sell_median-central>
     </i2297>
     <i2531 name="Explosion Dampening Amplifier II">
-      <sell_min_build>97245.368</sell_min_build>
+      <buy_avg-central>253537.87</buy_avg-central>
+      <buy_median-central>60006.06</buy_median-central>
+      <sell_avg-central>329235.17</sell_avg-central>
+      <sell_min-central>328000.00</sell_min-central>
+      <buy_max-central>290100.03</buy_max-central>
+      <sell_min-build>97245.368</sell_min-build>
+      <sell_median-central>328517.19</sell_median-central>
     </i2531>
     <i3608 name="Large Shield Transporter II">
-      <sell_min_build>601181.16</sell_min_build>
+      <buy_avg-central>952464.04</buy_avg-central>
+      <buy_median-central>1005492.17</buy_median-central>
+      <sell_avg-central>1179527.29</sell_avg-central>
+      <sell_min-central>1143835.97</sell_min-central>
+      <buy_max-central>1051002.02</buy_max-central>
+      <sell_min-build>601181.16</sell_min-build>
+      <sell_median-central>1147995.95</sell_median-central>
     </i3608>
     <i2301 name="Photon Scattering Field II">
-      <sell_min_build>704201.764</sell_min_build>
+      <buy_avg-central>946813.75</buy_avg-central>
+      <buy_median-central>1050113.05</buy_median-central>
+      <sell_avg-central>1285497.95</sell_avg-central>
+      <sell_min-central>1159899.99</sell_min-central>
+      <buy_max-central>1060010.01</buy_max-central>
+      <sell_min-build>704201.764</sell_min-build>
+      <sell_median-central>1303988.96</sell_median-central>
     </i2301>
     <i2553 name="Magnetic Scattering Amplifier II">
-      <sell_min_build>97245.368</sell_min_build>
+      <buy_avg-central>738372.00</buy_avg-central>
+      <buy_median-central>766001.14</buy_median-central>
+      <sell_avg-central>996138.47</sell_avg-central>
+      <sell_min-central>835748.95</sell_min-central>
+      <buy_max-central>780106.00</buy_max-central>
+      <sell_min-build>97245.368</sell_min-build>
+      <sell_median-central>849976.72</sell_median-central>
     </i2553>
     <i2547 name="Kinetic Deflection Amplifier II">
-      <sell_min_build>97245.368</sell_min_build>
+      <buy_avg-central>402498.01</buy_avg-central>
+      <buy_median-central>420001.11</buy_median-central>
+      <sell_avg-central>687127.95</sell_avg-central>
+      <sell_min-central>618997.69</sell_min-central>
+      <buy_max-central>450013.05</buy_max-central>
+      <sell_min-build>97245.368</sell_min-build>
+      <sell_median-central>619500.00</sell_median-central>
     </i2547>
     <i3841 name="Large Shield Extender II">
-      <sell_min_build>567622.802</sell_min_build>
+      <buy_avg-central>699725.68</buy_avg-central>
+      <buy_median-central>730000.00</buy_median-central>
+      <sell_avg-central>918980.55</sell_avg-central>
+      <sell_min-central>789999.97</sell_min-central>
+      <buy_max-central>735500.02</buy_max-central>
+      <sell_min-build>567622.802</sell_min-build>
+      <sell_median-central>910000.00</sell_median-central>
     </i3841>
     <i2303 name="Heat Dissipation Field II">
-      <sell_min_build>711177.764</sell_min_build>
+      <buy_avg-central>1023869.14</buy_avg-central>
+      <buy_median-central>1068204.02</buy_median-central>
+      <sell_avg-central>1457972.00</sell_avg-central>
+      <sell_min-central>1232479.12</sell_min-central>
+      <buy_max-central>1145090.02</buy_max-central>
+      <sell_min-build>711177.764</sell_min-build>
+      <sell_median-central>0.00</sell_median-central>
     </i2303>
     <i2281 name="Invulnerability Field II">
-      <sell_min_build>853126.008</sell_min_build>
+      <buy_avg-central>1178345.19</buy_avg-central>
+      <buy_median-central>1125636.78</buy_median-central>
+      <sell_avg-central>1625008.15</sell_avg-central>
+      <sell_min-central>1499948.87</sell_min-central>
+      <buy_max-central>1397480.03</buy_max-central>
+      <sell_min-build>853126.008</sell_min-build>
+      <sell_median-central>1499958.65</sell_median-central>
     </i2281>
     <i2299 name="Ballistic Deflection Field II">
-      <sell_min_build>704460.964</sell_min_build>
+      <buy_avg-central>1101103.37</buy_avg-central>
+      <buy_median-central>1170007.23</buy_median-central>
+      <sell_avg-central>1383683.76</sell_avg-central>
+      <sell_min-central>1310000.00</sell_min-central>
+      <buy_max-central>1172105.03</buy_max-central>
+      <sell_min-build>704460.964</sell_min-build>
+      <sell_median-central>1337988.95</sell_median-central>
     </i2299>
   </shield>
   <armor>
     <i11648 name="Armor Thermic Hardener II">
-      <sell_min_build>1078827.602</sell_min_build>
+      <buy_avg-central>1420607.14</buy_avg-central>
+      <buy_median-central>1440547.32</buy_median-central>
+      <sell_avg-central>1730475.85</sell_avg-central>
+      <sell_min-central>1559789.84</sell_min-central>
+      <buy_max-central>1440579.05</buy_max-central>
+      <sell_min-build>1078827.602</sell_min-build>
+      <sell_median-central>1599993.91</sell_median-central>
     </i11648>
     <i11644 name="Armor Kinetic Hardener II">
-      <sell_min_build>1240239.812</sell_min_build>
+      <buy_avg-central>1227381.82</buy_avg-central>
+      <buy_median-central>1281250.91</buy_median-central>
+      <sell_avg-central>1590104.60</sell_avg-central>
+      <sell_min-central>1574997.00</sell_min-central>
+      <buy_max-central>1282122.03</buy_max-central>
+      <sell_min-build>1240239.812</sell_min-build>
+      <sell_median-central>1575900.00</sell_median-central>
     </i11644>
     <i26914 name="Large Remote Armor Repair System II">
-      <sell_min_build>351171.942</sell_min_build>
+      <buy_avg-central>1281031.78</buy_avg-central>
+      <buy_median-central>1307008.27</buy_median-central>
+      <sell_avg-central>1754420.20</sell_avg-central>
+      <sell_min-central>1579989.96</sell_min-central>
+      <buy_max-central>1329011.51</buy_max-central>
+      <sell_min-build>351171.942</sell_min-build>
+      <sell_median-central>1650000.00</sell_median-central>
     </i26914>
     <i11269 name="Energized Adaptive Nano Membrane II">
-      <sell_min_build>676876.764</sell_min_build>
+      <buy_avg-central>891667.49</buy_avg-central>
+      <buy_median-central>954520.08</buy_median-central>
+      <sell_avg-central>1083407.31</sell_avg-central>
+      <sell_min-central>1036448.60</sell_min-central>
+      <buy_max-central>976118.58</buy_max-central>
+      <sell_min-build>676876.764</sell_min-build>
+      <sell_median-central>1036979.77</sell_median-central>
     </i11269>
     <i11642 name="Armor EM Hardener II">
-      <sell_min_build>1038493.552</sell_min_build>
+      <buy_avg-central>1163641.38</buy_avg-central>
+      <buy_median-central>1226135.91</buy_median-central>
+      <sell_avg-central>1418251.10</sell_avg-central>
+      <sell_min-central>1329598.99</sell_min-central>
+      <buy_max-central>1232136.05</buy_max-central>
+      <sell_min-build>1038493.552</sell_min-build>
+      <sell_median-central>1350000.00</sell_median-central>
     </i11642>
     <i2048 name="Damage Control II">
-      <sell_min_build>447711.428</sell_min_build>
+      <buy_avg-central>681850.03</buy_avg-central>
+      <buy_median-central>700503.15</buy_median-central>
+      <sell_avg-central>867787.60</sell_avg-central>
+      <sell_min-central>744499.24</sell_min-central>
+      <buy_max-central>700756.06</buy_max-central>
+      <sell_min-build>447711.428</sell_min-build>
+      <sell_median-central>816999.99</sell_median-central>
     </i2048>
     <i11646 name="Armor Explosive Hardener II">
-      <sell_min_build>1291637.862</sell_min_build>
+      <buy_avg-central>1398903.09</buy_avg-central>
+      <buy_median-central>1402125.90</buy_median-central>
+      <sell_avg-central>1602571.15</sell_avg-central>
+      <sell_min-central>1522000.00</sell_min-central>
+      <buy_max-central>1402132.08</buy_max-central>
+      <sell_min-build>1291637.862</sell_min-build>
+      <sell_median-central>1578989.00</sell_median-central>
     </i11646>
   </armor>
   <mining>
     <i28576 name="Mining Laser Upgrade II">
-      <sell_min_build>578198.534</sell_min_build>
+      <buy_avg-central>716633.75</buy_avg-central>
+      <buy_median-central>909819.31</buy_median-central>
+      <sell_avg-central>1317993.90</sell_avg-central>
+      <sell_min-central>1137997.94</sell_min-central>
+      <buy_max-central>999999.00</buy_max-central>
+      <sell_min-build>578198.534</sell_min-build>
+      <sell_median-central>1137999.60</sell_median-central>
     </i28576>
     <i17912 name="Modulated Strip Miner II">
-      <sell_min_build>3907824.17</sell_min_build>
+      <buy_avg-central>5336400.60</buy_avg-central>
+      <buy_median-central>3950141.05</buy_median-central>
+      <sell_avg-central>16656166.64</sell_avg-central>
+      <sell_min-central>8979989.95</sell_min-central>
+      <buy_max-central>8000501.19</buy_max-central>
+      <sell_min-build>3907824.17</sell_min-build>
+      <sell_median-central>8980000.00</sell_median-central>
     </i17912>
     <i22229 name="Ice Harvester II">
-      <sell_min_build>4015549.24</sell_min_build>
+      <buy_avg-central>3589067.85</buy_avg-central>
+      <buy_median-central>3780053.67</buy_median-central>
+      <sell_avg-central>6548070.52</sell_avg-central>
+      <sell_min-central>4999999.99</sell_min-central>
+      <buy_max-central>3785001.35</buy_max-central>
+      <sell_min-build>4015549.24</sell_min-build>
+      <sell_median-central>6590000.00</sell_median-central>
     </i22229>
     <i4250 name="Small Tractor Beam II">
-      <sell_min_build>2142896.806</sell_min_build>
+      <buy_avg-central>2126493.49</buy_avg-central>
+      <buy_median-central>2388991.05</buy_median-central>
+      <sell_avg-central>2677151.53</sell_avg-central>
+      <sell_min-central>2663917.88</sell_min-central>
+      <buy_max-central>2400010.41</buy_max-central>
+      <sell_min-build>2142896.806</sell_min-build>
+      <sell_median-central>2663979.15</sell_median-central>
     </i4250>
     <i28578 name="Ice Harvester Upgrade II">
-      <sell_min_build>575480.318</sell_min_build>
+      <buy_avg-central>836977.13</buy_avg-central>
+      <buy_median-central>841212.01</buy_median-central>
+      <sell_avg-central>1825300.89</sell_avg-central>
+      <sell_min-central>1484998.97</sell_min-central>
+      <buy_max-central>967102.47</buy_max-central>
+      <sell_min-build>575480.318</sell_min-build>
+      <sell_median-central>0.00</sell_median-central>
     </i28578>
   </mining>
   <eng>
     <i1541 name="Power Diagnostic System II">
-      <sell_min_build>586914.418</sell_min_build>
+      <buy_avg-central>624156.47</buy_avg-central>
+      <buy_median-central>650008.49</buy_median-central>
+      <sell_avg-central>944515.72</sell_avg-central>
+      <sell_min-central>734999.66</sell_min-central>
+      <buy_max-central>690000.00</buy_max-central>
+      <sell_min-build>586914.418</sell_min-build>
+      <sell_median-central>796999.00</sell_median-central>
     </i1541>
     <i1422 name="Shield Power Relay II">
-      <sell_min_build>382566.254</sell_min_build>
+      <buy_avg-central>564374.70</buy_avg-central>
+      <buy_median-central>455001.00</buy_median-central>
+      <sell_avg-central>887688.35</sell_avg-central>
+      <sell_min-central>868799.97</sell_min-central>
+      <buy_max-central>715008.21</buy_max-central>
+      <sell_min-build>382566.254</sell_min-build>
+      <sell_median-central>868960.98</sell_median-central>
     </i1422>
     <i2032 name="Cap Recharger II">
-      <sell_min_build>432756.508</sell_min_build>
+      <buy_avg-central>558366.23</buy_avg-central>
+      <buy_median-central>642206.10</buy_median-central>
+      <sell_avg-central>1185973.63</sell_avg-central>
+      <sell_min-central>689894.94</sell_min-central>
+      <buy_max-central>642317.90</buy_max-central>
+      <sell_min-build>432756.508</sell_min-build>
+      <sell_median-central>689998.83</sell_median-central>
     </i2032>
     <i1256 name="Shield Flux Coil II">
-      <sell_min_build>529257.524</sell_min_build>
+      <buy_avg-central>543672.33</buy_avg-central>
+      <buy_median-central>244101.04</buy_median-central>
+      <sell_avg-central>948913.34</sell_avg-central>
+      <sell_min-central>931999.80</sell_min-central>
+      <buy_max-central>850002.06</buy_max-central>
+      <sell_min-build>529257.524</sell_min-build>
+      <sell_median-central>931999.81</sell_median-central>
     </i1256>
   </eng>
   <exhum>
     <i22548 name="Mackinaw">
-      <sell_min_build>157956373.532</sell_min_build>
+      <buy_avg-central>124708112.71</buy_avg-central>
+      <buy_median-central>107000000.00</buy_median-central>
+      <sell_avg-central>181131113.36</sell_avg-central>
+      <sell_min-central>172972995.98</sell_min-central>
+      <buy_max-central>165000000.00</buy_max-central>
+      <sell_min-build>157956373.532</sell_min-build>
+      <sell_median-central>188997998.11</sell_median-central>
     </i22548>
     <i22544 name="Hulk">
-      <sell_min_build>278175589.45</sell_min_build>
+      <buy_avg-central>88938075.64</buy_avg-central>
+      <buy_median-central>1091000.00</buy_median-central>
+      <sell_avg-central>346923365.17</sell_avg-central>
+      <sell_min-central>315889999.97</sell_min-central>
+      <buy_max-central>309000001.01</buy_max-central>
+      <sell_min-build>278175589.45</sell_min-build>
+      <sell_median-central>349999999.00</sell_median-central>
     </i22544>
   </exhum>
   <carrier>
     <i23911 name="Thanatos">
-      <sell_min_build>1141199943.91</sell_min_build>
+      <sell_min-build>1141199943.91</sell_min-build>
     </i23911>
     <i23757 name="Archon">
-      <sell_min_build>1031196280.45</sell_min_build>
+      <sell_min-build>1031196280.45</sell_min-build>
     </i23757>
     <i23915 name="Chimera">
-      <sell_min_build>986613517.88</sell_min_build>
+      <sell_min-build>986613517.88</sell_min-build>
     </i23915>
     <i24483 name="Nidhoggur">
-      <sell_min_build>1046056864.84</sell_min_build>
+      <sell_min-build>1046056864.84</sell_min-build>
     </i24483>
   </carrier>
   <prop>
     <i438 name="1MN Afterburner II">
-      <sell_min_build>420628.5872</sell_min_build>
+      <buy_avg-central>894202.68</buy_avg-central>
+      <buy_median-central>848105.02</buy_median-central>
+      <sell_avg-central>1508880.35</sell_avg-central>
+      <sell_min-central>1453950.84</sell_min-central>
+      <buy_max-central>1100000.13</buy_max-central>
+      <sell_min-build>420628.5872</sell_min-build>
+      <sell_median-central>1469955.14</sell_median-central>
     </i438>
     <i12068 name="100MN Afterburner II">
-      <sell_min_build>1378561.5252</sell_min_build>
+      <buy_avg-central>1364385.63</buy_avg-central>
+      <buy_median-central>1100000.00</buy_median-central>
+      <sell_avg-central>2388670.05</sell_avg-central>
+      <sell_min-central>2378889.00</sell_min-central>
+      <buy_max-central>1757112.02</buy_max-central>
+      <sell_min-build>1378561.5252</sell_min-build>
+      <sell_median-central>2378894.94</sell_median-central>
     </i12068>
     <i12058 name="10MN Afterburner II">
-      <sell_min_build>644906.1312</sell_min_build>
+      <buy_avg-central>1097732.70</buy_avg-central>
+      <buy_median-central>1200001.43</buy_median-central>
+      <sell_avg-central>1477449.64</sell_avg-central>
+      <sell_min-central>1333772.00</sell_min-central>
+      <buy_max-central>1210031.05</buy_max-central>
+      <sell_min-build>644906.1312</sell_min-build>
+      <sell_median-central>1339948.91</sell_median-central>
     </i12058>
     <i440 name="1MN MicroWarpdrive II">
-      <sell_min_build>955902.0896</sell_min_build>
+      <buy_avg-central>1353484.78</buy_avg-central>
+      <buy_median-central>1470404.11</buy_median-central>
+      <sell_avg-central>1877656.74</sell_avg-central>
+      <sell_min-central>1699890.80</sell_min-central>
+      <buy_max-central>1470460.01</buy_max-central>
+      <sell_min-build>955902.0896</sell_min-build>
+      <sell_median-central>1832059.91</sell_median-central>
     </i440>
     <i12076 name="10MN MicroWarpdrive II">
-      <sell_min_build>1906113.5836</sell_min_build>
+      <buy_avg-central>1984641.26</buy_avg-central>
+      <buy_median-central>1960368.90</buy_median-central>
+      <sell_avg-central>3792801.08</sell_avg-central>
+      <sell_min-central>2321998.70</sell_min-central>
+      <buy_max-central>2190270.05</buy_max-central>
+      <sell_min-build>1906113.5836</sell_min-build>
+      <sell_median-central>2499599.95</sell_median-central>
     </i12076>
     <i12084 name="100MN MicroWarpdrive II">
-      <sell_min_build>5635118.4176</sell_min_build>
+      <buy_avg-central>4069028.12</buy_avg-central>
+      <buy_median-central>4190005.29</buy_median-central>
+      <sell_avg-central>5789570.12</sell_avg-central>
+      <sell_min-central>5785864.63</sell_min-central>
+      <buy_max-central>4190040.73</buy_max-central>
+      <sell_min-build>5635118.4176</sell_min-build>
+      <sell_median-central>5790000.00</sell_median-central>
     </i12084>
   </prop>
   <ore>
     <i28352 name="Rorqual">
-      <sell_min_build>2067116751.51</sell_min_build>
+      <buy_avg-central>2323538202.37</buy_avg-central>
+      <buy_median-central>2300000000.00</buy_median-central>
+      <sell_avg-central>0.00</sell_avg-central>
+      <sell_min-central>0.00</sell_min-central>
+      <buy_max-central>3300000001.88</buy_max-central>
+      <sell_min-build>2067116751.51</sell_min-build>
+      <sell_median-central>0.00</sell_median-central>
     </i28352>
     <i28606 name="Orca">
-      <sell_min_build>610477945.42</sell_min_build>
+      <buy_avg-central>165922688.69</buy_avg-central>
+      <buy_median-central>750.00</buy_median-central>
+      <sell_avg-central>784766286.50</sell_avg-central>
+      <sell_min-central>778981999.99</sell_min-central>
+      <buy_max-central>725000000.32</buy_max-central>
+      <sell_min-build>610477945.42</sell_min-build>
+      <sell_median-central>779000000.16</sell_median-central>
     </i28606>
   </ore>
 </root>
