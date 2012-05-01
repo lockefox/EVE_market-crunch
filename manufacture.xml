@@ -1367,10 +1367,13 @@
 			<i11200 name="Taranis">
 			</i11200>
 			<i12044 name="Enyo">
+				<qty>1</qty>
 			</i12044>
 			<i12042 name="Ishkur">
+				<qty>1</qty>
 			</i12042>
 			<i11377 name="Nemesis">
+				<qty>1</qty>
 			</i11377>
 			<i12005 name="Ishtar">
 			</i12005>
@@ -1572,6 +1575,7 @@
 			<i3114 name="Dual 250mm Railgun II">
 			</i3114>
 			<i3186 name="Neutron Blaster Cannon">
+				<qty>10</qty>
 			</i3186>
 			<i3154 name="Ion Blaster Cannon">
 			</i3154>
@@ -1617,6 +1621,7 @@
 			<i2921 name="650mm Artillery Cannon II">
 			</i2921>
 			<i2913 name="425mm Autocannon II">
+				<qty>10</qty>
 			</i2913>
 			<i2897 name="220mm Vulcan AutoCannon II">
 			</i2897>

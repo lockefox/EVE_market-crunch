@@ -1,4 +1,5 @@
 <root>
+	<staff>
 	<!--wepup-->
 		<i90471974 name="Anton Renard">
 			<i2291 name="Ballistic Control System II">100</i2291>
@@ -82,6 +83,7 @@
 			<i12034 name="Hound">16</i12034>
 			<i22456 name="Sabre">8</i22456>
 		</i425131377>
-		<pos>
-		</pos>
+	</staff>	
+	<pos>
+	</pos>
 </root>
