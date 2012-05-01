@@ -92,8 +92,8 @@ sub quickKits{
 	&typeLoader();
 	
 	foreach my $pilot (keys %{$staff->{staff}}){
-		$employee{$pilot}=$staff->{$pilot}->{name};
-		
+		$employee{$pilot}=$staff->{staff}->{$pilot}->{name};
+		print $employee{$pilot}.":";
 		foreach my $products (keys %{$staff->{staff}->{$pilot}}){
 			if ($products eq "name"){
 				next;

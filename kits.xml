@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <root>
-  <i628592330 name="">
+  <i628592330 name="Lockefox">
     <i40 name="Megacyte">0</i40>
     <i11399 name="Morphite">1800</i11399>
     <i39 name="Zydrine">200</i39>
@@ -18,7 +18,7 @@
     <i20424 name="Datacore - Mechanical Engineering">120</i20424>
     <i35 name="Pyerite">286200</i35>
   </i628592330>
-  <i91380984 name="">
+  <i91380984 name="Roland Raskolnikov">
     <i36 name="Mexallon">127000</i36>
     <i34 name="Tritanium">54900</i34>
     <LST name="Large Shield Transporter I">100</LST>
@@ -40,7 +40,7 @@
     <i20171 name="Datacore - Hydromagnetic Physics">220</i20171>
     <i11558 name="Sustained Shield Emitter">1000</i11558>
   </i91380984>
-  <i170029085 name="">
+  <i170029085 name="Raksha Delam">
     <i36 name="Mexallon">114300</i36>
     <i34 name="Tritanium">9472200</i34>
     <i11545 name="Crystalline Carbonite Armor Plate">300</i11545>
@@ -61,7 +61,7 @@
     <EXAA name="Armor Explosive Hardener I">200</EXAA>
     <i11558 name="Sustained Shield Emitter">2000</i11558>
   </i170029085>
-  <i1850196909 name="">
+  <i1850196909 name="Rodin Raskolnikov">
     <i11538 name="Nanomechanical Microprocessor">1500</i11538>
     <i36 name="Mexallon">13800</i36>
     <BCU name="Ballistic Control System I">100</BCU>
@@ -81,7 +81,7 @@
     <i3689 name="Mechanical Parts">2600</i3689>
     <i20424 name="Datacore - Mechanical Engineering">240</i20424>
   </i1850196909>
-  <i1037534334 name="">
+  <i1037534334 name="Perrin Girard">
     <i11556 name="Pulse Sheild Emitter">2250</i11556>
     <i11399 name="Morphite">1080</i11399>
     <i11547 name="Fusion Reactor Unit">450</i11547>
@@ -96,7 +96,7 @@
     <i11478 name="R.A.M. Starship Tech">95</i11478>
     <i20424 name="Datacore - Mechanical Engineering">320</i20424>
   </i1037534334>
-  <i1845303338 name="">
+  <i1845303338 name="Iviar Hoth">
     <WEB name="Stasis Webifier I">200</WEB>
     <SCRM name="Warp Scrambler I">100</SCRM>
     <i11538 name="Nanomechanical Microprocessor">400</i11538>
@@ -117,7 +117,7 @@
     <i38 name="Nocxium">0</i38>
     <i11534 name="Gravimetric Sensor Cluster">1000</i11534>
   </i1845303338>
-  <i425131377 name="">
+  <i425131377 name="Anya Kitsune">
     <BRCH name="Breacher">16</BRCH>
     <i11538 name="Nanomechanical Microprocessor">3960</i11538>
     <i36 name="Mexallon">11856</i36>
@@ -141,7 +141,7 @@
     <i11548 name="Nuclear Reactor Unit">160</i11548>
     <i20424 name="Datacore - Mechanical Engineering">212</i20424>
   </i425131377>
-  <i90962267 name="">
+  <i90962267 name="Spartisan Eraticus">
     <i36 name="Mexallon">127000</i36>
     <i34 name="Tritanium">54900</i34>
     <LST name="Large Shield Transporter I">100</LST>
@@ -163,7 +163,7 @@
     <i20171 name="Datacore - Hydromagnetic Physics">220</i20171>
     <i11558 name="Sustained Shield Emitter">1000</i11558>
   </i90962267>
-  <i300782851 name="">
+  <i300782851 name="TheAhmosis">
     <MW10 name="10MN MicroWarpdrive I">100</MW10>
     <i36 name="Mexallon">47900</i36>
     <i20415 name="Datacore - Molecular Engineering">140</i20415>
@@ -183,7 +183,7 @@
     <AB1 name="1MN Afterburner I">200</AB1>
     <MW1 name="1MN MicroWarpdrive I">100</MW1>
   </i300782851>
-  <i913820860 name="">
+  <i913820860 name="Wimgle">
     <WEB name="Stasis Webifier I">200</WEB>
     <SCRM name="Warp Scrambler I">100</SCRM>
     <i11538 name="Nanomechanical Microprocessor">400</i11538>
@@ -204,8 +204,8 @@
     <i38 name="Nocxium">0</i38>
     <i11534 name="Gravimetric Sensor Cluster">1000</i11534>
   </i913820860>
-  <i696814627 name=""></i696814627>
-  <i1115128917 name="">
+  <i696814627 name="Nighteyes5"></i696814627>
+  <i1115128917 name="Mina Sola">
     <i36 name="Mexallon">114300</i36>
     <i34 name="Tritanium">9472200</i34>
     <i11545 name="Crystalline Carbonite Armor Plate">300</i11545>
@@ -226,7 +226,7 @@
     <EXAA name="Armor Explosive Hardener I">200</EXAA>
     <i11558 name="Sustained Shield Emitter">2000</i11558>
   </i1115128917>
-  <i1439910980 name="">
+  <i1439910980 name="Meganium Shakra">
     <WEB name="Stasis Webifier I">200</WEB>
     <SCRM name="Warp Scrambler I">100</SCRM>
     <i11538 name="Nanomechanical Microprocessor">400</i11538>
@@ -247,7 +247,7 @@
     <i38 name="Nocxium">0</i38>
     <i11534 name="Gravimetric Sensor Cluster">1000</i11534>
   </i1439910980>
-  <i90471974 name="">
+  <i90471974 name="Anton Renard">
     <i11538 name="Nanomechanical Microprocessor">1500</i11538>
     <i36 name="Mexallon">13800</i36>
     <BCU name="Ballistic Control System I">100</BCU>
@@ -267,7 +267,7 @@
     <i3689 name="Mechanical Parts">2600</i3689>
     <i20424 name="Datacore - Mechanical Engineering">240</i20424>
   </i90471974>
-  <i348613732 name="">
+  <i348613732 name="Agasa Kaolla">
     <MW10 name="10MN MicroWarpdrive I">100</MW10>
     <i36 name="Mexallon">47900</i36>
     <i20415 name="Datacore - Molecular Engineering">140</i20415>
