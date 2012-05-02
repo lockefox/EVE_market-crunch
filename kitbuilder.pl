@@ -94,25 +94,30 @@ sub quickKits{
 	foreach my $pilot (keys %{$staff->{staff}}){
 		$employee{$pilot}=$staff->{staff}->{$pilot}->{name};
 		print $employee{$pilot}.":";
+		my $x=0;
 		foreach my $products (keys %{$staff->{staff}->{$pilot}}){
 			if ($products eq "name"){
 				next;
 			}
-			
+			#if ($staff->{staff}->{$pilot}->{name} eq "Nighteyes5"){
+			#	print "\n\tsubset:".($subset{$products})."\n";
+			#	print "\tqty:".$staff->{staff}->{$pilot}->{$products}->{content}."\n";
+			#	print "\tdiv:".$mats->{T2}->{($subset{$products})}->{$products}->{qty}."\n";
+			#	print "\tnames:".$staff->{staff}->{$pilot}->{$products}->{name}."\n";
+			#}
 			$names{$products}=$staff->{staff}->{$pilot}->{$products}->{name};
 			my $qty = $staff->{staff}->{$pilot}->{$products}->{content};
 			
 			my $div = $mats->{T2}->{($subset{$products})}->{$products}->{qty};
 			
-			my $x = $qty/$div;
-			print $names{$products}."x".$x."\n";
+			$x = $qty/$div;
+			print $names{$products}."x".$x."(".$qty."/".$div.")\n";
 			foreach my $parts (keys %{$mats->{T2}->{($subset{$products})}->{$products}}){
 				if ($parts eq "bld_time"){
 					next;
 				}
 				if ($parts =~ /i/ or $parts =~ /[A-Z]/){
 					$names{$parts}=$mats->{T2}->{($subset{$products})}->{$products}->{$parts}->{name};
-					#print $names{$parts}."x".
 					if (exists $kits{$pilot}{$parts}){
 						$kits{$pilot}{$parts}+=$mats->{T2}->{($subset{$products})}->{$products}->{$parts}->{content} * $x;
 					}

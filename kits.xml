@@ -2,21 +2,24 @@
 
 <root>
   <i628592330 name="Lockefox">
-    <i40 name="Megacyte">0</i40>
-    <i11399 name="Morphite">1800</i11399>
-    <i39 name="Zydrine">200</i39>
     <HML name="Heavy Missile Launcher I">200</HML>
+    <i36 name="Mexallon">187000</i36>
+    <i11486 name="R.A.M. - Weapon Tech">203</i11486>
+    <i34 name="Tritanium">507000</i34>
+    <NBC name="Neutron Blaster Cannon I">200</NBC>
+    <i9848 name="Robotics">3000</i9848>
+    <i20412 name="Datacore - Plasma Physics">120</i20412>
+    <i35 name="Pyerite">1616400</i35>
+    <i11399 name="Morphite">1800</i11399>
+    <i40 name="Megacyte">1600</i40>
+    <i39 name="Zydrine">800</i39>
     <i11540 name="Quantum Microprocessor">600</i11540>
-    <i38 name="Nocxium">300</i38>
-    <i37 name="Isogen">0</i37>
-    <i36 name="Mexallon">5800</i36>
-    <i11486 name="R.A.M. - Weapon Tech">75</i11486>
-    <i34 name="Tritanium">178200</i34>
+    <i37 name="Isogen">150400</i37>
+    <i38 name="Nocxium">35700</i38>
     <i20420 name="Datacore - Rocket Science">120</i20420>
-    <i9848 name="Robotics">1200</i9848>
+    <i11688 name="Particle Accelerator Unit">3200</i11688>
     <HAM name="Heavy Assault Missile Launcher I">100</HAM>
-    <i20424 name="Datacore - Mechanical Engineering">120</i20424>
-    <i35 name="Pyerite">286200</i35>
+    <i20424 name="Datacore - Mechanical Engineering">240</i20424>
   </i628592330>
   <i91380984 name="Roland Raskolnikov">
     <i36 name="Mexallon">127000</i36>
@@ -82,19 +85,27 @@
     <i20424 name="Datacore - Mechanical Engineering">240</i20424>
   </i1850196909>
   <i1037534334 name="Perrin Girard">
-    <i11556 name="Pulse Sheild Emitter">2250</i11556>
-    <i11399 name="Morphite">1080</i11399>
-    <i11547 name="Fusion Reactor Unit">450</i11547>
-    <i11535 name="Magnetometric Sensor Cluster">2250</i11535>
-    <i3828 name="Construction Blocks">750</i3828>
-    <i11553 name="">6000</i11553>
-    <i11541 name="Photon Microprocessor">30000</i11541>
-    <i11531 name="Ion Thruster">600</i11531>
+    <i11547 name="Fusion Reactor Unit">498</i11547>
+    <i11535 name="Magnetometric Sensor Cluster">2730</i11535>
+    <i36 name="Mexallon">4752</i36>
+    <i34 name="Tritanium">19512</i34>
+    <i11531 name="Ion Thruster">840</i11531>
+    <i11545 name="Crystalline Carbonite Armor Plate">32400</i11545>
+    <i35 name="Pyerite">7144</i35>
+    <i11399 name="Morphite">1384</i11399>
+    <i11556 name="Pulse Sheild Emitter">2370</i11556>
+    <i40 name="Megacyte">40</i40>
+    <i39 name="Zydrine">72</i39>
+    <i38 name="Nocxium">144</i38>
+    <i37 name="Isogen">760</i37>
+    <TRST name="Tristan">8</TRST>
+    <i3828 name="Construction Blocks">1054</i3828>
+    <i11553 name="Oscillator Capacitor Unit">6480</i11553>
+    <i11541 name="Photon Microprocessor">31440</i11541>
     <COV name="Covetor">10</COV>
-    <i20410 name="Datacore - Gallentean Starship Engineering">320</i20410>
-    <i11545 name="Crystalline Carbonite Armor Plate">30000</i11545>
-    <i11478 name="R.A.M. Starship Tech">95</i11478>
-    <i20424 name="Datacore - Mechanical Engineering">320</i20424>
+    <i20410 name="Datacore - Gallentean Starship Engineering">362.4</i20410>
+    <i11478 name="R.A.M. Starship Tech">110.2</i11478>
+    <i20424 name="Datacore - Mechanical Engineering">362.4</i20424>
   </i1037534334>
   <i1845303338 name="Iviar Hoth">
     <WEB name="Stasis Webifier I">200</WEB>
@@ -119,26 +130,26 @@
   </i1845303338>
   <i425131377 name="Anya Kitsune">
     <BRCH name="Breacher">16</BRCH>
-    <i11538 name="Nanomechanical Microprocessor">3960</i11538>
+    <i11538 name="Nanomechanical Microprocessor">6840</i11538>
     <i36 name="Mexallon">11856</i36>
     <i34 name="Tritanium">586736</i34>
     <i20172 name="Datacore - Minmatar Starship Engineering">212</i20172>
     <i35 name="Pyerite">22656</i35>
-    <i11536 name="Ladar Sensor Cluster">1200</i11536>
-    <i11551 name="Electrolytic Capacitor Unit">1680</i11551>
+    <i11536 name="Ladar Sensor Cluster">1800</i11536>
+    <i11551 name="Electrolytic Capacitor Unit">2880</i11551>
     <i11399 name="Morphite">1088</i11399>
     <i40 name="Megacyte">144</i40>
     <i39 name="Zydrine">0</i39>
-    <i11555 name="Deflection Shield Emitter">480</i11555>
+    <i11555 name="Deflection Shield Emitter">784</i11555>
     <i38 name="Nocxium">800</i38>
     <i37 name="Isogen">2000</i37>
-    <i3828 name="Construction Blocks">784</i3828>
-    <i11530 name="Plasma Thruster">664</i11530>
-    <i11542 name="Fernite Carbide Composite Armor Plate">12000</i11542>
+    <i3828 name="Construction Blocks">968</i3828>
+    <i11530 name="Plasma Thruster">1144</i11530>
+    <i11542 name="Fernite Carbide Composite Armor Plate">24000</i11542>
     <RIFT name="Rifter">8</RIFT>
     <THRSH name="Thrasher">8</THRSH>
     <i11478 name="R.A.M. Starship Tech">106.4</i11478>
-    <i11548 name="Nuclear Reactor Unit">160</i11548>
+    <i11548 name="Nuclear Reactor Unit">280</i11548>
     <i20424 name="Datacore - Mechanical Engineering">212</i20424>
   </i425131377>
   <i90962267 name="Spartisan Eraticus">
@@ -204,7 +215,25 @@
     <i38 name="Nocxium">0</i38>
     <i11534 name="Gravimetric Sensor Cluster">1000</i11534>
   </i913820860>
-  <i696814627 name="Nighteyes5"></i696814627>
+  <i696814627 name="Nighteyes5">
+    <i40 name="Megacyte">1600</i40>
+    <i11399 name="Morphite">2400</i11399>
+    <i39 name="Zydrine">600</i39>
+    <i11691 name="Thermonuclear Trigger Unit">2000</i11691>
+    <i20423 name="Datacore - Nuclear Physics">80</i20423>
+    <i38 name="Nocxium">35800</i38>
+    <i37 name="Isogen">150400</i37>
+    <i36 name="Mexallon">329800</i36>
+    <i11486 name="R.A.M. - Weapon Tech">208</i11486>
+    <i34 name="Tritanium">427600</i34>
+    <NBC name="Neutron Blaster Cannon I">200</NBC>
+    <i9848 name="Robotics">2400</i9848>
+    <i11688 name="Particle Accelerator Unit">3200</i11688>
+    <i20412 name="Datacore - Plasma Physics">120</i20412>
+    <AC425 name="425mm Autocannon I">200</AC425>
+    <i20424 name="Datacore - Mechanical Engineering">200</i20424>
+    <i35 name="Pyerite">1482400</i35>
+  </i696814627>
   <i1115128917 name="Mina Sola">
     <i36 name="Mexallon">114300</i36>
     <i34 name="Tritanium">9472200</i34>

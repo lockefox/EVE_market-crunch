@@ -502,6 +502,66 @@
 				<i39 name="Zydrine">74</i39>
 			</i24348>
 		</mining>
+		<laser>
+			<i464 name="Tachyon Beam Laser I" id="TCHY">
+				<i37 name="Isogen">2388</i37>
+				<i40 name="Megacyte">33</i40>
+				<i36 name="Mexallon">8784</i36>
+				<i38 name="Nocxium">370</i38>
+				<i35 name="Pyerite">26328</i35>
+				<i34 name="Tritanium">102627</i34>
+				<i39 name="Zydrine">19</i39>
+			</i464>
+			<i462 name="Mega Pulse Laser I" id="MPL">
+				<i37 name="Isogen">1758</i37>
+				<i40 name="Megacyte">12</i40>
+				<i36 name="Mexallon">6486</i36>
+				<i38 name="Nocxium">211</i38>
+				<i35 name="Pyerite">16076</i35>
+				<i34 name="Tritanium">61557</i34>
+				<i39 name="Zydrine">5</i39>
+			</i462>
+		</laser>
+		<hybrid>
+			<i573 name="Neutron Blaster Cannon I" id="NBC">
+				<i37 name="Isogen">2066</i37>
+				<i40 name="Megacyte">23</i40>
+				<i36 name="Mexallon">7755</i36>
+				<i38 name="Nocxium">292</i38>
+				<i35 name="Pyerite">21182</i35>
+				<i34 name="Tritanium">81993</i34>
+				<i39 name="Zydrine">8</i39>
+			</i573>
+		</hybrid>
+		<projectile>
+			<i498 name="1400mm Howitzer Artillery Cannon II">
+				<i37 name="Isogen">2388</i37>
+				<i40 name="Megacyte">33</i40>
+				<i36 name="Mexallon">8784</i36>
+				<i38 name="Nocxium">370</i38>
+				<i35 name="Pyerite">26328</i35>
+				<i34 name="Tritanium">102627</i34>
+				<i39 name="Zydrine">19</i39>
+			</i498>
+			<i460 name="800mm Repeating Artillery I" id="AC80">
+				<i37 name="Isogen">1758</i37>
+				<i40 name="Megacyte">12</i40>
+				<i36 name="Mexallon">6486</i36>
+				<i38 name="Nocxium">211</i38>
+				<i35 name="Pyerite">16076</i35>
+				<i34 name="Tritanium">61557</i34>
+				<i39 name="Zydrine">5</i39>
+			</i460>
+			<i491 name="425mm Autocannon I" id="AC425">
+				<i37 name="Isogen">0</i37>
+				<i40 name="Megacyte">0</i40>
+				<i36 name="Mexallon">2174</i36>
+				<i38 name="Nocxium">1</i38>
+				<i35 name="Pyerite">1480</i35>
+				<i34 name="Tritanium">4080</i34>
+				<i39 name="Zydrine">0</i39>
+			</i491>
+		</projectile>
 	</module>
 	<ship>
 		<exhum>
