@@ -27,9 +27,11 @@ my %subset;
 #############
 
 my %kits;	#$kits{$inventor}{itemID}=quantity
+my %shopping;	#all materials needed to produce	$shopping{id}=qty;
 
 my $joblist="producers.xml";
 my $matlist="manufacture.xml";
+my $complist="component.xml";
 my $outfile="kits.xml";
 
 my $staffpage = new XML::Simple;
@@ -41,6 +43,8 @@ my $mats = $matspage->XMLin($matlist);
 #&loadKits;	#BROKEN
 
 &quickKits;
+
+&shopping;
 
 &printer;
 
@@ -141,6 +145,20 @@ sub typeLoader{
 	#print Dumper(%subset);
 
 };
+
+sub shopping{
+	my %t1;
+	my %component;	#$component{$ID}{$material}=qty;
+	%component = &compload();
+};
+
+sub compload{
+	my %data;	#$data{$ID}{$material}=qty
+	
+	my $components = new XML::Simple;
+	my $compXML = 
+	return %data;
+}
 
 sub printer{
 	my $writeout = new IO::File (">$outfile");
