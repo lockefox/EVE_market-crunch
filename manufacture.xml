@@ -1048,9 +1048,11 @@
 		<ships>
 	<!--Minmatar-->
 			<i11182 name="Cheetah">
+				<mfg_grp>frig</mfg_grp>
 				<class>Cov Ops</class>
 			</i11182>
 			<i11387 name="Hyena">
+				<mfg_grp>frig</mfg_grp>
 				<class>EAF</class>
 			</i11387>
 			<i11196 name="Claw">
@@ -1077,7 +1079,7 @@
 				<qty>1</qty>
 				<me>-4</me>
 				<bld_time></bld_time>
-				<mfg_grp>ships</mfg_grp>
+				<mfg_grp>frig</mfg_grp>
 				<flag>ship</flag>
 				<class>Interceptor</class>
 			</i11196>
@@ -1105,7 +1107,7 @@
 				<qty>1</qty>
 				<me>-4</me>
 				<bld_time></bld_time>
-				<mfg_grp>ships</mfg_grp>
+				<mfg_grp>frig</mfg_grp>
 				<flag>NULL</flag>
 				<class>Interceptor</class>
 			</i11198>
@@ -1133,7 +1135,7 @@
 				<qty>1</qty>
 				<me>-4</me>
 				<bld_time></bld_time>
-				<mfg_grp>ships</mfg_grp>
+				<mfg_grp>frig</mfg_grp>
 				<flag>ship</flag>
 				<class>Assault Frigate</class>
 			</i11400>
@@ -1161,7 +1163,7 @@
 				<qty>1</qty>
 				<me>-4</me>
 				<bld_time></bld_time>
-				<mfg_grp>ships</mfg_grp>
+				<mfg_grp>frig</mfg_grp>
 				<flag>ship</flag>
 				<class>Assault Frigate</class>
 			</i11371>
@@ -1189,7 +1191,7 @@
 				<qty>1</qty>
 				<me>-4</me>
 				<bld_time></bld_time>
-				<mfg_grp>ships</mfg_grp>
+				<mfg_grp>frig</mfg_grp>
 				<flag>ship</flag>
 				<class>Bomber</class>
 			</i12034>
@@ -1210,7 +1212,7 @@
 				<qty>1</qty>
 				<me>-4</me>
 				<bld_time></bld_time>
-				<mfg_grp>ships</mfg_grp>
+				<mfg_grp>cruiser</mfg_grp>
 				<flag>ship</flag>
 				<class>Assault Cruiser</class>
 			</i12015>
@@ -1317,7 +1319,7 @@
 				<qty>1</qty>
 				<me>-4</me>
 				<bld_time></bld_time>
-				<mfg_grp>ships</mfg_grp>
+				<mfg_grp>destroyer</mfg_grp>
 				<flag>ship</flag>
 				<class>Interdictor</class>
 			</i22456>
@@ -1533,7 +1535,7 @@
 				<qty>1</qty>
 				<me>-4</me>
 				<bld_time></bld_time>
-				<mfg_grp>ships</mfg_grp>
+				<mfg_grp>frig</mfg_grp>
 				<flag>ship</flag>
 				<class>Assault Frigate</class>
 			</i12044>
@@ -1561,7 +1563,7 @@
 				<qty>1</qty>
 				<me>-4</me>
 				<bld_time></bld_time>
-				<mfg_grp>ships</mfg_grp>
+				<mfg_grp>frig</mfg_grp>
 				<flag>ship</flag>
 				<class>Assault Frigate</class>
 			</i12042>
@@ -1589,7 +1591,7 @@
 				<qty>1</qty>
 				<me>-4</me>
 				<bld_time></bld_time>
-				<mfg_grp>ships</mfg_grp>
+				<mfg_grp>frig</mfg_grp>
 				<flag>ship</flag>
 				<class>Bomber</class>
 			</i11377>

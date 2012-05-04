@@ -9,7 +9,7 @@ use Data::Dumper;
 use LWP::Simple;
 use CGI;
 use XML::Writer;
-use POSIX qw(floor);
+use POSIX;
 use IO;
 use lib "/lib";
 
@@ -29,9 +29,21 @@ my %subset;
 my %kits;	#$kits{$inventor}{itemID}=quantity
 my %shopping;	#all materials needed to produce	$shopping{id}=qty;
 
+my %ramid=(
+	"i11476", "Ammo Tech",
+	"i11475", "Armor/Hull",
+	"i11483", "Electronics",
+	"i11482", "Energy",
+	"i11481", "Robotics",
+	"i11484", "Shield",
+	"i11478", "Starship",
+	"i11486", "Weapon",
+);
+
 my $joblist="producers.xml";
 my $matlist="manufacture.xml";
 my $complist="component.xml";
+my $T1list="t1.xml";
 my $outfile="kits.xml";
 
 my $staffpage = new XML::Simple;
@@ -46,7 +58,7 @@ my $mats = $matspage->XMLin($matlist);
 
 &shopping;
 
-&printer;
+#&printer;
 
 sub loadKits{##using slow search method
 	foreach my $workers (keys %{$staff->{staff}}){
@@ -72,7 +84,7 @@ sub loadKits{##using slow search method
 							$mult=$mats->{$class}->{$group}->{$itemID}->{qty};
 							my $x=$qty/$mult;
 							foreach my $parts(keys %{$mats->{$class}->{$group}->{$itemID}}){
-								if ($parts =~ /i/ or $parts =~ /[A-Z]/){
+								if ($parts =~ /^i/ or $parts =~ /[A-Z]/){
 									$names{$parts}=$mats->{$class}->{$group}->{$itemID}->{$parts}->{name};
 									if (exists $kits{$workers}{$parts}){
 										$kits{$workers}{$parts}+= $mats->{$class}->{$group}->{$itemID}->{$parts}->{content}*$x;
@@ -103,12 +115,6 @@ sub quickKits{
 			if ($products eq "name"){
 				next;
 			}
-			#if ($staff->{staff}->{$pilot}->{name} eq "Nighteyes5"){
-			#	print "\n\tsubset:".($subset{$products})."\n";
-			#	print "\tqty:".$staff->{staff}->{$pilot}->{$products}->{content}."\n";
-			#	print "\tdiv:".$mats->{T2}->{($subset{$products})}->{$products}->{qty}."\n";
-			#	print "\tnames:".$staff->{staff}->{$pilot}->{$products}->{name}."\n";
-			#}
 			$names{$products}=$staff->{staff}->{$pilot}->{$products}->{name};
 			my $qty = $staff->{staff}->{$pilot}->{$products}->{content};
 			
@@ -147,16 +153,95 @@ sub typeLoader{
 };
 
 sub shopping{
-	my %t1;
 	my %component;	#$component{$ID}{$material}=qty;
 	%component = &compload();
+	
+	my $t1page= new XML::Simple;
+	my $t1XML = $t1page->XMLin($T1list);
+	
+	foreach my $member (keys %{$staff->{staff}}){
+		foreach my $tobuild (keys %{$staff->{staff}->{$member}}){
+			if ($tobuild eq "name"){
+				next;
+			}
+			my $qty = $staff->{staff}->{$member}->{$tobuild}->{content};
+			my $div = $mats->{T2}->{($subset{$tobuild})}->{$tobuild}->{qty};
+			
+			my $x= $qty/$div;
+			foreach my $materials(keys %{$mats->{T2}->{($subset{$tobuild})}->{$tobuild}}){
+				if ($materials =~/^i/ or $materials =~ /[A-Z]/){
+					my $mult = $mats->{T2}->{($subset{$tobuild})}->{$tobuild}->{$materials}->{content};
+					if (!(exists $shopping{$materials})){
+						$shopping{$materials}=0;	#Initializes entry
+					}
+					
+					if ($materials =~ /[A-Z]/){		#T1
+							my $grp = $subset{$tobuild};
+							if ($grp eq "ships"){
+								my $sub = $mats->{T2}->{($subset{$tobuild})}->{$tobuild}->{mfg_grp};
+								
+								foreach my $mins (keys %{$t1XML->{ship}->{$sub}->{$materials}}){
+									if ($mins eq "name" or $mins eq "id"){
+										next;
+									}
+									$shopping{$materials}+= $t1XML->{ship}->{$sub}->{$materials}->{$mins}->{content} * $mult *$x;
+								}
+							}
+							else{
+								foreach my $mins (keys %{$t1XML->{module}->{$grp}->{$materials}}){
+									if ($mins eq "name" or $mins eq "id"){
+										next;
+									}
+									
+									$shopping{$materials}+=$t1XML->{module}->{$grp}->{$materials}->{$mins}->{content} * $mult *$x;
+								}
+							}
+					}
+					if ($materials =~ /^i/){	#regular materials
+						if (exists $component{$materials}){ #component
+							foreach my $subcomp (keys %{$component{$materials}}){
+								$shopping{$subcomp}+=$component{$materials}{$subcomp} * $mult * $x;
+							}
+						}
+		
+						elsif (exists $ramid{$materials}){	#RAM
+							#my $y = ceil($x*$mult);	#Round up, for whole numbers
+							#$shopping{"i37"} += 74*$y;	#Isogen
+							#$shopping{"i36"} += 200*$y;	#Mexallon
+							#$shopping{"i38"} += 32*$y;	#Nocxium
+							#$shopping{"i35"} += 400*$y; #Pyerite
+							#$shopping{"i34"} += 500*$y;	#Tritanium
+						}
+						else{								#PI, Datacores, minerals
+							$shopping{$materials}+= $x * $mult;
+						}
+					}
+				}
+			}
+		}
+	}
+	print Dumper (%shopping);
 };
 
 sub compload{
 	my %data;	#$data{$ID}{$material}=qty
 	
 	my $components = new XML::Simple;
-	my $compXML = 
+	my $compXML = $components->XMLin($complist);
+	
+	foreach my $type (keys %{$compXML->{component}}){
+		foreach my $product(keys %{$compXML->{component}->{$type}}){
+					$names{$product}=$compXML->{component}->{$type}->{$product}->{name};
+			foreach my $part (keys %{$compXML->{component}->{$type}->{$product}}){
+				if ($part =~ /^i/){
+					$names{$part}=$compXML->{component}->{$type}->{$product}->{$part}->{name};
+					$data{$product}{$part}=$compXML->{component}->{$type}->{$product}->{$part}->{content};
+					$shopping{$part}=0;#initialize subcomponent values in shopping
+				}
+			}
+		}
+	}
+	
 	return %data;
 }
 
