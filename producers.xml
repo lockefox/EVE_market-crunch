@@ -1,13 +1,13 @@
 <root>
 	<staff>
 	<!--wepup-->
-		<i90471974 name="Anton Renard">
+		<i90471974 name="Anton Renard"><!---->
 			<i2291 name="Ballistic Control System II">100</i2291>
 			<i10190 name="Magnetic Field Stabilizer II">200</i10190>
 			<i519 name="Gyrostabilizer II">100</i519>
 			<i1999 name="Tracking Enhancer II">200</i1999>
 		</i90471974>
-		<i1850196909 name="Rodin Raskolnikov">
+		<i1850196909 name="Rodin Raskolnikov"><!---->
 			<i2291 name="Ballistic Control System II">100</i2291>
 			<i10190 name="Magnetic Field Stabilizer II">200</i10190>
 			<i519 name="Gyrostabilizer II">100</i519>
@@ -15,70 +15,71 @@
 		</i1850196909>
 	<!--Engineering-->
 	<!--Shield-->
-		<i90962267 name="Spartisan Eraticus">
+		<i348613732 name="Agasa Kaolla"><!---->
 			<i2281 name="Invulnerability Field II">200</i2281>
 			<i2301 name="Photon Scattering Field II">200</i2301>
 			<i3608 name="Large Shield Transporter II">100</i3608>
-		</i90962267>
-		<i91380984 name="Roland Raskolnikov">
+		</i348613732>
+		<i91380984 name="Roland Raskolnikov"><!---->
 			<i2281 name="Invulnerability Field II">200</i2281>
 			<i2301 name="Photon Scattering Field II">200</i2301>
 			<i3608 name="Large Shield Transporter II">100</i3608>
 		</i91380984>
 	<!--Propulsion-->
-		<i348613732 name="Agasa Kaolla">
+		<i847159430 name="Roeth Whitestar"><!---->
 			<i438 name="1MN Afterburner II">200</i438>
 			<i440 name="1MN MicroWarpdrive II">100</i440>
 			<i12058 name="10MN Afterburner II">100</i12058>
 			<i12076 name="10MN MicroWarpdrive II">100</i12076>
-		</i348613732>
-		<i300782851 name="TheAhmosis">
+		</i847159430>
+		<i1586300403 name="Feysha Whitestar"><!---->
 			<i438 name="1MN Afterburner II">200</i438>
 			<i440 name="1MN MicroWarpdrive II">100</i440>
 			<i12058 name="10MN Afterburner II">100</i12058>
 			<i12076 name="10MN MicroWarpdrive II">100</i12076>
-		</i300782851>
+		</i1586300403>
 	<!--Armor-->
-		<i170029085 name="Raksha Delam">
+		<i170029085 name="Raksha Delam"><!---->
 			<i11269 name="Energized Adaptive Nano Membrane II">300</i11269>
 			<i11646 name="Armor Explosive Hardener II">200</i11646>
 		</i170029085>
-		<i1115128917 name="Mina Sola">
+		<i1115128917 name="Mina Sola"><!---->
 			<i11269 name="Energized Adaptive Nano Membrane II">300</i11269>
 			<i11646 name="Armor Explosive Hardener II">200</i11646>
 		</i1115128917>
 	<!--Weapons-->
-		<i628592330 name="Lockefox">
+		<i628592330 name="Lockefox"><!---->
 			<i2410 name="Heavy Missile Launcher II">200</i2410>
 			<i25715 name="Heavy Assault Missile Launcher II">100</i25715>
 			<i3186 name="Neutron Blaster Cannon II">200</i3186>
 		</i628592330>
-		<i696814627 name="Nighteyes5">
+		<i696814627 name="Nighteyes5"><!---->
 			<i3186 name="Neutron Blaster Cannon II">200</i3186>
 			<i2913 name="425mm Autocannon II">200</i2913>
 		</i696814627>
 	<!--Interdiction-->
-		<i913820860 name="Wimgle">
+		<i913820860 name="Wimgle"><!---->
 			<i527 name="Stasis Webifier II">200</i527>
 			<i3244 name="Warp Disruptor II">200</i3244>
 			<i448 name="Warp Scrambler II">100</i448>
 		</i913820860>
-		<i1845303338 name="Iviar Hoth">
+		<i1845303338 name="Iviar Hoth"><!---->
 			<i527 name="Stasis Webifier II">200</i527>
 			<i3244 name="Warp Disruptor II">200</i3244>
 			<i448 name="Warp Scrambler II">100</i448>
 		</i1845303338>
-		<i1439910980 name="Meganium Shakra">
+		<!--i1439910980 name="Meganium Shakra"-->
+		<i300782851 name="TheAhmosis"><!---->
 			<i527 name="Stasis Webifier II">200</i527>
 			<i3244 name="Warp Disruptor II">200</i3244>
 			<i448 name="Warp Scrambler II">100</i448>
-		</i1439910980>
+		</i300782851>
 	<!--Ships-->
-		<i1037534334 name="Perrin Girard">
+		<i1037534334 name="Perrin Girard"><!---->
 			<i22544 name="Hulk">10</i22544>
 			<i11377 name="Nemesis">8</i11377>
 		</i1037534334>
-		<i425131377 name="Anya Kitsune">
+		<i425131377 name="Anya Kitsune"><!---->
 			<i11371 name="Wolf">8</i11371>
 			<i12034 name="Hound">16</i12034>
 			<i22456 name="Sabre">8</i22456>
