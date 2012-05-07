@@ -71,6 +71,14 @@ my (
 	%PI,
 	%DC,
 );
+
+sub commify {
+
+        local $_  = shift;
+        1 while s/^(-?\d+)(\d{3})/$1,$2/;
+        return $_;
+
+};
 sub loader {
 	###COMPONENT###
 	my $comppage = new XML::Simple;
@@ -379,42 +387,42 @@ sub printer{
 			my $id1;
 			(undef, $id1)=split('i', $subComp{$kComp});
 			$writer->startTag("component", 'name'=>$names{$subComp{$kComp}}, 'id'=>$id1);
-			$writer->characters($kits{$people}{$subComp{$kComp}});
+			$writer->characters(&commify($kits{$people}{$subComp{$kComp}}));
 			$writer->endTag();
 		}
 		foreach my $kGoo(sort keys %subGoo){
 			my $id2;
 			(undef, $id2)=split('i', $subGoo{$kGoo});
 			$writer->startTag("moongoo", 'name'=>$names{$subGoo{$kGoo}}, 'id'=>$id2);
-			$writer->characters($kits{$people}{$subGoo{$kGoo}});
+			$writer->characters(&commify($kits{$people}{$subGoo{$kGoo}}));
 			$writer->endTag();
 		}
 		foreach my $kMin(sort keys %subMin){
 			my $id3;
 			(undef, $id3)=split('i', $subMin{$kMin});
 			$writer->startTag("mineral", 'name'=>$names{$subMin{$kMin}}, 'id'=>$id3);
-			$writer->characters($kits{$people}{$subMin{$kMin}});
+			$writer->characters(&commify($kits{$people}{$subMin{$kMin}}));
 			$writer->endTag();
 		}
 		foreach my $kPI(sort keys %subPI){
 			my $id4;
 			(undef, $id4)=split('i', $subPI{$kPI});
 			$writer->startTag("PI", 'name'=>$names{$subPI{$kPI}}, 'id'=>$id4);
-			$writer->characters($kits{$people}{$subPI{$kPI}});
+			$writer->characters(&commify($kits{$people}{$subPI{$kPI}}));
 			$writer->endTag();
 		}
 		foreach my $kDC(sort keys %subDC){
 			my $id5;
 			(undef, $id5)=split('i', $subDC{$kDC});
 			$writer->startTag("datacore", 'name'=>$names{$subDC{$kDC}}, 'id'=>$id5);
-			$writer->characters($kits{$people}{$subDC{$kDC}});
+			$writer->characters(&commify($kits{$people}{$subDC{$kDC}}));
 			$writer->endTag();
 		}
 		foreach my $kOther(sort keys %subOther){
 			my $id6;
 			(undef, $id6)=split('i', $subOther{$kOther});
 			$writer->startTag("other", 'name'=>$names{$subOther{$kOther}}, 'id'=>$id6);
-			$writer->characters($kits{$people}{$subOther{$kOther}});
+			$writer->characters(&commify($kits{$people}{$subOther{$kOther}}));
 			$writer->endTag();
 		}
 		$writer->endTag();
