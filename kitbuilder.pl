@@ -43,11 +43,11 @@ my %ramid=(
 my $joblist="producers.xml";
 my $matlist="manufacture.xml";
 my $complist="component.xml";
-<<<<<<< HEAD
+
 my $T1list="t1.xml";
-=======
+
 my $t1list="t1.xml";
->>>>>>> 18a225829b6ae2fc8aa688d66ec3a9dcfa6c6f1b
+
 my $outfile="kits.xml";
 
 my $staffpage = new XML::Simple;
@@ -60,9 +60,9 @@ my $mats = $matspage->XMLin($matlist);
 &loader;
 &quickKits;
 
-&shopping;
+#&shopping;
 
-#&printer;
+&printer;
 
 my (
 	%comp,
@@ -379,7 +379,7 @@ sub printer{
 			my $id1;
 			(undef, $id1)=split('i', $subComp{$kComp});
 			$writer->startTag("component", 'name'=>$names{$subComp{$kComp}}, 'id'=>$id1);
-			$writer->characters($kits{$people}{$kComp});
+			$writer->characters($kits{$people}{$subComp{$kComp}});
 			$writer->endTag();
 		}
 		foreach my $kGoo(sort keys %subGoo){

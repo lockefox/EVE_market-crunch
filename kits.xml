@@ -2,8 +2,8 @@
 
 <root>
   <inventor id="i628592330" name="Lockefox">
-    <component name="Particle Accelerator Unit" id="11688"></component>
-    <component name="Quantum Microprocessor" id="11540"></component>
+    <component name="Particle Accelerator Unit" id="11688">3200</component>
+    <component name="Quantum Microprocessor" id="11540">600</component>
     <mineral name="Isogen" id="37">150400</mineral>
     <mineral name="Megacyte" id="40">1600</mineral>
     <mineral name="Mexallon" id="36">187000</mineral>
@@ -22,9 +22,9 @@
     <other name="R.A.M. - Weapon Tech" id="11486">203</other>
   </inventor>
   <inventor id="i1586300403" name="Feysha Whitestar">
-    <component name="Antimatter Reactor Unit" id="11549"></component>
-    <component name="Ion Thruster" id="11531"></component>
-    <component name="Plasma Thruster" id="11530"></component>
+    <component name="Antimatter Reactor Unit" id="11549">2500</component>
+    <component name="Ion Thruster" id="11531">5000</component>
+    <component name="Plasma Thruster" id="11530">5600</component>
     <mineral name="Isogen" id="37">2800</mineral>
     <mineral name="Megacyte" id="40">500</mineral>
     <mineral name="Mexallon" id="36">47900</mineral>
@@ -42,10 +42,10 @@
     <other name="R.A.M. Armor/Hull Tech" id="11475">19</other>
   </inventor>
   <inventor id="i91380984" name="Roland Raskolnikov">
-    <component name="Deflection Shield Emitter" id="11555"></component>
-    <component name="Linear Shield Emitter" id="11557"></component>
-    <component name="Pulse Sheild Emitter" id="11556"></component>
-    <component name="Sustained Shield Emitter" id="11558"></component>
+    <component name="Deflection Shield Emitter" id="11555">1000</component>
+    <component name="Linear Shield Emitter" id="11557">5000</component>
+    <component name="Pulse Sheild Emitter" id="11556">1000</component>
+    <component name="Sustained Shield Emitter" id="11558">1000</component>
     <mineral name="Isogen" id="37">800</mineral>
     <mineral name="Megacyte" id="40">2600</mineral>
     <mineral name="Mexallon" id="36">127000</mineral>
@@ -64,12 +64,12 @@
     <other name="R.A.M. - Shield Tech" id="11484">230</other>
   </inventor>
   <inventor id="i170029085" name="Raksha Delam">
-    <component name="Crystalline Carbonite Armor Plate" id="11545"></component>
-    <component name="Fernite Carbide Composite Armor Plate" id="11542"></component>
-    <component name="Sustained Shield Emitter" id="11558"></component>
-    <component name="Tesseract Capacitor Unit" id="11554"></component>
-    <component name="Titanium Diborite Armor Plate" id="29107"></component>
-    <component name="Tungsten Carbide Armor Plate" id="11543"></component>
+    <component name="Crystalline Carbonite Armor Plate" id="11545">300</component>
+    <component name="Fernite Carbide Composite Armor Plate" id="11542">1300</component>
+    <component name="Sustained Shield Emitter" id="11558">2000</component>
+    <component name="Tesseract Capacitor Unit" id="11554">600</component>
+    <component name="Titanium Diborite Armor Plate" id="29107">300</component>
+    <component name="Tungsten Carbide Armor Plate" id="11543">300</component>
     <mineral name="Isogen" id="37">5200</mineral>
     <mineral name="Megacyte" id="40">1000</mineral>
     <mineral name="Mexallon" id="36">114300</mineral>
@@ -85,8 +85,8 @@
     <other name="R.A.M. Armor/Hull Tech" id="11475">80</other>
   </inventor>
   <inventor id="i1850196909" name="Rodin Raskolnikov">
-    <component name="Nanomechanical Microprocessor" id="11538"></component>
-    <component name="Quantum Microprocessor" id="11540"></component>
+    <component name="Nanomechanical Microprocessor" id="11538">1500</component>
+    <component name="Quantum Microprocessor" id="11540">1600</component>
     <mineral name="Isogen" id="37">700</mineral>
     <mineral name="Mexallon" id="36">13800</mineral>
     <mineral name="Morphite" id="11399">2300</mineral>
@@ -105,13 +105,13 @@
     <other name="Tracking Enhancer I" id="">200</other>
   </inventor>
   <inventor id="i1037534334" name="Perrin Girard">
-    <component name="Crystalline Carbonite Armor Plate" id="11545"></component>
-    <component name="Fusion Reactor Unit" id="11547"></component>
-    <component name="Ion Thruster" id="11531"></component>
-    <component name="Magnetometric Sensor Cluster" id="11535"></component>
-    <component name="Oscillator Capacitor Unit" id="11553"></component>
-    <component name="Photon Microprocessor" id="11541"></component>
-    <component name="Pulse Sheild Emitter" id="11556"></component>
+    <component name="Crystalline Carbonite Armor Plate" id="11545">32400</component>
+    <component name="Fusion Reactor Unit" id="11547">498</component>
+    <component name="Ion Thruster" id="11531">840</component>
+    <component name="Magnetometric Sensor Cluster" id="11535">2730</component>
+    <component name="Oscillator Capacitor Unit" id="11553">6480</component>
+    <component name="Photon Microprocessor" id="11541">31440</component>
+    <component name="Pulse Sheild Emitter" id="11556">2370</component>
     <mineral name="Isogen" id="37">760</mineral>
     <mineral name="Megacyte" id="40">40</mineral>
     <mineral name="Mexallon" id="36">4752</mineral>
@@ -128,9 +128,9 @@
     <other name="Tristan" id="">8</other>
   </inventor>
   <inventor id="i1845303338" name="Iviar Hoth">
-    <component name="Gravimetric Sensor Cluster" id="11534"></component>
-    <component name="Nanomechanical Microprocessor" id="11538"></component>
-    <component name="Quantum Microprocessor" id="11540"></component>
+    <component name="Gravimetric Sensor Cluster" id="11534">1000</component>
+    <component name="Nanomechanical Microprocessor" id="11538">400</component>
+    <component name="Quantum Microprocessor" id="11540">1200</component>
     <mineral name="Isogen" id="37">19600</mineral>
     <mineral name="Megacyte" id="40">0</mineral>
     <mineral name="Mexallon" id="36">95700</mineral>
@@ -149,9 +149,9 @@
     <other name="Warp Scrambler I" id="">100</other>
   </inventor>
   <inventor id="i847159430" name="Roeth Whitestar">
-    <component name="Antimatter Reactor Unit" id="11549"></component>
-    <component name="Ion Thruster" id="11531"></component>
-    <component name="Plasma Thruster" id="11530"></component>
+    <component name="Antimatter Reactor Unit" id="11549">2500</component>
+    <component name="Ion Thruster" id="11531">5000</component>
+    <component name="Plasma Thruster" id="11530">5600</component>
     <mineral name="Isogen" id="37">2800</mineral>
     <mineral name="Megacyte" id="40">500</mineral>
     <mineral name="Mexallon" id="36">47900</mineral>
@@ -169,13 +169,13 @@
     <other name="R.A.M. Armor/Hull Tech" id="11475">19</other>
   </inventor>
   <inventor id="i425131377" name="Anya Kitsune">
-    <component name="Deflection Shield Emitter" id="11555"></component>
-    <component name="Electrolytic Capacitor Unit" id="11551"></component>
-    <component name="Fernite Carbide Composite Armor Plate" id="11542"></component>
-    <component name="Ladar Sensor Cluster" id="11536"></component>
-    <component name="Nanomechanical Microprocessor" id="11538"></component>
-    <component name="Nuclear Reactor Unit" id="11548"></component>
-    <component name="Plasma Thruster" id="11530"></component>
+    <component name="Deflection Shield Emitter" id="11555">784</component>
+    <component name="Electrolytic Capacitor Unit" id="11551">2880</component>
+    <component name="Fernite Carbide Composite Armor Plate" id="11542">24000</component>
+    <component name="Ladar Sensor Cluster" id="11536">1800</component>
+    <component name="Nanomechanical Microprocessor" id="11538">6840</component>
+    <component name="Nuclear Reactor Unit" id="11548">280</component>
+    <component name="Plasma Thruster" id="11530">1144</component>
     <mineral name="Isogen" id="37">2000</mineral>
     <mineral name="Megacyte" id="40">144</mineral>
     <mineral name="Mexallon" id="36">11856</mineral>
@@ -193,9 +193,9 @@
     <other name="Thrasher" id="">8</other>
   </inventor>
   <inventor id="i300782851" name="TheAhmosis">
-    <component name="Gravimetric Sensor Cluster" id="11534"></component>
-    <component name="Nanomechanical Microprocessor" id="11538"></component>
-    <component name="Quantum Microprocessor" id="11540"></component>
+    <component name="Gravimetric Sensor Cluster" id="11534">1000</component>
+    <component name="Nanomechanical Microprocessor" id="11538">400</component>
+    <component name="Quantum Microprocessor" id="11540">1200</component>
     <mineral name="Isogen" id="37">19600</mineral>
     <mineral name="Megacyte" id="40">0</mineral>
     <mineral name="Mexallon" id="36">95700</mineral>
@@ -214,9 +214,9 @@
     <other name="Warp Scrambler I" id="">100</other>
   </inventor>
   <inventor id="i913820860" name="Wimgle">
-    <component name="Gravimetric Sensor Cluster" id="11534"></component>
-    <component name="Nanomechanical Microprocessor" id="11538"></component>
-    <component name="Quantum Microprocessor" id="11540"></component>
+    <component name="Gravimetric Sensor Cluster" id="11534">1000</component>
+    <component name="Nanomechanical Microprocessor" id="11538">400</component>
+    <component name="Quantum Microprocessor" id="11540">1200</component>
     <mineral name="Isogen" id="37">19600</mineral>
     <mineral name="Megacyte" id="40">0</mineral>
     <mineral name="Mexallon" id="36">95700</mineral>
@@ -235,8 +235,8 @@
     <other name="Warp Scrambler I" id="">100</other>
   </inventor>
   <inventor id="i696814627" name="Nighteyes5">
-    <component name="Particle Accelerator Unit" id="11688"></component>
-    <component name="Thermonuclear Trigger Unit" id="11691"></component>
+    <component name="Particle Accelerator Unit" id="11688">3200</component>
+    <component name="Thermonuclear Trigger Unit" id="11691">2000</component>
     <mineral name="Isogen" id="37">150400</mineral>
     <mineral name="Megacyte" id="40">1600</mineral>
     <mineral name="Mexallon" id="36">329800</mineral>
@@ -254,12 +254,12 @@
     <other name="R.A.M. - Weapon Tech" id="11486">208</other>
   </inventor>
   <inventor id="i1115128917" name="Mina Sola">
-    <component name="Crystalline Carbonite Armor Plate" id="11545"></component>
-    <component name="Fernite Carbide Composite Armor Plate" id="11542"></component>
-    <component name="Sustained Shield Emitter" id="11558"></component>
-    <component name="Tesseract Capacitor Unit" id="11554"></component>
-    <component name="Titanium Diborite Armor Plate" id="29107"></component>
-    <component name="Tungsten Carbide Armor Plate" id="11543"></component>
+    <component name="Crystalline Carbonite Armor Plate" id="11545">300</component>
+    <component name="Fernite Carbide Composite Armor Plate" id="11542">1300</component>
+    <component name="Sustained Shield Emitter" id="11558">2000</component>
+    <component name="Tesseract Capacitor Unit" id="11554">600</component>
+    <component name="Titanium Diborite Armor Plate" id="29107">300</component>
+    <component name="Tungsten Carbide Armor Plate" id="11543">300</component>
     <mineral name="Isogen" id="37">5200</mineral>
     <mineral name="Megacyte" id="40">1000</mineral>
     <mineral name="Mexallon" id="36">114300</mineral>
@@ -275,8 +275,8 @@
     <other name="R.A.M. Armor/Hull Tech" id="11475">80</other>
   </inventor>
   <inventor id="i90471974" name="Anton Renard">
-    <component name="Nanomechanical Microprocessor" id="11538"></component>
-    <component name="Quantum Microprocessor" id="11540"></component>
+    <component name="Nanomechanical Microprocessor" id="11538">1500</component>
+    <component name="Quantum Microprocessor" id="11540">1600</component>
     <mineral name="Isogen" id="37">700</mineral>
     <mineral name="Mexallon" id="36">13800</mineral>
     <mineral name="Morphite" id="11399">2300</mineral>
@@ -295,10 +295,10 @@
     <other name="Tracking Enhancer I" id="">200</other>
   </inventor>
   <inventor id="i348613732" name="Agasa Kaolla">
-    <component name="Deflection Shield Emitter" id="11555"></component>
-    <component name="Linear Shield Emitter" id="11557"></component>
-    <component name="Pulse Sheild Emitter" id="11556"></component>
-    <component name="Sustained Shield Emitter" id="11558"></component>
+    <component name="Deflection Shield Emitter" id="11555">1000</component>
+    <component name="Linear Shield Emitter" id="11557">5000</component>
+    <component name="Pulse Sheild Emitter" id="11556">1000</component>
+    <component name="Sustained Shield Emitter" id="11558">1000</component>
     <mineral name="Isogen" id="37">800</mineral>
     <mineral name="Megacyte" id="40">2600</mineral>
     <mineral name="Mexallon" id="36">127000</mineral>
