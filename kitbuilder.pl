@@ -32,6 +32,7 @@ my %shopping;	#all materials needed to produce	$shopping{id}=qty;
 my $joblist="producers.xml";
 my $matlist="manufacture.xml";
 my $complist="component.xml";
+my $t1list="t1.xml";
 my $outfile="kits.xml";
 
 my $staffpage = new XML::Simple;
@@ -41,13 +42,92 @@ my $matspage = new XML::Simple;
 my $mats = $matspage->XMLin($matlist);
 
 #&loadKits;	#BROKEN
-
+&loader;
 &quickKits;
 
 &shopping;
 
 &printer;
 
+my (
+	%comp,
+	%goo,
+	%min,
+	%PI,
+	%DC,
+);
+sub loader {
+	###COMPONENT###
+	my $comppage = new XML::Simple;
+	my $comps = $comppage->XMLin($complist);
+	
+	foreach my $class (keys %{$comps->{component}}){
+		foreach my $prod (keys %{$comps->{component}->{$class}}){
+			if ($prod eq "name"){
+				next;
+			}
+			$comp{$prod}=$comps->{component}->{$class}->{$prod}->{name};
+		}
+	}
+	
+	%min=(
+		"i11399", "Morphite",
+		"i37", "Isogen",
+		"i40", "Megacyte",
+		"i36", "Mexallon",
+		"i38", "Nocxium",
+		"i35", "Pyerite",
+		"i34", "Tritanium",
+		"i39", "Zydrine",
+	);
+
+	%PI=(
+		"i3689", "Mechanical Parts",
+		"i9842", "Miniature Electronics",
+		"i9834", "Guidance System",
+		"i9848", "Robotics",
+		"i9830", "Rocket Fuel",
+		"i9838", "Super Conductors",
+		"i9840", "Transmitter",
+		"i3828", "Construction Blocks",
+		"i3685", "Hydrogen Batteries",
+		"i3687", "Electronic Parts",
+	);
+
+	%DC=(
+		"i20417", "Datacore - Electromagnetic Physics",
+		"i20418", "Datacore - Electronic Engineering",
+		"i20419", "Datacore - Graviton Physics",
+		"i20411", "Datacore - High Energy Physics",
+		"i20171", "Datacore - Hydromagnetic Physics",
+		"i20413", "Datacore - Laser Physics",
+		"i20424", "Datacore - Mechanical Engineering",
+		"i20415", "Datacore - Molecular Engineering",
+		"i20416", "Datacore - Nanite Engineering",
+		"i20423", "Datacore - Nuclear Physics",
+		"i20412", "Datacore - Plasma Physics",
+		"i20414", "Datacore - Quantum Physics",
+		"i20420", "Datacore - Rocket Science",
+		"i20421", "Datacore - Amarrian Starship Engineering",
+		"i25887", "Datacore - Caldari Starship Engineering",
+		"i20410", "Datacore - Gallentean Starship Engineering",
+		"i20172", "Datacore - Minmatar Starship Engineering",
+	);
+
+	%goo=(
+		"i16670", "Crystalline Carbonite",
+		"i17317", "Fermionic Condensates",
+		"i16673", "Fernite Carbide",
+		"i16683", "Ferrogel",
+		"i16679", "Fullerides",
+		"i16682", "Hypersynaptic Fibers",
+		"i16681", "Nanotransisotrs",
+		"i16680", "Phenolic Composits",
+		"i16678", "Sylramic Fibers",
+		"i16671", "Titanium Carbonite",
+		"i16672", "Tungsten Carbonite",
+	);
+};
 sub loadKits{##using slow search method
 	foreach my $workers (keys %{$staff->{staff}}){
 		$employee{$workers}=$staff->{staff}->{$workers}->{name};
@@ -170,13 +250,90 @@ sub printer{
 	$writer->startTag('root');
 	
 	foreach my $people (keys %{$staff->{staff}}){
-		$writer->startTag ($people, 'name'=>$employee{$people});
+		$writer->startTag ("inventor", 'id'=>$people, 'name'=>$employee{$people});
+		my %subMin;
+		my %subComp;
+		my %subDC;
+		my %subPI;
+		my %subGoo;
+		my %subOther;
+		
+
+	#%comp,
+	#%goo,
+	#%min,
+	#%PI,
+	#%DC,
+
 		foreach my $parts (keys %{$kits{$people}}){
-			$writer->startTag($parts, 'name'=>$names{$parts});
-			$writer->characters ($kits{$people}{$parts});
+			if (exists $comp{$parts}){	#Component
+				$subComp{$names{$parts}}= $parts;
+			}
+			elsif(exists $goo{$parts}){	#Advanced material
+				$subGoo{$names{$parts}}= $parts;
+			}	
+			elsif(exists $min{$parts}){	#Mineral
+				$subMin{$names{$parts}}= $parts;
+			}
+			elsif(exists $PI{$parts}){	#trade good
+				$subPI{$names{$parts}}= $parts;
+			}
+			elsif(exists $DC{$parts}){	#Datacore
+				$subDC{$names{$parts}}= $parts;
+			}
+			else{	#T1, etc
+				print $parts."\n";
+				$subOther{$names{$parts}}=$parts;
+			}
+		}
+		
+		foreach my $kComp (sort keys %subComp){
+			my $id1;
+			(undef, $id1)=split('i', $subComp{$kComp});
+			$writer->startTag("component", 'name'=>$names{$subComp{$kComp}}, 'id'=>$id1);
+			$writer->characters($kits{$people}{$kComp});
+			$writer->endTag();
+		}
+		foreach my $kGoo(sort keys %subGoo){
+			my $id2;
+			(undef, $id2)=split('i', $subGoo{$kGoo});
+			$writer->startTag("moongoo", 'name'=>$names{$subGoo{$kGoo}}, 'id'=>$id2);
+			$writer->characters($kits{$people}{$subGoo{$kGoo}});
+			$writer->endTag();
+		}
+		foreach my $kMin(sort keys %subMin){
+			my $id3;
+			(undef, $id3)=split('i', $subMin{$kMin});
+			$writer->startTag("mineral", 'name'=>$names{$subMin{$kMin}}, 'id'=>$id3);
+			$writer->characters($kits{$people}{$subMin{$kMin}});
+			$writer->endTag();
+		}
+		foreach my $kPI(sort keys %subPI){
+			my $id4;
+			(undef, $id4)=split('i', $subPI{$kPI});
+			$writer->startTag("PI", 'name'=>$names{$subPI{$kPI}}, 'id'=>$id4);
+			$writer->characters($kits{$people}{$subPI{$kPI}});
+			$writer->endTag();
+		}
+		foreach my $kDC(sort keys %subDC){
+			my $id5;
+			(undef, $id5)=split('i', $subDC{$kDC});
+			$writer->startTag("datacore", 'name'=>$names{$subDC{$kDC}}, 'id'=>$id5);
+			$writer->characters($kits{$people}{$subDC{$kDC}});
+			$writer->endTag();
+		}
+		foreach my $kOther(sort keys %subOther){
+			my $id6;
+			(undef, $id6)=split('i', $subOther{$kOther});
+			$writer->startTag("other", 'name'=>$names{$subOther{$kOther}}, 'id'=>$id6);
+			$writer->characters($kits{$people}{$subOther{$kOther}});
 			$writer->endTag();
 		}
 		$writer->endTag();
+		#$writer->startTag($parts, 'name'=>$names{$parts});
+		#$writer->characters ($kits{$people}{$parts});
+		#$writer->endTag();
+		#$writer->endTag();
 	}
 	$writer->endTag();
 	$writer->end();
