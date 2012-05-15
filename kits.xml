@@ -10,7 +10,7 @@
     <mineral name="Morphite" id="11399">1,800</mineral>
     <mineral name="Nocxium" id="38">35,700</mineral>
     <mineral name="Pyerite" id="35">1,616,400</mineral>
-    <mineral name="Tritanium" id="34">507,000</mineral>
+    <mineral name="Tritanium" id="34">3,507,000</mineral>
     <mineral name="Zydrine" id="39">800</mineral>
     <PI name="Robotics" id="9848">3,000</PI>
     <datacore name="Datacore - Mechanical Engineering" id="20424">240</datacore>
@@ -22,24 +22,24 @@
     <other name="R.A.M. - Weapon Tech" id="11486">203</other>
   </inventor>
   <inventor id="i1586300403" name="Feysha Whitestar">
-    <component name="Antimatter Reactor Unit" id="11549">2,500</component>
-    <component name="Ion Thruster" id="11531">5,000</component>
-    <component name="Plasma Thruster" id="11530">5,600</component>
+    <component name="Antimatter Reactor Unit" id="11549">2,000</component>
+    <component name="Ion Thruster" id="11531">4,000</component>
+    <component name="Plasma Thruster" id="11530">5,400</component>
     <mineral name="Isogen" id="37">2,800</mineral>
     <mineral name="Megacyte" id="40">500</mineral>
-    <mineral name="Mexallon" id="36">47,900</mineral>
-    <mineral name="Morphite" id="11399">6,000</mineral>
-    <mineral name="Nocxium" id="38">1,200</mineral>
-    <mineral name="Pyerite" id="35">2,544,000</mineral>
-    <mineral name="Tritanium" id="34">3,615,900</mineral>
+    <mineral name="Mexallon" id="36">47,700</mineral>
+    <mineral name="Morphite" id="11399">5,800</mineral>
+    <mineral name="Nocxium" id="38">1,000</mineral>
+    <mineral name="Pyerite" id="35">2,535,900</mineral>
+    <mineral name="Tritanium" id="34">3,588,000</mineral>
     <mineral name="Zydrine" id="39">300</mineral>
-    <datacore name="Datacore - Molecular Engineering" id="20415">140</datacore>
-    <datacore name="Datacore - Rocket Science" id="20420">140</datacore>
+    <datacore name="Datacore - Molecular Engineering" id="20415">120</datacore>
+    <datacore name="Datacore - Rocket Science" id="20420">120</datacore>
     <other name="10MN Afterburner I" id="">100</other>
     <other name="10MN MicroWarpdrive I" id="">100</other>
-    <other name="1MN Afterburner I" id="">200</other>
+    <other name="1MN Afterburner I" id="">100</other>
     <other name="1MN MicroWarpdrive I" id="">100</other>
-    <other name="R.A.M. Armor/Hull Tech" id="11475">19</other>
+    <other name="R.A.M. Armor/Hull Tech" id="11475">18</other>
   </inventor>
   <inventor id="i91380984" name="Roland Raskolnikov">
     <component name="Deflection Shield Emitter" id="11555">1,000</component>
@@ -105,27 +105,27 @@
     <other name="Tracking Enhancer I" id="">200</other>
   </inventor>
   <inventor id="i1037534334" name="Perrin Girard">
-    <component name="Crystalline Carbonite Armor Plate" id="11545">32,400</component>
-    <component name="Fusion Reactor Unit" id="11547">498</component>
-    <component name="Ion Thruster" id="11531">840</component>
-    <component name="Magnetometric Sensor Cluster" id="11535">2,730</component>
-    <component name="Oscillator Capacitor Unit" id="11553">6,480</component>
-    <component name="Photon Microprocessor" id="11541">31,440</component>
-    <component name="Pulse Sheild Emitter" id="11556">2,370</component>
-    <mineral name="Isogen" id="37">760</mineral>
-    <mineral name="Megacyte" id="40">40</mineral>
-    <mineral name="Mexallon" id="36">4,752</mineral>
-    <mineral name="Morphite" id="11399">1,384</mineral>
-    <mineral name="Nocxium" id="38">144</mineral>
-    <mineral name="Pyerite" id="35">7,144</mineral>
-    <mineral name="Tritanium" id="34">19,512</mineral>
-    <mineral name="Zydrine" id="39">72</mineral>
-    <PI name="Construction Blocks" id="3828">1,054</PI>
-    <datacore name="Datacore - Gallentean Starship Engineering" id="20410">362.4</datacore>
-    <datacore name="Datacore - Mechanical Engineering" id="20424">362.4</datacore>
-    <other name="Covetor" id="">10</other>
-    <other name="R.A.M. Starship Tech" id="11478">110.2</other>
-    <other name="Tristan" id="">8</other>
+    <component name="Crystalline Carbonite Armor Plate" id="11545">18,000</component>
+    <component name="Fusion Reactor Unit" id="11547">224</component>
+    <component name="Ion Thruster" id="11531">904</component>
+    <component name="Magnetometric Sensor Cluster" id="11535">1,440</component>
+    <component name="Oscillator Capacitor Unit" id="11553">2,400</component>
+    <component name="Photon Microprocessor" id="11541">5,040</component>
+    <component name="Pulse Sheild Emitter" id="11556">720</component>
+    <mineral name="Isogen" id="37">6,840</mineral>
+    <mineral name="Megacyte" id="40">192</mineral>
+    <mineral name="Mexallon" id="36">9,504</mineral>
+    <mineral name="Morphite" id="11399">1,328</mineral>
+    <mineral name="Nocxium" id="38">1,344</mineral>
+    <mineral name="Pyerite" id="35">14,288</mineral>
+    <mineral name="Tritanium" id="34">52,752</mineral>
+    <mineral name="Zydrine" id="39">392</mineral>
+    <PI name="Construction Blocks" id="3828">1,216</PI>
+    <datacore name="Datacore - Gallentean Starship Engineering" id="20410">169.6</datacore>
+    <datacore name="Datacore - Mechanical Engineering" id="20424">169.6</datacore>
+    <other name="Incursus" id="">16</other>
+    <other name="R.A.M. Starship Tech" id="11478">91.2</other>
+    <other name="Tristan" id="">16</other>
   </inventor>
   <inventor id="i1845303338" name="Iviar Hoth">
     <component name="Gravimetric Sensor Cluster" id="11534">1,000</component>
@@ -149,24 +149,24 @@
     <other name="Warp Scrambler I" id="">100</other>
   </inventor>
   <inventor id="i847159430" name="Roeth Whitestar">
-    <component name="Antimatter Reactor Unit" id="11549">2,500</component>
-    <component name="Ion Thruster" id="11531">5,000</component>
-    <component name="Plasma Thruster" id="11530">5,600</component>
+    <component name="Antimatter Reactor Unit" id="11549">2,000</component>
+    <component name="Ion Thruster" id="11531">4,000</component>
+    <component name="Plasma Thruster" id="11530">5,400</component>
     <mineral name="Isogen" id="37">2,800</mineral>
     <mineral name="Megacyte" id="40">500</mineral>
-    <mineral name="Mexallon" id="36">47,900</mineral>
-    <mineral name="Morphite" id="11399">6,000</mineral>
-    <mineral name="Nocxium" id="38">1,200</mineral>
-    <mineral name="Pyerite" id="35">2,544,000</mineral>
-    <mineral name="Tritanium" id="34">3,615,900</mineral>
+    <mineral name="Mexallon" id="36">47,700</mineral>
+    <mineral name="Morphite" id="11399">5,800</mineral>
+    <mineral name="Nocxium" id="38">1,000</mineral>
+    <mineral name="Pyerite" id="35">2,535,900</mineral>
+    <mineral name="Tritanium" id="34">3,588,000</mineral>
     <mineral name="Zydrine" id="39">300</mineral>
-    <datacore name="Datacore - Molecular Engineering" id="20415">140</datacore>
-    <datacore name="Datacore - Rocket Science" id="20420">140</datacore>
+    <datacore name="Datacore - Molecular Engineering" id="20415">120</datacore>
+    <datacore name="Datacore - Rocket Science" id="20420">120</datacore>
     <other name="10MN Afterburner I" id="">100</other>
     <other name="10MN MicroWarpdrive I" id="">100</other>
-    <other name="1MN Afterburner I" id="">200</other>
+    <other name="1MN Afterburner I" id="">100</other>
     <other name="1MN MicroWarpdrive I" id="">100</other>
-    <other name="R.A.M. Armor/Hull Tech" id="11475">19</other>
+    <other name="R.A.M. Armor/Hull Tech" id="11475">18</other>
   </inventor>
   <inventor id="i425131377" name="Anya Kitsune">
     <component name="Deflection Shield Emitter" id="11555">784</component>
@@ -243,7 +243,7 @@
     <mineral name="Morphite" id="11399">2,400</mineral>
     <mineral name="Nocxium" id="38">35,800</mineral>
     <mineral name="Pyerite" id="35">1,482,400</mineral>
-    <mineral name="Tritanium" id="34">427,600</mineral>
+    <mineral name="Tritanium" id="34">3,427,600</mineral>
     <mineral name="Zydrine" id="39">600</mineral>
     <PI name="Robotics" id="9848">2,400</PI>
     <datacore name="Datacore - Mechanical Engineering" id="20424">200</datacore>
