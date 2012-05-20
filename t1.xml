@@ -592,6 +592,44 @@
 				<i34 name="Tritanium">15476</i34>
 				<i39 name="Zydrine">2</i39>
 			</i598>
+			<i599 name="Burst" id="BURST">
+			</i599>
+			<i586 name="Probe" id="PRB">
+			</i586>
+			<i3766 name="Vigil" id="VIGL">
+			</i3766>
+			<i582 name="Bantam" id="BATM">
+			</i582>
+			<i583 name="Condor" id="CNDR">
+			</i583>
+			<i584 name="Griffin" id="GRFN">
+			</i584>
+			<i605 name="Heron" id="HRN">
+			</i605>
+			<i602 name="Kestrel" id="KSTR">
+			</i602>
+			<i603 name="Merlin" id="MRLN">
+			</i603>
+			<i2161 name="Crucifier" id="CRFR">
+			</i2161>
+			<i589 name="Executioner" id="EXEC">
+			</i589>
+			<i590 name="Inquisitor" id="INQU">
+			</i590>
+			<i29248 name="Magnate" id="MAGN">
+			</i29248>
+			<i597 name="Punisher" id="PUNISH">
+			</i597>
+			<i591 name="Tormentor" id="TRMT">
+			</i591>
+			<i608 name="Atron" id="ATRN">
+			</i608>
+			<i607 name="Imicus" id="IMIC">
+			</i607>
+			<i609 name="Maulus" id="MAUL">
+			</i609>
+			<i592 name="Navitas" id="NAVI">
+			</i592>
 			<i594 name="Incursus" id="ICRS">
 				<i37 name="Isogen">7</i37>
 				<i40 name="Megacyte">0</i40>
