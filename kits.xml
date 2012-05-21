@@ -54,7 +54,7 @@
     <mineral name="Pyerite" id="35">390,300</mineral>
     <mineral name="Tritanium" id="34">54,900</mineral>
     <mineral name="Zydrine" id="39">0</mineral>
-    <PI name="Superconductors" id="9838">2,200</PI>
+    <PI name="Superconductors" id="9838">3,200</PI>
     <PI name="Transmitter" id="9840">800</PI>
     <datacore name="Datacore - Hydromagnetic Physics" id="20171">220</datacore>
     <datacore name="Datacore - Quantum Physics" id="20414">220</datacore>
@@ -333,7 +333,7 @@
     <mineral name="Pyerite" id="35">390,300</mineral>
     <mineral name="Tritanium" id="34">54,900</mineral>
     <mineral name="Zydrine" id="39">0</mineral>
-    <PI name="Superconductors" id="9838">2,200</PI>
+    <PI name="Superconductors" id="9838">3,200</PI>
     <PI name="Transmitter" id="9840">800</PI>
     <datacore name="Datacore - Hydromagnetic Physics" id="20171">220</datacore>
     <datacore name="Datacore - Quantum Physics" id="20414">220</datacore>
@@ -379,7 +379,7 @@
     <PI name="Mechanical Parts">5,200</PI>
     <PI name="Miniature Electronics">11,600</PI>
     <PI name="Robotics">5,400</PI>
-    <PI name="Superconductors">4,400</PI>
+    <PI name="Superconductors">6,400</PI>
     <PI name="Transmitter">13,900</PI>
     <Other name="10MN Afterburner I">200</Other>
     <Other name="10MN MicroWarpdrive I">200</Other>
