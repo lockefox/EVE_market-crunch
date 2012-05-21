@@ -69,22 +69,25 @@
 			<i448 name="Warp Scrambler II">100</i448>
 		</i1845303338>
 		<!--i1439910980 name="Meganium Shakra"-->
-		<i300782851 name="TheAhmosis"><!---->
-			<i527 name="Stasis Webifier II">200</i527>
-			<i3244 name="Warp Disruptor II">200</i3244>
-			<i448 name="Warp Scrambler II">100</i448>
-		</i300782851>
+
 	<!--Ships-->
 		<i1037534334 name="Perrin Girard"><!---->
 			<i12044 name="Enyo">8</i12044>
 			<i11377 name="Nemesis">16</i11377>
-			<i12042 name="Ishkur">8</i12042>
+			<i12005 name="Ishtar">6</i12005>
 		</i1037534334>
 		<i425131377 name="Anya Kitsune"><!---->
 			<i11371 name="Wolf">8</i11371>
-			<i12034 name="Hound">16</i12034>
+			<i12034 name="Hound">8</i12034>
 			<i22456 name="Sabre">8</i22456>
+			<i11963 name="Rapier">6</i11963>
 		</i425131377>
+		<i300782851 name="TheAhmosis"><!---->
+			<i11194 name="Kitsune">16</i11194>
+			<i11379 name="Hawk">8</i11379>
+			<i11381 name="Harpy">8</i11381>
+			<i12032 name="Manticore">16</i12032>
+		</i300782851>
 	</staff>	
 	<pos>
 	</pos>

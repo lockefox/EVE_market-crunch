@@ -250,64 +250,11 @@ sub shopping{
 	my $t1page= new XML::Simple;
 	my $t1XML = $t1page->XMLin($T1list);
 	
-	foreach my $member (keys %{$staff->{staff}}){
-		foreach my $tobuild (keys %{$staff->{staff}->{$member}}){
-			if ($tobuild eq "name"){
-				next;
-			}
-			my $qty = $staff->{staff}->{$member}->{$tobuild}->{content};
-			my $div = $mats->{T2}->{($subset{$tobuild})}->{$tobuild}->{qty};
-			
-			my $x= $qty/$div;
-			foreach my $materials(keys %{$mats->{T2}->{($subset{$tobuild})}->{$tobuild}}){
-				if ($materials =~/^i/ or $materials =~ /[A-Z]/){
-					my $mult = $mats->{T2}->{($subset{$tobuild})}->{$tobuild}->{$materials}->{content};
-					if (!(exists $shopping{$materials})){
-						$shopping{$materials}=0;	#Initializes entry
-					}
-					
-					if ($materials =~ /[A-Z]/){		#T1
-							my $grp = $subset{$tobuild};
-							if ($grp eq "ships"){
-								my $sub = $mats->{T2}->{($subset{$tobuild})}->{$tobuild}->{mfg_grp};
-								
-								foreach my $mins (keys %{$t1XML->{ship}->{$sub}->{$materials}}){
-									if ($mins eq "name" or $mins eq "id"){
-										next;
-									}
-									$shopping{$materials}+= $t1XML->{ship}->{$sub}->{$materials}->{$mins}->{content} * $mult *$x;
-								}
-							}
-							else{
-								foreach my $mins (keys %{$t1XML->{module}->{$grp}->{$materials}}){
-									if ($mins eq "name" or $mins eq "id"){
-										next;
-									}
-									
-									$shopping{$materials}+=$t1XML->{module}->{$grp}->{$materials}->{$mins}->{content} * $mult *$x;
-								}
-							}
-					}
-					if ($materials =~ /^i/){	#regular materials
-						if (exists $component{$materials}){ #component
-							foreach my $subcomp (keys %{$component{$materials}}){
-								$shopping{$subcomp}+=$component{$materials}{$subcomp} * $mult * $x;
-							}
-						}
-		
-						elsif (exists $ramid{$materials}){	#RAM
-							#my $y = ceil($x*$mult);	#Round up, for whole numbers
-							#$shopping{"i37"} += 74*$y;	#Isogen
-							#$shopping{"i36"} += 200*$y;	#Mexallon
-							#$shopping{"i38"} += 32*$y;	#Nocxium
-							#$shopping{"i35"} += 400*$y; #Pyerite
-							#$shopping{"i34"} += 500*$y;	#Tritanium
-						}
-						else{								#PI, Datacores, minerals
-							$shopping{$materials}+= $x * $mult;
-						}
-					}
-				}
+
+	foreach my $pilots (keys %kits){
+		foreach my $materialKeys (keys %{$kits{$pilots}){
+			if ( exists $component{$materialKeys}){
+				
 			}
 		}
 	}
@@ -430,6 +377,10 @@ sub printer{
 		#$writer->characters ($kits{$people}{$parts});
 		#$writer->endTag();
 		#$writer->endTag();
+	}
+	if ($shoppinglist eq 1){
+		$writer->startTag("Shopping");
+		
 	}
 	$writer->endTag();
 	$writer->end();
