@@ -69,7 +69,11 @@
 			<i448 name="Warp Scrambler II">100</i448>
 		</i1845303338>
 		<!--i1439910980 name="Meganium Shakra"-->
-
+		<i865811521 name="Kyne Berlia">
+			<i527 name="Stasis Webifier II">200</i527>
+			<i3244 name="Warp Disruptor II">200</i3244>
+			<i448 name="Warp Scrambler II">100</i448>
+		</i865811521>
 	<!--Ships-->
 		<i1037534334 name="Perrin Girard"><!---->
 			<i12044 name="Enyo">8</i12044>

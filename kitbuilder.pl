@@ -27,7 +27,8 @@ my %subset;
 #############
 
 my %kits;	#$kits{$inventor}{itemID}=quantity
-my %shopping;	#all materials needed to produce	$shopping{id}=qty;
+my %shopping;	#all materials needed to produce
+#	$shopping{subgroup}{name}=qty
 
 my %ramid=(
 	"i11476", "Ammo Tech",
@@ -43,6 +44,8 @@ my %ramid=(
 my $joblist="producers.xml";
 my $matlist="manufacture.xml";
 my $complist="component.xml";
+
+my $shoppinglist=1;
 
 my $T1list="t1.xml";
 
@@ -60,7 +63,7 @@ my $mats = $matspage->XMLin($matlist);
 &loader;
 &quickKits;
 
-#&shopping;
+&shopping;
 
 &printer;
 
@@ -154,7 +157,7 @@ sub loader {
 sub loadKits{##using slow search method
 	foreach my $workers (keys %{$staff->{staff}}){
 		$employee{$workers}=$staff->{staff}->{$workers}->{name};
-		print $employee{$workers}.":";
+		#print $employee{$workers}.":";
 		
 		foreach my $products (keys %{$staff->{staff}->{$workers}}){
 			if ($products eq "name"){
@@ -189,7 +192,7 @@ sub loadKits{##using slow search method
 					}
 				}
 			}
-			print Dumper (%kits);
+			#print Dumper (%kits);
 		}
 		print "\n";
 	}
@@ -200,7 +203,7 @@ sub quickKits{
 	
 	foreach my $pilot (keys %{$staff->{staff}}){
 		$employee{$pilot}=$staff->{staff}->{$pilot}->{name};
-		print $employee{$pilot}.":";
+		#print $employee{$pilot}.":";
 		my $x=0;
 		foreach my $products (keys %{$staff->{staff}->{$pilot}}){
 			if ($products eq "name"){
@@ -212,7 +215,7 @@ sub quickKits{
 			my $div = $mats->{T2}->{($subset{$products})}->{$products}->{qty};
 			
 			$x = $qty/$div;
-			print $names{$products}."x".$x."(".$qty."/".$div.")\n";
+			#print $names{$products}."x".$x."(".$qty."/".$div.")\n";
 			foreach my $parts (keys %{$mats->{T2}->{($subset{$products})}->{$products}}){
 				if ($parts eq "bld_time"){
 					next;
@@ -246,19 +249,64 @@ sub typeLoader{
 sub shopping{
 	my %component;	#$component{$ID}{$material}=qty;
 	%component = &compload();
-	
+	#	$shopping{$subgroup}{name}=qty
 	my $t1page= new XML::Simple;
 	my $t1XML = $t1page->XMLin($T1list);
 	
 
 	foreach my $pilots (keys %kits){
-		foreach my $materialKeys (keys %{$kits{$pilots}){
+		foreach my $materialKeys (keys %{$kits{$pilots}}){
 			if ( exists $component{$materialKeys}){
-				
+				my $qty = $kits{$pilots}{$materialKeys};
+				foreach my $sub1 (keys %{$component{$materialKeys}}){
+					if (!(exists $shopping{"component"}{($names{$sub1})})){
+						$shopping{"component"}{($names{$sub1})}=$qty * $component{$materialKeys}{$sub1};
+					}
+					else{
+						$shopping{"component"}{($names{$sub1})}+=$qty * $component{$materialKeys}{$sub1};
+					}
+				}
+				next;
+			}
+			if( exists $min{$materialKeys}){
+					if (!(exists $shopping{"mineral"}{($names{$materialKeys})})){
+						$shopping{"mineral"}{($names{$materialKeys})}=$kits{$pilots}{$materialKeys};
+					}
+					else{
+						$shopping{"mineral"}{($names{$materialKeys})}+=$kits{$pilots}{$materialKeys};
+					}
+				next;
+			}
+			if(exists $DC{$materialKeys}){
+					if (!(exists $shopping{"datacore"}{($names{$materialKeys})})){
+						$shopping{"datacore"}{($names{$materialKeys})}=$kits{$pilots}{$materialKeys};
+					}
+					else{
+						$shopping{"datacore"}{($names{$materialKeys})}+=$kits{$pilots}{$materialKeys};
+					}
+				next;
+			}
+			if(exists $PI{$materialKeys}){
+					if (!(exists $shopping{"PI"}{($names{$materialKeys})})){
+						$shopping{"PI"}{($names{$materialKeys})}=$kits{$pilots}{$materialKeys};
+					}
+					else{
+						$shopping{"PI"}{($names{$materialKeys})}+=$kits{$pilots}{$materialKeys};
+					}
+				next;
+			}
+			else{
+				if (!(exists $shopping{"other"}{($names{$materialKeys})})){
+					$shopping{"other"}{($names{$materialKeys})}=$kits{$pilots}{$materialKeys};
+				}
+				else{
+					$shopping{"other"}{($names{$materialKeys})}+=$kits{$pilots}{$materialKeys};
+				}
+				next;
 			}
 		}
 	}
-	print Dumper (%shopping);
+	#print Dumper (%shopping);
 };
 
 sub compload{
@@ -380,7 +428,33 @@ sub printer{
 	}
 	if ($shoppinglist eq 1){
 		$writer->startTag("Shopping");
-		
+		#$writer->startTag("mineral");
+			foreach my $compKey (sort keys %{$shopping{"component"}}){
+				$writer->startTag("Component", 'name'=>$compKey);
+				$writer->characters(&commify($shopping{"component"}{$compKey}));
+				$writer->endTag;
+			}
+			foreach my $dcKey (sort keys %{$shopping{"datacore"}}){
+				$writer->startTag("Datacore", 'name'=>$dcKey);
+				$writer->characters(&commify($shopping{"datacore"}{$dcKey}));
+				$writer->endTag;
+			}
+			foreach my $minKey (sort keys %{$shopping{"mineral"}}){
+				$writer->startTag("Mineral", 'name'=>$minKey);
+				$writer->characters(&commify($shopping{"mineral"}{$minKey}));
+				$writer->endTag;
+			}
+			foreach my $PIKey (sort keys %{$shopping{"PI"}}){
+				$writer->startTag("PI", 'name'=>$PIKey);
+				$writer->characters(&commify($shopping{"PI"}{$PIKey}));
+				$writer->endTag;
+			}
+			foreach my $OKey (sort keys %{$shopping{"other"}}){
+				$writer->startTag("Other", 'name'=>$OKey);
+				$writer->characters(&commify($shopping{"other"}{$OKey}));
+				$writer->endTag;
+			}
+		$writer->endTag();
 	}
 	$writer->endTag();
 	$writer->end();
