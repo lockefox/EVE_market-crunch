@@ -1,6 +1,23 @@
 <root>
 	<T2>
 		<wepup>
+			<i4405 name="Drone Damage Amplfiier II">
+				<i20418 name="Datacore - Electronic Engineering">4</i20418>
+				<i20424 name="Datacore - Mechanical Engineering">4</i20424>
+				<DDA name="Drone Damage Amplifier I" id="4393">10</DDA>
+				<i11483 name="RAM - Electronics">1.5</i11483>
+				<i11541 name="Photon Microprocessor">60</i11541>
+				<i9840 name="Transmitter">30</i9840>
+				<i9842 name="Miniature Electronics">30</i9842>
+				<i11399 name="Morphite">60</i11399>
+				<i37 name="Isogen">30</i37>
+				<i40 name="Megacyte">20</i40>
+				<i36 name="Mexallon">1950</i36>
+				<i38 name="Nocxium">0</i38>
+				<i35 name="Pyerite">1790</i35>
+				<i34 name="Tritanium">0</i34>
+				<i39 name="Zydrine">50</i39>				
+			</i4405>
 			<i2291 name="Ballistic Control System II">
 				<!-- ItemID name="in game name">qty needed</itemID-->
 				<i20418 name="Datacore - Electronic Engineering">4</i20418>
