@@ -41,11 +41,21 @@ my %ramid=(
 	"i11486", "Weapon",
 );
 
+##################################################
+#
+#	GLOBAL Switches
+#
+##################################################
+
+my $commas = 0;		#Comify output (default off)
+my $shoppinglist=0;	#Add sum of all products (default off`)
+my $doT1=0;			#Add T1 minerals to shopping list output (default off)
+my $doRAM=0;		#Add RAM minerals to shopping list output (default off)
+my $doSplit=0;		#Separate T1/T2/RAM minerals from eachother (default off)
+
 my $joblist="producers.xml";
 my $matlist="manufacture.xml";
 my $complist="component.xml";
-
-my $shoppinglist=1;
 
 my $T1list="t1.xml";
 
@@ -53,12 +63,21 @@ my $t1list="t1.xml";
 
 my $outfile="kits.xml";
 
+##################################################
+#
+#	MAIN
+#
+##################################################
+
 my $staffpage = new XML::Simple;
 my $staff = $staffpage->XMLin($joblist);
 
 my $matspage = new XML::Simple;
 my $mats = $matspage->XMLin($matlist);
 
+
+
+&parseargs;
 #&loadKits;	#BROKEN
 &loader;
 &quickKits;
@@ -76,10 +95,14 @@ my (
 );
 
 sub commify {
-
+	if ($commas eq 1) {
         local $_  = shift;
         1 while s/^(-?\d+)(\d{3})/$1,$2/;
         return $_;
+	}
+	else{
+		return $_;
+	}
 
 };
 sub loader {
@@ -473,3 +496,88 @@ sub printer{
 	$writer->end();
 };
 
+sub parseargs{
+	while (my $args = shift (@ARGV)){
+		if ($args =~ /-commas/){		#Comify outputs
+			$commas=1;
+		}
+		elsif ($args =~ /-shopping/){	#Sum of all products shopping list
+			$shoppinglist=1;
+		}
+		elsif ($args =~ /-T1/){			#Add T1 minerals to shopping list
+			$doT1=1;
+		}
+		elsif ($args =~ /-RAM/){
+			$doRAM=1;
+		}
+		elsif ($args =~ /-split/){
+			$doSplit=1;
+		}
+		elsif($args =~ /-jobs=/){		#Change source XML for tasks
+			(undef, $joblist) = split (/jobs=/,$args);
+		}
+		elsif($args =~ /-h/ or $args =~ /-help/){
+			&help;
+		}
+	}
+};
+
+sub help{
+	print "\nkitbuilder.pl\n";
+	
+	print "-commas\n";
+	print "\tCommify output numbers (to be human-readable)\n";
+	print "\tDefault:";
+	if ($commas eq 0){
+		print " disabled\n";
+	}
+	else{
+		print " enabled\n";
+	}
+	
+	print "\n-shopping\n";
+	print "\tAdd sum of all products in kits.  Build a shopping list.\n";
+	print "\tDefault:";
+	if ($shoppinglist eq 0){
+		print " disabled\n";
+	}
+	else{
+		print " enabled\n";
+	}
+	
+	print "\n-T1\n";
+	print "\tAdd T1 minerals (from ".$T1list.") to shopping list.\n";
+	print "\tFor building T1 modules/ships in-house.  ALL or NONE\n";
+	print "\tDoes not separate T1/T2/RAM minerals from eachother.\n";
+	print "\tNOTE: Does nothing unless -shopping is also enabled\n";
+	print "\tDefault:";
+	if ($doT1 eq 0){
+		print " disabled\n";
+	}
+	else{
+		print " enabled\n";
+	}
+	
+	print "\n-RAM\n";
+	print "\tAdd RAM minerals to shopping list.\n";
+	print "\tFor building RAM modules/ships in-house.  ALL or NONE\n";
+	print "\tDoes not separate T1/T2/RAM minerals from eachother.\n";
+	print "\tNOTE: Does nothing unless -shopping is also enabled\n";
+	print "\tDefault:";
+	if ($doRAM eq 0){
+		print " disabled\n";
+	}
+	else{
+		print " enabled\n";
+	}
+	
+	print "\n-split\n";
+	print "\tSplit out the T1/RAM/T2 materials for easier split\n";
+	print "\tNOTE: Does nothing unless -shopping is also enabled\n";
+	print "\tDefault:";
+	print "\n-jobs=<jobs list>.xml\n";
+	print "\tChange source of jobs list.  \n";
+	print "\tDefault:".$joblist."\n";
+		
+	exit;
+}
