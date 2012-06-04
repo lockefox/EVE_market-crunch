@@ -258,12 +258,20 @@ sub shopping{
 		foreach my $materialKeys (keys %{$kits{$pilots}}){
 			if ( exists $component{$materialKeys}){
 				my $qty = $kits{$pilots}{$materialKeys};
+				if (!(exists $shopping{"component"}{($names{$materialKeys})})){
+					$shopping{"component"}{($names{$materialKeys})} = $qty;
+				}
+				else {
+					$shopping{"component"}{($names{$materialKeys})} += $qty;
+				}
+
 				foreach my $sub1 (keys %{$component{$materialKeys}}){
-					if (!(exists $shopping{"component"}{($names{$sub1})})){
-						$shopping{"component"}{($names{$sub1})}=$qty * $component{$materialKeys}{$sub1};
+					
+					if (!(exists $shopping{"goo"}{($names{$sub1})})){
+						$shopping{"goo"}{($names{$sub1})}=$qty * $component{$materialKeys}{$sub1};
 					}
 					else{
-						$shopping{"component"}{($names{$sub1})}+=$qty * $component{$materialKeys}{$sub1};
+						$shopping{"goo"}{($names{$sub1})}+=$qty * $component{$materialKeys}{$sub1};
 					}
 				}
 				next;
@@ -432,6 +440,11 @@ sub printer{
 			foreach my $compKey (sort keys %{$shopping{"component"}}){
 				$writer->startTag("Component", 'name'=>$compKey);
 				$writer->characters(&commify($shopping{"component"}{$compKey}));
+				$writer->endTag;
+			}
+			foreach my $gooKey (sort keys %{$shopping{"goo"}}){
+				$writer->startTag("goo", 'name'=>$gooKey);
+				$writer->characters(&commify($shopping{"goo"}{$gooKey}));
 				$writer->endTag;
 			}
 			foreach my $dcKey (sort keys %{$shopping{"datacore"}}){
