@@ -101,7 +101,8 @@ sub commify {
         return $_;
 	}
 	else{
-		return $_;
+		 local $_  = shift;
+		 return $_;
 	}
 
 };
