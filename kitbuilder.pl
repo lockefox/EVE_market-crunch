@@ -92,7 +92,9 @@ my (
 	%min,
 	%PI,
 	%DC,
+	%RAM,
 );
+
 
 sub commify {
 	if ($commas eq 1) {
@@ -176,6 +178,18 @@ sub loader {
 		"i16678", "Sylramic Fibers",
 		"i16671", "Titanium Carbonite",
 		"i16672", "Tungsten Carbonite",
+	);
+	
+	%RAM=(
+		"RAM", "Generic Ram",
+		"i11476", "R.A.M.- Ammunition Tech",
+		"i11475", "R.A.M.- Armor/Hull Tech",
+		"i11483", "R.A.M.- Electronics",
+		"i11482", "R.A.M.- Energy Tech",
+		"i11481", "R.A.M.- Robotics",
+		"i11484", "R.A.M.- Shield Tech",
+		"i11478", "R.A.M.- Starship Tech",
+		"i11486", "R.A.M.- Weapon Tech",
 	);
 };
 sub loadKits{##using slow search method
@@ -277,6 +291,14 @@ sub shopping{
 	my $t1page= new XML::Simple;
 	my $t1XML = $t1page->XMLin($T1list);
 	
+	my %rambuild = (
+		"i37", 74,		#Isogen
+		"i36", 200,		#Mexallon
+		"i38", 32,		#Nocxium
+		"i35", 400,		#Pyerite
+		"i34", 500,		#Tritanium
+		);
+	
 
 	foreach my $pilots (keys %kits){
 		foreach my $materialKeys (keys %{$kits{$pilots}}){
@@ -301,12 +323,28 @@ sub shopping{
 				next;
 			}
 			if( exists $min{$materialKeys}){
+				if ($doSplit eq 1){
+					if (!(exists $shopping{"T2"}{($names{$materialKeys})})){
+						$shopping{"T2"}{($names{$materialKeys})}=$kits{$pilots}{$materialKeys};
+					}
+					else{
+						$shopping{"T2"}{($names{$materialKeys})}+=$kits{$pilots}{$materialKeys};
+					}
 					if (!(exists $shopping{"mineral"}{($names{$materialKeys})})){
 						$shopping{"mineral"}{($names{$materialKeys})}=$kits{$pilots}{$materialKeys};
 					}
 					else{
 						$shopping{"mineral"}{($names{$materialKeys})}+=$kits{$pilots}{$materialKeys};
 					}
+				}
+				else{
+					if (!(exists $shopping{"mineral"}{($names{$materialKeys})})){
+						$shopping{"mineral"}{($names{$materialKeys})}=$kits{$pilots}{$materialKeys};
+					}
+					else{
+						$shopping{"mineral"}{($names{$materialKeys})}+=$kits{$pilots}{$materialKeys};
+					}
+				}
 				next;
 			}
 			if(exists $DC{$materialKeys}){
@@ -328,6 +366,53 @@ sub shopping{
 				next;
 			}
 			else{
+				if ($doT1 eq 1){
+					if ($materialKeys =~ /$[A-Z]/){	#####T1 has caps key
+					
+					
+						if ($doSplit eq 1){
+						
+						}
+						else{
+						
+						}
+					}
+				}
+				
+				if ($doRAM eq 1){
+					if (exists $RAM{$materialKeys}){
+						if ($doSplit eq 1){
+							foreach my $ramkey (keys %rambuild){
+								if (!(exists $shopping{"ram"}{($names{$materialKeys})})){
+									$shopping{"ram"}{($names{$materialKeys})}=ceil($kits{$pilots}{$materialKeys})* $rambuild{$ramkey};
+								}
+								else{
+									$shopping{"ram"}{($names{$materialKeys})}+=ceil($kits{$pilots}{$materialKeys})* $rambuild{$ramkey}
+								}
+								if (!(exists $shopping{"mineral"}{($names{$materialKeys})})){
+									$shopping{"mineral"}{($names{$materialKeys})}=ceil($kits{$pilots}{$materialKeys})* $rambuild{$ramkey};
+								}
+								else{
+									$shopping{"mineral"}{($names{$materialKeys})}+=ceil($kits{$pilots}{$materialKeys})* $rambuild{$ramkey}
+								}
+
+							}
+						}
+					
+						else{
+							foreach my $ramkey (keys %rambuild){
+								if (!(exists $shopping{"mineral"}{($names{$materialKeys})})){
+									$shopping{"mineral"}{($names{$materialKeys})}=ceil($kits{$pilots}{$materialKeys})* $rambuild{$ramkey};
+								}
+								else{
+									$shopping{"mineral"}{($names{$materialKeys})}+=ceil($kits{$pilots}{$materialKeys})* $rambuild{$ramkey}
+								}
+
+							}
+						}
+					}
+				}
+				
 				if (!(exists $shopping{"other"}{($names{$materialKeys})})){
 					$shopping{"other"}{($names{$materialKeys})}=$kits{$pilots}{$materialKeys};
 				}
@@ -574,8 +659,10 @@ sub help{
 	
 	print "\n-split\n";
 	print "\tSplit out the T1/RAM/T2 materials for easier split\n";
+	print "\tStill prints total <mineral> counts along with individual subgroups";
 	print "\tNOTE: Does nothing unless -shopping is also enabled\n";
 	print "\tDefault:";
+	
 	print "\n-jobs=<jobs list>.xml\n";
 	print "\tChange source of jobs list.  \n";
 	print "\tDefault:".$joblist."\n";
