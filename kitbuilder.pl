@@ -75,6 +75,9 @@ my $staff = $staffpage->XMLin($joblist);
 my $matspage = new XML::Simple;
 my $mats = $matspage->XMLin($matlist);
 
+my $t1page = new XML::Simple;
+my $T1s = $t1page->XMLin($T1list);
+
 
 
 &parseargs;
@@ -84,7 +87,7 @@ my $mats = $matspage->XMLin($matlist);
 
 &shopping;
 
-&printer;
+#&printer;
 
 my (
 	%comp,
@@ -93,6 +96,7 @@ my (
 	%PI,
 	%DC,
 	%RAM,
+	%T1,
 );
 
 
@@ -230,7 +234,7 @@ sub loadKits{##using slow search method
 					}
 				}
 			}
-			#print Dumper (%kits);
+			print Dumper (%kits);
 		}
 		print "\n";
 	}
@@ -266,10 +270,17 @@ sub quickKits{
 					else{
 						$kits{$pilot}{$parts}=$mats->{T2}->{($subset{$products})}->{$products}->{$parts}->{content} * $x;
 					}
+					if($parts =~ /[A-Z]/){
+						$T1{$parts}[0]="i".$mats->{T2}->{($subset{$products})}->{$products}->{$parts}->{id};
+						$T1{$parts}[1]=$subset{$products};
+						$T1{$parts}[2]=$mats->{T2}->{($subset{$products})}->{$products}->{flag};
+						#print $parts."=".$mats->{T2}->{($subset{$products})}->{$products}->{$parts}->{id};
+					}
 				}
 			}
 		}
 		#print Dumper(%kits);
+		print Dumper(%T1);
 	}
 	
 };
@@ -367,14 +378,37 @@ sub shopping{
 			}
 			else{
 				if ($doT1 eq 1){
-					if ($materialKeys =~ /$[A-Z]/){	#####T1 has caps key
-					
-					
-						if ($doSplit eq 1){
-						
-						}
-						else{
-						
+
+					if ($materialKeys =~ /[A-Z]/){	#####T1 has caps key
+						print $materialKeys.":\n";
+						my $mQty = $kits{$pilots}{$materialKeys};
+						#print $T1s->{$T1{$materialKeys}[2]}->{$T1{$materialKeys}[1]}->{$T1{$materialKeys}[0]}->{name}."\n";
+						foreach my $mineralKey (keys %{$T1s->{$T1{$materialKeys}[2]}->{$T1{$materialKeys}[1]}->{$T1{$materialKeys}[0]}}){
+							print"\t".$T1s->{$T1{$materialKeys}[2]}->{$T1{$materialKeys}[1]}->{$T1{$materialKeys}[0]}->{$mineralKey}->{content}."\n";
+							if ($mineralKey =~ /i/){
+								if($doSplit eq 1){
+									if (!(exists $shopping{"T1"}{($names{$mineralKey})})){
+										$shopping{"T1"}{($names{$mineralKey})}=$T1s->{$T1{$materialKeys}[2]}->{$T1{$materialKeys}[1]}->{$T1{$materialKeys}[0]}->{$mineralKey} * $mQty;
+									}
+									else{
+										$shopping{"T1"}{($names{$mineralKey})}+=$T1s->{$T1{$materialKeys}[2]}->{$T1{$materialKeys}[1]}->{$T1{$materialKeys}[0]}->{$mineralKey} * $mQty;
+									}
+									if (!(exists $shopping{"mineral"}{($names{$mineralKey})})){
+										$shopping{"mineral"}{($names{$mineralKey})}=$T1s->{$T1{$materialKeys}[2]}->{$T1{$materialKeys}[1]}->{$T1{$materialKeys}[0]}->{$mineralKey} * $mQty;
+									}
+									else{
+										$shopping{"mineral"}{($names{$mineralKey})}+=$T1s->{$T1{$materialKeys}[2]}->{$T1{$materialKeys}[1]}->{$T1{$materialKeys}[0]}->{$mineralKey} * $mQty;
+									}
+								}
+								else{
+									if (!(exists $shopping{"mineral"}{($names{$mineralKey})})){
+										$shopping{"mineral"}{($names{$mineralKey})}=$T1s->{$T1{$materialKeys}[2]}->{$T1{$materialKeys}[1]}->{$T1{$materialKeys}[0]}->{$mineralKey} * $mQty;
+									}
+									else{
+										$shopping{"mineral"}{($names{$mineralKey})}+=$T1s->{$T1{$materialKeys}[2]}->{$T1{$materialKeys}[1]}->{$T1{$materialKeys}[0]}->{$mineralKey} * $mQty;
+									}
+								}
+							}
 						}
 					}
 				}
@@ -383,17 +417,17 @@ sub shopping{
 					if (exists $RAM{$materialKeys}){
 						if ($doSplit eq 1){
 							foreach my $ramkey (keys %rambuild){
-								if (!(exists $shopping{"ram"}{($names{$materialKeys})})){
-									$shopping{"ram"}{($names{$materialKeys})}=ceil($kits{$pilots}{$materialKeys})* $rambuild{$ramkey};
+								if (!(exists $shopping{"ram"}{($names{$ramkey})})){
+									$shopping{"ram"}{($names{$ramkey})}=ceil($kits{$pilots}{$materialKeys})* $rambuild{$ramkey};
 								}
 								else{
-									$shopping{"ram"}{($names{$materialKeys})}+=ceil($kits{$pilots}{$materialKeys})* $rambuild{$ramkey}
+									$shopping{"ram"}{($names{$ramkey})}+=ceil($kits{$pilots}{$materialKeys})* $rambuild{$ramkey}
 								}
-								if (!(exists $shopping{"mineral"}{($names{$materialKeys})})){
-									$shopping{"mineral"}{($names{$materialKeys})}=ceil($kits{$pilots}{$materialKeys})* $rambuild{$ramkey};
+								if (!(exists $shopping{"mineral"}{($names{$ramkey})})){
+									$shopping{"mineral"}{($names{$ramkey})}=ceil($kits{$pilots}{$materialKeys})* $rambuild{$ramkey};
 								}
 								else{
-									$shopping{"mineral"}{($names{$materialKeys})}+=ceil($kits{$pilots}{$materialKeys})* $rambuild{$ramkey}
+									$shopping{"mineral"}{($names{$ramkey})}+=ceil($kits{$pilots}{$materialKeys})* $rambuild{$ramkey}
 								}
 
 							}
@@ -423,7 +457,7 @@ sub shopping{
 			}
 		}
 	}
-	#print Dumper (%shopping);
+	print Dumper (%shopping);
 };
 
 sub compload{
@@ -566,6 +600,27 @@ sub printer{
 				$writer->characters(&commify($shopping{"mineral"}{$minKey}));
 				$writer->endTag;
 			}
+			if ($doSplit eq 1){
+				foreach my $T2Key (sort keys %{$shopping{"T2"}}){
+					$writer->startTag("T2", 'name'=>$T2Key);
+					$writer->characters(&commify($shopping{"T2"}{$T2Key}));
+					$writer->endTag;
+				}
+			}
+			if ($doT1 eq 1){
+				foreach my $T1Key (sort keys %{$shopping{"T1"}}){
+					$writer->startTag("T1", 'name'=>$T1Key);
+					$writer->characters(&commify($shopping{"T1"}{$T1Key}));
+					$writer->endTag;
+				}
+			}
+			if ($doRAM eq 1){
+				foreach my $RAMKey (sort keys %{$shopping{"ram"}}){
+					$writer->startTag("RAM", 'name'=>$RAMKey);
+					$writer->characters(&commify($shopping{"ram"}{$RAMKey}));
+					$writer->endTag;
+				}
+			}
 			foreach my $PIKey (sort keys %{$shopping{"PI"}}){
 				$writer->startTag("PI", 'name'=>$PIKey);
 				$writer->characters(&commify($shopping{"PI"}{$PIKey}));
@@ -576,6 +631,7 @@ sub printer{
 				$writer->characters(&commify($shopping{"other"}{$OKey}));
 				$writer->endTag;
 			}
+
 		$writer->endTag();
 	}
 	$writer->endTag();

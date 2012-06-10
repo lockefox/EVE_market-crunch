@@ -626,7 +626,7 @@
 
 		</projectile>
 	</module>
-	<ship>
+	<ships>
 		<frig>
 			<i585 name="Slasher" id="SLSH">
 				<i37 name="Isogen">10</i37>
@@ -656,6 +656,13 @@
 				<i39 name="Zydrine">2</i39>
 			</i598>
 			<i599 name="Burst" id="BURST">
+				<i37 name="Isogen">1</i37>
+				<i40 name="Megacyte">0</i40>
+				<i36 name="Mexallon">464</i36>
+				<i38 name="Nocxium">0</i38>
+				<i35 name="Pyerite">284</i35>
+				<i34 name="Tritanium">2675</i34>
+				<i39 name="Zydrine">0</i39>
 			</i599>
 			<i586 name="Probe" id="PRB">
 				<i37 name="Isogen">99</i37>
@@ -676,8 +683,22 @@
 				<i39 name="Zydrine">2</i39>
 			</i3766>
 			<i582 name="Bantam" id="BATM">
+				<i37 name="Isogen">46</i37>
+				<i40 name="Megacyte">0</i40>
+				<i36 name="Mexallon">40</i36>
+				<i38 name="Nocxium">2</i38>
+				<i35 name="Pyerite">728</i35>
+				<i34 name="Tritanium">2719</i34>
+				<i39 name="Zydrine">2</i39>
 			</i582>
 			<i583 name="Condor" id="CNDR">
+				<i37 name="Isogen">68</i37>
+				<i40 name="Megacyte">0</i40>
+				<i36 name="Mexallon">147</i36>
+				<i38 name="Nocxium">0</i38>
+				<i35 name="Pyerite">1429</i35>
+				<i34 name="Tritanium">2009</i34>
+				<i39 name="Zydrine">0</i39>
 			</i583>
 			<i584 name="Griffin" id="GRFN">
 				<i37 name="Isogen">0</i37>
@@ -689,6 +710,13 @@
 				<i39 name="Zydrine">2</i39>
 			</i584>
 			<i605 name="Heron" id="HRN">
+				<i37 name="Isogen">136</i37>
+				<i40 name="Megacyte">0</i40>
+				<i36 name="Mexallon">1035</i36>
+				<i38 name="Nocxium">7</i38>
+				<i35 name="Pyerite">4568</i35>
+				<i34 name="Tritanium">8234</i34>
+				<i39 name="Zydrine">0</i39>
 			</i605>
 			<i602 name="Kestrel" id="KSTR">
 				<i37 name="Isogen"></i37>
@@ -709,24 +737,94 @@
 				<i39 name="Zydrine">2</i39>
 			</i603>
 			<i2161 name="Crucifier" id="CRFR">
+				<i37 name="Isogen">0</i37>
+				<i40 name="Megacyte">3</i40>
+				<i36 name="Mexallon">573</i36>
+				<i38 name="Nocxium">2</i38>
+				<i35 name="Pyerite">9905</i35>
+				<i34 name="Tritanium">11655</i34>
+				<i39 name="Zydrine">2</i39>
 			</i2161>
 			<i589 name="Executioner" id="EXEC">
+				<i37 name="Isogen">2</i37>
+				<i40 name="Megacyte">0</i40>
+				<i36 name="Mexallon">131</i36>
+				<i38 name="Nocxium">0</i38>
+				<i35 name="Pyerite">2522</i35>
+				<i34 name="Tritanium">2765</i34>
+				<i39 name="Zydrine">0</i39>
 			</i589>
 			<i590 name="Inquisitor" id="INQU">
+				<i37 name="Isogen">3</i37>
+				<i40 name="Megacyte">1</i40>
+				<i36 name="Mexallon">2578</i36>
+				<i38 name="Nocxium">4</i38>
+				<i35 name="Pyerite">11401</i35>
+				<i34 name="Tritanium">14563</i34>
+				<i39 name="Zydrine">0</i39>
 			</i590>
 			<i29248 name="Magnate" id="MAGN">
+				<i37 name="Isogen">52</i37>
+				<i40 name="Megacyte">2</i40>
+				<i36 name="Mexallon">602</i36>
+				<i38 name="Nocxium">0</i38>
+				<i35 name="Pyerite">892</i35>
+				<i34 name="Tritanium">12515</i34>
+				<i39 name="Zydrine">6</i39>
 			</i29248>
 			<i597 name="Punisher" id="PUNISH">
+				<i37 name="Isogen">363</i37>
+				<i40 name="Megacyte">0</i40>
+				<i36 name="Mexallon">13</i36>
+				<i38 name="Nocxium">79</i38>
+				<i35 name="Pyerite">5546</i35>
+				<i34 name="Tritanium">20616</i34>
+				<i39 name="Zydrine">15</i39>
 			</i597>
 			<i591 name="Tormentor" id="TRMT">
+				<i37 name="Isogen">2</i37>
+				<i40 name="Megacyte">0</i40>
+				<i36 name="Mexallon">559</i36>
+				<i38 name="Nocxium">0</i38>
+				<i35 name="Pyerite">219</i35>
+				<i34 name="Tritanium">2240</i34>
+				<i39 name="Zydrine">0</i39>
 			</i591>
 			<i608 name="Atron" id="ATRN">
+				<i37 name="Isogen">8</i37>
+				<i40 name="Megacyte">0</i40>
+				<i36 name="Mexallon">554</i36>
+				<i38 name="Nocxium">0</i38>
+				<i35 name="Pyerite">612</i35>
+				<i34 name="Tritanium">1846</i34>
+				<i39 name="Zydrine">1</i39>
 			</i608>
 			<i607 name="Imicus" id="IMIC">
+				<i37 name="Isogen">1</i37>
+				<i40 name="Megacyte">0</i40>
+				<i36 name="Mexallon">1301</i36>
+				<i38 name="Nocxium">0</i38>
+				<i35 name="Pyerite">5448</i35>
+				<i34 name="Tritanium">6661</i34>
+				<i39 name="Zydrine">1</i39>
 			</i607>
 			<i609 name="Maulus" id="MAUL">
+				<i37 name="Isogen">8</i37>
+				<i40 name="Megacyte">0</i40>
+				<i36 name="Mexallon">1840</i36>
+				<i38 name="Nocxium">0</i38>
+				<i35 name="Pyerite">11152</i35>
+				<i34 name="Tritanium">13813</i34>
+				<i39 name="Zydrine">2</i39>
 			</i609>
 			<i592 name="Navitas" id="NAVI">
+				<i37 name="Isogen">4</i37>
+				<i40 name="Megacyte">0</i40>
+				<i36 name="Mexallon">304</i36>
+				<i38 name="Nocxium">2</i38>
+				<i35 name="Pyerite">215</i35>
+				<i34 name="Tritanium">2743</i34>
+				<i39 name="Zydrine">2</i39>
 			</i592>
 			<i594 name="Incursus" id="ICRS">
 				<i37 name="Isogen">7</i37>
@@ -757,6 +855,33 @@
 				<i34 name="Tritanium">53966</i34>
 				<i39 name="Zydrine">100</i39>
 			</i16242>
+			<i16236 name="Coercer" id="COER">
+				<i37 name="Isogen">1028</i37>
+				<i40 name="Megacyte">18</i40>
+				<i36 name="Mexallon">4895</i36>
+				<i38 name="Nocxium">0</i38>
+				<i35 name="Pyerite">18387</i35>
+				<i34 name="Tritanium">50513</i34>
+				<i39 name="Zydrine">89</i39>
+			</i16236>
+			<i16238 name="Cormorant" id="CORM">
+				<i37 name="Isogen">968</i37>
+				<i40 name="Megacyte">8</i40>
+				<i36 name="Mexallon">4618</i36>
+				<i38 name="Nocxium">300</i38>
+				<i35 name="Pyerite">10728</i35>
+				<i34 name="Tritanium">35496</i34>
+				<i39 name="Zydrine">96</i39>
+			</i16238>
+			<i16240 name="Catalyst" id="CAT">
+				<i37 name="Isogen">0</i37>
+				<i40 name="Megacyte">2</i40>
+				<i36 name="Mexallon">6362</i36>
+				<i38 name="Nocxium">266</i38>
+				<i35 name="Pyerite">14520</i35>
+				<i34 name="Tritanium">51487</i34>
+				<i39 name="Zydrine">45</i39>
+			</i16240>
 		</destroyer>
 		<cruiser>
 			<i630 name="Bellicose" id="BEL">
@@ -768,6 +893,96 @@
 				<i34 name="Tritanium">248033</i34>
 				<i39 name="Zydrine">255</i39>
 			</i630>
+			<i629 name="Rupture" id="RUPT">
+				<i37 name="Isogen">7117</i37>
+				<i40 name="Megacyte">174</i40>
+				<i36 name="Mexallon">29509</i36>
+				<i38 name="Nocxium">1763</i38>
+				<i35 name="Pyerite">113799</i35>
+				<i34 name="Tritanium">454579</i34>
+				<i39 name="Zydrine">458</i39>
+			</i629>
+			<i631 name="Scythe" id="SYTH">
+				<i37 name="Isogen">3335</i37>
+				<i40 name="Megacyte">44</i40>
+				<i36 name="Mexallon">14262</i36>
+				<i38 name="Nocxium">852</i38>
+				<i35 name="Pyerite">52075</i35>
+				<i34 name="Tritanium">206700</i34>
+				<i39 name="Zydrine">191</i39>
+			</i631>
+			<i622 name="Stabber" id="STAB">
+				<i37 name="Isogen">5399</i37>
+				<i40 name="Megacyte">62</i40>
+				<i36 name="Mexallon">26067</i36>
+				<i38 name="Nocxium">1292</i38>
+				<i35 name="Pyerite">77905</i35>
+				<i34 name="Tritanium">310279</i34>
+				<i39 name="Zydrine">271</i39>
+			</i622>
+			<i628 name="Arbitrator" id="ARB">
+				<i37 name="Isogen">4222</i37>
+				<i40 name="Megacyte">56</i40>
+				<i36 name="Mexallon">18402</i36>
+				<i38 name="Nocxium">1010</i38>
+				<i35 name="Pyerite">62406</i35>
+				<i34 name="Tritanium">248024</i34>
+				<i39 name="Zydrine">231</i39>
+			</i628>
+			<i625 name="Augoror" id="AGRO">
+				<i37 name="Isogen">3402</i37>
+				<i40 name="Megacyte">43</i40>
+				<i36 name="Mexallon">15038</i36>
+				<i38 name="Nocxium">854</i38>
+				<i35 name="Pyerite">52075</i35>
+				<i34 name="Tritanium">206708</i34>
+				<i39 name="Zydrine">193</i39>
+			</i625>
+			<i624 name="Maller" id="MALL">
+				<i37 name="Isogen">9442</i37>
+				<i40 name="Megacyte">146</i40>
+				<i36 name="Mexallon">39383</i36>
+				<i38 name="Nocxium">2327</i38>
+				<i35 name="Pyerite">150415</i35>
+				<i34 name="Tritanium">599283</i34>
+				<i39 name="Zydrine">581</i39>
+			</i624>
+			<i2006 name="Omen" id="OMEN">
+				<i37 name="Isogen">5399</i37>
+				<i40 name="Megacyte">71</i40>
+				<i36 name="Mexallon">25798</i36>
+				<i38 name="Nocxium">1288</i38>
+				<i35 name="Pyerite">77906</i35>
+				<i34 name="Tritanium">310273</i34>
+				<i39 name="Zydrine">279</i39>
+			</i2006>
+			<i633 name="Celestis" id="CELS">
+				<i37 name="Isogen">4080</i37>
+				<i40 name="Megacyte">48</i40>
+				<i36 name="Mexallon">18142</i36>
+				<i38 name="Nocxium">1013</i38>
+				<i35 name="Pyerite">62408</i35>
+				<i34 name="Tritanium">248033</i34>
+				<i39 name="Zydrine">232</i39>
+			</i633>
+			<i634 name="Exequror" id="EXEQ">
+				<i37 name="Isogen">3420</i37>
+				<i40 name="Megacyte">48</i40>
+				<i36 name="Mexallon">15296</i36>
+				<i38 name="Nocxium">853</i38>
+				<i35 name="Pyerite">52074</i35>
+				<i34 name="Tritanium">206708</i34>
+				<i39 name="Zydrine">195</i39>
+			</i634>
+			<i627 name="Thorax" id="THRX">
+				<i37 name="Isogen">8345</i37>
+				<i40 name="Megacyte">131</i40>
+				<i36 name="Mexallon">34434</i36>
+				<i38 name="Nocxium">2054</i38>
+				<i35 name="Pyerite">132403</i35>
+				<i34 name="Tritanium">528982</i34>
+				<i39 name="Zydrine">515</i39>
+			</i627>
 			<i626 name="Vexor" id="VEX">
 				<i37 name="Isogen">5398</i37>
 				<i40 name="Megacyte">53</i40>
@@ -777,7 +992,7 @@
 				<i34 name="Tritanium">310532</i34>
 				<i39 name="Zydrine">263</i39>
 			</i626>
-			<i632 name="Blackbird">
+			<i632 name="Blackbird" id="BLKB">
 				<i37 name="Isogen">4133</i37>
 				<i40 name="Megacyte">53</i40>
 				<i36 name="Mexallon">18321</i36>
@@ -786,6 +1001,33 @@
 				<i34 name="Tritanium">246968</i34>
 				<i39 name="Zydrine">230</i39>
 			</i632>
+			<i621 name="Caracal" id="CARC">
+				<i37 name="Isogen">5332</i37>
+				<i40 name="Megacyte">77</i40>
+				<i36 name="Mexallon">25539</i36>
+				<i38 name="Nocxium">1288</i38>
+				<i35 name="Pyerite">77906</i35>
+				<i34 name="Tritanium">310283</i34>
+				<i39 name="Zydrine">279</i39>
+			</i621>
+			<i623 name="Moa" id="MOA">
+				<i37 name="Isogen">8797</i37>
+				<i40 name="Megacyte">161</i40>
+				<i36 name="Mexallon">36243</i36>
+				<i38 name="Nocxium">2168</i38>
+				<i35 name="Pyerite">140072</i35>
+				<i34 name="Tritanium">557947</i34>
+				<i39 name="Zydrine">546</i39>
+			</i623>
+			<i620 name="Osprey" id="OSP">
+				<i37 name="Isogen">3229</i37>
+				<i40 name="Megacyte">50</i40>
+				<i36 name="Mexallon">12954</i36>
+				<i38 name="Nocxium">848</i38>
+				<i35 name="Pyerite">52075</i35>
+				<i34 name="Tritanium">206295</i34>
+				<i39 name="Zydrine">194</i39>
+			</i620>
 		</cruiser>
 		<bc>
 		</bc>
@@ -811,5 +1053,5 @@
 				<i39 name="Zydrine">404</i39>
 			</i17478>
 		</exhum>
-	</ship>
+	</ships>
 </root>

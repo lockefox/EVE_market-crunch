@@ -1088,7 +1088,7 @@
 				<qty>1</qty>
 				<me>-4</me>
 				<bld_time></bld_time>
-				<mfg_grp>frig</mfg_grp>
+				<flag>frig</flag>
 				<class>Cov Ops</class>
 			</i11182>
 			<i11387 name="Hyena">
@@ -1115,7 +1115,7 @@
 				<qty>1</qty>
 				<me>-4</me>
 				<bld_time></bld_time>
-				<mfg_grp>frig</mfg_grp>
+				<flag>frig</flag>
 				<class>EAF</class>
 			</i11387>
 			<i11196 name="Claw">
@@ -1142,8 +1142,7 @@
 				<qty>1</qty>
 				<me>-4</me>
 				<bld_time></bld_time>
-				<mfg_grp>frig</mfg_grp>
-				<flag>ship</flag>
+				<flag>frig</flag>
 				<class>Interceptor</class>
 			</i11196>
 			<i11198 name="Stiletto">
@@ -1170,8 +1169,7 @@
 				<qty>1</qty>
 				<me>-4</me>
 				<bld_time></bld_time>
-				<mfg_grp>frig</mfg_grp>
-				<flag>NULL</flag>
+				<flag>frig</flag>
 				<class>Interceptor</class>
 			</i11198>
 			<i11400 name="Jaguar">
@@ -1198,8 +1196,7 @@
 				<qty>1</qty>
 				<me>-4</me>
 				<bld_time></bld_time>
-				<mfg_grp>frig</mfg_grp>
-				<flag>ship</flag>
+				<flag>frig</flag>
 				<class>Assault Frigate</class>
 			</i11400>
 			<i11371 name="Wolf">
@@ -1226,8 +1223,7 @@
 				<qty>1</qty>
 				<me>-4</me>
 				<bld_time></bld_time>
-				<mfg_grp>frig</mfg_grp>
-				<flag>ship</flag>
+				<flag>frig</flag>
 				<class>Assault Frigate</class>
 			</i11371>
 			<i12034 name="Hound">
@@ -1254,8 +1250,7 @@
 				<qty>1</qty>
 				<me>-4</me>
 				<bld_time></bld_time>
-				<mfg_grp>frig</mfg_grp>
-				<flag>ship</flag>
+				<flag>frig</flag>
 				<class>Bomber</class>
 			</i12034>
 			<i12015 name="Munin">
@@ -1275,8 +1270,7 @@
 				<qty>1</qty>
 				<me>-4</me>
 				<bld_time></bld_time>
-				<mfg_grp>cruiser</mfg_grp>
-				<flag>ship</flag>
+				<flag>cruiser</flag>
 				<class>Assault Cruiser</class>
 			</i12015>
 			<i11999 name="Vagabond">
@@ -1296,8 +1290,7 @@
 				<qty>1</qty>
 				<me>-4</me>
 				<bld_time></bld_time>
-				<mfg_grp>ships</mfg_grp>
-				<flag>ship</flag>
+				<flag>cruiser</flag>
 				<class>Assault Cruiser</class>
 			</i11999>
 			<i11961 name="Huginn">
@@ -1318,9 +1311,7 @@
 				<qty>1</qty>
 				<me>-4</me>
 				<bld_time></bld_time>
-				<mfg_grp>cruiser</mfg_grp>
-				<flag>ship</flag>
-				<class>Assault Cruiser</class>
+				<flag>cruiser</flag>
 				<class>Recon</class>
 			</i11961>
 			<i11963 name="Rapier">
@@ -1341,9 +1332,7 @@
 				<qty>1</qty>
 				<me>-4</me>
 				<bld_time></bld_time>
-				<mfg_grp>cruiser</mfg_grp>
-				<flag>ship</flag>
-				<class>Assault Cruiser</class>
+				<flag>cruiser</flag>
 				<class>Recon</class>
 			</i11963>
 			<i12013 name="Broadsword">
@@ -1363,8 +1352,7 @@
 				<qty>1</qty>
 				<me>-4</me>
 				<bld_time></bld_time>
-				<mfg_grp>ships</mfg_grp>
-				<flag>ship</flag>
+				<flag>cruiser</flag>
 				<class>Heavy Interdictor</class>
 			</i12013>
 			<i22456 name="Sabre">
@@ -1384,8 +1372,7 @@
 				<qty>1</qty>
 				<me>-4</me>
 				<bld_time></bld_time>
-				<mfg_grp>destroyer</mfg_grp>
-				<flag>ship</flag>
+				<flag>destroyer</flag>
 				<class>Interdictor</class>
 			</i22456>
 			<i11978 name="Scimitar">
@@ -1405,8 +1392,7 @@
 				<qty>1</qty>
 				<me>-4</me>
 				<bld_time></bld_time>
-				<mfg_grp>ships</mfg_grp>
-				<flag>ship</flag>
+				<flag>cruiser</flag>
 				<class>Logistics</class>
 			</i11978>
 			<i22444 name="Sleipnir">
@@ -1426,8 +1412,7 @@
 				<qty>1</qty>
 				<me>-4</me>
 				<bld_time></bld_time>
-				<mfg_grp>ships</mfg_grp>
-				<flag>ship</flag>
+				<flag>bc</flag>
 				<class>Command</class>
 			</i22444>
 			<i22468 name="Claymore">
@@ -1447,8 +1432,7 @@
 				<qty>1</qty>
 				<me>-4</me>
 				<bld_time></bld_time>
-				<mfg_grp>ships</mfg_grp>
-				<flag>ship</flag>
+				<flag>bc</flag>
 				<class>Command</class>
 			</i22468>
 			<i28665 name="Vargur">
@@ -1468,8 +1452,7 @@
 				<qty>1</qty>
 				<me>-4</me>
 				<bld_time></bld_time>
-				<mfg_grp>ships</mfg_grp>
-				<flag>ship</flag>
+				<flag>bs</flag>
 				<class>Marauder</class>
 			</i28665>
 			<i22440 name="Panther">
@@ -1489,8 +1472,7 @@
 				<qty>1</qty>
 				<me>-4</me>
 				<bld_time></bld_time>
-				<mfg_grp>ships</mfg_grp>
-				<flag>ship</flag>
+				<flag>bc</flag>
 				<class>Black Ops</class>
 			</i22440>
 	<!--Caldari-->
@@ -1513,7 +1495,7 @@
 				<qty>1</qty>
 				<me>-4</me>
 				<bld_time></bld_time>
-				<mfg_grp>frig</mfg_grp>
+				<flag>frig</flag>
 				<class>EAF</class>
 			</i11194>
 			<i11176 name="Crow">
@@ -1544,7 +1526,7 @@
 				<qty>1</qty>
 				<me>-4</me>
 				<bld_time></bld_time>
-				<mfg_grp>frig</mfg_grp>
+				<flag>frig</flag>
 				<class>Assault Frigate</class>
 			</i11381>
 			<i11379 name="Hawk">
@@ -1571,7 +1553,7 @@
 				<qty>1</qty>
 				<me>-4</me>
 				<bld_time></bld_time>
-				<mfg_grp>frig</mfg_grp>
+				<flag>frig</flag>
 				<class>Assault Frigate</class>
 			</i11379>
 			<i12032 name="Manticore">
@@ -1598,7 +1580,7 @@
 				<qty>1</qty>
 				<me>-4</me>
 				<bld_time></bld_time>
-				<mfg_grp>frig</mfg_grp>
+				<flag>frig</flag>
 				<class>Stealth Bomber</class>
 			</i12032>
 			<i12011 name="Eagle">
@@ -1631,7 +1613,7 @@
 				<qty>1</qty>
 				<me>-4</me>
 				<bld_time></bld_time>
-				<mfg_grp>frig</mfg_grp>
+				<flag>cruiser</flag>
 				<class>Stealth Bomber</class>
 			</i11957>
 			<i11995 name="Onyx">
@@ -1718,8 +1700,7 @@
 				<qty>1</qty>
 				<me>-4</me>
 				<bld_time></bld_time>
-				<mfg_grp>frig</mfg_grp>
-				<flag>ship</flag>
+				<flag>frig</flag>
 				<class>Assault Frigate</class>
 			</i12044>
 			<i12042 name="Ishkur">
@@ -1746,8 +1727,7 @@
 				<qty>1</qty>
 				<me>-4</me>
 				<bld_time></bld_time>
-				<mfg_grp>frig</mfg_grp>
-				<flag>ship</flag>
+				<flag>frig</flag>
 				<class>Assault Frigate</class>
 			</i12042>
 			<i11377 name="Nemesis">
@@ -1774,8 +1754,7 @@
 				<qty>1</qty>
 				<me>-4</me>
 				<bld_time></bld_time>
-				<mfg_grp>frig</mfg_grp>
-				<flag>ship</flag>
+				<flag>frig</flag>
 				<class>Bomber</class>
 			</i11377>
 			<i12005 name="Ishtar">
@@ -1795,8 +1774,7 @@
 				<qty>1</qty>
 				<me>-4</me>
 				<bld_time></bld_time>
-				<mfg_grp>cruiser</mfg_grp>
-				<flag>ship</flag>
+				<flag>cruiser</flag>
 				<class>Assault Cruiser</class>
 			</i12005>
 			<i12023 name="Deimos">
