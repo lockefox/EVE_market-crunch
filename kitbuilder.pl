@@ -41,6 +41,9 @@ my %ramid=(
 	"i11486", "Weapon",
 );
 
+my %capitalParts;
+#	$capitalParts{id}{material}=qty
+
 ##################################################
 #
 #	GLOBAL Switches
@@ -291,6 +294,7 @@ sub typeLoader{
 			$subset{$item}=$type;
 		}
 	}
+	
 	#print Dumper(%subset);
 
 };
@@ -392,31 +396,62 @@ sub shopping{
 						my $mQty = $kits{$pilots}{$materialKeys};
 						#print $T1s->{$T1{$materialKeys}[2]}->{$T1{$materialKeys}[1]}->{$T1{$materialKeys}[0]}->{name}."\n";
 						#print Dumper($T1s->{$T1{$materialKeys}[2]}->{$T1{$materialKeys}[1]}->{$T1{$materialKeys}[0]});
-						foreach my $mineralKey (keys %T1Keys){
-							#print"\t".$T1s->{$T1{$materialKeys}[2]}->{$T1{$materialKeys}[1]}->{$T1{$materialKeys}[0]}->{$mineralKey}->{content}."x".$mQty."\n";
+						
+						##SHIP CASE
+						if ($T1{$materialKeys}[1] eq "ships"){
+							foreach my $mineralKey (keys %T1Keys){
 								if($doSplit eq 1){
 									if (!(exists $shopping{"T1"}{($names{$mineralKey})})){
-										$shopping{"T1"}{($names{$mineralKey})}=$T1s->{$T1{$materialKeys}[2]}->{$T1{$materialKeys}[1]}->{$T1{$materialKeys}[0]}->{$mineralKey} * $mQty;
+										$shopping{"T1"}{($names{$mineralKey})}=$T1s->{$T1{$materialKeys}[1]}->{$T1{$materialKeys}[2]}->{$T1{$materialKeys}[0]}->{$mineralKey} * $mQty;
 									}
 									else{
-										$shopping{"T1"}{($names{$mineralKey})}+=$T1s->{$T1{$materialKeys}[2]}->{$T1{$materialKeys}[1]}->{$T1{$materialKeys}[0]}->{$mineralKey} * $mQty;
+										$shopping{"T1"}{($names{$mineralKey})}+=$T1s->{$T1{$materialKeys}[1]}->{$T1{$materialKeys}[2]}->{$T1{$materialKeys}[0]}->{$mineralKey} * $mQty;
 									}
 									if (!(exists $shopping{"mineral"}{($names{$mineralKey})})){
-										$shopping{"mineral"}{($names{$mineralKey})}=$T1s->{$T1{$materialKeys}[2]}->{$T1{$materialKeys}[1]}->{$T1{$materialKeys}[0]}->{$mineralKey} * $mQty;
+										$shopping{"mineral"}{($names{$mineralKey})}=$T1s->{$T1{$materialKeys}[1]}->{$T1{$materialKeys}[2]}->{$T1{$materialKeys}[0]}->{$mineralKey} * $mQty;
 									}
 									else{
-										$shopping{"mineral"}{($names{$mineralKey})}+=$T1s->{$T1{$materialKeys}[2]}->{$T1{$materialKeys}[1]}->{$T1{$materialKeys}[0]}->{$mineralKey} * $mQty;
+										$shopping{"mineral"}{($names{$mineralKey})}+=$T1s->{$T1{$materialKeys}[1]}->{$T1{$materialKeys}[2]}->{$T1{$materialKeys}[0]}->{$mineralKey} * $mQty;
 									}
 								}
 								else{
 									if (!(exists $shopping{"mineral"}{($names{$mineralKey})})){
-										$shopping{"mineral"}{($names{$mineralKey})}=$T1s->{$T1{$materialKeys}[2]}->{$T1{$materialKeys}[1]}->{$T1{$materialKeys}[0]}->{$mineralKey} * $mQty;
+										$shopping{"mineral"}{($names{$mineralKey})}=$T1s->{$T1{$materialKeys}[1]}->{$T1{$materialKeys}[2]}->{$T1{$materialKeys}[0]}->{$mineralKey} * $mQty;
 									}
 									else{
-										$shopping{"mineral"}{($names{$mineralKey})}+=$T1s->{$T1{$materialKeys}[2]}->{$T1{$materialKeys}[1]}->{$T1{$materialKeys}[0]}->{$mineralKey} * $mQty;
+										$shopping{"mineral"}{($names{$mineralKey})}+=$T1s->{$T1{$materialKeys}[1]}->{$T1{$materialKeys}[2]}->{$T1{$materialKeys}[0]}->{$mineralKey} * $mQty;
 									}
 								}
-							
+							}						
+						}
+						##MODULE CASE
+						else{
+							foreach my $mineralKey (keys %T1Keys){
+								#print"\t".$T1s->{$T1{$materialKeys}[2]}->{$T1{$materialKeys}[1]}->{$T1{$materialKeys}[0]}->{$mineralKey}->{content}."x".$mQty."\n";
+									if($doSplit eq 1){
+										if (!(exists $shopping{"T1"}{($names{$mineralKey})})){
+											$shopping{"T1"}{($names{$mineralKey})}=$T1s->{$T1{$materialKeys}[2]}->{$T1{$materialKeys}[1]}->{$T1{$materialKeys}[0]}->{$mineralKey} * $mQty;
+										}
+										else{
+											$shopping{"T1"}{($names{$mineralKey})}+=$T1s->{$T1{$materialKeys}[2]}->{$T1{$materialKeys}[1]}->{$T1{$materialKeys}[0]}->{$mineralKey} * $mQty;
+										}
+										if (!(exists $shopping{"mineral"}{($names{$mineralKey})})){
+											$shopping{"mineral"}{($names{$mineralKey})}=$T1s->{$T1{$materialKeys}[2]}->{$T1{$materialKeys}[1]}->{$T1{$materialKeys}[0]}->{$mineralKey} * $mQty;
+										}
+										else{
+											$shopping{"mineral"}{($names{$mineralKey})}+=$T1s->{$T1{$materialKeys}[2]}->{$T1{$materialKeys}[1]}->{$T1{$materialKeys}[0]}->{$mineralKey} * $mQty;
+										}
+									}
+									else{
+										if (!(exists $shopping{"mineral"}{($names{$mineralKey})})){
+											$shopping{"mineral"}{($names{$mineralKey})}=$T1s->{$T1{$materialKeys}[2]}->{$T1{$materialKeys}[1]}->{$T1{$materialKeys}[0]}->{$mineralKey} * $mQty;
+										}
+										else{
+											$shopping{"mineral"}{($names{$mineralKey})}+=$T1s->{$T1{$materialKeys}[2]}->{$T1{$materialKeys}[1]}->{$T1{$materialKeys}[0]}->{$mineralKey} * $mQty;
+										}
+									}
+								
+							}
 						}
 					}
 				}
