@@ -106,13 +106,13 @@ my (
 
 sub commify {
 	#if ($commas eq 1) {
-    #    local $_  = shift;
-    #    1 while s/^(-?\d+)(\d{3})/$1,$2/;
-    #    return $_;
+        local $_  = shift;
+        1 while s/^(-?\d+)(\d{3})/$1,$2/;
+        return $_;
 	#}
 	#else{
-		 local $_  = shift;
-		 return $_;
+	#	 local $_  = shift;
+	#	 return $_;
 	#}
 
 };
