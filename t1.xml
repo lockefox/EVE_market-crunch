@@ -719,13 +719,13 @@
 				<i39 name="Zydrine">0</i39>
 			</i605>
 			<i602 name="Kestrel" id="KSTR">
-				<i37 name="Isogen"></i37>
-				<i40 name="Megacyte"></i40>
-				<i36 name="Mexallon"></i36>
-				<i38 name="Nocxium"></i38>
-				<i35 name="Pyerite"></i35>
-				<i34 name="Tritanium"></i34>
-				<i39 name="Zydrine"></i39>
+				<i37 name="Isogen">865</i37>
+				<i40 name="Megacyte">0</i40>
+				<i36 name="Mexallon">2591</i36>
+				<i38 name="Nocxium">1</i38>
+				<i35 name="Pyerite">0</i35>
+				<i34 name="Tritanium">14852</i34>
+				<i39 name="Zydrine">1</i39>
 			</i602>
 			<i603 name="Merlin" id="MRLN">
 				<i37 name="Isogen">533</i37>
