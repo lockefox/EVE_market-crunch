@@ -92,6 +92,12 @@
 			<i11381 name="Harpy">8</i11381>
 			<i12032 name="Manticore">16</i12032>
 		</i300782851>
+	<!--Capitals-->
+		<i1845303338 name="Iviar Hoth">
+			<i19720 name="Revelation">1</i19720>
+			<i23757 name="Archon">1</i23757>
+			<i28606 name="Orca">2</i28606>
+		</i1845303338>
 	</staff>	
 	<pos>
 	</pos>

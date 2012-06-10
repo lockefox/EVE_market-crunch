@@ -81,7 +81,8 @@ my $mats = $matspage->XMLin($matlist);
 my $t1page = new XML::Simple;
 my $T1s = $t1page->XMLin($T1list);
 
-
+my $comppage = new XML::Simple;
+my $comps = $comppage->XMLin($complist);
 
 &parseargs;
 #&loadKits;	#BROKEN
@@ -117,8 +118,7 @@ sub commify {
 };
 sub loader {
 	###COMPONENT###
-	my $comppage = new XML::Simple;
-	my $comps = $comppage->XMLin($complist);
+
 	
 	foreach my $class (keys %{$comps->{component}}){
 		foreach my $prod (keys %{$comps->{component}->{$class}}){
@@ -294,7 +294,6 @@ sub typeLoader{
 			$subset{$item}=$type;
 		}
 	}
-	
 	#print Dumper(%subset);
 
 };
