@@ -2144,6 +2144,25 @@
 			<i2905 name="250mm Light Artillery Cannon II">
 			</i2905>
 			<i2889 name="200mm AutoCannon II">
+				<i20424 name="Datacore - Mechanical Engineering">2</i20424>
+				<i20423 name="Datacore - Nuclear Physics">2</i20423>
+				<AC200 name="200mm AutoCannon I" id="486">10</AC200>
+				<i11399 name="Morphite">50</i11399>
+				<i9848 name="Robotics">10</i9848>
+				<i11486 name="R.A.M.- Weapon Tech">2</i11486>
+				<i11691 name="Thermonuclear Trigger Unit">50</i11691>
+				<i37 name="Isogen">80</i37>
+				<i40 name="Megacyte">0</i40>
+				<i36 name="Mexallon">380</i36>
+				<i38 name="Nocxium">0</i38>
+				<i35 name="Pyerite">750</i35>
+				<i34 name="Tritanium">4500</i34>
+				<i39 name="Zydrine">0</i39>
+				<qty>10</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<mfg_grp>projectile</mfg_grp>
+				<flag>module</flag>
 			</i2889>
 			<i2881 name="150mm Light AutoCannon II">
 			</i2881>

@@ -621,6 +621,15 @@
 				<i34 name="Tritanium">4080</i34>
 				<i39 name="Zydrine">0</i39>
 			</i491>
+			<i486 name="200mm AutoCannon I" id="AC200">
+				<i37 name="Isogen">20</i37>
+				<i40 name="Megacyte">0</i40>
+				<i36 name="Mexallon">75</i36>
+				<i38 name="Nocxium">0</i38>
+				<i35 name="Pyerite">130</i35>
+				<i34 name="Tritanium">1501</i34>
+				<i39 name="Zydrine">0</i39>
+			</i486>
 	</weapon>
 		<projectile>
 
