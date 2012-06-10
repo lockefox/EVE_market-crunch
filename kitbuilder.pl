@@ -309,7 +309,15 @@ sub shopping{
 		"i35", 400,		#Pyerite
 		"i34", 500,		#Tritanium
 		);
-	
+	my %T1Keys = (
+		"i37",0,
+		"i40",0,
+		"i36",0,
+		"i38",0,
+		"i35",0,
+		"i34",0,
+		"i39",0,
+	);
 
 	foreach my $pilots (keys %kits){
 		foreach my $materialKeys (keys %{$kits{$pilots}}){
@@ -380,12 +388,12 @@ sub shopping{
 				if ($doT1 eq 1){
 
 					if ($materialKeys =~ /[A-Z]/){	#####T1 has caps key
-						print $materialKeys.":\n";
+						#print $materialKeys.":\n";
 						my $mQty = $kits{$pilots}{$materialKeys};
 						#print $T1s->{$T1{$materialKeys}[2]}->{$T1{$materialKeys}[1]}->{$T1{$materialKeys}[0]}->{name}."\n";
-						foreach my $mineralKey (keys %{$T1s->{$T1{$materialKeys}[2]}->{$T1{$materialKeys}[1]}->{$T1{$materialKeys}[0]}}){
-							print"\t".$T1s->{$T1{$materialKeys}[2]}->{$T1{$materialKeys}[1]}->{$T1{$materialKeys}[0]}->{$mineralKey}->{content}."\n";
-							if ($mineralKey =~ /i/){
+						#print Dumper($T1s->{$T1{$materialKeys}[2]}->{$T1{$materialKeys}[1]}->{$T1{$materialKeys}[0]});
+						foreach my $mineralKey (keys %T1Keys){
+							#print"\t".$T1s->{$T1{$materialKeys}[2]}->{$T1{$materialKeys}[1]}->{$T1{$materialKeys}[0]}->{$mineralKey}->{content}."x".$mQty."\n";
 								if($doSplit eq 1){
 									if (!(exists $shopping{"T1"}{($names{$mineralKey})})){
 										$shopping{"T1"}{($names{$mineralKey})}=$T1s->{$T1{$materialKeys}[2]}->{$T1{$materialKeys}[1]}->{$T1{$materialKeys}[0]}->{$mineralKey} * $mQty;
@@ -408,7 +416,7 @@ sub shopping{
 										$shopping{"mineral"}{($names{$mineralKey})}+=$T1s->{$T1{$materialKeys}[2]}->{$T1{$materialKeys}[1]}->{$T1{$materialKeys}[0]}->{$mineralKey} * $mQty;
 									}
 								}
-							}
+							
 						}
 					}
 				}
@@ -457,7 +465,7 @@ sub shopping{
 			}
 		}
 	}
-	print Dumper (%shopping);
+	#print Dumper (%shopping);
 };
 
 sub compload{

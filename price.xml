@@ -1,696 +1,696 @@
 <root>
 	<source site="http://api.eve-central.com/api/marketstat?"></source>
-	<fresh time="26/4 22:32"></fresh>
+	<fresh time="10/6 10:11"></fresh>
 	<mineral>
 		<i35 name="Pyerite">
-			<sell_min>7.07</sell_min>
-			<sell_avg>7.55</sell_avg>
-			<sell_med>7.45</sell_med>
-			<buy_max>6.95</buy_max>
-			<buy_avg>6.15</buy_avg>
-			<buy_med>6.64</buy_med>
+			<sell_min>9.64</sell_min>
+			<sell_avg>10.59</sell_avg>
+			<sell_med>10.78</sell_med>
+			<buy_max>9.48</buy_max>
+			<buy_avg>7.42</buy_avg>
+			<buy_med>7.23</buy_med>
 		</i35>
 		<i39 name="Zydrine">
-			<sell_min>1669.97</sell_min>
-			<sell_avg>2478.06</sell_avg>
-			<sell_med>2450.00</sell_med>
-			<buy_max>1659.99</buy_max>
-			<buy_avg>1070.71</buy_avg>
-			<buy_med>1000.00</buy_med>
+			<sell_min>998.80</sell_min>
+			<sell_avg>1822.86</sell_avg>
+			<sell_med>1748.00</sell_med>
+			<buy_max>933.05</buy_max>
+			<buy_avg>316.60</buy_avg>
+			<buy_med>0.50</buy_med>
 		</i39>
 		<i36 name="Mexallon">
-			<sell_min>51.91</sell_min>
-			<sell_avg>56.37</sell_avg>
-			<sell_med>55.27</sell_med>
-			<buy_max>51.70</buy_max>
-			<buy_avg>41.14</buy_avg>
-			<buy_med>48.00</buy_med>
+			<sell_min>55.45</sell_min>
+			<sell_avg>58.99</sell_avg>
+			<sell_med>58.80</sell_med>
+			<buy_max>53.63</buy_max>
+			<buy_avg>47.08</buy_avg>
+			<buy_med>51.02</buy_med>
 		</i36>
 		<i40 name="Megacyte">
-			<sell_min>3487.95</sell_min>
-			<sell_avg>4320.45</sell_avg>
-			<sell_med>4219.00</sell_med>
-			<buy_max>3359.10</buy_max>
-			<buy_avg>2755.80</buy_avg>
-			<buy_med>2603.44</buy_med>
+			<sell_min>2608.99</sell_min>
+			<sell_avg>3747.04</sell_avg>
+			<sell_med>3899.99</sell_med>
+			<buy_max>2464.02</buy_max>
+			<buy_avg>2359.36</buy_avg>
+			<buy_med>2460.25</buy_med>
 		</i40>
 		<i38 name="Nocxium">
-			<sell_min>968.88</sell_min>
-			<sell_avg>1363.83</sell_avg>
-			<sell_med>1250.00</sell_med>
-			<buy_max>940.44</buy_max>
-			<buy_avg>774.81</buy_avg>
-			<buy_med>872.52</buy_med>
+			<sell_min>674.73</sell_min>
+			<sell_avg>1109.47</sell_avg>
+			<sell_med>997.47</sell_med>
+			<buy_max>665.05</buy_max>
+			<buy_avg>623.80</buy_avg>
+			<buy_med>648.50</buy_med>
 		</i38>
 		<i11399 name="Morphite">
-			<sell_min>15898.60</sell_min>
-			<sell_avg>23000.02</sell_avg>
-			<sell_med>18600.00</sell_med>
-			<buy_max>14702.01</buy_max>
-			<buy_avg>10087.32</buy_avg>
-			<buy_med>13000.00</buy_med>
+			<sell_min>9099.97</sell_min>
+			<sell_avg>14440.72</sell_avg>
+			<sell_med>15040.76</sell_med>
+			<buy_max>8953.02</buy_max>
+			<buy_avg>4916.25</buy_avg>
+			<buy_med>5050.50</buy_med>
 		</i11399>
 		<i34 name="Tritanium">
-			<sell_min>6.19</sell_min>
-			<sell_avg>6.82</sell_avg>
-			<sell_med>6.98</sell_med>
-			<buy_max>6.05</buy_max>
-			<buy_avg>5.27</buy_avg>
-			<buy_med>5.50</buy_med>
+			<sell_min>6.38</sell_min>
+			<sell_avg>7.06</sell_avg>
+			<sell_med>6.93</sell_med>
+			<buy_max>6.19</buy_max>
+			<buy_avg>5.75</buy_avg>
+			<buy_med>6.02</buy_med>
 		</i34>
 		<i37 name="Isogen">
-			<sell_min>95.34</sell_min>
-			<sell_avg>112.59</sell_avg>
-			<sell_med>130.00</sell_med>
-			<buy_max>94.21</buy_max>
-			<buy_avg>80.59</buy_avg>
-			<buy_med>87.05</buy_med>
+			<sell_min>81.70</sell_min>
+			<sell_avg>102.59</sell_avg>
+			<sell_med>98.22</sell_med>
+			<buy_max>82.00</buy_max>
+			<buy_avg>71.87</buy_avg>
+			<buy_med>75.05</buy_med>
 		</i37>
 	</mineral>
 	<component>
 		<i16670 name="Crystalline Carbonite">
-			<sell_min>127.99</sell_min>
-			<sell_avg>148.91</sell_avg>
-			<sell_med>159.97</sell_med>
-			<buy_max>120.96</buy_max>
-			<buy_avg>101.04</buy_avg>
-			<buy_med>102.63</buy_med>
+			<sell_min>94.35</sell_min>
+			<sell_avg>110.08</sell_avg>
+			<sell_med>100.00</sell_med>
+			<buy_max>90.10</buy_max>
+			<buy_avg>77.46</buy_avg>
+			<buy_med>83.12</buy_med>
 		</i16670>
 		<i16680 name="Phenolic Composits">
-			<sell_min>824.98</sell_min>
-			<sell_avg>901.92</sell_avg>
-			<sell_med>899.98</sell_med>
-			<buy_max>792.01</buy_max>
-			<buy_avg>670.02</buy_avg>
-			<buy_med>741.34</buy_med>
+			<sell_min>698.86</sell_min>
+			<sell_avg>1022.24</sell_avg>
+			<sell_med>988.25</sell_med>
+			<buy_max>661.08</buy_max>
+			<buy_avg>574.67</buy_avg>
+			<buy_med>630.10</buy_med>
 		</i16680>
 		<i16679 name="Fullerides">
-			<sell_min>3964.58</sell_min>
-			<sell_avg>4165.97</sell_avg>
-			<sell_med>4199.96</sell_med>
-			<buy_max>3826.06</buy_max>
-			<buy_avg>3047.34</buy_avg>
-			<buy_med>3030.12</buy_med>
+			<sell_min>3757.90</sell_min>
+			<sell_avg>4028.73</sell_avg>
+			<sell_med>3866.98</sell_med>
+			<buy_max>3728.00</buy_max>
+			<buy_avg>2993.40</buy_avg>
+			<buy_med>3166.30</buy_med>
 		</i16679>
 		<i16681 name="Nanotransisotrs">
-			<sell_min>10019.00</sell_min>
-			<sell_avg>10332.68</sell_avg>
-			<sell_med>10042.83</sell_med>
-			<buy_max>9420.00</buy_max>
-			<buy_avg>7202.71</buy_avg>
-			<buy_med>6565.67</buy_med>
+			<sell_min>9993.50</sell_min>
+			<sell_avg>10625.65</sell_avg>
+			<sell_med>9998.48</sell_med>
+			<buy_max>8402.05</buy_max>
+			<buy_avg>7369.11</buy_avg>
+			<buy_med>7500.05</buy_med>
 		</i16681>
 		<i16671 name="Titanium Carbonite">
-			<sell_min>107.00</sell_min>
-			<sell_avg>129.47</sell_avg>
-			<sell_med>114.75</sell_med>
-			<buy_max>103.00</buy_max>
-			<buy_avg>95.79</buy_avg>
-			<buy_med>101.74</buy_med>
+			<sell_min>100.00</sell_min>
+			<sell_avg>116.92</sell_avg>
+			<sell_med>120.00</sell_med>
+			<buy_max>93.31</buy_max>
+			<buy_avg>85.37</buy_avg>
+			<buy_med>83.80</buy_med>
 		</i16671>
 		<i16683 name="Ferrogel">
-			<sell_min>8343.97</sell_min>
-			<sell_avg>9877.09</sell_avg>
-			<sell_med>9533.81</sell_med>
-			<buy_max>8249.01</buy_max>
-			<buy_avg>7374.53</buy_avg>
-			<buy_med>7601.00</buy_med>
+			<sell_min>8544.27</sell_min>
+			<sell_avg>9124.91</sell_avg>
+			<sell_med>8726.56</sell_med>
+			<buy_max>8470.07</buy_max>
+			<buy_avg>7902.50</buy_avg>
+			<buy_med>7909.58</buy_med>
 		</i16683>
 		<i16682 name="Hypersynaptic Fibers">
-			<sell_min>3838.91</sell_min>
-			<sell_avg>4177.30</sell_avg>
-			<sell_med>4007.99</sell_med>
-			<buy_max>3725.14</buy_max>
-			<buy_avg>3258.23</buy_avg>
-			<buy_med>3223.22</buy_med>
+			<sell_min>3919.98</sell_min>
+			<sell_avg>4167.73</sell_avg>
+			<sell_med>4006.15</sell_med>
+			<buy_max>3867.28</buy_max>
+			<buy_avg>3558.66</buy_avg>
+			<buy_med>3689.50</buy_med>
 		</i16682>
 		<i16672 name="Tungsten Carbonite">
-			<sell_min>106.19</sell_min>
-			<sell_avg>126.14</sell_avg>
-			<sell_med>116.92</sell_med>
-			<buy_max>101.50</buy_max>
-			<buy_avg>84.52</buy_avg>
-			<buy_med>75.13</buy_med>
+			<sell_min>105.97</sell_min>
+			<sell_avg>118.23</sell_avg>
+			<sell_med>111.77</sell_med>
+			<buy_max>97.94</buy_max>
+			<buy_avg>86.46</buy_avg>
+			<buy_med>90.02</buy_med>
 		</i16672>
 		<i16678 name="Sylramic Fibers">
-			<sell_min>215.29</sell_min>
-			<sell_avg>228.29</sell_avg>
-			<sell_med>228.99</sell_med>
-			<buy_max>210.30</buy_max>
-			<buy_avg>196.08</buy_avg>
-			<buy_med>196.75</buy_med>
+			<sell_min>199.85</sell_min>
+			<sell_avg>232.24</sell_avg>
+			<sell_med>222.00</sell_med>
+			<buy_max>192.50</buy_max>
+			<buy_avg>171.55</buy_avg>
+			<buy_med>170.03</buy_med>
 		</i16678>
 		<i17317 name="Fermionic Condensates">
-			<sell_min>20578.99</sell_min>
-			<sell_avg>26920.18</sell_avg>
-			<sell_med>24487.59</sell_med>
-			<buy_max>20100.42</buy_max>
-			<buy_avg>17238.44</buy_avg>
-			<buy_med>17850.00</buy_med>
+			<sell_min>19248.91</sell_min>
+			<sell_avg>23068.01</sell_avg>
+			<sell_med>21234.86</sell_med>
+			<buy_max>18703.00</buy_max>
+			<buy_avg>17177.38</buy_avg>
+			<buy_med>17902.66</buy_med>
 		</i17317>
 		<i16673 name="Fernite Carbide">
-			<sell_min>118.46</sell_min>
-			<sell_avg>137.64</sell_avg>
-			<sell_med>128.50</sell_med>
-			<buy_max>114.71</buy_max>
-			<buy_avg>96.10</buy_avg>
-			<buy_med>80.00</buy_med>
+			<sell_min>102.35</sell_min>
+			<sell_avg>120.31</sell_avg>
+			<sell_med>106.39</sell_med>
+			<buy_max>98.27</buy_max>
+			<buy_avg>90.17</buy_avg>
+			<buy_med>92.11</buy_med>
 		</i16673>
 	</component>
 	<datacore>
 		<i20172 name="Datacore - Minmatar Starship Engineering">
-			<sell_min>212790.00</sell_min>
-			<sell_avg>242221.87</sell_avg>
-			<sell_med>239999.99</sell_med>
-			<buy_max>192013.38</buy_max>
-			<buy_avg>191716.75</buy_avg>
-			<buy_med>192010.02</buy_med>
+			<sell_min>123203.05</sell_min>
+			<sell_avg>253979.17</sell_avg>
+			<sell_med>278985.91</sell_med>
+			<buy_max>104203.23</buy_max>
+			<buy_avg>98818.96</buy_avg>
+			<buy_med>104000.62</buy_med>
 		</i20172>
 		<i20411 name="Datacore - High Energy Physics">
-			<sell_min>302900.00</sell_min>
-			<sell_avg>344251.99</sell_avg>
-			<sell_med>304988.66</sell_med>
-			<buy_max>270627.60</buy_max>
-			<buy_avg>252462.25</buy_avg>
-			<buy_med>255001.38</buy_med>
+			<sell_min>248899.97</sell_min>
+			<sell_avg>330287.09</sell_avg>
+			<sell_med>268494.50</sell_med>
+			<buy_max>215007.61</buy_max>
+			<buy_avg>178612.79</buy_avg>
+			<buy_med>196003.88</buy_med>
 		</i20411>
 		<i20413 name="Datacore - Laser Physics">
-			<sell_min>229999.96</sell_min>
-			<sell_avg>250278.51</sell_avg>
-			<sell_med>253999.00</sell_med>
-			<buy_max>204215.10</buy_max>
-			<buy_avg>193470.80</buy_avg>
-			<buy_med>198005.57</buy_med>
+			<sell_min>212998.92</sell_min>
+			<sell_avg>264151.18</sell_avg>
+			<sell_med>256449.09</sell_med>
+			<buy_max>198008.93</buy_max>
+			<buy_avg>173058.02</buy_avg>
+			<buy_med>198004.00</buy_med>
 		</i20413>
 		<i20416 name="Datacore - Nanite Engineering">
-			<sell_min>278997.99</sell_min>
-			<sell_avg>379000.00</sell_avg>
-			<sell_med>369994.97</sell_med>
-			<buy_max>272660.60</buy_max>
-			<buy_avg>254539.98</buy_avg>
-			<buy_med>250973.00</buy_med>
+			<sell_min>300464.94</sell_min>
+			<sell_avg>372729.38</sell_avg>
+			<sell_med>318999.00</sell_med>
+			<buy_max>260000.02</buy_max>
+			<buy_avg>229091.00</buy_avg>
+			<buy_med>240004.53</buy_med>
 		</i20416>
 		<i20417 name="Datacore - Electromagnetic Physics">
-			<sell_min>187000.00</sell_min>
-			<sell_avg>222098.62</sell_avg>
-			<sell_med>206999.99</sell_med>
-			<buy_max>180503.68</buy_max>
-			<buy_avg>151858.84</buy_avg>
-			<buy_med>176300.25</buy_med>
+			<sell_min>144998.00</sell_min>
+			<sell_avg>194748.00</sell_avg>
+			<sell_med>168874.50</sell_med>
+			<buy_max>139999.97</buy_max>
+			<buy_avg>81188.36</buy_avg>
+			<buy_med>90000.01</buy_med>
 		</i20417>
 		<i20424 name="Datacore - Mechanical Engineering">
-			<sell_min>237468.93</sell_min>
-			<sell_avg>276674.40</sell_avg>
-			<sell_med>245000.00</sell_med>
-			<buy_max>232426.01</buy_max>
-			<buy_avg>205459.31</buy_avg>
-			<buy_med>217137.01</buy_med>
+			<sell_min>113999.99</sell_min>
+			<sell_avg>310575.60</sell_avg>
+			<sell_med>271100.00</sell_med>
+			<buy_max>105115.02</buy_max>
+			<buy_avg>90013.59</buy_avg>
+			<buy_med>91000.00</buy_med>
 		</i20424>
 		<i20410 name="Datacore - Gallentean Starship Engineering">
-			<sell_min>204697.95</sell_min>
-			<sell_avg>249158.56</sell_avg>
-			<sell_med>247998.90</sell_med>
-			<buy_max>196580.00</buy_max>
-			<buy_avg>163388.81</buy_avg>
-			<buy_med>163900.01</buy_med>
+			<sell_min>197886.46</sell_min>
+			<sell_avg>350339.00</sell_avg>
+			<sell_med>299899.96</sell_med>
+			<buy_max>156089.38</buy_max>
+			<buy_avg>142791.68</buy_avg>
+			<buy_med>152020.00</buy_med>
 		</i20410>
 		<i20419 name="Datacore - Graviton Physics">
-			<sell_min>145999.82</sell_min>
-			<sell_avg>182041.67</sell_avg>
-			<sell_med>148897.92</sell_med>
-			<buy_max>131006.43</buy_max>
-			<buy_avg>124965.43</buy_avg>
-			<buy_med>131001.73</buy_med>
+			<sell_min>157982.15</sell_min>
+			<sell_avg>189736.28</sell_avg>
+			<sell_med>157998.48</sell_med>
+			<buy_max>135607.02</buy_max>
+			<buy_avg>115735.10</buy_avg>
+			<buy_med>121005.07</buy_med>
 		</i20419>
 		<i20421 name="Datacore - Amarrian Starship Engineering">
-			<sell_min>95577.69</sell_min>
-			<sell_avg>131438.50</sell_avg>
-			<sell_med>131000.01</sell_med>
-			<buy_max>79601.10</buy_max>
-			<buy_avg>66499.40</buy_avg>
-			<buy_med>68105.39</buy_med>
+			<sell_min>124998.00</sell_min>
+			<sell_avg>203724.68</sell_avg>
+			<sell_med>200000.00</sell_med>
+			<buy_max>120112.04</buy_max>
+			<buy_avg>83342.24</buy_avg>
+			<buy_med>85003.07</buy_med>
 		</i20421>
 		<i20171 name="Datacore - Hydromagnetic Physics">
-			<sell_min>297227.86</sell_min>
-			<sell_avg>2472947.07</sell_avg>
-			<sell_med>346000.00</sell_med>
-			<buy_max>282225.31</buy_max>
-			<buy_avg>273778.34</buy_avg>
-			<buy_med>282162.00</buy_med>
+			<sell_min>114000.00</sell_min>
+			<sell_avg>210588.10</sell_avg>
+			<sell_med>178999.00</sell_med>
+			<buy_max>80751.00</buy_max>
+			<buy_avg>71839.38</buy_avg>
+			<buy_med>71700.11</buy_med>
 		</i20171>
 		<i20420 name="Datacore - Rocket Science">
-			<sell_min>175000.00</sell_min>
-			<sell_avg>196405.51</sell_avg>
-			<sell_med>212801.00</sell_med>
-			<buy_max>150101.71</buy_max>
-			<buy_avg>132180.60</buy_avg>
-			<buy_med>140000.02</buy_med>
+			<sell_min>176999.99</sell_min>
+			<sell_avg>226277.61</sell_avg>
+			<sell_med>204000.00</sell_med>
+			<buy_max>161001.03</buy_max>
+			<buy_avg>133467.01</buy_avg>
+			<buy_med>131116.94</buy_med>
 		</i20420>
 		<i20423 name="Datacore - Nuclear Physics">
-			<sell_min>204999.99</sell_min>
-			<sell_avg>250082.14</sell_avg>
-			<sell_med>250000.00</sell_med>
-			<buy_max>179011.90</buy_max>
-			<buy_avg>172813.04</buy_avg>
-			<buy_med>179000.00</buy_med>
+			<sell_min>109999.00</sell_min>
+			<sell_avg>160699.74</sell_avg>
+			<sell_med>144499.87</sell_med>
+			<buy_max>93999.01</buy_max>
+			<buy_avg>61366.98</buy_avg>
+			<buy_med>56000.22</buy_med>
 		</i20423>
 		<i20412 name="Datacore - Plasma Physics">
-			<sell_min>299999.98</sell_min>
-			<sell_avg>326384.97</sell_avg>
-			<sell_med>305216.71</sell_med>
-			<buy_max>284140.01</buy_max>
-			<buy_avg>271221.33</buy_avg>
-			<buy_med>284000.03</buy_med>
+			<sell_min>289997.97</sell_min>
+			<sell_avg>309535.81</sell_avg>
+			<sell_med>306998.98</sell_med>
+			<buy_max>203712.10</buy_max>
+			<buy_avg>152290.86</buy_avg>
+			<buy_med>200319.01</buy_med>
 		</i20412>
 		<i20415 name="Datacore - Molecular Engineering">
-			<sell_min>214989.87</sell_min>
-			<sell_avg>326118.01</sell_avg>
-			<sell_med>256000.00</sell_med>
-			<buy_max>208842.71</buy_max>
-			<buy_avg>195386.29</buy_avg>
-			<buy_med>208672.00</buy_med>
+			<sell_min>138994.99</sell_min>
+			<sell_avg>222255.50</sell_avg>
+			<sell_med>168987.99</sell_med>
+			<buy_max>116009.04</buy_max>
+			<buy_avg>91659.77</buy_avg>
+			<buy_med>116008.05</buy_med>
 		</i20415>
 		<i25887 name="Datacore - Caldari Starship Engineering">
-			<sell_min>91000.01</sell_min>
-			<sell_avg>149023.99</sell_avg>
-			<sell_med>154999.99</sell_med>
-			<buy_max>90850.01</buy_max>
-			<buy_avg>82241.80</buy_avg>
-			<buy_med>86503.00</buy_med>
+			<sell_min>78997.76</sell_min>
+			<sell_avg>168074.42</sell_avg>
+			<sell_med>169777.50</sell_med>
+			<buy_max>75000.91</buy_max>
+			<buy_avg>51186.60</buy_avg>
+			<buy_med>50006.00</buy_med>
 		</i25887>
 		<i20418 name="Datacore - Electronic Engineering">
-			<sell_min>172490.00</sell_min>
-			<sell_avg>203524.20</sell_avg>
-			<sell_med>190999.99</sell_med>
-			<buy_max>161043.01</buy_max>
-			<buy_avg>125219.31</buy_avg>
-			<buy_med>140000.00</buy_med>
+			<sell_min>229999.93</sell_min>
+			<sell_avg>300177.03</sell_avg>
+			<sell_med>273999.90</sell_med>
+			<buy_max>200262.01</buy_max>
+			<buy_avg>145151.06</buy_avg>
+			<buy_med>131501.00</buy_med>
 		</i20418>
 		<i20414 name="Datacore - Quantum Physics">
-			<sell_min>188998.98</sell_min>
-			<sell_avg>235858.51</sell_avg>
-			<sell_med>224999.54</sell_med>
-			<buy_max>177411.04</buy_max>
-			<buy_avg>170165.55</buy_avg>
-			<buy_med>170531.18</buy_med>
+			<sell_min>217999.98</sell_min>
+			<sell_avg>257364.97</sell_avg>
+			<sell_med>225475.37</sell_med>
+			<buy_max>182016.01</buy_max>
+			<buy_avg>146411.03</buy_avg>
+			<buy_med>170375.59</buy_med>
 		</i20414>
 	</datacore>
 	<PI>
 		<i3689 name="Mechanical Parts">
-			<sell_min>6134.98</sell_min>
-			<sell_avg>8530.91</sell_avg>
-			<sell_med>8400.00</sell_med>
-			<buy_max>5835.10</buy_max>
-			<buy_avg>3831.25</buy_avg>
-			<buy_med>4500.01</buy_med>
+			<sell_min>5126.62</sell_min>
+			<sell_avg>7264.74</sell_avg>
+			<sell_med>6499.00</sell_med>
+			<buy_max>4926.63</buy_max>
+			<buy_avg>4657.84</buy_avg>
+			<buy_med>4840.00</buy_med>
 		</i3689>
 		<i9848 name="Robotics">
-			<sell_min>48598.99</sell_min>
-			<sell_avg>56292.11</sell_avg>
-			<sell_med>52496.75</sell_med>
-			<buy_max>47175.05</buy_max>
-			<buy_avg>42326.20</buy_avg>
-			<buy_med>45001.01</buy_med>
+			<sell_min>45831.43</sell_min>
+			<sell_avg>52215.06</sell_avg>
+			<sell_med>49530.31</sell_med>
+			<buy_max>43831.45</buy_max>
+			<buy_avg>40966.45</buy_avg>
+			<buy_med>42750.00</buy_med>
 		</i9848>
 		<i9834 name="Guidance System">
-			<sell_min>26299.89</sell_min>
-			<sell_avg>37717.65</sell_avg>
-			<sell_med>34998.99</sell_med>
-			<buy_max>23501.17</buy_max>
-			<buy_avg>18239.95</buy_avg>
-			<buy_med>16468.00</buy_med>
+			<sell_min>22999.83</sell_min>
+			<sell_avg>37599.46</sell_avg>
+			<sell_med>39999.98</sell_med>
+			<buy_max>20679.01</buy_max>
+			<buy_avg>15233.47</buy_avg>
+			<buy_med>16775.44</buy_med>
 		</i9834>
 		<i9842 name="Miniature Electronics">
-			<sell_min>6649.98</sell_min>
-			<sell_avg>12583.41</sell_avg>
-			<sell_med>9829.49</sell_med>
-			<buy_max>6368.02</buy_max>
-			<buy_avg>5909.22</buy_avg>
-			<buy_med>6170.00</buy_med>
+			<sell_min>6514.03</sell_min>
+			<sell_avg>7759.65</sell_avg>
+			<sell_med>7397.86</sell_med>
+			<buy_max>6514.02</buy_max>
+			<buy_avg>6262.45</buy_avg>
+			<buy_med>6513.55</buy_med>
 		</i9842>
 		<i3685 name="Hydrogen Batteries">
-			<sell_min>496.25</sell_min>
-			<sell_avg>763.25</sell_avg>
-			<sell_med>788.84</sell_med>
-			<buy_max>504.16</buy_max>
-			<buy_avg>183.00</buy_avg>
-			<buy_med>162.65</buy_med>
+			<sell_min>520.00</sell_min>
+			<sell_avg>740.62</sell_avg>
+			<sell_med>747.81</sell_med>
+			<buy_max>370.00</buy_max>
+			<buy_avg>167.72</buy_avg>
+			<buy_med>166.12</buy_med>
 		</i3685>
 		<i3828 name="Construction Blocks">
-			<sell_min>6325.00</sell_min>
-			<sell_avg>7833.19</sell_avg>
-			<sell_med>7598.97</sell_med>
-			<buy_max>6294.85</buy_max>
-			<buy_avg>4851.02</buy_avg>
-			<buy_med>5812.34</buy_med>
+			<sell_min>6000.00</sell_min>
+			<sell_avg>7489.33</sell_avg>
+			<sell_med>7446.13</sell_med>
+			<buy_max>5758.00</buy_max>
+			<buy_avg>3888.13</buy_avg>
+			<buy_med>4400.00</buy_med>
 		</i3828>
 		<i3687 name="Electronic Parts">
-			<sell_min>795.00</sell_min>
-			<sell_avg>869.13</sell_avg>
-			<sell_med>800.33</sell_med>
-			<buy_max>670.67</buy_max>
-			<buy_avg>588.60</buy_avg>
-			<buy_med>668.12</buy_med>
+			<sell_min>790.00</sell_min>
+			<sell_avg>1811.04</sell_avg>
+			<sell_med>1999.00</sell_med>
+			<buy_max>725.41</buy_max>
+			<buy_avg>639.02</buy_avg>
+			<buy_med>725.37</buy_med>
 		</i3687>
 		<i9838 name="Super Conductors">
-			<sell_min>6988.00</sell_min>
-			<sell_avg>9209.03</sell_avg>
-			<sell_med>9100.00</sell_med>
-			<buy_max>6421.38</buy_max>
-			<buy_avg>5311.60</buy_avg>
-			<buy_med>5960.00</buy_med>
+			<sell_min>4599.99</sell_min>
+			<sell_avg>7101.02</sell_avg>
+			<sell_med>6500.00</sell_med>
+			<buy_max>4350.03</buy_max>
+			<buy_avg>4124.17</buy_avg>
+			<buy_med>4233.05</buy_med>
 		</i9838>
 		<i9840 name="Transmitter">
-			<sell_min>6999.00</sell_min>
-			<sell_avg>8562.74</sell_avg>
-			<sell_med>7500.00</sell_med>
-			<buy_max>6690.13</buy_max>
-			<buy_avg>6073.86</buy_avg>
-			<buy_med>6021.34</buy_med>
+			<sell_min>5899.99</sell_min>
+			<sell_avg>7859.68</sell_avg>
+			<sell_med>7405.00</sell_med>
+			<buy_max>5715.17</buy_max>
+			<buy_avg>4340.77</buy_avg>
+			<buy_med>4600.00</buy_med>
 		</i9840>
 		<i9830 name="Rocket Fuel">
-			<sell_min>8387.58</sell_min>
-			<sell_avg>10441.81</sell_avg>
-			<sell_med>10000.00</sell_med>
-			<buy_max>8040.26</buy_max>
-			<buy_avg>5927.13</buy_avg>
-			<buy_med>8025.00</buy_med>
+			<sell_min>7300.00</sell_min>
+			<sell_avg>9482.58</sell_avg>
+			<sell_med>8674.80</sell_med>
+			<buy_max>7299.99</buy_max>
+			<buy_avg>5541.75</buy_avg>
+			<buy_med>6203.00</buy_med>
 		</i9830>
 	</PI>
 	<intermediate>
 		<i16664 name="Solerium">
-			<sell_min>8598.98</sell_min>
-			<sell_avg>8676.85</sell_avg>
-			<sell_med>8647.99</sell_med>
-			<buy_max>5060.25</buy_max>
-			<buy_avg>2401.98</buy_avg>
-			<buy_med>2137.79</buy_med>
+			<sell_min>3590.00</sell_min>
+			<sell_avg>5172.40</sell_avg>
+			<sell_med>3998.00</sell_med>
+			<buy_max>3101.69</buy_max>
+			<buy_avg>1715.24</buy_avg>
+			<buy_med>2150.00</buy_med>
 		</i16664>
 		<i17769 name="Fluxed Condensates">
-			<sell_min>12340.00</sell_min>
-			<sell_avg>13726.87</sell_avg>
-			<sell_med>13309.00</sell_med>
-			<buy_max>11445.05</buy_max>
-			<buy_avg>8190.15</buy_avg>
-			<buy_med>9215.52</buy_med>
+			<sell_min>11929.77</sell_min>
+			<sell_avg>13022.94</sell_avg>
+			<sell_med>11974.90</sell_med>
+			<buy_max>11000.36</buy_max>
+			<buy_avg>7205.78</buy_avg>
+			<buy_med>7900.16</buy_med>
 		</i17769>
 		<i17958 name="Vanadium Hafnite">
-			<sell_min>900000.00</sell_min>
-			<sell_avg>1368949.75</sell_avg>
-			<sell_med>1500000.00</sell_med>
-			<buy_max>80005.00</buy_max>
-			<buy_avg>64688.39</buy_avg>
-			<buy_med>0.00</buy_med>
+			<sell_min>1100000.00</sell_min>
+			<sell_avg>1100000.00</sell_avg>
+			<sell_med>1100000.00</sell_med>
+			<buy_max>101002.00</buy_max>
+			<buy_avg>98008.57</buy_avg>
+			<buy_med>101001.00</buy_med>
 		</i17958>
 		<i17960 name="Prometium">
-			<sell_min>5903.35</sell_min>
-			<sell_avg>6861.49</sell_avg>
-			<sell_med>6399.75</sell_med>
-			<buy_max>5613.43</buy_max>
-			<buy_avg>4152.21</buy_avg>
-			<buy_med>4936.03</buy_med>
+			<sell_min>5398.68</sell_min>
+			<sell_avg>6233.00</sell_avg>
+			<sell_med>6000.00</sell_med>
+			<buy_max>5060.85</buy_max>
+			<buy_avg>3959.99</buy_avg>
+			<buy_med>5057.77</buy_med>
 		</i17960>
 		<i16665 name="Hexite">
-			<sell_min>4595.99</sell_min>
-			<sell_avg>5624.36</sell_avg>
-			<sell_med>5999.00</sell_med>
-			<buy_max>4030.34</buy_max>
-			<buy_avg>3079.74</buy_avg>
-			<buy_med>3120.00</buy_med>
+			<sell_min>3399.98</sell_min>
+			<sell_avg>4367.13</sell_avg>
+			<sell_med>4442.80</sell_med>
+			<buy_max>3200.00</buy_max>
+			<buy_avg>2743.53</buy_avg>
+			<buy_med>3082.68</buy_med>
 		</i16665>
 		<i16659 name="Carbon Polymers">
-			<sell_min>1150.00</sell_min>
-			<sell_avg>2043.72</sell_avg>
-			<sell_med>2124.00</sell_med>
-			<buy_max>1004.42</buy_max>
-			<buy_avg>637.53</buy_avg>
-			<buy_med>797.30</buy_med>
+			<sell_min>932.00</sell_min>
+			<sell_avg>1628.99</sell_avg>
+			<sell_med>1653.96</sell_med>
+			<buy_max>901.66</buy_max>
+			<buy_avg>628.07</buy_avg>
+			<buy_med>799.01</buy_med>
 		</i16659>
 		<i16661 name="Sulfuric Acid">
-			<sell_min>1786.73</sell_min>
-			<sell_avg>2119.49</sell_avg>
-			<sell_med>2197.89</sell_med>
-			<buy_max>1577.25</buy_max>
-			<buy_avg>1034.56</buy_avg>
-			<buy_med>940.44</buy_med>
+			<sell_min>1299.69</sell_min>
+			<sell_avg>2003.59</sell_avg>
+			<sell_med>2000.00</sell_med>
+			<buy_max>1117.40</buy_max>
+			<buy_avg>942.41</buy_avg>
+			<buy_med>1100.02</buy_med>
 		</i16661>
 		<i16658 name="Silicon Diborite">
-			<sell_min>1057.68</sell_min>
-			<sell_avg>1882.96</sell_avg>
-			<sell_med>1500.00</sell_med>
-			<buy_max>1010.01</buy_max>
-			<buy_avg>678.57</buy_avg>
-			<buy_med>800.00</buy_med>
+			<sell_min>1049.98</sell_min>
+			<sell_avg>1996.22</sell_avg>
+			<sell_med>2255.21</sell_med>
+			<buy_max>802.07</buy_max>
+			<buy_avg>569.67</buy_avg>
+			<buy_med>755.58</buy_med>
 		</i16658>
 		<i16666 name="Hyperflurite">
-			<sell_min>6386.57</sell_min>
-			<sell_avg>6880.51</sell_avg>
-			<sell_med>6599.99</sell_med>
-			<buy_max>5991.52</buy_max>
-			<buy_avg>3772.82</buy_avg>
-			<buy_med>5600.00</buy_med>
+			<sell_min>6220.00</sell_min>
+			<sell_avg>6472.92</sell_avg>
+			<sell_med>6291.93</sell_med>
+			<buy_max>5603.41</buy_max>
+			<buy_avg>2763.72</buy_avg>
+			<buy_med>120.00</buy_med>
 		</i16666>
 		<i16663 name="Ceasarium Cadmide">
-			<sell_min>2418.97</sell_min>
-			<sell_avg>3681.20</sell_avg>
-			<sell_med>3469.38</sell_med>
-			<buy_max>2223.04</buy_max>
-			<buy_avg>2089.15</buy_avg>
-			<buy_med>2210.06</buy_med>
+			<sell_min>2819.85</sell_min>
+			<sell_avg>3623.62</sell_avg>
+			<sell_med>3449.99</sell_med>
+			<buy_max>2271.93</buy_max>
+			<buy_avg>2137.32</buy_avg>
+			<buy_med>2268.19</buy_med>
 		</i16663>
 		<i16656 name="Fernite Alloy">
-			<sell_min>4949.96</sell_min>
-			<sell_avg>5422.69</sell_avg>
-			<sell_med>5299.80</sell_med>
-			<buy_max>4546.30</buy_max>
-			<buy_avg>1518.09</buy_avg>
-			<buy_med>100.00</buy_med>
+			<sell_min>2122.99</sell_min>
+			<sell_avg>4257.76</sell_avg>
+			<sell_med>4149.50</sell_med>
+			<buy_max>1925.50</buy_max>
+			<buy_avg>1250.83</buy_avg>
+			<buy_med>1925.49</buy_med>
 		</i16656>
 		<i16669 name="Ferrofluid">
-			<sell_min>9398.90</sell_min>
-			<sell_avg>11169.90</sell_avg>
-			<sell_med>10297.90</sell_med>
-			<buy_max>8232.27</buy_max>
-			<buy_avg>6836.32</buy_avg>
-			<buy_med>8232.12</buy_med>
+			<sell_min>9447.96</sell_min>
+			<sell_avg>10732.90</sell_avg>
+			<sell_med>9474.84</sell_med>
+			<buy_max>8889.58</buy_max>
+			<buy_avg>6501.50</buy_avg>
+			<buy_med>7900.72</buy_med>
 		</i16669>
 		<i16655 name="Crystallite Alloy">
-			<sell_min>4000.00</sell_min>
-			<sell_avg>4695.54</sell_avg>
-			<sell_med>4499.00</sell_med>
-			<buy_max>3602.72</buy_max>
-			<buy_avg>1594.09</buy_avg>
-			<buy_med>1740.41</buy_med>
+			<sell_min>2348.99</sell_min>
+			<sell_avg>2924.65</sell_avg>
+			<sell_med>2594.97</sell_med>
+			<buy_max>1788.03</buy_max>
+			<buy_avg>1447.00</buy_avg>
+			<buy_med>1777.77</buy_med>
 		</i16655>
 		<i16662 name="Platinum Technite">
-			<sell_min>124990.00</sell_min>
-			<sell_avg>127253.68</sell_avg>
-			<sell_med>124992.95</sell_med>
-			<buy_max>113010.14</buy_max>
-			<buy_avg>79579.67</buy_avg>
-			<buy_med>88006.48</buy_med>
+			<sell_min>99478.95</sell_min>
+			<sell_avg>104693.92</sell_avg>
+			<sell_med>100002.98</sell_med>
+			<buy_max>94009.45</buy_max>
+			<buy_avg>73331.90</buy_avg>
+			<buy_med>85708.98</buy_med>
 		</i16662>
 		<i16668 name="Dysporite">
-			<sell_min>12399.97</sell_min>
-			<sell_avg>15754.95</sell_avg>
-			<sell_med>0.00</sell_med>
-			<buy_max>8818.19</buy_max>
-			<buy_avg>7260.40</buy_avg>
-			<buy_med>8336.01</buy_med>
+			<sell_min>10894.00</sell_min>
+			<sell_avg>13562.47</sell_avg>
+			<sell_med>11989.95</sell_med>
+			<buy_max>8501.01</buy_max>
+			<buy_avg>5520.14</buy_avg>
+			<buy_med>6501.00</buy_med>
 		</i16668>
 		<i16667 name="Neo Mercurite">
-			<sell_min>15147.99</sell_min>
-			<sell_avg>15462.44</sell_avg>
-			<sell_med>15158.68</sell_med>
-			<buy_max>14702.10</buy_max>
-			<buy_avg>9130.68</buy_avg>
-			<buy_med>11536.00</buy_med>
+			<sell_min>13819.99</sell_min>
+			<sell_avg>15088.58</sell_avg>
+			<sell_med>15044.83</sell_med>
+			<buy_max>11250.22</buy_max>
+			<buy_avg>7997.25</buy_avg>
+			<buy_med>9602.60</buy_med>
 		</i16667>
 		<i16660 name="Ceramic Powder">
-			<sell_min>1819.99</sell_min>
-			<sell_avg>2231.66</sell_avg>
-			<sell_med>2079.97</sell_med>
-			<buy_max>1700.95</buy_max>
-			<buy_avg>371.05</buy_avg>
-			<buy_med>21.00</buy_med>
+			<sell_min>1299.58</sell_min>
+			<sell_avg>1871.33</sell_avg>
+			<sell_med>1838.95</sell_med>
+			<buy_max>985.30</buy_max>
+			<buy_avg>394.27</buy_avg>
+			<buy_med>23.00</buy_med>
 		</i16660>
 		<i16657 name="Rolled Tungsten">
-			<sell_min>3249.98</sell_min>
-			<sell_avg>14765.47</sell_avg>
-			<sell_med>21500.00</sell_med>
-			<buy_max>3100.02</buy_max>
-			<buy_avg>1664.55</buy_avg>
-			<buy_med>1938.03</buy_med>
+			<sell_min>2247.96</sell_min>
+			<sell_avg>10272.97</sell_avg>
+			<sell_med>7918.00</sell_med>
+			<buy_max>1956.13</buy_max>
+			<buy_avg>1696.46</buy_avg>
+			<buy_med>1956.13</buy_med>
 		</i16657>
 		<i16654 name="Titanium Chrimide">
-			<sell_min>3696.99</sell_min>
-			<sell_avg>4138.52</sell_avg>
-			<sell_med>3840.00</sell_med>
-			<buy_max>3333.34</buy_max>
-			<buy_avg>1741.87</buy_avg>
-			<buy_med>1299.00</buy_med>
+			<sell_min>2249.85</sell_min>
+			<sell_avg>3194.95</sell_avg>
+			<sell_med>3189.97</sell_med>
+			<buy_max>1900.85</buy_max>
+			<buy_avg>1181.80</buy_avg>
+			<buy_med>1438.00</buy_med>
 		</i16654>
 	</intermediate>
 	<moongoo>
 		<i16644 name="Platinum">
-			<sell_min>3979.80</sell_min>
-			<sell_avg>5414.36</sell_avg>
-			<sell_med>6000.00</sell_med>
-			<buy_max>3799.20</buy_max>
-			<buy_avg>933.88</buy_avg>
-			<buy_med>40.00</buy_med>
+			<sell_min>2731.35</sell_min>
+			<sell_avg>3828.88</sell_avg>
+			<sell_med>3589.92</sell_med>
+			<buy_max>2501.03</buy_max>
+			<buy_avg>898.01</buy_avg>
+			<buy_med>42.50</buy_med>
 		</i16644>
 		<i16647 name="Ceasium">
-			<sell_min>3335.00</sell_min>
-			<sell_avg>4379.79</sell_avg>
-			<sell_med>4737.91</sell_med>
-			<buy_max>2103.24</buy_max>
-			<buy_avg>1583.17</buy_avg>
-			<buy_med>2053.60</buy_med>
+			<sell_min>2185.84</sell_min>
+			<sell_avg>3655.45</sell_avg>
+			<sell_med>3194.94</sell_med>
+			<buy_max>1866.10</buy_max>
+			<buy_avg>1238.03</buy_avg>
+			<buy_med>1820.16</buy_med>
 		</i16647>
 		<i16638 name="Titanium">
-			<sell_min>1219.98</sell_min>
-			<sell_avg>1590.51</sell_avg>
-			<sell_med>1629.50</sell_med>
-			<buy_max>1171.19</buy_max>
-			<buy_avg>938.99</buy_avg>
-			<buy_med>1128.22</buy_med>
+			<sell_min>1128.00</sell_min>
+			<sell_avg>1415.75</sell_avg>
+			<sell_med>1199.58</sell_med>
+			<buy_max>701.69</buy_max>
+			<buy_avg>455.77</buy_avg>
+			<buy_med>700.50</buy_med>
 		</i16638>
 		<i16639 name="Scandium">
-			<sell_min>1898.00</sell_min>
-			<sell_avg>4623.50</sell_avg>
-			<sell_med>2703.89</sell_med>
-			<buy_max>1550.00</buy_max>
-			<buy_avg>533.29</buy_avg>
-			<buy_med>30.01</buy_med>
+			<sell_min>1094.52</sell_min>
+			<sell_avg>2462.46</sell_avg>
+			<sell_med>1989.99</sell_med>
+			<buy_max>962.01</buy_max>
+			<buy_avg>509.50</buy_avg>
+			<buy_med>761.09</buy_med>
 		</i16639>
 		<i16652 name="Promethium">
-			<sell_min>5431.97</sell_min>
-			<sell_avg>8881.15</sell_avg>
-			<sell_med>6981.00</sell_med>
-			<buy_max>3616.32</buy_max>
-			<buy_avg>2451.85</buy_avg>
-			<buy_med>3610.00</buy_med>
+			<sell_min>5234.00</sell_min>
+			<sell_avg>6552.47</sell_avg>
+			<sell_med>5600.99</sell_med>
+			<buy_max>4837.27</buy_max>
+			<buy_avg>2828.84</buy_avg>
+			<buy_med>3625.03</buy_med>
 		</i16652>
 		<i16642 name="Vanadium">
-			<sell_min>3069.52</sell_min>
-			<sell_avg>3534.38</sell_avg>
-			<sell_med>3395.80</sell_med>
-			<buy_max>2892.06</buy_max>
-			<buy_avg>1815.97</buy_avg>
-			<buy_med>2000.51</buy_med>
+			<sell_min>2212.78</sell_min>
+			<sell_avg>2656.84</sell_avg>
+			<sell_med>2539.99</sell_med>
+			<buy_max>2175.00</buy_max>
+			<buy_avg>1386.63</buy_avg>
+			<buy_med>1501.00</buy_med>
 		</i16642>
 		<i16651 name="Neodymium">
-			<sell_min>17694.99</sell_min>
-			<sell_avg>19648.82</sell_avg>
-			<sell_med>19395.00</sell_med>
-			<buy_max>15015.04</buy_max>
-			<buy_avg>7136.06</buy_avg>
-			<buy_med>1749.20</buy_med>
+			<sell_min>15377.99</sell_min>
+			<sell_avg>18661.91</sell_avg>
+			<sell_med>18698.00</sell_med>
+			<buy_max>15000.00</buy_max>
+			<buy_avg>7252.78</buy_avg>
+			<buy_med>11003.39</buy_med>
 		</i16651>
 		<i16653 name="Thulium">
-			<sell_min>3496.99</sell_min>
-			<sell_avg>9374.37</sell_avg>
-			<sell_med>5000.00</sell_med>
-			<buy_max>3015.01</buy_max>
-			<buy_avg>2022.75</buy_avg>
-			<buy_med>2510.01</buy_med>
+			<sell_min>3837.99</sell_min>
+			<sell_avg>5309.29</sell_avg>
+			<sell_med>4774.42</sell_med>
+			<buy_max>3314.04</buy_max>
+			<buy_avg>2503.04</buy_avg>
+			<buy_med>3281.01</buy_med>
 		</i16653>
 		<i16649 name="Technetium">
-			<sell_min>205999.00</sell_min>
-			<sell_avg>216630.19</sell_avg>
-			<sell_med>215999.43</sell_med>
-			<buy_max>200000.11</buy_max>
-			<buy_avg>148576.19</buy_avg>
-			<buy_med>172000.02</buy_med>
+			<sell_min>187195.55</sell_min>
+			<sell_avg>195781.89</sell_avg>
+			<sell_med>192726.52</sell_med>
+			<buy_max>181007.00</buy_max>
+			<buy_avg>142696.69</buy_avg>
+			<buy_med>170000.00</buy_med>
 		</i16649>
 		<i16672 name="Tungsten">
-			<sell_min>106.19</sell_min>
-			<sell_avg>126.14</sell_avg>
-			<sell_med>116.92</sell_med>
-			<buy_max>101.50</buy_max>
-			<buy_avg>84.52</buy_avg>
-			<buy_med>75.13</buy_med>
+			<sell_min>105.97</sell_min>
+			<sell_avg>118.23</sell_avg>
+			<sell_med>111.77</sell_med>
+			<buy_max>97.94</buy_max>
+			<buy_avg>86.46</buy_avg>
+			<buy_med>90.02</buy_med>
 		</i16672>
 		<i16650 name="Dysprosium">
-			<sell_min>11993.76</sell_min>
-			<sell_avg>12934.04</sell_avg>
-			<sell_med>12288.91</sell_med>
-			<buy_max>8888.05</buy_max>
-			<buy_avg>4743.42</buy_avg>
-			<buy_med>50.00</buy_med>
+			<sell_min>10169.00</sell_min>
+			<sell_avg>11334.31</sell_avg>
+			<sell_med>10387.96</sell_med>
+			<buy_max>9701.00</buy_max>
+			<buy_avg>6335.00</buy_avg>
+			<buy_med>8000.03</buy_med>
 		</i16650>
 		<i16641 name="Chromium">
-			<sell_min>2361.29</sell_min>
-			<sell_avg>3593.52</sell_avg>
-			<sell_med>3500.00</sell_med>
-			<buy_max>2233.99</buy_max>
-			<buy_avg>1547.88</buy_avg>
-			<buy_med>1500.05</buy_med>
+			<sell_min>2189.72</sell_min>
+			<sell_avg>2853.72</sell_avg>
+			<sell_med>2414.95</sell_med>
+			<buy_max>2057.01</buy_max>
+			<buy_avg>1524.51</buy_avg>
+			<buy_med>1800.00</buy_med>
 		</i16641>
 		<i16634 name="Atmospheric Gas">
-			<sell_min>231.76</sell_min>
-			<sell_avg>368.54</sell_avg>
-			<sell_med>399.97</sell_med>
-			<buy_max>176.10</buy_max>
-			<buy_avg>129.19</buy_avg>
-			<buy_med>126.71</buy_med>
+			<sell_min>129.80</sell_min>
+			<sell_avg>369.00</sell_avg>
+			<sell_med>687.98</sell_med>
+			<buy_max>101.20</buy_max>
+			<buy_avg>90.97</buy_avg>
+			<buy_med>101.07</buy_med>
 		</i16634>
 		<i16636 name="Silicates">
-			<sell_min>1280.00</sell_min>
-			<sell_avg>1590.57</sell_avg>
-			<sell_med>1448.85</sell_med>
-			<buy_max>1079.51</buy_max>
-			<buy_avg>709.00</buy_avg>
-			<buy_med>951.50</buy_med>
+			<sell_min>744.79</sell_min>
+			<sell_avg>1117.53</sell_avg>
+			<sell_med>1149.70</sell_med>
+			<buy_max>515.62</buy_max>
+			<buy_avg>329.00</buy_avg>
+			<buy_med>341.01</buy_med>
 		</i16636>
 		<i16648 name="Hafnium">
-			<sell_min>2730.82</sell_min>
-			<sell_avg>8677.40</sell_avg>
-			<sell_med>6490.90</sell_med>
-			<buy_max>2453.71</buy_max>
-			<buy_avg>1932.42</buy_avg>
-			<buy_med>2011.95</buy_med>
+			<sell_min>2338.94</sell_min>
+			<sell_avg>3041.03</sell_avg>
+			<sell_med>2672.40</sell_med>
+			<buy_max>2267.30</buy_max>
+			<buy_avg>1819.85</buy_avg>
+			<buy_med>2093.08</buy_med>
 		</i16648>
 		<i16643 name="Cadmium">
-			<sell_min>2763.90</sell_min>
-			<sell_avg>3397.90</sell_avg>
-			<sell_med>3039.00</sell_med>
-			<buy_max>2456.60</buy_max>
-			<buy_avg>1676.63</buy_avg>
-			<buy_med>1612.46</buy_med>
+			<sell_min>2049.97</sell_min>
+			<sell_avg>2710.44</sell_avg>
+			<sell_med>2455.94</sell_med>
+			<buy_max>1950.00</buy_max>
+			<buy_avg>1321.43</buy_avg>
+			<buy_med>1656.24</buy_med>
 		</i16643>
 		<i16635 name="Evaporite Deposits">
-			<sell_min>848.49</sell_min>
-			<sell_avg>1664.52</sell_avg>
-			<sell_med>986.19</sell_med>
-			<buy_max>834.79</buy_max>
-			<buy_avg>546.24</buy_avg>
-			<buy_med>625.13</buy_med>
+			<sell_min>520.00</sell_min>
+			<sell_avg>1002.19</sell_avg>
+			<sell_med>796.17</sell_med>
+			<buy_max>350.19</buy_max>
+			<buy_avg>147.29</buy_avg>
+			<buy_med>10.00</buy_med>
 		</i16635>
 		<i16640 name="Cobalt">
-			<sell_min>743.95</sell_min>
-			<sell_avg>818.73</sell_avg>
-			<sell_med>837.99</sell_med>
-			<buy_max>666.13</buy_max>
-			<buy_avg>408.13</buy_avg>
+			<sell_min>739.19</sell_min>
+			<sell_avg>1262.41</sell_avg>
+			<sell_med>1201.02</sell_med>
+			<buy_max>680.00</buy_max>
+			<buy_avg>382.88</buy_avg>
 			<buy_med>424.11</buy_med>
 		</i16640>
 		<i16633 name="Hydrocarbons">
-			<sell_min>268.00</sell_min>
-			<sell_avg>544.69</sell_avg>
-			<sell_med>522.00</sell_med>
-			<buy_max>202.49</buy_max>
-			<buy_avg>128.68</buy_avg>
-			<buy_med>90.13</buy_med>
+			<sell_min>197.99</sell_min>
+			<sell_avg>389.19</sell_avg>
+			<sell_med>244.64</sell_med>
+			<buy_max>101.00</buy_max>
+			<buy_avg>49.28</buy_avg>
+			<buy_med>55.52</buy_med>
 		</i16633>
 		<i16646 name="Mercury">
-			<sell_min>4147.96</sell_min>
-			<sell_avg>4822.55</sell_avg>
-			<sell_med>4348.75</sell_med>
-			<buy_max>3905.33</buy_max>
-			<buy_avg>2647.64</buy_avg>
-			<buy_med>3499.37</buy_med>
+			<sell_min>3145.00</sell_min>
+			<sell_avg>3771.05</sell_avg>
+			<sell_med>4074.01</sell_med>
+			<buy_max>3000.00</buy_max>
+			<buy_avg>1984.26</buy_avg>
+			<buy_med>2528.79</buy_med>
 		</i16646>
 	</moongoo>
 </root>
