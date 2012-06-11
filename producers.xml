@@ -15,11 +15,6 @@
 		</i1850196909>
 	<!--Engineering-->
 	<!--Shield-->
-		<i348613732 name="Agasa Kaolla"><!---->
-			<i2281 name="Invulnerability Field II">200</i2281>
-			<i2301 name="Photon Scattering Field II">200</i2301>
-			<i3608 name="Large Shield Transporter II">100</i3608>
-		</i348613732>
 		<i91380984 name="Roland Raskolnikov"><!---->
 			<i2281 name="Invulnerability Field II">200</i2281>
 			<i2301 name="Photon Scattering Field II">200</i2301>
@@ -59,6 +54,7 @@
 		</i696814627>
 		<i709019725 name="Jaxivar">
 			<i2889 name="200mm AutoCannon II">400</i2889>
+			<i3186 name="Neutron Blaster Cannon II">200</i3186>
 		</i709019725>
 	<!--Interdiction-->
 		<i913820860 name="Wimgle"><!---->
@@ -66,11 +62,11 @@
 			<i3244 name="Warp Disruptor II">200</i3244>
 			<i448 name="Warp Scrambler II">100</i448>
 		</i913820860>
-		<i1845303338 name="Iviar Hoth"><!---->
+		<i348613732 name="Agasa Kaolla"><!---->
 			<i527 name="Stasis Webifier II">200</i527>
 			<i3244 name="Warp Disruptor II">200</i3244>
 			<i448 name="Warp Scrambler II">100</i448>
-		</i1845303338>
+		</i348613732>
 		<!--i1439910980 name="Meganium Shakra"-->
 		<i865811521 name="Kyne Berlia">
 			<i527 name="Stasis Webifier II">200</i527>
@@ -96,11 +92,14 @@
 			<i12032 name="Manticore">16</i12032>
 		</i300782851>
 	<!--Capitals-->
-		<!--i1845303338 name="Iviar Hoth">
-			<i19720 name="Revelation">1</i19720>
+		<i1845303338 name="Iviar Hoth">
+			<!--i19720 name="Revelation">1</i19720>
 			<i23757 name="Archon">1</i23757>
-			<i28606 name="Orca">2</i28606>
-		</i1845303338-->
+			<i28606 name="Orca">2</i28606-->
+			<i22456 name="Sabre">8</i22456>
+			<i11963 name="Rapier">6</i11963>
+			<i11978 name="Scimitar">6</i11978>
+		</i1845303338>
 	</staff>	
 	<pos>
 	</pos>
