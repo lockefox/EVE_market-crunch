@@ -50,11 +50,11 @@ my %capitalParts;
 #
 ##################################################
 
-my $commas = 0;		#Comify output (default off)
-my $shoppinglist=0;	#Add sum of all products (default off`)
-my $doT1=0;			#Add T1 minerals to shopping list output (default off)
-my $doRAM=0;		#Add RAM minerals to shopping list output (default off)
-my $doSplit=0;		#Separate T1/T2/RAM minerals from eachother (default off)
+my $commas = 1;		#Comify output (default off)
+my $shoppinglist=1;	#Add sum of all products (default off`)
+my $doT1=1;			#Add T1 minerals to shopping list output (default off)
+my $doRAM=1;		#Add RAM minerals to shopping list output (default off)
+my $doSplit=1;		#Separate T1/T2/RAM minerals from eachother (default off)
 
 my $joblist="producers.xml";
 my $matlist="manufacture.xml";
@@ -321,6 +321,8 @@ sub shopping{
 		"i34",0,
 		"i39",0,
 	);
+	
+	
 
 	foreach my $pilots (keys %kits){
 		foreach my $materialKeys (keys %{$kits{$pilots}}){
@@ -539,7 +541,8 @@ sub printer{
 	$writer->xmlDecl( 'UTF-8' );
 	
 	$writer->startTag('root');
-	
+	my %rName = reverse %names;
+	my $shortID;
 	foreach my $people (keys %{$staff->{staff}}){
 		$writer->startTag ("inventor", 'id'=>$people, 'name'=>$employee{$people});
 		my %subMin;
@@ -549,7 +552,7 @@ sub printer{
 		my %subGoo;
 		my %subOther;
 		
-
+	
 	#%comp,
 	#%goo,
 	#%min,
@@ -630,53 +633,62 @@ sub printer{
 		$writer->startTag("Shopping");
 		#$writer->startTag("mineral");
 			foreach my $compKey (sort keys %{$shopping{"component"}}){
-				$writer->startTag("Component", 'name'=>$compKey);
+				(undef,$shortID)=split ('i',$rName{$compKey});
+				$writer->startTag("Component", 'name'=>$compKey, 'id'=>$shortID);
 				$writer->characters(&commify($shopping{"component"}{$compKey}));
 				$writer->endTag;
 			}
 			foreach my $gooKey (sort keys %{$shopping{"goo"}}){
-				$writer->startTag("goo", 'name'=>$gooKey);
+				(undef,$shortID)=split ('i',$rName{$gooKey});
+				$writer->startTag("goo", 'name'=>$gooKey, 'id'=>$shortID);
 				$writer->characters(&commify($shopping{"goo"}{$gooKey}));
 				$writer->endTag;
 			}
 			foreach my $dcKey (sort keys %{$shopping{"datacore"}}){
-				$writer->startTag("Datacore", 'name'=>$dcKey);
+				(undef,$shortID)=split ('i',$rName{$dcKey});
+				$writer->startTag("Datacore", 'name'=>$dcKey, 'id'=>$shortID);
 				$writer->characters(&commify($shopping{"datacore"}{$dcKey}));
 				$writer->endTag;
 			}
 			foreach my $minKey (sort keys %{$shopping{"mineral"}}){
-				$writer->startTag("Mineral", 'name'=>$minKey);
+				(undef,$shortID)=split ('i',$rName{$minKey});
+				$writer->startTag("Mineral", 'name'=>$minKey, 'id'=>$shortID);
 				$writer->characters(&commify($shopping{"mineral"}{$minKey}));
 				$writer->endTag;
 			}
 			if ($doSplit eq 1){
 				foreach my $T2Key (sort keys %{$shopping{"T2"}}){
-					$writer->startTag("T2", 'name'=>$T2Key);
+					(undef,$shortID)=split ('i',$rName{$T2Key});
+					$writer->startTag("T2", 'name'=>$T2Key, 'id'=>$shortID);
 					$writer->characters(&commify($shopping{"T2"}{$T2Key}));
 					$writer->endTag;
 				}
 			}
 			if ($doT1 eq 1){
 				foreach my $T1Key (sort keys %{$shopping{"T1"}}){
-					$writer->startTag("T1", 'name'=>$T1Key);
+					(undef,$shortID)=split ('i',$rName{$T1Key});
+					$writer->startTag("T1", 'name'=>$T1Key, 'id'=>$shortID);
 					$writer->characters(&commify($shopping{"T1"}{$T1Key}));
 					$writer->endTag;
 				}
 			}
 			if ($doRAM eq 1){
 				foreach my $RAMKey (sort keys %{$shopping{"ram"}}){
-					$writer->startTag("RAM", 'name'=>$RAMKey);
+					(undef,$shortID)=split ('i',$rName{$RAMKey});
+					$writer->startTag("RAM", 'name'=>$RAMKey, 'id'=>$shortID);
 					$writer->characters(&commify($shopping{"ram"}{$RAMKey}));
 					$writer->endTag;
 				}
 			}
 			foreach my $PIKey (sort keys %{$shopping{"PI"}}){
-				$writer->startTag("PI", 'name'=>$PIKey);
+				(undef,$shortID)=split ('i',$rName{$PIKey});
+				$writer->startTag("PI", 'name'=>$PIKey, 'id'=>$shortID);
 				$writer->characters(&commify($shopping{"PI"}{$PIKey}));
 				$writer->endTag;
 			}
 			foreach my $OKey (sort keys %{$shopping{"other"}}){
-				$writer->startTag("Other", 'name'=>$OKey);
+				(undef,$shortID)=split ('i',$rName{$OKey});
+				$writer->startTag("Other", 'name'=>$OKey, 'id'=>$shortID);
 				$writer->characters(&commify($shopping{"other"}{$OKey}));
 				$writer->endTag;
 			}
