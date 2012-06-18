@@ -15,11 +15,11 @@
 		</i1850196909>
 	<!--Engineering-->
 	<!--Shield-->
-		<i91380984 name="Roland Raskolnikov"><!---->
+		<!--i91380984 name="Roland Raskolnikov">
 			<i2281 name="Invulnerability Field II">200</i2281>
 			<i2301 name="Photon Scattering Field II">200</i2301>
 			<i3608 name="Large Shield Transporter II">100</i3608>
-		</i91380984>
+		</i91380984-->
 	<!--Propulsion-->
 		<i847159430 name="Roeth Whitestar"><!---->
 			<i438 name="1MN Afterburner II">100</i438>
@@ -50,7 +50,7 @@
 		</i628592330>
 		<i696814627 name="Nighteyes5"><!---->
 			<i3186 name="Neutron Blaster Cannon II">200</i3186>
-			<i2913 name="425mm Autocannon II">200</i2913>
+			<i2889 name="200mm AutoCannon II">200</i2889>
 		</i696814627>
 		<i709019725 name="Jaxivar">
 			<i2889 name="200mm AutoCannon II">400</i2889>
