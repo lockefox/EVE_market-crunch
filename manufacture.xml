@@ -1959,8 +1959,46 @@
 				<flag>module</flag>
 			</i3065>
 			<i3049 name="Mega Beam Laser II">
+				<i20413 name="Datacore - Laser Physics">6</i20413>
+				<i20424 name="Datacore - Mechanical Engineering">6</i20424>
+				<i11399 name="Morphite">210</i11399>
+				<MBL name="Mega Beam Laser I" id="463">10</MBL>
+				<i11486 name="R.A.M. - Weapon Tech">6.8</i11486>
+				<i11689 name="Laser Focusing Crystals">160</i11689>
+				<i9848 name="Robotics">90</i9848>
+				<i37 name="Isogen">7550</i37>
+				<i40 name="Megacyte">180</i40>
+				<i36 name="Mexallon">18420</i36>
+				<i38 name="Nocxium">960</i38>
+				<i35 name="Pyerite">63470</i35>
+				<i34 name="Tritanium">0</i34>
+				<i39 name="Zydrine">30</i39>
+				<qty>10</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<mfg_grp>laser</mfg_grp>
+				<flag>module</flag>
 			</i3049>
 			<i2985 name="Dual Heavy Beam Laser II">
+				<i20413 name="Datacore - Laser Physics">6</i20413>
+				<i20424 name="Datacore - Mechanical Engineering">6</i20424>
+				<i11399 name="Morphite">180</i11399>
+				<DHB name="Dual Heavy Beam Laser I" id="461">10</DHB>
+				<i11486 name="R.A.M. - Weapon Tech">6.8</i11486>
+				<i11689 name="Laser Focusing Crystals">140</i11689>
+				<i9848 name="Robotics">90</i9848>
+				<i37 name="Isogen">1950</i37>
+				<i40 name="Megacyte">20</i40>
+				<i36 name="Mexallon">11280</i36>
+				<i38 name="Nocxium">560</i38>
+				<i35 name="Pyerite">16050</i35>
+				<i34 name="Tritanium">60960</i34>
+				<i39 name="Zydrine">30</i39>
+				<qty>10</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<mfg_grp>laser</mfg_grp>
+				<flag>module</flag>
 			</i2985>
 			<i3057 name="Mega Pulse Laser II">
 				<i20413 name="Datacore - Laser Physics">6</i20413>
@@ -1984,33 +2022,280 @@
 				<flag>module</flag>
 			</i3057>
 			<i4147 name="Dual Heavy Pulse Laser II">
+				<i20413 name="Datacore - Laser Physics">6</i20413>
+				<i20424 name="Datacore - Mechanical Engineering">6</i20424>
+				<i11399 name="Morphite">170</i11399>
+				<DHPL name="Dual Heavy Pulse Laser I" id="460">10</DHPL>
+				<i11486 name="R.A.M. - Weapon Tech">6</i11486>
+				<i11689 name="Laser Focusing Crystals">130</i11689>
+				<i9848 name="Robotics">90</i9848>
+				<i37 name="Isogen">0</i37>
+				<i40 name="Megacyte">30</i40>
+				<i36 name="Mexallon">16410</i36>
+				<i38 name="Nocxium">0</i38>
+				<i35 name="Pyerite">8330</i35>
+				<i34 name="Tritanium">17850</i34>
+				<i39 name="Zydrine">20</i39>
+				<qty>10</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<mfg_grp>laser</mfg_grp>
+				<flag>module</flag>
 			</i4147>
 			<i3009 name="Focused Medium Beam Laser II">
+				<i20413 name="Datacore - Laser Physics">4</i20413>
+				<i20424 name="Datacore - Mechanical Engineering">4</i20424>
+				<i11399 name="Morphite">120</i11399>
+				<FMBL name="Focused Medium Beam Laser I" id="457">10</FMBL>
+				<i11486 name="R.A.M. - Weapon Tech">4</i11486>
+				<i11689 name="Laser Focusing Crystals">130</i11689>
+				<i9848 name="Robotics">30</i9848>
+				<i37 name="Isogen">0</i37>
+				<i40 name="Megacyte">30</i40>
+				<i36 name="Mexallon">16410</i36>
+				<i38 name="Nocxium">0</i38>
+				<i35 name="Pyerite">8330</i35>
+				<i34 name="Tritanium">17850</i34>
+				<i39 name="Zydrine">20</i39>
+				<qty>10</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<mfg_grp>laser</mfg_grp>
+				<flag>module</flag>
 			</i3009>
 			<i3025 name="Heavy Beam Laser II">
+				<i20413 name="Datacore - Laser Physics">4</i20413>
+				<i20424 name="Datacore - Mechanical Engineering">4</i20424>
+				<i11399 name="Morphite">120</i11399>
+				<HBL name="Heavy Beam Laser I" id="459">10</HBL>
+				<i11486 name="R.A.M. - Weapon Tech">4</i11486>
+				<i11689 name="Laser Focusing Crystals">120</i11689>
+				<i9848 name="Robotics">30</i9848>
+				<i37 name="Isogen">20</i37>
+				<i40 name="Megacyte">0</i40>
+				<i36 name="Mexallon">9440</i36>
+				<i38 name="Nocxium">90</i38>
+				<i35 name="Pyerite">14720</i35>
+				<i34 name="Tritanium">42450</i34>
+				<i39 name="Zydrine">0</i39>
+				<qty>10</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<mfg_grp>laser</mfg_grp>
+				<flag>module</flag>
 			</i3025>
 			<i3285 name="Quad Light Beam Laser II">
+				<i20413 name="Datacore - Laser Physics">4</i20413>
+				<i20424 name="Datacore - Mechanical Engineering">4</i20424>
+				<i11399 name="Morphite">90</i11399>
+				<QLBL name="Quad Light Beam Laser I" id="455">10</QLBL>
+				<i11486 name="R.A.M. - Weapon Tech">4</i11486>
+				<i11689 name="Laser Focusing Crystals">80</i11689>
+				<i9848 name="Robotics">30</i9848>
+				<i37 name="Isogen">0</i37>
+				<i40 name="Megacyte">0</i40>
+				<i36 name="Mexallon">930</i36>
+				<i38 name="Nocxium">0</i38>
+				<i35 name="Pyerite">1680</i35>
+				<i34 name="Tritanium">30</i34>
+				<i39 name="Zydrine">0</i39>
+				<qty>10</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<mfg_grp>laser</mfg_grp>
+				<flag>module</flag>
 			</i3285>
 			<i3520 name="Heavy Pulse Laser II">
+				<i20413 name="Datacore - Laser Physics">4</i20413>
+				<i20424 name="Datacore - Mechanical Engineering">4</i20424>
+				<i11399 name="Morphite">140</i11399>
+				<HPL name="Heavy Pulse Laser I" id="458">10</HPL>
+				<i11486 name="R.A.M. - Weapon Tech">4</i11486>
+				<i11689 name="Laser Focusing Crystals">110</i11689>
+				<i9848 name="Robotics">30</i9848>
+				<i37 name="Isogen">80</i37>
+				<i40 name="Megacyte">0</i40>
+				<i36 name="Mexallon">10740</i36>
+				<i38 name="Nocxium">20</i38>
+				<i35 name="Pyerite">9740</i35>
+				<i34 name="Tritanium">43050</i34>
+				<i39 name="Zydrine">0</i39>
+				<qty>10</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<mfg_grp>laser</mfg_grp>
+				<flag>module</flag>
 			</i3520>
 			<i3512 name="Focused Medium Pulse Laser II">
+				<i20413 name="Datacore - Laser Physics">4</i20413>
+				<i20424 name="Datacore - Mechanical Engineering">4</i20424>
+				<i11399 name="Morphite">110</i11399>
+				<FMPL name="Focused Medium Pulse Laser I" id="456">10</FMPL>
+				<i11486 name="R.A.M. - Weapon Tech">4</i11486>
+				<i11689 name="Laser Focusing Crystals">90</i11689>
+				<i9848 name="Robotics">30</i9848>
+				<i37 name="Isogen">0</i37>
+				<i40 name="Megacyte">20</i40>
+				<i36 name="Mexallon">5660</i36>
+				<i38 name="Nocxium">0</i38>
+				<i35 name="Pyerite">2970</i35>
+				<i34 name="Tritanium">8280</i34>
+				<i39 name="Zydrine">0</i39>
+				<qty>10</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<mfg_grp>laser</mfg_grp>
+				<flag>module</flag>
 			</i3512>
-			<i3033 name="Medium Beam Laser">
+			<i3033 name="Medium Beam Laser II">
+				<i20413 name="Datacore - Laser Physics">2</i20413>
+				<i20424 name="Datacore - Mechanical Engineering">2</i20424>
+				<i11399 name="Morphite">80</i11399>
+				<MBL name="Medium Beam Laser I" id="454">10</MBL>
+				<i11486 name="R.A.M. - Weapon Tech">2</i11486>
+				<i11689 name="Laser Focusing Crystals">70</i11689>
+				<i9848 name="Robotics">10</i9848>
+				<i37 name="Isogen">30</i37>
+				<i40 name="Megacyte">0</i40>
+				<i36 name="Mexallon">50</i36>
+				<i38 name="Nocxium">0</i38>
+				<i35 name="Pyerite">2960</i35>
+				<i34 name="Tritanium">7200</i34>
+				<i39 name="Zydrine">20</i39>
+				<qty>10</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<mfg_grp>laser</mfg_grp>
+				<flag>module</flag>
 			</i3033>
 			<i2993 name="Dual Light Beam Laser II">
+				<i20413 name="Datacore - Laser Physics">2</i20413>
+				<i20424 name="Datacore - Mechanical Engineering">2</i20424>
+				<i11399 name="Morphite">50</i11399>
+				<DLBL name="Dual Light Beam Laser I" id="452">10</DLBL>
+				<i11486 name="R.A.M. - Weapon Tech">2</i11486>
+				<i11689 name="Laser Focusing Crystals">50</i11689>
+				<i9848 name="Robotics">10</i9848>
+				<i37 name="Isogen">50</i37>
+				<i40 name="Megacyte">0</i40>
+				<i36 name="Mexallon">150</i36>
+				<i38 name="Nocxium">0</i38>
+				<i35 name="Pyerite">20</i35>
+				<i34 name="Tritanium">4760</i34>
+				<i39 name="Zydrine">20</i39>
+				<qty>10</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<mfg_grp>laser</mfg_grp>
+				<flag>module</flag>
 			</i2993>
 			<i3512 name="Medium Pulse Laser II">
+				<i20413 name="Datacore - Laser Physics">2</i20413>
+				<i20424 name="Datacore - Mechanical Engineering">2</i20424>
+				<i11399 name="Morphite">60</i11399>
+				<MPL name="Medium Pulse Laser I" id="453">10</MPL>
+				<i11486 name="R.A.M. - Weapon Tech">2</i11486>
+				<i11689 name="Laser Focusing Crystals">60</i11689>
+				<i9848 name="Robotics">10</i9848>
+				<i37 name="Isogen">20</i37>
+				<i40 name="Megacyte">0</i40>
+				<i36 name="Mexallon">30</i36>
+				<i38 name="Nocxium">0</i38>
+				<i35 name="Pyerite">3210</i35>
+				<i34 name="Tritanium">4260</i34>
+				<i39 name="Zydrine">0</i39>
+				<qty>10</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<mfg_grp>laser</mfg_grp>
+				<flag>module</flag>
 			</i3512>
 			<i3017 name="Gatling Pulse Laser II">
+				<i20413 name="Datacore - Laser Physics">2</i20413>
+				<i20424 name="Datacore - Mechanical Engineering">2</i20424>
+				<i11399 name="Morphite">20</i11399>
+				<GPL name="Gatling Pulse Laser I" id="450">10</GPL>
+				<i11486 name="R.A.M. - Weapon Tech">2</i11486>
+				<i11689 name="Laser Focusing Crystals">30</i11689>
+				<i9848 name="Robotics">30</i9848>
+				<i37 name="Isogen">0</i37>
+				<i40 name="Megacyte">0</i40>
+				<i36 name="Mexallon">0</i36>
+				<i38 name="Nocxium">0</i38>
+				<i35 name="Pyerite">1370</i35>
+				<i34 name="Tritanium">1460</i34>
+				<i39 name="Zydrine">0</i39>
+				<qty>10</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<mfg_grp>laser</mfg_grp>
+				<flag>module</flag>
 			</i3017>
 			<i3001 name="Dual Light Pulse Laser II">
 			</i3001>
 	<!--Hybrid-->
 			<i3090 name="425mm Railgun II">
+				<i20418 name="Datacore - Electronic Engineering">6</i20412>
+				<i20424 name="Datacore - Mechanical Engineering">6</i20424>
+				<i11399 name="Morphite">230</i11399>
+				<R425 name="425mm Railgun I" id="574">10</R425>
+				<i11486 name="R.A.M. - Weapon Tech">6.8</i11486>
+				<i11690 name="Superconductor Rails">170</i11690>
+				<i9848 name="Robotics">90</i9848>
+				<i37 name="Isogen">0</i37>
+				<i40 name="Megacyte">0</i40>
+				<i36 name="Mexallon">0</i36>
+				<i38 name="Nocxium">0</i38>
+				<i35 name="Pyerite">0</i35>
+				<i34 name="Tritanium">346620</i34>
+				<i39 name="Zydrine">0</i39>
+				<qty>10</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<mfg_grp>hybrid</mfg_grp>
+				<flag>module</flag>
 			</i3090>
 			<i12356 name="350mm Railgun II">
+				<i20418 name="Datacore - Electronic Engineering">6</i20412>
+				<i20424 name="Datacore - Mechanical Engineering">6</i20424>
+				<i11399 name="Morphite">180</i11399>
+				<R350 name="350mm Railgun I" id="12354">10</R350>
+				<i11486 name="R.A.M. - Weapon Tech">6.8</i11486>
+				<i11690 name="Superconductor Rails">140</i11690>
+				<i9848 name="Robotics">90</i9848>
+				<i37 name="Isogen">0</i37>
+				<i40 name="Megacyte">110</i40>
+				<i36 name="Mexallon">42630</i36>
+				<i38 name="Nocxium">0</i38>
+				<i35 name="Pyerite">0</i35>
+				<i34 name="Tritanium">0</i34>
+				<i39 name="Zydrine">0</i39>
+				<qty>10</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<mfg_grp>hybrid</mfg_grp>
+				<flag>module</flag>
 			</i12356>
 			<i3114 name="Dual 250mm Railgun II">
+				<i20418 name="Datacore - Electronic Engineering">6</i20412>
+				<i20424 name="Datacore - Mechanical Engineering">6</i20424>
+				<i11399 name="Morphite">180</i11399>
+				<R250X name="Dual 250mm Railgun I" id="572">10</R250X>
+				<i11486 name="R.A.M. - Weapon Tech">6.8</i11486>
+				<i11690 name="Superconductor Rails">140</i11690>
+				<i9848 name="Robotics">90</i9848>
+				<i37 name="Isogen">0</i37>
+				<i40 name="Megacyte">0</i40>
+				<i36 name="Mexallon">5910</i36>
+				<i38 name="Nocxium">0</i38>
+				<i35 name="Pyerite">6680</i35>
+				<i34 name="Tritanium">32780</i34>
+				<i39 name="Zydrine">20</i39>
+				<qty>10</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<mfg_grp>hybrid</mfg_grp>
+				<flag>module</flag>
 			</i3114>
 			<i3186 name="Neutron Blaster Cannon II">
 				<i20412 name="Datacore - Plasma Physics">6</i20412>
@@ -2034,35 +2319,301 @@
 				<flag>module</flag>
 			</i3186>
 			<i3154 name="Ion Blaster Cannon II">
+				<i20412 name="Datacore - Plasma Physics">6</i20412>
+				<i20424 name="Datacore - Mechanical Engineering">6</i20424>
+				<i11399 name="Morphite">180</i11399>
+				<IBC name="Ion Blaster Cannon I" id="575">10</IBC>
+				<i11486 name="R.A.M. - Weapon Tech">6.4</i11486>
+				<i11688 name="Particle Accelerator Unit">150</i11688>
+				<i9848 name="Robotics">90</i9848>
+				<i37 name="Isogen">3510</i37>
+				<i40 name="Megacyte">50</i40>
+				<i36 name="Mexallon">17730</i36>
+				<i38 name="Nocxium">1170</i38>
+				<i35 name="Pyerite">57660</i35>
+				<i34 name="Tritanium">111360</i34>
+				<i39 name="Zydrine">30</i39>
+				<qty>10</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<mfg_grp>hybrid</mfg_grp>
+				<flag>module</flag>
 			</i3154>
 			<i3122 name="Electron Blaster Cannon II">
+				<i20412 name="Datacore - Plasma Physics">6</i20412>
+				<i20424 name="Datacore - Mechanical Engineering">6</i20424>
+				<i11399 name="Morphite">180</i11399>
+				<EBC name="Electron Blaster Cannon I" id="571">10</EBC>
+				<i11486 name="R.A.M. - Weapon Tech">6.4</i11486>
+				<i11688 name="Particle Accelerator Unit">150</i11688>
+				<i9848 name="Robotics">90</i9848>
+				<i37 name="Isogen">8240</i37>
+				<i40 name="Megacyte">0</i40>
+				<i36 name="Mexallon">3303</i36>
+				<i38 name="Nocxium">650</i38>
+				<i35 name="Pyerite">24500</i35>
+				<i34 name="Tritanium">70260</i34>
+				<i39 name="Zydrine">20</i39>
+				<qty>10</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<mfg_grp>hybrid</mfg_grp>
+				<flag>module</flag>
 			</i3122>
 			<i3082 name="250mm Railgun II">
+				<i20418 name="Datacore - Electronic Engineering">4</i20412>
+				<i20424 name="Datacore - Mechanical Engineering">4</i20424>
+				<i11399 name="Morphite">150</i11399>
+				<R250 name="250mm Railgun I" id="570">10</R250>
+				<i11486 name="R.A.M. - Weapon Tech">4.8</i11486>
+				<i11690 name="Superconductor Rails">120</i11690>
+				<i9848 name="Robotics">30</i9848>
+				<i37 name="Isogen">20</i37>
+				<i40 name="Megacyte">0</i40>
+				<i36 name="Mexallon">6750</i36>
+				<i38 name="Nocxium">60</i38>
+				<i35 name="Pyerite">13160</i35>
+				<i34 name="Tritanium">34200</i34>
+				<i39 name="Zydrine">0</i39>
+				<qty>10</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<mfg_grp>hybrid</mfg_grp>
+				<flag>module</flag>
 			</i3082>
 			<i12346 name="200mm Railgun II">
+				<i20418 name="Datacore - Electronic Engineering">4</i20412>
+				<i20424 name="Datacore - Mechanical Engineering">4</i20424>
+				<i11399 name="Morphite">80</i11399>
+				<R200 name="200mm Railgun I" id="12344">10</R200>
+				<i11486 name="R.A.M. - Weapon Tech">4.8</i11486>
+				<i11690 name="Superconductor Rails">100</i11690>
+				<i9848 name="Robotics">30</i9848>
+				<i37 name="Isogen">0</i37>
+				<i40 name="Megacyte">0</i40>
+				<i36 name="Mexallon">6750</i36>
+				<i38 name="Nocxium">0</i38>
+				<i35 name="Pyerite">8630</i35>
+				<i34 name="Tritanium">12900</i34>
+				<i39 name="Zydrine">0</i39>
+				<qty>10</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<mfg_grp>hybrid</mfg_grp>
+				<flag>module</flag>
 			</i12346>
 			<i3106 name="Dual 150mm Railgun II">
+				<i20418 name="Datacore - Electronic Engineering">4</i20412>
+				<i20424 name="Datacore - Mechanical Engineering">4</i20424>
+				<i11399 name="Morphite">110</i11399>
+				<R150X name="Dual 150mm Railgun I" id="567">10</R150X>
+				<i11486 name="R.A.M. - Weapon Tech">4.8</i11486>
+				<i11690 name="Superconductor Rails">90</i11690>
+				<i9848 name="Robotics">30</i9848>
+				<i37 name="Isogen">0</i37>
+				<i40 name="Megacyte">0</i40>
+				<i36 name="Mexallon">1140</i36>
+				<i38 name="Nocxium">0</i38>
+				<i35 name="Pyerite">2130</i35>
+				<i34 name="Tritanium">2640</i34>
+				<i39 name="Zydrine">0</i39>
+				<qty>10</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<mfg_grp>hybrid</mfg_grp>
+				<flag>module</flag>
 			</i3106>
 			<i3146 name="Heavy Neutron Blaster II">
+				<i20412 name="Datacore - Plasma Physics">4</i20412>
+				<i20424 name="Datacore - Mechanical Engineering">4</i20424>
+				<i11399 name="Morphite">140</i11399>
+				<HNB name="Heavy Neutron Blaster I" id="568">10</HNB>
+				<i11486 name="R.A.M. - Weapon Tech">3.2</i11486>
+				<i11688 name="Particle Accelerator Unit">110</i11688>
+				<i9848 name="Robotics">30</i9848>
+				<i37 name="Isogen">80</i37>
+				<i40 name="Megacyte">0</i40>
+				<i36 name="Mexallon">9330</i36>
+				<i38 name="Nocxium">20</i38>
+				<i35 name="Pyerite">9740</i35>
+				<i34 name="Tritanium">14640</i34>
+				<i39 name="Zydrine">0</i39>
+				<qty>10</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<mfg_grp>hybrid</mfg_grp>
+				<flag>module</flag>
 			</i3146>
 			<i3138 name="Heavy Ion Blaster II">
+				<i20412 name="Datacore - Plasma Physics">4</i20412>
+				<i20424 name="Datacore - Mechanical Engineering">4</i20424>
+				<i11399 name="Morphite">120</i11399>
+				<HIB name="Heavy Ion Blaster I" id="569">10</HIB>
+				<i11486 name="R.A.M. - Weapon Tech">3.2</i11486>
+				<i11688 name="Particle Accelerator Unit">100</i11688>
+				<i9848 name="Robotics">30</i9848>
+				<i37 name="Isogen">0</i37>
+				<i40 name="Megacyte">0</i40>
+				<i36 name="Mexallon">5820</i36>
+				<i38 name="Nocxium">20</i38>
+				<i35 name="Pyerite">6260</i35>
+				<i34 name="Tritanium">13950</i34>
+				<i39 name="Zydrine">0</i39>
+				<qty>10</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<mfg_grp>hybrid</mfg_grp>
+				<flag>module</flag>
 			</i3138>
 			<i3130 name="Heavy Electron Blaster II">
+				<i20412 name="Datacore - Plasma Physics">4</i20412>
+				<i20424 name="Datacore - Mechanical Engineering">4</i20424>
+				<i11399 name="Morphite">90</i11399>
+				<HEB name="Heavy Electron Blaster I" id="566">10</HEB>
+				<i11486 name="R.A.M. - Weapon Tech">3.2</i11486>
+				<i11688 name="Particle Accelerator Unit">80</i11688>
+				<i9848 name="Robotics">30</i9848>
+				<i37 name="Isogen">0</i37>
+				<i40 name="Megacyte">0</i40>
+				<i36 name="Mexallon">4160</i36>
+				<i38 name="Nocxium">0</i38>
+				<i35 name="Pyerite">9330</i35>
+				<i34 name="Tritanium">15720</i34>
+				<i39 name="Zydrine">0</i39>
+				<qty>10</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<mfg_grp>hybrid</mfg_grp>
+				<flag>module</flag>
 			</i3130>
 			<i3074 name="150mm Railgun II">
+				<i20418 name="Datacore - Electronic Engineering">2</i20412>
+				<i20424 name="Datacore - Mechanical Engineering">2</i20424>
+				<i11399 name="Morphite">80</i11399>
+				<R150 name="150mm Railgun I" id="565">10</R150>
+				<i11486 name="R.A.M. - Weapon Tech">2.8</i11486>
+				<i11690 name="Superconductor Rails">70</i11690>
+				<i9848 name="Robotics">10</i9848>
+				<i37 name="Isogen">0</i37>
+				<i40 name="Megacyte">0</i40>
+				<i36 name="Mexallon">480</i36>
+				<i38 name="Nocxium">0</i38>
+				<i35 name="Pyerite">780</i35>
+				<i34 name="Tritanium">6060</i34>
+				<i39 name="Zydrine">20</i39>
+				<qty>10</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<mfg_grp>hybrid</mfg_grp>
+				<flag>module</flag>
 			</i3074>
 			<i10680 name="125mm Railgun II">
+				<i20418 name="Datacore - Electronic Engineering">2</i20412>
+				<i20424 name="Datacore - Mechanical Engineering">2</i20424>
+				<i11399 name="Morphite">50</i11399>
+				<R125 name="125mm Railgun I" id="565">10</R125>
+				<i11486 name="R.A.M. - Weapon Tech">2.8</i11486>
+				<i11690 name="Superconductor Rails">50</i11690>
+				<i9848 name="Robotics">10</i9848>
+				<i37 name="Isogen">0</i37>
+				<i40 name="Megacyte">0</i40>
+				<i36 name="Mexallon">410</i36>
+				<i38 name="Nocxium">0</i38>
+				<i35 name="Pyerite">2690</i35>
+				<i34 name="Tritanium">6000</i34>
+				<i39 name="Zydrine">0</i39>
+				<qty>10</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<mfg_grp>hybrid</mfg_grp>
+				<flag>module</flag>
 			</i10680>
 			<i3098 name="75mm Gatling Rail II">
+				<i20418 name="Datacore - Electronic Engineering">2</i20412>
+				<i20424 name="Datacore - Mechanical Engineering">2</i20424>
+				<i11399 name="Morphite">20</i11399>
+				<R75 name="75mm Gatling Rail I" id="561">10</R75>
+				<i11486 name="R.A.M. - Weapon Tech">2.8</i11486>
+				<i11690 name="Superconductor Rails">30</i11690>
+				<i9848 name="Robotics">10</i9848>
+				<i37 name="Isogen">0</i37>
+				<i40 name="Megacyte">0</i40>
+				<i36 name="Mexallon">0</i36>
+				<i38 name="Nocxium">0</i38>
+				<i35 name="Pyerite">330</i35>
+				<i34 name="Tritanium">630</i34>
+				<i39 name="Zydrine">0</i39>
+				<qty>10</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<mfg_grp>hybrid</mfg_grp>
+				<flag>module</flag>
 			</i3098>
 			<i3178 name="Light Neutron Blaster II">
+				<i20412 name="Datacore - Plasma Physics">2</i20412>
+				<i20424 name="Datacore - Mechanical Engineering">2</i20424>
+				<i11399 name="Morphite">60</i11399>
+				<LNB name="Light Neutron Blaster I" id="564">10</LNB>
+				<i11486 name="R.A.M. - Weapon Tech">2</i11486>
+				<i11688 name="Particle Accelerator Unit">100</i11688>
+				<i9848 name="Robotics">10</i9848>
+				<i37 name="Isogen">0</i37>
+				<i40 name="Megacyte">0</i40>
+				<i36 name="Mexallon">1130</i36>
+				<i38 name="Nocxium">0</i38>
+				<i35 name="Pyerite">4130</i35>
+				<i34 name="Tritanium">6500</i34>
+				<i39 name="Zydrine">0</i39>
+				<qty>10</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<mfg_grp>hybrid</mfg_grp>
+				<flag>module</flag>
 			</i3178>
 			<i3170 name="Light Ion Blaster II">
+				<i20412 name="Datacore - Plasma Physics">2</i20412>
+				<i20424 name="Datacore - Mechanical Engineering">2</i20424>
+				<i11399 name="Morphite">50</i11399>
+				<LIB name="Light Ion Blaster I" id="563">10</LIB>
+				<i11486 name="R.A.M. - Weapon Tech">2</i11486>
+				<i11688 name="Particle Accelerator Unit">50</i11688>
+				<i9848 name="Robotics">10</i9848>
+				<i37 name="Isogen">0</i37>
+				<i40 name="Megacyte">0</i40>
+				<i36 name="Mexallon">230</i36>
+				<i38 name="Nocxium">0</i38>
+				<i35 name="Pyerite">750</i35>
+				<i34 name="Tritanium">7350</i34>
+				<i39 name="Zydrine">0</i39>
+				<qty>10</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<mfg_grp>hybrid</mfg_grp>
+				<flag>module</flag>
 			</i3170>
 			<i3162 name="Light Electron Blaster II">
+				<i20412 name="Datacore - Plasma Physics">2</i20412>
+				<i20424 name="Datacore - Mechanical Engineering">2</i20424>
+				<i11399 name="Morphite">50</i11399>
+				<LIB name="Light Electron Blaster I" id="562">10</LIB>
+				<i11486 name="R.A.M. - Weapon Tech">2</i11486>
+				<i11688 name="Particle Accelerator Unit">40</i11688>
+				<i9848 name="Robotics">10</i9848>
+				<i37 name="Isogen">0</i37>
+				<i40 name="Megacyte">0</i40>
+				<i36 name="Mexallon">0</i36>
+				<i38 name="Nocxium">0</i38>
+				<i35 name="Pyerite">680</i35>
+				<i34 name="Tritanium">900</i34>
+				<i39 name="Zydrine">20</i39>
+				<qty>10</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<mfg_grp>hybrid</mfg_grp>
+				<flag>module</flag>
 			</i3162>
 	<!--Projectile-->
-			<i2961 name="1400mm Howitzer Artillery Cannon II">
+			<i2961 name="1400mm Howitzer Artillery II">
 				<i20423 name="Datacore - Nuclear Physics">6</i20423>
 				<i20424 name="Datacore - Mechanical Engineering">6</i20424>
 				<i11399 name="Morphite">230</i11399>
