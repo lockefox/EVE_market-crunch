@@ -1039,6 +1039,54 @@
 			</i620>
 		</cruiser>
 		<bc>
+			<i16231 name="Cyclone" id="CYCL">
+				<i37 name="Isogen">29070</i37>
+				<i40 name="Megacyte">686</i40>
+				<i36 name="Mexallon">98160</i36>
+				<i38 name="Nocxium">0</i38>
+				<i35 name="Pyerite">406307</i35>
+				<i34 name="Tritanium">1628705</i34>
+				<i39 name="Zydrine">1749</i39>
+				<ME>30</ME>
+			</i16231>
+			<i24702 name="Hurricane" id="CANE">
+				<i37 name="Isogen">47100</i37>
+				<i40 name="Megacyte">1112</i40>
+				<i36 name="Mexallon">159018</i36>
+				<i38 name="Nocxium">0</i38>
+				<i35 name="Pyerite">658219</i35>
+				<i34 name="Tritanium">2638504</i34>
+				<i39 name="Zydrine">2857</i39>
+				<ME>30</ME>
+			</i24702>
+			<i4310 name="Tornado" id="NADO">
+				<i37 name="Isogen">70651</i37>
+				<i40 name="Megacyte">1667</i40>
+				<i36 name="Mexallon">238528</i36>
+				<i38 name="Nocxium">0</i38>
+				<i35 name="Pyerite">987330</i35>
+				<i34 name="Tritanium">3957756</i34>
+				<i39 name="Zydrine">4286</i39>
+				<ME>30</ME>
+			</i4310>
+			<i16229 name="Brutix" id="BRTX">
+			</i16229>
+			<i24700 name="Myrmidon" id="MYRM">
+			</i24700>
+			<i4308 name="Talos" id="TALOS">
+			</i4308>
+			<i16233 name="Prophecy" id="PROPH">
+			</i16233>
+			<i24696 name="Harbinger" id="HARB">
+			</i24696>
+			<i4302 name="Oracle" id="ORCL">
+			</i4302>
+			<i16227 name="Ferox" id="FROX">
+			</i16227>
+			<i24698 name="Drake" id="DRAKE">
+			</i24698>
+			<i4306 name="Naga" id="NAGA">
+			</i4306>
 		</bc>
 		<bs>
 		</bs>
