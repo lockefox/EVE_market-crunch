@@ -905,7 +905,7 @@
 				<flag>module</flag>
 			</i12084>
 		</prop>
-		<interdict>
+		<EWAR>
 			<i527 name="Stasis Webifier II">
 				<i20418 name="Datacore - Electronic Engineering">4</i20418>
 				<i20419 name="Datacore - Graviton Physics">4</i20419>
@@ -1103,7 +1103,7 @@
 				<mfg_grp>interdict</mfg_grp>
 				<flag>NULL</flag>
 			</i26888>
-		</interdict>
+		</EWAR>
 		<ships>
 	<!--Minmatar-->
 			<i11182 name="Cheetah">

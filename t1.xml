@@ -379,7 +379,7 @@
 				<i39 name="Zydrine">50</i39>
 			</i12054>
 		</prop>
-		<interdict>
+		<EWAR>
 			<i526 name="Stasis Webifier I" id="WEB">
 				<i37 name="Isogen">0</i37>
 				<i40 name="Megacyte">0</i40>
@@ -443,7 +443,7 @@
 				<i34 name="Tritanium">428608</i34>
 				<i39 name="Zydrine">1266</i39>
 			</i12200>
-		</interdict>
+		</EWAR>
 		<mining>
 			<i16278 name="Ice Harvester I" id="ICE">
 				<i37 name="Isogen">1374</i37>
