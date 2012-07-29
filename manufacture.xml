@@ -16,10 +16,14 @@
 				<i38 name="Nocxium">0</i38>
 				<i35 name="Pyerite">1790</i35>
 				<i34 name="Tritanium">0</i34>
-				<i39 name="Zydrine">50</i39>				
+				<i39 name="Zydrine">50</i39>
+				<qty>10</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<mfg_grp>NULL</mfg_grp>
+				<flag>module</flag>
 			</i4405>
 			<i2291 name="Ballistic Control System II">
-				<!-- ItemID name="in game name">qty needed</itemID-->
 				<i20418 name="Datacore - Electronic Engineering">4</i20418>
 				<i20424 name="Datacore - Mechanical Engineering">4</i20424>
 				<BCU name="Ballistic Control System I" id="12274">10</BCU>
@@ -768,7 +772,7 @@
 				<me>-4</me>
 				<bld_time></bld_time>
 				<mfg_grp>armor</mfg_grp>
-				<flag>NULL</flag>
+				<flag>module</flag>
 			</i26914>
 		</armor>
 		<prop>
@@ -1093,32 +1097,359 @@
 				<flag>module</flag>
 			</i2262>
 			<i2571 name="ECM - Spatial Destabilizer II">
+				<i20417 name="Datacore - Electromagnetic Physics">4</i20417>		
+				<i20418 name="Datacore - Electronic Engineering">4</i20418>
+				<ECMSD name="ECM - Spatial Destabilizer I" id="1955">10</ECMSD>
+				<i11399 name="Morphite">80</i11399>
+				<i11483 name="R.A.M. Electronics">4.5</i11483>
+				<i11540 name="Quantum Microprocessor">30</i11540>
+				<i11534 name="Gravimetric Sensor Cluster">60</i11534>
+				<i9840 name="Transmitter">80</i9840>
+				<i9842 name="Miniature Electronics">60</i9842>
+				<i37 name="Isogen">0</i37>
+				<i40 name="Megacyte">20</i40>
+				<i36 name="Mexallon">0</i36>
+				<i38 name="Nocxium">0</i38>
+				<i35 name="Pyerite">1110</i35>
+				<i34 name="Tritanium">1260</i34>
+				<i39 name="Zydrine">0</i39>
+				<qty>10</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<mfg_grp>ewar</mfg_grp>
+				<flag>module</flag>
 			</i2571>
 			<i2559 name="ECM - Phase Inverter II">
+				<i20417 name="Datacore - Electromagnetic Physics">4</i20417>		
+				<i20418 name="Datacore - Electronic Engineering">4</i20418>
+				<ECMPI name="ECM - Phase Inverter I" id="1958">10</ECMPI>
+				<i11399 name="Morphite">80</i11399>
+				<i11483 name="R.A.M. Electronics">4.5</i11483>
+				<i11538 name="Nanomechanical Microprocessor">30</i11538>
+				<i11536 name="Ladar Sensor Cluster">60</i11536>
+				<i9840 name="Transmitter">80</i9840>
+				<i9842 name="Miniature Electronics">60</i9842>
+				<i37 name="Isogen">0</i37>
+				<i40 name="Megacyte">20</i40>
+				<i36 name="Mexallon">0</i36>
+				<i38 name="Nocxium">0</i38>
+				<i35 name="Pyerite">1110</i35>
+				<i34 name="Tritanium">9080</i34>
+				<i39 name="Zydrine">0</i39>
+				<qty>10</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<mfg_grp>ewar</mfg_grp>
+				<flag>module</flag>
 			</i2559>
 			<i2563 name="ECM - Ion Field Projector II">
+				<i20417 name="Datacore - Electromagnetic Physics">4</i20417>		
+				<i20418 name="Datacore - Electronic Engineering">4</i20418>
+				<ECMIFP name="ECM - Ion Field Projector I" id="1948">10</ECMIFP>
+				<i11399 name="Morphite">80</i11399>
+				<i11483 name="R.A.M. Electronics">4.5</i11483>
+				<i11541 name="Photon Microprocessor">30</i11541>
+				<i11535 name="Magnetometric Sensor Cluster">60</i11535>
+				<i9840 name="Transmitter">80</i9840>
+				<i9842 name="Miniature Electronics">60</i9842>
+				<i37 name="Isogen">0</i37>
+				<i40 name="Megacyte">20</i40>
+				<i36 name="Mexallon">0</i36>
+				<i38 name="Nocxium">0</i38>
+				<i35 name="Pyerite">6860</i35>
+				<i34 name="Tritanium">3440</i34>
+				<i39 name="Zydrine">0</i39>
+				<qty>10</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<mfg_grp>ewar</mfg_grp>
+				<flag>module</flag>
 			</i2563>
 			<i2567 name="ECM - Multispectral Jammer II">
+				<i20417 name="Datacore - Electromagnetic Physics">4</i20417>		
+				<i20418 name="Datacore - Electronic Engineering">4</i20418>
+				<ECMMSJ name="ECM - Multispectral Jammer I" id="1957">10</ECMMSJ>
+				<i11399 name="Morphite">90</i11399>
+				<i11483 name="R.A.M. Electronics">4.5</i11483>
+				<i11541 name="Photon Microprocessor">30</i11541>
+				<i11534 name="Gravimetric Sensor Cluster">20</i11534>
+				<i11536 name="Ladar Sensor Cluster">20</i11536>
+				<i11537 name="Radar Sensor Cluster">20</i11537>		
+				<i11535 name="Magnetometric Sensor Cluster">20</i11535>
+				<i9840 name="Transmitter">80</i9840>
+				<i9842 name="Miniature Electronics">120</i9842>
+				<i37 name="Isogen">140</i37>
+				<i40 name="Megacyte">0</i40>
+				<i36 name="Mexallon">0</i36>
+				<i38 name="Nocxium">140</i38>
+				<i35 name="Pyerite">0</i35>
+				<i34 name="Tritanium">0</i34>
+				<i39 name="Zydrine">0</i39>
+				<qty>10</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<mfg_grp>ewar</mfg_grp>
+				<flag>module</flag>
 			</i2567>
 			<i2575 name="ECM - White Noise Generator II">
+				<i20417 name="Datacore - Electromagnetic Physics">4</i20417>		
+				<i20418 name="Datacore - Electronic Engineering">4</i20418>
+				<ECMWNG name="ECM - White Noise Generator I" id="1956">10</ECMWNG>
+				<i11399 name="Morphite">80</i11399>
+				<i11483 name="R.A.M. Electronics">4.5</i11483>
+				<i11539 name="Nanoelectrical Microprocessor">30</i11539>
+				<i11537 name="Radar Sensor Cluster">60</i11537>		
+				<i9840 name="Transmitter">80</i9840>
+				<i9842 name="Miniature Electronics">60</i9842>
+				<i37 name="Isogen">0</i37>
+				<i40 name="Megacyte">20</i40>
+				<i36 name="Mexallon">0</i36>
+				<i38 name="Nocxium">0</i38>
+				<i35 name="Pyerite">440</i35>
+				<i34 name="Tritanium">1400</i34>
+				<i39 name="Zydrine">0</i39>
+				<qty>10</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<mfg_grp>ewar</mfg_grp>
+				<flag>module</flag>
 			</i2575>
 			<i25563 name="Signal Distortion Amplifier II">
+				<i20417 name="Datacore - Electromagnetic Physics">4</i20417>		
+				<i20418 name="Datacore - Electronic Engineering">4</i20418>
+				<SDA name="Signal Distortion Amplifier I" id="25561">10</SDA>
+				<i11399 name="Morphite">150</i11399>
+				<i11483 name="R.A.M. Electronics">4.5</i11483>
+				<i11541 name="Photon Microprocessor">30</i11541>
+				<i11534 name="Gravimetric Sensor Cluster">20</i11534>
+				<i11536 name="Ladar Sensor Cluster">20</i11536>
+				<i11537 name="Radar Sensor Cluster">20</i11537>		
+				<i11535 name="Magnetometric Sensor Cluster">20</i11535>
+				<i9840 name="Transmitter">90</i9840>
+				<i9842 name="Miniature Electronics">130</i9842>
+				<i37 name="Isogen">30</i37>
+				<i40 name="Megacyte">30</i40>
+				<i36 name="Mexallon">200</i36>
+				<i38 name="Nocxium">20</i38>
+				<i35 name="Pyerite">0</i35>
+				<i34 name="Tritanium">300</i34>
+				<i39 name="Zydrine">30</i39>
+				<qty>10</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<mfg_grp>ewar</mfg_grp>
+				<flag>module</flag>
 			</i25563>
 			<i2580 name="Gravimetric Backup Array II">
+				<i20417 name="Datacore - Electromagnetic Physics">2</i20417>		
+				<i20418 name="Datacore - Electronic Engineering">2</i20418>
+				<GRAVBA name="Gravimetric Backup Array I" id="2579">10</GRAVBA>
+				<i11399 name="Morphite">20</i11399>
+				<i11483 name="R.A.M. Electronics">1</i11483>
+				<i11540 name="Quantum Microprocessor">10</i11540>
+				<i11534 name="Gravimetric Sensor Cluster">30</i11534>
+				<i9840 name="Transmitter">30</i9840>
+				<i9842 name="Miniature Electronics">30</i9842>
+				<i37 name="Isogen">150</i37>
+				<i40 name="Megacyte">0</i40>
+				<i36 name="Mexallon">3690</i36>
+				<i38 name="Nocxium">0</i38>
+				<i35 name="Pyerite">2340</i35>
+				<i34 name="Tritanium">3840</i34>
+				<i39 name="Zydrine">0</i39>
+				<qty>10</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<mfg_grp>ewar</mfg_grp>
+				<flag>module</flag>
 			</i2580>
 			<i2584 name="LADAR Backup Array II">
+				<i20417 name="Datacore - Electromagnetic Physics">2</i20417>		
+				<i20418 name="Datacore - Electronic Engineering">2</i20418>
+				<LADARBA name="LADAR Backup Array I" id="2583">10</LADARBA>
+				<i11399 name="Morphite">20</i11399>
+				<i11483 name="R.A.M. Electronics">1</i11483>
+				<i11538 name="Nanomechanical Microprocessor">10</i11538>
+				<i11534 name="Gravimetric Sensor Cluster">0</i11534>
+				<i11536 name="Ladar Sensor Cluster">30</i11536>
+				<i11537 name="Radar Sensor Cluster">0</i11537>		
+				<i11535 name="Magnetometric Sensor Cluster">0</i11535>
+				<i9840 name="Transmitter">30</i9840>
+				<i9842 name="Miniature Electronics">30</i9842>
+				<i37 name="Isogen">0</i37>
+				<i40 name="Megacyte">0</i40>
+				<i36 name="Mexallon">480</i36>
+				<i38 name="Nocxium">0</i38>
+				<i35 name="Pyerite">240</i35>
+				<i34 name="Tritanium">7550</i34>
+				<i39 name="Zydrine">0</i39>
+				<qty>10</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<mfg_grp>ewar</mfg_grp>
+				<flag>module</flag>
 			</i2584>
 			<i2588 name="Magnetometric Backup Array II">
+				<i20417 name="Datacore - Electromagnetic Physics">2</i20417>		
+				<i20418 name="Datacore - Electronic Engineering">2</i20418>
+				<MAGNETBA name="Magnetometric Backup Array I" id="2587">10</MAGNETBA>
+				<i11399 name="Morphite">20</i11399>
+				<i11483 name="R.A.M. Electronics">1</i11483>
+				<i11541 name="Photon Microprocessor">10</i11541>
+				<i11534 name="Gravimetric Sensor Cluster">0</i11534>
+				<i11536 name="Ladar Sensor Cluster">0</i11536>
+				<i11537 name="Radar Sensor Cluster">0</i11537>		
+				<i11535 name="Magnetometric Sensor Cluster">30</i11535>
+				<i9840 name="Transmitter">30</i9840>
+				<i9842 name="Miniature Electronics">30</i9842>
+				<i37 name="Isogen">0</i37>
+				<i40 name="Megacyte">0</i40>
+				<i36 name="Mexallon">660</i36>
+				<i38 name="Nocxium">0</i38>
+				<i35 name="Pyerite">410</i35>
+				<i34 name="Tritanium">7400</i34>
+				<i39 name="Zydrine">0</i39>
+				<qty>10</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<mfg_grp>ewar</mfg_grp>
+				<flag>module</flag>
 			</i2588>
 			<i2592 name="Multi Sensor Backup Array II">
+				<i20417 name="Datacore - Electromagnetic Physics">2</i20417>		
+				<i20418 name="Datacore - Electronic Engineering">2</i20418>
+				<MSBA name="Multi Sensor Backup Array I" id="2591">10</MSBA>
+				<i11399 name="Morphite">20</i11399>
+				<i11483 name="R.A.M. Electronics">1</i11483>
+				<i11539 name="Nanoelectrical Microprocessor">10</i11539>
+				<i11534 name="Gravimetric Sensor Cluster">10</i11534>
+				<i11536 name="Ladar Sensor Cluster">10</i11536>
+				<i11537 name="Radar Sensor Cluster">10</i11537>		
+				<i11535 name="Magnetometric Sensor Cluster">10</i11535>
+				<i9840 name="Transmitter">30</i9840>
+				<i9842 name="Miniature Electronics">30</i9842>
+				<i37 name="Isogen">150</i37>
+				<i40 name="Megacyte">0</i40>
+				<i36 name="Mexallon">1560</i36>
+				<i38 name="Nocxium">170</i38>
+				<i35 name="Pyerite">980</i35>
+				<i34 name="Tritanium">3620</i34>
+				<i39 name="Zydrine">0</i39>
+				<qty>10</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<mfg_grp>ewar</mfg_grp>
+				<flag>module</flag>
 			</i2592>
 			<i4014 name="RADAR Backup Array II">
+				<i20417 name="Datacore - Electromagnetic Physics">2</i20417>		
+				<i20418 name="Datacore - Electronic Engineering">2</i20418>
+				<RADARBA name="RADAR Backup Array I" id="4013">10</RADARBA>
+				<i11399 name="Morphite">20</i11399>
+				<i11483 name="R.A.M. Electronics">1</i11483>
+				<i11539 name="Nanoelectrical Microprocessor">10</i11539>
+				<i11534 name="Gravimetric Sensor Cluster">0</i11534>
+				<i11536 name="Ladar Sensor Cluster">0</i11536>
+				<i11537 name="Radar Sensor Cluster">10</i11537>		
+				<i11535 name="Magnetometric Sensor Cluster">0</i11535>
+				<i9840 name="Transmitter">30</i9840>
+				<i9842 name="Miniature Electronics">30</i9842>
+				<i37 name="Isogen">0</i37>
+				<i40 name="Megacyte">0</i40>
+				<i36 name="Mexallon">620</i36>
+				<i38 name="Nocxium">0</i38>
+				<i35 name="Pyerite">240</i35>
+				<i34 name="Tritanium">7640</i34>
+				<i39 name="Zydrine">0</i39>
+				<qty>10</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<mfg_grp>ewar</mfg_grp>
+				<flag>module</flag>
 			</i4014>
 			<i2117 name="ECM Burst II">
+				<i20417 name="Datacore - Electromagnetic Physics">4</i20417>		
+				<i20418 name="Datacore - Electronic Engineering">4</i20418>
+				<ECMB name="ECM Burst I" id="580">10</ECMB>
+				<i11399 name="Morphite">60</i11399>
+				<i11483 name="R.A.M. Electronics">4</i11483>
+				<i11541 name="Photon Microprocessor">30</i11541>
+				<i11534 name="Gravimetric Sensor Cluster">20</i11534>
+				<i11536 name="Ladar Sensor Cluster">20</i11536>
+				<i11537 name="Radar Sensor Cluster">20</i11537>		
+				<i11535 name="Magnetometric Sensor Cluster">20</i11535>
+				<i9840 name="Transmitter">50</i9840>
+				<i9842 name="Miniature Electronics">60</i9842>
+				<i37 name="Isogen">30</i37>
+				<i40 name="Megacyte">20</i40>
+				<i36 name="Mexallon">1320</i36>
+				<i38 name="Nocxium">20</i38>
+				<i35 name="Pyerite">140</i35>
+				<i34 name="Tritanium">1820</i34>
+				<i39 name="Zydrine">20</i39>
+				<qty>10</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<mfg_grp>ewar</mfg_grp>
+				<flag>module</flag>
 			</i2117>
 			<i1960 name="ECCM Projector II">
+				<i20417 name="Datacore - Electromagnetic Physics">2</i20417>		
+				<i20418 name="Datacore - Electronic Engineering">2</i20418>
+				<ECCMP name="ECCM Projector I" id="1959">10</ECCMP>
+				<i11399 name="Morphite">130</i11399>
+				<i11483 name="R.A.M. Electronics">5.5</i11483>
+				<i11538 name="Nanomechanical Microprocessor">50</i11538>
+				<i11541 name="Photon Microprocessor">50</i11541>
+				<i11540 name="Quantum Microprocessor">50</i11540>
+				<i11539 name="Nanoelectrical Microprocessor">0</i11539>
+				<i11534 name="Gravimetric Sensor Cluster">0</i11534>
+				<i11536 name="Ladar Sensor Cluster">0</i11536>
+				<i11537 name="Radar Sensor Cluster">0</i11537>		
+				<i11535 name="Magnetometric Sensor Cluster">0</i11535>
+				<i9840 name="Transmitter">300</i9840>
+				<i9842 name="Miniature Electronics">100</i9842>
+				<i37 name="Isogen">0</i37>
+				<i40 name="Megacyte">0</i40>
+				<i36 name="Mexallon">140</i36>
+				<i38 name="Nocxium">0</i38>
+				<i35 name="Pyerite">6120</i35>
+				<i34 name="Tritanium">14400</i34>
+				<i39 name="Zydrine">0</i39>
+				<qty>10</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<mfg_grp>ewar</mfg_grp>
+				<flag>module</flag>
 			</i1960>
 			<i1969 name="Remote Sensor Dampener II">
+				<i20417 name="Datacore - Electromagnetic Physics">2</i20417>		
+				<i20418 name="Datacore - Electronic Engineering">2</i20418>
+				<RSDAMP name="Remote Sensor Dampener I" id="1968">10</RSDAMP>
+				<i11399 name="Morphite">80</i11399>
+				<i11483 name="R.A.M. Electronics">3.5</i11483>
+				<i11540 name="Quantum Microprocessor">30</i11540>
+				<i11538 name="Nanomechanical Microprocessor">0</i11538>
+				<i11539 name="Nanoelectrical Microprocessor">0</i11539>
+				<i11541 name="Photon Microprocessor">0</i11541>
+				<i11534 name="Gravimetric Sensor Cluster">60</i11534>
+				<i11536 name="Ladar Sensor Cluster">0</i11536>
+				<i11537 name="Radar Sensor Cluster">0</i11537>		
+				<i11535 name="Magnetometric Sensor Cluster">0</i11535>
+				<i9840 name="Transmitter">50</i9840>
+				<i9842 name="Miniature Electronics">90</i9842>
+				<i37 name="Isogen">1880</i37>
+				<i40 name="Megacyte">0</i40>
+				<i36 name="Mexallon">17340</i36>
+				<i38 name="Nocxium">0</i38>
+				<i35 name="Pyerite">11340</i35>
+				<i34 name="Tritanium">4290</i34>
+				<i39 name="Zydrine">0</i39>
+				<qty>10</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<mfg_grp>ewar</mfg_grp>
+				<flag>module</flag>
 			</i1969>
 			<i19806 name="Target Painter II">
 				<i20418 name="Datacore - Electronic Engineering">4</i20418>
@@ -1136,10 +1467,64 @@
 				<flag>module</flag>
 			</i19806>
 			<i2109 name="Tracking Disruptor II">
+				<i20417 name="Datacore - Electromagnetic Physics">2</i20417>		
+				<i20418 name="Datacore - Electronic Engineering">4</i20418>
+				<TRAKDIS name="Tracking Disruptor I" id="2108">10</TRAKDIS>
+				<i11399 name="Morphite">80</i11399>
+				<i11483 name="R.A.M. Electronics">3</i11483>
+				<i11538 name="Nanomechanical Microprocessor">0</i11538>
+				<i11541 name="Photon Microprocessor">0</i11541>
+				<i11540 name="Quantum Microprocessor">0</i11540>
+				<i11539 name="Nanoelectrical Microprocessor">30</i11539>
+				<i11534 name="Gravimetric Sensor Cluster">0</i11534>
+				<i11536 name="Ladar Sensor Cluster">0</i11536>
+				<i11537 name="Radar Sensor Cluster">0</i11537>		
+				<i11535 name="Magnetometric Sensor Cluster">40</i11535>
+				<i9840 name="Transmitter">50</i9840>
+				<i9842 name="Miniature Electronics">90</i9842>
+				<i37 name="Isogen">20</i37>
+				<i40 name="Megacyte">20</i40>
+				<i36 name="Mexallon">1350</i36>
+				<i38 name="Nocxium">0</i38>
+				<i35 name="Pyerite">390</i35>
+				<i34 name="Tritanium">1680</i34>
+				<i39 name="Zydrine">0</i39>
+				<qty>10</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<mfg_grp>ewar</mfg_grp>
+				<flag>module</flag>
 			</i2109>
 			<i4248 name="Warp Disruption Field Generator II">
+				<i20419 name="Datacore - Graviton Physics">4</i20419>		
+				<i20418 name="Datacore - Electronic Engineering">4</i20418>
+				<WDFG name="Warp Disruption Field Generator I" id="28654">10</WDFG>
+				<i11399 name="Morphite">0</i11399>
+				<i11483 name="R.A.M. Electronics">5</i11483>
+				<i11538 name="Nanomechanical Microprocessor">0</i11538>
+				<i11541 name="Photon Microprocessor">0</i11541>
+				<i11540 name="Quantum Microprocessor">0</i11540>
+				<i11539 name="Nanoelectrical Microprocessor">0</i11539>
+				<i11534 name="Gravimetric Sensor Cluster">0</i11534>
+				<i11536 name="Ladar Sensor Cluster">80</i11536>
+				<i11537 name="Radar Sensor Cluster">0</i11537>		
+				<i11535 name="Magnetometric Sensor Cluster">0</i11535>
+				<i9840 name="Transmitter">80</i9840>
+				<i9842 name="Miniature Electronics">0</i9842>
+				<i37 name="Isogen">12630</i37>
+				<i40 name="Megacyte">30</i40>
+				<i36 name="Mexallon">23150</i36>
+				<i38 name="Nocxium">3810</i38>
+				<i35 name="Pyerite">4890</i35>
+				<i34 name="Tritanium">89310</i34>
+				<i39 name="Zydrine">140</i39>
+				<qty>10</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<mfg_grp>interdict</mfg_grp>
+				<flag>module</flag>
 			</i4248>
-			<i26892 name="Mobile Small Warp Disruptor II">
+			<i26892 name="Mobile Small Warp Disruptor II"><!--i believe data incorrect. locke, recheck to master sheet please.-->
 				<i20418 name="Datacore - Electronic Engineering">6</i20418>
 				<i20419 name="Datacore - Graviton Physics">6</i20419>
 				<SWD name="Mobile Small Warp Disruptor I" id="12198">1</SWD>
@@ -1163,7 +1548,7 @@
 				<mfg_grp>interdict</mfg_grp>
 				<flag>module</flag>
 			</i26892>
-			<i26890 name="Mobile Medium Warp Disruptor II">
+			<i26890 name="Mobile Medium Warp Disruptor II"><!--data not finished. locke, recheck to master sheet please.-->
 				<i20418 name="Datacore - Electronic Engineering">12</i20418>
 				<i20419 name="Datacore - Graviton Physics">12</i20419>
 				<MWD name="Mobile Medium Warp Disruptor I" id="12199">1</MWD>
@@ -1187,7 +1572,7 @@
 				<mfg_grp>interdict</mfg_grp>
 				<flag>NULL</flag>
 			</i26890>
-			<i26888 name="Mobile Large Warp Disruptor II">
+			<i26888 name="Mobile Large Warp Disruptor II"><!--data not finished. locke, recheck to master sheet please.-->
 				<i20418 name="Datacore - Electronic Engineering">12</i20418>
 				<i20419 name="Datacore - Graviton Physics">12</i20419>
 				<LWD name="Mobile Large Warp Disruptor I" id="12200">1</LWD>
