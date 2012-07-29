@@ -116,10 +116,22 @@
 				<mfg_grp>weapup</mfg_grp>
 				<flag>module</flag>
 			</i1999>
-			<i1978 name="Tracking Computer II"><!---->
+			<i1978 name="Tracking Computer II">
 				<i20418 name="Datacore - Electronic Engineering">4</i20418>
 				<i20424 name="Datacore - Mechanical Engineering">4</i20424>
-				<TCOMP name="Ballistic Control System I" id="1977">10</TCOMP>
+				<TCOMP name="Tracking Computer I" id="1977">10</TCOMP>
+				<i11399 name="Morphite">80</i11399>
+				<i11483 name="RAM - Electronics">3</i11483>
+				<i11538 name="Nanomechanical Microprocessor">80</i11538>
+				<i3689 name="Mechanical Parts">10</i3689>
+				<i9842 name="Miniature Electronics">60</i9842>
+				<i37 name="Isogen">0</i37>
+				<i40 name="Megacyte">20</i40>
+				<i36 name="Mexallon">0</i36>
+				<i38 name="Nocxium">0</i38>
+				<i35 name="Pyerite">0</i35>
+				<i34 name="Tritanium">990</i34>
+				<i39 name="Zydrine">0</i39>
 				<qty>10</qty>
 				<me>-4</me>
 				<bld_time></bld_time>
