@@ -975,14 +975,122 @@
 				<flag>module</flag>
 			</i3244>
 			<i2259 name="ECCM - Gravimetric II">
+				<i20417 name="Datacore - Electromagnetic Physics">4</i20417>		
+				<i20418 name="Datacore - Electronic Engineering">4</i20418>
+				<ECCMGRAV name="ECCM - Gravimetric I" id="2004">10</ECCMGRAV>
+				<i11399 name="Morphite">50</i11399>
+				<i11483 name="R.A.M. Electronics">3</i11483>
+				<i11540 name="Quantum Microprocessor">30</i11540>
+				<i11534 name="Gravimetric Sensor Cluster">40</i11534>
+				<i9840 name="Transmitter">0</i9840>
+				<i9842 name="Miniature Electronics">60</i9842>
+				<i37 name="Isogen">360</i37>
+				<i40 name="Megacyte">0</i40>
+				<i36 name="Mexallon">0</i36>
+				<i38 name="Nocxium">0</i38>
+				<i35 name="Pyerite">200</i35>
+				<i34 name="Tritanium">1320</i34>
+				<i39 name="Zydrine">0</i39>
+				<qty>10</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<mfg_grp>ewar</mfg_grp>
+				<flag>module</flag>
 			</i2259>
 			<i2260 name="ECCM - Ladar II">
+				<i20417 name="Datacore - Electromagnetic Physics">4</i20417>		
+				<i20418 name="Datacore - Electronic Engineering">4</i20418>
+				<ECCMLADAR name="ECCM - Ladar I" id="2002">10</ECCMLADAR>
+				<i11399 name="Morphite">50</i11399>
+				<i11483 name="R.A.M. Electronics">3</i11483>
+				<i11538 name="Nanomechanical Microprocessor">30</i11538>
+				<i11536 name="Ladar Sensor Cluster">40</i11536>
+				<i9840 name="Transmitter">0</i9840>
+				<i9842 name="Miniature Electronics">60</i9842>
+				<i37 name="Isogen">380</i37>
+				<i40 name="Megacyte">0</i40>
+				<i36 name="Mexallon">0</i36>
+				<i38 name="Nocxium">0</i38>
+				<i35 name="Pyerite">0</i35>
+				<i34 name="Tritanium">1640</i34>
+				<i39 name="Zydrine">0</i39>
+				<qty>10</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<mfg_grp>ewar</mfg_grp>
+				<flag>module</flag>
 			</i2260>
 			<i2261 name="ECCM - Magnetometric II">
+				<i20417 name="Datacore - Electromagnetic Physics">4</i20417>		
+				<i20418 name="Datacore - Electronic Engineering">4</i20418>
+				<ECCMMAGNET name="ECCM - Magnetometric I" id="2003">10</ECCMMAGNET>
+				<i11399 name="Morphite">50</i11399>
+				<i11483 name="R.A.M. Electronics">3</i11483>
+				<i11541 name="Photon Microprocessor">30</i11541>
+				<i11535 name="Magnetometric Sensor Cluster">40</i11535>
+				<i9840 name="Transmitter">0</i9840>
+				<i9842 name="Miniature Electronics">60</i9842>
+				<i37 name="Isogen">350</i37>
+				<i40 name="Megacyte">0</i40>
+				<i36 name="Mexallon">0</i36>
+				<i38 name="Nocxium">0</i38>
+				<i35 name="Pyerite">270</i35>
+				<i34 name="Tritanium">450</i34>
+				<i39 name="Zydrine">0</i39>
+				<qty>10</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<mfg_grp>ewar</mfg_grp>
+				<flag>module</flag>
 			</i2261>
 			<i2258 name="ECCM - Omni II">
+				<i20417 name="Datacore - Electromagnetic Physics">4</i20417>		
+				<i20418 name="Datacore - Electronic Engineering">4</i20418>
+				<ECCMOMNI name="ECCM - Omni I" id="2005">10</ECCMOMNI>
+				<i11399 name="Morphite">50</i11399>
+				<i11483 name="R.A.M. Electronics">2.5</i11483>
+				<i11541 name="Photon Microprocessor">30</i11541>
+				<i11534 name="Gravimetric Sensor Cluster">10</i11534>
+				<i11535 name="Magnetometric Sensor Cluster">10</i11535>
+				<i11536 name="Ladar Sensor Cluster">10</i11536>
+				<i11537 name="Radar Sensor Cluster">10</i11537>
+				<i9840 name="Transmitter">0</i9840>
+				<i9842 name="Miniature Electronics">90</i9842>
+				<i37 name="Isogen">450</i37>
+				<i40 name="Megacyte">0</i40>
+				<i36 name="Mexallon">0</i36>
+				<i38 name="Nocxium">0</i38>
+				<i35 name="Pyerite">1200</i35>
+				<i34 name="Tritanium">1020</i34>
+				<i39 name="Zydrine">0</i39>
+				<qty>10</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<mfg_grp>ewar</mfg_grp>
+				<flag>module</flag>
 			</i2258>
 			<i2262 name="ECCM - Radar II">
+				<i20417 name="Datacore - Electromagnetic Physics">4</i20417>		
+				<i20418 name="Datacore - Electronic Engineering">4</i20418>
+				<ECCMRADAR name="ECCM - Radar I" id="2003">10</ECCMRADAR>
+				<i11399 name="Morphite">50</i11399>
+				<i11483 name="R.A.M. Electronics">3</i11483>
+				<i11539 name="Nanoelectrical Microprocessor">30</i11539>
+				<i11537 name="Radar Sensor Cluster">40</i11537>
+				<i9840 name="Transmitter">0</i9840>
+				<i9842 name="Miniature Electronics">60</i9842>
+				<i37 name="Isogen">300</i37>
+				<i40 name="Megacyte">0</i40>
+				<i36 name="Mexallon">0</i36>
+				<i38 name="Nocxium">0</i38>
+				<i35 name="Pyerite">720</i35>
+				<i34 name="Tritanium">1170</i34>
+				<i39 name="Zydrine">0</i39>
+				<qty>10</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<mfg_grp>ewar</mfg_grp>
+				<flag>module</flag>
 			</i2262>
 			<i2571 name="ECM - Spatial Destabilizer II">
 			</i2571>
