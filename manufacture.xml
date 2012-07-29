@@ -680,6 +680,16 @@
 			</i11249>
 			<i11259 name="Energized Thermic Membrane II">
 			</i11259>
+			<i1306 name="Adaptive Nano Plating II">
+			</i1306>
+			<i1266 name="Explosive Plating II">
+			</i1266>
+			<i1286 name="Kinetic Plating II">
+			</i1286>
+			<i1276 name="Layered Plating II">
+			</i1276>
+			<i1296 name="Thermic Plating II">
+			</i1296>
 			<i11646 name="Armor Explosive Hardener II">
 				<i20171 name="Datacore - Hydromagnetic Physics">4</i20171>
 				<i20416 name="Datacore - Nanite Engineering">4</i20416>
@@ -801,7 +811,6 @@
 				<mfg_grp>armor</mfg_grp>
 				<flag>module</flag>
 			</i2048>
-			
 			<i26914 name="Large Remote Armor Repair System II">
 				<i20171 name="Datacore - Hydromagnetic Physics">6</i20171>
 				<i20416 name="Datacore - Nanite Engineering">6</i20416>
@@ -824,7 +833,30 @@
 			</i4296>
 			<i4299 name="Small Remote Hull Reapir System II">
 			</i4299>
-			
+			<i20343 name="50mm Reinforced Steel Plate II">
+			</i20343>
+			<i20345 name="100mm Reinforced Steel Plate II">
+			</i20345>
+			<i20347 name="200mm Reinforced Steel Plate II">
+			</i20347>
+			<i20349 name="400mm Reinforced Steel Plate II">
+			</i20349>
+			<i20351 name="800mm Reinforced Steel Plate II">
+			</i20351>
+			</i20353 name="1600mm Reinforced Steel Plate II">
+			</i20353>
+			<i1319 name="Expanded Cargohold II">
+			</i1319>
+			<i2605 name="Nanofiber Internal Structure II">
+			</i2065>
+			<i1335 name="Reinforced Bulkheads II">
+			</i1335>
+			<i1405 name="Inertia Stabilizer II">
+			</i1405>
+			<i1236 name="Overdrive Injector System II">
+			</i1236>
+			<i11640 name="Warp Core Stabilizer II">
+			</i11640>
 		</armor>
 		<prop>
 			<i438 name="1MN Afterburner II">
