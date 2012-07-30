@@ -138,6 +138,16 @@
 				<mfg_grp>weapup</mfg_grp>
 				<flag>module</flag>
 			</i1978>
+			<i24427 name="Drone Link Augmentor II"><!---->
+			</i24427>
+			<i24417 name="Drone Link Navigation Computer II"><!---->
+			</i24417>
+			<i24438 name="Omnidirectional Tracking Computer II"><!---->
+			</i24438>
+			<i4292 name="Siege Module II"><!---->
+			</i4292>
+			<i4294 name="Triage Module II"><!---->
+			</i4294>
 		</wepup>
 		<eng>
 			<i2032 name="Cap Recharger II">
@@ -492,9 +502,29 @@
 				<mfg_grp>eng</mfg_grp>
 				<flag>module</flag>
 			</i12263>
+			<i3504 name="Large Capacitor Battery II"><!---->
+			</i3504>
+			<i3496 name="Medium Capacitor Battery II"><!---->
+			</i3496>
+			<i3488 name="Small Capacitor Battery II"><!---->
+			</i3488>
+			<i3578 name="Heavy Capacitor Booster II"><!---->
+			</i3578>
+			<i2024 name="Medium Capacitor Booster II"><!---->
+			</i2024>
+			<i3568 name="Small Capacitor Booster II"><!---->
+			</i3568>
 		</eng>
 		<shield>
-			
+
+			<i10842 name="X-Large Shield Booster II"><!---->
+			</i10842>
+			<i10858 name="Large Shield Booster II"><!---->
+			</i10858>
+			<i10850 name="Medium Shield Booster II"><!---->
+			</i10850>
+			<i10850 name="Small Shield Booster II"><!---->
+			</i10850>
 			<i3841 name="Large Shield Extender II">
 				<i20171 name="Datacore - Hydromagnetic Physics">6</i20171>
 				<i20414 name="Datacore - Quantum Physics">6</i20414>
@@ -519,6 +549,10 @@
 				<mfg_grp>shield</mfg_grp>
 				<flag>module</flag>
 			</i3841>
+			<i3831 name="Medium Shield Extender II"><!---->
+			</i3831>
+			<i380 name="Small Shield Extender II"><!---->
+			</i380>
 			<i2281 name="Invulnerability Field II">
 				<i20171 name="Datacore - Hydromagnetic Physics">4</i20171>
 				<i20414 name="Datacore - Quantum Physics">4</i20414>
@@ -759,8 +793,70 @@
 				<mfg_grp>shield</mfg_grp>
 				<flag>module</flag>
 			</i3608>
+			<i3598 name="Medium Shield Transporter II">
+			</i3598>
+			<i3588 name="Small Shield Transporter II">
+			</i3588>
+			<i1256 name="Shield Flux Coil II">
+				<i20411 name="Datacore - High Energy Physics">4</i20411>
+				<i20414 name="Datacore - Quantum Physics">4</i20414>
+				<SFC name="Shield Flux Coil I" id="1254">10</SFC>
+				<i11482 name="R.A.M. - Electronics">1</i11482>
+				<i11399 name="Morphite">20</i11399>
+				<i9838 name="Superconductors">30</i9838>
+				<i11539 name="Nanoelectrical Microprocessor">10</i11539>
+				<i11554 name="Tesseract Capacitor">30</i11554>
+				<i37 name="Isogen">30</i37>
+				<i40 name="Megacyte">0</i40>
+				<i36 name="Mexallon">60</i36>
+				<i38 name="Nocxium">0</i38>
+				<i35 name="Pyerite">120</i35>
+				<i34 name="Tritanium">780</i34>
+				<i39 name="Zydrine">0</i39>
+				<qty>10</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<mfg_grp>eng</mfg_grp>
+				<flag>module</flag>
+			</i1256>
+			<i1422 name="Shield Power Relay II">
+				<i20411 name="Datacore - High Energy Physics">4</i20411>
+				<i20414 name="Datacore - Quantum Physics">4</i20414>
+				<SPR name="Shield Power Relay I" id="2331">10</SPR>
+				<i11482 name="R.A.M. - Electronics">1</i11482>
+				<i11399 name="Morphite">20</i11399>
+				<i9838 name="Superconductors">30</i9838>
+				<i11539 name="Nanoelectrical Microprocessor">10</i11539>
+				<i11554 name="Tesseract Capacitor">10</i11554>
+				<i37 name="Isogen">30</i37>
+				<i40 name="Megacyte">0</i40>
+				<i36 name="Mexallon">0</i36>
+				<i38 name="Nocxium">0</i38>
+				<i35 name="Pyerite">1730</i35>
+				<i34 name="Tritanium">3020</i34>
+				<i39 name="Zydrine">0</i39>
+				<qty>10</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<mfg_grp>eng</mfg_grp>
+				<flag>module</flag>
+			</i1422>
+			<i394 name="Shield Recharger II">
+			</i394>
 		</shield>
 		<armor>
+			<i3540 name="Large Armor Repairer II"><!---->
+			</i3540>
+			<i3530 name="Medium Armor Repairer II"><!---->
+			</i3530>
+			<i1183 name="Small Armor Repairer II"><!---->
+			</i1183>
+			<i3665 name="Large Hull Repairer II"><!---->
+			</i3665>
+			<i3655 name="Medium Hull Repairer II"><!---->
+			</i3655>
+			<i2355 name="Small Hull Repairer II"><!---->
+			</i2355>			
 			<i11269 name="Energized Adaptive Nano Membrane II">
 				<i20171 name="Datacore - Hydromagnetic Physics">4</i20171>
 				<i20416 name="Datacore - Nanite Engineering">4</i20416>
@@ -785,6 +881,26 @@
 				<mfg_grp>armor</mfg_grp>
 				<flag>module</flag>
 			</i11269>
+			<i11239 name="Energized Armor Layering Membrane II"><!---->
+			</i11239>
+			<i11219 name="Energized EM Membrane II"><!---->
+			</i11219>
+			<i11229 name="Energized Explosive Membrane II"><!---->
+			</i11229>
+			<i11249 name="Energized Kinetic Membrane II"><!---->
+			</i11249>
+			<i11259 name="Energized Thermic Membrane II"><!---->
+			</i11259>
+			<i1306 name="Adaptive Nano Plating II"><!---->
+			</i1306>
+			<i1266 name="Explosive Plating II"><!---->
+			</i1266>
+			<i1286 name="Kinetic Plating II"><!---->
+			</i1286>
+			<i1276 name="Layered Plating II"><!---->
+			</i1276>
+			<i1296 name="Thermic Plating II"><!---->
+			</i1296>
 			<i11646 name="Armor Explosive Hardener II">
 				<i20171 name="Datacore - Hydromagnetic Physics">4</i20171>
 				<i20416 name="Datacore - Nanite Engineering">4</i20416>
@@ -916,8 +1032,42 @@
 				<me>-4</me>
 				<bld_time></bld_time>
 				<mfg_grp>armor</mfg_grp>
-				<flag>module</flag>
+				<flag>NULL</flag>
 			</i26914>
+			<i26913 name="Medium Remote Armor Repair System II"><!---->
+			</i26913>
+			<i26912 name="Small Remote Armor Repair System II"><!---->
+			</i26912>
+			<i3986 name="Large Remote Hull Repair System II"><!---->
+			</i3986>
+			<i4296 name="Medium Remote Hull Repair System II"><!---->
+			</i4296>
+			<i4299 name="Small Remote Hull Reapir System II"><!---->
+			</i4299>
+			<i20343 name="50mm Reinforced Steel Plate II"><!---->
+			</i20343>
+			<i20345 name="100mm Reinforced Steel Plate II"><!---->
+			</i20345>
+			<i20347 name="200mm Reinforced Steel Plate II"><!---->
+			</i20347>
+			<i20349 name="400mm Reinforced Steel Plate II"><!---->
+			</i20349>
+			<i20351 name="800mm Reinforced Steel Plate II"><!---->
+			</i20351>
+			<i20353 name="1600mm Reinforced Steel Plate II"><!---->
+			</i20353>
+			<i1319 name="Expanded Cargohold II"><!---->
+			</i1319>
+			<i2605 name="Nanofiber Internal Structure II"><!---->
+			</i2605>
+			<i1335 name="Reinforced Bulkheads II"><!---->
+			</i1335>
+			<i1405 name="Inertia Stabilizer II"><!---->
+			</i1405>
+			<i1236 name="Overdrive Injector System II"><!---->
+			</i1236>
+			<i11640 name="Warp Core Stabilizer II"><!---->
+			</i11640>
 		</armor>
 		<prop>
 			<i438 name="1MN Afterburner II">
@@ -1053,7 +1203,7 @@
 				<flag>module</flag>
 			</i12084>
 		</prop>
-		<interdict>
+		<ewar>
 			<i527 name="Stasis Webifier II">
 				<i20418 name="Datacore - Electronic Engineering">4</i20418>
 				<i20419 name="Datacore - Graviton Physics">4</i20419>
@@ -1668,79 +1818,97 @@
 				<mfg_grp>interdict</mfg_grp>
 				<flag>module</flag>
 			</i4248>
-			<i26892 name="Mobile Small Warp Disruptor II"><!--i believe data incorrect. locke, recheck to master sheet please.-->
+			<i26892 name="Mobile Small Warp Disruptor II">
 				<i20418 name="Datacore - Electronic Engineering">6</i20418>
 				<i20419 name="Datacore - Graviton Physics">6</i20419>
-				<SWD name="Mobile Small Warp Disruptor I" id="12198">1</SWD>
+				<SWD name="Mobile Small Warp Disruptor I" id="12198">5</SWD>
 				<i11483 name="R.A.M. Electronics">0.75</i11483>
 				<i11482 name="R.A.M. Energy Tech">0.5</i11482>
-				<i11399 name="Morphite">3</i11399>
-				<i11693 name="Graviton Pulse Generator">10</i11693>
-				<i11550 name="Graviton Reactor Unit">4</i11550>
-				<i11538 name="Nanomechanical Microprocessor">10</i11538>
-				<i3687 name="Electronic Parts">10</i3687>
-				<i37 name="Isogen">321</i37>
-				<i40 name="Megacyte">5</i40>
-				<i36 name="Mexallon">650</i36>
-				<i38 name="Nocxium">53</i38>
-				<i35 name="Pyerite">455</i35>
-				<i34 name="Tritanium">2045</i34>
-				<i39 name="Zydrine">5</i39>
-				<qty>1</qty>
+				<i11399 name="Morphite">6</i11399>
+				<i11693 name="Graviton Pulse Generator">50</i11693>
+				<i11550 name="Graviton Reactor Unit">20</i11550>
+				<i11538 name="Nanomechanical Microprocessor">50</i11538>
+				<i3687 name="Electronic Parts">50</i3687>
+				<i37 name="Isogen">1605</i37>
+				<i40 name="Megacyte">25</i40>
+				<i36 name="Mexallon">3250</i36>
+				<i38 name="Nocxium">265</i38>
+				<i35 name="Pyerite">2275</i35>
+				<i34 name="Tritanium">10225</i34>
+				<i39 name="Zydrine">25</i39>
+				<qty>5</qty>
 				<me>-4</me>
 				<bld_time></bld_time>
 				<mfg_grp>interdict</mfg_grp>
 				<flag>module</flag>
 			</i26892>
-			<i26890 name="Mobile Medium Warp Disruptor II"><!--data not finished. locke, recheck to master sheet please.-->
+			<i26890 name="Mobile Medium Warp Disruptor II">
 				<i20418 name="Datacore - Electronic Engineering">12</i20418>
 				<i20419 name="Datacore - Graviton Physics">12</i20419>
-				<MWD name="Mobile Medium Warp Disruptor I" id="12199">1</MWD>
-				<i11483 name="R.A.M. Electronics">NULL</i11483>
-				<i11482 name="R.A.M. Energy Tech">NULL</i11482>
-				<i11399 name="Morphite">NULL</i11399>
-				<i11693 name="Graviton Pulse Generator">NULL</i11693>
-				<i11550 name="Graviton Reactor Unit">NULL</i11550>
-				<i11538 name="Nanomechanical Microprocessor">NULL</i11538>
-				<i3687 name="Electronic Parts">NULL</i3687>
-				<i37 name="Isogen">NULL</i37>
-				<i40 name="Megacyte">NULL</i40>
-				<i36 name="Mexallon">NULL</i36>
-				<i38 name="Nocxium">NULL</i38>
-				<i35 name="Pyerite">NULL</i35>
-				<i34 name="Tritanium">NULL</i34>
-				<i39 name="Zydrine">NULL</i39>
-				<qty>1</qty>
+				<MWD name="Mobile Medium Warp Disruptor I" id="12199">5</MWD>
+				<i11483 name="R.A.M. Electronics">1.1</i11483>
+				<i11482 name="R.A.M. Energy Tech">1.1</i11482>
+				<i11399 name="Morphite">75</i11399>
+				<i11693 name="Graviton Pulse Generator">100</i11693>
+				<i11550 name="Graviton Reactor Unit">40</i11550>
+				<i11538 name="Nanomechanical Microprocessor">80</i11538>
+				<i3687 name="Electronic Parts">75</i3687>
+				<i37 name="Isogen">7495</i37>
+				<i40 name="Megacyte">45</i40>
+				<i36 name="Mexallon">17625</i36>
+				<i38 name="Nocxium">1080</i38>
+				<i35 name="Pyerite">625</i35>
+				<i34 name="Tritanium">99430</i34>
+				<i39 name="Zydrine">450</i39>
+				<qty>5</qty>
 				<me>-4</me>
 				<bld_time></bld_time>
 				<mfg_grp>interdict</mfg_grp>
-				<flag>NULL</flag>
+				<flag>module</flag>
 			</i26890>
-			<i26888 name="Mobile Large Warp Disruptor II"><!--data not finished. locke, recheck to master sheet please.-->
-				<i20418 name="Datacore - Electronic Engineering">12</i20418>
-				<i20419 name="Datacore - Graviton Physics">12</i20419>
-				<LWD name="Mobile Large Warp Disruptor I" id="12200">1</LWD>
-				<i11483 name="R.A.M. Electronics">NULL</i11483>
-				<i11482 name="R.A.M. Energy Tech">NULL</i11482>
-				<i11399 name="Morphite">NULL</i11399>
-				<i11693 name="Graviton Pulse Generator">NULL</i11693>
-				<i11550 name="Graviton Reactor Unit">NULL</i11550>
-				<i11538 name="Nanomechanical Microprocessor">NULL</i11538>
-				<i3687 name="Electronic Parts">NULL</i3687>
-				<i37 name="Isogen">NULL</i37>
-				<i40 name="Megacyte">NULL</i40>
-				<i36 name="Mexallon">NULL</i36>
-				<i38 name="Nocxium">NULL</i38>
-				<i35 name="Pyerite">NULL</i35>
-				<i34 name="Tritanium">NULL</i34>
-				<i39 name="Zydrine">NULL</i39>
-				<qty>1</qty>
+			<i26888 name="Mobile Large Warp Disruptor II">
+				<i20418 name="Datacore - Electronic Engineering">18</i20418>
+				<i20419 name="Datacore - Graviton Physics">18</i20419>
+				<LWD name="Mobile Large Warp Disruptor I" id="12200">5</LWD>
+				<i11483 name="R.A.M. Electronics">1.5</i11483>
+				<i11482 name="R.A.M. Energy Tech">1.1</i11482>
+				<i11399 name="Morphite">310</i11399>
+				<i11693 name="Graviton Pulse Generator">150</i11693>
+				<i11550 name="Graviton Reactor Unit">80</i11550>
+				<i11538 name="Nanomechanical Microprocessor">120</i11538>
+				<i3687 name="Electronic Parts">100</i3687>
+				<i37 name="Isogen">1380</i37>
+				<i40 name="Megacyte">405</i40>
+				<i36 name="Mexallon">115515</i36>
+				<i38 name="Nocxium">2425</i38>
+				<i35 name="Pyerite">55615</i35>
+				<i34 name="Tritanium">596220</i34>
+				<i39 name="Zydrine">1630</i39>
+				<qty>5</qty>
 				<me>-4</me>
 				<bld_time></bld_time>
 				<mfg_grp>interdict</mfg_grp>
 				<flag>NULL</flag>
 			</i26888>
-		</interdict>
+		</ewar>
+		<upgrades>
+			<i1436 name="Auto Targeting System II"><!---->
+			</i1436>
+			<i11578 name="Covert Ops Cloaking Device II"><!---->
+			</i11578>
+			<i11577 name="Improved Cloaking Device II"><!---->
+			</i11577>
+			<i3888 name="Co-Processor II"><!---->
+			</i3888>
+			<i2341 name="Passive Targeter II"><!---->
+			</i2341>
+			<i1964 name="Remote Sensor Booster II"><!---->
+			</i1964>
+			<i1952 name="Sensor Booster II"><!---->
+			</i1952>
+			<i1987 name="Signal Amplifier II"><!---->
+			</i1987>
+		</upgrades>
 		<ships>
 	<!--Minmatar-->
 			<i11182 name="Cheetah">
@@ -2156,6 +2324,31 @@
 			</i22440>
 	<!--Caldari-->
 			<i11192 name="Buzzard">
+				<i25887 name="Datacore - Caldari Starship Engineering">5.3</i25887>
+				<i20424 name="Datacore - Mechanical Engineering">5.3</i20424>
+				<i11399 name="Morphite">15</i11399>
+				<i11478 name="R.A.M. Starship Tech">1.9</i11478>
+				<HRN name="Heron" id="605">1</HRN>
+				<i3828 name="Construction Blocks">23</i3828>
+				<i29107 name="Titanium Diborite Armor Plate">300</i29107>
+				<i11552 name="Scalar Capacitor Unit">60</i11552>
+				<i11540 name="Quantum Microprocessor">165</i11540>
+				<i11550 name="Graviton Reactor Unit">3</i11550>
+				<i11534 name="Gravimetric Sensor Cluster">68</i11534>
+				<i11558 name="Sustained Shield Emitter">15</i11558>
+				<i11533 name="Magpulse Thruster">30</i11533>
+				<i37 name="Isogen">0</i37>
+				<i40 name="Megacyte">3</i40>
+				<i36 name="Mexallon">939</i36>
+				<i38 name="Nocxium">0</i38>
+				<i35 name="Pyerite">10683</i35>
+				<i34 name="Tritanium">8231</i34>
+				<i39 name="Zydrine">0</i39>
+				<qty>1</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<flag>frig</flag>
+				<class>Covops</class>
 			</i11192>
 			<i11194 name="Kitsune">
 				<i25887 name="Datacore - Caldari Starship Engineering">5.3</i25887>
@@ -2178,8 +2371,58 @@
 				<class>EAF</class>
 			</i11194>
 			<i11176 name="Crow">
+				<i25887 name="Datacore - Caldari Starship Engineering">5.3</i25887>
+				<i20424 name="Datacore - Mechanical Engineering">5.3</i20424>
+				<i11399 name="Morphite">15</i11399>
+				<i11478 name="R.A.M. Starship Tech">0.95</i11478>
+				<CNDR name="Condor" id="583">1</CNDR>
+				<i3828 name="Construction Blocks">15</i3828>
+				<i29107 name="Titanium Diborite Armor Plate">375</i29107>
+				<i11552 name="Scalar Capacitor Unit">75</i11552>
+				<i11540 name="Quantum Microprocessor">150</i11540>
+				<i11550 name="Graviton Reactor Unit">3</i11550>
+				<i11534 name="Gravimetric Sensor Cluster">75</i11534>
+				<i11558 name="Sustained Shield Emitter">15</i11558>
+				<i11533 name="Magpulse Thruster">30</i11533>
+				<i37 name="Isogen">30</i37>
+				<i40 name="Megacyte">15</i40>
+				<i36 name="Mexallon">30</i36>
+				<i38 name="Nocxium">0</i38>
+				<i35 name="Pyerite">300</i35>
+				<i34 name="Tritanium">300</i34>
+				<i39 name="Zydrine">15</i39>
+				<qty>1</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<flag>frig</flag>
+				<class>interceptor</class>
 			</i11176>
 			<i11178 name="Raptor">
+				<i25887 name="Datacore - Caldari Starship Engineering">5.3</i25887>
+				<i20424 name="Datacore - Mechanical Engineering">5.3</i20424>
+				<i11399 name="Morphite">8</i11399>
+				<i11478 name="R.A.M. Starship Tech">0.95</i11478>
+				<CNDR name="Condor" id="583">1</CNDR>
+				<i3828 name="Construction Blocks">15</i3828>
+				<i29107 name="Titanium Diborite Armor Plate">450</i29107>
+				<i11552 name="Scalar Capacitor Unit">75</i11552>
+				<i11540 name="Quantum Microprocessor">120</i11540>
+				<i11550 name="Graviton Reactor Unit">5</i11550>
+				<i11534 name="Gravimetric Sensor Cluster">30</i11534>
+				<i11558 name="Sustained Shield Emitter">23</i11558>
+				<i11533 name="Magpulse Thruster">45</i11533>
+				<i37 name="Isogen">60</i37>
+				<i40 name="Megacyte">18</i40>
+				<i36 name="Mexallon">0</i36>
+				<i38 name="Nocxium">0</i38>
+				<i35 name="Pyerite">0</i35>
+				<i34 name="Tritanium">0</i34>
+				<i39 name="Zydrine">5</i39>
+				<qty>1</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<flag>frig</flag>
+				<class>interceptor</class>
 			</i11178>
 			<i11381 name="Harpy">
 				<i25887 name="Datacore - Caldari Starship Engineering">5.3</i25887>
@@ -2518,6 +2761,8 @@
 				<mfg_grp>exhum</mfg_grp>
 				<flag>ship</flag>
 			</i22548>
+			<i22546 name="Skiff">
+			</i22546>
 		</exhum>
 		<mining>
 			<i22229 name="Ice Harvester II">
@@ -2613,7 +2858,47 @@
 				<mfg_grp>mining</mfg_grp>
 				<flag>module</flag>
 			</i4250>
+			<i25812 name="Gas Harvester II"><!---->
+			</i25812>
+			<i482 name="Miner II"><!---->
+			</i482>
+			<i18068 name="Modulated Deep Core Strip Miner II"><!---->
+			</i18068>
+			<i24305 name="Deep Core Strip Miner II"><!---->
+			</i24305>
 		</mining>
+		<gang>
+			<i4262 name="Armored Warfare Link - Damage Control II"><!---->
+			</i4262>
+			<i4264 name="Armored Warfare Link - Passive Defense II"><!---->
+			</i4264>
+			<i4266 name="Armored Warfare Link - Rapid Repair II"><!---->
+			</i4266>
+			<i4268 name="Information Warfare Link - Electronic Superiority II"><!---->
+			</i4268>
+			<i4270 name="Information Warfare Link - Recon Operation II"><!---->
+			</i4270>
+			<i4272 name="Information Warfare Link - Sensor Integrity II"><!---->
+			</i4272>
+			<i4274 name="Mining Foreman Link - Havester Capacitor Efficiency II"><!---->
+			</i4274>
+			<i4276 name="Mining Foreman Link - Laser Optimization II"><!---->
+			</i4276>
+			<i4278 name="Mining Foreman Link - Mining Laser Field Optimization II"><!---->
+			</i4278>
+			<i4280 name="Siege Warfare Link - Active Shielding II"><!---->
+			</i4280>
+			<i4282 name="Siege Warfare Link - Shield Efficiency II"><!---->
+			</i4282>
+			<i4284 name="Siege Warfare Link - Shield Harmonizing II"><!---->
+			</i4284>
+			<i4286 name="Skirmish Warfare Link - Evasive Maneuvers II"><!---->
+			</i4286>
+			<i4288 name="Skirmish Warfare Link - Interdiction Maneuvers II"><!---->
+			</i4288>
+			<i4290 name="Skirmish Warfare Link - Rapid Deployment II"><!---->
+			</i4290>
+		</gang>
 		<weapon><!--LR->SR, large->small-->
 	<!--Lasers-->
 			<i3065 name="Tachyon Beam Laser II">
@@ -3755,6 +4040,31 @@
 				<mfg_grp>launcher</mfg_grp>
 				<flag>NULL</flag>
 			</i10631>
+	<!--Smartbomb-->
+			<i1565 name="Small EMP Smartbomb II"><!---->
+			</i1565>
+			<i1553 name="Small Graviton Smartbomb II"><!---->
+			</i1553>
+			<i1559 name="Small Plasma Smartbomb II"><!---->
+			</i1559>
+			<i1549 name="Small Proton Smartbomb II"><!---->
+			</i1549>
+			<i3955 name="Medium EMP Smartbomb II"><!---->
+			</i3955>
+			<i3943 name="Medium Graviton Smartbomb II"><!---->
+			</i3943>
+			<i3949 name="Medium Plasma Smartbomb II"><!---->
+			</i3949>
+			<i3939 name="Medium Proton Smartbomb II"><!---->
+			</i3939>
+			<i3995 name="Large EMP Smartbomb II"><!---->
+			</i3995>
+			<i3983 name="Large Graviton Smartbomb II"><!---->
+			</i3983>
+			<i3989 name="Large Plasma Smartbomb II"><!---->
+			</i3989>
+			<i3979 name="Large Proton Smartbomb II"><!---->
+			</i3979>
 		</weapon>
 		<!--ammo>
 		</ammo-->
