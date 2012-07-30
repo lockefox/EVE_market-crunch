@@ -630,7 +630,9 @@
 				<i34 name="Tritanium">1501</i34>
 				<i39 name="Zydrine">0</i39>
 			</i486>
-	</weapon>
+		</weapon>
+		<upgrades>
+		</upgrades>
 		<projectile>
 
 		</projectile>
