@@ -2209,14 +2209,69 @@
 				<mfg_grp>prop</mfg_grp>
 				<flag>module</flag>
 			</i12084>
-			<i1405 name="Inertia Stabilizer II"><!---->
-				
+			<i1405 name="Inertia Stabilizers II">
+				<i20415 name="Datacore - Molecular Engineering">2</i20415>
+				<i20416 name="Datacore - Nanite Engineering">2</i20416>
+				<i11399 name="Morphite">20</i11399>
+				<i11475 name="R.A.M. Armor/Hull Tech">1.5</i11475>
+				<INSTAB name="Inertia Stabilizers I" id="1403">10</INSTAB>
+				<i11538 name="Nanomechanical Microprocessor">0</i11538>
+				<i11530 name="Plasma Thruster">20</i11530>
+				<i3689 name="Mechanical Parts">30</i3689>
+				<i37 name="Isogen">0</i37>
+				<i40 name="Megacyte">0</i40>
+				<i36 name="Mexallon">20</i36>
+				<i38 name="Nocxium">0</i38>
+				<i35 name="Pyerite">770</i35>
+				<i34 name="Tritanium">8150</i34>
+				<i39 name="Zydrine">0</i39>
+				<qty>10</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<mfg_grp>prop</mfg_grp>
+				<flag>module</flag>
 			</i1405>
-			<i1236 name="Overdrive Injector System II"><!---->
-				
+			<i1236 name="Overdrive Injector System II">
+				<i20415 name="Datacore - Molecular Engineering">2</i20415>
+				<i20416 name="Datacore - Nanite Engineering">2</i20416>
+				<i11399 name="Morphite">20</i11399>
+				<i11475 name="R.A.M. Armor/Hull Tech">1.5</i11475>
+				<ODIS name="Overdrive Injector System I" id="1244">10</ODIS>
+				<i11538 name="Nanomechanical Microprocessor">0</i11538>
+				<i11530 name="Plasma Thruster">30</i11530>
+				<i3689 name="Mechanical Parts">20</i3689>
+				<i37 name="Isogen">0</i37>
+				<i40 name="Megacyte">150</i40>
+				<i36 name="Mexallon">0</i36>
+				<i38 name="Nocxium">0</i38>
+				<i35 name="Pyerite">0</i35>
+				<i34 name="Tritanium">0</i34>
+				<i39 name="Zydrine">0</i39>
+				<qty>10</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<mfg_grp>prop</mfg_grp>
+				<flag>module</flag>
 			</i1236>
-			<i11640 name="Warp Core Stabilizer II"><!---->
-				
+			<i11640 name="Warp Core Stabilizer II">
+				<i20418 name="Datacore - Electronic Engineering">4</i20418>
+				<i20414 name="Datacore - Quantum Physics">4</i20414>
+				<i11399 name="Morphite">40</i11399>
+				<i11483 name="R.A.M. Electronics">2.5</i11483>
+				<WCSTAB name="Warp Core Stabilizer I" id="10998">10</WCSTAB>
+				<i11538 name="Nanomechanical Microprocessor">30</i11538>
+				<i37 name="Isogen">0</i37>
+				<i40 name="Megacyte">0</i40>
+				<i36 name="Mexallon">480</i36>
+				<i38 name="Nocxium">0</i38>
+				<i35 name="Pyerite">2490</i35>
+				<i34 name="Tritanium">2190</i34>
+				<i39 name="Zydrine">0</i39>
+				<qty>10</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<mfg_grp>prop</mfg_grp>
+				<flag>module</flag>
 			</i11640>
 		</prop>
 		<ewar>
@@ -2337,7 +2392,7 @@
 			<i2261 name="ECCM - Magnetometric II">
 				<i20417 name="Datacore - Electromagnetic Physics">4</i20417>		
 				<i20418 name="Datacore - Electronic Engineering">4</i20418>
-				<ECCMMAGNET name="ECCM - Magnetometric I" id="2003">10</ECCMMAGNET>
+				<ECCMMAG name="ECCM - Magnetometric I" id="2003">10</ECCMMAG>
 				<i11399 name="Morphite">50</i11399>
 				<i11483 name="R.A.M. Electronics">3</i11483>
 				<i11541 name="Photon Microprocessor">30</i11541>
@@ -2602,7 +2657,7 @@
 			<i2588 name="Magnetometric Backup Array II">
 				<i20417 name="Datacore - Electromagnetic Physics">2</i20417>		
 				<i20418 name="Datacore - Electronic Engineering">2</i20418>
-				<MAGNETBA name="Magnetometric Backup Array I" id="2587">10</MAGNETBA>
+				<MAGBA name="Magnetometric Backup Array I" id="2587">10</MAGBA>
 				<i11399 name="Morphite">20</i11399>
 				<i11483 name="R.A.M. Electronics">1</i11483>
 				<i11541 name="Photon Microprocessor">10</i11541>
@@ -2904,7 +2959,7 @@
 				<me>-4</me>
 				<bld_time></bld_time>
 				<mfg_grp>interdict</mfg_grp>
-				<flag>NULL</flag>
+				<flag>module</flag>
 			</i26888>
 		</ewar>
 		<upgrades>
