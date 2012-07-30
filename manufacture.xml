@@ -2963,21 +2963,237 @@
 			</i26888>
 		</ewar>
 		<upgrades>
-			<i1436 name="Auto Targeting System II"><!---->
+			<i1436 name="Auto Targeting System II">
+				<i20418 name="Datacore - Electronic Engineering">2</i20418>
+				<i20424 name="Datacore - Mechanical Engineering">2</i20424>
+				<ATARS name="Auto Targeting System I" id="1182">10</ATARS>
+				<i11399 name="Morphite">30</i11399>
+				<i11483 name="R.A.M. Electronics">2</i11483>
+				<i11540 name="Quantum Microprocessor">10</i11540>
+				<i11538 name="Nanomechanical Microprocessor">0</i11538>
+				<i11534 name="Gravimetric Sensor Cluster">0</i11534>
+				<i11541 name="Photon Microprocessor">0</i11541>
+				<i11693 name="Graviton Pulse Generator">0</i11693>
+				<i11551 name="Electrolytic Capacitor Unit">0</i11551>
+				<i11553 name="Oscillator Capacitor Unit">0</i11553>
+				<i11536 name="Ladar Sensor Cluster">20</i11536>
+				<i9840 name="Transmitter">30</i9840>
+				<i9842 name="Miniature Electronics">70</i9842>
+				<i37 name="Isogen">0</i37>
+				<i40 name="Megacyte">0</i40>
+				<i36 name="Mexallon">890</i36>
+				<i38 name="Nocxium">0</i38>
+				<i35 name="Pyerite">7250</i35>
+				<i34 name="Tritanium">2460</i34>
+				<i39 name="Zydrine">0</i39>
+				<qty>10</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<mfg_grp>sensup</mfg_grp>
+				<flag>module</flag>
 			</i1436>
-			<i11578 name="Covert Ops Cloaking Device II"><!---->
+			<i11578 name="Covert Ops Cloaking Device II">
+				<i20419 name="Datacore - Graviton Physics">4</i20419>
+				<i20414 name="Datacore - Quantum Physics">4</i20414>
+				<PROTCD name="Prototype Cloaking Device I" id="11370">10</PROTCD>
+				<i11399 name="Morphite">600</i11399>
+				<i11483 name="R.A.M. Electronics">2.5</i11483>
+				<i11540 name="Quantum Microprocessor">0</i11540>
+				<i11538 name="Nanomechanical Microprocessor">0</i11538>
+				<i11534 name="Gravimetric Sensor Cluster">0</i11534>
+				<i11541 name="Photon Microprocessor">200</i11541>
+				<i11693 name="Graviton Pulse Generator">150</i11693>
+				<i11551 name="Electrolytic Capacitor Unit">0</i11551>
+				<i11553 name="Oscillator Capacitor Unit">0</i11553>
+				<i11536 name="Ladar Sensor Cluster">0</i11536>
+				<i9840 name="Transmitter">200</i9840>
+				<i9842 name="Miniature Electronics">100</i9842>
+				<i37 name="Isogen">6210</i37>
+				<i40 name="Megacyte">230</i40>
+				<i36 name="Mexallon">10500</i36>
+				<i38 name="Nocxium">2310</i38>
+				<i35 name="Pyerite">85770</i35>
+				<i34 name="Tritanium">219420</i34>
+				<i39 name="Zydrine">900</i39>
+				<qty>10</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<mfg_grp>sensup</mfg_grp>
+				<flag>module</flag>
 			</i11578>
-			<i11577 name="Improved Cloaking Device II"><!---->
+			<i11577 name="Improved Cloaking Device II">
+				<i20419 name="Datacore - Graviton Physics">4</i20419>
+				<i20414 name="Datacore - Quantum Physics">4</i20414>
+				<PROTCD name="Prototype Cloaking Device I" id="11370">10</PROTCD>
+				<i11399 name="Morphite">150</i11399>
+				<i11483 name="R.A.M. Electronics">1.5</i11483>
+				<i11540 name="Quantum Microprocessor">0</i11540>
+				<i11538 name="Nanomechanical Microprocessor">0</i11538>
+				<i11534 name="Gravimetric Sensor Cluster">0</i11534>
+				<i11541 name="Photon Microprocessor">100</i11541>
+				<i11693 name="Graviton Pulse Generator">100</i11693>
+				<i11551 name="Electrolytic Capacitor Unit">0</i11551>
+				<i11553 name="Oscillator Capacitor Unit">0</i11553>
+				<i11536 name="Ladar Sensor Cluster">0</i11536>
+				<i9840 name="Transmitter">100</i9840>
+				<i9842 name="Miniature Electronics">50</i9842>
+				<i37 name="Isogen">0</i37>
+				<i40 name="Megacyte">0</i40>
+				<i36 name="Mexallon">0</i36>
+				<i38 name="Nocxium">0</i38>
+				<i35 name="Pyerite">0</i35>
+				<i34 name="Tritanium">0</i34>
+				<i39 name="Zydrine">0</i39>
+				<qty>10</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<mfg_grp>sensup</mfg_grp>
+				<flag>module</flag>
 			</i11577>
-			<i3888 name="Co-Processor II"><!---->
+			<i3888 name="Co-Processor II">
+				<i20417 name="Datacore - Electromagnetic Physics">4</i20417>
+				<i20418 name="Datacore - Electronic Engineering">4</i20418>
+				<COPR name="Co-Processor I" id="3887">10</COPR>
+				<i11399 name="Morphite">20</i11399>
+				<i11483 name="R.A.M. Electronics">2</i11483>
+				<i11540 name="Quantum Microprocessor">0</i11540>
+				<i11538 name="Nanomechanical Microprocessor">0</i11538>
+				<i11534 name="Gravimetric Sensor Cluster">0</i11534>
+				<i11541 name="Photon Microprocessor">0</i11541>
+				<i11693 name="Graviton Pulse Generator">30</i11693>
+				<i11551 name="Electrolytic Capacitor Unit">0</i11551>
+				<i11553 name="Oscillator Capacitor Unit">20</i11553>
+				<i11536 name="Ladar Sensor Cluster">0</i11536>
+				<i9840 name="Transmitter">0</i9840>
+				<i9842 name="Miniature Electronics">160</i9842>
+				<i37 name="Isogen">20</i37>
+				<i40 name="Megacyte">0</i40>
+				<i36 name="Mexallon">510</i36>
+				<i38 name="Nocxium">30</i38>
+				<i35 name="Pyerite">1400</i35>
+				<i34 name="Tritanium">9710</i34>
+				<i39 name="Zydrine">0</i39>
+				<qty>10</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<mfg_grp>sensup</mfg_grp>
+				<flag>module</flag>
 			</i3888>
-			<i2341 name="Passive Targeter II"><!---->
+			<i2341 name="Passive Targeter II">
+				<i20417 name="Datacore - Electromagnetic Physics">2</i20417>
+				<i20418 name="Datacore - Electronic Engineering">2</i20418>
+				<PASSTAR name="Passive Targeter I" id="581">10</PASSTAR>
+				<i11399 name="Morphite">20</i11399>
+				<i11483 name="R.A.M. Electronics">0.5</i11483>
+				<i11540 name="Quantum Microprocessor">0</i11540>
+				<i11538 name="Nanomechanical Microprocessor">30</i11538>
+				<i11534 name="Gravimetric Sensor Cluster">0</i11534>
+				<i11541 name="Photon Microprocessor">0</i11541>
+				<i11693 name="Graviton Pulse Generator">0</i11693>
+				<i11551 name="Electrolytic Capacitor Unit">0</i11551>
+				<i11553 name="Oscillator Capacitor Unit">0</i11553>
+				<i11536 name="Ladar Sensor Cluster">10</i11536>
+				<i9840 name="Transmitter">50</i9840>
+				<i9842 name="Miniature Electronics">40</i9842>
+				<i37 name="Isogen">30</i37>
+				<i40 name="Megacyte">0</i40>
+				<i36 name="Mexallon">50</i36>
+				<i38 name="Nocxium">30</i38>
+				<i35 name="Pyerite">2700</i35>
+				<i34 name="Tritanium">0</i34>
+				<i39 name="Zydrine">20</i39>
+				<qty>10</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<mfg_grp>sensup</mfg_grp>
+				<flag>module</flag>
 			</i2341>
-			<i1964 name="Remote Sensor Booster II"><!---->
+			<i1964 name="Remote Sensor Booster II">
+				<i20417 name="Datacore - Electromagnetic Physics">2</i20417>
+				<i20418 name="Datacore - Electronic Engineering">2</i20418>
+				<RSENBOOST name="Remote Sensor Booster I" id="1963">10</RSENBOOST>
+				<i11399 name="Morphite">60</i11399>
+				<i11483 name="R.A.M. Electronics">5.5</i11483>
+				<i11540 name="Quantum Microprocessor">30</i11540>
+				<i11538 name="Nanomechanical Microprocessor">0</i11538>
+				<i11534 name="Gravimetric Sensor Cluster">50</i11534>
+				<i11541 name="Photon Microprocessor">0</i11541>
+				<i11693 name="Graviton Pulse Generator">0</i11693>
+				<i11551 name="Electrolytic Capacitor Unit">0</i11551>
+				<i11553 name="Oscillator Capacitor Unit">0</i11553>
+				<i11536 name="Ladar Sensor Cluster">0</i11536>
+				<i9840 name="Transmitter">50</i9840>
+				<i9842 name="Miniature Electronics">60</i9842>
+				<i37 name="Isogen">30</i37>
+				<i40 name="Megacyte">0</i40>
+				<i36 name="Mexallon">110</i36>
+				<i38 name="Nocxium">0</i38>
+				<i35 name="Pyerite">4610</i35>
+				<i34 name="Tritanium">16650</i34>
+				<i39 name="Zydrine">0</i39>
+				<qty>10</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<mfg_grp>sensup</mfg_grp>
+				<flag>module</flag>
 			</i1964>
-			<i1952 name="Sensor Booster II"><!---->
+			<i1952 name="Sensor Booster II">
+				<i20417 name="Datacore - Electromagnetic Physics">4</i20417>
+				<i20418 name="Datacore - Electronic Engineering">4</i20418>
+				<SENBOOST name="Sensor Booster I" id="1973">10</SENBOOST>
+				<i11399 name="Morphite">30</i11399>
+				<i11483 name="R.A.M. Electronics">2</i11483>
+				<i11540 name="Quantum Microprocessor">30</i11540>
+				<i11538 name="Nanomechanical Microprocessor">0</i11538>
+				<i11534 name="Gravimetric Sensor Cluster">40</i11534>
+				<i11541 name="Photon Microprocessor">0</i11541>
+				<i11693 name="Graviton Pulse Generator">0</i11693>
+				<i11551 name="Electrolytic Capacitor Unit">0</i11551>
+				<i11553 name="Oscillator Capacitor Unit">0</i11553>
+				<i11536 name="Ladar Sensor Cluster">0</i11536>
+				<i9840 name="Transmitter">30</i9840>
+				<i9842 name="Miniature Electronics">70</i9842>
+				<i37 name="Isogen">20</i37>
+				<i40 name="Megacyte">0</i40>
+				<i36 name="Mexallon">0</i36>
+				<i38 name="Nocxium">20</i38>
+				<i35 name="Pyerite">150</i35>
+				<i34 name="Tritanium">890</i34>
+				<i39 name="Zydrine">0</i39>
+				<qty>10</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<mfg_grp>sensup</mfg_grp>
+				<flag>module</flag>
 			</i1952>
-			<i1987 name="Signal Amplifier II"><!---->
+			<i1987 name="Signal Amplifier II">
+				<i20417 name="Datacore - Electromagnetic Physics">4</i20417>
+				<i20418 name="Datacore - Electronic Engineering">4</i20418>
+				<SIGAMP name="Signal Amplifier I" id="1986">10</SIGAMP>
+				<i11399 name="Morphite">20</i11399>
+				<i11483 name="R.A.M. Electronics">1</i11483>
+				<i11540 name="Quantum Microprocessor">30</i11540>
+				<i11538 name="Nanomechanical Microprocessor">0</i11538>
+				<i11534 name="Gravimetric Sensor Cluster">50</i11534>
+				<i11541 name="Photon Microprocessor">0</i11541>
+				<i11693 name="Graviton Pulse Generator">0</i11693>
+				<i11551 name="Electrolytic Capacitor Unit">0</i11551>
+				<i11553 name="Oscillator Capacitor Unit">0</i11553>
+				<i11536 name="Ladar Sensor Cluster">0</i11536>
+				<i9840 name="Transmitter">20</i9840>
+				<i9842 name="Miniature Electronics">50</i9842>
+				<i37 name="Isogen">0</i37>
+				<i40 name="Megacyte">0</i40>
+				<i36 name="Mexallon">290</i36>
+				<i38 name="Nocxium">0</i38>
+				<i35 name="Pyerite">240</i35>
+				<i34 name="Tritanium">660</i34>
+				<i39 name="Zydrine">10</i39>
+				<qty>10</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<mfg_grp>sensup</mfg_grp>
+				<flag>module</flag>
 			</i1987>
 		</upgrades>
 		<ships>
@@ -3576,11 +3792,11 @@
 				<flag>frig</flag>
 				<class>Stealth Bomber</class>
 			</i12032>
-			<i12011 name="Eagle">
+			<i12011 name="Eagle"><!---->
 			</i12011>
-			<i11993 name="Cerberus">
+			<i11993 name="Cerberus"><!---->
 			</i11993>
-			<i11959 name="Rook">
+			<i11959 name="Rook"><!---->
 			</i11959>
 			<i11957 name="Falcon">
 				<i25887 name="Datacore - Caldari Starship Engineering">25.4</i25887>
@@ -3609,65 +3825,65 @@
 				<flag>cruiser</flag>
 				<class>Stealth Bomber</class>
 			</i11957>
-			<i11995 name="Onyx">
+			<i11995 name="Onyx"><!---->
 			</i11995>
-			<i22464 name="Flycatcher">
+			<i22464 name="Flycatcher"><!---->
 			</i22464>
-			<i11985 name="Basilisk">
+			<i11985 name="Basilisk"><!---->
 			</i11985>
-			<i22470 name="Nighthawk">
+			<i22470 name="Nighthawk"><!---->
 			</i22470>
-			<i22446 name="Vulture">
+			<i22446 name="Vulture"><!---->
 			</i22446>
-			<i28710 name="Golem">
+			<i28710 name="Golem"><!---->
 			</i28710>
-			<i22436 name="Widow">
+			<i22436 name="Widow"><!---->
 			</i22436>
 	<!--Amarr-->
-			<i11188 name="Anathema">
+			<i11188 name="Anathema"><!---->
 			</i11188>
-			<i11190 name="Sentinel">
+			<i11190 name="Sentinel"><!---->
 			</i11190>
-			<i11184 name="Crusader">
+			<i11184 name="Crusader"><!---->
 			</i11184>
-			<i11186 name="Malediction">
+			<i11186 name="Malediction"><!---->
 			</i11186>
-			<i12038 name="Purifier">
+			<i12038 name="Purifier"><!---->
 			</i12038>
-			<i11393 name="Retribution">
+			<i11393 name="Retribution"><!---->
 			</i11393>
-			<i11365 name="Vengeance">
+			<i11365 name="Vengeance"><!---->
 			</i11365>
-			<i12019 name="Sacrilege">
+			<i12019 name="Sacrilege"><!---->
 			</i12019>
-			<i12003 name="Zealot">
+			<i12003 name="Zealot"><!---->
 			</i12003>
-			<i20125 name="Curse">
+			<i20125 name="Curse"><!---->
 			</i20125>
-			<i11965 name="Pilgrim">
+			<i11965 name="Pilgrim"><!---->
 			</i11965>
-			<i12017 name="Devoter">
+			<i12017 name="Devoter"><!---->
 			</i12017>
-			<i22452 name="Heretic">
+			<i22452 name="Heretic"><!---->
 			</i22452>
-			<i11987 name="Guardian">
+			<i11987 name="Guardian"><!---->
 			</i11987>
-			<i22448 name="Absolution">
+			<i22448 name="Absolution"><!---->
 			</i22448>
-			<i22474 name="Damnation">
+			<i22474 name="Damnation"><!---->
 			</i22474>
-			<i28659 name="Paladin">
+			<i28659 name="Paladin"><!---->
 			</i28659>
-			<i22428 name="Redeemer">
+			<i22428 name="Redeemer"><!---->
 			</i22428>
 	<!--Gallente-->
-			<i11172 name="Helios">
+			<i11172 name="Helios"><!---->
 			</i11172>
-			<i11174 name="Keres">
+			<i11174 name="Keres"><!---->
 			</i11174>
-			<i11202 name="Ares">
+			<i11202 name="Ares"><!---->
 			</i11202>
-			<i11200 name="Taranis">
+			<i11200 name="Taranis"><!---->
 			</i11200>
 			<i12044 name="Enyo">
 				<i20410 name="Datacore - Gallentean Starship Engineering">5.3</i20410>
@@ -3770,25 +3986,25 @@
 				<flag>cruiser</flag>
 				<class>Assault Cruiser</class>
 			</i12005>
-			<i12023 name="Deimos">
+			<i12023 name="Deimos"><!---->
 			</i12023>
-			<i12021 name="Phobos">
+			<i12021 name="Phobos"><!---->
 			</i12021>
-			<i11971 name="Lachesis">
+			<i11971 name="Lachesis"><!---->
 			</i11971>
-			<i11969 name="Arazu">
+			<i11969 name="Arazu"><!---->
 			</i11969>
-			<i22460 name="Eris">
+			<i22460 name="Eris"><!---->
 			</i22460>
-			<i11989 name="Oneiros">
+			<i11989 name="Oneiros"><!---->
 			</i11989>
-			<i22466 name="Astarte">
+			<i22466 name="Astarte"><!---->
 			</i22466>
-			<i22442 name="Eos">
+			<i22442 name="Eos"><!---->
 			</i22442>
-			<i28661 name="Kronos">
+			<i28661 name="Kronos"><!---->
 			</i28661>
-			<i22430 name="Sin">
+			<i22430 name="Sin"><!---->
 			</i22430>
 		</ships>
 		<exhum>
@@ -3832,7 +4048,7 @@
 				<mfg_grp>exhum</mfg_grp>
 				<flag>ship</flag>
 			</i22548>
-			<i22546 name="Skiff">
+			<i22546 name="Skiff"><!---->
 			</i22546>
 		</exhum>
 		<mining>
