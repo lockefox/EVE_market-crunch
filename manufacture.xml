@@ -1249,17 +1249,137 @@
 			</i394>
 		</shield>
 		<armor>
-			<i3540 name="Large Armor Repairer II"><!---->
+			<i3540 name="Large Armor Repairer II">
+				<i20424 name="Datacore - Mechanical Engineering">6</i20424>
+				<i20416 name="Datacore - Nanite Engineering">6</i20416>
+				<LARREP name="Large Armor Repairer I" id="3538">10</LARREP>
+				<i11399 name="Morphite">80</i11399>
+				<i11475 name="R.A.M. Armor/Hull Tech">2</i11475>
+				<i11538 name="Nanomechanical Microprocessor">0</i11538>
+				<i11539 name="Nanoelectrical Microprocessor">40</i11539>
+				<i9848 name="Robotics">80</i9848>
+				<i37 name="Isogen">150</i37>
+				<i40 name="Megacyte">0</i40>
+				<i36 name="Mexallon">3020</i36>
+				<i38 name="Nocxium">90</i38>
+				<i35 name="Pyerite">2690</i35>
+				<i34 name="Tritanium">12810</i34>
+				<i39 name="Zydrine">0</i39>
+				<qty>10</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<mfg_grp>armor</mfg_grp>
+				<flag>module</flag>
 			</i3540>
-			<i3530 name="Medium Armor Repairer II"><!---->
+			<i3530 name="Medium Armor Repairer II">
+				<i20424 name="Datacore - Mechanical Engineering">4</i20424>
+				<i20416 name="Datacore - Nanite Engineering">4</i20416>
+				<MARREP name="Medium Armor Repairer I" id="3528">10</MARREP>
+				<i11399 name="Morphite">50</i11399>
+				<i11475 name="R.A.M. Armor/Hull Tech">1</i11475>
+				<i11538 name="Nanomechanical Microprocessor">0</i11538>
+				<i11539 name="Nanoelectrical Microprocessor">20</i11539>
+				<i9848 name="Robotics">40</i9848>
+				<i37 name="Isogen">20</i37>
+				<i40 name="Megacyte">0</i40>
+				<i36 name="Mexallon">5610</i36>
+				<i38 name="Nocxium">20</i38>
+				<i35 name="Pyerite">2220</i35>
+				<i34 name="Tritanium">6920</i34>
+				<i39 name="Zydrine">0</i39>
+				<qty>10</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<mfg_grp>armor</mfg_grp>
+				<flag>module</flag>
 			</i3530>
-			<i1183 name="Small Armor Repairer II"><!---->
+			<i1183 name="Small Armor Repairer II">
+				<i20424 name="Datacore - Mechanical Engineering">2</i20424>
+				<i20416 name="Datacore - Nanite Engineering">2</i20416>
+				<SARREP name="Small Armor Repairer I" id="523">10</SARREP>
+				<i11399 name="Morphite">20</i11399>
+				<i11475 name="R.A.M. Armor/Hull Tech">0.5</i11475>
+				<i11538 name="Nanomechanical Microprocessor">0</i11538>
+				<i11539 name="Nanoelectrical Microprocessor">10</i11539>
+				<i9848 name="Robotics">20</i9848>
+				<i37 name="Isogen">0</i37>
+				<i40 name="Megacyte">30</i40>
+				<i36 name="Mexallon">0</i36>
+				<i38 name="Nocxium">0</i38>
+				<i35 name="Pyerite">1590</i35>
+				<i34 name="Tritanium">1260</i34>
+				<i39 name="Zydrine">0</i39>
+				<qty>10</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<mfg_grp>armor</mfg_grp>
+				<flag>module</flag>
 			</i1183>
-			<i3665 name="Large Hull Repairer II"><!---->
+			<i3665 name="Large Hull Repairer II">
+				<i20424 name="Datacore - Mechanical Engineering">6</i20424>
+				<i20415 name="Datacore - Molecular Engineering">6</i20415>
+				<LHUREP name="Large Hull Repairer I" id="3663">10</LHUREP>
+				<i11399 name="Morphite">80</i11399>
+				<i11475 name="R.A.M. Armor/Hull Tech">4.5</i11475>
+				<i11538 name="Nanomechanical Microprocessor">40</i11538>
+				<i11539 name="Nanoelectrical Microprocessor">0</i11539>
+				<i9848 name="Robotics">80</i9848>
+				<i37 name="Isogen">0</i37>
+				<i40 name="Megacyte">90</i40>
+				<i36 name="Mexallon">0</i36>
+				<i38 name="Nocxium">20</i38>
+				<i35 name="Pyerite">18810</i35>
+				<i34 name="Tritanium">2390</i34>
+				<i39 name="Zydrine">50</i39>
+				<qty>10</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<mfg_grp>armor</mfg_grp>
+				<flag>module</flag>
 			</i3665>
-			<i3655 name="Medium Hull Repairer II"><!---->
+			<i3655 name="Medium Hull Repairer II">
+				<i20424 name="Datacore - Mechanical Engineering">4</i20424>
+				<i20415 name="Datacore - Molecular Engineering">4</i20415>
+				<MHUREP name="Medium Hull Repairer I" id="3653">10</MHUREP>
+				<i11399 name="Morphite">50</i11399>
+				<i11475 name="R.A.M. Armor/Hull Tech">2.5</i11475>
+				<i11538 name="Nanomechanical Microprocessor">20</i11538>
+				<i11539 name="Nanoelectrical Microprocessor">0</i11539>
+				<i9848 name="Robotics">40</i9848>
+				<i37 name="Isogen">0</i37>
+				<i40 name="Megacyte">50</i40>
+				<i36 name="Mexallon">0</i36>
+				<i38 name="Nocxium">0</i38>
+				<i35 name="Pyerite">18990</i35>
+				<i34 name="Tritanium">240</i34>
+				<i39 name="Zydrine">30</i39>
+				<qty>10</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<mfg_grp>armor</mfg_grp>
+				<flag>module</flag>
 			</i3655>
-			<i2355 name="Small Hull Repairer II"><!---->
+			<i2355 name="Small Hull Repairer II">
+				<i20424 name="Datacore - Mechanical Engineering">2</i20424>
+				<i20415 name="Datacore - Molecular Engineering">2</i20415>
+				<SHUREP name="Small Hull Repairer I" id="524">10</SHUREP>
+				<i11399 name="Morphite">20</i11399>
+				<i11475 name="R.A.M. Armor/Hull Tech">1</i11475>
+				<i11538 name="Nanomechanical Microprocessor">10</i11538>
+				<i11539 name="Nanoelectrical Microprocessor">0</i11539>
+				<i9848 name="Robotics">20</i9848>
+				<i37 name="Isogen">0</i37>
+				<i40 name="Megacyte">0</i40>
+				<i36 name="Mexallon">0</i36>
+				<i38 name="Nocxium">0</i38>
+				<i35 name="Pyerite">21840</i35>
+				<i34 name="Tritanium">1530</i34>
+				<i39 name="Zydrine">0</i39>
+				<qty>10</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<mfg_grp>armor</mfg_grp>
+				<flag>module</flag>
 			</i2355>			
 			<i11269 name="Energized Adaptive Nano Membrane II">
 				<i20171 name="Datacore - Hydromagnetic Physics">4</i20171>
@@ -1285,30 +1405,245 @@
 				<mfg_grp>armor</mfg_grp>
 				<flag>module</flag>
 			</i11269>
-			<i11239 name="Energized Armor Layering Membrane II"><!---->
+			<i11239 name="Energized Armor Layering Membrane II">
+				<i20171 name="Datacore - Hydromagnetic Physics">4</i20171>
+				<i20416 name="Datacore - Nanite Engineering">4</i20416>
+				<ENARLM name="Energized Armor Layering Membrane I" id="11235">10</ENARLM>
+				<i11399 name="Morphite">50</i11399>
+				<i11475 name="R.A.M. Armor/Hull Tech">2</i11475>
+				<i29107 name="Titanium Diborite Armor Plate">20</i29107>
+				<i11542 name="Fernite Carbide Composite Armor Plate">10</i11542>
+				<i11543 name="Tungsten Carbide Armor Plate">20</i11543>
+				<i11545 name="Crystalline Carbonite Armor Plate">0</i11545>
+				<i11554 name="Tesseract Capacitor Unit">20</i11554>
+				<i37 name="Isogen">0</i37>
+				<i40 name="Megacyte">30</i40>
+				<i36 name="Mexallon">140</i36>
+				<i38 name="Nocxium">80</i38>
+				<i35 name="Pyerite">99080</i35>
+				<i34 name="Tritanium">154200</i34>
+				<i39 name="Zydrine">0</i39>
+				<qty>10</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<mfg_grp>armor</mfg_grp>
+				<flag>module</flag>
 			</i11239>
-			<i11219 name="Energized EM Membrane II"><!---->
+			<i11219 name="Energized EM Membrane II">
+				<i20171 name="Datacore - Hydromagnetic Physics">4</i20171>
+				<i20416 name="Datacore - Nanite Engineering">4</i20416>
+				<ENEMM name="Energized EM Membrane I" id="11217">10</ENEMM>
+				<i11399 name="Morphite">50</i11399>
+				<i11475 name="R.A.M. Armor/Hull Tech">2</i11475>
+				<i29107 name="Titanium Diborite Armor Plate">10</i29107>
+				<i11542 name="Fernite Carbide Composite Armor Plate">0</i11542>
+				<i11543 name="Tungsten Carbide Armor Plate">10</i11543>
+				<i11545 name="Crystalline Carbonite Armor Plate">0</i11545>
+				<i11554 name="Tesseract Capacitor Unit">20</i11554>
+				<i37 name="Isogen">0</i37>
+				<i40 name="Megacyte">20</i40>
+				<i36 name="Mexallon">30</i36>
+				<i38 name="Nocxium">20</i38>
+				<i35 name="Pyerite">14330</i35>
+				<i34 name="Tritanium">16350</i34>
+				<i39 name="Zydrine">0</i39>
+				<qty>10</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<mfg_grp>armor</mfg_grp>
+				<flag>module</flag>
 			</i11219>
-			<i11229 name="Energized Explosive Membrane II"><!---->
+			<i11229 name="Energized Explosive Membrane II">
+				<i20171 name="Datacore - Hydromagnetic Physics">4</i20171>
+				<i20416 name="Datacore - Nanite Engineering">4</i20416>
+				<ENEXM name="Energized Explosive Membrane I" id="11227">10</ENEXM>
+				<i11399 name="Morphite">50</i11399>
+				<i11475 name="R.A.M. Armor/Hull Tech">2</i11475>
+				<i29107 name="Titanium Diborite Armor Plate">0</i29107>
+				<i11542 name="Fernite Carbide Composite Armor Plate">0</i11542>
+				<i11543 name="Tungsten Carbide Armor Plate">20</i11543>
+				<i11545 name="Crystalline Carbonite Armor Plate">20</i11545>
+				<i11554 name="Tesseract Capacitor Unit">20</i11554>
+				<i37 name="Isogen">0</i37>
+				<i40 name="Megacyte">20</i40>
+				<i36 name="Mexallon">30</i36>
+				<i38 name="Nocxium">0</i38>
+				<i35 name="Pyerite">10130</i35>
+				<i34 name="Tritanium">31440</i34>
+				<i39 name="Zydrine">0</i39>
+				<qty>10</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<mfg_grp>armor</mfg_grp>
+				<flag>module</flag>
 			</i11229>
-			<i11249 name="Energized Kinetic Membrane II"><!---->
+			<i11249 name="Energized Kinetic Membrane II">
+				<i20171 name="Datacore - Hydromagnetic Physics">4</i20171>
+				<i20416 name="Datacore - Nanite Engineering">4</i20416>
+				<ENKNM name="Energized Kinetic Membrane I" id="11247">10</ENKNM>
+				<i11399 name="Morphite">50</i11399>
+				<i11475 name="R.A.M. Armor/Hull Tech">2</i11475>
+				<i29107 name="Titanium Diborite Armor Plate">20</i29107>
+				<i11542 name="Fernite Carbide Composite Armor Plate">10</i11542>
+				<i11543 name="Tungsten Carbide Armor Plate">0</i11543>
+				<i11545 name="Crystalline Carbonite Armor Plate">10</i11545>
+				<i11554 name="Tesseract Capacitor Unit">20</i11554>
+				<i37 name="Isogen">0</i37>
+				<i40 name="Megacyte">20</i40>
+				<i36 name="Mexallon">30</i36>
+				<i38 name="Nocxium">20</i38>
+				<i35 name="Pyerite">13580</i35>
+				<i34 name="Tritanium">36410</i34>
+				<i39 name="Zydrine">0</i39>
+				<qty>10</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<mfg_grp>armor</mfg_grp>
+				<flag>module</flag>
 			</i11249>
-			<i11259 name="Energized Thermic Membrane II"><!---->
+			<i11259 name="Energized Thermic Membrane II">
+				<i20171 name="Datacore - Hydromagnetic Physics">4</i20171>
+				<i20416 name="Datacore - Nanite Engineering">4</i20416>
+				<ENTHM name="Energized Thermic Membrane I" id="11257">10</ENTHM>
+				<i11399 name="Morphite">50</i11399>
+				<i11475 name="R.A.M. Armor/Hull Tech">2</i11475>
+				<i29107 name="Titanium Diborite Armor Plate">0</i29107>
+				<i11542 name="Fernite Carbide Composite Armor Plate">0</i11542>
+				<i11543 name="Tungsten Carbide Armor Plate">0</i11543>
+				<i11545 name="Crystalline Carbonite Armor Plate">20</i11545>
+				<i11554 name="Tesseract Capacitor Unit">20</i11554>
+				<i37 name="Isogen">0</i37>
+				<i40 name="Megacyte">20</i40>
+				<i36 name="Mexallon">20</i36>
+				<i38 name="Nocxium">30</i38>
+				<i35 name="Pyerite">9300</i35>
+				<i34 name="Tritanium">20100</i34>
+				<i39 name="Zydrine">0</i39>
+				<qty>10</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<mfg_grp>armor</mfg_grp>
+				<flag>module</flag>
 			</i11259>
-			<i1306 name="Adaptive Nano Plating II"><!---->
+			<i1306 name="Adaptive Nano Plating II">
+				<i20415 name="Datacore - Molecular Engineering">2</i20415>
+				<i20416 name="Datacore - Nanite Engineering">2</i20416>
+				<ADNP name="Adaptive Nano Plating I" id="1304">10</ADNP>
+				<i11399 name="Morphite">20</i11399>
+				<i11475 name="R.A.M. Armor/Hull Tech">0.75</i11475>
+				<i29107 name="Titanium Diborite Armor Plate">10</i29107>
+				<i11542 name="Fernite Carbide Composite Armor Plate">10</i11542>
+				<i11543 name="Tungsten Carbide Armor Plate">10</i11543>
+				<i11545 name="Crystalline Carbonite Armor Plate">10</i11545>
+				<i37 name="Isogen">0</i37>
+				<i40 name="Megacyte">0</i40>
+				<i36 name="Mexallon">690</i36>
+				<i38 name="Nocxium">0</i38>
+				<i35 name="Pyerite">320</i35>
+				<i34 name="Tritanium">4650</i34>
+				<i39 name="Zydrine">0</i39>
+				<qty>10</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<mfg_grp>armor</mfg_grp>
+				<flag>module</flag>
 			</i1306>
-			<i1266 name="Explosive Plating II"><!---->
+			<i1266 name="Explosive Plating II">
+				<i20415 name="Datacore - Molecular Engineering">2</i20415>
+				<i20416 name="Datacore - Nanite Engineering">2</i20416>
+				<EXP name="Explosive Plating I" id="1264">10</EXP>
+				<i11399 name="Morphite">20</i11399>
+				<i11475 name="R.A.M. Armor/Hull Tech">0.75</i11475>
+				<i29107 name="Titanium Diborite Armor Plate">0</i29107>
+				<i11542 name="Fernite Carbide Composite Armor Plate">20</i11542>
+				<i11543 name="Tungsten Carbide Armor Plate">20</i11543>
+				<i11545 name="Crystalline Carbonite Armor Plate">0</i11545>
+				<i37 name="Isogen">20</i37>
+				<i40 name="Megacyte">0</i40>
+				<i36 name="Mexallon">20</i36>
+				<i38 name="Nocxium">0</i38>
+				<i35 name="Pyerite">420</i35>
+				<i34 name="Tritanium">1220</i34>
+				<i39 name="Zydrine">0</i39>
+				<qty>10</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<mfg_grp>armor</mfg_grp>
+				<flag>module</flag>
 			</i1266>
-			<i1286 name="Kinetic Plating II"><!---->
+			<i1286 name="Kinetic Plating II">
+				<i20415 name="Datacore - Molecular Engineering">2</i20415>
+				<i20416 name="Datacore - Nanite Engineering">2</i20416>
+				<KNP name="Kinetic Plating I" id="1284">10</KNP>
+				<i11399 name="Morphite">20</i11399>
+				<i11475 name="R.A.M. Armor/Hull Tech">0.75</i11475>
+				<i29107 name="Titanium Diborite Armor Plate">20</i29107>
+				<i11542 name="Fernite Carbide Composite Armor Plate">10</i11542>
+				<i11543 name="Tungsten Carbide Armor Plate">0</i11543>
+				<i11545 name="Crystalline Carbonite Armor Plate">10</i11545>
+				<i37 name="Isogen">20</i37>
+				<i40 name="Megacyte">0</i40>
+				<i36 name="Mexallon">30</i36>
+				<i38 name="Nocxium">0</i38>
+				<i35 name="Pyerite">1620</i35>
+				<i34 name="Tritanium">3020</i34>
+				<i39 name="Zydrine">0</i39>
+				<qty>10</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<mfg_grp>armor</mfg_grp>
+				<flag>module</flag>
 			</i1286>
-			<i1276 name="Layered Plating II"><!---->
+			<i1276 name="Layered Plating II">
+				<i20415 name="Datacore - Molecular Engineering">2</i20415>
+				<i20416 name="Datacore - Nanite Engineering">2</i20416>
+				<LAP name="Layered Plating I" id="1274">10</LAP>
+				<i11399 name="Morphite">20</i11399>
+				<i11475 name="R.A.M. Armor/Hull Tech">0.75</i11475>
+				<i29107 name="Titanium Diborite Armor Plate">20</i29107>
+				<i11542 name="Fernite Carbide Composite Armor Plate">0</i11542>
+				<i11543 name="Tungsten Carbide Armor Plate">20</i11543>
+				<i11545 name="Crystalline Carbonite Armor Plate">0</i11545>
+				<i37 name="Isogen">20</i37>
+				<i40 name="Megacyte">0</i40>
+				<i36 name="Mexallon">20</i36>
+				<i38 name="Nocxium">0</i38>
+				<i35 name="Pyerite">1620</i35>
+				<i34 name="Tritanium">1590</i34>
+				<i39 name="Zydrine">0</i39>
+				<qty>10</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<mfg_grp>armor</mfg_grp>
+				<flag>module</flag>
 			</i1276>
-			<i1296 name="Thermic Plating II"><!---->
+			<i1296 name="Thermic Plating II">
+				<i20415 name="Datacore - Molecular Engineering">2</i20415>
+				<i20416 name="Datacore - Nanite Engineering">2</i20416>
+				<THP name="Thermic Plating I" id="1294">10</THP>
+				<i11399 name="Morphite">20</i11399>
+				<i11475 name="R.A.M. Armor/Hull Tech">0.75</i11475>
+				<i29107 name="Titanium Diborite Armor Plate">0</i29107>
+				<i11542 name="Fernite Carbide Composite Armor Plate">20</i11542>
+				<i11543 name="Tungsten Carbide Armor Plate">0</i11543>
+				<i11545 name="Crystalline Carbonite Armor Plate">20</i11545>
+				<i37 name="Isogen">20</i37>
+				<i40 name="Megacyte">0</i40>
+				<i36 name="Mexallon">20</i36>
+				<i38 name="Nocxium">0</i38>
+				<i35 name="Pyerite">1560</i35>
+				<i34 name="Tritanium">1220</i34>
+				<i39 name="Zydrine">0</i39>
+				<qty>10</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<mfg_grp>armor</mfg_grp>
+				<flag>module</flag>
 			</i1296>
 			<i11646 name="Armor Explosive Hardener II">
 				<i20171 name="Datacore - Hydromagnetic Physics">4</i20171>
 				<i20416 name="Datacore - Nanite Engineering">4</i20416>
-				<EXAA name="Armor Explosive Hardener I" id="11303">10</EXAA>
+				<EXAH name="Armor Explosive Hardener I" id="11303">10</EXAH>
 				<i11399 name="Morphite">80</i11399>
 				<i11475 name="R.A.M. Armor/Hull Tech">1</i11475>
 				<i11558 name="Sustained Shield Emitter">100</i11558>
@@ -1332,7 +1667,7 @@
 			<i11642 name="Armor EM Hardener II">
 				<i20171 name="Datacore - Hydromagnetic Physics">4</i20171>
 				<i20416 name="Datacore - Nanite Engineering">4</i20416>
-				<EMAA name="Armor EM Hardener I" id="11301">10</EMAA>
+				<EMAH name="Armor EM Hardener I" id="11301">10</EMAH>
 				<i11399 name="Morphite">80</i11399>
 				<i11475 name="R.A.M. Armor/Hull Tech">1</i11475>
 				<i11558 name="Sustained Shield Emitter">100</i11558>
@@ -1356,7 +1691,7 @@
 			<i11648 name="Armor Thermic Hardener II">
 				<i20171 name="Datacore - Hydromagnetic Physics">4</i20171>
 				<i20416 name="Datacore - Nanite Engineering">4</i20416>
-				<THAA name="Armor Thermic Hardener I" id="11277">10</THAA>
+				<THAH name="Armor Thermic Hardener I" id="11277">10</THAH>
 				<i11399 name="Morphite">80</i11399>
 				<i11475 name="R.A.M. Armor/Hull Tech">1</i11475>
 				<i11558 name="Sustained Shield Emitter">100</i11558>
@@ -1380,7 +1715,7 @@
 			<i11644 name="Armor Kinetic Hardener II">
 				<i20171 name="Datacore - Hydromagnetic Physics">4</i20171>
 				<i20416 name="Datacore - Nanite Engineering">4</i20416>
-				<KNAA name="Armor Kinetic Hardener I" id="11305">10</KNAA>
+				<KNAH name="Armor Kinetic Hardener I" id="11305">10</KNAH>
 				<i11399 name="Morphite">80</i11399>
 				<i11475 name="R.A.M. Armor/Hull Tech">1</i11475>
 				<i11558 name="Sustained Shield Emitter">100</i11558>
@@ -1426,52 +1761,320 @@
 				<mfg_grp>armor</mfg_grp>
 				<flag>module</flag>
 			</i2048>
-			<i26914 name="Large Remote Armor Repair System II"><!---->
-				<i20171 name="Datacore - Hydromagnetic Physics">6</i20171>
+			<i26914 name="Large Remote Armor Repair System II">
+				<i20424 name="Datacore - Mechanical Engineering">6</i20424>
 				<i20416 name="Datacore - Nanite Engineering">6</i20416>
-				<LRRA name="Large Remote Armor Repair System I" id="11359">10</LRRA>
-				<i11399 name="Morphite">NULL</i11399>
-				<i11475 name="R.A.M. Armor/Hull Tech">1</i11475>
+				<LRARS name="Large Remote Armor Repair System I" id="11359">10</LRARS>
+				<i11399 name="Morphite">80</i11399>
+				<i11475 name="R.A.M. Armor/Hull Tech">2</i11475>
+				<i11538 name="Nanomechanical Microprocessor">0</i11538>
+				<i11539 name="Nanoelectrical Microprocessor">60</i11539>
+				<i9848 name="Robotics">80</i9848>
+				<i37 name="Isogen">450</i37>
+				<i40 name="Megacyte">0</i40>
+				<i36 name="Mexallon">3660</i36>
+				<i38 name="Nocxium">0</i38>
+				<i35 name="Pyerite">1730</i35>
+				<i34 name="Tritanium">8490</i34>
+				<i39 name="Zydrine">0</i39>
 				<qty>10</qty>
 				<me>-4</me>
 				<bld_time></bld_time>
 				<mfg_grp>armor</mfg_grp>
-				<flag>NULL</flag>
+				<flag>module</flag>
 			</i26914>
-			<i26913 name="Medium Remote Armor Repair System II"><!---->
+			<i26913 name="Medium Remote Armor Repair System II">
+				<i20424 name="Datacore - Mechanical Engineering">4</i20424>
+				<i20416 name="Datacore - Nanite Engineering">4</i20416>
+				<MRARS name="Medium Remote Armor Repair System I" id="11357">10</MRARS>
+				<i11399 name="Morphite">50</i11399>
+				<i11475 name="R.A.M. Armor/Hull Tech">2</i11475>
+				<i11538 name="Nanomechanical Microprocessor">0</i11538>
+				<i11539 name="Nanoelectrical Microprocessor">30</i11539>
+				<i9848 name="Robotics">80</i9848>
+				<i37 name="Isogen">300</i37>
+				<i40 name="Megacyte">0</i40>
+				<i36 name="Mexallon">860</i36>
+				<i38 name="Nocxium">0</i38>
+				<i35 name="Pyerite">660</i35>
+				<i34 name="Tritanium">1490</i34>
+				<i39 name="Zydrine">0</i39>
+				<qty>10</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<mfg_grp>armor</mfg_grp>
+				<flag>module</flag>
 			</i26913>
-			<i26912 name="Small Remote Armor Repair System II"><!---->
+			<i26912 name="Small Remote Armor Repair System II">
+				<i20424 name="Datacore - Mechanical Engineering">2</i20424>
+				<i20416 name="Datacore - Nanite Engineering">2</i20416>
+				<SRARS name="Small Remote Armor Repair System I" id="11355">10</SRARS>
+				<i11399 name="Morphite">20</i11399>
+				<i11475 name="R.A.M. Armor/Hull Tech">2</i11475>
+				<i11538 name="Nanomechanical Microprocessor">0</i11538>
+				<i11539 name="Nanoelectrical Microprocessor">20</i11539>
+				<i9848 name="Robotics">80</i9848>
+				<i37 name="Isogen">140</i37>
+				<i40 name="Megacyte">0</i40>
+				<i36 name="Mexallon">0</i36>
+				<i38 name="Nocxium">0</i38>
+				<i35 name="Pyerite">680</i35>
+				<i34 name="Tritanium">1040</i34>
+				<i39 name="Zydrine">0</i39>
+				<qty>10</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<mfg_grp>armor</mfg_grp>
+				<flag>module</flag>
 			</i26912>
-			<i3986 name="Large Remote Hull Repair System II"><!---->
+			<i3986 name="Large Remote Hull Repair System II">
+				<i20424 name="Datacore - Mechanical Engineering">6</i20424>
+				<i20415 name="Datacore - Molecular Engineering">6</i20415>
+				<LRHRS name="Large Remote Hull Repair System I" id="27904">10</LRHRS>
+				<i11399 name="Morphite">90</i11399>
+				<i11475 name="R.A.M. Armor/Hull Tech">1.5</i11475>
+				<i11538 name="Nanomechanical Microprocessor">170</i11538>
+				<i11539 name="Nanoelectrical Microprocessor">0</i11539>
+				<i9848 name="Robotics">170</i9848>
+				<i37 name="Isogen">0</i37>
+				<i40 name="Megacyte">0</i40>
+				<i36 name="Mexallon">20</i36>
+				<i38 name="Nocxium">0</i38>
+				<i35 name="Pyerite">6330</i35>
+				<i34 name="Tritanium">840</i34>
+				<i39 name="Zydrine">0</i39>
+				<qty>10</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<mfg_grp>armor</mfg_grp>
+				<flag>module</flag>
 			</i3986>
-			<i4296 name="Medium Remote Hull Repair System II"><!---->
+			<i4296 name="Medium Remote Hull Repair System II">
+				<i20424 name="Datacore - Mechanical Engineering">4</i20424>
+				<i20415 name="Datacore - Molecular Engineering">4</i20415>
+				<MRHRS name="Medium Remote Hull Repair System I" id="27930">10</MRHRS>
+				<i11399 name="Morphite">50</i11399>
+				<i11475 name="R.A.M. Armor/Hull Tech">1</i11475>
+				<i11538 name="Nanomechanical Microprocessor">80</i11538>
+				<i11539 name="Nanoelectrical Microprocessor">0</i11539>
+				<i9848 name="Robotics">80</i9848>
+				<i37 name="Isogen">0</i37>
+				<i40 name="Megacyte">0</i40>
+				<i36 name="Mexallon">20</i36>
+				<i38 name="Nocxium">0</i38>
+				<i35 name="Pyerite">5280</i35>
+				<i34 name="Tritanium">6990</i34>
+				<i39 name="Zydrine">0</i39>
+				<qty>10</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<mfg_grp>armor</mfg_grp>
+				<flag>module</flag>
 			</i4296>
-			<i4299 name="Small Remote Hull Reapir System II"><!---->
+			<i4299 name="Small Remote Hull Repair System II">
+				<i20424 name="Datacore - Mechanical Engineering">2</i20424>
+				<i20415 name="Datacore - Molecular Engineering">2</i20415>
+				<SRHRS name="Small Remote Hull Repair System I" id="27932">10</SRHRS>
+				<i11399 name="Morphite">20</i11399>
+				<i11475 name="R.A.M. Armor/Hull Tech">2.5</i11475>
+				<i11538 name="Nanomechanical Microprocessor">40</i11538>
+				<i11539 name="Nanoelectrical Microprocessor">0</i11539>
+				<i9848 name="Robotics">40</i9848>
+				<i37 name="Isogen">0</i37>
+				<i40 name="Megacyte">0</i40>
+				<i36 name="Mexallon">20</i36>
+				<i38 name="Nocxium">0</i38>
+				<i35 name="Pyerite">440</i35>
+				<i34 name="Tritanium">5840</i34>
+				<i39 name="Zydrine">0</i39>
+				<qty>10</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<mfg_grp>armor</mfg_grp>
+				<flag>module</flag>
 			</i4299>
-			<i20343 name="50mm Reinforced Steel Plate II"><!---->
+			<i20343 name="50mm Reinforced Steel Plates II">
+				<i20415 name="Datacore - Molecular Engineering">2</i20415>
+				<i20416 name="Datacore - Nanite Engineering">2</i20416>
+				<RSP50 name="50mm Reinforced Steel Plates I" id="11291">10</RSP50>
+				<i11399 name="Morphite">20</i11399>
+				<i11475 name="R.A.M. Armor/Hull Tech">1</i11475>
+				<i11543 name="Tungsten Carbide Armor Plate">40</i11543>
+				<i37 name="Isogen">0</i37>
+				<i40 name="Megacyte">0</i40>
+				<i36 name="Mexallon">140</i36>
+				<i38 name="Nocxium">20</i38>
+				<i35 name="Pyerite">180</i35>
+				<i34 name="Tritanium">150</i34>
+				<i39 name="Zydrine">0</i39>
+				<qty>10</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<mfg_grp>armor</mfg_grp>
+				<flag>module</flag>
 			</i20343>
-			<i20345 name="100mm Reinforced Steel Plate II"><!---->
+			<i20345 name="100mm Reinforced Steel Plates II">
+				<i20415 name="Datacore - Molecular Engineering">2</i20415>
+				<i20416 name="Datacore - Nanite Engineering">2</i20416>
+				<RSP100 name="100mm Reinforced Steel Plates I" id="11293">10</RSP100>
+				<i11399 name="Morphite">30</i11399>
+				<i11475 name="R.A.M. Armor/Hull Tech">2</i11475>
+				<i11543 name="Tungsten Carbide Armor Plate">50</i11543>
+				<i37 name="Isogen">20</i37>
+				<i40 name="Megacyte">0</i40>
+				<i36 name="Mexallon">80</i36>
+				<i38 name="Nocxium">20</i38>
+				<i35 name="Pyerite">150</i35>
+				<i34 name="Tritanium">150</i34>
+				<i39 name="Zydrine">20</i39>
+				<qty>10</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<mfg_grp>armor</mfg_grp>
+				<flag>module</flag>
 			</i20345>
-			<i20347 name="200mm Reinforced Steel Plate II"><!---->
+			<i20347 name="200mm Reinforced Steel Plates II">
+				<i20415 name="Datacore - Molecular Engineering">4</i20415>
+				<i20416 name="Datacore - Nanite Engineering">4</i20416>
+				<RSP200 name="200mm Reinforced Steel Plates I" id="11295">10</RSP200>
+				<i11399 name="Morphite">60</i11399>
+				<i11475 name="R.A.M. Armor/Hull Tech">3</i11475>
+				<i11543 name="Tungsten Carbide Armor Plate">70</i11543>
+				<i37 name="Isogen">0</i37>
+				<i40 name="Megacyte">20</i40>
+				<i36 name="Mexallon">150</i36>
+				<i38 name="Nocxium">30</i38>
+				<i35 name="Pyerite">300</i35>
+				<i34 name="Tritanium">900</i34>
+				<i39 name="Zydrine">20</i39>
+				<qty>10</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<mfg_grp>armor</mfg_grp>
+				<flag>module</flag>
 			</i20347>
-			<i20349 name="400mm Reinforced Steel Plate II"><!---->
+			<i20349 name="400mm Reinforced Steel Plates II">
+				<i20415 name="Datacore - Molecular Engineering">4</i20415>
+				<i20416 name="Datacore - Nanite Engineering">4</i20416>
+				<RSP400 name="400mm Reinforced Steel Plates I" id="11297">10</RSP400>
+				<i11399 name="Morphite">120</i11399>
+				<i11475 name="R.A.M. Armor/Hull Tech">4.5</i11475>
+				<i11543 name="Tungsten Carbide Armor Plate">110</i11543>
+				<i37 name="Isogen">20</i37>
+				<i40 name="Megacyte">0</i40>
+				<i36 name="Mexallon">300</i36>
+				<i38 name="Nocxium">0</i38>
+				<i35 name="Pyerite">600</i35>
+				<i34 name="Tritanium">750</i34>
+				<i39 name="Zydrine">20</i39>
+				<qty>10</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<mfg_grp>armor</mfg_grp>
+				<flag>module</flag>
 			</i20349>
-			<i20351 name="800mm Reinforced Steel Plate II"><!---->
+			<i20351 name="800mm Reinforced Steel Plates II">
+				<i20415 name="Datacore - Molecular Engineering">6</i20415>
+				<i20416 name="Datacore - Nanite Engineering">6</i20416>
+				<RSP800 name="800mm Reinforced Steel Plates I" id="11299">10</RSP800>
+				<i11399 name="Morphite">240</i11399>
+				<i11475 name="R.A.M. Armor/Hull Tech">6.5</i11475>
+				<i11543 name="Tungsten Carbide Armor Plate">190</i11543>
+				<i37 name="Isogen">110</i37>
+				<i40 name="Megacyte">20</i40>
+				<i36 name="Mexallon">600</i36>
+				<i38 name="Nocxium">30</i38>
+				<i35 name="Pyerite">1500</i35>
+				<i34 name="Tritanium">3000</i34>
+				<i39 name="Zydrine">0</i39>
+				<qty>10</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<mfg_grp>armor</mfg_grp>
+				<flag>module</flag>
 			</i20351>
-			<i20353 name="1600mm Reinforced Steel Plate II"><!---->
+			<i20353 name="1600mm Reinforced Steel Plates II">
+				<i20415 name="Datacore - Molecular Engineering">6</i20415>
+				<i20416 name="Datacore - Nanite Engineering">6</i20416>
+				<RSP1600 name="1600mm Reinforced Steel Plates I" id="11279">10</RSP1600>
+				<i11399 name="Morphite">480</i11399>
+				<i11475 name="R.A.M. Armor/Hull Tech">9.5</i11475>
+				<i11543 name="Tungsten Carbide Armor Plate">350</i11543>
+				<i37 name="Isogen">450</i37>
+				<i40 name="Megacyte">20</i40>
+				<i36 name="Mexallon">1500</i36>
+				<i38 name="Nocxium">0</i38>
+				<i35 name="Pyerite">3000</i35>
+				<i34 name="Tritanium">7500</i34>
+				<i39 name="Zydrine">20</i39>
+				<qty>10</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<mfg_grp>armor</mfg_grp>
+				<flag>module</flag>
 			</i20353>
-			<i1319 name="Expanded Cargohold II"><!---->
+			<i1319 name="Expanded Cargohold II">
+				<i20415 name="Datacore - Molecular Engineering">4</i20415>
+				<i20416 name="Datacore - Nanite Engineering">4</i20416>
+				<EXCH name="Expanded Cargohold I" id="1317">10</EXCH>
+				<i11399 name="Morphite">20</i11399>
+				<i11475 name="R.A.M. Armor/Hull Tech">2</i11475>
+				<i11545 name="Crystalline Carbonite Armor Plate">10</i11545>
+				<i11538 name="Nanomechanical Microprocessor">10</i11538>
+				<i3828 name="Construction Blocks">50</i3828>
+				<i37 name="Isogen">50</i37>
+				<i40 name="Megacyte">0</i40>
+				<i36 name="Mexallon">0</i36>
+				<i38 name="Nocxium">20</i38>
+				<i35 name="Pyerite">0</i35>
+				<i34 name="Tritanium">0</i34>
+				<i39 name="Zydrine">0</i39>
+				<qty>10</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<mfg_grp>armor</mfg_grp>
+				<flag>module</flag>
 			</i1319>
-			<i2605 name="Nanofiber Internal Structure II"><!---->
+			<i2605 name="Nanofiber Internal Structure II">
+				<i20415 name="Datacore - Molecular Engineering">2</i20415>
+				<i20416 name="Datacore - Nanite Engineering">2</i20416>
+				<NFIS name="Nanofiber Internal Structure I" id="2603">10</NFIS>
+				<i11399 name="Morphite">20</i11399>
+				<i11475 name="R.A.M. Armor/Hull Tech">1.5</i11475>
+				<i3828 name="Construction Blocks">50</i3828>
+				<i37 name="Isogen">30</i37>
+				<i40 name="Megacyte">0</i40>
+				<i36 name="Mexallon">0</i36>
+				<i38 name="Nocxium">20</i38>
+				<i35 name="Pyerite">0</i35>
+				<i34 name="Tritanium">0</i34>
+				<i39 name="Zydrine">0</i39>
+				<qty>10</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<mfg_grp>armor</mfg_grp>
+				<flag>module</flag>
 			</i2605>
-			<i1335 name="Reinforced Bulkheads II"><!---->
+			<i1335 name="Reinforced Bulkheads II">
+				<i20415 name="Datacore - Molecular Engineering">2</i20415>
+				<i20416 name="Datacore - Nanite Engineering">2</i20416>
+				<RIBH name="Reinforced Bulkheads I" id="1333">10</RIBH>
+				<i11399 name="Morphite">20</i11399>
+				<i11475 name="R.A.M. Armor/Hull Tech">1.5</i11475>
+				<i3828 name="Construction Blocks">50</i3828>
+				<i37 name="Isogen">0</i37>
+				<i40 name="Megacyte">0</i40>
+				<i36 name="Mexallon">0</i36>
+				<i38 name="Nocxium">0</i38>
+				<i35 name="Pyerite">0</i35>
+				<i34 name="Tritanium">28500</i34>
+				<i39 name="Zydrine">0</i39>
+				<qty>10</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<mfg_grp>armor</mfg_grp>
+				<flag>module</flag>
 			</i1335>
-			<i1405 name="Inertia Stabilizer II"><!---->
-			</i1405>
-			<i1236 name="Overdrive Injector System II"><!---->
-			</i1236>
-			<i11640 name="Warp Core Stabilizer II"><!---->
-			</i11640>
 		</armor>
 		<prop>
 			<i438 name="1MN Afterburner II">
@@ -1606,6 +2209,15 @@
 				<mfg_grp>prop</mfg_grp>
 				<flag>module</flag>
 			</i12084>
+			<i1405 name="Inertia Stabilizer II"><!---->
+				
+			</i1405>
+			<i1236 name="Overdrive Injector System II"><!---->
+				
+			</i1236>
+			<i11640 name="Warp Core Stabilizer II"><!---->
+				
+			</i11640>
 		</prop>
 		<ewar>
 			<i527 name="Stasis Webifier II">
