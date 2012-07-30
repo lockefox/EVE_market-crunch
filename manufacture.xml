@@ -597,17 +597,137 @@
 				<mfg_grp>eng</mfg_grp>
 				<flag>module</flag>
 			</i12263>
-			<i3504 name="Large Capacitor Battery II"><!---->
+			<i3504 name="Large Capacitor Battery II">
+				<i20411 name="Datacore - High Energy Physics">6</i20411>
+				<i20414 name="Datacore - Quantum Physics">6</i20414>
+				<LCAPBAT name="Large Capacitor Battery I" id="2020">10</LCAPBAT>
+				<i11399 name="Morphite">60</i11399>
+				<i11482 name="R.A.M. - Energy Tech">2</i11482>
+				<i11539 name="Nanoelectrical Microprocessor">40</i11539>	
+				<i11554 name="Tesseract Capacitor">80</i11554>
+				<i9838 name="Superconductors">40</i9838>
+				<i37 name="Isogen">0</i37>
+				<i40 name="Megacyte">0</i40>
+				<i36 name="Mexallon">7730</i36>
+				<i38 name="Nocxium">0</i38>
+				<i35 name="Pyerite">8880</i35>
+				<i34 name="Tritanium">10380</i34>
+				<i39 name="Zydrine">20</i39>
+				<qty>10</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<mfg_grp>eng</mfg_grp>
+				<flag>module</flag>
 			</i3504>
-			<i3496 name="Medium Capacitor Battery II"><!---->
+			<i3496 name="Medium Capacitor Battery II">
+				<i20411 name="Datacore - High Energy Physics">4</i20411>
+				<i20414 name="Datacore - Quantum Physics">4</i20414>
+				<MCAPBAT name="Medium Capacitor Battery I" id="2018">10</MCAPBAT>
+				<i11399 name="Morphite">50</i11399>
+				<i11482 name="R.A.M. - Energy Tech">1.5</i11482>
+				<i11539 name="Nanoelectrical Microprocessor">30</i11539>	
+				<i11554 name="Tesseract Capacitor">40</i11554>
+				<i9838 name="Superconductors">30</i9838>
+				<i37 name="Isogen">20</i37>
+				<i40 name="Megacyte">0</i40>
+				<i36 name="Mexallon">2460</i36>
+				<i38 name="Nocxium">20</i38>
+				<i35 name="Pyerite">4470</i35>
+				<i34 name="Tritanium">9030</i34>
+				<i39 name="Zydrine">0</i39>
+				<qty>10</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<mfg_grp>eng</mfg_grp>
+				<flag>module</flag>
 			</i3496>
-			<i3488 name="Small Capacitor Battery II"><!---->
+			<i3488 name="Small Capacitor Battery II">
+				<i20411 name="Datacore - High Energy Physics">2</i20411>
+				<i20414 name="Datacore - Quantum Physics">2</i20414>
+				<SCAPBAT name="Small Capacitor Battery I" id="1185">10</SCAPBAT>
+				<i11399 name="Morphite">30</i11399>
+				<i11482 name="R.A.M. - Energy Tech">1</i11482>
+				<i11539 name="Nanoelectrical Microprocessor">20</i11539>	
+				<i11554 name="Tesseract Capacitor">20</i11554>
+				<i9838 name="Superconductors">20</i9838>
+				<i37 name="Isogen">20</i37>
+				<i40 name="Megacyte">0</i40>
+				<i36 name="Mexallon">770</i36>
+				<i38 name="Nocxium">20</i38>
+				<i35 name="Pyerite">1580</i35>
+				<i34 name="Tritanium">2990</i34>
+				<i39 name="Zydrine">0</i39>
+				<qty>10</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<mfg_grp>eng</mfg_grp>
+				<flag>module</flag>
 			</i3488>
-			<i3578 name="Heavy Capacitor Booster II"><!---->
+			<i3578 name="Heavy Capacitor Booster II">
+				<i20411 name="Datacore - High Energy Physics">6</i20411>
+				<i20414 name="Datacore - Quantum Physics">6</i20414>
+				<HCAPBOOST name="Heavy Capacitor Booster I" id="3576">10</HCAPBOOST>
+				<i11399 name="Morphite">60</i11399>
+				<i11482 name="R.A.M. - Energy Tech">2.5</i11482>
+				<i11539 name="Nanoelectrical Microprocessor">40</i11539>	
+				<i11554 name="Tesseract Capacitor">80</i11554>
+				<i9838 name="Superconductors">160</i9838>
+				<i37 name="Isogen">1740</i37>
+				<i40 name="Megacyte">20</i40>
+				<i36 name="Mexallon">710</i36>
+				<i38 name="Nocxium">50</i38>
+				<i35 name="Pyerite">1550</i35>
+				<i34 name="Tritanium">4460</i34>
+				<i39 name="Zydrine">20</i39>
+				<qty>10</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<mfg_grp>eng</mfg_grp>
+				<flag>module</flag>
 			</i3578>
-			<i2024 name="Medium Capacitor Booster II"><!---->
+			<i2024 name="Medium Capacitor Booster II">
+				<i20411 name="Datacore - High Energy Physics">4</i20411>
+				<i20414 name="Datacore - Quantum Physics">4</i20414>
+				<MCAPBOOST name="Medium Capacitor Booster I" id="577">10</MCAPBOOST>
+				<i11399 name="Morphite">30</i11399>
+				<i11482 name="R.A.M. - Energy Tech">2</i11482>
+				<i11539 name="Nanoelectrical Microprocessor">30</i11539>	
+				<i11554 name="Tesseract Capacitor">40</i11554>
+				<i9838 name="Superconductors">80</i9838>
+				<i37 name="Isogen">0</i37>
+				<i40 name="Megacyte">0</i40>
+				<i36 name="Mexallon">1400</i36>
+				<i38 name="Nocxium">0</i38>
+				<i35 name="Pyerite">0</i35>
+				<i34 name="Tritanium">1200</i34>
+				<i39 name="Zydrine">20</i39>
+				<qty>10</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<mfg_grp>eng</mfg_grp>
+				<flag>module</flag>
 			</i2024>
-			<i3568 name="Small Capacitor Booster II"><!---->
+			<i3568 name="Small Capacitor Booster II">
+				<i20411 name="Datacore - High Energy Physics">2</i20411>
+				<i20414 name="Datacore - Quantum Physics">2</i20414>
+				<SCAPBOOST name="Small Capacitor Booster I" id="3566">10</SCAPBOOST>
+				<i11399 name="Morphite">30</i11399>
+				<i11482 name="R.A.M. - Energy Tech">1</i11482>
+				<i11539 name="Nanoelectrical Microprocessor">20</i11539>	
+				<i11554 name="Tesseract Capacitor">20</i11554>
+				<i9838 name="Superconductors">40</i9838>
+				<i37 name="Isogen">0</i37>
+				<i40 name="Megacyte">20</i40>
+				<i36 name="Mexallon">0</i36>
+				<i38 name="Nocxium">50</i38>
+				<i35 name="Pyerite">0</i35>
+				<i34 name="Tritanium">750</i34>
+				<i39 name="Zydrine">0</i39>
+				<qty>10</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<mfg_grp>eng</mfg_grp>
+				<flag>module</flag>
 			</i3568>
 		</eng>
 		<shield>
