@@ -1796,7 +1796,7 @@
 				<mfg_grp>interdict</mfg_grp>
 				<flag>module</flag>
 			</i4248>
-			<i26892 name="Mobile Small Warp Disruptor II"><!--i believe data incorrect. locke, recheck to master sheet please.-->
+			<i26892 name="Mobile Small Warp Disruptor II">
 				<i20418 name="Datacore - Electronic Engineering">6</i20418>
 				<i20419 name="Datacore - Graviton Physics">6</i20419>
 				<SWD name="Mobile Small Warp Disruptor I" id="12198">5</SWD>
@@ -1820,7 +1820,7 @@
 				<mfg_grp>interdict</mfg_grp>
 				<flag>module</flag>
 			</i26892>
-			<i26890 name="Mobile Medium Warp Disruptor II"><!--data not finished. locke, recheck to master sheet please.-->
+			<i26890 name="Mobile Medium Warp Disruptor II">
 				<i20418 name="Datacore - Electronic Engineering">12</i20418>
 				<i20419 name="Datacore - Graviton Physics">12</i20419>
 				<MWD name="Mobile Medium Warp Disruptor I" id="12199">5</MWD>
@@ -1844,7 +1844,7 @@
 				<mfg_grp>interdict</mfg_grp>
 				<flag>module</flag>
 			</i26890>
-			<i26888 name="Mobile Large Warp Disruptor II"><!--data not finished. locke, recheck to master sheet please.-->
+			<i26888 name="Mobile Large Warp Disruptor II">
 				<i20418 name="Datacore - Electronic Engineering">18</i20418>
 				<i20419 name="Datacore - Graviton Physics">18</i20419>
 				<LWD name="Mobile Large Warp Disruptor I" id="12200">5</LWD>
