@@ -138,6 +138,16 @@
 				<mfg_grp>weapup</mfg_grp>
 				<flag>module</flag>
 			</i1978>
+			<i24427 name="Drone Link Augmentor II"><!---->
+			</i24427>
+			<i24417 name="Drone Link Navigation Computer II"><!---->
+			</i24417>
+			<i24438 name="Omnidirectional Tracking Computer II"><!---->
+			</i24438>
+			<i4292 name="Siege Module II"><!---->
+			</i4292>
+			<i4294 name="Triage Module II"><!---->
+			</i4294>
 		</wepup>
 		<eng>
 			<i2032 name="Cap Recharger II">
@@ -492,6 +502,18 @@
 				<mfg_grp>eng</mfg_grp>
 				<flag>module</flag>
 			</i12263>
+			<i3504 name="Large Capacitor Battery II"><!---->
+			</i3504>
+			<i3496 name="Medium Capacitor Battery II"><!---->
+			</i3496>
+			<i3488 name="Small Capacitor Battery II"><!---->
+			</i3488>
+			<i3578 name="Heavy Capacitor Booster II"><!---->
+			</i3578>
+			<i2024 name="Medium Capacitor Booster II"><!---->
+			</i2024>
+			<i3568 name="Small Capacitor Booster II"><!---->
+			</i3568>
 		</eng>
 		<shield>
 
@@ -1181,7 +1203,7 @@
 				<flag>module</flag>
 			</i12084>
 		</prop>
-		<interdict>
+		<ewar>
 			<i527 name="Stasis Webifier II">
 				<i20418 name="Datacore - Electronic Engineering">4</i20418>
 				<i20419 name="Datacore - Graviton Physics">4</i20419>
@@ -1868,7 +1890,25 @@
 				<mfg_grp>interdict</mfg_grp>
 				<flag>NULL</flag>
 			</i26888>
-		</interdict>
+		</ewar>
+		<upgrades>
+			<i1436 name="Auto Targeting System II"><!---->
+			</i1436>
+			<i11578 name="Covert Ops Cloaking Device II"><!---->
+			</i11578>
+			<i11577 name="Improved Cloaking Device II"><!---->
+			</i11577>
+			<i3888 name="Co-Processor II"><!---->
+			</i3888>
+			<i2341 name="Passive Targeter II"><!---->
+			</i2341>
+			<i1964 name="Remote Sensor Booster II"><!---->
+			</i1964>
+			<i1952 name="Sensor Booster II"><!---->
+			</i1952>
+			<i1987 name="Signal Amplifier II"><!---->
+			</i1987>
+		</upgrades>
 		<ships>
 	<!--Minmatar-->
 			<i11182 name="Cheetah">
@@ -2646,6 +2686,8 @@
 				<mfg_grp>exhum</mfg_grp>
 				<flag>ship</flag>
 			</i22548>
+			<i22546 name="Skiff">
+			</i22546>
 		</exhum>
 		<mining>
 			<i22229 name="Ice Harvester II">
@@ -2741,7 +2783,47 @@
 				<mfg_grp>mining</mfg_grp>
 				<flag>module</flag>
 			</i4250>
+			<i25812 name="Gas Harvester II"><!---->
+			</i25812>
+			<i482 name="Miner II"><!---->
+			</i482>
+			<i18068 name="Modulated Deep Core Strip Miner II"><!---->
+			</i18068>
+			<i24305 name="Deep Core Strip Miner II"><!---->
+			</i24305>
 		</mining>
+		<gang>
+			<i4262 name="Armored Warfare Link - Damage Control II"><!---->
+			</i4262>
+			<i4264 name="Armored Warfare Link - Passive Defense II"><!---->
+			</i4264>
+			<i4266 name="Armored Warfare Link - Rapid Repair II"><!---->
+			</i4266>
+			<i4268 name="Information Warfare Link - Electronic Superiority II"><!---->
+			</i4268>
+			<i4270 name="Information Warfare Link - Recon Operation II"><!---->
+			</i4270>
+			<i4272 name="Information Warfare Link - Sensor Integrity II"><!---->
+			</i4272>
+			<i4274 name="Mining Foreman Link - Havester Capacitor Efficiency II"><!---->
+			</i4274>
+			<i4276 name="Mining Foreman Link - Laser Optimization II"><!---->
+			</i4276>
+			<i4278 name="Mining Foreman Link - Mining Laser Field Optimization II"><!---->
+			</i4278>
+			<i4280 name="Siege Warfare Link - Active Shielding II"><!---->
+			</i4280>
+			<i4282 name="Siege Warfare Link - Shield Efficiency II"><!---->
+			</i4282>
+			<i4284 name="Siege Warfare Link - Shield Harmonizing II"><!---->
+			</i4284>
+			<i4286 name="Skirmish Warfare Link - Evasive Maneuvers II"><!---->
+			</i4286>
+			<i4288 name="Skirmish Warfare Link - Interdiction Maneuvers II"><!---->
+			</i4288>
+			<i4290 name="Skirmish Warfare Link - Rapid Deployment II"><!---->
+			</i4290>
+		</gang>
 		<weapon><!--LR->SR, large->small-->
 	<!--Lasers-->
 			<i3065 name="Tachyon Beam Laser II">
@@ -3883,6 +3965,31 @@
 				<mfg_grp>launcher</mfg_grp>
 				<flag>NULL</flag>
 			</i10631>
+	<!--Smartbomb-->
+			<i1565 name="Small EMP Smartbomb II"><!---->
+			</i1565>
+			<i1553 name="Small Graviton Smartbomb II"><!---->
+			</i1553>
+			<i1559 name="Small Plasma Smartbomb II"><!---->
+			</i1559>
+			<i1549 name="Small Proton Smartbomb II"><!---->
+			</i1549>
+			<i3955 name="Medium EMP Smartbomb II"><!---->
+			</i3955>
+			<i3943 name="Medium Graviton Smartbomb II"><!---->
+			</i3943>
+			<i3949 name="Medium Plasma Smartbomb II"><!---->
+			</i3949>
+			<i3939 name="Medium Proton Smartbomb II"><!---->
+			</i3939>
+			<i3995 name="Large EMP Smartbomb II"><!---->
+			</i3995>
+			<i3983 name="Large Graviton Smartbomb II"><!---->
+			</i3983>
+			<i3989 name="Large Plasma Smartbomb II"><!---->
+			</i3989>
+			<i3979 name="Large Proton Smartbomb II"><!---->
+			</i3979>
 		</weapon>
 		<!--ammo>
 		</ammo-->
