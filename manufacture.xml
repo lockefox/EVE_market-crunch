@@ -732,13 +732,101 @@
 		</eng>
 		<shield>
 
-			<i10842 name="X-Large Shield Booster II"><!---->
+			<i10842 name="X-Large Shield Booster II">
+				<i20171 name="Datacore - Hydromagnetic Physics">6</i20171>
+				<i20414 name="Datacore - Quantum Physics">6</i20414>
+				<i11399 name="Morphite">90</i11399>
+				<i11484 name="R.A.M. - Shield Tech">8</i11484>
+				<XLSBOOST name="X-Large Shield Booster I" id="10840">10</XLSBOOST>
+				<i11558 name="Sustained Shield Emitter">160</i11558>
+				<i11555 name="Deflection Shield Emitter">0</i11555>
+				<i11557 name="Linear Shield Emitter">0</i11557>
+				<i11556 name="Pulse Sheild Emitter">0</i11556>
+				<i9838 name="Superconductors">80</i9838>
+				<i37 name="Isogen">3000</i37>
+				<i40 name="Megacyte">0</i40>
+				<i36 name="Mexallon">0</i36>
+				<i38 name="Nocxium">1500</i38>
+				<i35 name="Pyerite">0</i35>
+				<i34 name="Tritanium">0</i34>
+				<i39 name="Zydrine">750</i39>
+				<qty>10</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<mfg_grp>shield</mfg_grp>
+				<flag>module</flag>
 			</i10842>
-			<i10858 name="Large Shield Booster II"><!---->
+			<i10858 name="Large Shield Booster II">
+				<i20171 name="Datacore - Hydromagnetic Physics">6</i20171>
+				<i20414 name="Datacore - Quantum Physics">6</i20414>
+				<i11399 name="Morphite">60</i11399>
+				<i11484 name="R.A.M. - Shield Tech">4</i11484>
+				<LSBOOST name="Large Shield Booster I" id="10838">10</LSBOOST>
+				<i11558 name="Sustained Shield Emitter">0</i11558>
+				<i11555 name="Deflection Shield Emitter">0</i11555>
+				<i11557 name="Linear Shield Emitter">0</i11557>
+				<i11556 name="Pulse Sheild Emitter">80</i11556>
+				<i9838 name="Superconductors">40</i9838>
+				<i37 name="Isogen">1500</i37>
+				<i40 name="Megacyte">0</i40>
+				<i36 name="Mexallon">1500</i36>
+				<i38 name="Nocxium">750</i38>
+				<i35 name="Pyerite">0</i35>
+				<i34 name="Tritanium">0</i34>
+				<i39 name="Zydrine">0</i39>
+				<qty>10</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<mfg_grp>shield</mfg_grp>
+				<flag>module</flag>
 			</i10858>
-			<i10850 name="Medium Shield Booster II"><!---->
+			<i10850 name="Medium Shield Booster II">
+				<i20171 name="Datacore - Hydromagnetic Physics">4</i20171>
+				<i20414 name="Datacore - Quantum Physics">4</i20414>
+				<i11399 name="Morphite">30</i11399>
+				<i11484 name="R.A.M. - Shield Tech">2</i11484>
+				<MSBOOST name="Medium Shield Booster I" id="10836">10</MSBOOST>
+				<i11558 name="Sustained Shield Emitter">0</i11558>
+				<i11555 name="Deflection Shield Emitter">0</i11555>
+				<i11557 name="Linear Shield Emitter">0</i11557>
+				<i11556 name="Pulse Sheild Emitter">40</i11556>
+				<i9838 name="Superconductors">20</i9838>
+				<i37 name="Isogen">750</i37>
+				<i40 name="Megacyte">0</i40>
+				<i36 name="Mexallon">1500</i36>
+				<i38 name="Nocxium">0</i38>
+				<i35 name="Pyerite">0</i35>
+				<i34 name="Tritanium">0</i34>
+				<i39 name="Zydrine">0</i39>
+				<qty>10</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<mfg_grp>shield</mfg_grp>
+				<flag>module</flag>
 			</i10850>
-			<i10850 name="Small Shield Booster II"><!---->
+			<i10850 name="Small Shield Booster II">
+				<i20171 name="Datacore - Hydromagnetic Physics">2</i20171>
+				<i20414 name="Datacore - Quantum Physics">2</i20414>
+				<i11399 name="Morphite">20</i11399>
+				<i11484 name="R.A.M. - Shield Tech">1</i11484>
+				<SSBOOST name="Small Shield Booster I" id="399">10</SSBOOST>
+				<i11558 name="Sustained Shield Emitter">0</i11558>
+				<i11555 name="Deflection Shield Emitter">0</i11555>
+				<i11557 name="Linear Shield Emitter">0</i11557>
+				<i11556 name="Pulse Sheild Emitter">20</i11556>
+				<i9838 name="Superconductors">10</i9838>
+				<i37 name="Isogen">0</i37>
+				<i40 name="Megacyte">0</i40>
+				<i36 name="Mexallon">770</i36>
+				<i38 name="Nocxium">0</i38>
+				<i35 name="Pyerite">1190</i35>
+				<i34 name="Tritanium">1370</i34>
+				<i39 name="Zydrine">0</i39>
+				<qty>10</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<mfg_grp>shield</mfg_grp>
+				<flag>module</flag>
 			</i10850>
 			<i3841 name="Large Shield Extender II">
 				<i20171 name="Datacore - Hydromagnetic Physics">6</i20171>
@@ -764,9 +852,47 @@
 				<mfg_grp>shield</mfg_grp>
 				<flag>module</flag>
 			</i3841>
-			<i3831 name="Medium Shield Extender II"><!---->
+			<i3831 name="Medium Shield Extender II">
+				<i20171 name="Datacore - Hydromagnetic Physics">4</i20171>
+				<i20414 name="Datacore - Quantum Physics">4</i20414>
+				<i11484 name="R.A.M. - Shield Tech">2</i11484>
+				<MSE name="Medium Shield Extender I" id="3829">10</MSE>
+				<i11399 name="Morphite">50</i11399>
+				<i11558 name="Sustained Shield Emitter">40</i11558>
+				<i3685 name="Hydrogen Batteries">40</i3685>
+				<i37 name="Isogen">30</i37>
+				<i40 name="Megacyte">0</i40>
+				<i36 name="Mexallon">380</i36>
+				<i38 name="Nocxium">60</i38>
+				<i35 name="Pyerite">690</i35>
+				<i34 name="Tritanium">3830</i34>
+				<i39 name="Zydrine">0</i39>
+				<qty>10</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<mfg_grp>shield</mfg_grp>
+				<flag>module</flag>
 			</i3831>
-			<i380 name="Small Shield Extender II"><!---->
+			<i380 name="Small Shield Extender II">
+				<i20171 name="Datacore - Hydromagnetic Physics">2</i20171>
+				<i20414 name="Datacore - Quantum Physics">2</i20414>
+				<i11484 name="R.A.M. - Shield Tech">1</i11484>
+				<SSE name="Small Shield Extender I" id="377">10</SSE>
+				<i11399 name="Morphite">20</i11399>
+				<i11558 name="Sustained Shield Emitter">20</i11558>
+				<i3685 name="Hydrogen Batteries">20</i3685>
+				<i37 name="Isogen">0</i37>
+				<i40 name="Megacyte">0</i40>
+				<i36 name="Mexallon">60</i36>
+				<i38 name="Nocxium">0</i38>
+				<i35 name="Pyerite">60</i35>
+				<i34 name="Tritanium">1170</i34>
+				<i39 name="Zydrine">0</i39>
+				<qty>10</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<mfg_grp>shield</mfg_grp>
+				<flag>module</flag>
 			</i380>
 			<i2281 name="Invulnerability Field II">
 				<i20171 name="Datacore - Hydromagnetic Physics">4</i20171>
@@ -994,7 +1120,7 @@
 				<i11555 name="Deflection Shield Emitter">0</i11555>
 				<i11558 name="Sustained Shield Emitter">0</i11558>
 				<i11557 name="Linear Shield Emitter">80</i11557>
-				<i9840 name="Transmitter">80</i9840>
+				<i9838 name="Superconductors">80</i9838>
 				<i37 name="Isogen">0</i37>
 				<i40 name="Megacyte">0</i40>
 				<i36 name="Mexallon">0</i36>
@@ -1009,8 +1135,52 @@
 				<flag>module</flag>
 			</i3608>
 			<i3598 name="Medium Shield Transporter II">
+				<i20171 name="Datacore - Hydromagnetic Physics">4</i20171>
+				<i20414 name="Datacore - Quantum Physics">4</i20414>
+				<i11484 name="R.A.M. - Shield Tech">2</i11484>
+				<MST name="Medium Shield Transporter I" id="3596">10</MST>
+				<i11399 name="Morphite">30</i11399>
+				<i11556 name="Pulse Sheild Emitter">0</i11556>
+				<i11555 name="Deflection Shield Emitter">0</i11555>
+				<i11558 name="Sustained Shield Emitter">0</i11558>
+				<i11557 name="Linear Shield Emitter">40</i11557>
+				<i9838 name="Superconductors">40</i9838>
+				<i37 name="Isogen">0</i37>
+				<i40 name="Megacyte">0</i40>
+				<i36 name="Mexallon">270</i36>
+				<i38 name="Nocxium">0</i38>
+				<i35 name="Pyerite">1400</i35>
+				<i34 name="Tritanium">4580</i34>
+				<i39 name="Zydrine">0</i39>
+				<qty>10</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<mfg_grp>shield</mfg_grp>
+				<flag>module</flag>
 			</i3598>
 			<i3588 name="Small Shield Transporter II">
+				<i20171 name="Datacore - Hydromagnetic Physics">2</i20171>
+				<i20414 name="Datacore - Quantum Physics">2</i20414>
+				<i11484 name="R.A.M. - Shield Tech">0.5</i11484>
+				<SST name="Small Shield Transporter I" id="3586">10</SST>
+				<i11399 name="Morphite">20</i11399>
+				<i11556 name="Pulse Sheild Emitter">0</i11556>
+				<i11555 name="Deflection Shield Emitter">0</i11555>
+				<i11558 name="Sustained Shield Emitter">0</i11558>
+				<i11557 name="Linear Shield Emitter">20</i11557>
+				<i9838 name="Superconductors">20</i9838>
+				<i37 name="Isogen">20</i37>
+				<i40 name="Megacyte">0</i40>
+				<i36 name="Mexallon">290</i36>
+				<i38 name="Nocxium">0</i38>
+				<i35 name="Pyerite">20</i35>
+				<i34 name="Tritanium">1640</i34>
+				<i39 name="Zydrine">0</i39>
+				<qty>10</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<mfg_grp>shield</mfg_grp>
+				<flag>module</flag>
 			</i3588>
 			<i1256 name="Shield Flux Coil II">
 				<i20411 name="Datacore - High Energy Physics">4</i20411>
@@ -1057,6 +1227,25 @@
 				<flag>module</flag>
 			</i1422>
 			<i394 name="Shield Recharger II">
+				<i20171 name="Datacore - Hydromagnetic Physics">4</i20171>
+				<i20414 name="Datacore - Quantum Physics">4</i20414>
+				<i11484 name="R.A.M. - Shield Tech">1</i11484>
+				<SRECH name="Shield Recharger I" id="393">10</SRECH>
+				<i11399 name="Morphite">20</i11399>
+				<i9838 name="Superconductors">20</i9838>
+				<i3685 name="Hydrogen Batteries">10</i3685>
+				<i37 name="Isogen">20</i37>
+				<i40 name="Megacyte">0</i40>
+				<i36 name="Mexallon">90</i36>
+				<i38 name="Nocxium">20</i38>
+				<i35 name="Pyerite">1310</i35>
+				<i34 name="Tritanium">1700</i34>
+				<i39 name="Zydrine">0</i39>
+				<qty>10</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<mfg_grp>shield</mfg_grp>
+				<flag>module</flag>
 			</i394>
 		</shield>
 		<armor>
