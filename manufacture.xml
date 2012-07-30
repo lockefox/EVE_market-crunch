@@ -1799,22 +1799,22 @@
 			<i26892 name="Mobile Small Warp Disruptor II"><!--i believe data incorrect. locke, recheck to master sheet please.-->
 				<i20418 name="Datacore - Electronic Engineering">6</i20418>
 				<i20419 name="Datacore - Graviton Physics">6</i20419>
-				<SWD name="Mobile Small Warp Disruptor I" id="12198">1</SWD>
+				<SWD name="Mobile Small Warp Disruptor I" id="12198">5</SWD>
 				<i11483 name="R.A.M. Electronics">0.75</i11483>
 				<i11482 name="R.A.M. Energy Tech">0.5</i11482>
-				<i11399 name="Morphite">3</i11399>
-				<i11693 name="Graviton Pulse Generator">10</i11693>
-				<i11550 name="Graviton Reactor Unit">4</i11550>
-				<i11538 name="Nanomechanical Microprocessor">10</i11538>
-				<i3687 name="Electronic Parts">10</i3687>
-				<i37 name="Isogen">321</i37>
-				<i40 name="Megacyte">5</i40>
-				<i36 name="Mexallon">650</i36>
-				<i38 name="Nocxium">53</i38>
-				<i35 name="Pyerite">455</i35>
-				<i34 name="Tritanium">2045</i34>
-				<i39 name="Zydrine">5</i39>
-				<qty>1</qty>
+				<i11399 name="Morphite">6</i11399>
+				<i11693 name="Graviton Pulse Generator">50</i11693>
+				<i11550 name="Graviton Reactor Unit">20</i11550>
+				<i11538 name="Nanomechanical Microprocessor">50</i11538>
+				<i3687 name="Electronic Parts">50</i3687>
+				<i37 name="Isogen">1605</i37>
+				<i40 name="Megacyte">25</i40>
+				<i36 name="Mexallon">3250</i36>
+				<i38 name="Nocxium">265</i38>
+				<i35 name="Pyerite">2275</i35>
+				<i34 name="Tritanium">10225</i34>
+				<i39 name="Zydrine">25</i39>
+				<qty>5</qty>
 				<me>-4</me>
 				<bld_time></bld_time>
 				<mfg_grp>interdict</mfg_grp>
@@ -1823,46 +1823,46 @@
 			<i26890 name="Mobile Medium Warp Disruptor II"><!--data not finished. locke, recheck to master sheet please.-->
 				<i20418 name="Datacore - Electronic Engineering">12</i20418>
 				<i20419 name="Datacore - Graviton Physics">12</i20419>
-				<MWD name="Mobile Medium Warp Disruptor I" id="12199">1</MWD>
-				<i11483 name="R.A.M. Electronics">NULL</i11483>
-				<i11482 name="R.A.M. Energy Tech">NULL</i11482>
-				<i11399 name="Morphite">NULL</i11399>
-				<i11693 name="Graviton Pulse Generator">NULL</i11693>
-				<i11550 name="Graviton Reactor Unit">NULL</i11550>
-				<i11538 name="Nanomechanical Microprocessor">NULL</i11538>
-				<i3687 name="Electronic Parts">NULL</i3687>
-				<i37 name="Isogen">NULL</i37>
-				<i40 name="Megacyte">NULL</i40>
-				<i36 name="Mexallon">NULL</i36>
-				<i38 name="Nocxium">NULL</i38>
-				<i35 name="Pyerite">NULL</i35>
-				<i34 name="Tritanium">NULL</i34>
-				<i39 name="Zydrine">NULL</i39>
-				<qty>1</qty>
+				<MWD name="Mobile Medium Warp Disruptor I" id="12199">5</MWD>
+				<i11483 name="R.A.M. Electronics">1.1</i11483>
+				<i11482 name="R.A.M. Energy Tech">1.1</i11482>
+				<i11399 name="Morphite">75</i11399>
+				<i11693 name="Graviton Pulse Generator">100</i11693>
+				<i11550 name="Graviton Reactor Unit">40</i11550>
+				<i11538 name="Nanomechanical Microprocessor">80</i11538>
+				<i3687 name="Electronic Parts">75</i3687>
+				<i37 name="Isogen">7495</i37>
+				<i40 name="Megacyte">45</i40>
+				<i36 name="Mexallon">17625</i36>
+				<i38 name="Nocxium">1080</i38>
+				<i35 name="Pyerite">625</i35>
+				<i34 name="Tritanium">99430</i34>
+				<i39 name="Zydrine">450</i39>
+				<qty>5</qty>
 				<me>-4</me>
 				<bld_time></bld_time>
 				<mfg_grp>interdict</mfg_grp>
-				<flag>NULL</flag>
+				<flag>module</flag>
 			</i26890>
 			<i26888 name="Mobile Large Warp Disruptor II"><!--data not finished. locke, recheck to master sheet please.-->
-				<i20418 name="Datacore - Electronic Engineering">12</i20418>
-				<i20419 name="Datacore - Graviton Physics">12</i20419>
-				<LWD name="Mobile Large Warp Disruptor I" id="12200">1</LWD>
-				<i11483 name="R.A.M. Electronics">NULL</i11483>
-				<i11482 name="R.A.M. Energy Tech">NULL</i11482>
-				<i11399 name="Morphite">NULL</i11399>
-				<i11693 name="Graviton Pulse Generator">NULL</i11693>
-				<i11550 name="Graviton Reactor Unit">NULL</i11550>
-				<i11538 name="Nanomechanical Microprocessor">NULL</i11538>
-				<i3687 name="Electronic Parts">NULL</i3687>
-				<i37 name="Isogen">NULL</i37>
-				<i40 name="Megacyte">NULL</i40>
-				<i36 name="Mexallon">NULL</i36>
-				<i38 name="Nocxium">NULL</i38>
-				<i35 name="Pyerite">NULL</i35>
-				<i34 name="Tritanium">NULL</i34>
-				<i39 name="Zydrine">NULL</i39>
-				<qty>1</qty>
+				<i20418 name="Datacore - Electronic Engineering">18</i20418>
+				<i20419 name="Datacore - Graviton Physics">18</i20419>
+				<LWD name="Mobile Large Warp Disruptor I" id="12200">5</LWD>
+				<i11483 name="R.A.M. Electronics">1.5</i11483>
+				<i11482 name="R.A.M. Energy Tech">1.1</i11482>
+				<i11399 name="Morphite">310</i11399>
+				<i11693 name="Graviton Pulse Generator">150</i11693>
+				<i11550 name="Graviton Reactor Unit">80</i11550>
+				<i11538 name="Nanomechanical Microprocessor">120</i11538>
+				<i3687 name="Electronic Parts">100</i3687>
+				<i37 name="Isogen">1380</i37>
+				<i40 name="Megacyte">405</i40>
+				<i36 name="Mexallon">115515</i36>
+				<i38 name="Nocxium">2425</i38>
+				<i35 name="Pyerite">55615</i35>
+				<i34 name="Tritanium">596220</i34>
+				<i39 name="Zydrine">1630</i39>
+				<qty>5</qty>
 				<me>-4</me>
 				<bld_time></bld_time>
 				<mfg_grp>interdict</mfg_grp>
