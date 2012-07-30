@@ -494,7 +494,15 @@
 			</i12263>
 		</eng>
 		<shield>
-			
+
+			<i10842 name="X-Large Shield Booster II"><!---->
+			</i10842>
+			<i10858 name="Large Shield Booster II"><!---->
+			</i10858>
+			<i10850 name="Medium Shield Booster II"><!---->
+			</i10850>
+			<i10850 name="Small Shield Booster II"><!---->
+			</i10850>
 			<i3841 name="Large Shield Extender II">
 				<i20171 name="Datacore - Hydromagnetic Physics">6</i20171>
 				<i20414 name="Datacore - Quantum Physics">6</i20414>
@@ -519,6 +527,10 @@
 				<mfg_grp>shield</mfg_grp>
 				<flag>module</flag>
 			</i3841>
+			<i3831 name="Medium Shield Extender II"><!---->
+			</i3831>
+			<i380 name="Small Shield Extender II"><!---->
+			</i380>
 			<i2281 name="Invulnerability Field II">
 				<i20171 name="Datacore - Hydromagnetic Physics">4</i20171>
 				<i20414 name="Datacore - Quantum Physics">4</i20414>
@@ -759,8 +771,70 @@
 				<mfg_grp>shield</mfg_grp>
 				<flag>module</flag>
 			</i3608>
+			<i3598 name="Medium Shield Transporter II">
+			</i3598>
+			<i3588 name="Small Shield Transporter II">
+			</i3588>
+			<i1256 name="Shield Flux Coil II">
+				<i20411 name="Datacore - High Energy Physics">4</i20411>
+				<i20414 name="Datacore - Quantum Physics">4</i20414>
+				<SFC name="Shield Flux Coil I" id="1254">10</SFC>
+				<i11482 name="R.A.M. - Electronics">1</i11482>
+				<i11399 name="Morphite">20</i11399>
+				<i9838 name="Superconductors">30</i9838>
+				<i11539 name="Nanoelectrical Microprocessor">10</i11539>
+				<i11554 name="Tesseract Capacitor">30</i11554>
+				<i37 name="Isogen">30</i37>
+				<i40 name="Megacyte">0</i40>
+				<i36 name="Mexallon">60</i36>
+				<i38 name="Nocxium">0</i38>
+				<i35 name="Pyerite">120</i35>
+				<i34 name="Tritanium">780</i34>
+				<i39 name="Zydrine">0</i39>
+				<qty>10</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<mfg_grp>eng</mfg_grp>
+				<flag>module</flag>
+			</i1256>
+			<i1422 name="Shield Power Relay II">
+				<i20411 name="Datacore - High Energy Physics">4</i20411>
+				<i20414 name="Datacore - Quantum Physics">4</i20414>
+				<SPR name="Shield Power Relay I" id="2331">10</SPR>
+				<i11482 name="R.A.M. - Electronics">1</i11482>
+				<i11399 name="Morphite">20</i11399>
+				<i9838 name="Superconductors">30</i9838>
+				<i11539 name="Nanoelectrical Microprocessor">10</i11539>
+				<i11554 name="Tesseract Capacitor">10</i11554>
+				<i37 name="Isogen">30</i37>
+				<i40 name="Megacyte">0</i40>
+				<i36 name="Mexallon">0</i36>
+				<i38 name="Nocxium">0</i38>
+				<i35 name="Pyerite">1730</i35>
+				<i34 name="Tritanium">3020</i34>
+				<i39 name="Zydrine">0</i39>
+				<qty>10</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<mfg_grp>eng</mfg_grp>
+				<flag>module</flag>
+			</i1422>
+			<i394 name="Shield Recharger II">
+			</i394>
 		</shield>
 		<armor>
+			<i3540 name="Large Armor Repairer II"><!---->
+			</i3540>
+			<i3530 name="Medium Armor Repairer II"><!---->
+			</i3530>
+			<i1183 name="Small Armor Repairer II"><!---->
+			</i1183>
+			<i3665 name="Large Hull Repairer II"><!---->
+			</i3665>
+			<i3655 name="Medium Hull Repairer II"><!---->
+			</i3655>
+			<i2355 name="Small Hull Repairer II"><!---->
+			</i2355>			
 			<i11269 name="Energized Adaptive Nano Membrane II">
 				<i20171 name="Datacore - Hydromagnetic Physics">4</i20171>
 				<i20416 name="Datacore - Nanite Engineering">4</i20416>
@@ -785,6 +859,26 @@
 				<mfg_grp>armor</mfg_grp>
 				<flag>module</flag>
 			</i11269>
+			<i11239 name="Energized Armor Layering Membrane II"><!---->
+			</i11239>
+			<i11219 name="Energized EM Membrane II"><!---->
+			</i11219>
+			<i11229 name="Energized Explosive Membrane II"><!---->
+			</i11229>
+			<i11249 name="Energized Kinetic Membrane II"><!---->
+			</i11249>
+			<i11259 name="Energized Thermic Membrane II"><!---->
+			</i11259>
+			<i1306 name="Adaptive Nano Plating II"><!---->
+			</i1306>
+			<i1266 name="Explosive Plating II"><!---->
+			</i1266>
+			<i1286 name="Kinetic Plating II"><!---->
+			</i1286>
+			<i1276 name="Layered Plating II"><!---->
+			</i1276>
+			<i1296 name="Thermic Plating II"><!---->
+			</i1296>
 			<i11646 name="Armor Explosive Hardener II">
 				<i20171 name="Datacore - Hydromagnetic Physics">4</i20171>
 				<i20416 name="Datacore - Nanite Engineering">4</i20416>
@@ -916,8 +1010,42 @@
 				<me>-4</me>
 				<bld_time></bld_time>
 				<mfg_grp>armor</mfg_grp>
-				<flag>module</flag>
+				<flag>NULL</flag>
 			</i26914>
+			<i26913 name="Medium Remote Armor Repair System II"><!---->
+			</i26913>
+			<i26912 name="Small Remote Armor Repair System II"><!---->
+			</i26912>
+			<i3986 name="Large Remote Hull Repair System II"><!---->
+			</i3986>
+			<i4296 name="Medium Remote Hull Repair System II"><!---->
+			</i4296>
+			<i4299 name="Small Remote Hull Reapir System II"><!---->
+			</i4299>
+			<i20343 name="50mm Reinforced Steel Plate II"><!---->
+			</i20343>
+			<i20345 name="100mm Reinforced Steel Plate II"><!---->
+			</i20345>
+			<i20347 name="200mm Reinforced Steel Plate II"><!---->
+			</i20347>
+			<i20349 name="400mm Reinforced Steel Plate II"><!---->
+			</i20349>
+			<i20351 name="800mm Reinforced Steel Plate II"><!---->
+			</i20351>
+			<i20353 name="1600mm Reinforced Steel Plate II"><!---->
+			</i20353>
+			<i1319 name="Expanded Cargohold II"><!---->
+			</i1319>
+			<i2605 name="Nanofiber Internal Structure II"><!---->
+			</i2605>
+			<i1335 name="Reinforced Bulkheads II"><!---->
+			</i1335>
+			<i1405 name="Inertia Stabilizer II"><!---->
+			</i1405>
+			<i1236 name="Overdrive Injector System II"><!---->
+			</i1236>
+			<i11640 name="Warp Core Stabilizer II"><!---->
+			</i11640>
 		</armor>
 		<prop>
 			<i438 name="1MN Afterburner II">
