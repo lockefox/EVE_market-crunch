@@ -20,7 +20,7 @@
 				<qty>10</qty>
 				<me>-4</me>
 				<bld_time></bld_time>
-				<mfg_grp>NULL</mfg_grp>
+				<mfg_grp>weapup</mfg_grp>
 				<flag>module</flag>
 			</i4405>
 			<i2291 name="Ballistic Control System II">
@@ -138,15 +138,110 @@
 				<mfg_grp>weapup</mfg_grp>
 				<flag>module</flag>
 			</i1978>
-			<i24427 name="Drone Link Augmentor II"><!---->
+			<i24427 name="Drone Link Augmentor II">
+				<i20418 name="Datacore - Electronic Engineering">4</i20418>
+				<i20424 name="Datacore - Mechanical Engineering">4</i20424>
+				<DLA name="Drone Link Augmentor I" id="23527">10</DLA>
+				<i11399 name="Morphite">50</i11399>
+				<i11483 name="RAM - Electronics">5</i11483>
+				<i11688 name="Particle Accelerator Unit">80</i11688>
+				<i9840 name="Transmitter">80</i9840>
+				<i37 name="Isogen">20</i37>
+				<i40 name="Megacyte">20</i40>
+				<i36 name="Mexallon">90</i36>
+				<i38 name="Nocxium">20</i38>
+				<i35 name="Pyerite">3000</i35>
+				<i34 name="Tritanium">7500</i34>
+				<i39 name="Zydrine">80</i39>
+				<qty>10</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<mfg_grp>weapup</mfg_grp>
+				<flag>module</flag>
 			</i24427>
-			<i24417 name="Drone Link Navigation Computer II"><!---->
+			<i24417 name="Drone Link Navigation Computer II">
+				<i20418 name="Datacore - Electronic Engineering">4</i20418>
+				<i20424 name="Datacore - Mechanical Engineering">4</i20424>
+				<DLNC name="Drone Link Navigation Computer I" id="24395">10</DLNC>
+				<i11399 name="Morphite">50</i11399>
+				<i11483 name="RAM - Electronics">5</i11483>
+				<i11688 name="Particle Accelerator Unit">80</i11688>
+				<i9840 name="Transmitter">80</i9840>
+				<i37 name="Isogen">20</i37>
+				<i40 name="Megacyte">20</i40>
+				<i36 name="Mexallon">90</i36>
+				<i38 name="Nocxium">20</i38>
+				<i35 name="Pyerite">19500</i35>
+				<i34 name="Tritanium">18000</i34>
+				<i39 name="Zydrine">0</i39>
+				<qty>10</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<mfg_grp>weapup</mfg_grp>
+				<flag>module</flag>
 			</i24417>
-			<i24438 name="Omnidirectional Tracking Computer II"><!---->
+			<i24438 name="Omnidirectional Tracking Link II">
+				<i20418 name="Datacore - Electronic Engineering">4</i20418>
+				<i20424 name="Datacore - Mechanical Engineering">4</i20424>
+				<OMNITL name="Omnidirectional Tracking Link I" id="23533">10</OMNITL>
+				<i11399 name="Morphite">50</i11399>
+				<i11483 name="RAM - Electronics">5</i11483>
+				<i11688 name="Particle Accelerator Unit">80</i11688>
+				<i9840 name="Transmitter">80</i9840>
+				<i37 name="Isogen">0</i37>
+				<i40 name="Megacyte">20</i40>
+				<i36 name="Mexallon">0</i36>
+				<i38 name="Nocxium">0</i38>
+				<i35 name="Pyerite">150</i35>
+				<i34 name="Tritanium">600</i34>
+				<i39 name="Zydrine">0</i39>
+				<qty>10</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<mfg_grp>weapup</mfg_grp>
+				<flag>module</flag>
 			</i24438>
-			<i4292 name="Siege Module II"><!---->
+			<i4292 name="Siege Module II">
+				<i20418 name="Datacore - Electronic Engineering">12</i20418>
+				<i20424 name="Datacore - Mechanical Engineering">12</i20424>
+				<SIEGEM name="Siege Module I" id="20280">1</SIEGEM>
+				<i11399 name="Morphite">36</i11399>
+				<i11483 name="RAM - Electronics">0.85</i11483>
+				<i11540 name="Quantum Microprocessor">35</i11540>
+				<i9842 name="Miniature Electronics">35</i9842>
+				<i37 name="Isogen">7025</i37>
+				<i40 name="Megacyte">153</i40>
+				<i36 name="Mexallon">42519</i36>
+				<i38 name="Nocxium">2136</i38>
+				<i35 name="Pyerite">111797</i35>
+				<i34 name="Tritanium">462764</i34>
+				<i39 name="Zydrine">306</i39>
+				<qty>1</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<mfg_grp>weapup</mfg_grp>
+				<flag>module</flag>
 			</i4292>
-			<i4294 name="Triage Module II"><!---->
+			<i4294 name="Triage Module II">
+				<i20418 name="Datacore - Electronic Engineering">12</i20418>
+				<i20424 name="Datacore - Mechanical Engineering">12</i20424>
+				<TRIAGEM name="Triage Module I" id="27951">1</TRIAGEM>
+				<i11399 name="Morphite">41</i11399>
+				<i11483 name="RAM - Electronics">0.85</i11483>
+				<i11540 name="Quantum Microprocessor">25</i11540>
+				<i9842 name="Miniature Electronics">35</i9842>
+				<i37 name="Isogen">7025</i37>
+				<i40 name="Megacyte">153</i40>
+				<i36 name="Mexallon">42519</i36>
+				<i38 name="Nocxium">2136</i38>
+				<i35 name="Pyerite">111797</i35>
+				<i34 name="Tritanium">462764</i34>
+				<i39 name="Zydrine">306</i39>
+				<qty>1</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<mfg_grp>weapup</mfg_grp>
+				<flag>module</flag>
 			</i4294>
 		</wepup>
 		<eng>
