@@ -4057,7 +4057,7 @@
 				<ICE name="Ice Harvester I" id="16278">10</ICE>
 				<i11399 name="Morphite">150</i11399>
 				<i11482 name="R.A.M. Energy Tech">2</i11482>
-				<i11541 name="Quantum Microprocessor">50</i11541>
+				<i11541 name="Photon Microprocessor">50</i11541>
 				<i11689 name="Laser Focusing Crystals">0</i11689>
 				<i3689 name="Mechanical Parts">50</i3689>
 				<i3687 name="Electronic Parts">50</i3687>
@@ -4074,11 +4074,11 @@
 			<i17912 name="Modulated Strip Miner II">
 				<i20413 name="Datacore - Laser Physics">4</i20413>
 				<i20424 name="Datacore - Mechanical Engineering">4</i20424>
-				<STRP name="Strip Miner I" id="17482">10</STRP>
-				<DCM name="Deep Core Mining Laser" id="12108">10</DCM>
+				<STRPM name="Strip Miner I" id="17482">10</STRPM>
+				<DCML name="Deep Core Mining Laser I" id="12108">10</DCML>
 				<i11399 name="Morphite">230</i11399>
 				<i11482 name="R.A.M. Energy Tech">2</i11482>
-				<i11541 name="Quantum Microprocessor">30</i11541>
+				<i11541 name="Photon Microprocessor">30</i11541>
 				<i11689 name="Laser Focusing Crystals">20</i11689>
 				<i3689 name="Mechanical Parts">50</i3689>
 				<i3687 name="Electronic Parts">50</i3687>
@@ -4095,7 +4095,7 @@
 				<IHU name="Ice Harvester Upgrade I" id="22576">10</IHU>
 				<i11399 name="Morphite">50</i11399>
 				<i11483 name="R.A.M. Electronics">1</i11483>
-				<i11541 name="Quantum Microprocessor">0</i11541>
+				<i11541 name="Photon Microprocessor">0</i11541>
 				<i11689 name="Laser Focusing Crystals">50</i11689>
 				<i3689 name="Mechanical Parts">50</i3689>
 				<i3687 name="Electronic Parts">0</i3687>
@@ -4112,7 +4112,7 @@
 				<MLU name="Mining Laser Upgrade I" id="22542">10</MLU>
 				<i11399 name="Morphite">50</i11399>
 				<i11483 name="R.A.M. Electronics">1.5</i11483>
-				<i11541 name="Quantum Microprocessor">0</i11541>
+				<i11541 name="Photon Microprocessor">0</i11541>
 				<i11689 name="Laser Focusing Crystals">50</i11689>
 				<i3689 name="Mechanical Parts">50</i3689>
 				<i3687 name="Electronic Parts">0</i3687>
@@ -4125,7 +4125,7 @@
 			</i28576>
 			<i4250 name="Small Tractor Beam II">
 				<i20411 name="Datacore - High Energy Physics">2</i20411>
-				<i20424 name="Datacore - Mechanical Engineering">2</i20424>
+				<i20413 name="Datacore - Laser Physics">2</i20413>
 				<STB name="Small Tractor Beam I" id="24348">10</STB>
 				<i11399 name="Morphite">20</i11399>
 				<i11482 name="R.A.M. Energy Tech">2.5</i11482>
@@ -4144,14 +4144,66 @@
 				<mfg_grp>mining</mfg_grp>
 				<flag>module</flag>
 			</i4250>
-			<i25812 name="Gas Harvester II"><!---->
-				<i204 name="Datacore - "></i204>
-				<i204 name="Datacore - "></i204>
-				< name="" id="">10</>
+			<i25812 name="Gas Cloud Harvester II">
+				<i20413 name="Datacore - Laser Physics">4</i20413>
+				<i20424 name="Datacore - Mechanical Engineering">4</i20424>
+				<GCH name="Gas Cloud Harvester I" id="25266">10</GCH>
 				<i11399 name="Morphite">0</i11399>
-				<i11482 name="R.A.M. Energy Tech"></i11482>
-				<i11689 name="Laser Focusing Crystals">0</i11689>
-				<i9840 name="Transmitter">0</i9840>
+				<i11482 name="R.A.M. Energy Tech">2</i11482>
+				<i11541 name="Photon Microprocessor">30</i11541>
+				<i11689 name="Laser Focusing Crystals">30</i11689>
+				<i3689 name="Mechanical Parts">50</i3689>
+				<i3687 name="Electronic Parts">0</i3687>
+				<i9842 name="Miniature Electronics">0</i9842>
+				<i37 name="Isogen">0</i37>
+				<i40 name="Megacyte">0</i40>
+				<i36 name="Mexallon">57920</i36>
+				<i38 name="Nocxium">0</i38>
+				<i35 name="Pyerite">312000</i35>
+				<i34 name="Tritanium">1097820</i34>
+				<i39 name="Zydrine">0</i39>
+				<qty>10</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<mfg_grp>mining</mfg_grp>
+				<flag>module</flag>
+			</i25812>
+			<i482 name="Miner II">
+				<i20413 name="Datacore - Laser Physics">4</i20413>
+				<i20424 name="Datacore - Mechanical Engineering">4</i20424>
+				<MINER name="Miner I" id="483">10</MINER>
+				<i11399 name="Morphite">20</i11399>
+				<i11482 name="R.A.M. Energy Tech">2</i11482>
+				<i11541 name="Photon Microprocessor">30</i11541>
+				<i11689 name="Laser Focusing Crystals">20</i11689>
+				<i3689 name="Mechanical Parts">50</i3689>
+				<i3687 name="Electronic Parts">0</i3687>
+				<i9842 name="Miniature Electronics">0</i9842>
+				<i37 name="Isogen">0</i37>
+				<i40 name="Megacyte">30</i40>
+				<i36 name="Mexallon">1560</i36>
+				<i38 name="Nocxium">420</i38>
+				<i35 name="Pyerite">8180</i35>
+				<i34 name="Tritanium">0</i34>
+				<i39 name="Zydrine">0</i39>
+				<qty>10</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<mfg_grp>mining</mfg_grp>
+				<flag>module</flag>
+			</i482>
+			<i24305 name="Modulated Deep Core Strip Miner II">
+				<i20413 name="Datacore - Laser Physics">4</i20413>
+				<i20424 name="Datacore - Mechanical Engineering">4</i20424>
+				<STRPM name="Strip Miner I" id="17482">10</STRPM>
+				<DCML name="Deep Core Mining Laser I" id="12108">10</DCML>
+				<i11399 name="Morphite">230</i11399>
+				<i11482 name="R.A.M. Energy Tech">4</i11482>
+				<i11541 name="Photon Microprocessor">30</i11541>
+				<i11689 name="Laser Focusing Crystals">20</i11689>
+				<i3689 name="Mechanical Parts">50</i3689>
+				<i3687 name="Electronic Parts">50</i3687>
+				<i9842 name="Miniature Electronics">0</i9842>
 				<i37 name="Isogen">0</i37>
 				<i40 name="Megacyte">0</i40>
 				<i36 name="Mexallon">0</i36>
@@ -4164,13 +4216,31 @@
 				<bld_time></bld_time>
 				<mfg_grp>mining</mfg_grp>
 				<flag>module</flag>
-			</i25812>
-			<i482 name="Miner II"><!---->
-			</i482>
-			<i18068 name="Modulated Deep Core Strip Miner II"><!---->
-			</i18068>
-			<i24305 name="Deep Core Strip Miner II"><!---->
 			</i24305>
+			<i18068 name="Modulated Deep Core Miner II">
+				<i20413 name="Datacore - Laser Physics">4</i20413>
+				<i20424 name="Datacore - Mechanical Engineering">4</i20424>
+				<DCML name="Deep Core Mining Laser I" id="12108">10</DCML>
+				<i11399 name="Morphite">230</i11399>
+				<i11482 name="R.A.M. Energy Tech">2</i11482>
+				<i11541 name="Photon Microprocessor">30</i11541>
+				<i11689 name="Laser Focusing Crystals">20</i11689>
+				<i3689 name="Mechanical Parts">50</i3689>
+				<i3687 name="Electronic Parts">50</i3687>
+				<i9842 name="Miniature Electronics">0</i9842>
+				<i37 name="Isogen">0</i37>
+				<i40 name="Megacyte">0</i40>
+				<i36 name="Mexallon">14630</i36>
+				<i38 name="Nocxium">0</i38>
+				<i35 name="Pyerite">0</i35>
+				<i34 name="Tritanium">0</i34>
+				<i39 name="Zydrine">0</i39>
+				<qty>10</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<mfg_grp>mining</mfg_grp>
+				<flag>module</flag>
+			</i18608>
 		</mining>
 		<gang>
 			<i4262 name="Armored Warfare Link - Damage Control II">
