@@ -731,7 +731,6 @@
 			</i3568>
 		</eng>
 		<shield>
-
 			<i10842 name="X-Large Shield Booster II">
 				<i20171 name="Datacore - Hydromagnetic Physics">6</i20171>
 				<i20414 name="Datacore - Quantum Physics">6</i20414>
@@ -2892,7 +2891,7 @@
 			<i26892 name="Mobile Small Warp Disruptor II">
 				<i20418 name="Datacore - Electronic Engineering">6</i20418>
 				<i20419 name="Datacore - Graviton Physics">6</i20419>
-				<SWD name="Mobile Small Warp Disruptor I" id="12198">5</SWD>
+				<MSWD name="Mobile Small Warp Disruptor I" id="12198">5</SWD>
 				<i11483 name="R.A.M. Electronics">0.75</i11483>
 				<i11482 name="R.A.M. Energy Tech">0.5</i11482>
 				<i11399 name="Morphite">6</i11399>
@@ -2916,7 +2915,7 @@
 			<i26890 name="Mobile Medium Warp Disruptor II">
 				<i20418 name="Datacore - Electronic Engineering">12</i20418>
 				<i20419 name="Datacore - Graviton Physics">12</i20419>
-				<MWD name="Mobile Medium Warp Disruptor I" id="12199">5</MWD>
+				<MMWD name="Mobile Medium Warp Disruptor I" id="12199">5</MWD>
 				<i11483 name="R.A.M. Electronics">1.1</i11483>
 				<i11482 name="R.A.M. Energy Tech">1.1</i11482>
 				<i11399 name="Morphite">75</i11399>
@@ -2940,7 +2939,7 @@
 			<i26888 name="Mobile Large Warp Disruptor II">
 				<i20418 name="Datacore - Electronic Engineering">18</i20418>
 				<i20419 name="Datacore - Graviton Physics">18</i20419>
-				<LWD name="Mobile Large Warp Disruptor I" id="12200">5</LWD>
+				<MLWD name="Mobile Large Warp Disruptor I" id="12200">5</LWD>
 				<i11483 name="R.A.M. Electronics">1.5</i11483>
 				<i11482 name="R.A.M. Energy Tech">1.1</i11482>
 				<i11399 name="Morphite">310</i11399>
@@ -3279,7 +3278,7 @@
 				<flag>frig</flag>
 				<class>Interceptor</class>
 			</i11196>
-			<i11198 name="Stiletto">
+			<i11198 name="Stiletto"><!---->
 				<i20172 name="Datacore - Minmatar Starship Engineering">5.3</i20172>
 				<i20424 name="Datacore - Mechanical Engineering">5.3</i20424>
 				<i11399 name="Morphite">8</i11399>
@@ -3387,7 +3386,7 @@
 				<flag>frig</flag>
 				<class>Bomber</class>
 			</i12034>
-			<i12015 name="Munin">
+			<i12015 name="Munin"><!---->
 				<i20172 name="Datacore - Minmatar Starship Engineering"></i20172>
 				<i20424 name="Datacore - Mechanical Engineering"></i20424>
 				<i11399 name="Morphite"></i11399>
@@ -3407,7 +3406,7 @@
 				<flag>cruiser</flag>
 				<class>Assault Cruiser</class>
 			</i12015>
-			<i11999 name="Vagabond">
+			<i11999 name="Vagabond"><!---->
 				<i20172 name="Datacore - Minmatar Starship Engineering"></i20172>
 				<i20424 name="Datacore - Mechanical Engineering"></i20424>
 				<i11399 name="Morphite"></i11399>
@@ -3469,7 +3468,7 @@
 				<flag>cruiser</flag>
 				<class>Recon</class>
 			</i11963>
-			<i12013 name="Broadsword">
+			<i12013 name="Broadsword"><!---->
 				<i20172 name="Datacore - Minmatar Starship Engineering"></i20172>
 				<i20424 name="Datacore - Mechanical Engineering"></i20424>
 				<i11399 name="Morphite"></i11399>
@@ -3549,7 +3548,7 @@
 				<flag>bc</flag>
 				<class>Command</class>
 			</i22444>
-			<i22468 name="Claymore">
+			<i22468 name="Claymore"><!---->
 				<i20172 name="Datacore - Minmatar Starship Engineering">63.5</i20172>
 				<i20424 name="Datacore - Mechanical Engineering">63.5</i20424>
 				<i11399 name="Morphite"></i11399>
@@ -3569,7 +3568,7 @@
 				<flag>bc</flag>
 				<class>Command</class>
 			</i22468>
-			<i28665 name="Vargur">
+			<i28665 name="Vargur"><!---->
 				<i20172 name="Datacore - Minmatar Starship Engineering">127</i20172>
 				<i20424 name="Datacore - Mechanical Engineering">127</i20424>
 				<i11399 name="Morphite"></i11399>
@@ -4146,6 +4145,25 @@
 				<flag>module</flag>
 			</i4250>
 			<i25812 name="Gas Harvester II"><!---->
+				<i204 name="Datacore - "></i204>
+				<i204 name="Datacore - "></i204>
+				< name="" id="">10</>
+				<i11399 name="Morphite">0</i11399>
+				<i11482 name="R.A.M. Energy Tech"></i11482>
+				<i11689 name="Laser Focusing Crystals">0</i11689>
+				<i9840 name="Transmitter">0</i9840>
+				<i37 name="Isogen">0</i37>
+				<i40 name="Megacyte">0</i40>
+				<i36 name="Mexallon">0</i36>
+				<i38 name="Nocxium">0</i38>
+				<i35 name="Pyerite">0</i35>
+				<i34 name="Tritanium">0</i34>
+				<i39 name="Zydrine">0</i39>
+				<qty>10</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<mfg_grp>mining</mfg_grp>
+				<flag>module</flag>
 			</i25812>
 			<i482 name="Miner II"><!---->
 			</i482>
@@ -4155,35 +4173,395 @@
 			</i24305>
 		</mining>
 		<gang>
-			<i4262 name="Armored Warfare Link - Damage Control II"><!---->
+			<i4262 name="Armored Warfare Link - Damage Control II">
+				<i20417 name="Datacore - Electromagnetic Physics">4</i20417>
+				<i20418 name="Datacore - Electronic Engineering">4</i20418>
+				<AWLDC name="Armored Warfare Link - Damage Control I" id="20069">10</AWLDC>
+				<i11399 name="Morphite">40</i11399>
+				<i11483 name="R.A.M.- Electronics">5</i11483>
+				<i11540 name="Quantum Microprocessor">0</i11540>
+				<i11538 name="Nanomechanical Microprocessor">0</i11538>
+				<i11539 name="Nanoelectrical Microprocessor">80</i11539>
+				<i11541 name="Photon Microprocessor">0</i11541>
+				<i16681 name="Nanotransistors">30</i16681>
+				<i16682 name="Hypersynaptic Fibers">20</i16682>
+				<i9840 name="Transmitters">80</i9840>
+				<i37 name="Isogen">130</i37>
+				<i40 name="Megacyte">10</i40>
+				<i36 name="Mexallon">0</i36>
+				<i38 name="Nocxium">60</i38>
+				<i35 name="Pyerite">0</i35>
+				<i34 name="Tritanium">1060</i34>
+				<i39 name="Zydrine">0</i39>
+				<qty>10</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<mfg_grp>gang</mfg_grp>
+				<flag>module</flag>
 			</i4262>
-			<i4264 name="Armored Warfare Link - Passive Defense II"><!---->
+			<i4264 name="Armored Warfare Link - Passive Defense II">
+				<i20417 name="Datacore - Electromagnetic Physics">4</i20417>
+				<i20418 name="Datacore - Electronic Engineering">4</i20418>
+				<AWLPD name="Armored Warfare Link - Passive Defense I" id="20409">10</AWLPD>
+				<i11399 name="Morphite">40</i11399>
+				<i11483 name="R.A.M.- Electronics">5</i11483>
+				<i11540 name="Quantum Microprocessor">0</i11540>
+				<i11538 name="Nanomechanical Microprocessor">0</i11538>
+				<i11539 name="Nanoelectrical Microprocessor">80</i11539>
+				<i11541 name="Photon Microprocessor">0</i11541>
+				<i16681 name="Nanotransistors">30</i16681>
+				<i16682 name="Hypersynaptic Fibers">20</i16682>
+				<i9840 name="Transmitters">80</i9840>
+				<i37 name="Isogen">130</i37>
+				<i40 name="Megacyte">10</i40>
+				<i36 name="Mexallon">0</i36>
+				<i38 name="Nocxium">60</i38>
+				<i35 name="Pyerite">0</i35>
+				<i34 name="Tritanium">1060</i34>
+				<i39 name="Zydrine">0</i39>
+				<qty>10</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<mfg_grp>gang</mfg_grp>
+				<flag>module</flag>
 			</i4264>
-			<i4266 name="Armored Warfare Link - Rapid Repair II"><!---->
+			<i4266 name="Armored Warfare Link - Rapid Repair II">
+				<i20417 name="Datacore - Electromagnetic Physics">4</i20417>
+				<i20418 name="Datacore - Electronic Engineering">4</i20418>
+				<AWLRR name="Armored Warfare Link - Rapid Repair I" id="22227">10</AWLRR>
+				<i11399 name="Morphite">40</i11399>
+				<i11483 name="R.A.M.- Electronics">5</i11483>
+				<i11540 name="Quantum Microprocessor">0</i11540>
+				<i11538 name="Nanomechanical Microprocessor">0</i11538>
+				<i11539 name="Nanoelectrical Microprocessor">80</i11539>
+				<i11541 name="Photon Microprocessor">0</i11541>
+				<i16681 name="Nanotransistors">30</i16681>
+				<i16682 name="Hypersynaptic Fibers">20</i16682>
+				<i9840 name="Transmitters">80</i9840>
+				<i37 name="Isogen">130</i37>
+				<i40 name="Megacyte">10</i40>
+				<i36 name="Mexallon">0</i36>
+				<i38 name="Nocxium">60</i38>
+				<i35 name="Pyerite">0</i35>
+				<i34 name="Tritanium">1060</i34>
+				<i39 name="Zydrine">0</i39>
+				<qty>10</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<mfg_grp>gang</mfg_grp>
+				<flag>module</flag>
 			</i4266>
-			<i4268 name="Information Warfare Link - Electronic Superiority II"><!---->
+			<i4268 name="Information Warfare Link - Electronic Superiority II">
+				<i20417 name="Datacore - Electromagnetic Physics">4</i20417>
+				<i20418 name="Datacore - Electronic Engineering">4</i20418>
+				<IWLES name="Information Warfare Link - Electronic Superiority I" id="20406">10</IWLES>
+				<i11399 name="Morphite">40</i11399>
+				<i11483 name="R.A.M.- Electronics">5</i11483>
+				<i11540 name="Quantum Microprocessor">0</i11540>
+				<i11538 name="Nanomechanical Microprocessor">0</i11538>
+				<i11539 name="Nanoelectrical Microprocessor">0</i11539>
+				<i11541 name="Photon Microprocessor">80</i11541>
+				<i16681 name="Nanotransistors">30</i16681>
+				<i16682 name="Hypersynaptic Fibers">20</i16682>
+				<i9840 name="Transmitters">80</i9840>
+				<i37 name="Isogen">130</i37>
+				<i40 name="Megacyte">10</i40>
+				<i36 name="Mexallon">0</i36>
+				<i38 name="Nocxium">60</i38>
+				<i35 name="Pyerite">0</i35>
+				<i34 name="Tritanium">1060</i34>
+				<i39 name="Zydrine">0</i39>
+				<qty>10</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<mfg_grp>gang</mfg_grp>
+				<flag>module</flag>
 			</i4268>
-			<i4270 name="Information Warfare Link - Recon Operation II"><!---->
+			<i4270 name="Information Warfare Link - Recon Operation II">
+				<i20417 name="Datacore - Electromagnetic Physics">4</i20417>
+				<i20418 name="Datacore - Electronic Engineering">4</i20418>
+				<IWLRO name="Information Warfare Link - Recon Operation I" id="20405">10</IWLRO>
+				<i11399 name="Morphite">40</i11399>
+				<i11483 name="R.A.M.- Electronics">5</i11483>
+				<i11540 name="Quantum Microprocessor">0</i11540>
+				<i11538 name="Nanomechanical Microprocessor">0</i11538>
+				<i11539 name="Nanoelectrical Microprocessor">0</i11539>
+				<i11541 name="Photon Microprocessor">80</i11541>
+				<i16681 name="Nanotransistors">30</i16681>
+				<i16682 name="Hypersynaptic Fibers">20</i16682>
+				<i9840 name="Transmitters">80</i9840>
+				<i37 name="Isogen">130</i37>
+				<i40 name="Megacyte">10</i40>
+				<i36 name="Mexallon">0</i36>
+				<i38 name="Nocxium">60</i38>
+				<i35 name="Pyerite">0</i35>
+				<i34 name="Tritanium">1060</i34>
+				<i39 name="Zydrine">0</i39>
+				<qty>10</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<mfg_grp>gang</mfg_grp>
+				<flag>module</flag>
 			</i4270>
-			<i4272 name="Information Warfare Link - Sensor Integrity II"><!---->
+			<i4272 name="Information Warfare Link - Sensor Integrity II">
+				<i20417 name="Datacore - Electromagnetic Physics">4</i20417>
+				<i20418 name="Datacore - Electronic Engineering">4</i20418>
+				<IWLSI name="Information Warfare Link - Sensor Integrity I" id="11052">10</IWLSI>
+				<i11399 name="Morphite">40</i11399>
+				<i11483 name="R.A.M.- Electronics">5</i11483>
+				<i11540 name="Quantum Microprocessor">0</i11540>
+				<i11538 name="Nanomechanical Microprocessor">0</i11538>
+				<i11539 name="Nanoelectrical Microprocessor">0</i11539>
+				<i11541 name="Photon Microprocessor">80</i11541>
+				<i16681 name="Nanotransistors">30</i16681>
+				<i16682 name="Hypersynaptic Fibers">20</i16682>
+				<i9840 name="Transmitters">80</i9840>
+				<i37 name="Isogen">130</i37>
+				<i40 name="Megacyte">10</i40>
+				<i36 name="Mexallon">0</i36>
+				<i38 name="Nocxium">60</i38>
+				<i35 name="Pyerite">0</i35>
+				<i34 name="Tritanium">1060</i34>
+				<i39 name="Zydrine">0</i39>
+				<qty>10</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<mfg_grp>gang</mfg_grp>
+				<flag>module</flag>
 			</i4272>
-			<i4274 name="Mining Foreman Link - Havester Capacitor Efficiency II"><!---->
+			<i4274 name="Mining Foreman Link - Havester Capacitor Efficiency II">
+				<i20417 name="Datacore - Electromagnetic Physics">4</i20417>
+				<i20418 name="Datacore - Electronic Engineering">4</i20418>
+				<MFLHCE name="Mining Foreman Link - Harvester Capacitor Efficiency I" id="22553">10</MFLHCE>
+				<i11399 name="Morphite">40</i11399>
+				<i11483 name="R.A.M.- Electronics">5</i11483>
+				<i11540 name="Quantum Microprocessor">0</i11540>
+				<i11538 name="Nanomechanical Microprocessor">0</i11538>
+				<i11539 name="Nanoelectrical Microprocessor">0</i11539>
+				<i11541 name="Photon Microprocessor">80</i11541>
+				<i16681 name="Nanotransistors">30</i16681>
+				<i16682 name="Hypersynaptic Fibers">20</i16682>
+				<i9840 name="Transmitters">80</i9840>
+				<i37 name="Isogen">130</i37>
+				<i40 name="Megacyte">10</i40>
+				<i36 name="Mexallon">0</i36>
+				<i38 name="Nocxium">60</i38>
+				<i35 name="Pyerite">0</i35>
+				<i34 name="Tritanium">1060</i34>
+				<i39 name="Zydrine">0</i39>
+				<qty>10</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<mfg_grp>gang</mfg_grp>
+				<flag>module</flag>
 			</i4274>
-			<i4276 name="Mining Foreman Link - Laser Optimization II"><!---->
+			<i4276 name="Mining Foreman Link - Laser Optimization II">
+				<i20417 name="Datacore - Electromagnetic Physics">4</i20417>
+				<i20418 name="Datacore - Electronic Engineering">4</i20418>
+				<MFLLO name="Mining Foreman Link - Laser Optimization I" id="22557">10</MFLLO>
+				<i11399 name="Morphite">40</i11399>
+				<i11483 name="R.A.M.- Electronics">5</i11483>
+				<i11540 name="Quantum Microprocessor">0</i11540>
+				<i11538 name="Nanomechanical Microprocessor">0</i11538>
+				<i11539 name="Nanoelectrical Microprocessor">0</i11539>
+				<i11541 name="Photon Microprocessor">80</i11541>
+				<i16681 name="Nanotransistors">30</i16681>
+				<i16682 name="Hypersynaptic Fibers">20</i16682>
+				<i9840 name="Transmitters">80</i9840>
+				<i37 name="Isogen">130</i37>
+				<i40 name="Megacyte">10</i40>
+				<i36 name="Mexallon">0</i36>
+				<i38 name="Nocxium">60</i38>
+				<i35 name="Pyerite">0</i35>
+				<i34 name="Tritanium">1060</i34>
+				<i39 name="Zydrine">0</i39>
+				<qty>10</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<mfg_grp>gang</mfg_grp>
+				<flag>module</flag>
 			</i4276>
-			<i4278 name="Mining Foreman Link - Mining Laser Field Optimization II"><!---->
+			<i4278 name="Mining Foreman Link - Mining Laser Field Enhancement II">
+				<i20417 name="Datacore - Electromagnetic Physics">4</i20417>
+				<i20418 name="Datacore - Electronic Engineering">4</i20418>
+				<MFLMLFO name="Mining Foreman Link - Mining Laser Field Enhancement I" id="22555">10</MFLMLFO>
+				<i11399 name="Morphite">40</i11399>
+				<i11483 name="R.A.M.- Electronics">5</i11483>
+				<i11540 name="Quantum Microprocessor">0</i11540>
+				<i11538 name="Nanomechanical Microprocessor">0</i11538>
+				<i11539 name="Nanoelectrical Microprocessor">0</i11539>
+				<i11541 name="Photon Microprocessor">80</i11541>
+				<i16681 name="Nanotransistors">30</i16681>
+				<i16682 name="Hypersynaptic Fibers">20</i16682>
+				<i9840 name="Transmitters">80</i9840>
+				<i37 name="Isogen">130</i37>
+				<i40 name="Megacyte">10</i40>
+				<i36 name="Mexallon">0</i36>
+				<i38 name="Nocxium">60</i38>
+				<i35 name="Pyerite">0</i35>
+				<i34 name="Tritanium">1060</i34>
+				<i39 name="Zydrine">0</i39>
+				<qty>10</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<mfg_grp>gang</mfg_grp>
+				<flag>module</flag>
 			</i4278>
-			<i4280 name="Siege Warfare Link - Active Shielding II"><!---->
+			<i4280 name="Siege Warfare Link - Active Shielding II">
+				<i20417 name="Datacore - Electromagnetic Physics">4</i20417>
+				<i20418 name="Datacore - Electronic Engineering">4</i20418>
+				<SWLAS name="Siege Warfare Link - Active Shielding I" id="20124">10</SWLAS>
+				<i11399 name="Morphite">40</i11399>
+				<i11483 name="R.A.M.- Electronics">5</i11483>
+				<i11540 name="Quantum Microprocessor">80</i11540>
+				<i11538 name="Nanomechanical Microprocessor">0</i11538>
+				<i11539 name="Nanoelectrical Microprocessor">0</i11539>
+				<i11541 name="Photon Microprocessor">0</i11541>
+				<i16681 name="Nanotransistors">30</i16681>
+				<i16682 name="Hypersynaptic Fibers">20</i16682>
+				<i9840 name="Transmitters">80</i9840>
+				<i37 name="Isogen">130</i37>
+				<i40 name="Megacyte">10</i40>
+				<i36 name="Mexallon">0</i36>
+				<i38 name="Nocxium">60</i38>
+				<i35 name="Pyerite">0</i35>
+				<i34 name="Tritanium">1060</i34>
+				<i39 name="Zydrine">0</i39>
+				<qty>10</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<mfg_grp>gang</mfg_grp>
+				<flag>module</flag>
 			</i4280>
-			<i4282 name="Siege Warfare Link - Shield Efficiency II"><!---->
+			<i4282 name="Siege Warfare Link - Shield Efficiency II">
+				<i20417 name="Datacore - Electromagnetic Physics">4</i20417>
+				<i20418 name="Datacore - Electronic Engineering">4</i20418>
+				<SWLSE name="Siege Warfare Link - Shield Efficiency I" id="22228">10</SWLSE>
+				<i11399 name="Morphite">40</i11399>
+				<i11483 name="R.A.M.- Electronics">5</i11483>
+				<i11540 name="Quantum Microprocessor">80</i11540>
+				<i11538 name="Nanomechanical Microprocessor">0</i11538>
+				<i11539 name="Nanoelectrical Microprocessor">0</i11539>
+				<i11541 name="Photon Microprocessor">0</i11541>
+				<i16681 name="Nanotransistors">30</i16681>
+				<i16682 name="Hypersynaptic Fibers">20</i16682>
+				<i9840 name="Transmitters">80</i9840>
+				<i37 name="Isogen">130</i37>
+				<i40 name="Megacyte">10</i40>
+				<i36 name="Mexallon">0</i36>
+				<i38 name="Nocxium">60</i38>
+				<i35 name="Pyerite">0</i35>
+				<i34 name="Tritanium">1060</i34>
+				<i39 name="Zydrine">0</i39>
+				<qty>10</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<mfg_grp>gang</mfg_grp>
+				<flag>module</flag>
 			</i4282>
-			<i4284 name="Siege Warfare Link - Shield Harmonizing II"><!---->
+			<i4284 name="Siege Warfare Link - Shield Harmonizing II">
+				<i20417 name="Datacore - Electromagnetic Physics">4</i20417>
+				<i20418 name="Datacore - Electronic Engineering">4</i20418>
+				<SWLSH name="Siege Warfare Link - Shield Harmonizing I" id="20514">10</SWLSH>
+				<i11399 name="Morphite">40</i11399>
+				<i11483 name="R.A.M.- Electronics">5</i11483>
+				<i11540 name="Quantum Microprocessor">80</i11540>
+				<i11538 name="Nanomechanical Microprocessor">0</i11538>
+				<i11539 name="Nanoelectrical Microprocessor">0</i11539>
+				<i11541 name="Photon Microprocessor">0</i11541>
+				<i16681 name="Nanotransistors">30</i16681>
+				<i16682 name="Hypersynaptic Fibers">20</i16682>
+				<i9840 name="Transmitters">80</i9840>
+				<i37 name="Isogen">130</i37>
+				<i40 name="Megacyte">10</i40>
+				<i36 name="Mexallon">0</i36>
+				<i38 name="Nocxium">60</i38>
+				<i35 name="Pyerite">0</i35>
+				<i34 name="Tritanium">1060</i34>
+				<i39 name="Zydrine">0</i39>
+				<qty>10</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<mfg_grp>gang</mfg_grp>
+				<flag>module</flag>
 			</i4284>
-			<i4286 name="Skirmish Warfare Link - Evasive Maneuvers II"><!---->
+			<i4286 name="Skirmish Warfare Link - Evasive Maneuvers II">
+				<i20417 name="Datacore - Electromagnetic Physics">4</i20417>
+				<i20418 name="Datacore - Electronic Engineering">4</i20418>
+				<SKWLEM name="Skirmish Warfare Link - Evasive Maneuvers I" id="20070">10</SKWLEM>
+				<i11399 name="Morphite">40</i11399>
+				<i11483 name="R.A.M.- Electronics">5</i11483>
+				<i11540 name="Quantum Microprocessor">0</i11540>
+				<i11538 name="Nanomechanical Microprocessor">80</i11538>
+				<i11539 name="Nanoelectrical Microprocessor">0</i11539>
+				<i11541 name="Photon Microprocessor">0</i11541>
+				<i16681 name="Nanotransistors">30</i16681>
+				<i16682 name="Hypersynaptic Fibers">20</i16682>
+				<i9840 name="Transmitters">80</i9840>
+				<i37 name="Isogen">130</i37>
+				<i40 name="Megacyte">10</i40>
+				<i36 name="Mexallon">0</i36>
+				<i38 name="Nocxium">60</i38>
+				<i35 name="Pyerite">0</i35>
+				<i34 name="Tritanium">1060</i34>
+				<i39 name="Zydrine">0</i39>
+				<qty>10</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<mfg_grp>gang</mfg_grp>
+				<flag>module</flag>
 			</i4286>
-			<i4288 name="Skirmish Warfare Link - Interdiction Maneuvers II"><!---->
+			<i4288 name="Skirmish Warfare Link - Interdiction Maneuvers II">
+				<i20417 name="Datacore - Electromagnetic Physics">4</i20417>
+				<i20418 name="Datacore - Electronic Engineering">4</i20418>
+				<SKWLIM name="Skirmish Warfare Link - Interdiction Maneuvers I" id="11017">10</SKWLIM>
+				<i11399 name="Morphite">40</i11399>
+				<i11483 name="R.A.M.- Electronics">5</i11483>
+				<i11540 name="Quantum Microprocessor">0</i11540>
+				<i11538 name="Nanomechanical Microprocessor">80</i11538>
+				<i11539 name="Nanoelectrical Microprocessor">0</i11539>
+				<i11541 name="Photon Microprocessor">0</i11541>
+				<i16681 name="Nanotransistors">30</i16681>
+				<i16682 name="Hypersynaptic Fibers">20</i16682>
+				<i9840 name="Transmitters">80</i9840>
+				<i37 name="Isogen">130</i37>
+				<i40 name="Megacyte">10</i40>
+				<i36 name="Mexallon">0</i36>
+				<i38 name="Nocxium">60</i38>
+				<i35 name="Pyerite">0</i35>
+				<i34 name="Tritanium">1060</i34>
+				<i39 name="Zydrine">0</i39>
+				<qty>10</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<mfg_grp>gang</mfg_grp>
+				<flag>module</flag>
 			</i4288>
-			<i4290 name="Skirmish Warfare Link - Rapid Deployment II"><!---->
+			<i4290 name="Skirmish Warfare Link - Rapid Deployment II">
+				<i20417 name="Datacore - Electromagnetic Physics">4</i20417>
+				<i20418 name="Datacore - Electronic Engineering">4</i20418>
+				<SKWLRD name="Skirmish Warfare Link - Rapid Deployment I" id="20408">10</SKWLRD>
+				<i11399 name="Morphite">40</i11399>
+				<i11483 name="R.A.M.- Electronics">5</i11483>
+				<i11540 name="Quantum Microprocessor">0</i11540>
+				<i11538 name="Nanomechanical Microprocessor">80</i11538>
+				<i11539 name="Nanoelectrical Microprocessor">0</i11539>
+				<i11541 name="Photon Microprocessor">0</i11541>
+				<i16681 name="Nanotransistors">30</i16681>
+				<i16682 name="Hypersynaptic Fibers">20</i16682>
+				<i9840 name="Transmitters">80</i9840>
+				<i37 name="Isogen">130</i37>
+				<i40 name="Megacyte">10</i40>
+				<i36 name="Mexallon">0</i36>
+				<i38 name="Nocxium">60</i38>
+				<i35 name="Pyerite">0</i35>
+				<i34 name="Tritanium">1060</i34>
+				<i39 name="Zydrine">0</i39>
+				<qty>10</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<mfg_grp>gang</mfg_grp>
+				<flag>module</flag>
 			</i4290>
 		</gang>
 		<weapon><!--LR->SR, large->small-->
