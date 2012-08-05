@@ -1107,7 +1107,7 @@
 				<me>-4</me>
 				<bld_time></bld_time>
 				<mfg_grp>shield</mfg_grp>
-				<flag>NULL</flag>
+				<flag>module</flag>
 			</i2547>
 			<i3608 name="Large Shield Transporter II">
 				<i20171 name="Datacore - Hydromagnetic Physics">6</i20171>
@@ -4931,6 +4931,25 @@
 				<flag>module</flag>
 			</i3017>
 			<i3001 name="Dual Light Pulse Laser II">
+				<i20413 name="Datacore - Laser Physics">2</i20413>
+				<i20411 name="Datacore - High Energy Physics">2</i20411>
+				<i11399 name="Morphite">30</i11399>
+				<DLPL name="Dual Light Pulse Laser I" id="451">10</DLPL>
+				<i11486 name="R.A.M. - Weapon Tech">2</i11486>
+				<i11689 name="Laser Focusing Crystals">40</i11689>
+				<i9848 name="Robotics">30</i9848>
+				<i37 name="Isogen">0</i37>
+				<i40 name="Megacyte">0</i40>
+				<i36 name="Mexallon">30</i36>
+				<i38 name="Nocxium">20</i38>
+				<i35 name="Pyerite">810</i35>
+				<i34 name="Tritanium">2460</i34>
+				<i39 name="Zydrine">20</i39>
+				<qty>10</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<mfg_grp>laser</mfg_grp>
+				<flag>module</flag>
 			</i3001>
 	<!--Hybrid-->
 			<i3090 name="425mm Railgun II">
@@ -5773,32 +5792,284 @@
 				<me>-4</me>
 				<bld_time></bld_time>
 				<mfg_grp>launcher</mfg_grp>
-				<flag>NULL</flag>
+				<flag>module</flag>
 			</i10631>
 	<!--Smartbomb-->
-			<i1565 name="Small EMP Smartbomb II"><!---->
+			<i1565 name="Small EMP Smartbomb II">
+				<i20411 name="Datacore - High Energy Physics">2</i20411>
+				<i20413 name="Datacore - Laser Physics">2</i20413>
+				<SEMPSB name="Small EMP Smartbomb I" id="1563">10</SEMPSB>
+				<i11399 name="Morphite">30</i11399>
+				<i11482 name="R.A.M. - Energy Tech">1</i11482>
+				<i11693 name="Graviton Pulse Generator">0</i11693>
+				<i11692 name="Nuclear Pulse Generator">0</i11692>
+				<i11694 name="EMP Pulse Generator">40</i11694>
+				<i11695 name="Plasma Pulse Generator">0</i11695>
+				<i37 name="Isogen">0</i37>
+				<i40 name="Megacyte">0</i40>
+				<i36 name="Mexallon">1280</i36>
+				<i38 name="Nocxium">80</i38>
+				<i35 name="Pyerite">0</i35>
+				<i34 name="Tritanium">0</i34>
+				<i39 name="Zydrine">30</i39>
+				<qty>10</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<mfg_grp>smartbomb</mfg_grp>
+				<flag>module</flag>
 			</i1565>
-			<i1553 name="Small Graviton Smartbomb II"><!---->
+			<i1553 name="Small Graviton Smartbomb II">
+				<i20411 name="Datacore - High Energy Physics">2</i20411>
+				<i20419 name="Datacore - Graviton Physics">2</i20419>
+				<SGRAVSB name="Small Graviton Smartbomb I" id="1551">10</SGRAVSB>
+				<i11399 name="Morphite">30</i11399>
+				<i11482 name="R.A.M. - Energy Tech">1</i11482>
+				<i11693 name="Graviton Pulse Generator">40</i11693>
+				<i11692 name="Nuclear Pulse Generator">0</i11692>
+				<i11694 name="EMP Pulse Generator">0</i11694>
+				<i11695 name="Plasma Pulse Generator">0</i11695>
+				<i37 name="Isogen">0</i37>
+				<i40 name="Megacyte">0</i40>
+				<i36 name="Mexallon">200</i36>
+				<i38 name="Nocxium">60</i38>
+				<i35 name="Pyerite">0</i35>
+				<i34 name="Tritanium">6240</i34>
+				<i39 name="Zydrine">60</i39>
+				<qty>10</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<mfg_grp>smartbomb</mfg_grp>
+				<flag>module</flag>
 			</i1553>
-			<i1559 name="Small Plasma Smartbomb II"><!---->
+			<i1559 name="Small Plasma Smartbomb II">
+				<i20411 name="Datacore - High Energy Physics">2</i20411>
+				<i20412 name="Datacore - Plasma Physics">2</i20412>
+				<SPLASSB name="Small Plasma Smartbomb I" id="1557">10</SPLASSB>
+				<i11399 name="Morphite">30</i11399>
+				<i11482 name="R.A.M. - Energy Tech">1</i11482>
+				<i11693 name="Graviton Pulse Generator">0</i11693>
+				<i11692 name="Nuclear Pulse Generator">0</i11692>
+				<i11694 name="EMP Pulse Generator">0</i11694>
+				<i11695 name="Plasma Pulse Generator">40</i11695>
+				<i37 name="Isogen">0</i37>
+				<i40 name="Megacyte">0</i40>
+				<i36 name="Mexallon">810</i36>
+				<i38 name="Nocxium">60</i38>
+				<i35 name="Pyerite">0</i35>
+				<i34 name="Tritanium">0</i34>
+				<i39 name="Zydrine">60</i39>
+				<qty>10</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<mfg_grp>smartbomb</mfg_grp>
+				<flag>module</flag>
 			</i1559>
-			<i1549 name="Small Proton Smartbomb II"><!---->
+			<i1549 name="Small Proton Smartbomb II">
+				<i20411 name="Datacore - High Energy Physics">2</i20411>
+				<i20423 name="Datacore - Nuclear Physics">2</i20423>
+				<SPROTSB name="Small Proton Smartbomb I" id="1547">10</SPROTSB>
+				<i11399 name="Morphite">30</i11399>
+				<i11482 name="R.A.M. - Energy Tech">1</i11482>
+				<i11693 name="Graviton Pulse Generator">0</i11693>
+				<i11692 name="Nuclear Pulse Generator">40</i11692>
+				<i11694 name="EMP Pulse Generator">0</i11694>
+				<i11695 name="Plasma Pulse Generator">0</i11695>
+				<i37 name="Isogen">0</i37>
+				<i40 name="Megacyte">0</i40>
+				<i36 name="Mexallon">1410</i36>
+				<i38 name="Nocxium">50</i38>
+				<i35 name="Pyerite">0</i35>
+				<i34 name="Tritanium">7740</i34>
+				<i39 name="Zydrine">20</i39>
+				<qty>10</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<mfg_grp>smartbomb</mfg_grp>
+				<flag>module</flag>
 			</i1549>
-			<i3955 name="Medium EMP Smartbomb II"><!---->
+			<i3955 name="Medium EMP Smartbomb II">
+				<i20411 name="Datacore - High Energy Physics">4</i20411>
+				<i20413 name="Datacore - Laser Physics">4</i20413>
+				<MEMPSB name="Medium EMP Smartbomb I" id="3953">10</MEMPSB>
+				<i11399 name="Morphite">60</i11399>
+				<i11482 name="R.A.M. - Energy Tech">2</i11482>
+				<i11693 name="Graviton Pulse Generator">0</i11693>
+				<i11692 name="Nuclear Pulse Generator">0</i11692>
+				<i11694 name="EMP Pulse Generator">80</i11694>
+				<i11695 name="Plasma Pulse Generator">0</i11695>
+				<i37 name="Isogen">0</i37>
+				<i40 name="Megacyte">0</i40>
+				<i36 name="Mexallon">2630</i36>
+				<i38 name="Nocxium">150</i38>
+				<i35 name="Pyerite">0</i35>
+				<i34 name="Tritanium">0</i34>
+				<i39 name="Zydrine">80</i39>
+				<qty>10</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<mfg_grp>smartbomb</mfg_grp>
+				<flag>module</flag>
 			</i3955>
-			<i3943 name="Medium Graviton Smartbomb II"><!---->
+			<i3943 name="Medium Graviton Smartbomb II">
+				<i20411 name="Datacore - High Energy Physics">4</i20411>
+				<i20419 name="Datacore - Graviton Physics">4</i20419>
+				<MGRAVSB name="Medium Graviton Smartbomb I" id="3941">10</MGRAVSB>
+				<i11399 name="Morphite">60</i11399>
+				<i11482 name="R.A.M. - Energy Tech">2</i11482>
+				<i11693 name="Graviton Pulse Generator">80</i11693>
+				<i11692 name="Nuclear Pulse Generator">0</i11692>
+				<i11694 name="EMP Pulse Generator">0</i11694>
+				<i11695 name="Plasma Pulse Generator">0</i11695>
+				<i37 name="Isogen">0</i37>
+				<i40 name="Megacyte">0</i40>
+				<i36 name="Mexallon">3000</i36>
+				<i38 name="Nocxium">0</i38>
+				<i35 name="Pyerite">0</i35>
+				<i34 name="Tritanium">0</i34>
+				<i39 name="Zydrine">60</i39>
+				<qty>10</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<mfg_grp>smartbomb</mfg_grp>
+				<flag>module</flag>
 			</i3943>
-			<i3949 name="Medium Plasma Smartbomb II"><!---->
+			<i3949 name="Medium Plasma Smartbomb II">
+				<i20411 name="Datacore - High Energy Physics">4</i20411>
+				<i20412 name="Datacore - Plasma Physics">4</i20412>
+				<MPLASSB name="Medium Plasma Smartbomb I" id="3947">10</MPLASSB>
+				<i11399 name="Morphite">60</i11399>
+				<i11482 name="R.A.M. - Energy Tech">2</i11482>
+				<i11693 name="Graviton Pulse Generator">0</i11693>
+				<i11692 name="Nuclear Pulse Generator">0</i11692>
+				<i11694 name="EMP Pulse Generator">0</i11694>
+				<i11695 name="Plasma Pulse Generator">80</i11695>
+				<i37 name="Isogen">0</i37>
+				<i40 name="Megacyte">0</i40>
+				<i36 name="Mexallon">0</i36>
+				<i38 name="Nocxium">0</i38>
+				<i35 name="Pyerite">108000</i35>
+				<i34 name="Tritanium">0</i34>
+				<i39 name="Zydrine">120</i39>
+				<qty>10</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<mfg_grp>smartbomb</mfg_grp>
+				<flag>module</flag>
 			</i3949>
-			<i3939 name="Medium Proton Smartbomb II"><!---->
+			<i3939 name="Medium Proton Smartbomb II">
+				<i20411 name="Datacore - High Energy Physics">4</i20411>
+				<i20423 name="Datacore - Nuclear Physics">4</i20423>
+				<MPROTSB name="Medium Proton Smartbomb I" id="3937">10</MPROTSB>
+				<i11399 name="Morphite">60</i11399>
+				<i11482 name="R.A.M. - Energy Tech">2</i11482>
+				<i11693 name="Graviton Pulse Generator">0</i11693>
+				<i11692 name="Nuclear Pulse Generator">80</i11692>
+				<i11694 name="EMP Pulse Generator">0</i11694>
+				<i11695 name="Plasma Pulse Generator">0</i11695>
+				<i37 name="Isogen">0</i37>
+				<i40 name="Megacyte">0</i40>
+				<i36 name="Mexallon">2940</i36>
+				<i38 name="Nocxium">110</i38>
+				<i35 name="Pyerite">0</i35>
+				<i34 name="Tritanium">0</i34>
+				<i39 name="Zydrine">110</i39>
+				<qty>10</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<mfg_grp>smartbomb</mfg_grp>
+				<flag>module</flag>
 			</i3939>
-			<i3995 name="Large EMP Smartbomb II"><!---->
+			<i3995 name="Large EMP Smartbomb II">
+				<i20411 name="Datacore - High Energy Physics">6</i20411>
+				<i20413 name="Datacore - Laser Physics">6</i20413>
+				<LEMPSB name="Large EMP Smartbomb I" id="3993">10</LEMPSB>
+				<i11399 name="Morphite">120</i11399>
+				<i11482 name="R.A.M. - Energy Tech">4</i11482>
+				<i11693 name="Graviton Pulse Generator">0</i11693>
+				<i11692 name="Nuclear Pulse Generator">0</i11692>
+				<i11694 name="EMP Pulse Generator">160</i11694>
+				<i11695 name="Plasma Pulse Generator">0</i11695>
+				<i37 name="Isogen">0</i37>
+				<i40 name="Megacyte">0</i40>
+				<i36 name="Mexallon">6000</i36>
+				<i38 name="Nocxium">260</i38>
+				<i35 name="Pyerite">0</i35>
+				<i34 name="Tritanium">0</i34>
+				<i39 name="Zydrine">210</i39>
+				<qty>10</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<mfg_grp>smartbomb</mfg_grp>
+				<flag>module</flag>
 			</i3995>
-			<i3983 name="Large Graviton Smartbomb II"><!---->
+			<i3983 name="Large Graviton Smartbomb II">
+				<i20411 name="Datacore - High Energy Physics">6</i20411>
+				<i20419 name="Datacore - Graviton Physics">6</i20419>
+				<LGRAVSB name="Large Graviton Smartbomb I" id="3981">10</LGRAVSB>
+				<i11399 name="Morphite">120</i11399>
+				<i11482 name="R.A.M. - Energy Tech">4</i11482>
+				<i11693 name="Graviton Pulse Generator">160</i11693>
+				<i11692 name="Nuclear Pulse Generator">0</i11692>
+				<i11694 name="EMP Pulse Generator">0</i11694>
+				<i11695 name="Plasma Pulse Generator">0</i11695>
+				<i37 name="Isogen">0</i37>
+				<i40 name="Megacyte">0</i40>
+				<i36 name="Mexallon">6000</i36>
+				<i38 name="Nocxium">0</i38>
+				<i35 name="Pyerite">0</i35>
+				<i34 name="Tritanium">335400</i34>
+				<i39 name="Zydrine">140</i39>
+				<qty>10</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<mfg_grp>smartbomb</mfg_grp>
+				<flag>module</flag>
 			</i3983>
-			<i3989 name="Large Plasma Smartbomb II"><!---->
+			<i3989 name="Large Plasma Smartbomb II">
+				<i20411 name="Datacore - High Energy Physics">6</i20411>
+				<i20412 name="Datacore - Plasma Physics">6</i20412>
+				<LPLASSB name="Large Plasma Smartbomb I" id="3987">10</LPLASSB>
+				<i11399 name="Morphite">120</i11399>
+				<i11482 name="R.A.M. - Energy Tech">4</i11482>
+				<i11693 name="Graviton Pulse Generator">0</i11693>
+				<i11692 name="Nuclear Pulse Generator">0</i11692>
+				<i11694 name="EMP Pulse Generator">0</i11694>
+				<i11695 name="Plasma Pulse Generator">160</i11695>
+				<i37 name="Isogen">0</i37>
+				<i40 name="Megacyte">0</i40>
+				<i36 name="Mexallon">0</i36>
+				<i38 name="Nocxium">0</i38>
+				<i35 name="Pyerite">22680</i35>
+				<i34 name="Tritanium">0</i34>
+				<i39 name="Zydrine">230</i39>
+				<qty>10</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<mfg_grp>smartbomb</mfg_grp>
+				<flag>module</flag>
 			</i3989>
-			<i3979 name="Large Proton Smartbomb II"><!---->
+			<i3979 name="Large Proton Smartbomb II">
+				<i20411 name="Datacore - High Energy Physics">6</i20411>
+				<i20423 name="Datacore - Nuclear Physics">6</i20423>
+				<LPROTSB name="Large Proton Smartbomb I" id="3977">10</LPROTSB>
+				<i11399 name="Morphite">120</i11399>
+				<i11482 name="R.A.M. - Energy Tech">4</i11482>
+				<i11693 name="Graviton Pulse Generator">0</i11693>
+				<i11692 name="Nuclear Pulse Generator">160</i11692>
+				<i11694 name="EMP Pulse Generator">0</i11694>
+				<i11695 name="Plasma Pulse Generator">0</i11695>
+				<i37 name="Isogen">0</i37>
+				<i40 name="Megacyte">0</i40>
+				<i36 name="Mexallon">2790</i36>
+				<i38 name="Nocxium">290</i38>
+				<i35 name="Pyerite">0</i35>
+				<i34 name="Tritanium">0</i34>
+				<i39 name="Zydrine">150</i39>
+				<qty>10</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<mfg_grp>smartbomb</mfg_grp>
+				<flag>module</flag>
 			</i3979>
 		</weapon>
 		<!--ammo>
