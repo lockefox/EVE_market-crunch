@@ -1112,5 +1112,34 @@
 				<i39 name="Zydrine">404</i39>
 			</i17478>
 		</exhum>
+		<industrial>
+			<i651 name="Hoarder" id="HORD">
+				<i37 name="Isogen">508</i37>
+				<i40 name="Megacyte">3</i40>
+				<i36 name="Mexallon">3674</i36>
+				<i38 name="Nocxium">164</i38>
+				<i35 name="Pyerite">8638</i35>
+				<i34 name="Tritanium">32974</i34>
+				<i39 name="Zydrine">13</i39>
+			</i651>
+			<i652 name="Mammoth" id="MMTH">
+				<i37 name="Isogen">1105</i37>
+				<i40 name="Megacyte">8</i40>
+				<i36 name="Mexallon">6521</i36>
+				<i38 name="Nocxium">302</i38>
+				<i35 name="Pyerite">16908</i35>
+				<i34 name="Tritanium">65810</i34>
+				<i39 name="Zydrine">50</i39>
+			</i652>
+			<i653 name="Wreathe" id="WRTH">
+				<i37 name="Isogen">319</i37>
+				<i40 name="Megacyte">0</i40>
+				<i36 name="Mexallon">2197</i36>
+				<i38 name="Nocxium">119</i38>
+				<i35 name="Pyerite">5531</i35>
+				<i34 name="Tritanium">20572</i34>
+				<i39 name="Zydrine">32</i39>
+			</i653>
+		</industrial>
 	</ships>
 </root>
