@@ -4511,7 +4511,7 @@
 				<i11557 name="Linear Shield Emitter">440</i11557>
 				<i11543 name="Tungsten Carbide Armor Plate">7200</i11543>
 				<i37 name="Isogen">0</i37>
-				<i40 name="Megacyte">21</i40>
+				<i40 name="Megacyte">0</i40>
 				<i36 name="Mexallon">0</i36>
 				<i38 name="Nocxium">0</i38>
 				<i35 name="Pyerite">0</i35>
@@ -4872,7 +4872,7 @@
 				<COV name="Covetor" id="17476">1</COV>
 				<i11399 name="Morphite">108</i11399>
 				<i11478 name="R.A.M. - Starship Tech">9.5</i11478>
-				<i3828 name="Construction Blocks">75</i3828>
+				<i3828 name="Construction Blocks">125</i3828>
 				<i11545 name="Crystalline Carbonite Armor Plates">3000</i11545>
 				<i11553 name="Oscillator Capacitor Unit">600</i11553>
 				<i11541 name="Photon Microprocessor">3000</i11541>
@@ -4887,26 +4887,44 @@
 				<flag>ship</flag>
 			</i22544>
 			<i22548 name="Mackinaw">
-				<i20410 name="Datacore - Gallentean Starship Engineering">32</i20410>
-				<i20424 name="Datacore - Mechanical Engineering">32</i20424>
+				<i20410 name="Datacore - Gallentean Starship Engineering">25.4</i20410>
+				<i20424 name="Datacore - Mechanical Engineering">25.4</i20424>
 				<RET name="Retriever" id="17478">1</RET>
-				<i11399 name="Morphite">81</i11399>
+				<i11399 name="Morphite">88</i11399>
 				<i11478 name="R.A.M. - Starship Tech">7.6</i11478>
-				<i3828 name="Construction Blocks">75</i3828>
-				<i11545 name="Crystalline Carbonite Armor Plates">1500</i11545>
-				<i11553 name="Oscillator Capacitor Unit">300</i11553>
-				<i11541 name="Photon Microprocessor">1800</i11541>
-				<i11547 name="Fusion Reactor Unit">23</i11547>
-				<i11535 name="Magnetometric Sensor Cluster">188</i11535>
-				<i11556 name="Pulse Shield Emitter">188</i11556>
-				<i11531 name="Ion Thruster">30</i11531>
+				<i3828 name="Construction Blocks">110</i3828>
+				<i11545 name="Crystalline Carbonite Armor Plates">2200</i11545>
+				<i11553 name="Oscillator Capacitor Unit">440</i11553>
+				<i11541 name="Photon Microprocessor">2300</i11541>
+				<i11547 name="Fusion Reactor Unit">34</i11547>
+				<i11535 name="Magnetometric Sensor Cluster">191</i11535>
+				<i11556 name="Pulse Shield Emitter">191</i11556>
+				<i11531 name="Ion Thruster">34</i11531>
 				<qty>1</qty>
 				<me>-4</me>
 				<bld_time></bld_time>
 				<mfg_grp>exhum</mfg_grp>
 				<flag>ship</flag>
 			</i22548>
-			<i22546 name="Skiff"><!---->
+			<i22546 name="Skiff">
+				<i20410 name="Datacore - Gallentean Starship Engineering">21</i20410>
+				<i20424 name="Datacore - Mechanical Engineering">21</i20424>
+				<PROC name="Procurer" id="17480">1</PROC>
+				<i11399 name="Morphite">68</i11399>
+				<i11478 name="R.A.M. - Starship Tech">5.7</i11478>
+				<i3828 name="Construction Blocks">95</i3828>
+				<i11545 name="Crystalline Carbonite Armor Plates">1650</i11545>
+				<i11553 name="Oscillator Capacitor Unit">330</i11553>
+				<i11541 name="Photon Microprocessor">1700</i11541>
+				<i11547 name="Fusion Reactor Unit">25</i11547>
+				<i11535 name="Magnetometric Sensor Cluster">155</i11535>
+				<i11556 name="Pulse Shield Emitter">155</i11556>
+				<i11531 name="Ion Thruster">33</i11531>
+				<qty>1</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<mfg_grp>exhum</mfg_grp>
+				<flag>ship</flag>
 			</i22546>
 		</exhum>
 		<mining>
