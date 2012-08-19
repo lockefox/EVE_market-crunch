@@ -4474,7 +4474,7 @@
 				<i20424 name="Datacore - Mechanical Engineering">25.4</i20424>
 				<i11399 name="Morphite">150</i11399>
 				<i11478 name="R.A.M. Starship Tech">13.3</i11478>
-				<COER name="Coercer" id="16236">1</MALL>
+				<MALL name="Maller" id="624">1</MALL>
 				<i3828 name="Construction Blocks">23</i3828>
 				<i11537 name="Radar Sensor Cluster">75</i11537>
 				<i11549 name="Antimatter Reactor Unit">15</i11549>
@@ -4501,7 +4501,7 @@
 				<i20424 name="Datacore - Mechanical Engineering">10.6</i20424>
 				<i11399 name="Morphite">15</i11399>
 				<i11478 name="R.A.M. Starship Tech">5.7</i11478>
-				<MALL name="Maller" id="624">1</MALL>
+				<COER name="Coercer" id="16236">1</COER>
 				<i3828 name="Construction Blocks">23</i3828>
 				<i11537 name="Radar Sensor Cluster">192</i11537>
 				<i11549 name="Antimatter Reactor Unit">56</i11549>
