@@ -3580,7 +3580,7 @@
 				<i20424 name="Datacore - Mechanical Engineering">127</i20424>
 				<i11399 name="Morphite">975</i11399>
 				<i11478 name="R.A.M. Starship Tech">19</i11478>
-				<MAEL name="Maelstrom" id="24694">1</MAEL>
+				<TMPST name="Tempest" id="639">1</TMPST>
 				<i3828 name="Construction Blocks">450</i3828>
 				<i11542 name="Fernite Carbide Composite Armor Plate">37500</i11542>
 				<i11551 name="Electrolytic Capacitor Unit">3000</i11551>
@@ -3600,7 +3600,7 @@
 				<i20424 name="Datacore - Mechanical Engineering">127</i20424>
 				<i11399 name="Morphite">900</i11399>
 				<i11478 name="R.A.M. Starship Tech">20</i11478>
-				<TYPH name="Maelstrom" id="644">1</TYPH>
+				<TYPH name="Typhoon" id="644">1</TYPH>
 				<i3828 name="Construction Blocks">450</i3828>
 				<i11542 name="Fernite Carbide Composite Armor Plate">18750</i11542>
 				<i11551 name="Electrolytic Capacitor Unit">2250</i11551>
@@ -3873,11 +3873,66 @@
 				<flag>frig</flag>
 				<class>Stealth Bomber</class>
 			</i12032>
-			<i12011 name="Eagle"><!---->
+			<i12011 name="Eagle">
+				<i25887 name="Datacore - Caldari Starship Engineering">25.4</i25887>
+				<i20424 name="Datacore - Mechanical Engineering">25.4</i20424>
+				<i11399 name="Morphite">150</i11399>
+				<i11478 name="R.A.M. Starship Tech">11.4</i11478>
+				<MOA name="Moa" id="623">1</MOA>
+				<i3828 name="Construction Blocks">188</i3828>
+				<i29107 name="Titanium Diborite Armor Plate">5625</i29107>
+				<i11552 name="Scalar Capacitor Unit">600</i11552>
+				<i11540 name="Quantum Microprocessor">1350</i11540>
+				<i11550 name="Graviton Reactor Unit">45</i11550>
+				<i11534 name="Gravimetric Sensor Cluster">165</i11534>
+				<i11558 name="Sustained Shield Emitter">450</i11558>
+				<i11533 name="Magpulse Thruster">75</i11533>
+				<qty>1</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<flag>cruiser</flag>
+				<class>HAC</class>
 			</i12011>
-			<i11993 name="Cerberus"><!---->
+			<i11993 name="Cerberus">
+				<i25887 name="Datacore - Caldari Starship Engineering">25.4</i25887>
+				<i20424 name="Datacore - Mechanical Engineering">25.4</i20424>
+				<i11399 name="Morphite">150</i11399>
+				<i11478 name="R.A.M. Starship Tech">11.4</i11478>
+				<CARC name="Moa" id="621">1</CARC>
+				<i3828 name="Construction Blocks">150</i3828>
+				<i29107 name="Titanium Diborite Armor Plate">5625</i29107>
+				<i11552 name="Scalar Capacitor Unit">450</i11552>
+				<i11540 name="Quantum Microprocessor">1350</i11540>
+				<i11550 name="Graviton Reactor Unit">45</i11550>
+				<i11534 name="Gravimetric Sensor Cluster">398</i11534>
+				<i11558 name="Sustained Shield Emitter">450</i11558>
+				<i11533 name="Magpulse Thruster">75</i11533>
+				<qty>1</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<flag>cruiser</flag>
+				<class>HAC</class>
 			</i11993>
-			<i11959 name="Rook"><!---->
+			<i11959 name="Rook">
+				<i25887 name="Datacore - Caldari Starship Engineering">25.4</i25887>
+				<i20424 name="Datacore - Mechanical Engineering">25.4</i20424>
+				<i11399 name="Morphite">150</i11399>
+				<i11478 name="R.A.M. Starship Tech">11.4</i11478>
+				<BBIRD name="Blackbird" id="632">1</BBIRD>
+				<i3828 name="Construction Blocks">75</i3828>
+				<i29107 name="Titanium Diborite Armor Plate">3750</i29107>
+				<i11552 name="Scalar Capacitor Unit">375</i11552>
+				<i11540 name="Quantum Microprocessor">1800</i11540>
+				<i11550 name="Graviton Reactor Unit">30</i11550>
+				<i11534 name="Gravimetric Sensor Cluster">495</i11534>
+				<i11558 name="Sustained Shield Emitter">300</i11558>
+				<i11533 name="Magpulse Thruster">60</i11533>
+				<i40 name="Megacyte">14</i40>
+				<qty>1</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<flag>cruiser</flag>
+				<class>recon</class>
 			</i11959>
 			<i11957 name="Falcon">
 				<i25887 name="Datacore - Caldari Starship Engineering">25.4</i25887>
@@ -3885,41 +3940,242 @@
 				<i11399 name="Morphite">150</i11399>
 				<i11478 name="R.A.M. Starship Tech">11.4</i11478>
 				<BBIRD name="Blackbird" id="632">1</BBIRD>
-				<i3828 name="Construction Blocks">30</i3828>
-				<i29107 name="Titanium Diborite Armor Plate">300</i29107>
-				<i11552 name="Scalar Capacitor Unit">60</i11552>
-				<i11540 name="Quantum Microprocessor">180</i11540>
-				<i11550 name="Graviton Reactor Unit">6</i11550>
-				<i11534 name="Gravimetric Sensor Cluster">60</i11534>
-				<i11558 name="Sustained Shield Emitter">15</i11558>
-				<i11533 name="Magpulse Thruster">30</i11533>
-				<i37 name="Isogen">201</i37>
-				<i40 name="Megacyte">6</i40>
-				<i36 name="Mexallon">761</i36>
-				<i38 name="Nocxium">2</i38>
-				<i35 name="Pyerite">0</i35>
-				<i34 name="Tritanium">1122</i34>
-				<i39 name="Zydrine">6</i39>
+				<i3828 name="Construction Blocks">75</i3828>
+				<i29107 name="Titanium Diborite Armor Plate">3750</i29107>
+				<i11552 name="Scalar Capacitor Unit">375</i11552>
+				<i11540 name="Quantum Microprocessor">1800</i11540>
+				<i11550 name="Graviton Reactor Unit">30</i11550>
+				<i11534 name="Gravimetric Sensor Cluster">495</i11534>
+				<i11558 name="Sustained Shield Emitter">300</i11558>
+				<i11533 name="Magpulse Thruster">57</i11533>
 				<qty>1</qty>
 				<me>-4</me>
 				<bld_time></bld_time>
 				<flag>cruiser</flag>
-				<class>Stealth Bomber</class>
+				<class>recon</class>
 			</i11957>
-			<i11995 name="Onyx"><!---->
+			<i11995 name="Onyx">
+				<i25887 name="Datacore - Caldari Starship Engineering">25.4</i25887>
+				<i20424 name="Datacore - Mechanical Engineering">25.4</i20424>
+				<i11399 name="Morphite">150</i11399>
+				<i11478 name="R.A.M. Starship Tech">13.3</i11478>
+				<MOA name="Moa" id="623">1</MOA>
+				<i3828 name="Construction Blocks">188</i3828>
+				<i29107 name="Titanium Diborite Armor Plate">6750</i29107>
+				<i11552 name="Scalar Capacitor Unit">660</i11552>
+				<i11540 name="Quantum Microprocessor">2970</i11540>
+				<i11550 name="Graviton Reactor Unit">53</i11550>
+				<i11534 name="Gravimetric Sensor Cluster">180</i11534>
+				<i11558 name="Sustained Shield Emitter">413</i11558>
+				<i11533 name="Magpulse Thruster">105</i11533>
+				<qty>1</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<flag>cruiser</flag>
+				<class>hictor</class>
 			</i11995>
-			<i22464 name="Flycatcher"><!---->
+			<i22464 name="Flycatcher">
+				<i25887 name="Datacore - Caldari Starship Engineering">10.6</i25887>
+				<i20424 name="Datacore - Mechanical Engineering">10.6</i20424>
+				<i11399 name="Morphite">15</i11399>
+				<i11478 name="R.A.M. Starship Tech">5.7</i11478>
+				<CORM name="Cormorant" id="16238">1</CORM>
+				<i3828 name="Construction Blocks">23</i3828>
+				<i29107 name="Titanium Diborite Armor Plate">1500</i29107>
+				<i11552 name="Scalar Capacitor Unit">150</i11552>
+				<i11540 name="Quantum Microprocessor">360</i11540>
+				<i11550 name="Graviton Reactor Unit">15</i11550>
+				<i11534 name="Gravimetric Sensor Cluster">75</i11534>
+				<i11558 name="Sustained Shield Emitter">38</i11558>
+				<i11533 name="Magpulse Thruster">60</i11533>
+				<qty>1</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<flag>destroyer</flag>
+				<class>dictor</class>
 			</i22464>
-			<i11985 name="Basilisk"><!---->
+			<i11985 name="Basilisk">
+				<i25887 name="Datacore - Caldari Starship Engineering">25.4</i25887>
+				<i20424 name="Datacore - Mechanical Engineering">25.4</i20424>
+				<i11399 name="Morphite">90</i11399>
+				<i11478 name="R.A.M. Starship Tech">7.6</i11478>
+				<OSP name="Osprey" id="620">1</OSP>
+				<i3828 name="Construction Blocks">75</i3828>
+				<i11534 name="Gravimetric Sensor Cluster">263</i11534>
+				<i11550 name="Graviton Reactor Unit">23</i11550>
+				<i11533 name="Magpulse Thruster">75</i11533>
+				<i11540 name="Quantum Microprocessor">1800</i11540>
+				<i11552 name="Scalar Capacitor Unit">750</i11552>
+				<i11558 name="Sustained Shield Emitter">150</i11558>
+				<i29107 name="Titanium Diborite Armor Plate">2250</i29107>
+				<i37 name="Isogen">0</i37>
+				<i40 name="Megacyte">0</i40>
+				<i36 name="Mexallon">4911</i36>
+				<i38 name="Nocxium">2817</i38>
+				<i35 name="Pyerite">0</i35>
+				<i34 name="Tritanium">0</i34>
+				<i39 name="Zydrine">47</i39>
+				<qty>1</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<flag>cruiser</flag>
+				<class>logi</class>
 			</i11985>
-			<i22470 name="Nighthawk"><!---->
+			<i22470 name="Nighthawk">
+				<i25887 name="Datacore - Caldari Starship Engineering">63.5</i25887>
+				<i20424 name="Datacore - Mechanical Engineering">63.5</i20424>
+				<i11399 name="Morphite">300</i11399>
+				<i11478 name="R.A.M. Starship Tech">14.25</i11478>
+				<FROX name="Ferox" id="16227">1</FROX>
+				<i3828 name="Construction Blocks">300</i3828>
+				<i11534 name="Gravimetric Sensor Cluster">450</i11534>
+				<i11550 name="Graviton Reactor Unit">60</i11550>
+				<i11533 name="Magpulse Thruster">120</i11533>
+				<i11540 name="Quantum Microprocessor">1800</i11540>
+				<i11552 name="Scalar Capacitor Unit">975</i11552>
+				<i11558 name="Sustained Shield Emitter">570</i11558>
+				<i29107 name="Titanium Diborite Armor Plate">11250</i29107>
+				<qty>1</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<flag>bc</flag>
+				<class>command</class>
 			</i22470>
-			<i22446 name="Vulture"><!---->
+			<i22446 name="Vulture">
+				<i25887 name="Datacore - Caldari Starship Engineering">63.5</i25887>
+				<i20424 name="Datacore - Mechanical Engineering">63.5</i20424>
+				<i11399 name="Morphite">300</i11399>
+				<i11478 name="R.A.M. Starship Tech">14.25</i11478>
+				<FROX name="Ferox" id="16227">1</FROX>
+				<i3828 name="Construction Blocks">375</i3828>
+				<i11534 name="Gravimetric Sensor Cluster">450</i11534>
+				<i11550 name="Graviton Reactor Unit">53</i11550>
+				<i11533 name="Magpulse Thruster">120</i11533>
+				<i11540 name="Quantum Microprocessor">2100</i11540>
+				<i11552 name="Scalar Capacitor Unit">900</i11552>
+				<i11558 name="Sustained Shield Emitter">600</i11558>
+				<i29107 name="Titanium Diborite Armor Plate">10500</i29107>
+				<qty>1</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<flag>bc</flag>
+				<class>command</class>
 			</i22446>
-			<i28710 name="Golem"><!---->
+			<i28710 name="Golem">
+				<i25887 name="Datacore - Caldari Starship Engineering">127</i25887>
+				<i20424 name="Datacore - Mechanical Engineering">127</i20424>
+				<i11399 name="Morphite">863</i11399>
+				<i11478 name="R.A.M. Starship Tech">19</i11478>
+				<RVN name="Raven" id="638">1</RVN>
+				<i3828 name="Construction Blocks">450</i3828>
+				<i11534 name="Gravimetric Sensor Cluster">863</i11534>
+				<i11550 name="Graviton Reactor Unit">225</i11550>
+				<i11533 name="Magpulse Thruster">375</i11533>
+				<i11540 name="Quantum Microprocessor">6000</i11540>
+				<i11552 name="Scalar Capacitor Unit">3000</i11552>
+				<i11558 name="Sustained Shield Emitter">3795</i11558>
+				<i29107 name="Titanium Diborite Armor Plate">37500</i29107>
+				<qty>1</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<flag>bs</flag>
+				<class>marauder</class>
 			</i28710>
-			<i22436 name="Widow"><!---->
+			<i22436 name="Widow">
+				<i25887 name="Datacore - Caldari Starship Engineering">127</i25887>
+				<i20424 name="Datacore - Mechanical Engineering">127</i20424>
+				<i11399 name="Morphite">900</i11399>
+				<i11478 name="R.A.M. Starship Tech">19</i11478>
+				<SCORP name="Raven" id="640">1</SCORP>
+				<i3828 name="Construction Blocks">450</i3828>
+				<i11534 name="Gravimetric Sensor Cluster">900</i11534>
+				<i11550 name="Graviton Reactor Unit">150</i11550>
+				<i11533 name="Magpulse Thruster">225</i11533>
+				<i11540 name="Quantum Microprocessor">6300</i11540>
+				<i11552 name="Scalar Capacitor Unit">2250</i11552>
+				<i11558 name="Sustained Shield Emitter">1634</i11558>
+				<i29107 name="Titanium Diborite Armor Plate">18750</i29107>
+				<qty>1</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<flag>bs</flag>
+				<class>black ops</class>
 			</i22436>
+			<i12731 name="Bustard">
+				<i25887 name="Datacore - Caldari Starship Engineering">25.4</i25887>
+				<i20424 name="Datacore - Mechanical Engineering">25.4</i20424>
+				<i11399 name="Morphite">105</i11399>
+				<i11478 name="R.A.M. Starship Tech">9.5</i11478>
+				<BDGR2 name="Badger Mk II" id="649">1</BDGR2>
+				<i3828 name="Construction Blocks">225</i3828>
+				<i11534 name="Gravimetric Sensor Cluster">135</i11534>
+				<i11550 name="Graviton Reactor Unit">45</i11550>
+				<i11533 name="Magpulse Thruster">75</i11533>
+				<i11540 name="Quantum Microprocessor">1800</i11540>
+				<i11552 name="Scalar Capacitor Unit">300</i11552>
+				<i11558 name="Sustained Shield Emitter">375</i11558>
+				<i29107 name="Titanium Diborite Armor Plate">5250</i29107>
+				<i37 name="Isogen">0</i37>
+				<i40 name="Megacyte">18</i40>
+				<i36 name="Mexallon">3708</i36>
+				<i38 name="Nocxium">642</i38>
+				<i35 name="Pyerite">52658</i35>
+				<i34 name="Tritanium">152924</i34>
+				<i39 name="Zydrine">305</i39>
+				<qty>1</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<flag>industrial</flag>
+				<class>transport</class>
+			</i12731>
+			<i12729 name="Crane">
+				<i25887 name="Datacore - Caldari Starship Engineering">25.4</i25887>
+				<i20424 name="Datacore - Mechanical Engineering">25.4</i20424>
+				<i11399 name="Morphite">105</i11399>
+				<i11478 name="R.A.M. Starship Tech">9.5</i11478>
+				<BDGR name="Badger" id="648">1</BDGR>
+				<i3828 name="Construction Blocks">113</i3828>
+				<i11534 name="Gravimetric Sensor Cluster">90</i11534>
+				<i11550 name="Graviton Reactor Unit">38</i11550>
+				<i11533 name="Magpulse Thruster">113</i11533>
+				<i11540 name="Quantum Microprocessor">1200</i11540>
+				<i11552 name="Scalar Capacitor Unit">225</i11552>
+				<i11558 name="Sustained Shield Emitter">150</i11558>
+				<i29107 name="Titanium Diborite Armor Plate">3000</i29107>
+				<i37 name="Isogen">0</i37>
+				<i40 name="Megacyte">18</i40>
+				<i36 name="Mexallon">4479</i36>
+				<i38 name="Nocxium">417</i38>
+				<i35 name="Pyerite">35190</i35>
+				<i34 name="Tritanium">109850</i34>
+				<i39 name="Zydrine">149</i39>
+				<qty>1</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<flag>industrial</flag>
+				<class>transport</class>
+			</i12729>
+			<i28844 name="Rhea">
+				<i25887 name="Datacore - Caldari Starship Engineering">154</i25887>
+				<i20424 name="Datacore - Mechanical Engineering">154</i20424>
+				<i21573 name="Tuning Instructions">3</i21573>
+				<i11399 name="Morphite">3000</i11399>
+				<i11478 name="R.A.M. Starship Tech">38</i11478>
+				<CHARON name="Charon" id="20185">1</CHARON>
+				<i3828 name="Construction Blocks">1800</i3828>
+				<i29055 name="Capital Gravimetric Sensor Cluster">532</i29055>
+				<i29059 name="Capital Graviton Reactor Unit">622</i29059>
+				<i29071 name="Capital Magpulse Thruster">506</i29071>
+				<i29093 name="Capital Quantum Microprocessor">845</i29093>
+				<i29101 name="Capital Sustained Shield Emitter">539</i29101>
+				<i29107 name="Capital Titanium Diborite Armor Plate">1216</i29107>
+				<i21025 name="Capital Jump Drive">24</i21025>
+				<qty>1</qty>
+				<me>-1</me>
+				<bld_time></bld_time>
+				<flag>capital</flag>
+				<class>jump freighter</class>
+			</i28844>
 	<!--Amarr-->
 			<i11188 name="Anathema"><!---->
 			</i11188>
