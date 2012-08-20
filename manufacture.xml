@@ -7365,8 +7365,50 @@
 				<flag>module</flag>
 			</i3979>
 		</weapon>
-		<!--ammo>
-		</ammo-->
+		<ammo>
+			<i12828 name="Gleam L">
+			
+			</i12828>
+			<i12824 name="Aurora L">
+			
+			</i12824>
+			<i12820 name="Scorch L">
+			
+			</i12820>
+			<i12820_dec1 name="Scorch L">
+			
+			</i12820_dec1>
+			<i12820_dec2 name="Scorch L">
+			
+			</i12820_dec2>
+			<i12816 name="Conflaguration L">
+			
+			</i12816>
+			<i12826 name="Gleam M">
+			
+			</i12826>
+			<i12822 name="Aurora M">
+			
+			</i12822>
+			<i12818 name="Scorch M">
+			
+			</i12818>
+			<i12814 name="Conflaguration M">
+			
+			</i12814>
+			<i12557 name="Gleam S">
+			
+			</i12557>
+			<i12559 name="Aurora S">
+			
+			</i12559>
+			<i12563 name="Scorch S">
+			
+			</i12563>
+			<i12565 name="Conflaguration S">
+			
+			</i12565>
+		</ammo>
 	</T2>
 	<capitals>
 		<carrier>
