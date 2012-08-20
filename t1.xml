@@ -1172,6 +1172,33 @@
 				<i34 name="Tritanium">13414793</i34>
 				<i39 name="Zydrine">8157</i39>
 			</i24692>
+			<i645 name="Dominix" id="DOMI">
+				<i37 name="Isogen"></i37>
+				<i40 name="Megacyte"></i40>
+				<i36 name="Mexallon"></i36>
+				<i38 name="Nocxium"></i38>
+				<i35 name="Pyerite"></i35>
+				<i34 name="Tritanium"></i34>
+				<i39 name="Zydrine"></i39>
+			</i645>
+			<i641 name="Megathron" id="MEGA">
+				<i37 name="Isogen"></i37>
+				<i40 name="Megacyte"></i40>
+				<i36 name="Mexallon"></i36>
+				<i38 name="Nocxium"></i38>
+				<i35 name="Pyerite"></i35>
+				<i34 name="Tritanium"></i34>
+				<i39 name="Zydrine"></i39>
+			</i641>
+			<i24690 name="Hyperion" id="HYPR">
+				<i37 name="Isogen"></i37>
+				<i40 name="Megacyte"></i40>
+				<i36 name="Mexallon"></i36>
+				<i38 name="Nocxium"></i38>
+				<i35 name="Pyerite"></i35>
+				<i34 name="Tritanium"></i34>
+				<i39 name="Zydrine"></i39>
+			</i24690>
 		</bs>
 		<exhum>
 			<i17476 name="Covetor" id="COV">
@@ -1266,6 +1293,21 @@
 				<i34 name="Tritanium">32891</i34>
 				<i39 name="Zydrine">37</i39>
 			</i1944>
+			<i650 name="Iteron" id="ITER">
+			
+			</i650>
+			<i654 name="Iteron Mark II">
+			
+			</i654>
+			<i655 name="Iteron Mark III" id="ITER3">
+			
+			</i655>
+			<i656 name="Iteron Mark IV">
+			
+			</i656>
+			<i657 name="Iteron Mark V">
+			
+			</i657>
 		</industrial>
 	</ships>
 </root>
