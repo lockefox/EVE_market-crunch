@@ -7408,6 +7408,136 @@
 			<i12565 name="Conflaguration S">
 			
 			</i12565>
+			<i12791 name="Void L">
+				<i20417 name="Datacore - Electromagnetic Physics">2</i20417>
+				<i20412 name="Datacore - Plasma Physics">2</i20412>
+				<i11399 name="Morphite">150</i11399>
+				<i11476 name="R.A.M.- Ammunition Tech">6.5</i11476>
+				<i16679 name="Fullerides">6000</i16679>
+				<i16670 name="Crystalline Carbonite">6000</i16670>
+				<i37 name="Isogen">0</i37>
+				<i40 name="Megacyte">450</i40>
+				<i36 name="Mexallon">300</i36>
+				<i38 name="Nocxium">0</i38>
+				<i35 name="Pyerite">300</i35>
+				<i34 name="Tritanium">150000</i34>
+				<i39 name="Zydrine">1800</i39>
+				<qty>50000</qty>
+				<flag>ammo</flag>
+				<me>-4</me>
+			</i12791>
+			<i12791_dec1 name="Void L">
+				<i20417 name="Datacore - Electromagnetic Physics">1.8</i20417>
+				<i20412 name="Datacore - Plasma Physics">1.8</i20412>
+				<i23183 name="Collision Measurements">1.8</i23183>
+				<i11399 name="Morphite">120</i11399>
+				<i11476 name="R.A.M.- Ammunition Tech">6.5</i11476>
+				<i16679 name="Fullerides">4800</i16679>
+				<i16670 name="Crystalline Carbonite">4800</i16670>
+				<i37 name="Isogen">0</i37>
+				<i40 name="Megacyte">360</i40>
+				<i36 name="Mexallon">240</i36>
+				<i38 name="Nocxium">0</i38>
+				<i35 name="Pyerite">240</i35>
+				<i34 name="Tritanium">120000</i34>
+				<i39 name="Zydrine">1440</i39>
+				<qty>50000</qty>
+				<flag>ammo</flag>
+				<me>-1</me>
+			</i12791_dec1>
+			<i12791_dec2 name="Void L">
+				<i20417 name="Datacore - Electromagnetic Physics">1.65</i20417>
+				<i20412 name="Datacore - Plasma Physics">1.65</i20412>
+				<i23184 name="Test Reports">1.65</i23184>
+				<i11399 name="Morphite">130</i11399>
+				<i11476 name="R.A.M.- Ammunition Tech">6.5</i11476>
+				<i16679 name="Fullerides">5200</i16679>
+				<i16670 name="Crystalline Carbonite">5200</i16670>
+				<i37 name="Isogen">0</i37>
+				<i40 name="Megacyte">390</i40>
+				<i36 name="Mexallon">260</i36>
+				<i38 name="Nocxium">0</i38>
+				<i35 name="Pyerite">260</i35>
+				<i34 name="Tritanium">13000</i34>
+				<i39 name="Zydrine">1560</i39>
+				<qty>50000</qty>
+				<flag>ammo</flag>
+				<me>-2</me>
+			</i12791_dec2>
+			<i12787 name="Null L">
+				<i20417 name="Datacore - Electromagnetic Physics">2</i20417>
+				<i20412 name="Datacore - Plasma Physics">2</i20412>
+				<i11399 name="Morphite">150</i11399>
+				<i11476 name="R.A.M.- Ammunition Tech">6.5</i11476>
+				<i16679 name="Fullerides">6000</i16679>
+				<i16670 name="Crystalline Carbonite">6000</i16670>
+				<i37 name="Isogen">0</i37>
+				<i40 name="Megacyte">450</i40>
+				<i36 name="Mexallon">300</i36>
+				<i38 name="Nocxium">0</i38>
+				<i35 name="Pyerite">300</i35>
+				<i34 name="Tritanium">150000</i34>
+				<i39 name="Zydrine">1800</i39>
+				<qty>50000</qty>
+				<flag>ammo</flag>
+				<me>-4</me>
+			</i12787>
+			<i12779 name="Hail L">
+				<i20415 name="Datacore - Molecular Engineering">2</i20415>
+				<i20420 name="Datacore - Rocket Science">2</i20420>
+				<i11399 name="Morphite">150</i11399>
+				<i11476 name="R.A.M.- Ammunition Tech">6.5</i11476>
+				<i16679 name="Fullerides">12000</i16679>
+				<i16673 name="Fernite Carbide">30000</i16673>
+				<i37 name="Isogen">1200</i37>
+				<i40 name="Megacyte">300</i40>
+				<i36 name="Mexallon">2400</i36>
+				<i38 name="Nocxium">450</i38>
+				<i35 name="Pyerite">0</i35>
+				<i34 name="Tritanium">2400</i34>
+				<i39 name="Zydrine">450</i39>
+				<qty>50000</qty>
+				<flag>ammo</flag>
+				<me>-4</me>
+			</i2779>
+			<i12779_dec1 name="Hail L">
+				<i20415 name="Datacore - Molecular Engineering">1.8</i20415>
+				<i20420 name="Datacore - Rocket Science">1.8</i20420>
+				<i21579 name="Callibration Data">1.8</i21579>
+				<i11399 name="Morphite">120</i11399>
+				<i11476 name="R.A.M.- Ammunition Tech">6.5</i11476>
+				<i16679 name="Fullerides">9600</i16679>
+				<i16673 name="Fernite Carbide">24000</i16673>
+				<i37 name="Isogen">960</i37>
+				<i40 name="Megacyte">240</i40>
+				<i36 name="Mexallon">1920</i36>
+				<i38 name="Nocxium">360</i38>
+				<i35 name="Pyerite">0</i35>
+				<i34 name="Tritanium">1920</i34>
+				<i39 name="Zydrine">360</i39>
+				<qty>50000</qty>
+				<flag>ammo</flag>
+				<me>-1</me>
+			</i12779_dec1>
+			<ii12779_dec2 name="Hail L">
+				<i20415 name="Datacore - Molecular Engineering">1.65</i20415>
+				<i20420 name="Datacore - Rocket Science">1.65</i20420>
+				<i21580 name="Advanced Theories">1.65</i21580>
+				<i11399 name="Morphite">130</i11399>
+				<i11476 name="R.A.M.- Ammunition Tech">6.5</i11476>
+				<i16679 name="Fullerides">10400</i16679>
+				<i16673 name="Fernite Carbide">26000</i16673>
+				<i37 name="Isogen">1040</i37>
+				<i40 name="Megacyte">260</i40>
+				<i36 name="Mexallon">2080</i36>
+				<i38 name="Nocxium">390</i38>
+				<i35 name="Pyerite">0</i35>
+				<i34 name="Tritanium">2080</i34>
+				<i39 name="Zydrine">390</i39>
+				<qty>50000</qty>
+				<flag>ammo</flag>
+				<me>-2</me>
+			</i12779_dec2>
 		</ammo>
 	</T2>
 	<capitals>

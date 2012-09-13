@@ -633,9 +633,73 @@
 		</weapon>
 		<upgrades>
 		</upgrades>
-		<projectile>
-
-		</projectile>
+		<mining>
+			<i16278 name="Ice Harvester I" id="ICE">
+				<i37 name="Isogen">1375</i37>
+				<i40 name="Megacyte">230</i40>
+				<i36 name="Mexallon">4431</i36>
+				<i38 name="Nocxium">537</i38>
+				<i35 name="Pyerite">15533</i35>
+				<i34 name="Tritanium">27653</i34>
+				<i39 name="Zydrine">135</i39>
+			</i16278>
+			<i17482 name="Strip Miner I" id="STRPM">
+				<i37 name="Isogen">0</i37>
+				<i40 name="Megacyte">238</i40>
+				<i36 name="Mexallon">7028</i36>
+				<i38 name="Nocxium">1217</i38>
+				<i35 name="Pyerite">17228</i35>
+				<i34 name="Tritanium">22208</i34>
+				<i39 name="Zydrine">0</i39>
+			</i17482>
+			<i12108 name="Deep Core Mining Laser I" id="DCML">
+				<i37 name="Isogen">1501</i37>
+				<i40 name="Megacyte">0</i40>
+				<i36 name="Mexallon">2026</i36>
+				<i38 name="Nocxium">100</i38>
+				<i35 name="Pyerite">3554</i35>
+				<i34 name="Tritanium">6795</i34>
+				<i39 name="Zydrine">0</i39>
+				<i3689 name="Mechanical Parts">2</i3689>
+				<i3687 name="Electronic Parts">3</i3687>
+			</i12108>
+			<i22576 name="Ice Harvester Upgrade I" id="IHU">
+				<i37 name="Isogen">2</i37>
+				<i40 name="Megacyte">1</i40>
+				<i36 name="Mexallon">286</i36>
+				<i38 name="Nocxium">0</i38>
+				<i35 name="Pyerite">0</i35>
+				<i34 name="Tritanium">608</i34>
+				<i39 name="Zydrine">3</i39>
+			</i22576>
+			<i22542 name="Mining Laser Upgrade I" id="MLU">
+				<i37 name="Isogen">2</i37>
+				<i40 name="Megacyte">1</i40>
+				<i36 name="Mexallon">286</i36>
+				<i38 name="Nocxium">0</i38>
+				<i35 name="Pyerite">0</i35>
+				<i34 name="Tritanium">608</i34>
+				<i39 name="Zydrine">3</i39>
+			</i22542>
+			<i24348 name="Small Tractor Beam I" id="STB">
+				<i37 name="Isogen">2750</i37>
+				<i40 name="Megacyte">44</i40>
+				<i36 name="Mexallon">9900</i36>
+				<i38 name="Nocxium">385</i38>
+				<i35 name="Pyerite">12100</i35>
+				<i34 name="Tritanium">27500</i34>
+				<i39 name="Zydrine">81</i39>
+			</i24348>
+			<i25266 name="Gas Cloud Harvester I" id="GCH">
+				<i37 name="Isogen">0</i37>
+				<i40 name="Megacyte">217</i40>
+				<i36 name="Mexallon">6032</i36>
+				<i38 name="Nocxium">1357</i38>
+				<i35 name="Pyerite">13807</i35>
+				<i34 name="Tritanium">21072</i34>
+				<i39 name="Zydrine">0</i39>
+			</i25266>
+		</mining>
 	</module>
 	<ships>
 		<frig>
