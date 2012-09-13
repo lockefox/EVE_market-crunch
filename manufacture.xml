@@ -7427,9 +7427,9 @@
 				<me>-4</me>
 			</i12791>
 			<i12791_dec1 name="Void L">
-				<i20417 name="Datacore - Electromagnetic Physics">1.8</i20417>
-				<i20412 name="Datacore - Plasma Physics">1.8</i20412>
-				<i23183 name="Collision Measurements">1.8</i23183>
+				<i20417 name="Datacore - Electromagnetic Physics">2</i20417>	<!--1.8-->
+				<i20412 name="Datacore - Plasma Physics">2</i20412>				<!--1.8-->
+				<i23183 name="Collision Measurements">2</i23183>				<!--1.8-->
 				<i11399 name="Morphite">120</i11399>
 				<i11476 name="R.A.M.- Ammunition Tech">6.5</i11476>
 				<i16679 name="Fullerides">4800</i16679>
@@ -7446,9 +7446,9 @@
 				<me>-1</me>
 			</i12791_dec1>
 			<i12791_dec2 name="Void L">
-				<i20417 name="Datacore - Electromagnetic Physics">1.65</i20417>
-				<i20412 name="Datacore - Plasma Physics">1.65</i20412>
-				<i23184 name="Test Reports">1.65</i23184>
+				<i20417 name="Datacore - Electromagnetic Physics">2</i20417>	<!--1.65-->
+				<i20412 name="Datacore - Plasma Physics">2</i20412>				<!--1.65-->
+				<i23184 name="Test Reports">2</i23184>							<!--1.65-->
 				<i11399 name="Morphite">130</i11399>
 				<i11476 name="R.A.M.- Ammunition Tech">6.5</i11476>
 				<i16679 name="Fullerides">5200</i16679>
@@ -7501,9 +7501,9 @@
 				<me>-4</me>
 			</i12779>
 			<i12779_dec1 name="Hail L">
-				<i20415 name="Datacore - Molecular Engineering">1.8</i20415>
-				<i20420 name="Datacore - Rocket Science">1.8</i20420>
-				<i21579 name="Callibration Data">1.8</i21579>
+				<i20415 name="Datacore - Molecular Engineering">2</i20415>	<!--1.8-->
+				<i20420 name="Datacore - Rocket Science">2</i20420>			<!--1.8-->
+				<i21579 name="Callibration Data">2</i21579>					<!--1.8-->
 				<i11399 name="Morphite">120</i11399>
 				<i11476 name="R.A.M.- Ammunition Tech">6.5</i11476>
 				<i16679 name="Fullerides">9600</i16679>
@@ -7520,9 +7520,9 @@
 				<me>-1</me>
 			</i12779_dec1>
 			<i12779_dec2 name="Hail L">
-				<i20415 name="Datacore - Molecular Engineering">1.65</i20415>
-				<i20420 name="Datacore - Rocket Science">1.65</i20420>
-				<i21580 name="Advanced Theories">1.65</i21580>
+				<i20415 name="Datacore - Molecular Engineering">2</i20415>	<!--1.65-->
+				<i20420 name="Datacore - Rocket Science">2</i20420>			<!--1.65-->
+				<i21580 name="Advanced Theories">2</i21580>					<!--1.65-->
 				<i11399 name="Morphite">130</i11399>
 				<i11476 name="R.A.M.- Ammunition Tech">6.5</i11476>
 				<i16679 name="Fullerides">10400</i16679>
