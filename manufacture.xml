@@ -7499,7 +7499,7 @@
 				<qty>50000</qty>
 				<flag>ammo</flag>
 				<me>-4</me>
-			</i2779>
+			</i12779>
 			<i12779_dec1 name="Hail L">
 				<i20415 name="Datacore - Molecular Engineering">1.8</i20415>
 				<i20420 name="Datacore - Rocket Science">1.8</i20420>
@@ -7519,7 +7519,7 @@
 				<flag>ammo</flag>
 				<me>-1</me>
 			</i12779_dec1>
-			<ii12779_dec2 name="Hail L">
+			<i12779_dec2 name="Hail L">
 				<i20415 name="Datacore - Molecular Engineering">1.65</i20415>
 				<i20420 name="Datacore - Rocket Science">1.65</i20420>
 				<i21580 name="Advanced Theories">1.65</i21580>
