@@ -31,28 +31,28 @@
 			<i11553 name="Oscillator Capacitor Unit">
 				<i16670 name="Crystalline Carbonite">24</i16670>
 				<i16681 name="Nanotransistors">1</i16681>
-				<i16679 name="Fulleridesl">15</i16679>
+				<i16679 name="Fullerides">15</i16679>
 				<me>4</me>
 				<bld_time></bld_time>
 			</i11553>
 			<i11551 name="Electrolytic Capacitor Unit">
 				<i16673 name="Fernite Carbide">24</i16673>
 				<i16681 name="Nanotransistors">1</i16681>
-				<i16679 name="Fulleridesl">15</i16679>
+				<i16679 name="Fullerides">15</i16679>
 				<me>4</me>
 				<bld_time></bld_time>
 			</i11551>
 			<i11552 name="Scalar Capacitor Unit">
 				<i16671 name="Titanium Carbonite">24</i16671>
 				<i16681 name="Nanotransistors">1</i16681>
-				<i16679 name="Fulleridesl">15</i16679>
+				<i16679 name="Fullerides">15</i16679>
 				<me>4</me>
 				<bld_time></bld_time>
 			</i11552>
 			<i11554 name="Tesseract Capacitor Unit">
 				<i16672 name="Tungsten Carbonite">24</i16672>
 				<i16681 name="Nanotransistors">1</i16681>
-				<i16679 name="Fulleridesl">15</i16679>
+				<i16679 name="Fullerides">15</i16679>
 				<me>4</me>
 				<bld_time></bld_time>
 			</i11554>
@@ -247,28 +247,28 @@
 		<weapon>
 			<i11688 name="Particle Accelerator Unit">
 				<i16670 name="Crystalline Carbonite">28</i16670>
-				<i16679 name="Fulleridesl">10</i16679>
+				<i16679 name="Fullerides">10</i16679>
 				<i16682 name="Hypersynaptic Fibers">1</i16682>
 				<me>5</me>
 				<bld_time></bld_time>
 			</i11688>
 			<i11691 name="Thermonuclear Trigger Unit">
 				<i16673 name="Fernite Carbide">28</i16673>
-				<i16679 name="Fulleridesl">10</i16679>
+				<i16679 name="Fullerides">10</i16679>
 				<i16682 name="Hypersynaptic Fibers">1</i16682>
 				<me>5</me>
 				<bld_time></bld_time>
 			</i11691>
 			<i11690 name="Superconductor Rails">
 				<i16671 name="Titanium Carbonite">28</i16671>
-				<i16679 name="Fulleridesl">10</i16679>
+				<i16679 name="Fullerides">10</i16679>
 				<i16682 name="Hypersynaptic Fibers">1</i16682>
 				<me>5</me>
 				<bld_time></bld_time>
 			</i11690>
 			<i11689 name="Laser Focusing Crystals">
 				<i16672 name="Tungsten Carbonite">28</i16672>
-				<i16679 name="Fulleridesl">10</i16679>
+				<i16679 name="Fullerides">10</i16679>
 				<i16682 name="Hypersynaptic Fibers">1</i16682>
 				<me>5</me>
 				<bld_time></bld_time>
@@ -306,28 +306,28 @@
 			<i29081 name="Capital Oscillator Capacitor Unit">
 				<i16670 name="Crystalline Carbonite">2010</i16670>
 				<i16681 name="Nanotransistors">10</i16681>
-				<i16679 name="Fulleridesl">1005</i16679>
+				<i16679 name="Fullerides">1005</i16679>
 				<me>20</me>
 				<bld_time></bld_time>
 			</i29081>
 			<i29045 name="Capital Electrolytic Capacitor Unit">
 				<i16673 name="Fernite Carbide">2010</i16673>
 				<i16681 name="Nanotransistors">10</i16681>
-				<i16679 name="Fulleridesl">1005</i16679>
+				<i16679 name="Fullerides">1005</i16679>
 				<me>20</me>
 				<bld_time></bld_time>
 			</i29045>
 			<i29097 name="Capital Scalar Capacitor Unit">
 				<i16671 name="Titanium Carbonite">2010</i16671>
 				<i16681 name="Nanotransistors">10</i16681>
-				<i16679 name="Fulleridesl">1005</i16679>
+				<i16679 name="Fullerides">1005</i16679>
 				<me>20</me>
 				<bld_time></bld_time>
 			</i29097>
 			<i29103 name="Capital Tesseract Capacitor Unit">
 				<i16672 name="Tungsten Carbonite">2010</i16672>
 				<i16681 name="Nanotransistors">10</i16681>
-				<i16679 name="Fulleridesl">1005</i16679>
+				<i16679 name="Fullerides">1005</i16679>
 				<me>20</me>
 				<bld_time></bld_time>
 			</i29103>
@@ -517,28 +517,28 @@
 		<weapon>
 			<i29083 name="Capital Particle Accelerator Unit">
 				<i16670 name="Crystalline Carbonite">2010</i16670>
-				<i16679 name="Fulleridesl">703</i16679>
+				<i16679 name="Fullerides">703</i16679>
 				<i16682 name="Hypersynaptic Fibers">10</i16682>
 				<me>20</me>
 				<bld_time></bld_time>
 			</i29083>
 			<i29105 name="Capital Thermonuclear Trigger Unit">
 				<i16673 name="Fernite Carbide">28</i16673>
-				<i16679 name="Fulleridesl">703</i16679>
+				<i16679 name="Fullerides">703</i16679>
 				<i16682 name="Hypersynaptic Fibers">10</i16682>
 				<me>20</me>
 				<bld_time></bld_time>
 			</i29105>
 			<i29099 name="Capital Superconductor Rails">
 				<i16671 name="Titanium Carbonite">28</i16671>
-				<i16679 name="Fulleridesl">703</i16679>
+				<i16679 name="Fullerides">703</i16679>
 				<i16682 name="Hypersynaptic Fibers">10</i16682>
 				<me>20</me>
 				<bld_time></bld_time>
 			</i29099>
 			<i29063 name="Caputal Laser Focusing Crystals">
 				<i16672 name="Tungsten Carbonite">28</i16672>
-				<i16679 name="Fulleridesl">703</i16679>
+				<i16679 name="Fullerides">703</i16679>
 				<i16682 name="Hypersynaptic Fibers">10</i16682>
 				<me>20</me>
 				<bld_time></bld_time>

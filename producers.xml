@@ -10,14 +10,14 @@
 			<i12779_dec1 name="Hail L">500000</i12779_dec1>
 		</i348613732>
 		<i90471974 name="Anton Renard">
-			<i3186 name="Neutron Blaster Cannon II">300</i3186>
+			<i12779_dec1 name="Hail L">500000</i12779_dec1>
 		</i90471974>
 		<i425131377 name="Anya Kitsune">
-			<i3186 name="Neutron Blaster Cannon II">300</i3186>
+			<i12779_dec1 name="Hail L">500000</i12779_dec1>
 		</i425131377>
-		<i168237945 name="Cyno Moore">
+		<!--i168237945 name="Cyno Moore">
 			<i12791_dec1 name="Void L">500000</i12791_dec1>
-		</i168237945>
+		</i168237945-->
 	</staff>	
 	<pos>
 	</pos>

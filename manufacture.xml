@@ -5367,8 +5367,8 @@
 			<i17912 name="Modulated Strip Miner II">
 				<i20413 name="Datacore - Laser Physics">4</i20413>
 				<i20424 name="Datacore - Mechanical Engineering">4</i20424>
-				<STRPM name="Strip Miner I" id="17482">10</STRPM>
-				<DCML name="Deep Core Mining Laser I" id="12108">10</DCML>
+				<!--STRPM name="Strip Miner I" id="17482">10</STRPM-->
+				<!--DCML name="Deep Core Mining Laser I" id="12108">10</DCML-->
 				<i11399 name="Morphite">230</i11399>
 				<i11482 name="R.A.M. Energy Tech">2</i11482>
 				<i11541 name="Photon Microprocessor">30</i11541>

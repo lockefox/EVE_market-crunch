@@ -11,7 +11,7 @@ use CGI;
 use XML::Writer;
 use POSIX;
 use IO;
-use lib "/lib";
+#use lib "/lib";
 
 my %employee;	#Holds staff ID/Name
 my %names;	#Holds item ID/Name
@@ -277,7 +277,7 @@ sub quickKits{
 						$T1{$parts}[0]="i".$mats->{T2}->{($subset{$products})}->{$products}->{$parts}->{id};
 						$T1{$parts}[1]=$subset{$products};
 						$T1{$parts}[2]=$mats->{T2}->{($subset{$products})}->{$products}->{flag};
-						#print $parts."=".$mats->{T2}->{($subset{$products})}->{$products}->{$parts}->{id};
+						print $parts."=".$T1{$parts}[0].":".$T1{$parts}[1].":".$T1{$parts}[2]."\n";
 					}
 				}
 			}
@@ -396,7 +396,7 @@ sub shopping{
 						#print $materialKeys.":\n";
 						my $mQty = $kits{$pilots}{$materialKeys};
 						#print $T1s->{$T1{$materialKeys}[2]}->{$T1{$materialKeys}[1]}->{$T1{$materialKeys}[0]}->{name}."\n";
-						#print Dumper($T1s->{$T1{$materialKeys}[2]}->{$T1{$materialKeys}[1]}->{$T1{$materialKeys}[0]});
+						#print Dumper($T1s->{$T1{$materialKeys}[2]}->{$T1{$materialKeys}[1]});#->{$T1{$materialKeys}[0]}
 						
 						##SHIP CASE
 						if ($T1{$materialKeys}[1] eq "ships"){
@@ -431,12 +431,12 @@ sub shopping{
 						}
 						##MODULE CASE
 						else{
-							#print $T1s->{$T1{$materialKeys}[2]}->{$T1{$materialKeys}[1]}->{$T1{$materialKeys}[0]}->{name}."\n";
+							print $T1s->{$T1{$materialKeys}[2]}->{$T1{$materialKeys}[1]}->{$T1{$materialKeys}[0]}->{name}."\n";
 							foreach my $mineralKey (keys %T1Keys){
 								#print"\t".$T1s->{$T1{$materialKeys}[2]}->{$T1{$materialKeys}[1]}->{$T1{$materialKeys}[0]}->{$mineralKey}->{content}."x".$mQty."\n";
 									if($doSplit eq 1){
 										if (!(exists $shopping{"T1"}{($names{$mineralKey})})){
-											$shopping{"T1"}{($names{$mineralKey})}=$T1s->{$T1{$materialKeys}[2]}->{$T1{$materialKeys}[1]}->{$T1{$materialKeys}[0]}->{$mineralKey}->{content} * $mQty;
+											#$shopping{"T1"}{($names{$mineralKey})}=$T1s->{$T1{$materialKeys}[2]}->{$T1{$materialKeys}[1]}->{$T1{$materialKeys}[0]}->{$mineralKey}->{content} * $mQty;
 											#print "\t".($T1s->{$T1{$materialKeys}[2]}->{$T1{$materialKeys}[1]}->{$T1{$materialKeys}[0]}->{$mineralKey}->{content} * $mQty)." ".$names{$mineralKey}."\n";
 										}
 										else{
