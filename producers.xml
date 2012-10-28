@@ -1,23 +1,23 @@
 <root>
 	<staff>
 		<i170029085 name="Raksha Delam">
-			<i440 name="1MN MicroWarpdrive II">300</i440>
+			<i3520 name="Heavy Pulse Laser II">300</i3520>
 		</i170029085>
 		<i628592330 name="Lockefox">
-			<i17912 name="Modulated Strip Miner II">200</i17912>
+			<i2299 name="Kinetic Deflection Field II">300</i2299>
 		</i628592330>
 		<i348613732 name="Agasa Kaolla">
-			<i12779_dec1 name="Hail L">500000</i12779_dec1>
+			<i12791_dec1 name="Void L">500000</i12791_dec1>
 		</i348613732>
 		<i90471974 name="Anton Renard">
-			<i12779_dec1 name="Hail L">500000</i12779_dec1>
+			<i12791_dec1 name="Void L">500000</i12791_dec1>
 		</i90471974>
 		<i425131377 name="Anya Kitsune">
-			<i12779_dec1 name="Hail L">500000</i12779_dec1>
+			<i3186 name="Neutron Blaster Cannon II">300</i3186>
 		</i425131377>
-		<!--i168237945 name="Cyno Moore">
-			<i12791_dec1 name="Void L">500000</i12791_dec1>
-		</i168237945-->
+		<i168237945 name="Cyno Moore">
+			<i12612 name="Void S">1500000</i12612>
+		</i168237945>
 	</staff>	
 	<pos>
 	</pos>
