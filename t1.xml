@@ -454,7 +454,7 @@
 				<i34 name="Tritanium">27649</i34>
 				<i39 name="Zydrine">135</i39>
 			</i16278>
-			<i17482 name="Strip Miner I" id="STRP">
+			<i17482 name="Strip Miner I" id="STRPM">
 				<i37 name="Isogen">0</i37>
 				<i40 name="Megacyte">238</i40>
 				<i36 name="Mexallon">7028</i36>
@@ -463,7 +463,7 @@
 				<i34 name="Tritanium">22206</i34>
 				<i39 name="Zydrine">0</i39>
 			</i17482>
-			<i12108 name="Deep Core Mining Laser I" id="DCM">
+			<i12108 name="Deep Core Mining Laser I" id="DCML">
 				<i37 name="Isogen">1501</i37>
 				<i40 name="Megacyte">0</i40>
 				<i36 name="Mexallon">2026</i36>
