@@ -4500,6 +4500,34 @@
 				<flag>cruiser</flag>
 				<class>HAC</class>
 			</i12003>
+			<i12003_dec3 name="Zealot">
+				<i20421 name="Datacore - Amarrian Starship Engineering">23.088</i20421>
+				<i20424 name="Datacore - Mechanical Engineering">23.088</i20424>
+				<i23178 name="Formation Layout">2.886</i23178>
+				<i11399 name="Morphite">120</i11399>
+				<i11478 name="R.A.M. Starship Tech">11.4</i11478>
+				<OMEN name="Omen" id="2006">1</OMEN>
+				<i3828 name="Construction Blocks">120</i3828>
+				<i11537 name="Radar Sensor Cluster">318</i11537>
+				<i11549 name="Antimatter Reactor Unit">36</i11549>
+				<i11532 name="Fusion Thruster">60</i11532>
+				<i11539 name="Nanoelectrical Microprocessor">1080</i11539>
+				<i11554 name="Tesseract Capacitor Unit">360</i11554>
+				<i11557 name="Linear Shield Emitter">360</i11557>
+				<i11543 name="Tungsten Carbide Armor Plate">4500</i11543>
+				<i37 name="Isogen">0</i37>
+				<i40 name="Megacyte">0</i40>
+				<i36 name="Mexallon">0</i36>
+				<i38 name="Nocxium">0</i38>
+				<i35 name="Pyerite">0</i35>
+				<i34 name="Tritanium">0</i34>
+				<i39 name="Zydrine">28</i39>
+				<qty>1</qty>
+				<me>-1</me>
+				<bld_time></bld_time>
+				<flag>cruiser</flag>
+				<class>HAC</class>
+			</i12003>
 			<i20125 name="Curse">
 				<i20421 name="Datacore - Amarrian Starship Engineering">25.4</i20421>
 				<i20424 name="Datacore - Mechanical Engineering">25.4</i20424>
