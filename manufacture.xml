@@ -4527,7 +4527,7 @@
 				<bld_time></bld_time>
 				<flag>cruiser</flag>
 				<class>HAC</class>
-			</i12003>
+			</i12003_dec3>
 			<i20125 name="Curse">
 				<i20421 name="Datacore - Amarrian Starship Engineering">25.4</i20421>
 				<i20424 name="Datacore - Mechanical Engineering">25.4</i20424>
