@@ -2960,6 +2960,56 @@
 				<mfg_grp>interdict</mfg_grp>
 				<flag>module</flag>
 			</i26888>
+			<i26888_dec1 name="Mobile Large Warp Disruptor II">
+				<i20418 name="Datacore - Electronic Engineering">3.1088</i20418>
+				<i20419 name="Datacore - Graviton Physics">3.1088</i20419>
+				<i21582 name="Circuitry Schematics">0.345423</i21582>
+				<MLWD name="Mobile Large Warp Disruptor I" id="12200">1</MLWD>
+				<i11483 name="R.A.M. Electronics">1.5</i11483>
+				<i11482 name="R.A.M. Energy Tech">1.1</i11482>
+				<i11399 name="Morphite">70</i11399>
+				<i11693 name="Graviton Pulse Generator">30</i11693>
+				<i11550 name="Graviton Reactor Unit">16</i11550>
+				<i11538 name="Nanomechanical Microprocessor">24</i11538>
+				<i3687 name="Electronic Parts">20</i3687>
+				<i37 name="Isogen">313</i37>
+				<i40 name="Megacyte">92</i40>
+				<i36 name="Mexallon">26183</i36>
+				<i38 name="Nocxium">549</i38>
+				<i35 name="Pyerite">12606</i35>
+				<i34 name="Tritanium">135143</i34>
+				<i39 name="Zydrine">369</i39>
+				<qty>1</qty>
+				<me>-6</me>
+				<bld_time></bld_time>
+				<mfg_grp>interdict</mfg_grp>
+				<flag>module</flag>
+			</i26888_dec1>
+			<i26888_dec5 name="Mobile Large Warp Disruptor II">
+				<i20418 name="Datacore - Electronic Engineering">2.0723</i20418>
+				<i20419 name="Datacore - Graviton Physics">2.0723</i20419>
+				<i21583 name="Assembly Instructions">0.222494</i21583>
+				<MLWD name="Mobile Large Warp Disruptor I" id="12200">1</MLWD>
+				<i11483 name="R.A.M. Electronics">1.5</i11483>
+				<i11482 name="R.A.M. Energy Tech">1.1</i11482>
+				<i11399 name="Morphite">66</i11399>
+				<i11693 name="Graviton Pulse Generator">30</i11693>
+				<i11550 name="Graviton Reactor Unit">16</i11550>
+				<i11538 name="Nanomechanical Microprocessor">24</i11538>
+				<i3687 name="Electronic Parts">20</i3687>
+				<i37 name="Isogen">294</i37>
+				<i40 name="Megacyte">68</i40>
+				<i36 name="Mexallon">24643</i36>
+				<i38 name="Nocxium">517</i38>
+				<i35 name="Pyerite">11864</i35>
+				<i34 name="Tritanium">127194</i34>
+				<i39 name="Zydrine">347</i39>
+				<qty>1</qty>
+				<me>-5</me>
+				<bld_time></bld_time>
+				<mfg_grp>interdict</mfg_grp>
+				<flag>module</flag>
+			</i26888_dec5>
 		</ewar>
 		<upgrades>
 			<i1436 name="Auto Targeting System II">
