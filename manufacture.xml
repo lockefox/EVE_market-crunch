@@ -3633,6 +3633,26 @@
 				<flag>bc</flag>
 				<class>Command</class>
 			</i22444>
+			<i22444_dec3 name="Sleipnir">
+				<i20172 name="Datacore - Minmatar Starship Engineering">57.72</i20172>
+				<i20424 name="Datacore - Mechanical Engineering">57.72</i20424>
+				<i11399 name="Morphite">240</i11399>
+				<i11478 name="R.A.M. Starship Tech">14.25</i11478>
+				<CYCL name="Cyclone" id="16231">1</CYCL>
+				<i3828 name="Construction Blocks">240</i3828>
+				<i11542 name="Fernite Carbide Composite Armor Plate">9000</i11542>
+				<i11551 name="Electrolytic Capacitor Unit">780</i11551>
+				<i11538 name="Nanomechanical Microprocessor">1440</i11538>
+				<i11548 name="Nuclear Reactor Unit">48</i11548>
+				<i11536 name="Ladar Sensor Cluster">360</i11536>
+				<i11555 name="Deflection Shield Emitter">456</i11555>
+				<i11530 name="Plasma Thruster">96</i11530>
+				<qty>1</qty>
+				<me>-1</me>
+				<bld_time></bld_time>
+				<flag>bc</flag>
+				<class>Command</class>
+			</i22444_dec3>			
 			<i22468 name="Claymore">
 				<i20172 name="Datacore - Minmatar Starship Engineering">63.5</i20172>
 				<i20424 name="Datacore - Mechanical Engineering">63.5</i20424>
@@ -5197,6 +5217,27 @@
 				<flag>cruiser</flag>
 				<class>hictor</class>
 			</i12021>
+			<i12021_dec3 name="Phobos">
+				<i20410 name="Datacore - Gallentean Starship Engineering">23.088</i20410>
+				<i20424 name="Datacore - Mechanical Engineering">23.088</i20424>
+				<i23183 name="Collision Measurements">2.886<i23183>
+				<i11399 name="Morphite">120</i11399>
+				<i11478 name="R.A.M. Starship Tech">13.3</i11478>
+				<THRX name="Thorax" id="627">1</THRX>
+				<i3828 name="Construction Blocks">150</i3828>
+				<i11535 name="Magnetometric Sensor Cluster">144</i11535>
+				<i11547 name="Fusion Reactor Unit">42</i11547>
+				<i11531 name="Ion Thruster">84</i11531>
+				<i11541 name="Photon Microprocessor">2376</i11541>
+				<i11553 name="Oscillator Capacitor Unit">528</i11553>
+				<i11556 name="Pulse Shield Emitter">330</i11556>
+				<i11545 name="Crystalline Carbonite Armor Plates">5400</i11545>
+				<qty>1</qty>
+				<me>-1</me>
+				<bld_time></bld_time>
+				<flag>cruiser</flag>
+				<class>hictor</class>
+			</i12021_dec3
 			<i11971 name="Lachesis">
 				<i20410 name="Datacore - Gallentean Starship Engineering">25.4</i20410>
 				<i20424 name="Datacore - Mechanical Engineering">25.4</i20424>
@@ -7613,7 +7654,22 @@
 			
 			</i12559>
 			<i12563 name="Scorch S">
-			
+				<i20413 name="Datacore - Laser Physics">2</i20413>
+				<i20418 name="Datacore - Electronic Engineering">2</i20418>
+				<i11399 name="Morphite">20</i11399>
+				<i11476 name="R.A.M.- Ammunition Tech">1</i11476>
+				<i16679 name="Fullerides">450</i16679>
+				<i16672 name="Tungsten Carbonite">1080</i16672>
+				<i37 name="Isogen">150</i37>
+				<i40 name="Megacyte">20</i40>
+				<i36 name="Mexallon">0</i36>
+				<i38 name="Nocxium">380</i38>
+				<i35 name="Pyerite">750</i35>
+				<i34 name="Tritanium">7560</i34>
+				<i39 name="Zydrine">60</i39>
+				<qty>400</qty>
+				<flag>ammo</flag>
+				<me>-4</me>
 			</i12563>
 			<i12565 name="Conflaguration S">
 			

@@ -1,27 +1,28 @@
 <root>
 	<staff>
-		<!--i170029085 name="Raksha Delam">
-			<i3520 name="Heavy Pulse Laser II">200</i3520>
-			<i12743 name="Viator">10</i12743>
-			<i26888_dec5 name="Mobile Large Warp Disruptor II">50</i26888_dec5>
-		</i170029085-->
-		<!--i628592330 name="Lockefox">
-			<i3520 name="Heavy Pulse Laser II">300</i3520>
-			<i26888_dec5 name="Mobile Large Warp Disruptor II">50</i26888_dec5>
-		</i628592330-->
+		<i170029085 name="Raksha Delam">
+			<i26888_dec1 name="Mobile Large Warp Disruptor II">50</i26888_dec1>
+		</i170029085>
+		<i628592330 name="Lockefox">
+			<i26888_dec1 name="Mobile Large Warp Disruptor II">50</i26888_dec1>
+		</i628592330>
 		<i348613732 name="Agasa Kaolla">
 			<i12791_dec1 name="Void L">500000</i12791_dec1>
 		</i348613732>
-		<i90471974 name="Anton Renard">
-			<i3186 name="Neutron Blaster Cannon II">300</i3186>
-		</i90471974>
-		<i425131377 name="Anya Kitsune">
-			<i3186 name="Neutron Blaster Cannon II">200</i3186>
-			<i12003_dec3 name="Zealot">10</i12003_dec3>
-		</i425131377>
 		<i168237945 name="Cyno Moore">
 			<i12791_dec1 name="Void L">500000</i12791_dec1>
 		</i168237945>
+		<iredtail name="Red Tail Blind">
+			<i12563 name="Scorch S">1200</i12563>
+		</iredtail>
+		<i90471974 name="Anton Renard">
+			<i3138 name="Heavy Ion Blaster II">400</i3138>
+		</i90471974>
+		<i425131377 name="Anya Kitsune">
+			<i3138 name="Heavy Ion Blaster II">100</i3138>
+			<i12021_dec3 name="Phobos">10</i12021_dec3>
+			<i22444_dec3 name="Sleipnir">5</i22444_dec3>
+		</i425131377>
 	</staff>	
 	<pos>
 	</pos>
