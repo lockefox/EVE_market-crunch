@@ -22,41 +22,41 @@
     <other name="R.A.M. Energy Tech" id="11482">55</other>
   </inventor>
   <inventor id="i425131377" name="Anya Kitsune">
-    <component name="Antimatter Reactor Unit" id="11549">360</component>
-    <component name="Crystalline Carbonite Armor Plate" id="11545">30,000</component>
-    <component name="Fusion Reactor Unit" id="11547">380</component>
-    <component name="Fusion Thruster" id="11532">600</component>
-    <component name="Ion Thruster" id="11531">1,130</component>
-    <component name="Linear Shield Emitter" id="11557">3,600</component>
-    <component name="Magnetometric Sensor Cluster" id="11535">900</component>
-    <component name="Nanoelectrical Microprocessor" id="11539">10,800</component>
-    <component name="Oscillator Capacitor Unit" id="11553">2,250</component>
-    <component name="Particle Accelerator Unit" id="11688">1,600</component>
-    <component name="Photon Microprocessor" id="11541">12,000</component>
-    <component name="Pulse Shield Emitter" id="11556">1,500</component>
-    <component name="Radar Sensor Cluster" id="11537">3,180</component>
-    <component name="Tesseract Capacitor Unit" id="11554">3,600</component>
-    <component name="Tungsten Carbide Armor Plate" id="11543">45,000</component>
-    <mineral name="Isogen" id="37">82,270</mineral>
-    <mineral name="Megacyte" id="40">950</mineral>
-    <mineral name="Mexallon" id="36">187,230</mineral>
-    <mineral name="Morphite" id="11399">1,800</mineral>
-    <mineral name="Nocxium" id="38">23,610</mineral>
-    <mineral name="Pyerite" id="35">1,080,860</mineral>
-    <mineral name="Tritanium" id="34">2,743,010</mineral>
-    <mineral name="Zydrine" id="39">580</mineral>
-    <PI name="Construction Blocks" id="3828">2,330</PI>
-    <PI name="Robotics" id="9848">900</PI>
-    <datacore name="Datacore - Amarrian Starship Engineering" id="20421">230.88</datacore>
-    <datacore name="Datacore - Gallentean Starship Engineering" id="20410">254</datacore>
-    <datacore name="Datacore - Mechanical Engineering" id="20424">544.88</datacore>
-    <datacore name="Datacore - Plasma Physics" id="20412">60</datacore>
-    <other name="Formation Layout" id="23178">28.86</other>
-    <other name="Iteron" id="">10</other>
-    <other name="Neutron Blaster Cannon I" id="">100</other>
-    <other name="Omen" id="">10</other>
-    <other name="R.A.M. - Weapon Tech" id="11486">64</other>
-    <other name="R.A.M. Starship Tech" id="11478">180.5</other>
+    <component name="Crystalline Carbonite Armor Plate" id="11545">54,000</component>
+    <component name="Deflection Shield Emitter" id="11555">2,280</component>
+    <component name="Electrolytic Capacitor Unit" id="11551">3,900</component>
+    <component name="Fernite Carbide Composite Armor Plate" id="11542">45,000</component>
+    <component name="Fusion Reactor Unit" id="11547">420</component>
+    <component name="Ion Thruster" id="11531">840</component>
+    <component name="Ladar Sensor Cluster" id="11536">1,800</component>
+    <component name="Magnetometric Sensor Cluster" id="11535">1,440</component>
+    <component name="Nanomechanical Microprocessor" id="11538">7,200</component>
+    <component name="Nuclear Reactor Unit" id="11548">240</component>
+    <component name="Oscillator Capacitor Unit" id="11553">5,280</component>
+    <component name="Particle Accelerator Unit" id="11688">1,000</component>
+    <component name="Photon Microprocessor" id="11541">23,760</component>
+    <component name="Plasma Thruster" id="11530">480</component>
+    <component name="Pulse Shield Emitter" id="11556">3,300</component>
+    <mineral name="Isogen" id="37">0</mineral>
+    <mineral name="Megacyte" id="40">0</mineral>
+    <mineral name="Mexallon" id="36">58,200</mineral>
+    <mineral name="Morphite" id="11399">3,600</mineral>
+    <mineral name="Nocxium" id="38">200</mineral>
+    <mineral name="Pyerite" id="35">62,600</mineral>
+    <mineral name="Tritanium" id="34">139,500</mineral>
+    <mineral name="Zydrine" id="39">0</mineral>
+    <PI name="Construction Blocks" id="3828">2,700</PI>
+    <PI name="Robotics" id="9848">300</PI>
+    <datacore name="Datacore - Gallentean Starship Engineering" id="20410">230.88</datacore>
+    <datacore name="Datacore - Mechanical Engineering" id="20424">559.48</datacore>
+    <datacore name="Datacore - Minmatar Starship Engineering" id="20172">288.6</datacore>
+    <datacore name="Datacore - Plasma Physics" id="20412">40</datacore>
+    <other name="Collision Measurements" id="23183">28.86</other>
+    <other name="Cyclone" id="">5</other>
+    <other name="Heavy Ion Blaster I" id="">100</other>
+    <other name="R.A.M. - Weapon Tech" id="11486">32</other>
+    <other name="R.A.M. Starship Tech" id="11478">204.25</other>
+    <other name="Thorax" id="">10</other>
   </inventor>
   <inventor id="i168237945" name="Cyno Moore">
     <moongoo name="Crystalline Carbonite" id="16670">48,000</moongoo>
@@ -94,36 +94,36 @@
     <other name="R.A.M. Electronics" id="11483">75</other>
     <other name="R.A.M. Energy Tech" id="11482">55</other>
   </inventor>
-  <inventor id="i92509965" name="Red Tail">
-    <moongoo name="Crystalline Carbonite" id="16670">18,000</moongoo>
-    <moongoo name="Fullerides" id="16679">18,000</moongoo>
-    <mineral name="Isogen" id="37">0</mineral>
-    <mineral name="Megacyte" id="40">1,500</mineral>
-    <mineral name="Mexallon" id="36">900</mineral>
-    <mineral name="Morphite" id="11399">4,500</mineral>
-    <mineral name="Nocxium" id="38">0</mineral>
-    <mineral name="Pyerite" id="35">900</mineral>
-    <mineral name="Tritanium" id="34">450,000</mineral>
-    <mineral name="Zydrine" id="39">5,400</mineral>
-    <datacore name="Datacore - Electromagnetic Physics" id="20417">60</datacore>
-    <datacore name="Datacore - Plasma Physics" id="20412">60</datacore>
-    <other name="R.A.M.- Ammunition Tech" id="11476">195</other>
+  <inventor id="i92509965" name="Red Tail Blind">
+    <moongoo name="Fullerides" id="16679">1,350</moongoo>
+    <moongoo name="Tungsten Carbonite" id="16672">3,240</moongoo>
+    <mineral name="Isogen" id="37">450</mineral>
+    <mineral name="Megacyte" id="40">60</mineral>
+    <mineral name="Mexallon" id="36">0</mineral>
+    <mineral name="Morphite" id="11399">60</mineral>
+    <mineral name="Nocxium" id="38">1,140</mineral>
+    <mineral name="Pyerite" id="35">2,250</mineral>
+    <mineral name="Tritanium" id="34">22,680</mineral>
+    <mineral name="Zydrine" id="39">180</mineral>
+    <datacore name="Datacore - Electronic Engineering" id="20418">6</datacore>
+    <datacore name="Datacore - Laser Physics" id="20413">6</datacore>
+    <other name="R.A.M.- Ammunition Tech" id="11476">3</other>
   </inventor>
   <inventor id="i90471974" name="Anton Renard">
-    <component name="Particle Accelerator Unit" id="11688">4,800</component>
-    <mineral name="Isogen" id="37">225,600</mineral>
-    <mineral name="Megacyte" id="40">2,400</mineral>
-    <mineral name="Mexallon" id="36">271,800</mineral>
-    <mineral name="Morphite" id="11399">0</mineral>
-    <mineral name="Nocxium" id="38">53,100</mineral>
-    <mineral name="Pyerite" id="35">1,995,300</mineral>
-    <mineral name="Tritanium" id="34">4,993,200</mineral>
-    <mineral name="Zydrine" id="39">900</mineral>
-    <PI name="Robotics" id="9848">2,700</PI>
-    <datacore name="Datacore - Mechanical Engineering" id="20424">180</datacore>
-    <datacore name="Datacore - Plasma Physics" id="20412">180</datacore>
-    <other name="Neutron Blaster Cannon I" id="">300</other>
-    <other name="R.A.M. - Weapon Tech" id="11486">192</other>
+    <component name="Particle Accelerator Unit" id="11688">4,000</component>
+    <mineral name="Isogen" id="37">0</mineral>
+    <mineral name="Megacyte" id="40">0</mineral>
+    <mineral name="Mexallon" id="36">232,800</mineral>
+    <mineral name="Morphite" id="11399">4,800</mineral>
+    <mineral name="Nocxium" id="38">800</mineral>
+    <mineral name="Pyerite" id="35">250,400</mineral>
+    <mineral name="Tritanium" id="34">558,000</mineral>
+    <mineral name="Zydrine" id="39">0</mineral>
+    <PI name="Robotics" id="9848">1,200</PI>
+    <datacore name="Datacore - Mechanical Engineering" id="20424">160</datacore>
+    <datacore name="Datacore - Plasma Physics" id="20412">160</datacore>
+    <other name="Heavy Ion Blaster I" id="">400</other>
+    <other name="R.A.M. - Weapon Tech" id="11486">128</other>
   </inventor>
   <inventor id="i348613732" name="Agasa Kaolla">
     <moongoo name="Crystalline Carbonite" id="16670">48,000</moongoo>
@@ -142,86 +142,85 @@
     <other name="R.A.M.- Ammunition Tech" id="11476">65</other>
   </inventor>
   <Shopping>
-    <Component name="Antimatter Reactor Unit" id="11549">360</Component>0
-    <Component name="Crystalline Carbonite Armor Plate" id="11545">30,000</Component>0
-    <Component name="Fusion Reactor Unit" id="11547">380</Component>0
-    <Component name="Fusion Thruster" id="11532">600</Component>0
-    <Component name="Graviton Pulse Generator" id="11693">3,000</Component>!!
-    <Component name="Graviton Reactor Unit" id="11550">1,600</Component>!!
-    <Component name="Ion Thruster" id="11531">1,130</Component>0
-    <Component name="Linear Shield Emitter" id="11557">3,600</Component>0
-    <Component name="Magnetometric Sensor Cluster" id="11535">900</Component>0
-    <Component name="Nanoelectrical Microprocessor" id="11539">10,800</Component>0
-    <Component name="Nanomechanical Microprocessor" id="11538">2,400</Component>!!
-    <Component name="Oscillator Capacitor Unit" id="11553">2,250</Component>0
-    <Component name="Particle Accelerator Unit" id="11688">6,400</Component>0
-    <Component name="Photon Microprocessor" id="11541">12,000</Component>0
-    <Component name="Pulse Shield Emitter" id="11556">1,500</Component>0
-    <Component name="Radar Sensor Cluster" id="11537">3,180</Component>1060
-    <Component name="Tesseract Capacitor Unit" id="11554">3,600</Component>0
-    <Component name="Tungsten Carbide Armor Plate" id="11543">45,000</Component>0
-    <goo name="Crystalline Carbonite" id="16670">1,641,800</goo>
-    <goo name="Fermionic Condensates" id="17317">2,340</goo>
-    <goo name="Fernite Carbide" id="16673">28,800</goo>
-    <goo name="Ferrogel" id="16683">9,170</goo>
-    <goo name="Fullerides" id="16679">151,750</goo>
-    <goo name="Hypersynaptic Fibers" id="16682">14,560</goo>
-    <goo name="Nanotransistors" id="16681">141,930</goo>
-    <goo name="Phenolic Composits" id="16680">48,390</goo>
-    <goo name="Sylramic Fibers" id="16678">790,800</goo>
+    <Component name="Crystalline Carbonite Armor Plate" id="11545">54,000</Component>
+    <Component name="Deflection Shield Emitter" id="11555">2,280</Component>
+    <Component name="Electrolytic Capacitor Unit" id="11551">3,900</Component>
+    <Component name="Fernite Carbide Composite Armor Plate" id="11542">45,000</Component>
+    <Component name="Fusion Reactor Unit" id="11547">420</Component>
+    <Component name="Graviton Pulse Generator" id="11693">3,000</Component>
+    <Component name="Graviton Reactor Unit" id="11550">1,600</Component>
+    <Component name="Ion Thruster" id="11531">840</Component>
+    <Component name="Ladar Sensor Cluster" id="11536">1,800</Component>
+    <Component name="Magnetometric Sensor Cluster" id="11535">1,440</Component>
+    <Component name="Nanomechanical Microprocessor" id="11538">9,600</Component>
+    <Component name="Nuclear Reactor Unit" id="11548">240</Component>
+    <Component name="Oscillator Capacitor Unit" id="11553">5,280</Component>
+    <Component name="Particle Accelerator Unit" id="11688">5,000</Component>
+    <Component name="Photon Microprocessor" id="11541">23,760</Component>
+    <Component name="Plasma Thruster" id="11530">480</Component>
+    <Component name="Pulse Shield Emitter" id="11556">3,300</Component>
+    <goo name="Crystalline Carbonite" id="16670">2,820,080</goo>
+    <goo name="Fermionic Condensates" id="17317">2,260</goo>
+    <goo name="Fernite Carbide" id="16673">2,098,080</goo>
+    <goo name="Ferrogel" id="16683">9,160</goo>
+    <goo name="Fullerides" id="16679">187,700</goo>
+    <goo name="Hypersynaptic Fibers" id="16682">11,480</goo>
+    <goo name="Nanotransistors" id="16681">185,220</goo>
+    <goo name="Phenolic Composits" id="16680">55,320</goo>
+    <goo name="Sylramic Fibers" id="16678">1,034,640</goo>
     <goo name="Titanium Carbonite" id="16671">72,800</goo>
-    <goo name="Tungsten Carbonite" id="16672">2,161,680</goo>
-    <Datacore name="Datacore - Amarrian Starship Engineering" id="20421">230.88</Datacore>
-    <Datacore name="Datacore - Electromagnetic Physics" id="20417">100</Datacore>
-    <Datacore name="Datacore - Electronic Engineering" id="20418">360</Datacore>
-    <Datacore name="Datacore - Gallentean Starship Engineering" id="20410">254</Datacore>
+    <Datacore name="Datacore - Electromagnetic Physics" id="20417">40</Datacore>
+    <Datacore name="Datacore - Electronic Engineering" id="20418">366</Datacore>
+    <Datacore name="Datacore - Gallentean Starship Engineering" id="20410">230.88</Datacore>
     <Datacore name="Datacore - Graviton Physics" id="20419">360</Datacore>
-    <Datacore name="Datacore - Mechanical Engineering" id="20424">724.88</Datacore>
-    <Datacore name="Datacore - Plasma Physics" id="20412">340</Datacore>
-    <Mineral name="Isogen" id="37">2,361,636</Mineral>
-    <Mineral name="Megacyte" id="40">63,160</Mineral>
-    <Mineral name="Mexallon" id="36">11,040,910</Mineral>
-    <Mineral name="Morphite" id="11399">15,700</Mineral>
-    <Mineral name="Nocxium" id="38">577,258</Mineral>
-    <Mineral name="Pyerite" id="35">22,136,420</Mineral>
-    <Mineral name="Tritanium" id="34">85,302,440</Mineral>
-    <Mineral name="Zydrine" id="39">204,770</Mineral>
-    <T2 name="Isogen" id="37">339,170</T2>
-    <T2 name="Megacyte" id="40">21,250</T2>
-    <T2 name="Mexallon" id="36">3,083,030</T2>
-    <T2 name="Morphite" id="11399">15,700</T2>
-    <T2 name="Nocxium" id="38">131,610</T2>
-    <T2 name="Pyerite" id="35">4,342,460</T2>
-    <T2 name="Tritanium" id="34">24,100,510</T2>
-    <T2 name="Zydrine" id="39">72,580</T2>
-    <T1 name="Isogen" id="37">1,413,540</T1>
-    <T1 name="Megacyte" id="40">25,910</T1>
-    <T1 name="Mexallon" id="36">5,556,530</T1>
-    <T1 name="Nocxium" id="38">271,280</T1>
-    <T1 name="Pyerite" id="35">13,318,110</T1>
-    <T1 name="Tritanium" id="34">48,294,930</T1>
-    <T1 name="Zydrine" id="39">69,090</T1>
-    <RAM name="Isogen" id="37">75,776</RAM>
-    <RAM name="Mexallon" id="36">204,800</RAM>
-    <RAM name="Nocxium" id="38">32,768</RAM>
-    <RAM name="Pyerite" id="35">409,600</RAM>
-    <RAM name="Tritanium" id="34">512,000</RAM>
-    <PI name="Construction Blocks" id="3828">2,330</PI>
+    <Datacore name="Datacore - Laser Physics" id="20413">6</Datacore>
+    <Datacore name="Datacore - Mechanical Engineering" id="20424">719.48</Datacore>
+    <Datacore name="Datacore - Minmatar Starship Engineering" id="20172">288.6</Datacore>
+    <Datacore name="Datacore - Plasma Physics" id="20412">240</Datacore>
+    <Mineral name="Isogen" id="37">1,383,090</Mineral>
+    <Mineral name="Megacyte" id="40">53,200</Mineral>
+    <Mineral name="Mexallon" id="36">8,294,340</Mineral>
+    <Mineral name="Morphite" id="11399">17,860</Mineral>
+    <Mineral name="Nocxium" id="38">385,100</Mineral>
+    <Mineral name="Pyerite" id="35">13,372,715</Mineral>
+    <Mineral name="Tritanium" id="34">55,237,825</Mineral>
+    <Mineral name="Zydrine" id="39">205,975</Mineral>
+    <T2 name="Isogen" id="37">31,750</T2>
+    <T2 name="Megacyte" id="40">16,460</T2>
+    <T2 name="Mexallon" id="36">2,914,100</T2>
+    <T2 name="Morphite" id="11399">17,860</T2>
+    <T2 name="Nocxium" id="38">57,040</T2>
+    <T2 name="Pyerite" id="35">1,580,650</T2>
+    <T2 name="Tritanium" id="34">16,634,480</T2>
+    <T2 name="Zydrine" id="39">65,880</T2>
+    <T1 name="Isogen" id="37">761,950</T1>
+    <T1 name="Megacyte" id="40">20,740</T1>
+    <T1 name="Mexallon" id="36">3,031,690</T1>
+    <T1 name="Nocxium" id="38">162,140</T1>
+    <T1 name="Pyerite" id="35">7,421,815</T1>
+    <T1 name="Tritanium" id="34">25,828,345</T1>
+    <T1 name="Zydrine" id="39">76,995</T1>
+    <RAM name="Isogen" id="37">56,240</RAM>
+    <RAM name="Mexallon" id="36">152,000</RAM>
+    <RAM name="Nocxium" id="38">24,320</RAM>
+    <RAM name="Pyerite" id="35">304,000</RAM>
+    <RAM name="Tritanium" id="34">380,000</RAM>
+    <PI name="Construction Blocks" id="3828">2,700</PI>
     <PI name="Electronic Parts" id="3687">2,000</PI>
-    <PI name="Robotics" id="9848">3,600</PI>
+    <PI name="Robotics" id="9848">1,500</PI>
     <Other name="Circuitry Schematics" id="21582">40</Other>
-    <Other name="Collision Measurements" id="23183">40</Other>
-    <Other name="Crystalline Carbonite" id="16670">114,000</Other>
-    <Other name="Formation Layout" id="23178">28.86</Other>
-    <Other name="Fullerides" id="16679">114,000</Other>
-    <Other name="Iteron" id="">10</Other>
+    <Other name="Collision Measurements" id="23183">68.86</Other>
+    <Other name="Crystalline Carbonite" id="16670">96,000</Other>
+    <Other name="Cyclone" id="">5</Other>
+    <Other name="Fullerides" id="16679">97,350</Other>
+    <Other name="Heavy Ion Blaster I" id="">500</Other>
     <Other name="Mobile Large Warp Disruptor I" id="">100</Other>
-    <Other name="Neutron Blaster Cannon I" id="">400</Other>
-    <Other name="Omen" id="">10</Other>
-    <Other name="R.A.M. - Weapon Tech" id="11486">256</Other>
+    <Other name="R.A.M. - Weapon Tech" id="11486">160</Other>
     <Other name="R.A.M. Electronics" id="11483">150</Other>
     <Other name="R.A.M. Energy Tech" id="11482">110</Other>
-    <Other name="R.A.M. Starship Tech" id="11478">180.5</Other>
-    <Other name="R.A.M.- Ammunition Tech" id="11476">325</Other>
+    <Other name="R.A.M. Starship Tech" id="11478">204.25</Other>
+    <Other name="R.A.M.- Ammunition Tech" id="11476">133</Other>
+    <Other name="Thorax" id="">10</Other>
+    <Other name="Tungsten Carbonite" id="16672">3,240</Other>
   </Shopping>
 </root>
