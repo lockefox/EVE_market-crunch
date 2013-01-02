@@ -120,11 +120,11 @@
     <other name="R.A.M.- Ammunition Tech" id="11476">70</other>
   </inventor>
   <Shopping>
-    <Component name="Crystalline Carbonite Armor Plate" id="11545">92,400</Component>
-    <Component name="Fusion Reactor Unit" id="11547">880</Component>
-    <Component name="Ion Thruster" id="11531">2,167</Component>
-    <Component name="Magnetometric Sensor Cluster" id="11535">2,574</Component>
-    <Component name="Oscillator Capacitor Unit" id="11553">8,283</Component>
+    <Component name="Crystalline Carbonite Armor Plate" id="11545">92,400</Component>!
+    <Component name="Fusion Reactor Unit" id="11547">880</Component>!
+    <Component name="Ion Thruster" id="11531">2,167</Component>!
+    <Component name="Magnetometric Sensor Cluster" id="11535">2,574</Component>!
+    <Component name="Oscillator Capacitor Unit" id="11553">8,283</Component>!
     <Component name="Particle Accelerator Unit" id="11688">12,800</Component>
     <Component name="Photon Microprocessor" id="11541">39,336</Component>
     <Component name="Pulse Shield Emitter" id="11556">5,280</Component>
