@@ -3774,7 +3774,7 @@
 				<i21579 name="Callibration Data">3</i21579>
 				<i11399 name="Morphite">3000</i11399>
 				<i11478 name="R.A.M. Starship Tech">38</i11478>
-				<FENRIR name="Fenrir" id="20189">1</FENRIR>
+				<i20189 name="Fenrir" id="20189">1</i20189>
 				<i3828 name="Construction Blocks">1800</i3828>
 				<i29065 name="Capital Ladar Sensor Cluster">532</i29065>
 				<i29079 name="Capital Nuclear Reactor Unit">622</i29079>
@@ -3790,6 +3790,50 @@
 				<flag>capital</flag>
 				<class>jump freighter</class>
 			</i28846>
+			<i28846_dec3 name="Nomad">
+				<i20172 name="Datacore - Minmatar Starship Engineering">154</i20172>
+				<i20424 name="Datacore - Mechanical Engineering">154</i20424>
+				<i21579 name="Callibration Data">3</i21579>
+				<i11399 name="Morphite">3000</i11399>
+				<i11478 name="R.A.M. Starship Tech">38</i11478>
+				<i20189 name="Fenrir" id="20189">1</i20189>
+				<i3828 name="Construction Blocks">1800</i3828>
+				<i29065 name="Capital Ladar Sensor Cluster">532</i29065>
+				<i29079 name="Capital Nuclear Reactor Unit">622</i29079>
+				<i29053 name="Capital Plasma Thruster">506</i29053>
+				<i29045 name="Capital Electrolytic Capacitor Unit">986</i29045>
+				<i29075 name="Capital Nanomechanical Microprocessor">845</i29075>
+				<i29043 name="Capital Deflection Shield Emitter">539</i29043>
+				<i29049 name="Capital Fernite Carbide Composite Armor Plate">1216</i29049>
+				<i21025 name="Capital Jump Drive">24</i21025>
+				<qty>1</qty>
+				<me>-1</me>
+				<bld_time></bld_time>
+				<flag>capital</flag>
+				<class>jump freighter</class>
+			</i28846_dec3>
+			<i28846_dec4 name="Nomad">
+				<i20172 name="Datacore - Minmatar Starship Engineering">154</i20172>
+				<i20424 name="Datacore - Mechanical Engineering">154</i20424>
+				<i21580 name="Advanced Theories">3</i21580>
+				<i11399 name="Morphite">3250</i11399>
+				<i11478 name="R.A.M. Starship Tech">38</i11478>
+				<i20189 name="Fenrir" id="20189">1</i20189>
+				<i3828 name="Construction Blocks">1950</i3828>
+				<i29065 name="Capital Ladar Sensor Cluster">576</i29065>
+				<i29079 name="Capital Nuclear Reactor Unit">673</i29079>
+				<i29053 name="Capital Plasma Thruster">549</i29053>
+				<i29045 name="Capital Electrolytic Capacitor Unit">915</i29045>
+				<i29075 name="Capital Nanomechanical Microprocessor">915</i29075>
+				<i29043 name="Capital Deflection Shield Emitter">584</i29043>
+				<i29049 name="Capital Fernite Carbide Composite Armor Plate">1317</i29049>
+				<i21025 name="Capital Jump Drive">26</i21025>
+				<qty>1</qty>
+				<me>-2</me>
+				<bld_time></bld_time>
+				<flag>capital</flag>
+				<class>jump freighter</class>
+			</i28846_dec4>
 	<!--Caldari-->
 			<i11192 name="Buzzard">
 				<i25887 name="Datacore - Caldari Starship Engineering">5.3</i25887>

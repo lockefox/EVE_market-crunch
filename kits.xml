@@ -49,15 +49,16 @@
     <other name="R.A.M. - Weapon Tech" id="11486">128</other>
   </inventor>
   <inventor id="i_test" name="test pilot">
-    <cap_parts name="Capital Armor Plates" id="21017">20</cap_parts>
+    <cap_parts name="Capital Armor Plates" id="21017">44</cap_parts>
     <cap_parts name="Capital Capacitor Battery" id="21019">18</cap_parts>
+    <cap_parts name="Capital Cargo Bay" id="21027">154</cap_parts>
     <cap_parts name="Capital Computer System" id="21035">6</cap_parts>
-    <cap_parts name="Capital Construction Parts" id="21037">14</cap_parts>
+    <cap_parts name="Capital Construction Parts" id="21037">104</cap_parts>
     <cap_parts name="Capital Corporate Hangar Bay" id="24560">20</cap_parts>
     <cap_parts name="Capital Drone Bay" id="21029">90</cap_parts>
     <cap_parts name="Capital Jump Drive" id="21025">20</cap_parts>
     <cap_parts name="Capital Power Generator" id="21021">20</cap_parts>
-    <cap_parts name="Capital Propulsion Engine" id="21009">20</cap_parts>
+    <cap_parts name="Capital Propulsion Engine" id="21009">72</cap_parts>
     <cap_parts name="Capital Sensor Cluster" id="21013">12</cap_parts>
     <cap_parts name="Capital Shield Emitter" id="21023">6</cap_parts>
     <cap_parts name="Capital Ship Maintenance Bay" id="24558">8</cap_parts>
@@ -142,15 +143,16 @@
     <Component name="Particle Accelerator Unit" id="11688">12,800</Component>
     <Component name="Photon Microprocessor" id="11541">39,336</Component>
     <Component name="Pulse Shield Emitter" id="11556">5,280</Component>
-    <cap_parts name="Capital Armor Plates" id="21017">20</cap_parts>
+    <cap_parts name="Capital Armor Plates" id="21017">44</cap_parts>
     <cap_parts name="Capital Capacitor Battery" id="21019">18</cap_parts>
+    <cap_parts name="Capital Cargo Bay" id="21027">154</cap_parts>
     <cap_parts name="Capital Computer System" id="21035">6</cap_parts>
-    <cap_parts name="Capital Construction Parts" id="21037">14</cap_parts>
+    <cap_parts name="Capital Construction Parts" id="21037">104</cap_parts>
     <cap_parts name="Capital Corporate Hangar Bay" id="24560">20</cap_parts>
     <cap_parts name="Capital Drone Bay" id="21029">90</cap_parts>
     <cap_parts name="Capital Jump Drive" id="21025">20</cap_parts>
     <cap_parts name="Capital Power Generator" id="21021">20</cap_parts>
-    <cap_parts name="Capital Propulsion Engine" id="21009">20</cap_parts>
+    <cap_parts name="Capital Propulsion Engine" id="21009">72</cap_parts>
     <cap_parts name="Capital Sensor Cluster" id="21013">12</cap_parts>
     <cap_parts name="Capital Shield Emitter" id="21023">6</cap_parts>
     <cap_parts name="Capital Ship Maintenance Bay" id="24558">8</cap_parts>
@@ -168,14 +170,14 @@
     <Datacore name="Datacore - Laser Physics" id="20413">60</Datacore>
     <Datacore name="Datacore - Mechanical Engineering" id="20424">1,093.368</Datacore>
     <Datacore name="Datacore - Plasma Physics" id="20412">640</Datacore>
-    <Mineral name="Isogen" id="37">1,639,752</Mineral>
-    <Mineral name="Megacyte" id="40">41,510</Mineral>
-    <Mineral name="Mexallon" id="36">10,767,501</Mineral>
+    <Mineral name="Isogen" id="37">3,019,008</Mineral>
+    <Mineral name="Megacyte" id="40">64,886</Mineral>
+    <Mineral name="Mexallon" id="36">20,149,575</Mineral>
     <Mineral name="Morphite" id="11399">19,980</Mineral>
-    <Mineral name="Nocxium" id="38">488,027</Mineral>
-    <Mineral name="Pyerite" id="35">28,090,849</Mineral>
-    <Mineral name="Tritanium" id="34">111,719,847</Mineral>
-    <Mineral name="Zydrine" id="39">110,855</Mineral>
+    <Mineral name="Nocxium" id="38">895,807</Mineral>
+    <Mineral name="Pyerite" id="35">53,290,345</Mineral>
+    <Mineral name="Tritanium" id="34">296,295,487</Mineral>
+    <Mineral name="Zydrine" id="39">174,013</Mineral>
     <T2 name="Isogen" id="37">12,277</T2>
     <T2 name="Megacyte" id="40">7,965</T2>
     <T2 name="Mexallon" id="36">826,293</T2>
@@ -196,13 +198,13 @@
     <RAM name="Nocxium" id="38">26,816</RAM>
     <RAM name="Pyerite" id="35">335,200</RAM>
     <RAM name="Tritanium" id="34">419,000</RAM>
-    <capital name="Isogen" id="37">1,473,668</capital>
-    <capital name="Megacyte" id="40">32,104</capital>
-    <capital name="Mexallon" id="36">9,394,834</capital>
-    <capital name="Nocxium" id="38">419,116</capital>
-    <capital name="Pyerite" id="35">24,753,980</capital>
-    <capital name="Tritanium" id="34">99,609,574</capital>
-    <capital name="Zydrine" id="39">74,590</capital>
+    <capital name="Isogen" id="37">2,852,924</capital>
+    <capital name="Megacyte" id="40">55,480</capital>
+    <capital name="Mexallon" id="36">18,776,908</capital>
+    <capital name="Nocxium" id="38">826,896</capital>
+    <capital name="Pyerite" id="35">49,953,476</capital>
+    <capital name="Tritanium" id="34">284,185,214</capital>
+    <capital name="Zydrine" id="39">137,748</capital>
     <PI name="Construction Blocks" id="3828">2,893</PI>
     <PI name="Robotics" id="9848">4,200</PI>
     <Other name="Collision Measurements" id="23183">31.746</Other>
