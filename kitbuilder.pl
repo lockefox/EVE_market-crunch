@@ -742,12 +742,7 @@ sub printer{
 				$writer->characters(&commify($shopping{"cap_parts"}{$capPartKey}));
 				$writer->endTag;
 			}
-			foreach my $capKey (sort keys %{$shopping{"capital"}}){
-				(undef,$shortID)=split ('i',$rName{$capKey});
-				$writer->startTag("capital", 'name'=>$capKey, 'id'=>$shortID);
-				$writer->characters(&commify($shopping{"capital"}{$capKey}));
-				$writer->endTag;
-			}
+
 			foreach my $gooKey (sort keys %{$shopping{"goo"}}){
 				(undef,$shortID)=split ('i',$rName{$gooKey});
 				$writer->startTag("goo", 'name'=>$gooKey, 'id'=>$shortID);
@@ -789,6 +784,12 @@ sub printer{
 					$writer->characters(&commify($shopping{"ram"}{$RAMKey}));
 					$writer->endTag;
 				}
+			}
+			foreach my $capKey (sort keys %{$shopping{"capital"}}){
+				(undef,$shortID)=split ('i',$rName{$capKey});
+				$writer->startTag("capital", 'name'=>$capKey, 'id'=>$shortID);
+				$writer->characters(&commify($shopping{"capital"}{$capKey}));
+				$writer->endTag;
 			}
 			foreach my $PIKey (sort keys %{$shopping{"PI"}}){
 				(undef,$shortID)=split ('i',$rName{$PIKey});
