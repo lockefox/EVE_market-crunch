@@ -1,12 +1,10 @@
 <root>
 	<staff>
-		<i170029085 name="Raksha Delam">
+		<!--i170029085 name="Raksha Delam">
 			<i3138 name="Heavy Ion Blaster II">400</i3138>
-			<!--i26888_dec1 name="Mobile Large Warp Disruptor II">50</i26888_dec1-->
 		</i170029085>
 		<i628592330 name="Lockefox">
 			<i3130 name="Heavy Electron Blaster II">400</i3130>
-			<!--i26888_dec1 name="Mobile Large Warp Disruptor II">50</i26888_dec1-->
 		</i628592330>
 		<i90471974 name="Anton Renard">
 			<i3138 name="Heavy Ion Blaster II">400</i3138>
@@ -15,12 +13,12 @@
 		<i425131377 name="Anya Kitsune">
 			<i12021_dec3 name="Phobos">11</i12021_dec3>
 			<i12743 name="Viator">11</i12743>
-		</i425131377>
+		</i425131377-->
 		<i_test name="test pilot">
-			<i23757 name="Archon">2</i23757>
+			<i28846_dec4 name="Nomad">1</i28846_dec4>
 			<i20189 name="Fenrir">2</i20189>
 		</i_test>
-		<i168237945 name="Cyno Moore">
+		<!--i168237945 name="Cyno Moore">
 			<i12789 name="Void M">1000000</i12789>
 		</i168237945>
 		<i348613732 name="Agasa Kaolla">
@@ -28,7 +26,7 @@
 		</i348613732>
 		<i92509965 name="Red Tail Blind">
 			<i12563 name="Scorch S">1200</i12563>
-		</i92509965>
+		</i92509965-->
 	</staff>	
 	<pos>
 	</pos>

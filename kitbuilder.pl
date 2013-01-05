@@ -151,6 +151,14 @@ sub loader {
 			}
 			$comp{$prod}=$comps->{component}->{$class}->{$prod}->{name};
 		}
+	}	
+	foreach my $class (keys %{$comps->{capcomponent}}){
+		foreach my $prod (keys %{$comps->{capcomponent}->{$class}}){
+			if ($prod eq "name"){
+				next;
+			}
+			$comp{$prod}=$comps->{capcomponent}->{$class}->{$prod}->{name};
+		}
 	}
 	
 	%min=(
@@ -356,6 +364,7 @@ sub typeLoader{
 sub shopping{
 	my %component;	#$component{$ID}{$material}=qty;
 	%component = &compload();
+	my %cap_comp = &advcompload();
 	#	$shopping{$subgroup}{name}=qty
 	my $t1page= new XML::Simple;
 	my $t1XML = $t1page->XMLin($T1list);
@@ -398,7 +407,16 @@ sub shopping{
 					else{
 						$shopping{"goo"}{($names{$sub1})}+=$qty * $component{$materialKeys}{$sub1};
 					}
+					if (exists $cap_comp{$materialKeys}){
+						if (!(exists $shopping{"cap_goo"}{($names{$sub1})})){
+							$shopping{"cap_goo"}{($names{$sub1})}=$qty * $component{$materialKeys}{$sub1};
+						}
+						else{
+							$shopping{"cap_goo"}{($names{$sub1})}+=$qty * $component{$materialKeys}{$sub1};
+						}
+					}
 				}
+				
 				next;
 			}
 			if (exists $capitalParts{$materialKeys}){
@@ -596,7 +614,7 @@ sub shopping{
 			}
 		}
 	}
-	#print Dumper (%shopping);
+	print Dumper (%{$shopping{"cap_goo"}});
 };
 
 sub compload{
@@ -616,8 +634,36 @@ sub compload{
 			}
 		}
 	}
+	foreach my $type (keys %{$compXML->{capcomponent}}){
+		foreach my $product(keys %{$compXML->{capcomponent}->{$type}}){
+					$names{$product}=$compXML->{capcomponent}->{$type}->{$product}->{name};
+			foreach my $part (keys %{$compXML->{capcomponent}->{$type}->{$product}}){
+				if ($part =~ /^i/){
+					$names{$part}=$compXML->{capcomponent}->{$type}->{$product}->{$part}->{name};
+					$data{$product}{$part}=$compXML->{capcomponent}->{$type}->{$product}->{$part}->{content};
+					$shopping{$part}=0;#initialize subcomponent values in shopping
+				}
+			}
+		}
+	}
 	
 	return %data;
+}
+sub advcompload{
+	my %data;	#$data{$ID}{$material}=qty
+	
+	foreach my $type (keys %{$compXML->{capcomponent}}){
+		foreach my $product(keys %{$compXML->{capcomponent}->{$type}}){
+					$names{$product}=$compXML->{capcomponent}->{$type}->{$product}->{name};
+			foreach my $part (keys %{$compXML->{capcomponent}->{$type}->{$product}}){
+				if ($part =~ /^i/){
+					$names{$part}=$compXML->{capcomponent}->{$type}->{$product}->{$part}->{name};
+					$data{$product}{$part}=$compXML->{capcomponent}->{$type}->{$product}->{$part}->{content};
+					$shopping{$part}=0;#initialize subcomponent values in shopping
+				}
+			}
+		}
+	}
 }
 
 sub printer{
@@ -747,6 +793,12 @@ sub printer{
 				(undef,$shortID)=split ('i',$rName{$gooKey});
 				$writer->startTag("goo", 'name'=>$gooKey, 'id'=>$shortID);
 				$writer->characters(&commify($shopping{"goo"}{$gooKey}));
+				$writer->endTag;
+			}
+			foreach my $cap_gooKey (sort keys %{$shopping{"cap_goo"}}){
+				(undef,$shortID)=split ('i',$rName{$cap_gooKey});
+				$writer->startTag("cap_goo", 'name'=>$cap_gooKey, 'id'=>$shortID);
+				$writer->characters(&commify($shopping{"cap_goo"}{$cap_gooKey}));
 				$writer->endTag;
 			}
 			foreach my $dcKey (sort keys %{$shopping{"datacore"}}){
