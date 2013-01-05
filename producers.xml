@@ -1,6 +1,6 @@
 <root>
 	<staff>
-		<i170029085 name="Raksha Delam">
+		<!--i170029085 name="Raksha Delam">
 			<i26888_dec1 name="Mobile Large Warp Disruptor II">50</i26888_dec1>
 		</i170029085>
 		<i628592330 name="Lockefox">
@@ -22,7 +22,10 @@
 			<i3138 name="Heavy Ion Blaster II">100</i3138>
 			<i12021_dec3 name="Phobos">10</i12021_dec3>
 			<i22444_dec3 name="Sleipnir">5</i22444_dec3>
-		</i425131377>
+		</i425131377-->
+		<i_test name="test pilot">
+			<i23757 name="Archon">2</i23757>
+		</i_test>
 	</staff>	
 	<pos>
 	</pos>

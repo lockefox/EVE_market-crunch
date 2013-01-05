@@ -16,6 +16,7 @@ use IO;
 my %employee;	#Holds staff ID/Name
 my %names;	#Holds item ID/Name
 my %subset;
+my %cap_subset;
 
 ### NOTE ###
 #
@@ -41,7 +42,27 @@ my %ramid=(
 	"i11486", "Weapon",
 );
 
-my %capitalParts;
+my %capitalParts=(
+	"i21017", "Capital Armor Plates",
+	"i21019", "Capital Capacitor Battery",
+	"i21027", "Capital Cargo Bay",
+	"i24547", "Capital Clone Vat Bay",
+	"i21035", "Capital Computer System",
+	"i21037", "Capital Construction Parts",
+	"i24560", "Capital Corporate Hangar Bay",
+	"i24556", "Capital Doomsday Weapon Mount",
+	"i21029", "Capital Drone Bay",
+	"i24545", "Capital Jump Bridge Array",
+	"i21025", "Capital Jump Drive",
+	"i21041", "Capital Launcher Hardpoint",
+	"i21021", "Capital Power Generator",
+	"i21009", "Capital Propulsion Engine",
+	"i21013", "Capital Sensor Cluster",
+	"i21023", "Capital Shield Emitter",
+	"i24558", "Capital Ship Maintenance Bay",
+	"i21039", "Capital Siege Array",
+	"i21011", "Capital Turret Hardpoint",
+);
 #	$capitalParts{id}{material}=qty
 
 ##################################################
@@ -83,6 +104,9 @@ my $T1s = $t1page->XMLin($T1list);
 
 my $comppage = new XML::Simple;
 my $comps = $comppage->XMLin($complist);
+
+my $components = new XML::Simple;
+my $compXML = $components->XMLin($complist);
 
 &parseargs;
 #&loadKits;	#BROKEN
@@ -254,33 +278,59 @@ sub quickKits{
 			if ($products eq "name"){
 				next;
 			}
+	
 			$names{$products}=$staff->{staff}->{$pilot}->{$products}->{name};
 			my $qty = $staff->{staff}->{$pilot}->{$products}->{content};
 			
-			my $div = $mats->{T2}->{($subset{$products})}->{$products}->{qty};
-			
-			$x = $qty/$div;
+			my $div=1;
 			#print $names{$products}."x".$x."(".$qty."/".$div.")\n";
-			foreach my $parts (keys %{$mats->{T2}->{($subset{$products})}->{$products}}){
-				if ($parts eq "bld_time"){
-					next;
+			if (exists $cap_subset{$products}){
+				#print "capital case\n";
+				#CAPITAL CASE
+				$div=1;
+				foreach my $cap_parts (keys %{$mats->{capitals}->{$cap_subset{$products}}->{$products}}){
+					if ($cap_parts =~ /^i/){
+						#print $cap_parts.":".$mats->{capitals}->{($cap_subset{$products})}->{$products}->{$cap_parts}->{content}."\n";
+
+						$names{$cap_parts}=$mats->{capitals}->{($cap_subset{$products})}->{$products}->{$cap_parts}->{name};
+							#Load capital components to kit-list
+						if (exists $kits{$pilot}{$cap_parts}){
+							$kits{$pilot}{$cap_parts}+=$mats->{capitals}->{($cap_subset{$products})}->{$products}->{$cap_parts}->{content} * $qty;
+						}
+						else{
+							$kits{$pilot}{$cap_parts}=$mats->{capitals}->{($cap_subset{$products})}->{$products}->{$cap_parts}->{content} * $qty;
+						}
+					}
 				}
-				if ($parts =~ /i/ or $parts =~ /[A-Z]/){
-					$names{$parts}=$mats->{T2}->{($subset{$products})}->{$products}->{$parts}->{name};
-					if (exists $kits{$pilot}{$parts}){
-						$kits{$pilot}{$parts}+=$mats->{T2}->{($subset{$products})}->{$products}->{$parts}->{content} * $x;
+				
+			}
+			else{
+				$div = $mats->{T2}->{($subset{$products})}->{$products}->{qty};
+			
+				$x = $qty/$div;
+			
+				foreach my $parts (keys %{$mats->{T2}->{($subset{$products})}->{$products}}){
+					if ($parts eq "bld_time"){
+						next;
 					}
-					else{
-						$kits{$pilot}{$parts}=$mats->{T2}->{($subset{$products})}->{$products}->{$parts}->{content} * $x;
-					}
-					if($parts =~ /[A-Z]/){
-						$T1{$parts}[0]="i".$mats->{T2}->{($subset{$products})}->{$products}->{$parts}->{id};
-						$T1{$parts}[1]=$subset{$products};
-						$T1{$parts}[2]=$mats->{T2}->{($subset{$products})}->{$products}->{flag};
-						print $parts."=".$T1{$parts}[0].":".$T1{$parts}[1].":".$T1{$parts}[2]."\n";
+					if ($parts =~ /i/ or $parts =~ /[A-Z]/){
+						$names{$parts}=$mats->{T2}->{($subset{$products})}->{$products}->{$parts}->{name};
+						if (exists $kits{$pilot}{$parts}){
+							$kits{$pilot}{$parts}+=$mats->{T2}->{($subset{$products})}->{$products}->{$parts}->{content} * $x;
+						}
+						else{
+							$kits{$pilot}{$parts}=$mats->{T2}->{($subset{$products})}->{$products}->{$parts}->{content} * $x;
+						}
+						if($parts =~ /[A-Z]/){
+							$T1{$parts}[0]="i".$mats->{T2}->{($subset{$products})}->{$products}->{$parts}->{id};
+							$T1{$parts}[1]=$subset{$products};
+							$T1{$parts}[2]=$mats->{T2}->{($subset{$products})}->{$products}->{flag};
+							print $parts."=".$T1{$parts}[0].":".$T1{$parts}[1].":".$T1{$parts}[2]."\n";
+						}
 					}
 				}
 			}
+			print Dumper(%kits);
 		}
 		#print Dumper(%kits);
 		#print Dumper(%T1);
@@ -294,7 +344,12 @@ sub typeLoader{
 			$subset{$item}=$type;
 		}
 	}
-	#print Dumper(%subset);
+	foreach my $cap_type (keys %{$mats->{capitals}}){
+		foreach my $cap_ship (keys %{$mats->{capitals}->{$cap_type}}){
+			$cap_subset{$cap_ship}=$cap_type;
+		}
+	}
+	#print Dumper(%cap_subset);
 
 };
 
@@ -342,6 +397,39 @@ sub shopping{
 					}
 					else{
 						$shopping{"goo"}{($names{$sub1})}+=$qty * $component{$materialKeys}{$sub1};
+					}
+				}
+				next;
+			}
+			if (exists $capitalParts{$materialKeys}){
+				my $qty = $kits{$pilots}{$materialKeys};
+				if (!(exists $shopping{"cap_parts"}{($names{$materialKeys})})){
+					$shopping{"cap_parts"}{($names{$materialKeys})} = $kits{$pilots}{$materialKeys};
+				}
+				else {
+					$shopping{"cap_parts"}{($names{$materialKeys})} += $kits{$pilots}{$materialKeys};
+				}
+				#print $materialKeys.":".$capitalParts{$materialKeys}."\n";
+				foreach my $sub1 (keys %{$compXML->{capital}->{$materialKeys}}){
+						##Add capital minerals to total mineral count##
+					if($sub1 =~/^i/){
+						if (!(exists $names{$sub1})){
+							$names{$sub1}=$compXML->{capital}->{$materialKeys}->{$sub1}->{name};
+						}
+						#print "\t".$names{$sub1}.":".$qty*($compXML->{capital}->{$materialKeys}->{$sub1}->{content})."\n";
+						if (!(exists $shopping{"mineral"}{($names{$sub1})})){
+							$shopping{"mineral"}{($names{$sub1})}=$qty*($compXML->{capital}->{$materialKeys}->{$sub1}->{content});
+						}
+						else{
+							$shopping{"mineral"}{($names{$sub1})}+=$qty*($compXML->{capital}->{$materialKeys}->{$sub1}->{content});
+						}
+							##Print capital minerals to own subset##
+						if (!(exists $shopping{"capital"}{($names{$sub1})})){
+							$shopping{"capital"}{($names{$sub1})}=$qty*($compXML->{capital}->{$materialKeys}->{$sub1}->{content});
+						}
+						else{
+							$shopping{"capital"}{($names{$sub1})}+=$qty*($compXML->{capital}->{$materialKeys}->{$sub1}->{content});
+						}
 					}
 				}
 				next;
@@ -508,14 +596,13 @@ sub shopping{
 			}
 		}
 	}
-	print Dumper (%shopping);
+	#print Dumper (%shopping);
 };
 
 sub compload{
 	my %data;	#$data{$ID}{$material}=qty
 	
-	my $components = new XML::Simple;
-	my $compXML = $components->XMLin($complist);
+	
 	
 	foreach my $type (keys %{$compXML->{component}}){
 		foreach my $product(keys %{$compXML->{component}->{$type}}){
@@ -551,7 +638,8 @@ sub printer{
 		my %subPI;
 		my %subGoo;
 		my %subOther;
-		
+		my %subCapParts;
+		my %subCapMins;
 	
 	#%comp,
 	#%goo,
@@ -574,6 +662,9 @@ sub printer{
 			}
 			elsif(exists $DC{$parts}){	#Datacore
 				$subDC{$names{$parts}}= $parts;
+			}
+			elsif(exists $capitalParts{$parts}){
+				$subCapParts{$capitalParts{$parts}}=$parts;
 			}
 			else{	#T1, etc
 				print $parts."\n";
@@ -616,6 +707,13 @@ sub printer{
 			$writer->characters(&commify($kits{$people}{$subDC{$kDC}}));
 			$writer->endTag();
 		}
+		foreach my $kCap(sort keys %subCapParts){
+			my $id6;
+			(undef, $id6)=split('i', $subCapParts{$kCap});
+			$writer->startTag("cap_parts", 'name'=>$names{$subCapParts{$kCap}}, 'id'=>$id6);
+			$writer->characters(&commify($kits{$people}{$subCapParts{$kCap}}));
+			$writer->endTag();
+		}
 		foreach my $kOther(sort keys %subOther){
 			my $id6;
 			(undef, $id6)=split('i', $subOther{$kOther});
@@ -636,6 +734,18 @@ sub printer{
 				(undef,$shortID)=split ('i',$rName{$compKey});
 				$writer->startTag("Component", 'name'=>$compKey, 'id'=>$shortID);
 				$writer->characters(&commify($shopping{"component"}{$compKey}));
+				$writer->endTag;
+			}
+			foreach my $capPartKey (sort keys %{$shopping{"cap_parts"}}){
+				(undef,$shortID)=split ('i',$rName{$capPartKey});
+				$writer->startTag("cap_parts", 'name'=>$capPartKey, 'id'=>$shortID);
+				$writer->characters(&commify($shopping{"cap_parts"}{$capPartKey}));
+				$writer->endTag;
+			}
+			foreach my $capKey (sort keys %{$shopping{"capital"}}){
+				(undef,$shortID)=split ('i',$rName{$capKey});
+				$writer->startTag("capital", 'name'=>$capKey, 'id'=>$shortID);
+				$writer->characters(&commify($shopping{"capital"}{$capKey}));
 				$writer->endTag;
 			}
 			foreach my $gooKey (sort keys %{$shopping{"goo"}}){

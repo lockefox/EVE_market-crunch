@@ -5220,7 +5220,7 @@
 			<i12021_dec3 name="Phobos">
 				<i20410 name="Datacore - Gallentean Starship Engineering">23.088</i20410>
 				<i20424 name="Datacore - Mechanical Engineering">23.088</i20424>
-				<i23183 name="Collision Measurements">2.886<i23183>
+				<i23183 name="Collision Measurements">2.886</i23183>
 				<i11399 name="Morphite">120</i11399>
 				<i11478 name="R.A.M. Starship Tech">13.3</i11478>
 				<THRX name="Thorax" id="627">1</THRX>
@@ -5237,7 +5237,7 @@
 				<bld_time></bld_time>
 				<flag>cruiser</flag>
 				<class>hictor</class>
-			</i12021_dec3
+			</i12021_dec3>
 			<i11971 name="Lachesis">
 				<i20410 name="Datacore - Gallentean Starship Engineering">25.4</i20410>
 				<i20424 name="Datacore - Mechanical Engineering">25.4</i20424>
