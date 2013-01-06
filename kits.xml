@@ -2,43 +2,43 @@
 
 <root>
   <inventor id="hibiki" name="Invent Fox">
-    <component name="Laser Focusing Crystals" id="11689">4,800</component>
-    <mineral name="Isogen" id="37">800</mineral>
+    <component name="Laser Focusing Crystals" id="11689">4,400</component>
+    <mineral name="Isogen" id="37">3,200</mineral>
     <mineral name="Megacyte" id="40">0</mineral>
-    <mineral name="Mexallon" id="36">377,600</mineral>
-    <mineral name="Morphite" id="11399">4,800</mineral>
-    <mineral name="Nocxium" id="38">3,600</mineral>
-    <mineral name="Pyerite" id="35">588,800</mineral>
-    <mineral name="Tritanium" id="34">1,698,000</mineral>
+    <mineral name="Mexallon" id="36">429,600</mineral>
+    <mineral name="Morphite" id="11399">5,600</mineral>
+    <mineral name="Nocxium" id="38">800</mineral>
+    <mineral name="Pyerite" id="35">389,600</mineral>
+    <mineral name="Tritanium" id="34">1,722,000</mineral>
     <mineral name="Zydrine" id="39">0</mineral>
     <PI name="Robotics" id="9848">1,200</PI>
     <datacore name="Datacore - Laser Physics" id="20413">160</datacore>
     <datacore name="Datacore - Mechanical Engineering" id="20424">160</datacore>
-    <other name="Heavy Beam Laser I" id="">400</other>
+    <other name="Heavy Pulse Laser I" id="">400</other>
     <other name="R.A.M. - Weapon Tech" id="11486">160</other>
   </inventor>
   <Shopping>
-    <Component name="Laser Focusing Crystals" id="11689">4,800</Component>
-    <goo name="Fullerides" id="16679">48,000</goo>
-    <goo name="Hypersynaptic Fibers" id="16682">4,800</goo>
-    <goo name="Tungsten Carbonite" id="16672">134,400</goo>
+    <Component name="Laser Focusing Crystals" id="11689">4,400</Component>
+    <goo name="Fullerides" id="16679">44,000</goo>
+    <goo name="Hypersynaptic Fibers" id="16682">4,400</goo>
+    <goo name="Tungsten Carbonite" id="16672">123,200</goo>
     <Datacore name="Datacore - Laser Physics" id="20413">160</Datacore>
     <Datacore name="Datacore - Mechanical Engineering" id="20424">160</Datacore>
-    <Mineral name="Isogen" id="37">12,640</Mineral>
+    <Mineral name="Isogen" id="37">15,040</Mineral>
     <Mineral name="Megacyte" id="40">0</Mineral>
-    <Mineral name="Mexallon" id="36">409,600</Mineral>
-    <Mineral name="Morphite" id="11399">4,800</Mineral>
-    <Mineral name="Nocxium" id="38">8,720</Mineral>
-    <Mineral name="Pyerite" id="35">652,800</Mineral>
-    <Mineral name="Tritanium" id="34">1,778,000</Mineral>
+    <Mineral name="Mexallon" id="36">461,600</Mineral>
+    <Mineral name="Morphite" id="11399">5,600</Mineral>
+    <Mineral name="Nocxium" id="38">5,920</Mineral>
+    <Mineral name="Pyerite" id="35">453,600</Mineral>
+    <Mineral name="Tritanium" id="34">1,802,000</Mineral>
     <Mineral name="Zydrine" id="39">0</Mineral>
-    <T2 name="Isogen" id="37">800</T2>
+    <T2 name="Isogen" id="37">3,200</T2>
     <T2 name="Megacyte" id="40">0</T2>
-    <T2 name="Mexallon" id="36">377,600</T2>
-    <T2 name="Morphite" id="11399">4,800</T2>
-    <T2 name="Nocxium" id="38">3,600</T2>
-    <T2 name="Pyerite" id="35">588,800</T2>
-    <T2 name="Tritanium" id="34">1,698,000</T2>
+    <T2 name="Mexallon" id="36">429,600</T2>
+    <T2 name="Morphite" id="11399">5,600</T2>
+    <T2 name="Nocxium" id="38">800</T2>
+    <T2 name="Pyerite" id="35">389,600</T2>
+    <T2 name="Tritanium" id="34">1,722,000</T2>
     <T2 name="Zydrine" id="39">0</T2>
     <RAM name="Isogen" id="37">11,840</RAM>
     <RAM name="Mexallon" id="36">32,000</RAM>
@@ -46,7 +46,7 @@
     <RAM name="Pyerite" id="35">64,000</RAM>
     <RAM name="Tritanium" id="34">80,000</RAM>
     <PI name="Robotics" id="9848">1,200</PI>
-    <Other name="Heavy Beam Laser I" id="">400</Other>
+    <Other name="Heavy Pulse Laser I" id="">400</Other>
     <Other name="R.A.M. - Weapon Tech" id="11486">160</Other>
   </Shopping>
 </root>
