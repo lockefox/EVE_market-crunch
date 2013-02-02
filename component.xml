@@ -416,13 +416,13 @@
 				<me>20</me>
 				<bld_time></bld_time>
 			</i29059>
-			<i29079 name="Capital Antimatter Reactor Unit">
+			<i29039 name="Capital Antimatter Reactor Unit">
 				<i16672 name="Tungsten Carbonite">804</i16672>
 				<i17317 name="Fermionic Condensates">10</i17317>
 				<i16683 name="Ferrogel">10</i16683>
 				<me>20</me>
 				<bld_time></bld_time>
-			</i29079>
+			</i29039>
 		</reactor>
 		<sensor>
 			<i29069 name="Capital Magnetometric Sensor Cluster">
@@ -492,13 +492,13 @@
 				<me>20</me>
 				<bld_time></bld_time>
 			</i29061>
-			<i29053 name="Capital Plasma Thruster">
+			<i29089 name="Capital Plasma Thruster">
 				<i16673 name="Fernite Carbide">1206</i16673>
 				<i16680 name="Phenolic Composits">30</i16680>
 				<i16683 name="Ferrogel">10</i16683>
 				<me>20</me>
 				<bld_time></bld_time>
-			</i29053>
+			</i29089>
 			<i29071 name="Capital Magpulse Thruster">
 				<i16671 name="Titanium Carbonite">1206</i16671>
 				<i16680 name="Phenolic Composits">30</i16680>

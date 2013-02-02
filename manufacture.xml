@@ -4949,9 +4949,9 @@
 				<PROVI name="Providence" id="20183">1</PROVI>
 				<i3828 name="Construction Blocks">1800</i3828>
 				<i29095 name="Capital Radar Sensor Cluster">532</i29095>
-				<i29079 name="Capital Antimatter Reactor Unit">622</i29079>
+				<i29039 name="Capital Antimatter Reactor Unit">622</i29039>
 				<i29103 name="Capital Tesseract Capacitor Unit">986</i29103>
-				<i29053 name="Capital Plasma Thruster">506</i29053>
+				<i29053 name="Capital Fusion Thruster">506</i29053>
 				<i29073 name="Capital Nanoelectrical Microprocessor">845</i29073>
 				<i29067 name="Capital Linear Shield Emitter">539</i29067>
 				<i29110 name="Capital Tungsten Carbide Armor Plate Blueprint">1216</i29110>
@@ -6310,7 +6310,7 @@
 			</i3057>
 			<i4147 name="Dual Heavy Pulse Laser II">
 				<i20413 name="Datacore - Laser Physics">6</i20413>
-				<i20424 name="Datacore - Mechanical Engineering">6</i20424>
+				<i20411 name="Datacore - High Energy Physics">6</i20411>
 				<i11399 name="Morphite">170</i11399>
 				<DHPL name="Dual Heavy Pulse Laser I" id="460">10</DHPL>
 				<i11486 name="R.A.M. - Weapon Tech">6</i11486>
@@ -6394,7 +6394,7 @@
 			</i3285>
 			<i3520 name="Heavy Pulse Laser II">
 				<i20413 name="Datacore - Laser Physics">4</i20413>
-				<i20424 name="Datacore - Mechanical Engineering">4</i20424>
+				<i20411 name="Datacore - High Energy Physics">4</i20411>
 				<i11399 name="Morphite">140</i11399>
 				<HPL name="Heavy Pulse Laser I" id="458">10</HPL>
 				<i11486 name="R.A.M. - Weapon Tech">4</i11486>
