@@ -5,10 +5,10 @@
     <component name="Capital Deflection Shield Emitter" id="29043">584</component>
     <component name="Capital Electrolytic Capacitor Unit" id="29045">915</component>
     <component name="Capital Fernite Carbide Composite Armor Plate" id="29049">1,317</component>
-    <component name="Capital Fusion Thruster" id="29053">549</component>
     <component name="Capital Ladar Sensor Cluster" id="29065">576</component>
     <component name="Capital Nanomechanical Microprocessor" id="29075">915</component>
     <component name="Capital Nuclear Reactor Unit" id="29079">673</component>
+    <component name="Capital Plasma Thruster" id="29089">549</component>
     <mineral name="Morphite" id="11399">3,250</mineral>
     <PI name="Construction Blocks" id="3828">1,950</PI>
     <datacore name="Datacore - Mechanical Engineering" id="20424">154</datacore>
@@ -22,20 +22,19 @@
     <Component name="Capital Deflection Shield Emitter" id="29043">584</Component>
     <Component name="Capital Electrolytic Capacitor Unit" id="29045">915</Component>
     <Component name="Capital Fernite Carbide Composite Armor Plate" id="29049">1,317</Component>
-    <Component name="Capital Fusion Thruster" id="29053">549</Component>
     <Component name="Capital Ladar Sensor Cluster" id="29065">576</Component>
     <Component name="Capital Nanomechanical Microprocessor" id="29075">915</Component>
     <Component name="Capital Nuclear Reactor Unit" id="29079">673</Component>
+    <Component name="Capital Plasma Thruster" id="29089">549</Component>
     <cap_parts name="Capital Jump Drive" id="21025">26</cap_parts>
     <goo name="Fermionic Condensates" id="17317">6,730</goo>
-    <goo name="Fernite Carbide" id="16673">8,462,502</goo>
+    <goo name="Fernite Carbide" id="16673">9,124,596</goo>
     <goo name="Ferrogel" id="16683">18,060</goo>
     <goo name="Fullerides" id="16679">919,575</goo>
     <goo name="Hypersynaptic Fibers" id="16682">11,520</goo>
     <goo name="Nanotransistors" id="16681">60,660</goo>
     <goo name="Phenolic Composits" id="16680">25,620</goo>
     <goo name="Sylramic Fibers" id="16678">2,445,036</goo>
-    <goo name="Tungsten Carbonite" id="16672">662,094</goo>
     <Datacore name="Datacore - Mechanical Engineering" id="20424">154</Datacore>
     <Datacore name="Datacore - Minmatar Starship Engineering" id="20172">154</Datacore>
     <Mineral name="Isogen" id="37">204,702</Mineral>
