@@ -3593,6 +3593,27 @@
 				<flag>destroyer</flag>
 				<class>Interdictor</class>
 			</i22456>
+			<i22456_dec2 name="Sabre">
+				<i20172 name="Datacore - Minmatar Starship Engineering">3.527</i20172>
+				<i20424 name="Datacore - Mechanical Engineering">3.527</i20424>
+				<i21581 name="Operation Handbook">0.9523</i21581>
+				<i11399 name="Morphite">14</i11399>
+				<i11478 name="R.A.M. Starship Tech">5.7</i11478>
+				<THRSH name="Thrasher" id="16242">1</THRSH>
+				<i3828 name="Construction Blocks">21</i3828>
+				<i11542 name="Fernite Carbide Composite Armor Plate">1400</i11542>
+				<i11551 name="Electrolytic Capacitor Unit">140</i11551>
+				<i11538 name="Nanomechanical Microprocessor">336</i11538>
+				<i11548 name="Nuclear Reactor Unit">14</i11548>
+				<i11536 name="Ladar Sensor Cluster">70</i11536>
+				<i11555 name="Deflection Shield Emitter">35</i11555>
+				<i11530 name="Plasma Thruster">56</i11530>
+				<qty>1</qty>
+				<me>-3</me>
+				<bld_time></bld_time>
+				<flag>destroyer</flag>
+				<class>Interdictor</class>
+			</i22456_dec2>
 			<i11978 name="Scimitar">
 				<i20172 name="Datacore - Minmatar Starship Engineering">25.4</i20172>
 				<i20424 name="Datacore - Mechanical Engineering">25.4</i20424>
@@ -8116,7 +8137,7 @@
 			</i20187>
 			<i20189 name="Fenrir">
 				<i21017 name="Capital Armor Plates">12</i21017>
-				<i21027 name="Capital Cargo Bay">77</i21027>
+				<i21027 name="Capital Cargo Bay">78</i21027>
 				<i21037 name="Capital Construction Parts">45</i21037>
 				<i21009 name="Capital Propulsion Engine">26</i21009>
 				<qty>1</qty>
