@@ -1,6 +1,6 @@
 <root>
 	<staff>
-		<i170029085 name="Raksha Delam">
+		<!--i170029085 name="Raksha Delam">
 			<i3186 name="Neutron Blaster Cannon II">400</i3186>
 			<i20189 name="Fenrir">1</i20189>
 		</i170029085>
@@ -13,10 +13,6 @@
 		<i425131377 name="Anya Kitsune">
 			<i22456 name="Sabre">20</i22456>
 		</i425131377>
-		<!--i_test name="test pilot">
-			<i28846_dec4 name="Nomad">1</i28846_dec4>
-			
-		</i_test-->
 		<i168237945 name="Cyno Moore">
 			<i12791_dec1 name="Void L">500000</i12791_dec1>
 		</i168237945>
@@ -25,10 +21,10 @@
 		</i348613732>
 		<i92509965 name="Red Tail Blind">
 			<i12563 name="Scorch S">1200</i12563>
-		</i92509965>
-		<!--hibiki name="Invent Fox">
-			<i3520 name="Heavy Pulse Laser II">400</i3520>
-		</hibiki-->
+		</i92509965-->
+		<hibiki name="Invent Fox">
+			<i3041 name="Small Focused Pulse Laser II">400</i3041>
+		</hibiki>
 	</staff>	
 	<pos>
 	</pos>

@@ -6518,6 +6518,27 @@
 				<mfg_grp>laser</mfg_grp>
 				<flag>module</flag>
 			</i3512>
+			<i3041 name="Small Focused Pulse Laser II">
+				<i20413 name="Datacore - Laser Physics">2</i20413>
+				<i20411 name="Datacore - High Energy Physics">2</i20411>
+				<i11399 name="Morphite">60</i11399>
+				<SFPL name="Small Focused Pulse Laser I" id="453">10</SFPL>
+				<i11486 name="R.A.M. - Weapon Tech">2.8</i11486>
+				<i11689 name="Laser Focusing Crystals">60</i11689>
+				<i9848 name="Robotics">10</i9848>
+				<i37 name="Isogen">20</i37>
+				<i40 name="Megacyte">0</i40>
+				<i36 name="Mexallon">30</i36>
+				<i38 name="Nocxium">0</i38>
+				<i35 name="Pyerite">3210</i35>
+				<i34 name="Tritanium">4260</i34>
+				<i39 name="Zydrine">0</i39>
+				<qty>10</qty>
+				<me>-4</me>
+				<bld_time></bld_time>
+				<mfg_grp>laser</mfg_grp>
+				<flag>module</flag>
+			</i3041>
 			<i3017 name="Gatling Pulse Laser II">
 				<i20413 name="Datacore - Laser Physics">2</i20413>
 				<i20424 name="Datacore - Mechanical Engineering">2</i20424>

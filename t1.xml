@@ -521,7 +521,15 @@
 				<i34 name="Tritanium">61557</i34>
 				<i39 name="Zydrine">5</i39>
 			</i462>
-
+			<i453 name="Small Focused Pulse Laser I" id="SFPL">
+				<i37 name="Isogen">6</i37>
+				<i40 name="Megacyte">0</i40>
+				<i36 name="Mexallon">3</i36>
+				<i38 name="Nocxium">0</i38>
+				<i35 name="Pyerite">1045</i35>
+				<i34 name="Tritanium">1405</i34>
+				<i39 name="Zydrine">0</i39>
+			</i453>
 			<i573 name="Neutron Blaster Cannon I" id="NBC">
 				<i37 name="Isogen">2066</i37>
 				<i40 name="Megacyte">23</i40>
