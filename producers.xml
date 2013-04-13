@@ -1,30 +1,43 @@
 <root>
 	<staff>
-		<!--i170029085 name="Raksha Delam">
-			<i3186 name="Neutron Blaster Cannon II">400</i3186>
-			<i20189 name="Fenrir">1</i20189>
+		<i170029085 name="Raksha Delam">
+			<i11377_dec1 name="Nemesis">50</i11377_dec1>
+			<!--i12034_dec1 name="Hound">50</i12034_dec1-->
 		</i170029085>
-		<i628592330 name="Lockefox">
-			<i3130 name="Heavy Electron Blaster II">400</i3130>
-		</i628592330>
+		<!--i628592330 name="Lockefox">
+			<i3138 name="Heavy Ion Blaster II">400</i3138>
+		</i628592330-->
 		<i90471974 name="Anton Renard">
-			<i11646 name="Armor Explosive Hardener II">400</i11646>
+			<i3186 name="Neutron Blaster Cannon II">400</i3186>
 		</i90471974>
 		<i425131377 name="Anya Kitsune">
-			<i22456 name="Sabre">20</i22456>
+			<i12017_dec3 name="Devoter">10</i12017_dec3>
+			<i11957_dec3 name="Falcon">20</i11957_dec3>
 		</i425131377>
-		<i168237945 name="Cyno Moore">
+		<!--ammo name="ammo dude">
 			<i12791_dec1 name="Void L">500000</i12791_dec1>
+			<i12563 name="Scorch S">1200</i12563>	
+			<i12779_dec1 name="Hail L">500000</i12779_dec1>
+		</ammo-->
+		<!--test name="test pilot">
+			<i28606 name="Orca">2</i28606>
+			<i20189 name="Fenrir">1</i20189>
+		</test-->
+		<i168237945 name="Cyno Moore">
+			<i3057 name="Mega Pulse Laser II">400</i3057>
 		</i168237945>
 		<i348613732 name="Agasa Kaolla">
-			<i12779_dec1 name="Hail L">500000</i12779_dec1>
+			<i3186 name="Neutron Blaster Cannon II">400</i3186>
 		</i348613732>
-		<i92509965 name="Red Tail Blind">
+		<!--i92509965 name="Red Tail Blind">
 			<i12563 name="Scorch S">1200</i12563>
 		</i92509965-->
-		<hibiki name="Invent Fox">
+		<!--mcgillicutty name="McGillicutty McGillicutty">
+			<i12563 name="Scorch S">1200</i12563>
+		</mcgillicutty-->
+		<!--hibiki name="Invent Fox">
 			<i3041 name="Small Focused Pulse Laser II">400</i3041>
-		</hibiki>
+		</hibiki-->
 	</staff>	
 	<pos>
 	</pos>
