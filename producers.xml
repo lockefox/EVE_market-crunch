@@ -1,43 +1,34 @@
 <root>
 	<staff>
-		<i170029085 name="Raksha Delam">
-			<i11377_dec1 name="Nemesis">50</i11377_dec1>
-			<!--i12034_dec1 name="Hound">50</i12034_dec1-->
-		</i170029085>
-		<!--i628592330 name="Lockefox">
-			<i3138 name="Heavy Ion Blaster II">400</i3138>
-		</i628592330-->
-		<i90471974 name="Anton Renard">
-			<i3186 name="Neutron Blaster Cannon II">400</i3186>
-		</i90471974>
-		<i425131377 name="Anya Kitsune">
-			<i12017_dec3 name="Devoter">10</i12017_dec3>
-			<i11957_dec3 name="Falcon">20</i11957_dec3>
-		</i425131377>
-		<!--ammo name="ammo dude">
-			<i12791_dec1 name="Void L">500000</i12791_dec1>
-			<i12563 name="Scorch S">1200</i12563>	
-			<i12779_dec1 name="Hail L">500000</i12779_dec1>
-		</ammo-->
-		<!--test name="test pilot">
-			<i28606 name="Orca">2</i28606>
-			<i20189 name="Fenrir">1</i20189>
-		</test-->
-		<i168237945 name="Cyno Moore">
-			<i3057 name="Mega Pulse Laser II">400</i3057>
-		</i168237945>
-		<i348613732 name="Agasa Kaolla">
-			<i3186 name="Neutron Blaster Cannon II">400</i3186>
-		</i348613732>
-		<!--i92509965 name="Red Tail Blind">
-			<i12563 name="Scorch S">1200</i12563>
-		</i92509965-->
-		<!--mcgillicutty name="McGillicutty McGillicutty">
-			<i12563 name="Scorch S">1200</i12563>
-		</mcgillicutty-->
-		<!--hibiki name="Invent Fox">
-			<i3041 name="Small Focused Pulse Laser II">400</i3041>
-		</hibiki-->
+		<!--locke name="Lockefox">
+			<i12034_dec1 name="Hound">100</i12034_dec1>
+		</locke>
+		<raksha name="Raksha Delam">
+			<i12038_dec1 name="Purifier">100</i12038_dec1>
+		</raksha>
+		<agasa name="Agasa Kaolla">
+			<i12038_dec1 name="Purifier">100</i12038_dec1>
+		</agasa>
+		<anton name="Anton Renard">
+			<i12034_dec1 name="Hound">100</i12034_dec1>
+		</anton>
+		<anya name="Anya Kitsune">
+			<i22444_dec3 name="Sleipnir">10</i22444_dec3>
+		</anya-->
+		<red_tail name="Red Tail Blind">
+			<i3186 name="Neutron Blaster Cannon II">1200</i3186>
+		</red_tail>
+		<ships name="ships">
+			<i12005_process name="Ishtar">30</i12005_process>
+			<i11176_parity name="Crow">80</i11176_parity>
+			<i11200_parity name="Taranis">80</i11200_parity>
+		</ships>
+		<!--cap_build name="capital">
+
+		</cap_build-->
+		<!--collab name="collab">
+			<i28848 name="Anshar">1</i28848>
+		</collab-->
 	</staff>	
 	<pos>
 	</pos>
